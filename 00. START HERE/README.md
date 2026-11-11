@@ -1,5 +1,7 @@
 # Start here
 
+For a friendly walkthrough, open **`Studio Guide.pdf`** in this folder.
+
 The studio was restructured on 11 Nov 2026. Every old path → new path is listed in `MIGRATION_MANIFEST.csv` in this folder, and the full log of efficiency changes is in `../efficiency maxing.md`.
 
 ## Start an edit

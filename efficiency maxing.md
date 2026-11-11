@@ -83,6 +83,7 @@ Last updated: 2026-11-11
 | 2026-11-11 | Disk free on the data volume: 5.1 GB → 6.7 GB measured (clone savings can take a little while to show in Finder) | — | +1.6 GB measured |
 | 2026-11-11 | **Decisions on open items** (Rishi: "decide, do what feels right"). See §4 for each decision and why. | various | — |
 | 2026-11-11 | R007–R009 protected: `KEEP_SOURCE.md` in each project; `finalize_reel.py` now refuses any project that has one | `03. Projects/Consulting Case` | Their only footage can't be cleaned up by accident |
+| 2026-11-11 | Plain-language **Studio Guide.pdf** (7 pages: structure, before → now map, how-tos, what's safe to delete) | `00. START HERE/Studio Guide.pdf` | Easy orientation |
 | 2026-11-11 | Duplicate subagent logs (S11) → verified APFS clones; git repo got its first local commit on `main` | `~/.claude/projects`, root | Disk free now **7.5 GB** (was 5.1) |
 
 ---
