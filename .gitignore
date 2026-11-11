@@ -55,3 +55,8 @@
 *.pptx
 *.key
 *.svg
+
+# Obsidian local state (keep app/graph/plugin config)
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/

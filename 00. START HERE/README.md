@@ -38,7 +38,11 @@ The studio was restructured on 11 Nov 2026. Every old path → new path is liste
 ## Teaching Claude a correction
 Just tell Claude during the edit. It logs the note in the style's `FEEDBACK_LOG.md`. When the reel is approved, it folds the lasting rule into `SKILL.md` and removes any rule the note reverses.
 
+## Obsidian
+Open `Teaching Claude` as a vault in Obsidian. Start at `Home.md` (this folder); each style has a `Hub - <style>.md` linking its skill, reference docs, feedback log and projects. Link new notes with `[[wikilinks]]`. `06. Tools/build_vault_index.py` refreshes the project lists (`backup.sh` runs it).
+
 ## Backing up
 - **Knowledge (GitHub).** This folder is a git repo, and `.gitignore` keeps out every video, audio, project file and toolchain, so a commit is about 26 MB of skills, docs and scripts.
-  - First time: create a private repo on GitHub, then run `git add -A && git commit -m "studio snapshot" && git branch -M main && git remote add origin <url> && git push -u origin main`.
+  - First time: `gh auth login`, then `gh repo create rishi-reels-studio --private --source=. --remote=origin --push` (or add a remote by hand).
+  - After that: `06. Tools/backup.sh` (dry run), then `06. Tools/backup.sh --yes`.
 - **Media (Google Drive).** Upload `04. Exports/` and, if you want, `09. Archive/`.

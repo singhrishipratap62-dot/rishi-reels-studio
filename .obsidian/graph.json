@@ -1,0 +1,17 @@
+{
+  "search": "-path:\"09. Archive\" -path:\"06. Tools\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "colorGroups": [
+    { "query": "path:\"01. Styles/Rishi Style v2\"", "color": { "a": 1, "rgb": 5025616 } },
+    { "query": "path:\"01. Styles/Consulting Case\"", "color": { "a": 1, "rgb": 2201331 } },
+    { "query": "path:\"01. Styles/Minimal Edit\"", "color": { "a": 1, "rgb": 16750848 } },
+    { "query": "path:\"01. Styles/Mock Case Interview\"", "color": { "a": 1, "rgb": 10233776 } },
+    { "query": "path:\"01. Styles/Before-After\"", "color": { "a": 1, "rgb": 15277667 } },
+    { "query": "path:\"01. Styles/IG Motion Explainer\"", "color": { "a": 1, "rgb": 48340 } },
+    { "query": "path:\"02. Shared Core\"", "color": { "a": 1, "rgb": 16007990 } },
+    { "query": "path:\"03. Projects\"", "color": { "a": 1, "rgb": 9807270 } }
+  ]
+}

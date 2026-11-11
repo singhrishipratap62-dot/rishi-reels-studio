@@ -1,0 +1,14 @@
+{
+  "file-explorer": true,
+  "global-search": true,
+  "switcher": true,
+  "graph": true,
+  "backlink": true,
+  "outgoing-link": true,
+  "templates": true,
+  "page-preview": true,
+  "properties": true,
+  "bases": true,
+  "outline": true,
+  "tag-pane": true
+}

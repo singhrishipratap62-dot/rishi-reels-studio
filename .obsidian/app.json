@@ -1,0 +1,17 @@
+{
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "showFrontmatter": true,
+  "userIgnoreFilters": [
+    "06. Tools/",
+    "09. Archive/",
+    "node_modules/",
+    ".claude/",
+    ".git/",
+    ".work/",
+    ".tesseract-work/"
+  ]
+}

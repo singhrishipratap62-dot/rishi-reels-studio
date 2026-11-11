@@ -28,6 +28,7 @@ When Rishi names a style or a folder without the command, load that style's `SKI
 - Never delete or overwrite anything in `04. Exports/`, a project's source cut (`cut.mp4`, `roughcut*.mp4`, `raw_*`), or plans and build scripts. `R007`–`R009` `cut.mp4` are the only copies of that footage.
 - When a reel is approved, run `"06. Tools/finalize_reel.sh" "<project folder>"` (dry run first, then `--yes`) and log the space saved in `efficiency maxing.md`.
 - Log every workflow or efficiency change in `efficiency maxing.md`.
+- Obsidian vault is this folder; entry note `00. START HERE/Home.md`. Use `[[wikilinks]]` in new notes, never rewrite existing plain paths. After finalize, back up with `06. Tools/backup.sh` (dry run, then `--yes`); GitHub holds knowledge only, not media.
 
 ## Token habits
 - One reel per session. Run `/clear` between reels. The project's `plan.md` is the hand-off.

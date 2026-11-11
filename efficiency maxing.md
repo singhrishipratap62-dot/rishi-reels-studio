@@ -85,6 +85,8 @@ Last updated: 2026-11-11
 | 2026-11-11 | R007–R009 protected: `KEEP_SOURCE.md` in each project; `finalize_reel.py` now refuses any project that has one | `03. Projects/Consulting Case` | Their only footage can't be cleaned up by accident |
 | 2026-11-11 | Plain-language **Studio Guide.pdf** (7 pages: structure, before → now map, how-tos, what's safe to delete) | `00. START HERE/Studio Guide.pdf` | Easy orientation |
 | 2026-11-11 | Duplicate subagent logs (S11) → verified APFS clones; git repo got its first local commit on `main` | `~/.claude/projects`, root | Disk free now **7.5 GB** (was 5.1) |
+| 2026-11-11 | **Batch intake + one shared options board** for six same-topic Rishi v2 reels (vid6–12). Intake (romanise, face track, matte) done once for all; one board with per-section "fits" lines replaces six boards. Storyboard and build stay one reel per session, using `Batch vid6-12/plan.md` as the hand-off. | `03. Projects/Rishi Style v2/Batch vid6-12/` | About 5 fewer options-board passes |
+| 2026-11-11 | **Obsidian + GitHub structure.** Vault at the studio root with `.obsidian/` config (wikilinks, noise hidden: `06. Tools`, `09. Archive`, node_modules, work dirs; ~160 notes). New notes only: `Home.md`, a `Hub - <style>.md` per style, `Hub - Shared Core.md`, generated `Projects Index.md`, three templates. No SKILL.md, plan or reference doc edited. `06. Tools/build_vault_index.py` refreshes project lists; `06. Tools/backup.sh` commits and pushes (dry run default). Root `README.md`, `.gitattributes`, Obsidian state added to `.gitignore`. | root, `00. START HERE`, `01. Styles/*`, `06. Tools` | Easier linking and navigation; backup routine |
 
 ---
 
