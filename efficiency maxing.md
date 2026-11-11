@@ -57,9 +57,9 @@ Last updated: 2026-11-11
 | S8 | Model split: Sonnet by default in this studio only; skills ask before creative steps; `MODEL_MODE: opus-only` override | The largest token saver | **done** |
 | S9 | Config cleanup: old launcher, `.claude-home` and generic `reel-*` skills archived; stale Premiere MCP flag removed; root CLAUDE.md is now a router | Fewer surprises | **done** |
 | S10 | Session habits (cheat sheet, §5) | Tokens, time | **done** (written into CLAUDE.md) |
-| S11 | Delete 291 MB of byte-identical duplicate subagent logs in `~/.claude/projects/…Rishi-s-Editing-Style/5cae8427…/subagents` | 291 MB | **needs Rishi** (outside this folder) |
+| S11 | 291 MB of byte-identical duplicate subagent logs in `~/.claude/projects/…Rishi-s-Editing-Style/5cae8427…/subagents` | 291 MB | **done**: replaced with verified clones; history intact |
 | S12 | Numbered, style-split structure (`00. START HERE … 09. Archive`; each style has sibling folders in Styles, Projects and Exports) | Findability | **done** |
-| S13 | GitHub backup of the knowledge: repo initialised, `.gitignore` keeps all media and toolchains out (about 26 MB of skills, docs and scripts) | Safety | **done**; first commit and push: **needs Rishi** (commands in `00. START HERE/README.md`) |
+| S13 | GitHub backup of the knowledge: repo initialised, `.gitignore` keeps all media and toolchains out (about 26 MB of skills, docs and scripts) | Safety | **done**: first local commit `2dcdaab` (2,339 files, 14 MB). Pushing needs a private GitHub repo from Rishi |
 
 ---
 
@@ -81,22 +81,28 @@ Last updated: 2026-11-11
 | 2026-11-11 | **finalize_reel** run on approved reels with confirmed exports: R011, R012, IG R003–R005 | `03. Projects` | 1.07 GB |
 | 2026-11-11 | Unique files rescued from the old Minimal copy (4 reference reels, 3 tutorial reels, links, IG safe-zone image, 2 .tsrct versions) | Minimal pack, Asset Library, Resources | Duplicates folder is now truly deletable |
 | 2026-11-11 | Disk free on the data volume: 5.1 GB → 6.7 GB measured (clone savings can take a little while to show in Finder) | — | +1.6 GB measured |
+| 2026-11-11 | **Decisions on open items** (Rishi: "decide, do what feels right"). See §4 for each decision and why. | various | — |
+| 2026-11-11 | R007–R009 protected: `KEEP_SOURCE.md` in each project; `finalize_reel.py` now refuses any project that has one | `03. Projects/Consulting Case` | Their only footage can't be cleaned up by accident |
+| 2026-11-11 | Duplicate subagent logs (S11) → verified APFS clones; git repo got its first local commit on `main` | `~/.claude/projects`, root | Disk free now **7.5 GB** (was 5.1) |
 
 ---
 
-## 4. Open items that need your decision
-1. **R007, R008, R009 final reels aren't in Exports.** Only the PLACEMENT notes exist, and `cut.mp4` in each project is the only copy of that footage. Where are the finals? Once found, `finalize_reel.sh` can free about 1.1 GB from those three.
-2. **Mock case:** the agent added a safety step, "duplicate the sequence as `<seq> RAW` before the silence cut", because the old docs said the original stays untouched but the cut ran on it directly. Keep it or drop it?
-3. **Minimal Edit wording:** SKILL says graphics go behind the subject "when Rishi asks", while the design system and the series-intro lesson say "by default". Which is right?
-4. **Minimal Edit music level** says 18–24 dB under the voice. Consulting found 21 dB inaudible on your phone and moved to 13 dB. Align Minimal if it ever uses music?
-5. **Rishi v2 `build_template.py`** still encodes v2.0 values. SKILL tells the builder to apply the v2.1 upgrades by hand. Updating the template is part of S7.
-6. **Older claude.ai copies** of `consulting-case-reel-edit`, `minimal-editorial-edit` and `rishi-prompt-to-reel` exist in your Claude account (`/anthropic-skills:…`). They're now out of date; use the plain commands (`/consulting-case-reel-edit` …) or delete those uploads.
-7. **More space when you're ready:**
-   - Upload `09. Archive/` (3.7 GB) to Drive, then delete it locally.
-   - Mock MG intermediates (about 750 MB) once the Premiere project no longer needs them.
-   - Old Rishi v2 Video 1 drafts v1–v3 once that video is done.
-   - S11 (291 MB).
-8. **S7 engines:** say "do S7" when you have a spare reel to test on.
+## 4. Decisions taken (2026-11-11) and what's still open
+
+**Decided:**
+1. **R007–R009 missing finals:** kept everything, because `cut.mp4` + `run_build.sh` can rebuild each reel. Each project is marked with `KEEP_SOURCE.md`, which `finalize_reel` respects. *If you find the finals, drop them in `04. Exports/Consulting Case/` and delete the marker.*
+2. **Mock case "<seq> RAW" backup step: kept.** It only adds a safety copy before the destructive silence cut, matches rule M2 ("every stage on a duplicate") and doesn't change the output.
+3. **Minimal Edit, graphics behind the subject: by default** on close and standing framings, never over the face. This matches the design system and your latest shipped edit (series intro). You can still ask otherwise per video.
+4. **Minimal Edit music level:** kept 18–24 dB as the starting point, plus a rule that if it's inaudible on your phone, raise it (Consulting settled at 13 dB). This guards against the problem without changing a look you've approved.
+5. **Old `/anthropic-skills:` uploads:** I can't delete these from your Claude account from here. Root CLAUDE.md now tells Claude to ignore them and use the local commands.
+6. **S7 (engine rewrite): deferred on purpose.** It changes the code every reel depends on. The quality rule says not to ship it without a full test render per style, which today would cost about 3 GB of free disk and long renders. The next reel in each style is the natural test.
+7. **Archive upload to Drive: not done.** 3.7 GB of video can't go through the Drive connector sensibly. The archive stays local and nothing is lost.
+8. **Mock MG intermediates and Rishi v2 Video 1 drafts:** kept, because a Premiere project or the in-progress Rishi v2 work may still use them.
+
+**Still needs you (only you can do these):**
+- Push the backup: create a private GitHub repo, then run `git remote add origin <url> && git push -u origin main` in `Teaching Claude`.
+- Optional: upload `09. Archive/` to Drive, then delete it locally (frees up to 3.7 GB).
+- Optional: delete the old style uploads from your Claude account settings.
 
 ---
 
