@@ -1,0 +1,2032 @@
+1
+00:00:25,026 --> 00:00:26,386
+Are you able to join?
+
+2
+00:00:29,378 --> 00:00:31,207
+Yeah, okay, I'll just drop.
+
+3
+00:00:37,122 --> 00:00:37,383
+Good.
+
+4
+00:00:37,383 --> 00:00:39,910
+uh
+
+5
+00:00:41,422 --> 00:00:43,148
+uh Can you hear me?
+
+6
+00:00:43,148 --> 00:00:43,980
+See me?
+
+7
+00:00:45,086 --> 00:00:46,226
+Oh, yeah.
+
+8
+00:00:46,226 --> 00:00:47,526
+I'm out of wood.
+
+9
+00:00:48,166 --> 00:00:48,966
+Yes.
+
+10
+00:00:56,536 --> 00:00:57,581
+No, no, it's me.
+
+11
+00:00:57,581 --> 00:00:59,298
+Wait just a second.
+
+12
+00:01:00,005 --> 00:01:01,429
+It's my issue.
+
+13
+00:01:03,822 --> 00:01:07,122
+Yeah, can you say something now?
+
+14
+00:01:09,842 --> 00:01:12,322
+I can hear you.
+
+15
+00:01:43,274 --> 00:01:46,547
+not working that's okay and you can hear me right
+
+16
+00:01:50,592 --> 00:01:53,373
+And is it echoing by any chance?
+
+17
+00:01:54,106 --> 00:01:57,485
+No, I'm wearing an earphone so it's okay.
+
+18
+00:01:57,485 --> 00:02:03,375
+Sorry for this technical setup.
+
+19
+00:02:03,375 --> 00:02:06,278
+uh
+
+20
+00:02:06,718 --> 00:02:16,345
+ah Yeah so, uh much, think full fledged case prep is going on as Nothing else, we are in
+term 5 right now as you might already know.
+
+21
+00:02:16,345 --> 00:02:21,848
+uh But taking that light actually, ah focusing on case prep.
+
+22
+00:02:22,309 --> 00:02:29,694
+Yeah, I have a BCG and a Karni shortlist and Accenture, hoping to convert one of them.
+
+23
+00:02:31,373 --> 00:02:32,846
+How is the prep been like?
+
+24
+00:02:32,846 --> 00:02:35,902
+What all have you practiced?
+
+25
+00:02:36,225 --> 00:02:38,549
+What are you facing issues with?
+
+26
+00:02:42,057 --> 00:02:47,137
+So I've been practicing for about 3 weeks now.
+
+27
+00:02:47,137 --> 00:02:54,097
+I started with profitability, a little bit of market entry, currently doing mostly buddy
+cases.
+
+28
+00:02:55,077 --> 00:02:59,277
+I the rest the types yet, growth pricing and &A.
+
+29
+00:02:59,277 --> 00:03:02,697
+Unconventional is the buddy cases, so it's happening.
+
+30
+00:03:02,977 --> 00:03:06,057
+But I think I know the structure overall.
+
+31
+00:03:07,055 --> 00:03:10,587
+So I I practice like four or five cases of each and I should be good.
+
+32
+00:03:10,587 --> 00:03:15,811
+uh In terms of problems, ah a couple of things.
+
+33
+00:03:15,811 --> 00:03:23,277
+First is I tend to think in a very hypothesis driven way.
+
+34
+00:03:23,277 --> 00:03:30,182
+So I take the discussion in a specific direction according to my hypothesis by not being
+completely exhaustive.
+
+35
+00:03:30,182 --> 00:03:33,384
+So I'm mutually exclusive, but not exhaustive.
+
+36
+00:03:33,384 --> 00:03:35,445
+ah
+
+37
+00:03:35,535 --> 00:03:46,553
+Then secondly, because I tend to think along a particular hypothesis, uh I also tend to go
+to L2, L3 while I should only stay at L1.
+
+38
+00:03:46,553 --> 00:03:49,939
+ah So these two.
+
+39
+00:03:49,939 --> 00:03:50,380
+thing.
+
+40
+00:03:50,380 --> 00:03:58,202
+uh We'll see this after the case, but honestly, I feel that is how it should be.
+
+41
+00:03:58,602 --> 00:04:00,662
+A lot of people are not able to do that.
+
+42
+00:04:00,662 --> 00:04:13,546
+uh And like because of that, what I'll also always recommend is take the feedback that you
+get from your peers with a pinch of salt ah because...
+
+43
+00:04:14,488 --> 00:04:27,429
+they are typically following the casebook uh transcript and that like the feedback is
+typically based on hey the transcript didn't say so which might not be the right way to
+
+44
+00:04:27,429 --> 00:04:28,370
+look at it.
+
+45
+00:04:28,370 --> 00:04:32,654
+But okay so you were saying I interrupted you, sorry about that.
+
+46
+00:04:33,438 --> 00:04:34,598
+that's okay.
+
+47
+00:04:34,818 --> 00:04:35,958
+So I think it's that.
+
+48
+00:04:35,958 --> 00:04:42,478
+Then on the comm side, I tend to over explain instead of speaking in bullets.
+
+49
+00:04:43,118 --> 00:04:47,678
+So I think while I have that on the paper, I tend to over explain.
+
+50
+00:04:47,778 --> 00:04:50,218
+So that is something that I'm working on.
+
+51
+00:04:50,218 --> 00:05:00,878
+And then coming up with ideas in terms of, let's say recommendations or hypothesis when it
+doesn't, when it becomes very unconventional.
+
+52
+00:05:00,925 --> 00:05:15,493
+ah I have a lot of ideas but then I need to bucket them into sort ah of fewer buckets and
+that is something that I also need to sort of practice more.
+
+53
+00:05:17,081 --> 00:05:20,736
+Let's look at do the case and then we'll know figure that out as well.
+
+54
+00:05:20,736 --> 00:05:23,952
+are in Moholy campus is it?
+
+55
+00:05:23,952 --> 00:05:27,575
+And were you there in the workshop that we did by any chance?
+
+56
+00:05:27,575 --> 00:05:30,409
+No, I was actually at home that weekend.
+
+57
+00:05:30,409 --> 00:05:31,610
+Yeah, I live in Sonipat.
+
+58
+00:05:31,610 --> 00:05:36,315
+So one of the three weekends I go home, you have this workshop.
+
+59
+00:05:39,721 --> 00:05:40,272
+Yeah.
+
+60
+00:05:40,272 --> 00:05:43,725
+us start with the case and then we will have the feedback.
+
+61
+00:05:43,725 --> 00:05:45,306
+We know whenever you ready.
+
+62
+00:05:45,690 --> 00:05:46,732
+I am ready.
+
+63
+00:05:47,107 --> 00:05:48,047
+Amazing.
+
+64
+00:05:48,367 --> 00:05:53,209
+So Aditya, your client is a beer manufacturer.
+
+65
+00:05:53,569 --> 00:05:56,830
+They make their own craft beers.
+
+66
+00:05:57,550 --> 00:06:03,251
+They've been growing pretty well uh from 100k barrels.
+
+67
+00:06:03,592 --> 00:06:09,623
+They moved to about 500k in the last three years.
+
+68
+00:06:09,623 --> 00:06:12,554
+Right now.
+
+69
+00:06:13,590 --> 00:06:18,054
+And the way the distribution for them works is they have two distribution.
+
+70
+00:06:18,054 --> 00:06:24,099
+First is they sell directly to restaurants, bars and cakes.
+
+71
+00:06:24,099 --> 00:06:27,201
+Second is to wine shops, liquor stores.
+
+72
+00:06:27,201 --> 00:06:29,062
+um
+
+73
+00:06:29,230 --> 00:06:31,471
+in cases of cans, right?
+
+74
+00:06:31,471 --> 00:06:34,713
+So these are the two distribution channels that they have.
+
+75
+00:06:34,993 --> 00:06:49,121
+Right now what they are looking for is they have 20 million dollars that they need to
+invest in and the idea is to use that money to improve their cost and process efficiency.
+
+76
+00:06:50,156 --> 00:07:02,273
+The two options that they have are one, oh instead of leasing the kegs that they sell to
+the restaurants and bars, they can purchase them upfront.
+
+77
+00:07:02,273 --> 00:07:11,478
+And the second option is they can upgrade their canning system through which they can, you
+know, package their cans and everything.
+
+78
+00:07:11,619 --> 00:07:16,926
+So the question for you is which one out of the two they should go with?
+
+79
+00:07:20,593 --> 00:07:22,981
+Sorry, can you just give me a second please?
+
+80
+00:07:31,591 --> 00:07:32,899
+Sorry, my allergy was fading out.
+
+81
+00:07:32,899 --> 00:07:34,032
+Yeah.
+
+82
+00:07:37,213 --> 00:07:39,456
+ah Thank you for the problem statement, Kashish.
+
+83
+00:07:39,456 --> 00:07:41,539
+oh This is very interesting.
+
+84
+00:07:41,539 --> 00:07:46,745
+ah I just want to ask a few clarifying questions before we begin.
+
+85
+00:07:47,346 --> 00:07:49,669
+And then I want to lay down the structure of the case.
+
+86
+00:07:49,669 --> 00:07:55,516
+oh I'll take a minute here to sort of think of potential things I would want to start
+with.
+
+87
+00:08:05,307 --> 00:08:12,841
+Okay, so upfront I would want to know, uh you mentioned we want to improve their uh cost
+and process efficiency.
+
+88
+00:08:12,841 --> 00:08:19,305
+Do we have any specific targets in mind uh and a specific time frame within which we want
+to achieve that target?
+
+89
+00:08:19,554 --> 00:08:32,378
+No, so we have that investment, we can make it right away in terms of uh targets,
+whichever leads to better uh cost savings is the option we look at.
+
+90
+00:08:34,024 --> 00:08:35,816
+Sure.
+
+91
+00:08:36,497 --> 00:08:39,680
+Now I would want to understand a bit more about our client.
+
+92
+00:08:40,082 --> 00:08:42,304
+They are a beer manufacturer.
+
+93
+00:08:44,605 --> 00:08:50,331
+ah And do we have any information on oh the scale at which they operate?
+
+94
+00:08:50,331 --> 00:08:53,115
+What are their current revenues and margins?
+
+95
+00:08:53,115 --> 00:08:55,907
+And in what geographies do they operate right now?
+
+96
+00:08:56,160 --> 00:09:03,721
+Let's assume they operate in US in terms of scale as I mentioned they currently produce
+about 500k balance.
+
+97
+00:09:05,105 --> 00:09:08,560
+Sure and they distributed all across the US.
+
+98
+00:09:11,023 --> 00:09:11,354
+Okay.
+
+99
+00:09:11,354 --> 00:09:15,061
+ah
+
+100
+00:09:16,693 --> 00:09:24,358
+and majorly uh we manufactured it ourselves and then distributed using the two channels.
+
+101
+00:09:24,358 --> 00:09:26,419
+So the value chain is pretty clear.
+
+102
+00:09:26,939 --> 00:09:36,645
+Do we have any information on what uh contribution each of these distribution channels uh
+makes to our revenues and profits?
+
+103
+00:09:37,102 --> 00:09:52,802
+got it in term not in revenue and profit but in terms of the production of 500k barrels
+out of that 60 % goes to canning cans and cases of cans and 40 % goes to cakes
+
+104
+00:09:54,333 --> 00:10:05,433
+Okay, so 200k barrels for kegs and 300,000 for cans.
+
+105
+00:10:07,975 --> 00:10:13,588
+Do we also know what sort of margins do we have across these distribution channels?
+
+106
+00:10:13,795 --> 00:10:15,796
+No, not an event at this point.
+
+107
+00:10:16,295 --> 00:10:17,057
+shot.
+
+108
+00:10:18,822 --> 00:10:33,767
+All right, oh given the information that I have, I would want to structure the discussion
+this way.
+
+109
+00:10:34,808 --> 00:10:47,073
+I'll look at the initial investment, which is 20 million, and see how much of it is going
+to be invested across these two options of leasing, of purchasing kicks or upgrading the
+
+110
+00:10:47,073 --> 00:10:48,133
+canning system.
+
+111
+00:10:48,189 --> 00:10:51,409
+So that will be the upfront cost that we link to.
+
+112
+00:10:51,989 --> 00:11:02,649
+Then I would want to look at what the current costs are and what expected cost savings are
+there, which would lead to any operating gains.
+
+113
+00:11:03,369 --> 00:11:05,589
+I would also want to look at the timeframe.
+
+114
+00:11:05,589 --> 00:11:17,649
+If it's perpetual, then we can sort of do an NPV calculation and then compare it to our
+initial investment and then pick whichever option gives us
+
+115
+00:11:17,649 --> 00:11:20,031
+So better NPV.
+
+116
+00:11:20,613 --> 00:11:22,381
+Does that sound like an OK approach?
+
+117
+00:11:22,381 --> 00:11:24,645
+Yeah, let's ignore the FPV part.
+
+118
+00:11:24,645 --> 00:11:26,858
+Let's just look at the cost savings for now.
+
+119
+00:11:29,053 --> 00:11:29,795
+Sure.
+
+120
+00:11:29,795 --> 00:11:35,628
+So then we are assuming that we are investing the full 20 million in both of these
+options.
+
+121
+00:11:36,612 --> 00:11:37,463
+Perfect.
+
+122
+00:11:44,877 --> 00:11:57,626
+I'll just take a minute to draw down uh all the potential cost heads that might be
+affected with this investment and then we can discuss how they will change uh to reach the
+
+123
+00:11:57,626 --> 00:11:58,817
+cost saving number.
+
+124
+00:12:53,903 --> 00:13:08,998
+Okay, so starting with the kegs first, I would want to look at our current lease cost as a
+function of the number of kegs that we are leasing currently and multiply that with the
+
+125
+00:13:09,258 --> 00:13:19,301
+average cost to lease per duration and multiply that with the average duration uh in which
+we sort of for which we lease the keg.
+
+126
+00:13:19,785 --> 00:13:28,989
+What I mean by that is there would of course be some turnover in terms of the kegs I'm
+assuming Since we give them to restaurants and bars, they would return the kegs to us
+
+127
+00:13:28,989 --> 00:13:39,873
+eventually and then we give them give it back to them So there would be some turnover that
+I would want to account for Do we have any information on oh how many kegs do we have and
+
+128
+00:13:39,873 --> 00:13:41,083
+what it costs?
+
+129
+00:13:41,817 --> 00:13:43,125
+So the cost of.
+
+130
+00:13:43,125 --> 00:13:47,725
+of course, number of we already know it's 200,000.
+
+131
+00:13:47,937 --> 00:13:50,567
+the number of games or the number of
+
+132
+00:13:51,193 --> 00:13:54,908
+Oh, sorry, we know the number of batteries is 200,000.
+
+133
+00:13:54,908 --> 00:13:57,380
+Do we know how many kegs does that translate into?
+
+134
+00:13:57,616 --> 00:13:59,577
+So two kegs per barrel.
+
+135
+00:13:59,998 --> 00:14:08,865
+Assume that the cost per barrel, sorry, per keg in terms of rent is about $10 a year.
+
+136
+00:14:09,867 --> 00:14:13,670
+And let's ignore the turnaround time.
+
+137
+00:14:13,670 --> 00:14:15,591
+I think we can ignore that.
+
+138
+00:14:16,701 --> 00:14:17,042
+Sure.
+
+139
+00:14:17,042 --> 00:14:23,935
+uh That will lead to an average your annual lease cost of $4 million.
+
+140
+00:14:24,867 --> 00:14:25,643
+Good.
+
+141
+00:14:26,206 --> 00:14:38,289
+oh So then if we purchase these kegs outright, oh we're assuming that we're investing the
+full 20 million, right?
+
+142
+00:14:38,289 --> 00:14:50,773
+oh And if I divide that by the 400,000 kegs that we have, oh that will give us an average
+cost of, oh
+
+143
+00:14:52,465 --> 00:14:54,382
+$50 per kit.
+
+144
+00:14:56,859 --> 00:14:57,873
+Yeah, $50 per gag.
+
+145
+00:14:57,873 --> 00:15:00,021
+ah
+
+146
+00:15:00,109 --> 00:15:02,405
+correct so we have a cost of $50
+
+147
+00:15:03,431 --> 00:15:03,781
+Sure.
+
+148
+00:15:03,781 --> 00:15:08,244
+oh There are two considerations here that I would want to look at.
+
+149
+00:15:08,244 --> 00:15:11,867
+oh Do we know the average useful life of a keg?
+
+150
+00:15:11,867 --> 00:15:14,148
+oh That is the first thing.
+
+151
+00:15:14,148 --> 00:15:22,373
+And then second, since you're leasing the kegs annually, I'm assuming that there would be
+a proper contract to this.
+
+152
+00:15:22,454 --> 00:15:27,877
+Are there any exit costs, exit terms in the contract that we should be mindful of?
+
+153
+00:15:28,013 --> 00:15:28,893
+No, that's interesting.
+
+154
+00:15:28,893 --> 00:15:31,104
+So the useful life is about 10 years.
+
+155
+00:15:31,104 --> 00:15:43,159
+So let's consider that in terms of contract, ignore any terms which lead to exit
+opportunities or sorry, exit costs related to the contract.
+
+156
+00:15:43,159 --> 00:15:44,889
+So we can ignore those.
+
+157
+00:15:44,889 --> 00:15:49,971
+Anything else that you think we should be considering while calculating the buying option?
+
+158
+00:15:52,459 --> 00:15:53,261
+Um,
+
+159
+00:15:55,069 --> 00:16:08,083
+Of course we should look at the apportionly cost involved in using the 20 million
+elsewhere but I think that would be covered in the second option oh that we have and then
+
+160
+00:16:08,083 --> 00:16:10,025
+we'll have to compare both the options.
+
+161
+00:16:10,025 --> 00:16:17,303
+oh Apart from the apportionly cost, let me take a minute to think of any other
+considerations that might be there.
+
+162
+00:16:18,137 --> 00:16:19,628
+Yeah, let's do that.
+
+163
+00:16:19,965 --> 00:16:20,821
+Hmm
+
+164
+00:17:30,869 --> 00:17:43,412
+Okay, a few other considerations here are, I'm assuming that the quality of kegs is same
+across uh what we're leasing and what we're buying.
+
+165
+00:17:43,412 --> 00:17:54,075
+Another consideration would be uh any storage or obstetrated costs that, or maintenance
+costs that we might have to maintain our own kegs versus kegs that we lease.
+
+166
+00:17:54,075 --> 00:18:00,097
+uh Majorly that would include any damage or loss that happens to those kegs.
+
+167
+00:18:00,549 --> 00:18:03,471
+I'm not sure how our contract is structured at the moment.
+
+168
+00:18:04,012 --> 00:18:17,365
+Any damages or losses that occur during the process, do we get a replacement keg or do we
+bear the cost of that keg is another constraint.
+
+169
+00:18:17,365 --> 00:18:21,588
+then thirdly, I would also want to consider
+
+170
+00:18:22,096 --> 00:18:27,429
+in terms of operating profits, the depreciation versus lease payments that we have.
+
+171
+00:18:27,429 --> 00:18:34,192
+So even if you buy it, there would be some depreciation costs associated with the keg,
+which will be about $5.
+
+172
+00:18:34,192 --> 00:18:38,063
+Assuming there are, there's no use for it.
+
+173
+00:18:38,063 --> 00:18:41,176
+And then there's no exit value.
+
+174
+00:18:41,176 --> 00:18:45,578
+And then the fourth factor is the exit value at the end of 10 years.
+
+175
+00:18:45,578 --> 00:18:49,300
+So can we sell the kegs since it's made of wood?
+
+176
+00:18:49,300 --> 00:18:51,121
+Can we sell it at some
+
+177
+00:18:51,531 --> 00:18:54,650
+exact value that might help us recover some cost.
+
+178
+00:18:54,999 --> 00:18:59,601
+No, just consider the replacement cost here which you mentioned about.
+
+179
+00:18:59,601 --> 00:19:12,207
+Consider that annually we'll have to replace 5 % of the cakes that we purchased and then
+look at the overall cost and what will be the cost savings.
+
+180
+00:19:15,143 --> 00:19:15,926
+Shut up.
+
+181
+00:19:27,879 --> 00:19:37,458
+So the replacement cost comes out to $1 million annually, which is 5 % of the 20 million
+that we're initially spending.
+
+182
+00:19:37,458 --> 00:19:42,282
+ah The lease costs were $4 million.
+
+183
+00:19:42,903 --> 00:19:46,406
+Would you want me to consider depreciation here, or would you want me to ignore that?
+
+184
+00:19:46,527 --> 00:19:47,868
+Only cash flows?
+
+185
+00:19:48,068 --> 00:19:49,009
+Sure.
+
+186
+00:19:49,270 --> 00:19:53,052
+So then that leads to a cost saving of $3 million annually.
+
+187
+00:19:55,505 --> 00:20:00,085
+Let's look at a 10 year time horizon.
+
+188
+00:20:00,957 --> 00:20:13,362
+Of course, oh at a 10 year time horizon, oh we are spending 20 million upfront and we're 3
+million oh annually.
+
+189
+00:20:13,362 --> 00:20:21,506
+oh That would give us a benefit of $10 million over a 10 year horizon.
+
+190
+00:20:21,506 --> 00:20:28,246
+oh I'm assuming that the lease is fixed for the 10 year time period and there's no
+inflation associated with it.
+
+191
+00:20:28,246 --> 00:20:29,128
+that's good.
+
+192
+00:20:29,853 --> 00:20:33,402
+Sure, so we're seeing a total cost saving of 10 million dollars.
+
+193
+00:20:34,228 --> 00:20:36,119
+Let's look at the other option.
+
+194
+00:20:37,277 --> 00:20:37,757
+Perfect.
+
+195
+00:20:37,757 --> 00:20:41,999
+ah The second option was upgrading the canning system.
+
+196
+00:20:45,120 --> 00:20:56,145
+I would follow the same approach, ah which is number of cans that we have multiplied by
+the cost per can that we currently incur.
+
+197
+00:20:56,145 --> 00:21:05,228
+ah Do we have any information on what does 300,000 barrels translate into a can?
+
+198
+00:21:05,509 --> 00:21:07,013
+So what does a barrel?
+
+199
+00:21:07,115 --> 00:21:08,377
+big dimes in the barrel.
+
+200
+00:21:08,377 --> 00:21:10,500
+14 cases of dimes.
+
+201
+00:21:10,761 --> 00:21:12,655
+Okay, 14 cases of cans.
+
+202
+00:21:23,325 --> 00:21:26,375
+One second.
+
+203
+00:21:32,381 --> 00:21:42,011
+So we have uh 4.2 million cases and do we have the cost associated with canning per case?
+
+204
+00:21:42,011 --> 00:21:48,727
+me explain the difference between two systems first and then we'll look at the costs
+associated with it.
+
+205
+00:21:48,727 --> 00:21:54,412
+So the current canning system needs four operators, right?
+
+206
+00:21:54,412 --> 00:22:07,704
+uh The rate at which it produces is 600 cases an hour and has about 10 % wastage uh in the
+entire production.
+
+207
+00:22:09,306 --> 00:22:14,638
+This costed, this machine costed us about $10 million when we purchased it.
+
+208
+00:22:15,179 --> 00:22:20,541
+On the other hand, the new system will also require four operators.
+
+209
+00:22:20,601 --> 00:22:25,804
+The rate at which it'll produce will be 1200 cases an hour.
+
+210
+00:22:28,176 --> 00:22:34,186
+The wastage in this one would be about 7 % and this will cost us about 20 million dollars.
+
+211
+00:22:39,581 --> 00:22:40,921
+Okay.
+
+212
+00:22:42,041 --> 00:22:43,181
+Got it.
+
+213
+00:22:43,181 --> 00:22:57,081
+I would like to get one thing out of the way before we get into the operating profits,
+which is what are we going to do with this older system, older machine that we have?
+
+214
+00:22:57,081 --> 00:22:57,841
+Are we going to sell it?
+
+215
+00:22:57,841 --> 00:23:00,821
+Are we going to keep using it or are we going to scrap it?
+
+216
+00:23:00,836 --> 00:23:08,727
+No, so we can sell it or we can scrap it and assume the salvage value of it about 1.3
+million dollars.
+
+217
+00:23:09,950 --> 00:23:12,022
+Yeah, that's a great question by the way.
+
+218
+00:23:16,541 --> 00:23:17,622
+Perfect.
+
+219
+00:23:19,126 --> 00:23:29,205
+So then that would reduce our overall investment to 18.7 million right ah
+
+220
+00:23:33,391 --> 00:23:42,424
+Okay, I'll just take a minute to think of what other things I need to calculate the
+difference in cost.
+
+221
+00:23:42,489 --> 00:23:43,254
+Yep.
+
+222
+00:24:09,313 --> 00:24:24,514
+Okay, so the way I would want to structure it is that clearly the new machine has doubled
+the efficiency and has lower waste by about 3%.
+
+223
+00:24:24,514 --> 00:24:35,254
+A clarifying question here that I have is you mentioned the machine can produce 600 cases
+per hour, the older machine for example, and has 10 % wastage.
+
+224
+00:24:35,385 --> 00:24:42,798
+So is the 600 cases per hour after accounting for wastage or does that waste reduce from
+the 600 cases?
+
+225
+00:24:42,798 --> 00:24:44,392
+reduced from the 6.
+
+226
+00:24:45,277 --> 00:24:46,297
+OK.
+
+227
+00:24:48,697 --> 00:25:00,997
+So actually, the older machine produces about 540 cases an hour on average after
+accounting for the 10 % wastage.
+
+228
+00:25:01,097 --> 00:25:07,237
+And the newer machinery, I'll just take a minute.
+
+229
+00:25:15,293 --> 00:25:18,664
+uh about 1116 cases.
+
+230
+00:25:18,664 --> 00:25:26,416
+Yeah, 1116 cases per hour is what the new machinery produces.
+
+231
+00:25:26,416 --> 00:25:34,119
+ah So it's almost a 100 % efficiency gain in terms of number of cases.
+
+232
+00:25:34,119 --> 00:25:40,661
+ah Do we know what it costs for us to make a case of cans?
+
+233
+00:25:40,740 --> 00:25:44,168
+what are the different kinds of costs that will be involved.
+
+234
+00:25:45,063 --> 00:25:45,842
+Shut.
+
+235
+00:25:50,493 --> 00:25:59,849
+oh I would ignore labor cost because it's both of them have four operators unless there's
+a change in the scale of the operator that we require.
+
+236
+00:26:00,217 --> 00:26:10,180
+Regardless, let's say even if the scale of operators does not change, ah do you think the
+cost will change or remain the same?
+
+237
+00:26:15,653 --> 00:26:20,104
+it will actually change because it's a variable cost per hour.
+
+238
+00:26:20,104 --> 00:26:24,014
+we'll actually spend less in labor terms.
+
+239
+00:26:24,014 --> 00:26:24,915
+Fair.
+
+240
+00:26:27,768 --> 00:26:35,352
+In fact, even in terms of wastage, I'd simplify it a bit for you so that we don't get
+confused there.
+
+241
+00:26:35,352 --> 00:26:42,956
+uh Assume like the total number of cases that we require which is 4.2 million.
+
+242
+00:26:43,096 --> 00:26:47,388
+In the first case, 10 % of it gets wasted, in the second one, 7%.
+
+243
+00:26:47,388 --> 00:26:49,248
+So just do 10 and 7 % of that.
+
+244
+00:26:49,248 --> 00:26:50,820
+That'll be easier for you.
+
+245
+00:26:51,569 --> 00:26:56,984
+4.2 million sure thank you for that.
+
+246
+00:27:13,053 --> 00:27:16,986
+So there are two major cost buckets involved in casing.
+
+247
+00:27:16,986 --> 00:27:22,641
+First is the labor costs and then second is the machinery operating cost.
+
+248
+00:27:22,641 --> 00:27:30,448
+Running costs that would include any maintenance, but electricity or the cost of
+operations.
+
+249
+00:27:31,729 --> 00:27:33,651
+That will materially change.
+
+250
+00:27:33,651 --> 00:27:40,731
+Apart from this, I'm assuming that the raw material cost would stay the same and the fixed
+overheads would stay the same.
+
+251
+00:27:40,731 --> 00:27:45,474
+So these are the two main cost buckets that we should ideally look at.
+
+252
+00:27:45,474 --> 00:27:49,384
+you think about cost of wastage or will you factor that in?
+
+253
+00:27:52,753 --> 00:27:53,515
+Um.
+
+254
+00:27:54,000 --> 00:27:55,112
+you
+
+255
+00:27:56,689 --> 00:27:59,029
+for cost of usage uh
+
+256
+00:28:01,403 --> 00:28:04,334
+I would want to look at it.
+
+257
+00:28:04,535 --> 00:28:18,163
+So what I would want to do is calculate the labor cost per hour and machinery cost per
+hour and then see how many hours it takes for us to get to 4.2 million units after
+
+258
+00:28:18,163 --> 00:28:20,104
+accounting for the wastage.
+
+259
+00:28:20,104 --> 00:28:29,137
+And then basically if we have the have the allocated or a portion cost per hour, then
+wastage will be accounted for in that respect.
+
+260
+00:28:29,137 --> 00:28:32,899
+uh I'll change the approach a bit here.
+
+261
+00:28:33,019 --> 00:28:39,623
+Assume like no wastage and calculate the number of hours and calculate the cost of labors
+based on that.
+
+262
+00:28:39,623 --> 00:28:45,986
+uh Ignore the utility, electricity and cost of running the machine for now.
+
+263
+00:28:45,986 --> 00:28:53,130
+Just calculate the cost of labor based on that and then the number of cans that are
+wasted.
+
+264
+00:28:53,130 --> 00:28:57,012
+Assume a cost to that and then calculate what is the cost of wastage.
+
+265
+00:28:57,012 --> 00:28:58,767
+Does that sound fair?
+
+266
+00:28:58,767 --> 00:28:59,620
+you
+
+267
+00:29:00,477 --> 00:29:08,037
+Sure, I think I get the broad context and I'll ask you few questions in a minute if I need
+any help.
+
+268
+00:29:09,197 --> 00:29:09,589
+Sure.
+
+269
+00:29:09,589 --> 00:29:17,989
+of labor here is $25 an hour and the cost of waste is about $20 a case.
+
+270
+00:29:27,015 --> 00:29:27,676
+$20 a case.
+
+271
+00:29:27,676 --> 00:29:28,561
+oh
+
+272
+00:29:28,561 --> 00:29:29,581
+Yep.
+
+273
+00:30:37,735 --> 00:30:51,400
+So uh 4.2 million divided by 600 cases per hour gives us 7,000 hours required to produce
+the entire lot that we require.
+
+274
+00:30:51,400 --> 00:30:55,745
+oh I'll go ahead and multiply that by 25.
+
+275
+00:30:59,741 --> 00:31:07,721
+that gives us 175k dollars.
+
+276
+00:31:10,701 --> 00:31:24,701
+To calculate the number of hours for 1200 cases I just half what we had earlier 7000 by 2
+is 3500 and I multiply that by 25 dollars per hour.
+
+277
+00:31:24,801 --> 00:31:29,277
+So again I will basically half the cost that we had earlier from 175 to
+
+278
+00:31:29,277 --> 00:31:34,990
+oh 87.5k oh without accounting for wastage.
+
+279
+00:31:35,257 --> 00:31:35,657
+Okay.
+
+280
+00:31:35,657 --> 00:31:42,985
+uh Is this total label cost or label cost per like cost per label?
+
+281
+00:31:43,897 --> 00:31:45,679
+This is cost per labor.
+
+282
+00:31:46,560 --> 00:31:55,930
+I multiply that by these numbers by 4 to get to the total labor cost.
+
+283
+00:31:55,930 --> 00:32:02,477
+In the first option we get 700k and in the second option we basically get 350k.
+
+284
+00:32:02,875 --> 00:32:03,657
+Okay.
+
+285
+00:32:05,022 --> 00:32:13,552
+Now I'll add the wastage cost on top of it oh I'll just take a minute to do that
+
+286
+00:33:00,669 --> 00:33:17,359
+ah So in the first case, ah like in the older machine, the wastage cost comes out to be 10
+% of 4.2 million which is 420k multiplied by 20 dollars per case which is 8.4 million
+
+287
+00:33:17,359 --> 00:33:17,919
+dollars.
+
+288
+00:33:17,919 --> 00:33:25,164
+ah In the new machinery, with the new machinery we bring that down to 5.88 million.
+
+289
+00:33:25,164 --> 00:33:27,909
+uh We can round that up to I think uh
+
+290
+00:33:27,909 --> 00:33:31,291
+5.9 million uh for ease of calculation.
+
+291
+00:33:32,593 --> 00:33:39,418
+So I think wastage is the major cost here and not the cost of operating the machinery as
+such.
+
+292
+00:33:41,060 --> 00:33:46,965
+So the total cost with the older machine comes out to be uh
+
+293
+00:33:48,527 --> 00:34:10,816
+8.4 million plus 700k which is 9.1 million and the with the new machinery the cost comes
+up to be comes out to be 5.9 plus 350 or 6.25 million the difference between the two is is
+
+294
+00:34:10,816 --> 00:34:17,240
+2.85 million dollars annually
+
+295
+00:34:17,470 --> 00:34:35,208
+uh I would multiply to compare the two options I would multiply this number by 10 giving
+us our total cost savings of 28.5 ah million dollars over 10 years and I'll go ahead and
+
+296
+00:34:35,208 --> 00:34:42,581
+subtract the initial cost of investment which was 18.7 million after the scrap value ah
+
+297
+00:34:44,145 --> 00:34:45,289
+to be 18.5.
+
+298
+00:34:46,781 --> 00:34:55,581
+Sure, 18.5, that will give us $10 million in cost savings, which is exactly the same as
+what we had with the eggs.
+
+299
+00:34:56,261 --> 00:34:56,762
+got it.
+
+300
+00:34:56,762 --> 00:34:58,805
+ah Cool.
+
+301
+00:34:58,805 --> 00:35:01,699
+So what would you like to do next?
+
+302
+00:35:04,955 --> 00:35:05,738
+uh
+
+303
+00:35:07,835 --> 00:35:21,541
+Given the financial numbers are aligning and both of them are leading to same cost savings
+over a period of 10 years, I would want to assess the operational feasibility of both of
+
+304
+00:35:21,541 --> 00:35:27,114
+these options and compare the risks involved.
+
+305
+00:35:27,114 --> 00:35:34,117
+Given that most of these are assumptions that we are taking, we can do a bit of a scenario
+analysis and see.
+
+306
+00:35:35,026 --> 00:35:43,601
+which of these assumptions are most likely to vary and then take a call based on these
+considerations.
+
+307
+00:35:43,601 --> 00:35:47,857
+Cool, with the knowledge that you have, let's look at the final recommendation.
+
+308
+00:35:47,857 --> 00:35:49,609
+What would you recommend?
+
+309
+00:35:49,670 --> 00:35:51,972
+Which option we go ahead with and why?
+
+310
+00:35:52,583 --> 00:35:56,853
+Sure, I'll just take a minute to sort of structure my thoughts.
+
+311
+00:36:19,002 --> 00:36:27,875
+I'm assuming that we don't need to consider the scrap value of the new machine that we
+have after 10 years of its use for life.
+
+312
+00:36:27,976 --> 00:36:28,836
+Sure.
+
+313
+00:37:06,858 --> 00:37:19,046
+Before I make my recommendation, I would also want to understand oh and this is critical
+to my recommendation that are we seeing an increase in demand from our customers or do we
+
+314
+00:37:19,046 --> 00:37:22,260
+assume the demand will stay sort of flat for the next 10 years.
+
+315
+00:37:22,406 --> 00:37:24,132
+What is your hypothesis?
+
+316
+00:37:27,922 --> 00:37:32,064
+Beer actually is the most stable industry.
+
+317
+00:37:32,525 --> 00:37:44,212
+So I'm assuming that demand usually remains flat ah and does not go up by a lot unless you
+have expansion plans into any new territories or new channels.
+
+318
+00:37:44,212 --> 00:37:52,417
+ah So if we aren't doing that, then the organic growth should remain flat, is my
+hypothesis.
+
+319
+00:37:52,557 --> 00:37:59,252
+We will see growth considering in the last three years we have grown from 100k barrels to
+500k barrels, right.
+
+320
+00:37:59,252 --> 00:38:04,585
+ah But we don't know how that's going to look like.
+
+321
+00:38:04,585 --> 00:38:08,338
+But there would be definitely some growth in the next 10 years.
+
+322
+00:38:09,501 --> 00:38:09,822
+sure.
+
+323
+00:38:09,822 --> 00:38:12,437
+ah
+
+324
+00:38:23,870 --> 00:38:26,450
+Okay.
+
+325
+00:38:26,751 --> 00:38:27,531
+Great.
+
+326
+00:38:27,531 --> 00:38:36,753
+So then my recommendation to the client is that we should go with the cases ah with
+upgrading the casing system.
+
+327
+00:38:36,753 --> 00:38:45,775
+ah That's because it's not only going to give us cost savings, but it's also helping us
+expand our capacity.
+
+328
+00:38:45,775 --> 00:38:51,677
+I see that uh we already operate at about 7,000 hours a year.
+
+329
+00:38:51,677 --> 00:38:53,821
+uh
+
+330
+00:38:53,821 --> 00:39:00,521
+and that divided by roughly 365 gives us about just 20 hours a day.
+
+331
+00:39:00,761 --> 00:39:05,561
+So I'm assuming that we're already operating close to capacity given our machines.
+
+332
+00:39:07,201 --> 00:39:18,001
+And given that we are seeing an increase in demand in the market and we are scaling up
+exponentially every year, we could use the increase in capacity along with the cost
+
+333
+00:39:18,001 --> 00:39:18,941
+savings.
+
+334
+00:39:18,981 --> 00:39:22,861
+Even though this is a more risky investment because
+
+335
+00:39:23,331 --> 00:39:31,126
+only one number which is a wastage can vary our cost efficiencies by a huge margin.
+
+336
+00:39:31,126 --> 00:39:39,871
+oh Taking it from 10 to 7 percent led to a cost savings of 2.8 million annually which is a
+huge number in a very small range.
+
+337
+00:39:39,871 --> 00:39:46,054
+ah So it's a more riskier investment but it's good for the long-term potential of the
+business.
+
+338
+00:39:46,054 --> 00:39:50,855
+oh On the other hand, ah
+
+339
+00:39:50,855 --> 00:40:05,044
+purchasing kegs outright instead of leasing does save very predictably costs of $10
+million over 10 years and the damage or loss is the key metric that will sort of affect
+
+340
+00:40:05,044 --> 00:40:14,459
+the variance of this discussion of this decision but that is not going to make or break
+the decision.
+
+341
+00:40:14,459 --> 00:40:16,880
+So even though it's a safer choice
+
+342
+00:40:17,423 --> 00:40:25,751
+It does not offer the growth potential that the casing offers, which is why I recommend
+that the client goes with the casing upgrade.
+
+343
+00:40:26,118 --> 00:40:27,000
+Got it.
+
+344
+00:40:27,000 --> 00:40:27,522
+Cool.
+
+345
+00:40:27,522 --> 00:40:28,695
+Sounds good, Aditya.
+
+346
+00:40:28,695 --> 00:40:29,987
+Thank you so much.
+
+347
+00:40:31,213 --> 00:40:32,655
+How do you think you did?
+
+348
+00:40:34,428 --> 00:40:36,991
+I think it is a very interesting case.
+
+349
+00:40:36,991 --> 00:40:40,105
+I haven't done a lot of math heavy cases.
+
+350
+00:40:40,105 --> 00:40:43,348
+ah So I think this is the practice that I needed.
+
+351
+00:40:43,738 --> 00:40:46,060
+got it but how do you think you did?
+
+352
+00:40:46,973 --> 00:40:49,779
+ah I think I did fine.
+
+353
+00:40:49,779 --> 00:40:55,533
+ah Recommendation will be in a bit more structured.
+
+354
+00:40:55,533 --> 00:40:57,616
+Otherwise, I think it was okay.
+
+355
+00:40:58,162 --> 00:41:01,362
+How would you rate yourself on a scale of 110?
+
+356
+00:41:03,534 --> 00:41:06,599
+a 7.5.
+
+357
+00:41:07,462 --> 00:41:08,423
+got it.
+
+358
+00:41:08,706 --> 00:41:09,666
+Cool.
+
+359
+00:41:09,789 --> 00:41:16,674
+Tell me have you like since you've done a lot of cases have you identified what your
+strengths are?
+
+360
+00:41:19,069 --> 00:41:24,211
+um I think my strengths are thinking of edge cases.
+
+361
+00:41:24,211 --> 00:41:34,055
+oh And oh so this is something that I'm actively trying to do, which is think of edge
+cases and bring that into a framework.
+
+362
+00:41:34,055 --> 00:41:40,278
+oh And so earlier, I used to think of edge cases, but I couldn't bring them in a
+framework.
+
+363
+00:41:40,278 --> 00:41:44,519
+And my framework used to cover 80 % of things, but not everything.
+
+364
+00:41:44,519 --> 00:41:46,180
+So I'm trying to marry the two.
+
+365
+00:41:46,180 --> 00:41:48,981
+But my strengths were oh
+
+366
+00:41:49,433 --> 00:41:55,412
+at least covering 80 % of the cases good like nicely and then also thinking of edge cases
+alongside.
+
+367
+00:41:55,549 --> 00:41:56,400
+Got it.
+
+368
+00:41:56,400 --> 00:41:57,160
+Cool.
+
+369
+00:41:57,160 --> 00:41:57,821
+Amazing.
+
+370
+00:41:57,821 --> 00:42:02,224
+Sir, I think you did pretty well uh in terms of case.
+
+371
+00:42:02,224 --> 00:42:07,668
+Your strength is your analytical thinking and your business insights.
+
+372
+00:42:07,829 --> 00:42:14,274
+Like they were so spot on in this case, which I really liked.
+
+373
+00:42:14,274 --> 00:42:19,578
+I'll give you examples of that as well and play to it as much as you can.
+
+374
+00:42:20,164 --> 00:42:27,158
+right, uh the kind of insights that you give during the case, I'll take a few examples,
+I've written those down.
+
+375
+00:42:27,158 --> 00:42:37,323
+So, for example, when we were doing the kegs calculation, you told me, we need to look at
+any exit costs that are involved with the contract.
+
+376
+00:42:37,323 --> 00:42:45,448
+uh Then when I asked you what other costs would you look with purchasing the kegs, you
+told me depreciation, storage, things like that.
+
+377
+00:42:45,648 --> 00:42:49,290
+While it sounds very simple, not everyone's able to think about it.
+
+378
+00:42:49,810 --> 00:42:53,851
+So that's the first example of it.
+
+379
+00:42:53,851 --> 00:43:04,355
+The second example you outright said here is there any in the second uh calculation that
+we were doing regarding the calving system you outright said what are we going to do with
+
+380
+00:43:04,355 --> 00:43:09,056
+the old machinery if we are going to upgrade it and you right away subtracted that cost.
+
+381
+00:43:09,056 --> 00:43:14,350
+Again an excellent question a lot of people are not able to think about it.
+
+382
+00:43:14,674 --> 00:43:24,077
+uh So I think your analytical rigor, the third amazing, like I don't think anyone has ever
+done that when I do this case.
+
+383
+00:43:24,077 --> 00:43:34,350
+uh While giving recommendation, you told me, we are running at 7,000 hours, which is about
+20 hours a day of capacity.
+
+384
+00:43:34,350 --> 00:43:36,420
+So we are already at capacity.
+
+385
+00:43:36,420 --> 00:43:38,721
+And that is why it makes sense for us to move.
+
+386
+00:43:38,721 --> 00:43:40,381
+No one has ever thought of it.
+
+387
+00:43:40,381 --> 00:43:43,527
+uh
+
+388
+00:43:43,527 --> 00:43:44,238
+that I've done this.
+
+389
+00:43:44,238 --> 00:43:55,301
+So your analytical thinking and your business acumen is something that sets you apart and
+I judge a lot on those.
+
+390
+00:43:56,121 --> 00:44:09,038
+right and a lot of interviewers knew as well because the key KPI in the interview that you
+are trying to solve for is did the interviewer enjoy speaking to this person, did I enjoy
+
+391
+00:44:09,038 --> 00:44:18,524
+speaking to you and did I feel that you know your stuff and this shows structure don't
+optimize or over optimize for it.
+
+392
+00:44:18,524 --> 00:44:22,930
+I don't really care about structure because at the end of the day I want to have a good
+conversation.
+
+393
+00:44:22,930 --> 00:44:25,870
+So those are some good things.
+
+394
+00:44:25,870 --> 00:44:29,170
+Few things which can make your casing much better.
+
+395
+00:44:30,390 --> 00:44:46,470
+Right now, it seems like I'm speaking to a very smart person, but does not seem like I'm
+talking to a very well-practiced case of.
+
+396
+00:44:46,890 --> 00:44:47,870
+Right?
+
+397
+00:44:47,990 --> 00:44:50,710
+So if we merge the two.
+
+398
+00:44:51,054 --> 00:44:55,056
+it's going to be like excellent and the second part is easy.
+
+399
+00:44:55,056 --> 00:44:57,937
+The first part is difficult which you already have.
+
+400
+00:44:57,957 --> 00:44:58,418
+Right?
+
+401
+00:44:58,418 --> 00:45:09,663
+So few things, for example when you are doing the case, bring in your personality slightly
+more which is you recap the case, hey thank you so much for you know doing this case with
+
+402
+00:45:09,663 --> 00:45:20,708
+me, sounds super interesting, beer is something I am also in so I'll be very happy to dive
+into the case or this is something I don't drink but it'll be fun to do this case.
+
+403
+00:45:21,088 --> 00:45:25,471
+sort of personality that you bring in, recap the problem and bring in some personality.
+
+404
+00:45:25,732 --> 00:45:29,996
+Second, eh I think your clarification questions again were very good.
+
+405
+00:45:29,996 --> 00:45:33,229
+You focused a lot on revenue in your clarification question.
+
+406
+00:45:33,229 --> 00:45:39,734
+When I specifically mentioned in the case here, we are just looking at uh cost
+efficiencies, right?
+
+407
+00:45:39,734 --> 00:45:45,589
+So that was very small hiccup, but I don't think it changes the outcome of the case a lot.
+
+408
+00:45:47,023 --> 00:45:51,733
+your initial structure wasn't very comprehensive, initial framework.
+
+409
+00:45:51,733 --> 00:45:56,973
+So what you said was I'm to look at the cost and look at what the cost savings are.
+
+410
+00:45:57,307 --> 00:46:01,208
+You did not talk about operational capabilities or risks initially.
+
+411
+00:46:01,628 --> 00:46:06,229
+You spoke about it when I said what would you like to do next in the end.
+
+412
+00:46:06,229 --> 00:46:16,342
+So while you know here we are going to compare costs, but give all the things that you
+would like to put in your approach while you're solving that case, which will help you
+
+413
+00:46:16,342 --> 00:46:17,872
+reach the decision.
+
+414
+00:46:18,493 --> 00:46:23,214
+Because eventually you end up, you ended up doing that.
+
+415
+00:46:23,214 --> 00:46:24,094
+Right?
+
+416
+00:46:25,466 --> 00:46:36,416
+So the initial approach should be comprehensive even though you want to focus on one.
+
+417
+00:46:36,416 --> 00:46:49,126
+I think oh I get what you were trying to do with the second canning system of
+understanding here is that 600 cases per hour before or after the wastage.
+
+418
+00:46:49,126 --> 00:46:53,646
+But that would have made your calculations very complicated.
+
+419
+00:46:53,680 --> 00:46:59,536
+That is why I said, don't go that way, just multiply it by 20 and move ahead with that.
+
+420
+00:46:59,536 --> 00:47:00,787
+But I understand.
+
+421
+00:47:00,787 --> 00:47:03,860
+So, analytically, as I said, that makes sense.
+
+422
+00:47:04,021 --> 00:47:08,465
+But I just try to solve for the complication of it.
+
+423
+00:47:08,866 --> 00:47:13,931
+Next thing what you should look at is your communication slightly.
+
+424
+00:47:13,931 --> 00:47:15,873
+And when I say communication.
+
+425
+00:47:16,782 --> 00:47:22,024
+Record yourself if you can, if you're doing online cases with people.
+
+426
+00:47:22,045 --> 00:47:24,525
+There's a lot of errors and errors.
+
+427
+00:47:25,806 --> 00:47:31,269
+Does not change a lot, but if you can fix that, that's going to be amazing.
+
+428
+00:47:31,269 --> 00:47:36,231
+I wouldn't optimize or prioritize that, but just a point to note.
+
+429
+00:47:36,231 --> 00:47:42,114
+Second thing in terms of communication which you can solve and you should solve very fast
+is
+
+430
+00:47:42,662 --> 00:47:54,759
+you ended up calculating here 10 million is the saving for both of them and you waited for
+me to give you guidance on what you have to tell me what you need to do next.
+
+431
+00:47:54,759 --> 00:48:05,025
+always lead the case this is called case leadership I give this feedback to almost
+everyone where you are driving the case I'm not driving the case so you tell me here you
+
+432
+00:48:05,025 --> 00:48:08,723
+know both the scenarios we saving 10 million dollars
+
+433
+00:48:08,723 --> 00:48:18,723
+I think as next step to understand which one is going to be the best fit for us, I would
+like to also look at operational capabilities and do some sensitivity analysis on the
+
+434
+00:48:18,723 --> 00:48:20,603
+numbers that we have done whatever you want to do.
+
+435
+00:48:20,603 --> 00:48:30,803
+But you tell me and then we could give you some other direction or agree with you does not
+matter but you give the next step and don't wait for me to tell you hey who do you like to
+
+436
+00:48:30,803 --> 00:48:31,683
+do this.
+
+437
+00:48:32,323 --> 00:48:32,763
+Right?
+
+438
+00:48:32,763 --> 00:48:35,643
+So that's a quick fix that you should always do.
+
+439
+00:48:36,665 --> 00:48:50,199
+every uh sort of communication layer close it with a loop of next step or with a question
+if you have any.
+
+440
+00:48:50,199 --> 00:49:01,399
+That's also a very good point or a very strong part of your case solving that you ask a
+lot of relevant questions during the case as well which is something that you should stick
+
+441
+00:49:01,399 --> 00:49:02,495
+to.
+
+442
+00:49:02,863 --> 00:49:16,457
+And finally, think very small uh nitpick regarding the case, you assumed or your
+hypothesis was widely of that hey, beer industry is not growing, ah whereas I've given you
+
+443
+00:49:16,457 --> 00:49:17,767
+those numbers.
+
+444
+00:49:18,068 --> 00:49:23,289
+Don't assume that the industry is not growing and you don't know about the US industry.
+
+445
+00:49:23,289 --> 00:49:27,250
+So look at the information from the case.
+
+446
+00:49:27,571 --> 00:49:29,203
+That's basically it.
+
+447
+00:49:29,699 --> 00:49:37,425
+But I think overall I'm very happy in terms of how you think, oh how you look at the
+problem.
+
+448
+00:49:37,425 --> 00:49:52,837
+The only things that you need to work on are one, communication, second, approach, you
+giving your approach, and third, just bringing out more personality in your case.
+
+449
+00:49:52,837 --> 00:49:54,638
+That's all.
+
+450
+00:49:54,638 --> 00:49:56,119
+Does that make sense?
+
+451
+00:49:56,657 --> 00:49:58,078
+Yeah, that's very helpful.
+
+452
+00:49:58,078 --> 00:50:07,926
+um I think in terms of the comms, I do usually lead the case, but I should have done it
+here actually.
+
+453
+00:50:08,607 --> 00:50:14,652
+But in marketing cases, for example, I'm not always sure what to do next.
+
+454
+00:50:15,133 --> 00:50:24,752
+And if I think that, I should start with the operational feasibility now after completing
+the financial feasibility, oh it usually goes in some other direction and
+
+455
+00:50:24,752 --> 00:50:30,305
+sometimes the interview also lets you go on and then says that you didn't ask me what you
+should be doing.
+
+456
+00:50:30,365 --> 00:50:38,971
+So how do we maintain that balance in leading versus sort of keeping it open for the
+interviewer to let you where to tell you where to go.
+
+457
+00:50:38,971 --> 00:50:42,211
+It's just a framing issue, the question framing issue.
+
+458
+00:50:42,211 --> 00:50:47,758
+Let's say you do the financial feasibility and you say, the revenues are coming out to be
+200 million.
+
+459
+00:50:47,758 --> 00:50:57,625
+I would say next, this looks good, but to make sure we are being comprehensive about how
+we approach this problem, I would like to look at the operational capabilities next.
+
+460
+00:50:57,625 --> 00:51:00,357
+If that sounds good to you, I can go ahead with that.
+
+461
+00:51:00,357 --> 00:51:01,988
+Happy to your thoughts.
+
+462
+00:51:01,988 --> 00:51:05,563
+So you give the next steps and then ask, does that sound good?
+
+463
+00:51:05,563 --> 00:51:08,346
+And it's okay if the interviewer takes you in some other direction.
+
+464
+00:51:08,346 --> 00:51:09,646
+That's completely fine.
+
+465
+00:51:10,548 --> 00:51:14,251
+And where should you go next?
+
+466
+00:51:14,251 --> 00:51:16,333
+That depends on your approach, what you're doing.
+
+467
+00:51:16,333 --> 00:51:19,345
+So your approach will tell you where you should go next.
+
+468
+00:51:19,587 --> 00:51:26,480
+It shouldn't be the case that you build some approach and your next step is completely off
+from what the approach initially was.
+
+469
+00:51:26,480 --> 00:51:31,893
+Even if it is, then say, hey, I'd like to change my approach a bit based on the
+information that we have now.
+
+470
+00:51:31,893 --> 00:51:34,774
+I'd next like to evaluate this instead of this.
+
+471
+00:51:34,774 --> 00:51:37,667
+Tell me if that sounds good to you.
+
+472
+00:51:37,937 --> 00:51:40,334
+got it that's helpful
+
+473
+00:51:40,392 --> 00:51:51,652
+Yeah, so it's almost always apart from your calculation errors or your general framework
+issue, almost always a communication error.
+
+474
+00:51:51,652 --> 00:51:54,384
+And you can just frame things very differently.
+
+475
+00:51:57,107 --> 00:51:57,587
+Cool.
+
+476
+00:51:57,587 --> 00:51:59,409
+Any other questions for me?
+
+477
+00:51:59,409 --> 00:52:02,351
+I'll just stop the recording.
+

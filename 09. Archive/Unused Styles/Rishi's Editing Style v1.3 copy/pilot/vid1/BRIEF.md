@@ -1,0 +1,11 @@
+# Pilot Vid 1 — brief (Gate 1 answers, 2026-11-06)
+- Source: `Video Projects/Vid 1.mp4`. HEVC 1920x1080 with rotation=90, so it plays as **vertical 1080x1920**, 30 fps, 51.7 s, AAC 48 kHz stereo. No reframe needed.
+- Framing: face y ≈ 26-64% H, handheld fluffy mic + hand y ≈ 65-80% H, dark marble wall, green jacket, cool window light top-left. Gestures with the right hand (frame right).
+- Language: Hinglish (Roman) + English. **Exact script: Rishi to paste.** The ASR draft in `transcript_draft.md` must NOT be used as fact.
+- Genre: AI / tool workflow (claim: "this whole video was edited by Claude").
+- Proof assets: **recreate from our real work** as UI cards (Claude chat prompt, the Rishi's Editing Style skill file, "15 reels studied · 320 animations measured", the motion-library table). No third-party frames.
+- Captions: **lower band y ≈ 1380-1490 px** (72-78% H) over the shirt/mic with a soft shadow; face always clear. (Deviation from the pack default y ≈ 1150-1230, caused by this framing.)
+- CTA: **comment bar grows from the right and types "EDIT"**, with a cursor click, over the last ≈ 5 s while Rishi finishes the line on camera.
+- Retake to cut: the stumble ≈ 33.6-39 s ("kuch iterations ke baad" repeated, "it will get such bad, it will get"). Exact in/out points come after the script.
+- Tools: auto-editor is installed at `~/.local/bin/auto-editor` (v29.3.1, not on PATH). ffmpeg here has no `drawtext`.
+- Sound: after visual approval only; `assets/sfx` is empty.

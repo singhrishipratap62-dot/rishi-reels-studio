@@ -1,0 +1,268 @@
+/* rishi.docx — generated from tokens.json */
+:root, [data-theme="paper"] {
+  --brand-paper: #f4f1ea; /* The locked paper colour. Fixed in both themes; use when you need the literal brand paper (e.g. a paper card sliding over talking-head footage). */
+  --brand-ink: #141414; /* The locked ink colour. Fixed in both themes; the literal brand ink. */
+  --signal: #e2432a; /* The locked signal red. ONE use per frame: the key phrase, the key number, or a pen mark. Text in signal only at 60px and above (contrast vs paper is about 3.7:1, large-text only). */
+  --bg: var(--brand-paper); /* Frame background. Paper theme is the default; ink theme for heavier moments and variety. */
+  --surface: #e9e4d8; /* Raised cards, chart panels, chat bubbles on bg. Never a third colour, only a step of the ground. */
+  --ink: var(--brand-ink); /* Primary text and solid shapes on bg or surface. */
+  --ink-muted: #5f5c56; /* Secondary text on bg: sources, dates, labels, axis text. At least 4.5:1 on bg in both themes. */
+  --line: #1414141f; /* Grid hairlines and construction lines. Structure you feel more than see. */
+  --line-strong: #14141466; /* Rules, dividers, diagram connectors, chart axes. */
+  --signal-marker: #e2432a47; /* Highlighter swipe behind ink text. Keeps text ink-coloured and readable while the red does the pointing. */
+}
+[data-theme="ink"] {
+  --bg: var(--brand-ink);
+  --surface: #1f1e1c;
+  --ink: var(--brand-paper);
+  --ink-muted: #a29e95;
+  --line: #f4f1ea24;
+  --line-strong: #f4f1ea66;
+}
+:root {
+  --space-1: 8px; /* Tight gaps: icon to text, number to unit. */
+  --space-2: 16px; /* Label to value, line to line in a block. */
+  --space-3: 24px; /* Grid gutter; gap between related items. */
+  --space-4: 40px; /* Card padding; gap between groups. */
+  --space-5: 64px; /* Side margin of every frame; gap between sections. */
+  --space-6: 96px; /* Large separation; diagram node spacing. */
+  --space-7: 144px; /* Hero breathing room around a single hook or number. */
+  --safe-top: 250px; /* Reels: keep text below this (username and audio row sit above). */
+  --safe-bottom: 420px; /* Reels: keep text above this (caption, buttons and progress bar sit below). */
+  --safe-right: 160px; /* Reels: keep text left of this from the right edge (like, comment, share column). */
+  --radius-0: 0; /* Default. Frames, cards, chart bars, diagram nodes: square and editorial. */
+  --radius-sm: 8px; /* Small tags and pills only. */
+  --radius-lg: 28px; /* Chat bubbles and phone/app screenshots, so they read as UI, not as brand shapes. */
+  --stroke-hair: 2px; /* Grid lines and construction lines (with line). */
+  --stroke-rule: 4px; /* Rules, connectors, chart axes (with line-strong or ink). */
+  --stroke-pen: 10px; /* Hand-drawn pen marks in signal: underline, circle, arrow, strike, tick. */
+  --font-sans: "General Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Gambetta", Georgia, "Times New Roman", serif;
+  --text-display-xl: 600 132px/1 var(--font-sans); /* Hook titles: one short line, 3-6 words. Sizes are at the native 1080px-wide canvas. */
+  --text-display: 600 104px/1.02 var(--font-sans); /* Section titles and two-line hooks. */
+  --text-headline: 500 80px/1.05 var(--font-sans); /* Carousel slide headlines and in-video key lines. */
+  --text-title: 500 60px/1.15 var(--font-sans); /* Diagram nodes, chart titles, lower-third names. */
+  --text-body: 400 44px/1.35 var(--font-sans); /* Supporting text. The smallest size for anything meant to be read in a reel. */
+  --text-label: 500 32px/1.2 var(--font-sans); /* Numbered labels, axis labels, tags. Floor size: nothing smaller than 32px on a 1080 canvas. */
+  --text-caption: 400 32px/1.3 var(--font-sans); /* Source lines and fine print, in ink-muted. */
+  --text-accent-italic: italic 400 104px/1.02 var(--font-serif); /* The signature: one key phrase inside a sans headline, in Gambetta italic, usually in signal. Match the size of the headline it sits in. */
+  --text-quote: 400 64px/1.2 var(--font-serif); /* Quotes from people, companies, courts. Gambetta regular, ink. */
+}
+.display-xl {
+  font-family: var(--font-sans);
+  font-size: 132px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.display {
+  font-family: var(--font-sans);
+  font-size: 104px;
+  line-height: 1.02;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.headline {
+  font-family: var(--font-sans);
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.title {
+  font-family: var(--font-sans);
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.body {
+  font-family: var(--font-sans);
+  font-size: 44px;
+  line-height: 1.35;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.label {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.caption {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.accent-italic {
+  font-family: var(--font-serif);
+  font-size: 104px;
+  line-height: 1.02;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-style: italic;
+}
+.quote {
+  font-family: var(--font-serif);
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+@font-face {
+  font-family: "Gambetta";
+  src: url("fonts/Gambetta-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta";
+  src: url("../_blob/c0b522c0aab9d5ef290a9c962a095884") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta Bold Italic";
+  src: url("../_blob/c583d89fe32cd35bfbf2783d6d92db30") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta";
+  src: url("../_blob/e118144a8610d10bdd538626d07087e8") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta";
+  src: url("../_blob/80a16b7a2dd164ec905f888ad298edfb") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta Light Italic";
+  src: url("../_blob/705ffb53f3169233f7874b245b67d925") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta";
+  src: url("../_blob/e17054b5f69ae5eaf9641ac4bb06d44a") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta Medium Italic";
+  src: url("../_blob/7e0be898f09e4028034d448d34b083b6") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta";
+  src: url("../_blob/6d279f448f31a8df34ed05f00d99095b") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gambetta Semibold Italic";
+  src: url("../_blob/f3991d43edf9ba59b9157d96520d8b0d") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("../_blob/996a259e00deaa5ba069442741d2ee3a") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans Bold Italic";
+  src: url("../_blob/a4a71a06813b5e8cf06bb7733540b9b7") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("../_blob/2f859bbea984e584babcfaf64ae86383") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans Extralight Italic";
+  src: url("../_blob/1fb71871a4aca5b53637fbd43d2972a1") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("../_blob/203bb1de1907709da2948b2cc46a2619") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("../_blob/4ecbcea1b39866258f272f3746759804") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans Light Italic";
+  src: url("../_blob/57c2a2621ed94bc1be63cdd2090dfd26") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("../_blob/faaa9b2d2ccc41cbf2b779ebaf538d07") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans Medium Italic";
+  src: url("../_blob/9cc768d696146382cc5e42589ded1973") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("../_blob/eddfdb9a2e8cdddd12c9d3f30aba2504") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("../_blob/8b02c361079bb63ff79b244548ab0f39") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans Semibold Italic";
+  src: url("../_blob/a2e344767dd2602f41321a72cb8bce3a") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}

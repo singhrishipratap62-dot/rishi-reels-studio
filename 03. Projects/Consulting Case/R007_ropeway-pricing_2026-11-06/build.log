@@ -1,0 +1,39 @@
+=== sound pass 01:27:37
+71 cues kept (92 raw). Program -15.0 LUFS, TP -1.4, LRA 2.1
+Counter({'Modern_technology_pop': 35, 'Pop_different-': 13, 'Highlighter': 12, 'Hi-Tech_Click_': 3, 'Mouse_click_different-': 3, 'Woosh': 2, 'Riser_+_Tick': 2, 'Swoosh': 1})
+=== compose 1x 01:27:43
+frame 4200
+chunk 3398-3798 ok
+frame 3900
+chunk 4198-4467 ok
+chunk 3798-4198 ok
+frame 0
+s2zoom: 64 frames, 1.10 -> 1.00, sine in-out
+export duration: 149.052542 s
+=== speed + music 01:35:34
+speed 1.2x: 124.190733 s (1x: 149.052542 s)
+voice -17.4 dB RMS, music under speech -30.4 -> 13.0 dB under voice; duck depth (vs undocked, after calibration) median 3.0 dB, max 4.2 dB
+=== green 01:38:08
+green export: 149.052542 s
+=== raw 1080 01:39:55
+=== QC 1.2x final 01:45:04
+[PASS] 1080x1920 @ 29.97, H.264 High  — 1080x1920 30000/1001 High
+[PASS] audio present  — aac
+[PASS] video and audio same length (±2 frames)  — video 124.19s, audio 124.18s
+[FAIL] duration = speech + <=0.8 s after last word onset  — dur 124.19s, last word onset 123.36
+[PASS] no black (blackdetect d=0.2)  — []
+[PASS] no gap >0.35 s inside speech (-45 dB)  — []
+[FAIL] scene cuts only at S1→S2 and S2→S3  — [3.74, 5.51]
+[PASS] caption inside x 100–980 (one line)  — []
+[PASS] caption OCR readable on >=85% of samples  — 90%
+[PASS] end card shows Part 42 + Follow for Part 43  — Solving real consultant cases / Part 42 / Follow for Part 43
+[PASS] no "gradnext" on end card (R1.9)
+[PASS] blur-in: panel blurred at 0 s, sharp by 1.0 s  — sharpness 0.05s 0.0018 · 1.0s 0.0391 · 3.0s 0.0422
+[PASS] loudness -15 LUFS ±1, true peak <= -1 dBTP  — -15.1 LUFS, TP -1.8
+face freezes >=1s: 0
+R007_ropeway-pricing_2026-11-06.mp4: 1080,1920,3722  89M
+R007_ropeway-pricing_2026-11-06_1x.mp4: 1080,1920,4467 115M
+R007_ropeway-pricing_2026-11-06_green.mp4: 1080,1920,4467  23M
+R007_ropeway-pricing_2026-11-06_raw.mp4: 1080,1920,4467 229M
+/dev/disk3s1s1   228Gi    12Gi   499Mi    96%    458k  5.1M    8%   /
+ALL DONE 01:46:03

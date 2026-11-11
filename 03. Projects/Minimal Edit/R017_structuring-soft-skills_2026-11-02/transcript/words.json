@@ -1,0 +1,572 @@
+{
+ "t0_episode_ms": 2300330,
+ "words": [
+  {
+   "word": "But",
+   "start_ms": 1100,
+   "end_ms": 1250
+  },
+  {
+   "word": "yeah,",
+   "start_ms": 1250,
+   "end_ms": 1580
+  },
+  {
+   "word": "I",
+   "start_ms": 1580,
+   "end_ms": 1650
+  },
+  {
+   "word": "think",
+   "start_ms": 1650,
+   "end_ms": 2030
+  },
+  {
+   "word": "overall",
+   "start_ms": 2030,
+   "end_ms": 2930
+  },
+  {
+   "word": "did",
+   "start_ms": 3020,
+   "end_ms": 3250
+  },
+  {
+   "word": "pretty",
+   "start_ms": 3250,
+   "end_ms": 3600
+  },
+  {
+   "word": "well,",
+   "start_ms": 3600,
+   "end_ms": 4020
+  },
+  {
+   "word": "Chaitanya,",
+   "start_ms": 4020,
+   "end_ms": 4830
+  },
+  {
+   "word": "the",
+   "start_ms": 4830,
+   "end_ms": 5160
+  },
+  {
+   "word": "good",
+   "start_ms": 5160,
+   "end_ms": 5580
+  },
+  {
+   "word": "thing",
+   "start_ms": 5580,
+   "end_ms": 6000
+  },
+  {
+   "word": "I",
+   "start_ms": 6000,
+   "end_ms": 6220
+  },
+  {
+   "word": "like",
+   "start_ms": 6220,
+   "end_ms": 6760
+  },
+  {
+   "word": "about",
+   "start_ms": 6760,
+   "end_ms": 7030
+  },
+  {
+   "word": "your",
+   "start_ms": 7030,
+   "end_ms": 7250
+  },
+  {
+   "word": "case",
+   "start_ms": 7250,
+   "end_ms": 7420
+  },
+  {
+   "word": "solving",
+   "start_ms": 7420,
+   "end_ms": 7870
+  },
+  {
+   "word": "is",
+   "start_ms": 7870,
+   "end_ms": 8560
+  },
+  {
+   "word": "your",
+   "start_ms": 8560,
+   "end_ms": 9340
+  },
+  {
+   "word": "composure",
+   "start_ms": 9340,
+   "end_ms": 10220
+  },
+  {
+   "word": "and",
+   "start_ms": 10220,
+   "end_ms": 10430
+  },
+  {
+   "word": "your",
+   "start_ms": 10430,
+   "end_ms": 10780
+  },
+  {
+   "word": "way",
+   "start_ms": 10780,
+   "end_ms": 10990
+  },
+  {
+   "word": "of",
+   "start_ms": 10990,
+   "end_ms": 11140
+  },
+  {
+   "word": "communication,",
+   "start_ms": 11140,
+   "end_ms": 11770
+  },
+  {
+   "word": "style",
+   "start_ms": 11770,
+   "end_ms": 12090
+  },
+  {
+   "word": "of",
+   "start_ms": 12090,
+   "end_ms": 12220
+  },
+  {
+   "word": "communication.",
+   "start_ms": 12220,
+   "end_ms": 13120
+  },
+  {
+   "word": "That's",
+   "start_ms": 13360,
+   "end_ms": 13600
+  },
+  {
+   "word": "really",
+   "start_ms": 13600,
+   "end_ms": 14200
+  },
+  {
+   "word": "good.",
+   "start_ms": 14200,
+   "end_ms": 14560
+  },
+  {
+   "word": "Structuring",
+   "start_ms": 14560,
+   "end_ms": 15180
+  },
+  {
+   "word": "is,",
+   "start_ms": 15180,
+   "end_ms": 15600
+  },
+  {
+   "word": "you",
+   "start_ms": 15600,
+   "end_ms": 15800
+  },
+  {
+   "word": "know,",
+   "start_ms": 15800,
+   "end_ms": 16560
+  },
+  {
+   "word": "just",
+   "start_ms": 16560,
+   "end_ms": 17460
+  },
+  {
+   "word": "30,",
+   "start_ms": 17940,
+   "end_ms": 18320
+  },
+  {
+   "word": "40",
+   "start_ms": 18320,
+   "end_ms": 18640
+  },
+  {
+   "word": "%",
+   "start_ms": 18640,
+   "end_ms": 19100
+  },
+  {
+   "word": "of",
+   "start_ms": 19100,
+   "end_ms": 19300
+  },
+  {
+   "word": "it.",
+   "start_ms": 19300,
+   "end_ms": 19560
+  },
+  {
+   "word": "rest",
+   "start_ms": 19560,
+   "uncertain": true,
+   "end_ms": 20120
+  },
+  {
+   "word": "is",
+   "start_ms": 20120,
+   "end_ms": 20420
+  },
+  {
+   "word": "the",
+   "start_ms": 20420,
+   "end_ms": 20680
+  },
+  {
+   "word": "softer",
+   "start_ms": 20680,
+   "end_ms": 21020
+  },
+  {
+   "word": "skills.",
+   "start_ms": 21020,
+   "end_ms": 21920
+  },
+  {
+   "word": "So",
+   "start_ms": 23220,
+   "end_ms": 23450
+  },
+  {
+   "word": "I",
+   "start_ms": 23450,
+   "end_ms": 23600
+  },
+  {
+   "word": "think",
+   "start_ms": 23600,
+   "end_ms": 23880
+  },
+  {
+   "word": "you're",
+   "start_ms": 23880,
+   "end_ms": 24350
+  },
+  {
+   "word": "doing",
+   "start_ms": 24350,
+   "end_ms": 24590
+  },
+  {
+   "word": "well",
+   "start_ms": 24590,
+   "end_ms": 24880
+  },
+  {
+   "word": "in",
+   "start_ms": 24880,
+   "end_ms": 25160
+  },
+  {
+   "word": "the",
+   "start_ms": 25160,
+   "end_ms": 25290
+  },
+  {
+   "word": "structure,",
+   "start_ms": 25290,
+   "uncertain": true,
+   "end_ms": 26000
+  },
+  {
+   "word": "the",
+   "start_ms": 26000,
+   "end_ms": 26300
+  },
+  {
+   "word": "major",
+   "start_ms": 26300,
+   "end_ms": 26720
+  },
+  {
+   "word": "thing",
+   "start_ms": 26720,
+   "end_ms": 26950
+  },
+  {
+   "word": "which",
+   "start_ms": 26950,
+   "end_ms": 27360
+  },
+  {
+   "word": "a",
+   "start_ms": 27360,
+   "end_ms": 27450
+  },
+  {
+   "word": "lot",
+   "start_ms": 27450,
+   "end_ms": 27600
+  },
+  {
+   "word": "of",
+   "start_ms": 27600,
+   "end_ms": 27860
+  },
+  {
+   "word": "people",
+   "start_ms": 27860,
+   "end_ms": 28150
+  },
+  {
+   "word": "lack",
+   "start_ms": 28150,
+   "end_ms": 28440
+  },
+  {
+   "word": "in.",
+   "start_ms": 28440,
+   "end_ms": 29340
+  },
+  {
+   "word": "work",
+   "start_ms": 31080,
+   "end_ms": 31600
+  },
+  {
+   "word": "slightly",
+   "start_ms": 31600,
+   "end_ms": 32180
+  },
+  {
+   "word": "more",
+   "start_ms": 32180,
+   "end_ms": 32460
+  },
+  {
+   "word": "on",
+   "start_ms": 32460,
+   "end_ms": 32590
+  },
+  {
+   "word": "the",
+   "start_ms": 32590,
+   "end_ms": 32800
+  },
+  {
+   "word": "brainstorming",
+   "start_ms": 32800,
+   "end_ms": 33700
+  },
+  {
+   "word": "aspect",
+   "start_ms": 33700,
+   "end_ms": 34600
+  },
+  {
+   "word": "where",
+   "start_ms": 35560,
+   "end_ms": 36360
+  },
+  {
+   "word": "you",
+   "start_ms": 36360,
+   "end_ms": 36650
+  },
+  {
+   "word": "have",
+   "start_ms": 36650,
+   "end_ms": 36900
+  },
+  {
+   "word": "to",
+   "start_ms": 36900,
+   "end_ms": 37110
+  },
+  {
+   "word": "come",
+   "start_ms": 37110,
+   "end_ms": 37220
+  },
+  {
+   "word": "up",
+   "start_ms": 37220,
+   "end_ms": 37340
+  },
+  {
+   "word": "with",
+   "start_ms": 37340,
+   "end_ms": 37610
+  },
+  {
+   "word": "new",
+   "start_ms": 37610,
+   "end_ms": 37810
+  },
+  {
+   "word": "ideas,",
+   "start_ms": 37810,
+   "end_ms": 38180
+  },
+  {
+   "word": "ask",
+   "start_ms": 38180,
+   "end_ms": 38480
+  },
+  {
+   "word": "more",
+   "start_ms": 38480,
+   "end_ms": 38750
+  },
+  {
+   "word": "questions",
+   "start_ms": 38750,
+   "end_ms": 39420
+  },
+  {
+   "word": "to",
+   "start_ms": 39420,
+   "end_ms": 39490
+  },
+  {
+   "word": "make",
+   "start_ms": 39490,
+   "end_ms": 39760
+  },
+  {
+   "word": "sure",
+   "start_ms": 39760,
+   "end_ms": 40030
+  },
+  {
+   "word": "your",
+   "start_ms": 40030,
+   "end_ms": 40300
+  },
+  {
+   "word": "ideas",
+   "start_ms": 40300,
+   "end_ms": 40720
+  },
+  {
+   "word": "are",
+   "start_ms": 40720,
+   "end_ms": 40880
+  },
+  {
+   "word": "more",
+   "start_ms": 40880,
+   "end_ms": 41190
+  },
+  {
+   "word": "relevant",
+   "start_ms": 41190,
+   "end_ms": 41990
+  },
+  {
+   "word": "and",
+   "start_ms": 41990,
+   "end_ms": 42060
+  },
+  {
+   "word": "you",
+   "start_ms": 42060,
+   "end_ms": 42430
+  },
+  {
+   "word": "do",
+   "start_ms": 42430,
+   "end_ms": 42460
+  },
+  {
+   "word": "not",
+   "start_ms": 42460,
+   "end_ms": 42670
+  },
+  {
+   "word": "spend",
+   "start_ms": 42670,
+   "end_ms": 43090
+  },
+  {
+   "word": "a",
+   "start_ms": 43090,
+   "end_ms": 43120
+  },
+  {
+   "word": "lot",
+   "start_ms": 43120,
+   "end_ms": 43350
+  },
+  {
+   "word": "of",
+   "start_ms": 43350,
+   "end_ms": 43630
+  },
+  {
+   "word": "time",
+   "start_ms": 43630,
+   "end_ms": 43810
+  },
+  {
+   "word": "in",
+   "start_ms": 43810,
+   "end_ms": 44400
+  },
+  {
+   "word": "coming",
+   "start_ms": 44400,
+   "end_ms": 44460
+  },
+  {
+   "word": "up",
+   "start_ms": 44460,
+   "end_ms": 44580
+  },
+  {
+   "word": "with",
+   "start_ms": 44580,
+   "end_ms": 44910
+  },
+  {
+   "word": "ideas",
+   "start_ms": 44910,
+   "end_ms": 45150
+  },
+  {
+   "word": "which",
+   "start_ms": 45150,
+   "end_ms": 45450
+  },
+  {
+   "word": "might",
+   "start_ms": 45450,
+   "end_ms": 45800
+  },
+  {
+   "word": "not",
+   "start_ms": 45800,
+   "end_ms": 46520
+  },
+  {
+   "word": "work",
+   "start_ms": 46520,
+   "end_ms": 46760
+  },
+  {
+   "word": "out",
+   "start_ms": 46760,
+   "end_ms": 46950
+  },
+  {
+   "word": "well.",
+   "start_ms": 46950,
+   "end_ms": 47240
+  }
+ ]
+}

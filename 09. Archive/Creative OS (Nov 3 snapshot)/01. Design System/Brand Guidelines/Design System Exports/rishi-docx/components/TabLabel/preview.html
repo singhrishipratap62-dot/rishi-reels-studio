@@ -1,0 +1,45 @@
+<!-- @dsCard group="Pen" height=1920 width=1080 subtitle="Boxed uppercase names with a signal tab and a hairline leader, on a halftone object" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Tab label</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:inherit;font-style:normal;font-weight:inherit}
+svg{position:absolute;left:0;top:0}
+.lead{stroke:var(--ink);stroke-width:2;fill:none;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 5s infinite}
+.lead.b{animation-delay:.12s}.lead.c{animation-delay:.24s}
+@keyframes draw{0%,8%{stroke-dashoffset:400}14%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+.tl{position:absolute;display:flex;align-items:stretch;background:var(--bg);border:2px solid var(--ink);font-size:32px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;line-height:1;transform-origin:left center;animation:tab 5s infinite}
+.tl:before{content:"";width:10px;background:var(--signal)}
+.tl span{padding:12px 16px 10px}
+.tl.b{animation-delay:.12s}.tl.c{animation-delay:.24s}
+@keyframes tab{0%,12%{transform:scaleX(0)}17%,92%{transform:none;opacity:1}100%{opacity:0}}
+.title{position:absolute;left:64px;top:300px}
+.title .kick{justify-content:flex-start}.title .kick:before{display:none}
+.title h2{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);margin:16px 0 0;font-size:96px;line-height:1.02;letter-spacing:-.025em;font-weight:700}
+</style></head>
+<body><div class="f"><div class="crop"><i></i><i></i><i></i><i></i></div>
+<div class="title"><div class="kick">How it works</div><h2 class="serif">Inside a <span class="it">data centre</span></h2></div>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs><pattern id="ht" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="7" cy="7" r="3.2" fill="var(--ink)"/></pattern>
+<pattern id="hs" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="7" cy="7" r="3.2" fill="var(--signal)"/></pattern></defs>
+<g stroke="var(--ink)" stroke-width="5" stroke-linejoin="round">
+<path d="M380 820 L620 700 L860 820 L620 940 Z" fill="var(--bg)"/>
+<path d="M380 820 L380 1160 L620 1280 L620 940 Z" fill="url(#ht)"/>
+<path d="M620 940 L620 1280 L860 1160 L860 820 Z" fill="var(--bg)"/>
+<path d="M420 900 L580 980 M420 960 L580 1040 M420 1020 L580 1100" fill="none" stroke-width="4"/>
+<path d="M680 980 L800 920 L800 980 L680 1040 Z" fill="url(#hs)"/></g>
+<path class="lead" d="M760 990 L860 1250"/><path class="lead b" d="M450 1100 L250 1230"/><path class="lead c" d="M620 700 L620 560"/>
+</svg>
+<div class="tl" style="left:700px;top:1250px"><span>GPU rack</span></div>
+<div class="tl b" style="left:80px;top:1232px"><span>Cooling</span></div>
+<div class="tl c" style="left:540px;top:500px"><span>Power</span></div>
+<div class="cap">the GPUs</div></div></body></html>

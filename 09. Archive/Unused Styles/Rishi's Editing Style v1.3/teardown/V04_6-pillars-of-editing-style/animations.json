@@ -1,0 +1,397 @@
+[
+ {
+  "id": "V04-A01",
+  "name": "footage-to-card shrink",
+  "category": "transition",
+  "element": "footage-to-card shrink",
+  "start_f": 8,
+  "end_f": 70,
+  "dur_ms": 2067,
+  "props": {
+   "height_pct_H": [
+    100,
+    41
+   ]
+  },
+  "easing": "ease-in-out \u2248",
+  "bezier": [
+   0.5,
+   0,
+   0,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "style@#21 (start #8, \u0394-13)",
+  "evidence": "MEAS(\u2248,rmse .089)"
+ },
+ {
+  "id": "V04-A02",
+  "name": "carousel side cards + dashed inner frame",
+  "category": "graphic",
+  "element": "carousel side cards + dashed inner frame",
+  "start_f": 6,
+  "end_f": 36,
+  "dur_ms": 1000,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "first words",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V04-A03",
+  "name": "word-by-word grey-to-dark caption",
+  "category": "caption",
+  "element": "word-by-word grey-to-dark caption",
+  "start_f": 37,
+  "end_f": 110,
+  "dur_ms": 2433,
+  "props": {
+   "color": [
+    "#9AA",
+    "#2A3340"
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "build@#78",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V04-A04",
+  "name": "six-diamond tracker build",
+  "category": "graphic",
+  "element": "six-diamond tracker build",
+  "start_f": 120,
+  "end_f": 135,
+  "dur_ms": 500,
+  "props": {
+   "scale": [
+    0,
+    1
+   ]
+  },
+  "easing": "pop",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "pillars@#113 (\u0394+7)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V04-A05",
+  "name": "hard cut carousel to A-roll",
+  "category": "cut",
+  "element": "hard cut carousel to A-roll",
+  "start_f": 150,
+  "end_f": 150,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cut #150",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V04-A06",
+  "name": "diamond number badge enter (pillar 1)",
+  "category": "graphic",
+  "element": "diamond number badge enter (pillar 1)",
+  "start_f": 150,
+  "end_f": 172,
+  "dur_ms": 733,
+  "props": {
+   "cx_px": [
+    129.8,
+    142.5
+   ],
+   "luma": [
+    37,
+    87
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "first@#153 (\u0394-3)",
+  "evidence": "MEAS(position,luma),EST(ease)"
+ },
+ {
+  "id": "V04-A07",
+  "name": "pillar title wipe",
+  "category": "text",
+  "element": "pillar title wipe",
+  "start_f": 172,
+  "end_f": 190,
+  "dur_ms": 600,
+  "props": {
+   "clip_x_pct": [
+    0,
+    100
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "ordinal word",
+  "evidence": "EST"
+ },
+ {
+  "id": "V04-A08",
+  "name": "glass specimen panel rise",
+  "category": "graphic",
+  "element": "glass specimen panel rise",
+  "start_f": 205,
+  "end_f": 240,
+  "dur_ms": 1167,
+  "props": {
+   "cy_px": [
+    876,
+    795
+   ],
+   "height_px": [
+    338,
+    369
+   ]
+  },
+  "easing": "ease-out+overshoot",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "text@#205",
+  "evidence": "EST(rmse .222)"
+ },
+ {
+  "id": "V04-A09",
+  "name": "leader-line callouts",
+  "category": "graphic",
+  "element": "leader-line callouts",
+  "start_f": 220,
+  "end_f": 400,
+  "dur_ms": 6000,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Coolvetica@#253",
+  "evidence": "EST"
+ },
+ {
+  "id": "V04-A10",
+  "name": "five-star panel expand",
+  "category": "graphic",
+  "element": "five-star panel expand",
+  "start_f": 496,
+  "end_f": 545,
+  "dur_ms": 1633,
+  "props": {
+   "width_px": [
+    186,
+    299
+   ],
+   "height_px": [
+    17,
+    79
+   ]
+  },
+  "easing": "expo-like",
+  "bezier": [
+   0,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "five-star@#477 (\u0394+19)",
+  "evidence": "MEAS(rmse .033-.039)"
+ },
+ {
+  "id": "V04-A11",
+  "name": "listicle panel + diamonds pop",
+  "category": "graphic",
+  "element": "listicle panel + diamonds pop",
+  "start_f": 669,
+  "end_f": 715,
+  "dur_ms": 1533,
+  "props": {
+   "height_px": [
+    130,
+    259
+   ]
+  },
+  "easing": "expo-like",
+  "bezier": [
+   0,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "UI@#719 (\u0394-50)",
+  "evidence": "MEAS(rmse .040)"
+ },
+ {
+  "id": "V04-A12",
+  "name": "chapter badge slide",
+  "category": "graphic",
+  "element": "chapter badge slide",
+  "start_f": 868,
+  "end_f": 895,
+  "dur_ms": 900,
+  "props": {
+   "cx_px": [
+    211,
+    154
+   ]
+  },
+  "easing": "easeOutQuart\u2248",
+  "bezier": [
+   0.1,
+   0.6,
+   0.4,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "fourth@#874 (\u0394-6)",
+  "evidence": "MEAS(rmse .029)"
+ },
+ {
+  "id": "V04-A13",
+  "name": "Figma-style UI panel rise",
+  "category": "graphic",
+  "element": "Figma-style UI panel rise",
+  "start_f": 1112,
+  "end_f": 1150,
+  "dur_ms": 1267,
+  "props": {
+   "height_px": [
+    174,
+    545
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Figma@#1149 (\u0394-37)",
+  "evidence": "MEAS(\u2248,rmse .067),EST(cy)"
+ },
+ {
+  "id": "V04-A14",
+  "name": "effects-list panel",
+  "category": "graphic",
+  "element": "effects-list panel",
+  "start_f": 1312,
+  "end_f": 1385,
+  "dur_ms": 2433,
+  "props": {
+   "height_px": [
+    89,
+    319
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "visual@#1286",
+  "evidence": "MEAS(\u2248,rmse .081)"
+ },
+ {
+  "id": "V04-A15",
+  "name": "tutorial card rise",
+  "category": "graphic",
+  "element": "tutorial card rise",
+  "start_f": 1446,
+  "end_f": 1480,
+  "dur_ms": 1133,
+  "props": {
+   "height_px": [
+    199,
+    371
+   ],
+   "cx_px": [
+    534,
+    372
+   ],
+   "cy_px": [
+    1004,
+    878
+   ]
+  },
+  "easing": "spring-like",
+  "bezier": [
+   0.2,
+   1.4,
+   0.2,
+   1
+  ],
+  "overshoot_pct": 2,
+  "trigger_word": "tutorial@#1480 (\u0394-34)",
+  "evidence": "MEAS(height rmse .050),EST(cx,cy)"
+ },
+ {
+  "id": "V04-A16",
+  "name": "Style quote pop",
+  "category": "text",
+  "element": "Style quote pop",
+  "start_f": 1539,
+  "end_f": 1555,
+  "dur_ms": 533,
+  "props": {
+   "cx_px": [
+    304,
+    363
+   ]
+  },
+  "easing": "ease-out+overshoot",
+  "bezier": null,
+  "overshoot_pct": 12,
+  "trigger_word": "style@#1561 (\u0394-22)",
+  "evidence": "EST(rmse .290)"
+ },
+ {
+  "id": "V04-A17",
+  "name": "plain bold A-roll captions",
+  "category": "style",
+  "element": "plain bold A-roll captions",
+  "start_f": 1390,
+  "end_f": 1445,
+  "dur_ms": null,
+  "props": {},
+  "easing": "hard swap",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V04-A18",
+  "name": "panel dissolve",
+  "category": "transition",
+  "element": "panel dissolve",
+  "start_f": 390,
+  "end_f": 403,
+  "dur_ms": 433,
+  "props": {
+   "opacity": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "n/a",
+  "evidence": "EST"
+ }
+]

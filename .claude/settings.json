@@ -1,0 +1,21 @@
+{
+  "model": "sonnet",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "blockReadsOutsideWorkingDirectories": true,
+    "deny": [
+      "Edit(~/.zshrc)",
+      "Edit(~/.claude/**)",
+      "Edit(~/.claude.json)",
+      "Edit(~/Library/**)",
+      "Edit(~/Desktop/**)",
+      "Edit(~/Downloads/**)",
+      "Edit(~/Documents/rishi reels/**)",
+      "Edit(~/Documents/gradnext/**)"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  }
+}

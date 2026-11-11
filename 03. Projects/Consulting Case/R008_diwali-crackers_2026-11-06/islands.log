@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/rishi/Documents/Teaching Claude/DIff Acc/Consulting case reel edit/engine/islands.py", line 38, in <module>
+    j = json.load(open(f'{out}/{i:03d}.json', encoding='utf-8', errors='replace'))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'projects/R008_wip/isl/000.json'

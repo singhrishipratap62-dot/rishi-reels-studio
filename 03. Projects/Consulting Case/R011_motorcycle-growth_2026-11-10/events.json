@@ -1,0 +1,2447 @@
+{
+ "s1End": 3.5702333333333334,
+ "s2End": 5.6723333333333334,
+ "els": [
+  {
+   "t": 0,
+   "out": null,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ".cell{font-size:40px;border-radius:16px;"
+  },
+  {
+   "t": 5.94,
+   "out": 17.94,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Client"
+  },
+  {
+   "t": 7.407,
+   "out": 17.94,
+   "cls": "h1",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Motorcycle maker"
+  },
+  {
+   "t": 6.32,
+   "out": 17.94,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "100 years old"
+  },
+  {
+   "t": 10.06,
+   "out": 17.94,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Factory · 6,000 / mo"
+  },
+  {
+   "t": 13.13,
+   "out": 17.94,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Selling · 2,000 / mo"
+  },
+  {
+   "t": 17.04,
+   "out": 17.94,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "CEO asks"
+  },
+  {
+   "t": 7.407,
+   "out": 8.92,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 8.92,
+   "out": 17.94,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Bikes / month"
+  },
+  {
+   "t": 8.92,
+   "out": 17.94,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    10.06
+   ],
+   "states": [],
+   "moves": [],
+   "text": "Capacity 6,000"
+  },
+  {
+   "t": 13.13,
+   "out": 17.94,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    13.13
+   ],
+   "states": [],
+   "moves": [],
+   "text": "Selling 2,000"
+  },
+  {
+   "t": 15.55,
+   "out": 17.94,
+   "cls": "",
+   "m": "pop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "SHUT DOWN?"
+  },
+  {
+   "t": 17.94,
+   "out": 185.44,
+   "cls": "qbox",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [
+    62.497
+   ],
+   "text": "How do we grow it?"
+  },
+  {
+   "t": 24.92,
+   "out": 62.497,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Clarifying questions"
+  },
+  {
+   "t": 27.04,
+   "out": 62.497,
+   "cls": "qp",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Why not buying?"
+  },
+  {
+   "t": 31.32,
+   "out": 62.497,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 31.32,
+   "out": 62.497,
+   "cls": "ap",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Heavy · dated · unreliable"
+  },
+  {
+   "t": 38.78,
+   "out": 62.497,
+   "cls": "qp",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Who still buys?"
+  },
+  {
+   "t": 41.99,
+   "out": 62.497,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 41.99,
+   "out": 62.497,
+   "cls": "ap",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Loyal fans · older men"
+  },
+  {
+   "t": 48.4,
+   "out": 62.497,
+   "cls": "qp",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "How do we sell?"
+  },
+  {
+   "t": 50.74,
+   "out": 62.497,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 50.74,
+   "out": 62.497,
+   "cls": "ap",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "200 dealers × 10 / mo"
+  },
+  {
+   "t": 56.98,
+   "out": 62.497,
+   "cls": "fl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Test ride"
+  },
+  {
+   "t": 57.65,
+   "out": 62.497,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 57.65,
+   "out": 62.497,
+   "cls": "fv",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "1 in 5 buy"
+  },
+  {
+   "t": 59.55,
+   "out": 62.497,
+   "cls": "fl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Problem"
+  },
+  {
+   "t": 60.47,
+   "out": 62.497,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 60.47,
+   "out": 62.497,
+   "cls": "fv",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Very few test rides"
+  },
+  {
+   "t": 17.94,
+   "out": 24.92,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Selling vs capacity"
+  },
+  {
+   "t": 17.94,
+   "out": 24.92,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "2,000 / 6,000bikes a month"
+  },
+  {
+   "t": 24.92,
+   "out": 27.04,
+   "cls": "ph",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "? ? ?"
+  },
+  {
+   "t": 27.04,
+   "out": 38.78,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Customers think"
+  },
+  {
+   "t": 31.32,
+   "out": 38.78,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗ Heavy"
+  },
+  {
+   "t": 31.97,
+   "out": 38.78,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗ Old-fashioned"
+  },
+  {
+   "t": 32.89,
+   "out": 38.78,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗ Unreliable"
+  },
+  {
+   "t": 33.97,
+   "out": 38.78,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    35.7,
+    36.99
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "vs Japanese commuters CheaperBetter mile"
+  },
+  {
+   "t": 41.99,
+   "out": 48.4,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Loyal fans"
+  },
+  {
+   "t": 43.5,
+   "out": 48.4,
+   "cls": "mid",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Mostly older men"
+  },
+  {
+   "t": 45.58,
+   "out": 48.4,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "❤ The thump"
+  },
+  {
+   "t": 46.43,
+   "out": 48.4,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "❤ The history"
+  },
+  {
+   "t": 50.74,
+   "out": 56.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": true,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "dealers"
+  },
+  {
+   "t": 53.4,
+   "out": 56.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "× 10bikes each / mo"
+  },
+  {
+   "t": 54.05,
+   "out": 56.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "= 2,000 / mo"
+  },
+  {
+   "t": 56.98,
+   "out": 62.497,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Test rides"
+  },
+  {
+   "t": 57.65,
+   "out": 62.497,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    58.33
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "1 in 5 riders buy"
+  },
+  {
+   "t": 60.47,
+   "out": 62.497,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "But very few take one"
+  },
+  {
+   "t": 64.55,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 64.55,
+   "out": 185.44,
+   "cls": "axl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "0"
+  },
+  {
+   "t": 64.55,
+   "out": 185.44,
+   "cls": "axl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "2,000"
+  },
+  {
+   "t": 64.55,
+   "out": 185.44,
+   "cls": "axl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "4,000"
+  },
+  {
+   "t": 64.55,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    64.55
+   ],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 64.55,
+   "out": 185.44,
+   "cls": "mk",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Today2,000"
+  },
+  {
+   "t": 64.55,
+   "out": 185.44,
+   "cls": "mk",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "3x · capacity6,000"
+  },
+  {
+   "t": 66.67,
+   "out": 82.51,
+   "cls": "sub",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Same bike"
+  },
+  {
+   "t": 66.67,
+   "out": 82.51,
+   "cls": "sub",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "New product"
+  },
+  {
+   "t": 66.67,
+   "out": 82.51,
+   "cls": "sub",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Same customers"
+  },
+  {
+   "t": 66.67,
+   "out": 82.51,
+   "cls": "sub",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "New customers"
+  },
+  {
+   "t": 80.88,
+   "out": 82.51,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Ansoff matrix"
+  },
+  {
+   "t": 68.33,
+   "out": 185.44,
+   "cls": "cell",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    82.51,
+    105.98,
+    173.06
+   ],
+   "moves": [
+    82.51
+   ],
+   "text": "①"
+  },
+  {
+   "t": 70.86,
+   "out": 185.44,
+   "cls": "cell",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    105.98,
+    139.926,
+    173.06
+   ],
+   "moves": [
+    82.51
+   ],
+   "text": "②"
+  },
+  {
+   "t": 73.18,
+   "out": 185.44,
+   "cls": "cell",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    139.926,
+    158.966
+   ],
+   "moves": [
+    82.51
+   ],
+   "text": "③"
+  },
+  {
+   "t": 76.33,
+   "out": 185.44,
+   "cls": "cell",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    158.966,
+    173.06
+   ],
+   "moves": [
+    82.51
+   ],
+   "text": "④"
+  },
+  {
+   "t": 82.51,
+   "out": 185.44,
+   "cls": "tab",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    82.51,
+    105.98,
+    173.06
+   ],
+   "moves": [],
+   "text": "① Fans"
+  },
+  {
+   "t": 82.51,
+   "out": 185.44,
+   "cls": "tab",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    105.98,
+    139.926,
+    173.06
+   ],
+   "moves": [],
+   "text": "② Trials"
+  },
+  {
+   "t": 82.51,
+   "out": 185.44,
+   "cls": "tab",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    139.926,
+    158.966
+   ],
+   "moves": [],
+   "text": "③ Fix the bike"
+  },
+  {
+   "t": 82.51,
+   "out": 185.44,
+   "cls": "tab",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    158.966,
+    173.06
+   ],
+   "moves": [],
+   "text": "④ Accessories"
+  },
+  {
+   "t": 86.66,
+   "out": 105.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    89.09
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Fans = best salespeople → a channel"
+  },
+  {
+   "t": 91.93,
+   "out": 105.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Monthly group ride · every dealer"
+  },
+  {
+   "t": 95.31,
+   "out": 105.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    96.36
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Bring a buyer → free service"
+  },
+  {
+   "t": 98.89,
+   "out": 105.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    100.506
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "200 dealers × 5 more / mo"
+  },
+  {
+   "t": 103.87,
+   "out": 105.98,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "= +1,000 / mo"
+  },
+  {
+   "t": 103.87,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    103.87
+   ],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 103.87,
+   "out": 185.44,
+   "cls": "mk",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "① Fans+1,000"
+  },
+  {
+   "t": 110.45,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✓ Riders love it"
+  },
+  {
+   "t": 113.59,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗ Too few ever ride it"
+  },
+  {
+   "t": 120.976,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Goal: more first rides"
+  },
+  {
+   "t": 121.98,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    123.35,
+    123.38,
+    124.36
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Rentals: Goa · Manali · Leh"
+  },
+  {
+   "t": 128.34,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    130.05
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Doorstep test drives · online"
+  },
+  {
+   "t": 131.46,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "1 in 5 riders buy"
+  },
+  {
+   "t": 134.4,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "5,000 extra rides ÷ 5"
+  },
+  {
+   "t": 137.77,
+   "out": 139.926,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "= +1,000 / mo"
+  },
+  {
+   "t": 137.77,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    137.77
+   ],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 137.77,
+   "out": 185.44,
+   "cls": "mk",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "② Trials+1,000"
+  },
+  {
+   "t": 145.18,
+   "out": 158.966,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗ Heavy"
+  },
+  {
+   "t": 146.01,
+   "out": 158.966,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗ Breaks down"
+  },
+  {
+   "t": 149.1,
+   "out": 158.966,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✓ Fix reliability"
+  },
+  {
+   "t": 150.86,
+   "out": 158.966,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✓ Lighter version"
+  },
+  {
+   "t": 152.01,
+   "out": 158.966,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    152.39,
+    152.99,
+    153.61
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Keep: thump · shape · history"
+  },
+  {
+   "t": 158.18,
+   "out": 158.966,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Don’t lose the legacy"
+  },
+  {
+   "t": 164.07,
+   "out": 173.06,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Riding jackets"
+  },
+  {
+   "t": 164.8,
+   "out": 173.06,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Helmets"
+  },
+  {
+   "t": 165.573,
+   "out": 173.06,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Saddlebags"
+  },
+  {
+   "t": 166.58,
+   "out": 173.06,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Custom parts"
+  },
+  {
+   "t": 167.59,
+   "out": 173.06,
+   "cls": "sub",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Sold via dealers + online"
+  },
+  {
+   "t": 170.37,
+   "out": 173.06,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Every bike on the road = a customer agai"
+  },
+  {
+   "t": 173.06,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    176.31
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Start: ① + ② · no new factory or product"
+  },
+  {
+   "t": 179.78,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "③ Fix the bike in parallel"
+  },
+  {
+   "t": 180.84,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    184.89
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "④ Accessories once growing again"
+  },
+  {
+   "t": 173.06,
+   "out": 185.44,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 185.44,
+   "out": null,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    189.106
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Solving real consultant casesPart 45 Fol"
+  }
+ ],
+ "caps": [
+  [
+   0.01,
+   0.04,
+   0.54,
+   0.57
+  ],
+  [
+   0.86,
+   0.89,
+   1.76,
+   2.13
+  ],
+  [
+   2.48,
+   2.87,
+   2.9,
+   3.23
+  ],
+  [
+   3.6,
+   3.72,
+   3.86,
+   3.89
+  ],
+  [
+   4.21,
+   4.41,
+   4.99
+  ],
+  [
+   5.68
+  ],
+  [
+   5.94
+  ],
+  [
+   5.97
+  ],
+  [
+   6.25
+  ],
+  [
+   6.32
+  ],
+  [
+   7.407,
+   8.06
+  ],
+  [
+   8.77,
+   8.92,
+   9.37,
+   9.6
+  ],
+  [
+   10.06,
+   10.84,
+   11.27,
+   11.3
+  ],
+  [
+   12.03,
+   12.18,
+   12.4
+  ],
+  [
+   12.87,
+   13.13
+  ],
+  [
+   14.07,
+   14.14,
+   14.34,
+   14.68
+  ],
+  [
+   15.2,
+   15.55,
+   16.06,
+   16.34
+  ],
+  [
+   16.76,
+   17.04,
+   17.263,
+   17.57
+  ],
+  [
+   17.94,
+   18.05,
+   18.44
+  ],
+  [
+   18.47,
+   18.95
+  ],
+  [
+   19.76,
+   19.9,
+   20.04,
+   20.263
+  ],
+  [
+   20.443,
+   20.84,
+   21.18
+  ],
+  [
+   21.29,
+   21.97
+  ],
+  [
+   22.56,
+   22.75,
+   23.35
+  ],
+  [
+   23.38,
+   23.69
+  ],
+  [
+   24.3,
+   24.47,
+   24.86
+  ],
+  [
+   24.89,
+   24.92,
+   25.66
+  ],
+  [
+   26.23,
+   26.65
+  ],
+  [
+   27.04,
+   27.17,
+   27.8
+  ],
+  [
+   28.19,
+   28.86,
+   29.29
+  ],
+  [
+   29.32,
+   29.78,
+   30
+  ],
+  [
+   30.29,
+   30.56,
+   30.73
+  ],
+  [
+   30.76,
+   31.18,
+   31.32
+  ],
+  [
+   31.97
+  ],
+  [
+   32.67,
+   32.89
+  ],
+  [
+   33.93,
+   33.97,
+   34.78
+  ],
+  [
+   35.17,
+   35.67,
+   35.7
+  ],
+  [
+   36.33,
+   36.36,
+   36.6,
+   36.99
+  ],
+  [
+   37.76,
+   38.09,
+   38.75
+  ],
+  [
+   38.78,
+   39.08,
+   39.34
+  ],
+  [
+   39.69,
+   39.72
+  ],
+  [
+   40.46,
+   40.55,
+   40.95,
+   41.17
+  ],
+  [
+   41.423,
+   41.8,
+   41.99,
+   42.48
+  ],
+  [
+   42.86,
+   43.5,
+   43.883
+  ],
+  [
+   44.33,
+   44.36,
+   44.88,
+   45.06
+  ],
+  [
+   45.58,
+   46.08,
+   46.27,
+   46.43
+  ],
+  [
+   47.15,
+   47.69,
+   48.04
+  ],
+  [
+   48.4,
+   48.43,
+   48.46
+  ],
+  [
+   48.49,
+   48.74
+  ],
+  [
+   49.68,
+   49.78,
+   49.98
+  ],
+  [
+   50.74,
+   51.43
+  ],
+  [
+   52.23,
+   52.26,
+   52.93,
+   53.4
+  ],
+  [
+   53.653,
+   54.02,
+   54.05
+  ],
+  [
+   54.76,
+   55.04,
+   55.51,
+   55.95
+  ],
+  [
+   56.44,
+   56.79,
+   56.98,
+   57.29
+  ],
+  [
+   57.65,
+   57.79,
+   57.82
+  ],
+  [
+   58.073,
+   58.3,
+   58.33
+  ],
+  [
+   59.3,
+   59.55,
+   60.13
+  ],
+  [
+   60.16,
+   60.47,
+   60.83
+  ],
+  [
+   61.5,
+   61.53,
+   62.12
+  ],
+  [
+   62.497,
+   62.65,
+   62.84
+  ],
+  [
+   62.87,
+   63.107,
+   63.41
+  ],
+  [
+   63.657,
+   63.82,
+   63.93
+  ],
+  [
+   64.55,
+   65.05,
+   65.3
+  ],
+  [
+   66.11,
+   66.14,
+   66.17
+  ],
+  [
+   66.64,
+   66.67,
+   66.897
+  ],
+  [
+   67.14,
+   67.17,
+   67.55
+  ],
+  [
+   68.3,
+   68.33,
+   68.64,
+   68.92
+  ],
+  [
+   69.14,
+   69.42,
+   69.72
+  ],
+  [
+   70.83,
+   70.86,
+   71.11
+  ],
+  [
+   71.86,
+   71.89,
+   71.92
+  ],
+  [
+   73.18,
+   73.21,
+   73.83
+  ],
+  [
+   74.03,
+   74.16,
+   74.41
+  ],
+  [
+   76.33,
+   77.15,
+   77.69
+  ],
+  [
+   77.9,
+   77.93
+  ],
+  [
+   79.2,
+   79.47,
+   79.81
+  ],
+  [
+   80,
+   80.29,
+   80.46
+  ],
+  [
+   80.74,
+   80.88,
+   81.35
+  ],
+  [
+   82.51,
+   82.82,
+   82.85
+  ],
+  [
+   83.41,
+   83.69
+  ],
+  [
+   84.97,
+   85.26,
+   85.68
+  ],
+  [
+   85.87,
+   86.186,
+   86.66
+  ],
+  [
+   87.876,
+   88.03,
+   88.32
+  ],
+  [
+   88.62,
+   89.06,
+   89.09
+  ],
+  [
+   89.7,
+   90.13,
+   90.63,
+   91.12
+  ],
+  [
+   91.22,
+   91.93,
+   92.39
+  ],
+  [
+   93.02,
+   93.37,
+   93.9,
+   94.16
+  ],
+  [
+   94.58,
+   94.82,
+   95.28,
+   95.31
+  ],
+  [
+   96.07,
+   96.19,
+   96.36,
+   96.73
+  ],
+  [
+   97.75,
+   97.91,
+   98.24,
+   98.52
+  ],
+  [
+   98.89,
+   99.158,
+   99.48,
+   99.96
+  ],
+  [
+   100.506,
+   100.68,
+   101.034,
+   101.45
+  ],
+  [
+   101.62,
+   102.39,
+   102.54
+  ],
+  [
+   103.32,
+   103.46,
+   103.87
+  ],
+  [
+   104.52,
+   104.92
+  ],
+  [
+   105.98,
+   106.29,
+   106.67
+  ],
+  [
+   107.6,
+   107.63,
+   107.92
+  ],
+  [
+   108.95,
+   109.16,
+   109.38,
+   109.86
+  ],
+  [
+   110.06,
+   110.45,
+   110.48
+  ],
+  [
+   111.28,
+   111.62,
+   112.82,
+   112.93
+  ],
+  [
+   113.3,
+   113.59,
+   113.65,
+   114.4
+  ],
+  [
+   114.43,
+   114.936
+  ],
+  [
+   115.1,
+   115.38,
+   115.49,
+   116.25
+  ],
+  [
+   116.28,
+   116.75,
+   116.95,
+   117.246
+  ],
+  [
+   117.84,
+   118.31,
+   118.34,
+   118.37
+  ],
+  [
+   118.65,
+   119.16,
+   119.46
+  ],
+  [
+   120.02,
+   120.05
+  ],
+  [
+   120.24,
+   120.76,
+   120.976
+  ],
+  [
+   121.833,
+   121.98,
+   122.67
+  ],
+  [
+   123.06,
+   123.35
+  ],
+  [
+   123.38,
+   124.103,
+   124.36
+  ],
+  [
+   125.173,
+   125.29,
+   125.71,
+   126.01
+  ],
+  [
+   126.3,
+   126.77,
+   126.8
+  ],
+  [
+   127.71,
+   127.86,
+   128.34,
+   128.97
+  ],
+  [
+   129.26,
+   129.58,
+   130.05
+  ],
+  [
+   131.21,
+   131.46,
+   131.74,
+   131.77
+  ],
+  [
+   132.32,
+   132.69,
+   133.17,
+   133.47
+  ],
+  [
+   134.25,
+   134.4,
+   135.54
+  ],
+  [
+   135.82,
+   136.14,
+   136.74
+  ],
+  [
+   136.77,
+   137.386,
+   137.71
+  ],
+  [
+   137.74,
+   137.77,
+   138.34,
+   138.686
+  ],
+  [
+   139.926,
+   140.566,
+   140.7,
+   141.17
+  ],
+  [
+   141.42,
+   141.59,
+   141.77
+  ],
+  [
+   143.083,
+   143.24,
+   143.673,
+   144.01
+  ],
+  [
+   144.18,
+   144.73,
+   145.18
+  ],
+  [
+   145.863,
+   146.01,
+   146.45
+  ],
+  [
+   147.179,
+   147.29,
+   147.55,
+   148.21
+  ],
+  [
+   148.65,
+   148.96,
+   149.1
+  ],
+  [
+   150.11,
+   150.44,
+   150.736
+  ],
+  [
+   150.86,
+   151.28
+  ],
+  [
+   151.7,
+   152.01,
+   152.15,
+   152.39
+  ],
+  [
+   152.96,
+   152.99,
+   153.2
+  ],
+  [
+   153.39,
+   153.61
+  ],
+  [
+   153.96,
+   154.24,
+   154.71
+  ],
+  [
+   154.8,
+   155.2,
+   155.4
+  ],
+  [
+   155.9,
+   155.93,
+   156.15
+  ],
+  [
+   156.37,
+   156.53,
+   156.56,
+   157.09
+  ],
+  [
+   157.12,
+   157.386,
+   157.58,
+   157.61
+  ],
+  [
+   157.91,
+   158.18
+  ],
+  [
+   158.966,
+   159.3,
+   159.57
+  ],
+  [
+   160.28,
+   160.62,
+   160.65
+  ],
+  [
+   161.49,
+   162.21,
+   162.963
+  ],
+  [
+   163.633,
+   164.07
+  ],
+  [
+   164.8,
+   165.573,
+   166.393
+  ],
+  [
+   166.58,
+   167,
+   167.38
+  ],
+  [
+   167.59,
+   168.05,
+   168.35
+  ],
+  [
+   169.026,
+   169.21,
+   169.616,
+   170.1
+  ],
+  [
+   170.34,
+   170.37,
+   170.65,
+   171.39
+  ],
+  [
+   171.42,
+   171.92
+  ],
+  [
+   172.59,
+   172.95,
+   173.06,
+   173.53
+  ],
+  [
+   173.56,
+   173.94,
+   174.3
+  ],
+  [
+   174.51,
+   175.49,
+   175.78,
+   176.31
+  ],
+  [
+   176.91,
+   176.94,
+   177.08,
+   177.42
+  ],
+  [
+   177.66,
+   177.69,
+   177.72
+  ],
+  [
+   178.53,
+   178.72,
+   179.06,
+   179.42
+  ],
+  [
+   179.45,
+   179.78,
+   180.35,
+   180.81
+  ],
+  [
+   180.84,
+   181.82,
+   181.85,
+   182.24
+  ],
+  [
+   182.81,
+   183.61,
+   183.9,
+   184.09
+  ],
+  [
+   184.66,
+   184.89,
+   185.13
+  ],
+  [
+   185.44,
+   185.47,
+   185.69
+  ],
+  [
+   185.99,
+   186.42,
+   186.56
+  ],
+  [
+   187.15,
+   187.43,
+   188.27
+  ],
+  [
+   189.106,
+   189.546,
+   189.606,
+   189.96
+  ]
+ ],
+ "hookWords": [
+  0.01,
+  0.04,
+  0.54,
+  0.57,
+  0.86,
+  0.89,
+  1.76,
+  2.13,
+  2.48,
+  2.87,
+  2.9,
+  3.23
+ ]
+}

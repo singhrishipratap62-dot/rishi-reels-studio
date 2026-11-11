@@ -1,0 +1,2047 @@
+{
+ "s1End": 4.471133333333333,
+ "s2End": 6.6066,
+ "els": [
+  {
+   "t": 6.97,
+   "out": 16.51,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Client"
+  },
+  {
+   "t": 7.46,
+   "out": 16.51,
+   "cls": "h1",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Ropeway operator"
+  },
+  {
+   "t": 8.56,
+   "out": 16.51,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "State govt contract"
+  },
+  {
+   "t": 10.27,
+   "out": 16.51,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Build + run"
+  },
+  {
+   "t": 12.34,
+   "out": 16.51,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Up to a hill temple"
+  },
+  {
+   "t": 13.75,
+   "out": 16.51,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Government asks"
+  },
+  {
+   "t": 11.01,
+   "out": 25.68,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 16.51,
+   "out": 143.86,
+   "cls": "qbox",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [
+    70.58
+   ],
+   "text": "What ticket price to approve?"
+  },
+  {
+   "t": 22.99,
+   "out": 70.58,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Clarifying questions"
+  },
+  {
+   "t": 25.68,
+   "out": 70.58,
+   "cls": "qp",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Objective?"
+  },
+  {
+   "t": 29.55,
+   "out": 70.58,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 29.55,
+   "out": 70.58,
+   "cls": "ap",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    33.95
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Recover cost + affordable"
+  },
+  {
+   "t": 35.65,
+   "out": 70.58,
+   "cls": "qp",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "How today?"
+  },
+  {
+   "t": 38.32,
+   "out": 70.58,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 38.32,
+   "out": 70.58,
+   "cls": "ap",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "1 cr pilgrims / yr"
+  },
+  {
+   "t": 43.56,
+   "out": 70.58,
+   "cls": "fl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Pony · Helicopter"
+  },
+  {
+   "t": 44.47,
+   "out": 70.58,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 44.47,
+   "out": 70.58,
+   "cls": "fv",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    47.59
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "₹1,500 · ₹3,000"
+  },
+  {
+   "t": 49.64,
+   "out": 70.58,
+   "cls": "qp",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Carry everyone?"
+  },
+  {
+   "t": 52.66,
+   "out": 70.58,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 52.66,
+   "out": 70.58,
+   "cls": "ap",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    54.67
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "No · 40 lakh trips / yr"
+  },
+  {
+   "t": 57.04,
+   "out": 70.58,
+   "cls": "fl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Cost (30 yrs)"
+  },
+  {
+   "t": 57.75,
+   "out": 70.58,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 57.75,
+   "out": 70.58,
+   "cls": "fv",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "₹2,000 cr"
+  },
+  {
+   "t": 63.06,
+   "out": 70.58,
+   "cls": "fl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Demand @ ₹300"
+  },
+  {
+   "t": 64.72,
+   "out": 70.58,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 64.72,
+   "out": 70.58,
+   "cls": "fv",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "7 in 10"
+  },
+  {
+   "t": 67.31,
+   "out": 70.58,
+   "cls": "fl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Demand @ ₹600"
+  },
+  {
+   "t": 69.18,
+   "out": 70.58,
+   "cls": "arrow",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "→"
+  },
+  {
+   "t": 69.18,
+   "out": 70.58,
+   "cls": "fv",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "4 in 10"
+  },
+  {
+   "t": 25.68,
+   "out": 35.65,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Client wants"
+  },
+  {
+   "t": 29.55,
+   "out": 35.65,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "① Recover cost · 30 yrs"
+  },
+  {
+   "t": 33.95,
+   "out": 35.65,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "② Affordable for pilgrims"
+  },
+  {
+   "t": 35.65,
+   "out": 38.32,
+   "cls": "ph",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "? ? ?"
+  },
+  {
+   "t": 38.32,
+   "out": 40.72,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": true,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "pilgrims a year"
+  },
+  {
+   "t": 41.38,
+   "out": 49.64,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    42.05
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Walk4 hrs"
+  },
+  {
+   "t": 43.56,
+   "out": 49.64,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    44.47
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Pony₹1,500"
+  },
+  {
+   "t": 46.4,
+   "out": 49.64,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    47.59
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Helicopter₹3,000"
+  },
+  {
+   "t": 49.64,
+   "out": 54.67,
+   "cls": "ph",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "? ? ?"
+  },
+  {
+   "t": 54.67,
+   "out": 57.75,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": true,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 54.870000000000005,
+   "out": 57.75,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "1 cr pilgrims40 lakhseats / yr"
+  },
+  {
+   "t": 57.75,
+   "out": 61.71,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": true,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Build + run · 30 yrs"
+  },
+  {
+   "t": 61.71,
+   "out": 70.58,
+   "cls": "lbl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Survey · would ride"
+  },
+  {
+   "t": 63.06,
+   "out": 70.58,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    64.72
+   ],
+   "states": [],
+   "moves": [],
+   "text": "₹300 7 in 10"
+  },
+  {
+   "t": 67.31,
+   "out": 70.58,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    69.18
+   ],
+   "states": [],
+   "moves": [],
+   "text": "₹600 4 in 10"
+  },
+  {
+   "t": 74.42,
+   "out": 143.86,
+   "cls": "tab",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    77.5,
+    87.9
+   ],
+   "moves": [],
+   "text": "Cost"
+  },
+  {
+   "t": 74.99,
+   "out": 143.86,
+   "cls": "tab",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    87.9,
+    99.31
+   ],
+   "moves": [],
+   "text": "Competition"
+  },
+  {
+   "t": 76.2,
+   "out": 143.86,
+   "cls": "tab",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [
+    99.31,
+    112.77
+   ],
+   "moves": [],
+   "text": "Value"
+  },
+  {
+   "t": 74.42,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 74.42,
+   "out": 143.86,
+   "cls": "axl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "₹0"
+  },
+  {
+   "t": 74.42,
+   "out": 143.86,
+   "cls": "axl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "₹1,000"
+  },
+  {
+   "t": 74.42,
+   "out": 143.86,
+   "cls": "axl",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "₹2,000"
+  },
+  {
+   "t": 112.11999999999999,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    112.11999999999999
+   ],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 87.2,
+   "out": 143.86,
+   "cls": "mk",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Floor₹170"
+  },
+  {
+   "t": 91.21,
+   "out": 143.86,
+   "cls": "",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Pony ₹1,500"
+  },
+  {
+   "t": 93.8,
+   "out": 143.86,
+   "cls": "",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Helicopter ₹3,000"
+  },
+  {
+   "t": 112.02,
+   "out": 143.86,
+   "cls": "mk",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Ceiling₹1,500"
+  },
+  {
+   "t": 116.19,
+   "out": 143.86,
+   "cls": "",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "₹300"
+  },
+  {
+   "t": 129.62,
+   "out": 143.86,
+   "cls": "mk",
+   "m": "drop",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    129.77
+   ],
+   "states": [],
+   "moves": [],
+   "text": "Our price₹600"
+  },
+  {
+   "t": 78.36,
+   "out": 87.9,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "40 lakh trips × 30 yrs"
+  },
+  {
+   "t": 81.5,
+   "out": 87.9,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "= 12 cr trips"
+  },
+  {
+   "t": 83.14,
+   "out": 87.9,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "₹2,000 cr ÷ 12 cr trips"
+  },
+  {
+   "t": 85.15,
+   "out": 87.9,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "≈ ₹170 / trip"
+  },
+  {
+   "t": 89.19,
+   "out": 99.31,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "WalkFree"
+  },
+  {
+   "t": 90.76,
+   "out": 99.31,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Pony₹1,500"
+  },
+  {
+   "t": 92.98,
+   "out": 99.31,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Helicopter₹3,000"
+  },
+  {
+   "t": 98.41,
+   "out": 99.31,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 98.41,
+   "out": 99.31,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Benchmark"
+  },
+  {
+   "t": 101.42,
+   "out": 112.77,
+   "cls": "",
+   "m": "",
+   "svg": true,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 102.58,
+   "out": 112.77,
+   "cls": "mid",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Saves ~4 hrs"
+  },
+  {
+   "t": 105.23,
+   "out": 112.77,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "More comfortable than a pony"
+  },
+  {
+   "t": 108.85,
+   "out": 112.77,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Willing to pay ≥ ₹1,500"
+  },
+  {
+   "t": 112.77,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Charge the floor (₹170)?"
+  },
+  {
+   "t": 115.46,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    115.46
+   ],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 115.46,
+   "out": 143.86,
+   "cls": "",
+   "m": "pop",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗"
+  },
+  {
+   "t": 117.03,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    117.03
+   ],
+   "states": [],
+   "moves": [],
+   "text": "@ ₹300 · 70 lakh want"
+  },
+  {
+   "t": 120.67,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": ""
+  },
+  {
+   "t": 120.67,
+   "out": 129.62,
+   "cls": "sub",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Capacity 40 lakh"
+  },
+  {
+   "t": 122.11,
+   "out": 129.62,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Queue: hours to clear"
+  },
+  {
+   "t": 125.49,
+   "out": 129.62,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "✗ Wipes out time saved"
+  },
+  {
+   "t": 130.99,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": true,
+   "grid": false,
+   "subs": [],
+   "bars": [
+    130.99
+   ],
+   "states": [],
+   "moves": [],
+   "text": "@ ₹600 · 40 lakh"
+  },
+  {
+   "t": 134.23,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "= capacity ✓"
+  },
+  {
+   "t": 135.85,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "< ½ pony fare (₹750)"
+  },
+  {
+   "t": 140.08,
+   "out": 143.86,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "40 lakh × ₹600 = ₹240 cr / yr"
+  },
+  {
+   "t": 142.35,
+   "out": 143.86,
+   "cls": "sub",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "vs ₹2,000 cr cost (30 yrs)"
+  },
+  {
+   "t": 143.86,
+   "out": null,
+   "cls": "",
+   "m": "",
+   "svg": false,
+   "count": false,
+   "bar": false,
+   "grid": false,
+   "subs": [
+    147.11
+   ],
+   "bars": [],
+   "states": [],
+   "moves": [],
+   "text": "Solving real consultant casesPart 42 Fol"
+  }
+ ],
+ "caps": [
+  [
+   0.08,
+   0.26,
+   0.29
+  ],
+  [
+   0.52,
+   0.92,
+   0.95
+  ],
+  [
+   1.28,
+   1.48,
+   1.73
+  ],
+  [
+   2.21,
+   2.24,
+   2.42
+  ],
+  [
+   2.73,
+   3.15,
+   3.51
+  ],
+  [
+   3.69,
+   3.87
+  ],
+  [
+   4.53,
+   4.76,
+   4.86,
+   4.89
+  ],
+  [
+   5.15,
+   5.32,
+   5.9
+  ],
+  [
+   6.68,
+   6.97,
+   7.27
+  ],
+  [
+   7.36,
+   7.46,
+   7.83
+  ],
+  [
+   8.07,
+   8.28,
+   8.5
+  ],
+  [
+   8.56,
+   8.9,
+   9.59
+  ],
+  [
+   10.11,
+   10.27,
+   10.56
+  ],
+  [
+   10.77,
+   10.8,
+   11.01
+  ],
+  [
+   11.77,
+   12.04,
+   12.07
+  ],
+  [
+   12.1,
+   12.34,
+   12.82
+  ],
+  [
+   13.57,
+   13.75,
+   14.34
+  ],
+  [
+   14.37,
+   14.68,
+   14.86
+  ],
+  [
+   15.45,
+   15.63,
+   16.13
+  ],
+  [
+   16.51,
+   16.54,
+   17.09
+  ],
+  [
+   17.34,
+   17.74,
+   17.89
+  ],
+  [
+   18.64,
+   18.72,
+   18.86,
+   19.02
+  ],
+  [
+   19.05,
+   19.53,
+   19.82
+  ],
+  [
+   20.01,
+   20.56
+  ],
+  [
+   21.13,
+   21.36,
+   21.74
+  ],
+  [
+   21.92,
+   21.95
+  ],
+  [
+   22.55,
+   22.58,
+   22.96
+  ],
+  [
+   22.99,
+   24.22
+  ],
+  [
+   24.62,
+   24.9
+  ],
+  [
+   25.26,
+   25.48,
+   25.51,
+   25.68
+  ],
+  [
+   26.54,
+   26.89,
+   27.2
+  ],
+  [
+   27.59,
+   27.81
+  ],
+  [
+   28.45,
+   28.66,
+   29.21
+  ],
+  [
+   29.55,
+   30.14,
+   30.35
+  ],
+  [
+   30.87,
+   31.05,
+   31.25
+  ],
+  [
+   31.68,
+   31.71
+  ],
+  [
+   32.74,
+   32.77,
+   32.96
+  ],
+  [
+   33.31,
+   33.47,
+   33.72
+  ],
+  [
+   33.95,
+   34.6,
+   34.84
+  ],
+  [
+   35.65,
+   35.69,
+   35.72
+  ],
+  [
+   36.22,
+   36.4,
+   36.53
+  ],
+  [
+   37.11,
+   37.46,
+   37.96
+  ],
+  [
+   38.32,
+   38.35,
+   38.71
+  ],
+  [
+   39.88,
+   40.21,
+   40.51
+  ],
+  [
+   40.72,
+   41.38,
+   41.58
+  ],
+  [
+   42.05,
+   42.31
+  ],
+  [
+   42.95,
+   43.18,
+   43.53,
+   43.56
+  ],
+  [
+   44.04,
+   44.47,
+   45.13
+  ],
+  [
+   45.85,
+   45.88,
+   45.91
+  ],
+  [
+   46.08,
+   46.37,
+   46.4
+  ],
+  [
+   47.25,
+   47.59,
+   48.17
+  ],
+  [
+   48.76,
+   48.9,
+   49.11
+  ],
+  [
+   49.64,
+   50,
+   50.15
+  ],
+  [
+   50.63,
+   51.12
+  ],
+  [
+   51.95,
+   52.19,
+   52.66
+  ],
+  [
+   52.77,
+   52.99,
+   53.39,
+   53.93
+  ],
+  [
+   54.45,
+   54.67,
+   55.37,
+   55.71
+  ],
+  [
+   56.18,
+   56.21
+  ],
+  [
+   56.76,
+   57.01,
+   57.04
+  ],
+  [
+   57.39,
+   57.75,
+   58.58
+  ],
+  [
+   59.09,
+   59.12,
+   59.33
+  ],
+  [
+   59.88,
+   60.31,
+   60.56,
+   61.01
+  ],
+  [
+   61.71,
+   62.11,
+   62.34,
+   62.73
+  ],
+  [
+   63.06,
+   63.38,
+   64.03,
+   64.18
+  ],
+  [
+   64.72,
+   65.2,
+   65.23,
+   65.52
+  ],
+  [
+   66.01,
+   66.3,
+   66.53
+  ],
+  [
+   67.17,
+   67.2,
+   67.31,
+   68.02
+  ],
+  [
+   68.68,
+   69.18,
+   69.21
+  ],
+  [
+   69.24,
+   69.65
+  ],
+  [
+   70.58,
+   70.8,
+   70.95
+  ],
+  [
+   70.98,
+   71.21,
+   71.58
+  ],
+  [
+   72.15,
+   72.58
+  ],
+  [
+   72.78,
+   73.31
+  ],
+  [
+   73.99,
+   74.42,
+   74.47
+  ],
+  [
+   74.99,
+   75.61,
+   75.9
+  ],
+  [
+   76.2
+  ],
+  [
+   76.69,
+   77.07,
+   77.5,
+   77.54
+  ],
+  [
+   78.36,
+   78.63,
+   79.06
+  ],
+  [
+   79.3,
+   79.4,
+   80.11
+  ],
+  [
+   80.34,
+   80.64,
+   81.18
+  ],
+  [
+   81.21,
+   81.5,
+   82.06,
+   82.41
+  ],
+  [
+   83.14,
+   83.73,
+   83.82,
+   84.28
+  ],
+  [
+   84.55,
+   84.89,
+   84.92,
+   85.15
+  ],
+  [
+   85.65,
+   85.91,
+   85.99
+  ],
+  [
+   86.82,
+   86.95,
+   87.2
+  ],
+  [
+   87.9,
+   88.16
+  ],
+  [
+   89.19,
+   89.62,
+   89.85
+  ],
+  [
+   90.44,
+   90.76,
+   90.79
+  ],
+  [
+   91.21,
+   92.15
+  ],
+  [
+   92.5,
+   92.78,
+   92.98
+  ],
+  [
+   93.77,
+   93.8,
+   94.4
+  ],
+  [
+   95.28,
+   95.53,
+   95.8,
+   96.11
+  ],
+  [
+   96.52,
+   96.97,
+   97.2
+  ],
+  [
+   97.49,
+   97.82,
+   97.85
+  ],
+  [
+   98.25,
+   98.41
+  ],
+  [
+   99.31,
+   99.83,
+   99.86,
+   100.01
+  ],
+  [
+   100.65,
+   100.93,
+   101.42,
+   102
+  ],
+  [
+   102.58,
+   102.61,
+   103.49,
+   103.52
+  ],
+  [
+   103.99,
+   104.37,
+   104.83,
+   105.2
+  ],
+  [
+   105.23,
+   106.21,
+   106.51,
+   106.77
+  ],
+  [
+   107.06,
+   107.25,
+   107.9,
+   108.41
+  ],
+  [
+   108.85,
+   109.35,
+   109.38,
+   109.86
+  ],
+  [
+   110.01,
+   110.32,
+   110.52
+  ],
+  [
+   111.41,
+   111.81,
+   112.02
+  ],
+  [
+   112.77,
+   112.89,
+   113.11,
+   113.39
+  ],
+  [
+   113.75,
+   114.05,
+   114.08,
+   114.32
+  ],
+  [
+   114.5,
+   114.66
+  ],
+  [
+   115.46
+  ],
+  [
+   115.71,
+   116.19
+  ],
+  [
+   116.49,
+   117.03,
+   117.51,
+   117.83
+  ],
+  [
+   118.52,
+   118.92,
+   119.24,
+   119.27
+  ],
+  [
+   119.56,
+   119.59,
+   119.74
+  ],
+  [
+   120.19,
+   120.67,
+   121.29
+  ],
+  [
+   121.75,
+   122.11,
+   122.14,
+   122.17
+  ],
+  [
+   122.55,
+   123.03,
+   123.5,
+   123.89
+  ],
+  [
+   124.2,
+   124.41
+  ],
+  [
+   124.68,
+   125.44,
+   125.49
+  ],
+  [
+   125.95,
+   126.25,
+   126.53
+  ],
+  [
+   127.14,
+   127.17,
+   127.69
+  ],
+  [
+   128.19,
+   128.51,
+   128.74,
+   128.86
+  ],
+  [
+   129.37,
+   129.62,
+   130.27
+  ],
+  [
+   130.68,
+   130.99,
+   131.56
+  ],
+  [
+   131.79,
+   132.31,
+   132.71
+  ],
+  [
+   133.21,
+   133.4,
+   133.69
+  ],
+  [
+   133.96,
+   134.23
+  ],
+  [
+   134.98,
+   135.46,
+   135.58,
+   135.85
+  ],
+  [
+   136.13,
+   136.4,
+   136.63
+  ],
+  [
+   136.99,
+   137.22,
+   137.31,
+   137.82
+  ],
+  [
+   138.6,
+   138.97,
+   139.09,
+   139.54
+  ],
+  [
+   139.57,
+   140.08,
+   140.79,
+   141.17
+  ],
+  [
+   141.2,
+   141.81,
+   142.13,
+   142.35
+  ],
+  [
+   143.31,
+   143.68
+  ],
+  [
+   143.86,
+   144.18,
+   144.41
+  ],
+  [
+   144.64,
+   145.02,
+   145.17
+  ],
+  [
+   145.7,
+   145.9,
+   146.74
+  ],
+  [
+   147.11,
+   147.7,
+   147.83,
+   148.03
+  ]
+ ],
+ "hookWords": [
+  0.08,
+  0.26,
+  0.29,
+  0.52,
+  0.92,
+  0.95,
+  1.28,
+  1.48,
+  1.73,
+  2.21,
+  2.24,
+  2.42,
+  2.73,
+  3.15,
+  3.51,
+  3.69,
+  3.87
+ ]
+}

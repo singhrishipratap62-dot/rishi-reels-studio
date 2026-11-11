@@ -1,0 +1,295 @@
+{
+ "_note": "Beer case (4 Nov 2026). Phrase fixes are case-specific; word rules are the recurring Whisper-base jargon errors.",
+ "phrases": [
+  [
+   "Aditya Yog Lion is a",
+   "Aditya, your client is a"
+  ],
+  [
+   "100K barons,",
+   "100K barrels,"
+  ],
+  [
+   "they have to move to the station.",
+   "they have two channels."
+  ],
+  [
+   "the value gene",
+   "the value chain"
+  ],
+  [
+   "information on board contribution? Each",
+   "information on what contribution each"
+  ],
+  [
+   "500K balance.",
+   "500K barrels."
+  ],
+  [
+   "500K balance out",
+   "500K barrels out"
+  ],
+  [
+   "goes to crabming, cans.",
+   "goes to canning, cans."
+  ],
+  [
+   "200K battles for",
+   "200K barrels for"
+  ],
+  [
+   "number of batteries as",
+   "number of barrels as"
+  ],
+  [
+   "whichever links better",
+   "whichever leads to better"
+  ],
+  [
+   "let's go to the NPV",
+   "let's not go to the NPV"
+  ],
+  [
+   "that battle of that cake?",
+   "that keg?"
+  ],
+  [
+   "storage or obsidian cost that or",
+   "storage or upkeep costs or"
+  ],
+  [
+   "average your annual",
+   "average annual"
+  ],
+  [
+   "investing the $420 million,",
+   "investing the $20 million,"
+  ],
+  [
+   "the $400,000 cakes",
+   "the 400,000 kegs"
+  ],
+  [
+   "look at it earlier time horizon.",
+   "look at it over a 10-year time horizon."
+  ],
+  [
+   "At our 10-year",
+   "At a 10-year"
+  ],
+  [
+   "translate into a scan?",
+   "translate into in cans?"
+  ],
+  [
+   "Downs in a barrel.",
+   "Cans in a barrel?"
+  ],
+  [
+   "cost per scan",
+   "cost per can"
+  ],
+  [
+   "number of scans",
+   "number of cans"
+  ],
+  [
+   "We explain the difference",
+   "Let me explain the difference"
+  ],
+  [
+   "600 cases for other older machines, for example,",
+   "600 cases for the older machine, for example,"
+  ],
+  [
+   "cases for our after",
+   "cases before or after"
+  ],
+  [
+   "case of times?",
+   "case of cans?"
+  ],
+  [
+   "change or limit?",
+   "change or not?"
+  ],
+  [
+   "second 1/7%.",
+   "second, 7%."
+  ],
+  [
+   "would say the same.",
+   "would stay the same."
+  ],
+  [
+   "or a portion cost",
+   "or apportioned cost"
+  ],
+  [
+   "That gives us $175 a case.",
+   "That gives us $175K."
+  ],
+  [
+   "hours for 12 million cases.",
+   "hours for 1,200 cases an hour."
+  ],
+  [
+   "without a company for wastage.",
+   "without accounting for wastage."
+  ],
+  [
+   "we get $7.8K.",
+   "we get $700K."
+  ],
+  [
+   "get $350 a case.",
+   "get $350K."
+  ],
+  [
+   "The human to be $18.5 million,",
+   "Assume it to be $18.5 million."
+  ],
+  [
+   "that would be short.",
+   "that would be sure."
+  ],
+  [
+   "with Kex, Kex.",
+   "with kegs."
+  ],
+  [
+   "We here actually",
+   "Beer actually"
+  ],
+  [
+   "does not go abroad unless",
+   "does not grow unless"
+  ],
+  [
+   "just a bit of 20",
+   "just a bit over 20"
+  ],
+  [
+   "with the cases, with upgrading",
+   "with upgrading"
+  ],
+  [
+   "did evil in",
+   "did well in"
+  ],
+  [
+   "regarding the accounting system?",
+   "regarding the canning system?"
+  ],
+  [
+   "analytical region,",
+   "analytical reasoning,"
+  ],
+  [
+   "whether I do this case,",
+   "whenever I do this case,"
+  ],
+  [
+   "already asked capacity.",
+   "already at capacity."
+  ],
+  [
+   "Till long that",
+   "Till now that"
+  ],
+  [
+   "lot of interviews do",
+   "lot of interviewers do"
+  ],
+  [
+   "make your facing much",
+   "make your case solving much"
+  ],
+  [
+   "well-practiced case of,",
+   "well-practiced case solver,"
+  ],
+  [
+   "I am also in.",
+   "I am also into."
+  ],
+  [
+   "small thick up,",
+   "small hiccup,"
+  ],
+  [
+   "second counting system of understanding him is that",
+   "second canning system of understanding whether"
+  ],
+  [
+   "what he should look",
+   "what you should look"
+  ],
+  [
+   "always leave the case.",
+   "always lead the case."
+  ],
+  [
+   "strong art of",
+   "strong part of"
+  ],
+  [
+   "the interview also lets",
+   "the interviewer also lets"
+  ],
+  [
+   "open for the interview or",
+   "open for the interviewer or"
+  ],
+  [
+   "if the interview takes",
+   "if the interviewer takes"
+  ],
+  [
+   "core savings,",
+   "cost savings,"
+  ],
+  [
+   "core savings.",
+   "cost savings."
+  ]
+ ],
+ "words": [
+  [
+   "^Cakes",
+   "Kegs"
+  ],
+  [
+   "^Cake",
+   "Keg"
+  ],
+  [
+   "^cakes",
+   "kegs"
+  ],
+  [
+   "^cake",
+   "keg"
+  ],
+  [
+   "^[Ss]canning",
+   "canning"
+  ],
+  [
+   "^scans",
+   "cans"
+  ],
+  [
+   "^calving",
+   "canning"
+  ],
+  [
+   "^calons",
+   "cans"
+  ],
+  [
+   "^casing",
+   "canning"
+  ]
+ ]
+}

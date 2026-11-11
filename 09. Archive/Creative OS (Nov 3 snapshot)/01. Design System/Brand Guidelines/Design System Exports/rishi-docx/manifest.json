@@ -1,0 +1,297 @@
+{
+  "manifestVersion": 3,
+  "name": "rishi.docx",
+  "namespace": "RishiDocx",
+  "files": [
+    "Formats.md",
+    "Motion.md",
+    "Pen-and-grid.md",
+    "components/BarChart/README.md",
+    "components/ChatFrame/README.md",
+    "components/FlowDiagram/README.md",
+    "components/HookTitle/README.md",
+    "components/LowerThird/README.md",
+    "components/PenMarks/README.md",
+    "components/QuoteCard/README.md",
+    "components/SourceCard/README.md",
+    "components/SplitCompare/README.md",
+    "components/StatReveal/README.md",
+    "components/Timeline/README.md",
+    "fonts/Gambetta-Semibold.otf",
+    "tokens.css"
+  ],
+  "libraries": [],
+  "components": [
+    {
+      "name": "BarChart",
+      "group": "Data",
+      "summary": "A simple bar chart that grows on the grid, with one bar highlighted in signal."
+    },
+    {
+      "name": "ChatFrame",
+      "group": "Context",
+      "summary": "A recreated chat with an AI, shown as UI, with the key phrase highlighted."
+    },
+    {
+      "name": "FlowDiagram",
+      "group": "Diagrams",
+      "summary": "Numbered steps in square boxes connected by drawn lines, showing how something works."
+    },
+    {
+      "name": "HookTitle",
+      "group": "Titles",
+      "summary": "The opening headline of a reel, carousel or cover: big General Sans with one Gambetta italic phrase in signal."
+    },
+    {
+      "name": "LowerThird",
+      "group": "Context",
+      "summary": "The name and role of a person or organisation on screen."
+    },
+    {
+      "name": "PenMarks",
+      "group": "Pen",
+      "summary": "Hand-drawn marks in signal red that point at what matters: underline, circle, arrow, strike-through and tick."
+    },
+    {
+      "name": "QuoteCard",
+      "group": "Context",
+      "summary": "A direct quote from a person, company, court or report, set in Gambetta."
+    },
+    {
+      "name": "SourceCard",
+      "group": "Context",
+      "summary": "A small card naming where a fact comes from."
+    },
+    {
+      "name": "SplitCompare",
+      "group": "Diagrams",
+      "summary": "Two columns side by side — what people think vs what's true, before vs after — with a strike and a tick."
+    },
+    {
+      "name": "StatReveal",
+      "group": "Data",
+      "summary": "A single important number that counts up, with its unit, one line of context and its source."
+    },
+    {
+      "name": "Timeline",
+      "group": "Diagrams",
+      "summary": "A spine that draws across the frame with dated stops landing in order."
+    }
+  ],
+  "assetGroups": [],
+  "storage": {
+    "files": {
+      "fonts/Gambetta-Bold.otf": {
+        "store": "blob",
+        "id": "c0b522c0aab9d5ef290a9c962a095884",
+        "sha256": "0a36072462b8dc33f1cc9de3658bd9aa4680542775adc795acd7020d32b760ae",
+        "bytes": 41740,
+        "type": "font/otf",
+        "name": "Gambetta-Bold.otf",
+        "addedAt": "2026-10-13T20:04:48.480Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-BoldItalic.otf": {
+        "store": "blob",
+        "id": "c583d89fe32cd35bfbf2783d6d92db30",
+        "sha256": "af01dce863a4031b54d27b45cc9bf4d413b04f23d6b35c6f74853c867929e3a3",
+        "bytes": 47368,
+        "type": "font/otf",
+        "name": "Gambetta-BoldItalic.otf",
+        "addedAt": "2026-10-13T20:04:49.255Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-Italic.otf": {
+        "store": "blob",
+        "id": "e118144a8610d10bdd538626d07087e8",
+        "sha256": "4375239969fb5800707e2a760773e9b06d0762623ccd32e6192d5a15cfe27561",
+        "bytes": 51424,
+        "type": "font/otf",
+        "name": "Gambetta-Italic.otf",
+        "addedAt": "2026-10-13T20:04:50.043Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-Light.otf": {
+        "store": "blob",
+        "id": "80a16b7a2dd164ec905f888ad298edfb",
+        "sha256": "7c85f829623976b8f0a72c780348859faa1c7d4fe912b085b9d9a7711ee4efa3",
+        "bytes": 40024,
+        "type": "font/otf",
+        "name": "Gambetta-Light.otf",
+        "addedAt": "2026-10-13T20:04:50.734Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-LightItalic.otf": {
+        "store": "blob",
+        "id": "705ffb53f3169233f7874b245b67d925",
+        "sha256": "070bf1cdb270a09108fe0eb1fe8454d8788eb3a4e4d9501ee16a260e4c3d2b3b",
+        "bytes": 47752,
+        "type": "font/otf",
+        "name": "Gambetta-LightItalic.otf",
+        "addedAt": "2026-10-13T20:04:51.481Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-Medium.otf": {
+        "store": "blob",
+        "id": "e17054b5f69ae5eaf9641ac4bb06d44a",
+        "sha256": "21f437992c085bc0ad88c52f961bd17d92a890d30e640b3225bd083be37a0559",
+        "bytes": 44480,
+        "type": "font/otf",
+        "name": "Gambetta-Medium.otf",
+        "addedAt": "2026-10-13T20:04:52.375Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-MediumItalic.otf": {
+        "store": "blob",
+        "id": "7e0be898f09e4028034d448d34b083b6",
+        "sha256": "0b002c71d9c4a089c4713c140b28e2711e1dc822f7c3da875711aa214c2613c3",
+        "bytes": 51640,
+        "type": "font/otf",
+        "name": "Gambetta-MediumItalic.otf",
+        "addedAt": "2026-10-13T20:04:53.189Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-Regular.otf": {
+        "store": "blob",
+        "id": "6d279f448f31a8df34ed05f00d99095b",
+        "sha256": "ad720b72091e911ce12f90c69edef76b69f033e968b762d32da95804db95ba27",
+        "bytes": 44644,
+        "type": "font/otf",
+        "name": "Gambetta-Regular.otf",
+        "addedAt": "2026-10-13T20:04:53.943Z",
+        "via": "page"
+      },
+      "fonts/Gambetta-SemiboldItalic.otf": {
+        "store": "blob",
+        "id": "f3991d43edf9ba59b9157d96520d8b0d",
+        "sha256": "754255d96554cd085988176e96c4c36c875009377465e2c4dc17e956edca27e8",
+        "bytes": 51076,
+        "type": "font/otf",
+        "name": "Gambetta-SemiboldItalic.otf",
+        "addedAt": "2026-10-13T20:04:54.640Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-Bold.otf": {
+        "store": "blob",
+        "id": "996a259e00deaa5ba069442741d2ee3a",
+        "sha256": "88bff1f629ba18f1342250753648b9e74196b8a2229fbf2f53d602d787fd23fc",
+        "bytes": 43260,
+        "type": "font/otf",
+        "name": "GeneralSans-Bold.otf",
+        "addedAt": "2026-10-13T20:05:08.942Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-BoldItalic.otf": {
+        "store": "blob",
+        "id": "a4a71a06813b5e8cf06bb7733540b9b7",
+        "sha256": "6f94e46d463ff49032a4efa9adfbd48599eeb2a9e06c2932f696769958beb30e",
+        "bytes": 45060,
+        "type": "font/otf",
+        "name": "GeneralSans-BoldItalic.otf",
+        "addedAt": "2026-10-13T20:05:09.715Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-Extralight.otf": {
+        "store": "blob",
+        "id": "2f859bbea984e584babcfaf64ae86383",
+        "sha256": "0704bd53b5aa975fa9768490b52870184da515bf5c2813b4806edc263736a3f9",
+        "bytes": 42364,
+        "type": "font/otf",
+        "name": "GeneralSans-Extralight.otf",
+        "addedAt": "2026-10-13T20:05:10.596Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-ExtralightItalic.otf": {
+        "store": "blob",
+        "id": "1fb71871a4aca5b53637fbd43d2972a1",
+        "sha256": "d4582abb35bd5ae85d6ae17245a5f840dd2487dda74ed3a509df60a0768670ac",
+        "bytes": 43232,
+        "type": "font/otf",
+        "name": "GeneralSans-ExtralightItalic.otf",
+        "addedAt": "2026-10-13T20:05:11.340Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-Italic.otf": {
+        "store": "blob",
+        "id": "203bb1de1907709da2948b2cc46a2619",
+        "sha256": "7409a475032d4a83fee4af9a586730c15a1c377f3faba38d2f0147af0d8900ff",
+        "bytes": 47952,
+        "type": "font/otf",
+        "name": "GeneralSans-Italic.otf",
+        "addedAt": "2026-10-13T20:05:12.155Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-Light.otf": {
+        "store": "blob",
+        "id": "4ecbcea1b39866258f272f3746759804",
+        "sha256": "6e4965d3b14bb02d4123cedaf87d2b4c3da7462a195d2e5d27f361f1fcd277a4",
+        "bytes": 46020,
+        "type": "font/otf",
+        "name": "GeneralSans-Light.otf",
+        "addedAt": "2026-10-13T20:05:12.914Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-LightItalic.otf": {
+        "store": "blob",
+        "id": "57c2a2621ed94bc1be63cdd2090dfd26",
+        "sha256": "5007719a739e657ee16b25f05172ce30563134d21d315193c50a2a204dfbd9c6",
+        "bytes": 47584,
+        "type": "font/otf",
+        "name": "GeneralSans-LightItalic.otf",
+        "addedAt": "2026-10-13T20:05:13.740Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-Medium.otf": {
+        "store": "blob",
+        "id": "faaa9b2d2ccc41cbf2b779ebaf538d07",
+        "sha256": "a4c6067d3415ab1ec2e17e6bd0406c0d3f7a28c707c5ddd85ca6458cabd3dbf0",
+        "bytes": 46424,
+        "type": "font/otf",
+        "name": "GeneralSans-Medium.otf",
+        "addedAt": "2026-10-13T20:05:14.474Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-MediumItalic.otf": {
+        "store": "blob",
+        "id": "9cc768d696146382cc5e42589ded1973",
+        "sha256": "f2d2e4279116ed8b3a6f61609658ef01e95c7e7d1f47d5d484243fb8638deeb0",
+        "bytes": 48504,
+        "type": "font/otf",
+        "name": "GeneralSans-MediumItalic.otf",
+        "addedAt": "2026-10-13T20:05:15.259Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-Regular.otf": {
+        "store": "blob",
+        "id": "eddfdb9a2e8cdddd12c9d3f30aba2504",
+        "sha256": "f5cfd05c1dafa77e944670528a81958f7c21b7517bafd2a8796a3aa17e56b9ce",
+        "bytes": 45948,
+        "type": "font/otf",
+        "name": "GeneralSans-Regular.otf",
+        "addedAt": "2026-10-13T20:05:16.040Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-Semibold.otf": {
+        "store": "blob",
+        "id": "8b02c361079bb63ff79b244548ab0f39",
+        "sha256": "6ad3ed9661df911b511135f494805704dea322dc2ae10a9620764f56df39c30b",
+        "bytes": 46640,
+        "type": "font/otf",
+        "name": "GeneralSans-Semibold.otf",
+        "addedAt": "2026-10-13T20:05:16.783Z",
+        "via": "page"
+      },
+      "fonts/GeneralSans-SemiboldItalic.otf": {
+        "store": "blob",
+        "id": "a2e344767dd2602f41321a72cb8bce3a",
+        "sha256": "7d1393b5db4a2a89b07b78d1be844c45ef153c26c0ec5e4c62e02e2a7e1bbf57",
+        "bytes": 48236,
+        "type": "font/otf",
+        "name": "GeneralSans-SemiboldItalic.otf",
+        "addedAt": "2026-10-13T20:05:17.533Z",
+        "via": "page"
+      }
+    },
+    "blobBytesUsed": 971372
+  }
+}

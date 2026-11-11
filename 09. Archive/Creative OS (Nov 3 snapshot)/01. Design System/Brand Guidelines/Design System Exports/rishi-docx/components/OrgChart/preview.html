@@ -1,0 +1,31 @@
+<!-- @dsCard group="Diagrams" height=900 width=1080 subtitle="Portrait at the top, hairline branches to what they built" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Org chart</title>
+<style>html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;box-sizing:border-box;padding:64px;overflow:hidden}
+.grid{position:absolute;left:0;top:0;width:1080px;pointer-events:none}
+.grid line{stroke:var(--line);stroke-width:var(--stroke-hair)}
+.lab{font-size:32px;font-weight:500;letter-spacing:.04em;color:var(--ink-muted);margin:0}
+.cap{font-size:32px;line-height:1.3;color:var(--ink-muted);margin:0}
+.pen{fill:none;stroke:var(--signal);stroke-width:var(--stroke-pen);stroke-linecap:round;stroke-linejoin:round}
+.it{font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit}
+.sig{color:var(--signal)}
+@keyframes up{0%,4%{opacity:0;transform:translateY(24px)}14%,88%{opacity:1;transform:none}96%,100%{opacity:0;transform:none}}
+.cm{position:absolute;left:-10px;top:-10px;width:calc(100% + 20px);height:calc(100% + 20px);overflow:visible}.cm path{fill:none;stroke:var(--ink);stroke-width:2px;vector-effect:non-scaling-stroke}
+.tag{position:absolute;padding:8px 16px;background:var(--signal-marker);font-size:32px;font-weight:600;color:var(--ink);white-space:nowrap}
+.ticks{position:absolute;inset:0;pointer-events:none}.ticks i{position:absolute;width:24px;height:24px;border-color:var(--ink);border-style:solid;border-width:0}
+.ticks i:nth-child(1){left:-2px;top:-2px;border-left-width:4px;border-top-width:4px}.ticks i:nth-child(2){right:-2px;top:-2px;border-right-width:4px;border-top-width:4px}
+.ticks i:nth-child(3){left:-2px;bottom:-2px;border-left-width:4px;border-bottom-width:4px}.ticks i:nth-child(4){right:-2px;bottom:-2px;border-right-width:4px;border-bottom-width:4px}
+@keyframes snap{0%,3%{opacity:0;transform:translateY(16px)}7%,90%{opacity:1;transform:none}96%,100%{opacity:0}}
+.f{height:900px}.root{position:absolute;left:390px;top:80px;text-align:center;width:300px;opacity:0;animation:snap 6s var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1)) infinite}
+.root img{width:200px;height:200px;border-radius:50%;border:2px solid var(--line-strong);padding:8px;object-fit:cover}.root p{margin:12px 0 0;font-family:var(--font-serif);font-size:40px}
+.ln{position:absolute;left:0;top:0;width:1080px;height:900px;pointer-events:none}.ln path{fill:none;stroke:var(--line-strong);stroke-width:2px;stroke-dasharray:1000;animation:od 6s var(--ease-draw, cubic-bezier(0.45, 0, 0.2, 1)) infinite}@keyframes od{0%,8%{stroke-dashoffset:1000}14%,88%{stroke-dashoffset:0;opacity:1}96%,100%{stroke-dashoffset:0;opacity:0}}
+.nd{position:absolute;top:500px;width:400px;border:2px solid var(--line-strong);padding:16px;opacity:0;animation:snap 6s var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1)) infinite}.nd .lb{font-size:26px;font-weight:600;letter-spacing:.08em}
+.nd .bx{height:180px;background:var(--surface);margin-top:12px;display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:600;letter-spacing:.3em}.nd p{margin:10px 0 0;font-family:var(--font-serif);font-style:italic;font-size:30px;color:var(--ink-muted)}</style></head>
+<body>
+<div class="f"><div class="root"><img src="/_blob/3862d4689b70aeac843b0e949fe5dbd6" alt=""><p>[Person]</p></div>
+<div class="nd" style="left:96px;animation-delay:.5s"><div class="lb">COMPANY 1</div><div class="bx">ONE</div><p>founded 2019</p></div>
+<div class="nd" style="left:584px;animation-delay:.8s"><div class="lb">COMPANY 2</div><div class="bx">TWO</div><p>co-founded 2022</p></div></div>
+<svg class="ln" viewBox="0 0 1080 900" aria-hidden="true"><path d="M540 380 V 440 H 300 V 500 M540 440 H 780 V 500"/></svg>
+<script></script>
+</body></html>

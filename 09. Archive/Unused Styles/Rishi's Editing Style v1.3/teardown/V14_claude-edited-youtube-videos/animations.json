@@ -1,0 +1,454 @@
+[
+ {
+  "id": "V14-A01",
+  "name": "hook caption + top card strip",
+  "category": "graphic",
+  "element": "hook caption + top card strip",
+  "start_f": 0,
+  "end_f": 105,
+  "dur_ms": 3500,
+  "props": {
+   "translate_x_px": [
+    0,
+    -300
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "five@#11 (\u0394+3)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V14-A02",
+  "name": "caption system sans+script+bold",
+  "category": "style",
+  "element": "caption system sans+script+bold",
+  "start_f": 0,
+  "end_f": 1975,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "EST"
+ },
+ {
+  "id": "V14-A03",
+  "name": "benefit icon tiles",
+  "category": "graphic",
+  "element": "benefit icon tiles",
+  "start_f": 116,
+  "end_f": 215,
+  "dur_ms": 3300,
+  "props": {
+   "scale": [
+    0.5,
+    1.07
+   ]
+  },
+  "easing": "easeOutBack-family",
+  "bezier": null,
+  "overshoot_pct": 7,
+  "trigger_word": "cost@#116 (\u0394+2)",
+  "evidence": "EST(rmse .12-.157)"
+ },
+ {
+  "id": "V14-A04",
+  "name": "single-word swaps on blue",
+  "category": "text",
+  "element": "single-word swaps on blue",
+  "start_f": 232,
+  "end_f": 307,
+  "dur_ms": 2500,
+  "props": {
+   "words": 6
+  },
+  "easing": "hard swap",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "dead?@#296 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V14-A05",
+  "name": "pane slide-in 1",
+  "category": "transition",
+  "element": "pane slide-in 1",
+  "start_f": 333,
+  "end_f": 364,
+  "dur_ms": 1033,
+  "props": {
+   "boundary_y_pct_H": [
+    0.6,
+    48.4
+   ]
+  },
+  "easing": "easeInOutQuad-like",
+  "bezier": [
+   0.7,
+   0.1,
+   0.4,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "software@#374 (\u0394-41)",
+  "evidence": "MEAS(rmse .011)"
+ },
+ {
+  "id": "V14-A06",
+  "name": "pane expand 1",
+  "category": "transition",
+  "element": "pane expand 1",
+  "start_f": 445,
+  "end_f": 472,
+  "dur_ms": 900,
+  "props": {
+   "boundary_y_pct_H": [
+    50.2,
+    93.4
+   ]
+  },
+  "easing": "easeInQuad-like",
+  "bezier": [
+   0.7,
+   0,
+   0.7,
+   0.8
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "engineering@#488 (\u0394-43)",
+  "evidence": "MEAS(rmse .009)"
+ },
+ {
+  "id": "V14-A07",
+  "name": "doc morph card to script panel",
+  "category": "graphic",
+  "element": "doc morph card to script panel",
+  "start_f": 510,
+  "end_f": 545,
+  "dur_ms": 1167,
+  "props": {
+   "width_px": [
+    443,
+    545
+   ],
+   "height_px": [
+    265,
+    179
+   ],
+   "cy_px": [
+    432,
+    390
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0.2,
+   1.4,
+   0.6,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "plan@#608 (\u0394-98)",
+  "evidence": "MEAS(rmse .007-.012)"
+ },
+ {
+  "id": "V14-A08",
+  "name": "plan tree connector + rows",
+  "category": "graphic",
+  "element": "plan tree connector + rows",
+  "start_f": 540,
+  "end_f": 680,
+  "dur_ms": 4667,
+  "props": {
+   "line_scale_y": [
+    0,
+    1
+   ],
+   "rows": [
+    0,
+    2
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "plan@#608 (\u0394-18..+42)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V14-A09",
+  "name": "reel-card strip behind speaker",
+  "category": "graphic",
+  "element": "reel-card strip behind speaker",
+  "start_f": 750,
+  "end_f": 960,
+  "dur_ms": 7000,
+  "props": {
+   "translate_x_card_per_s": -0.67
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "skill@#752 (\u0394-2)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V14-A10",
+  "name": "pane slide-in 2",
+  "category": "transition",
+  "element": "pane slide-in 2",
+  "start_f": 961,
+  "end_f": 990,
+  "dur_ms": 967,
+  "props": {
+   "boundary_y_pct_H": [
+    2.6,
+    49.4
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": [
+   0.5,
+   0.2,
+   0.3,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "second@#951 (\u0394+10)",
+  "evidence": "MEAS(rmse .009)"
+ },
+ {
+  "id": "V14-A11",
+  "name": "pane expand 2",
+  "category": "transition",
+  "element": "pane expand 2",
+  "start_f": 1036,
+  "end_f": 1060,
+  "dur_ms": 800,
+  "props": {
+   "boundary_y_pct_H": [
+    50.7,
+    93.4
+   ]
+  },
+  "easing": "easeInSine-like",
+  "bezier": [
+   0.8,
+   0.2,
+   0.5,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "plan@#1069 (\u0394-33)",
+  "evidence": "MEAS(rmse .010)"
+ },
+ {
+  "id": "V14-A12",
+  "name": "presenter card + Pr/Ae icons",
+  "category": "graphic",
+  "element": "presenter card + Pr/Ae icons",
+  "start_f": 1125,
+  "end_f": 1160,
+  "dur_ms": 1167,
+  "props": {
+   "translate_y_px": [
+    80,
+    0
+   ],
+   "blur_px": [
+    8,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "software@#1137 (\u0394-12)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V14-A13",
+  "name": "experience strip + 8 years text",
+  "category": "graphic",
+  "element": "experience strip + 8 years text",
+  "start_f": 1245,
+  "end_f": 1330,
+  "dur_ms": 2833,
+  "props": {
+   "scale": [
+    0.9,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "eight@#1263 (\u0394+7)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V14-A14",
+  "name": "bad-edit sample card",
+  "category": "graphic",
+  "element": "bad-edit sample card",
+  "start_f": 1395,
+  "end_f": 1420,
+  "dur_ms": 833,
+  "props": {
+   "blur_px": [
+    8,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "something@#1391 (\u0394+4)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V14-A15",
+  "name": "pane slide-in 3",
+  "category": "transition",
+  "element": "pane slide-in 3",
+  "start_f": 1466,
+  "end_f": 1500,
+  "dur_ms": 1133,
+  "props": {
+   "boundary_y_pct_H": [
+    0,
+    47.5
+   ]
+  },
+  "easing": "easeInSine-like",
+  "bezier": [
+   0.8,
+   0,
+   0.5,
+   0.8
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "changing@#1450 (\u0394+16)",
+  "evidence": "MEAS(rmse .012)"
+ },
+ {
+  "id": "V14-A16",
+  "name": "raw to pretty transformation",
+  "category": "graphic",
+  "element": "raw to pretty transformation",
+  "start_f": 1500,
+  "end_f": 1590,
+  "dur_ms": 3000,
+  "props": {
+   "bbox_width_px": [
+    200,
+    573
+   ]
+  },
+  "easing": "staged",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "2027@#1473 (\u0394+37)",
+  "evidence": "MEAS(\u2248 staged union)"
+ },
+ {
+  "id": "V14-A17",
+  "name": "Claude tile + paid to train caption",
+  "category": "graphic",
+  "element": "Claude tile + paid to train caption",
+  "start_f": 1600,
+  "end_f": 1655,
+  "dur_ms": 1833,
+  "props": {
+   "scale": [
+    0.5,
+    1
+   ]
+  },
+  "easing": "pop",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "train@#1633 (\u0394-33)",
+  "evidence": "EST(rmse .49)"
+ },
+ {
+  "id": "V14-A18",
+  "name": "pane exit upward",
+  "category": "transition",
+  "element": "pane exit upward",
+  "start_f": 1713,
+  "end_f": 1742,
+  "dur_ms": 967,
+  "props": {
+   "boundary_y_pct_H": [
+    48.4,
+    1.3
+   ]
+  },
+  "easing": "easeInOutQuad-like",
+  "bezier": [
+   0.6,
+   0.1,
+   0.4,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "perform@#1730 (\u0394-17)",
+  "evidence": "MEAS(rmse .012)"
+ },
+ {
+  "id": "V14-A19",
+  "name": "YouTube tutorial card rise",
+  "category": "graphic",
+  "element": "YouTube tutorial card rise",
+  "start_f": 1815,
+  "end_f": 1860,
+  "dur_ms": 1500,
+  "props": {
+   "translate_y_px": [
+    40,
+    0
+   ],
+   "blur_px": [
+    6,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "tutorial@#1834 (\u0394-19)",
+  "evidence": "EST(rmse .12-.40)"
+ },
+ {
+  "id": "V14-A20",
+  "name": "CTA comment bar typed guide",
+  "category": "ui",
+  "element": "CTA comment bar typed guide",
+  "start_f": 1905,
+  "end_f": 1975,
+  "dur_ms": 2333,
+  "props": {
+   "chars": [
+    0,
+    5
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Comment@#1927 (\u0394-22)",
+  "evidence": "EST(rmse .15-.29)"
+ }
+]

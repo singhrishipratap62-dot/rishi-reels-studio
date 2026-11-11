@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:03,818
+A company losing billions of dollars could soon be worth 2 trillion.
+
+2
+00:00:03,818 --> 00:00:09,238
+So either the investors know something that we don't, or the AI economy is getting really weird. Hi,
+
+3
+00:00:09,238 --> 00:00:14,818
+I'm Asma, and I research things I find fascinating, and today we need to talk about Anthropic, the
+
+4
+00:00:14,818 --> 00:00:20,758
+company behind Claude, because it is preparing for its IPO. IPO basically means that the company is entering
+
+5
+00:00:20,758 --> 00:00:25,658
+the stock market, and once it does, regular investors will be able to buy a piece of it. Now,
+
+6
+00:00:25,658 --> 00:00:32,718
+according to its IPO documents reported by Reuters, the company made 4.6 billion dollars in revenue in 2025.
+
+7
+00:00:32,718 --> 00:00:37,818
+And revenue here means all the money coming into the business before you subtract the cost of running
+
+8
+00:00:37,818 --> 00:00:40,858
+it. And running Anthropic is super expensive.
+
+9
+00:00:40,858 --> 00:00:47,558
+It spent around 12.7 billion in 2025, out of which more than 7 billion went towards computing and
+
+10
+00:00:47,558 --> 00:00:54,718
+infrastructure alone. So anytime people like me and you asks Claude a question, somewhere some very expensive computers
+
+11
+00:00:54,718 --> 00:01:00,718
+have to do that work. And after all that spending, Anthropic's operating loss for 2025 was 8 billion.
+
+12
+00:01:00,718 --> 00:01:06,958
+And yet, in Feb 2026, investors actually valued Anthropic at around 380 billion dollars.
+
+13
+00:01:06,958 --> 00:01:10,878
+And then in May, they were like, "Why not 965 billion dollars?"
+
+14
+00:01:10,878 --> 00:01:17,698
+[screaming] And now Reuters report that the IPO could actually value the company at more than 2 trillion
+
+15
+00:01:17,698 --> 00:01:23,698
+dollars. How amazing. All of this is happening because investors are not paying for what the company is
+
+16
+00:01:23,698 --> 00:01:27,498
+today. They are paying for what they think Anthropic could become in the future.
+
+17
+00:01:27,498 --> 00:01:33,098
+And honestly, there is some logic here, because Anthropic's revenue has been growing insanely fast. It went from
+
+18
+00:01:33,098 --> 00:01:38,478
+around 400 million in 2024 to 4.6 billion dollars in 2025.
+
+19
+00:01:38,478 --> 00:01:45,198
+That's a crazy jump. And in July of 2026, Bloomberg reported that the company's annual revenue run rate
+
+20
+00:01:45,198 --> 00:01:47,598
+has actually crossed 65 billion dollars.
+
+21
+00:01:47,598 --> 00:01:49,757
+If you're a cricket fan, you would know what that means.
+
+22
+00:01:49,757 --> 00:01:51,358
+But if you're not, let me explain.
+
+23
+00:01:51,358 --> 00:01:56,018
+Run rate basically means that if Anthropic keeps on making money at the pace of July for an
+
+24
+00:01:56,018 --> 00:01:59,838
+entire year, it would make roughly around 65 billion dollars.
+
+25
+00:01:59,838 --> 00:02:06,038
+So basically, this IPO is one gigantic bet. For investors, the bet is that Anthropic is going to grow
+
+26
+00:02:06,038 --> 00:02:12,358
+into a company like Amazon, Microsoft, and Google by integrating themselves into our daily lives. And Anthropic is
+
+27
+00:02:12,358 --> 00:02:16,078
+saying, "Pay us today for what you think the company is going to become tomorrow."
+
+28
+00:02:16,078 --> 00:02:19,258
+The only problem? Tomorrow hasn't happened yet.
+

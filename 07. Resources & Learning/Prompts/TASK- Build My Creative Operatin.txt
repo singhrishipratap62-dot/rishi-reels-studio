@@ -1,0 +1,422 @@
+TASK: Build My Creative Operating System (Creative OS)
+
+You are acting as a senior file-system architect, creative workflow engineer, and knowledge management specialist.
+
+I have been working in this directory for some time using Claude Code. It already contains various files, folders, scripts, references, resources, experiments, editing workflows, and other material related to my creative and editing work.
+
+I now want to build a centralized Creative Operating System (Creative OS) inside this existing directory.
+
+Your job is to inspect the existing environment, understand what I am trying to build, design the folder architecture, create it, and organize relevant existing material inside it.
+
+This is a file organization and copying task, not a cleanup or migration task.
+
+CRITICAL RULE: PRESERVE EVERYTHING
+
+This is the most important instruction.
+
+1. NEVER move any existing file or folder.
+2. NEVER delete anything from the existing directory.
+3. NEVER rename existing files or folders.
+4. NEVER modify, overwrite, or reorganize existing files.
+5. NEVER change the contents or structure of existing projects.
+6. Only COPY relevant material into the newly created Creative OS directory.
+7. All original files and folders must remain exactly where they are.
+8. If a file needs modification to fit the new system, create a separate copy and modify only that copy.
+9. Never use destructive commands or operations such as "mv", "rm", or overwriting existing files.
+10. Do not modify Git history, project configurations, environment files, or existing application settings.
+
+Treat the existing directory as read-only.
+
+Before performing any copy operation, verify that the destination is inside the newly created Creative OS directory.
+
+If there is a conflict, do not overwrite anything. Preserve both versions or ask me how to resolve the conflict.
+
+---
+
+PHASE 1: UNDERSTAND THE EXISTING ENVIRONMENT
+
+Before creating anything, thoroughly inspect the current working directory.
+
+Understand:
+
+- Existing folder structure.
+- Existing projects and their purposes.
+- Markdown documentation.
+- Claude Code skills and instructions.
+- Scripts and automation.
+- Animation and motion graphics resources.
+- Remotion projects and components.
+- Image and video editing resources.
+- Design references and inspiration.
+- Fonts, graphics, icons, SVGs and other assets.
+- Plugins, GitHub repositories and integrations.
+- Existing templates and reusable components.
+- Feedback logs, notes and experiments.
+- Any existing design systems or documented principles.
+
+Do not assume that a folder's name accurately describes its contents. Inspect relevant files and understand their purpose.
+
+Read relevant README files, SKILL.md files, documentation and configuration files where necessary.
+
+Do not indiscriminately copy every file. First understand what each item is and whether it belongs in the Creative OS.
+
+Identify:
+
+1. What can be reused directly.
+2. What needs to be categorized.
+3. What contains reusable knowledge.
+4. What is an independent project and should remain untouched.
+5. What is irrelevant to the Creative OS.
+6. What is potentially useful but needs further investigation.
+
+Create an internal inventory before proceeding.
+
+---
+
+PHASE 2: CREATE THE NEW CREATIVE OS DIRECTORY
+
+Inside the current working directory, create a new folder named:
+
+Creative OS
+
+This will be the central location for my entire creative knowledge base and production ecosystem.
+
+Create the following architecture.
+
+Creative OS/
+│
+├── 00. START HERE/
+│   ├── README.md
+│   ├── SYSTEM_OVERVIEW.md
+│   ├── FOLDER_INDEX.md
+│   └── CONTENT_INVENTORY.md
+│
+├── 01. Design System/
+│   ├── Brand Guidelines/
+│   ├── Color Systems/
+│   ├── Typography/
+│   ├── Logos & Identity/
+│   ├── Layout Systems/
+│   └── Design References/
+│
+├── 02. Animation Library/
+│   ├── Animation Styles/
+│   ├── Motion Graphics/
+│   ├── Transitions & Effects/
+│   ├── Animation References/
+│   ├── GitHub & Code References/
+│   └── Motion Components/
+│       ├── Text Animations/
+│       ├── Transitions/
+│       ├── Charts & Diagrams/
+│       ├── Lower Thirds/
+│       ├── Backgrounds/
+│       └── Reusable Components/
+│
+├── 03. Design Principles/
+│   ├── Typography Principles/
+│   ├── Color Theory/
+│   ├── Composition & Layout/
+│   ├── Visual Hierarchy/
+│   ├── Motion Principles/
+│   ├── Storytelling & Visual Communication/
+│   └── Creative Intelligence/
+│       ├── Decision Making/
+│       ├── Visual Metaphors/
+│       ├── Creative Direction/
+│       ├── Design Reasoning/
+│       └── Lessons & Insights/
+│
+├── 04. Feedback & Learning Log/
+│   ├── User Feedback/
+│   ├── Claude Iterations/
+│   ├── Corrections & Improvements/
+│   ├── Prompt History/
+│   ├── Experiments/
+│   └── Synthesized Learnings/
+│
+├── 05. Reverse Engineering/
+│   ├── Creator References/
+│   ├── Editing Patterns/
+│   ├── Animation Breakdowns/
+│   ├── Design Recreations/
+│   ├── Reference Analysis/
+│   └── Recreation Projects/
+│
+├── 06. Management/
+│   ├── Master Index/
+│   ├── System Documentation/
+│   ├── Project Tracking/
+│   ├── Organization Rules/
+│   └── Maintenance/
+│
+├── 07. Resources/
+│   ├── Plugins/
+│   ├── GitHub Repositories/
+│   ├── Tools & Software/
+│   ├── External References/
+│   ├── Tutorials & Documentation/
+│   ├── AI Tools, Skills & Automation/
+│   │   ├── Claude Skills/
+│   │   ├── Prompts/
+│   │   ├── MCP Integrations/
+│   │   ├── Automation Scripts/
+│   │   └── AI Workflows/
+│   └── Miscellaneous/
+│
+├── 08. Editing Projects/
+│   ├── Video Editing/
+│   ├── Image Editing/
+│   ├── Motion Graphics Projects/
+│   ├── Project Templates & Blueprints/
+│   ├── Completed Projects/
+│   └── Project Documentation/
+│
+├── 09. Audio & Sound Design Library/
+│   ├── Sound Effects/
+│   ├── Background Music/
+│   ├── Audio Transitions/
+│   ├── Sound Design References/
+│   ├── Audio Processing/
+│   └── Audio Standards/
+│
+├── 10. Production Workflows & SOPs/
+│   ├── Video Production/
+│   ├── Image Production/
+│   ├── Motion Graphics Production/
+│   ├── Asset Collection/
+│   ├── Review & Revisions/
+│   ├── Export & Delivery/
+│   └── Standard Operating Procedures/
+│
+├── 11. Asset Library/
+│   ├── Images/
+│   ├── Illustrations/
+│   ├── Icons & SVGs/
+│   ├── Video Footage/
+│   ├── Textures & Overlays/
+│   ├── Fonts/
+│   ├── Backgrounds/
+│   ├── Logos/
+│   └── Other Assets/
+│
+└── 12. Quality Control & Standards/
+├── Visual Quality/
+├── Animation Quality/
+├── Audio Quality/
+├── Export Specifications/
+├── Platform Requirements/
+└── Final Delivery Checklists/
+
+You may add additional subfolders if the existing material or a genuine organizational requirement justifies them.
+
+However, do not unnecessarily expand the architecture or create empty folders beyond this structure.
+
+---
+
+PHASE 3: MAP EXISTING MATERIAL TO THE NEW ARCHITECTURE
+
+Now inspect the existing directory and map relevant material to its appropriate Creative OS destination.
+
+Examples:
+
+- Existing design guidelines → Design System.
+- Animation references → Animation Library.
+- Remotion components → Motion Components.
+- Reusable animation code → Motion Components.
+- Design theory documentation → Design Principles.
+- Claude corrections and feedback → Feedback & Learning Log.
+- Creator editing breakdowns → Reverse Engineering.
+- Claude skills → Resources / AI Tools, Skills & Automation.
+- GitHub repositories and plugin references → Resources.
+- Existing editing projects → Editing Projects.
+- Audio resources → Audio & Sound Design Library.
+- Fonts and images → Asset Library.
+- Production checklists → Production Workflows & SOPs.
+- Export presets and quality standards → Quality Control & Standards.
+
+Important:
+
+A single existing project may contain several types of useful material.
+
+Do not blindly copy an entire project into multiple locations.
+
+Instead:
+
+- Understand the project structure.
+- Identify independently reusable resources.
+- Copy them into their appropriate categories when safe.
+- Preserve necessary dependencies and context.
+- Keep a reference to the original project location.
+
+If a complete project is useful as a reusable project or reference, copy the entire project while preserving its internal folder structure.
+
+Do not break working projects by copying individual files without their dependencies.
+
+Do not copy:
+
+- node_modules
+- .git directories
+- build outputs
+- temporary caches
+- unnecessary generated files
+- large dependency folders
+- secrets, API keys, credentials or .env files
+
+For project-specific dependencies, document how to install or access them rather than duplicating large dependency directories.
+
+For large media assets, copy only when useful and practical. If copying is impractical, record the original path and explain the limitation. Never silently substitute a shortcut or symlink for a requested copy.
+
+---
+
+PHASE 4: PREVENT DUPLICATION AND DATA LOSS
+
+Implement a safe copying strategy.
+
+Before copying:
+
+1. Check whether the destination already exists.
+2. Check whether an equivalent resource is already present.
+3. Identify potential filename collisions.
+4. Preserve original filenames whenever possible.
+5. Preserve the internal structure of projects and resources.
+6. Record the source path for every copied item.
+
+If two files have the same name but different contents, preserve both using clearly distinguishable names or separate source-specific subfolders.
+
+Never assume that two files with the same filename are identical.
+
+For important files, compare checksums before and after copying to verify integrity.
+
+Maintain a manifest that records:
+
+- Original file path.
+- New Creative OS path.
+- File type.
+- Category.
+- Whether it was copied, skipped or requires review.
+- Reason for the categorization.
+- Any relevant dependencies or notes.
+
+The original directory must remain untouched throughout the entire process.
+
+---
+
+PHASE 5: BUILD THE DOCUMENTATION
+
+Inside 00. START HERE, create the following documents.
+
+README.md
+
+Explain what Creative OS is, its purpose, how to navigate it and how to use it.
+
+SYSTEM_OVERVIEW.md
+
+Explain the architecture and how the different sections interact.
+
+FOLDER_INDEX.md
+
+Provide a detailed index of all top-level folders and their subfolders, including what belongs in each.
+
+CONTENT_INVENTORY.md
+
+Document the existing material discovered and its destination in Creative OS.
+
+Inside 06. Management, also create:
+
+MASTER_INDEX.md
+
+A central searchable index of the most important resources, reusable components, workflows, design systems, skills and references.
+
+ORGANIZATION_RULES.md
+
+Explain how future files should be categorized and where new resources should go.
+
+MAINTENANCE.md
+
+Explain how the system should be maintained as new resources, projects, references and learnings are added.
+
+Do not create documentation that merely repeats itself. Each document should have a distinct purpose.
+
+---
+
+PHASE 6: MAKE THE SYSTEM USABLE BY CLAUDE CODE
+
+This system will primarily be used through Claude Code.
+
+I want Claude to eventually be able to:
+
+1. Understand the complete Creative OS architecture.
+2. Find relevant references before starting a new editing task.
+3. Retrieve reusable animations and components.
+4. Understand my design preferences and creative principles.
+5. Recreate editing styles from references.
+6. Reuse existing workflows and automation.
+7. Learn from feedback and previous iterations.
+8. Recommend relevant resources.
+9. Improve its future creative decisions using documented learnings.
+
+Design the documentation with these future capabilities in mind.
+
+However, do not modify the existing CLAUDE.md, project instructions, or global Claude Code settings.
+
+You may create a dedicated Creative OS instruction document inside the new directory explaining how Claude should interact with the system.
+
+Do not install plugins, dependencies, packages or external tools during this task.
+
+Do not start building new editing applications or automations. This task is strictly about establishing the foundation and organizing existing material.
+
+---
+
+PHASE 7: FINAL VERIFICATION
+
+After everything is created:
+
+1. Verify that the entire folder structure exists.
+2. Verify that the copied files are accessible.
+3. Verify that no original files were modified, renamed, moved or deleted.
+4. Verify important copied files using checksums.
+5. Check for accidental duplicate content.
+6. Identify resources that could not be copied.
+7. Identify material that could not be confidently categorized.
+8. Check that all documentation accurately reflects the final structure.
+
+Create a final report inside:
+
+Creative OS/00. START HERE/BUILD_REPORT.md
+
+The report must include:
+
+- Summary of the existing environment.
+- Final folder structure.
+- Number of files and folders copied.
+- Categories populated.
+- Important resources discovered.
+- Files or folders intentionally skipped.
+- Potential duplication issues.
+- Resources requiring manual review.
+- Any unresolved dependencies.
+- Verification results.
+- Confirmation that original material was preserved.
+
+---
+
+EXECUTION RULES
+
+Work methodically.
+
+Do not rush into copying before understanding the existing environment.
+
+You have permission to create the Creative OS directory and copy relevant material into it.
+
+You do NOT have permission to modify the original environment.
+
+If you encounter ambiguity, prefer preserving the original and documenting the ambiguity over making an irreversible decision.
+
+If you encounter something that could have multiple legitimate destinations, use your judgment and record the reasoning.
+
+Do not stop after merely creating the folder structure. Complete the audit, copying, organization, documentation and verification.
+
+Start by inspecting the current working directory. Then proceed through the phases above.
+
+At the end, give me a concise summary of what you discovered, what you created, what you copied and anything that needs my attention.

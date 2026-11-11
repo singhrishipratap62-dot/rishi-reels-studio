@@ -1,0 +1,33 @@
+<!-- @dsCard group="Context" height=1920 width=1080 subtitle="A UI card on a giant, dimmed echo of itself, so the frame is never empty" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Echo backdrop</title>
+<style>html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:inherit;font-style:normal;font-weight:inherit}
+.f{background:var(--brand-ink)}
+.echo{position:absolute;left:50%;top:50%;width:900px;transform:translate(-50%,-62%) scale(2.2);filter:blur(6px);opacity:.28;animation:push 6s var(--ease-cinematic, cubic-bezier(0.83, 0, 0.17, 1)) infinite}
+@keyframes push{0%{transform:translate(-50%,-62%) scale(2.2)}100%{transform:translate(-50%,-62%) scale(2.33)}}
+.card{position:absolute;left:90px;width:900px;top:640px;background:var(--brand-paper);color:var(--brand-ink);border-radius:var(--radius-lg);box-shadow:var(--shadow-float);overflow:hidden;animation:in 6s infinite}
+@keyframes in{0%{opacity:0;transform:translateY(20px)}4%,94%{opacity:1;transform:none}100%{opacity:0}}
+.bar{height:72px;background:#e9e4d8;display:flex;align-items:center;gap:14px;padding:0 28px}
+.bar i{width:20px;height:20px;border-radius:50%;border:2px solid #5f5c56}.bar b{margin-left:24px;font-size:32px;font-weight:500;color:#5f5c56}
+.rows{padding:36px 40px 44px}
+.r{font-size:40px;line-height:1.3;padding:10px 0;display:flex;gap:18px;align-items:center}
+.r em{font-style:normal;width:40px;height:40px;border:3px solid var(--brand-ink);border-radius:8px;display:inline-block}
+.r.g{color:#14141455}
+.r .k{border-radius:var(--radius-highlight, 6px);-webkit-box-decoration-break:clone;box-decoration-break:clone;background:var(--signal-marker);padding:0 6px}
+</style></head>
+<body><div class="f">
+<div class="echo" aria-hidden="true"><div class="card" style="position:static;animation:none;box-shadow:none"><div class="bar"><i></i><i></i><i></i><b>Agent run</b></div><div class="rows"><div class="r"><em></em>Searched 3 channels</div><div class="r"><em></em>Read 41 messages</div><div class="r"><em></em>Opened a pull request</div><div class="r g"><em></em>Thinking…</div></div></div></div>
+<div class="card"><div class="bar"><i></i><i></i><i></i><b>Agent run</b></div><div class="rows"><div class="r"><em></em>Searched 3 channels</div><div class="r"><em></em>Read 41 messages</div><div class="r"><em></em><span class="k">Opened a pull request</span></div><div class="r g"><em></em>Thinking…</div></div></div>
+<div class="cap" style="background:var(--brand-paper);color:var(--brand-ink)">on its own</div></div>
+</body></html>

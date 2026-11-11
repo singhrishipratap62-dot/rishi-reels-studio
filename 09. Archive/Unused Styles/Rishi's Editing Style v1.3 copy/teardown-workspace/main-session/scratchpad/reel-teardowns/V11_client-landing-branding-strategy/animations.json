@@ -1,0 +1,399 @@
+[
+ {
+  "id": "V11-A01",
+  "name": "balance card + money counter",
+  "category": "graphic",
+  "element": "balance card + money counter",
+  "start_f": 0,
+  "end_f": 45,
+  "dur_ms": 1500,
+  "props": {
+   "value_usd": [
+    0,
+    3000
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "12@#38 (\u0394-38)",
+  "evidence": "OBS(values at 2 fps),EST(curve)"
+ },
+ {
+  "id": "V11-A02",
+  "name": "hook caption sans+script",
+  "category": "style",
+  "element": "hook caption sans+script",
+  "start_f": 0,
+  "end_f": 71,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "hours@#50 (\u0394-2)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V11-A03",
+  "name": "roadmap diamonds on cream",
+  "category": "graphic",
+  "element": "roadmap diamonds on cream",
+  "start_f": 72,
+  "end_f": 143,
+  "dur_ms": 2367,
+  "props": {
+   "diamonds": [
+    0,
+    3
+   ],
+   "line_draw": [
+    0,
+    1
+   ]
+  },
+  "easing": "pop+draw",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "secret@#91 (\u0394+1)",
+  "evidence": "OBS(d1 discarded)"
+ },
+ {
+  "id": "V11-A04",
+  "name": "principle diamond + title",
+  "category": "graphic",
+  "element": "principle diamond + title",
+  "start_f": 195,
+  "end_f": 215,
+  "dur_ms": 667,
+  "props": {
+   "scale": [
+    0.3,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "first@#204 (\u0394-9)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V11-A05",
+  "name": "percentage ring",
+  "category": "graphic",
+  "element": "percentage ring",
+  "start_f": 268,
+  "end_f": 345,
+  "dur_ms": 2567,
+  "props": {
+   "percent": [
+    12,
+    95
+   ]
+  },
+  "easing": "count-up",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "95%@#272 (\u0394-4)",
+  "evidence": "OBS(d3 discarded)"
+ },
+ {
+  "id": "V11-A06",
+  "name": "GOOD enough verdict card",
+  "category": "graphic",
+  "element": "GOOD enough verdict card",
+  "start_f": 372,
+  "end_f": 425,
+  "dur_ms": 1767,
+  "props": {
+   "width_px": [
+    517,
+    639
+   ]
+  },
+  "easing": "easeOutQuad-like",
+  "bezier": [
+   0.2,
+   0.9,
+   0.6,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "good@~#370 (\u0394+2)",
+  "evidence": "MEAS(bw rmse .042)"
+ },
+ {
+  "id": "V11-A07",
+  "name": "mini edit-preview card + Don't post it",
+  "category": "graphic",
+  "element": "mini edit-preview card + Don't post it",
+  "start_f": 420,
+  "end_f": 520,
+  "dur_ms": 3333,
+  "props": {
+   "translate_y_px": [
+    40,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "wow@#453 (\u0394-33)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V11-A08",
+  "name": "split pane + Learn list",
+  "category": "transition",
+  "element": "split pane + Learn list",
+  "start_f": 513,
+  "end_f": 625,
+  "dur_ms": 3733,
+  "props": {
+   "pane_height_pct_H": [
+    0,
+    50
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Learn@#516 (\u0394+4)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V11-A09",
+  "name": "Before you drop caption",
+  "category": "style",
+  "element": "Before you drop caption",
+  "start_f": 630,
+  "end_f": 675,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "drop@~#640",
+  "evidence": "EST"
+ },
+ {
+  "id": "V11-A10",
+  "name": "table card slide-right + label",
+  "category": "graphic",
+  "element": "table card slide-right + label",
+  "start_f": 760,
+  "end_f": 815,
+  "dur_ms": 1833,
+  "props": {
+   "cx_px": [
+    351,
+    468
+   ]
+  },
+  "easing": "easeInOutCubic\u2248",
+  "bezier": [
+   0.7,
+   0,
+   0.2,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "premium@#774 (\u0394-14)",
+  "evidence": "MEAS(\u2248,cx rmse .050)"
+ },
+ {
+  "id": "V11-A11",
+  "name": "garage-showroom swap + price count",
+  "category": "graphic",
+  "element": "garage-showroom swap + price count",
+  "start_f": 855,
+  "end_f": 945,
+  "dur_ms": 3000,
+  "props": {
+   "price_usd": [
+    50,
+    500
+   ]
+  },
+  "easing": "wipe+count",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "showroom@#892 (\u0394-27)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V11-A12",
+  "name": "Take 15 + poster callouts",
+  "category": "graphic",
+  "element": "Take 15 + poster callouts",
+  "start_f": 960,
+  "end_f": 1050,
+  "dur_ms": 3000,
+  "props": {
+   "translate_y_px": [
+    60,
+    0
+   ],
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "15@#960 (\u03940)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V11-A13",
+  "name": "top caption + defocus",
+  "category": "text",
+  "element": "top caption + defocus",
+  "start_f": 1080,
+  "end_f": 1155,
+  "dur_ms": 2500,
+  "props": {
+   "blur_px": [
+    8,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "viewer@~#1110",
+  "evidence": "EST"
+ },
+ {
+  "id": "V11-A14",
+  "name": "phone UI push-in to Share",
+  "category": "camera",
+  "element": "phone UI push-in to Share",
+  "start_f": 1255,
+  "end_f": 1335,
+  "dur_ms": 2667,
+  "props": {
+   "width_px": [
+    401,
+    719
+   ],
+   "scale": [
+    1,
+    1.8
+   ]
+  },
+  "easing": "linear-ish",
+  "bezier": [
+   0.7,
+   0.3,
+   0,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "premium@#1264 (\u0394-12)",
+  "evidence": "MEAS(\u2248,bw rmse .071)"
+ },
+ {
+  "id": "V11-A15",
+  "name": "avatar + bubbles Nearby Markets",
+  "category": "graphic",
+  "element": "avatar + bubbles Nearby Markets",
+  "start_f": 1335,
+  "end_f": 1445,
+  "dur_ms": 3667,
+  "props": {
+   "avatar_cy_px": [
+    657,
+    577
+   ],
+   "bubbles": [
+    0,
+    3
+   ]
+  },
+  "easing": "pop+orbit",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "nearby@#1350 (\u03940)",
+  "evidence": "EST(rmse .19-.35)"
+ },
+ {
+  "id": "V11-A16",
+  "name": "growth chart + Trending tag",
+  "category": "graphic",
+  "element": "growth chart + Trending tag",
+  "start_f": 1470,
+  "end_f": 1550,
+  "dur_ms": 2667,
+  "props": {
+   "curve_draw": [
+    0,
+    1
+   ],
+   "zoom": [
+    1,
+    2
+   ]
+  },
+  "easing": "ease-in",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "trending@#1477 (\u0394-7)",
+  "evidence": "OBS(d6 discarded)"
+ },
+ {
+  "id": "V11-A17",
+  "name": "recap badges 1-2-3",
+  "category": "graphic",
+  "element": "recap badges 1-2-3",
+  "start_f": 1575,
+  "end_f": 1590,
+  "dur_ms": 500,
+  "props": {
+   "scale": [
+    0.4,
+    1
+   ]
+  },
+  "easing": "pop",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "all three@~#1575 (\u03940)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V11-A18",
+  "name": "masterclass banner + comments sheet",
+  "category": "ui",
+  "element": "masterclass banner + comments sheet",
+  "start_f": 1695,
+  "end_f": 1800,
+  "dur_ms": 3500,
+  "props": {
+   "blur_px": [
+    10,
+    0
+   ],
+   "translate_y_px": [
+    40,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "masterclass@#1722 (\u0394-27)",
+  "evidence": "OBS(d7 discarded)"
+ }
+]

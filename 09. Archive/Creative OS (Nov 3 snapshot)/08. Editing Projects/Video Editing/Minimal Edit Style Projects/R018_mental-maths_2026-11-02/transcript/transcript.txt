@@ -1,0 +1,21 @@
+Can you work out 16% of 50 lakh in under 3 seconds?
+If not, these 5 shortcuts will help you save a full minute in every case interview.
+Number 1, Flip the percentage.
+Because 16% of 50 lakh is the same as 50% of 16 lakh, which is 8 lakh.
+So the hard version turns into an easy one.
+Number 2, learn your fraction anchors, where 1/8 is 12.5% 1/6 is 16.7% and 1/7 is about 14.3%.
+So if the client sells 120 out of 840 units, so that's about 14%.
+Number 3, round and then correct.
+So 49 times 18 becomes 15 times 18, which is 900, minus 18, which is 882.
+Number 4, split awkward percentages because 15% of 640 is just 10%, which is 64, plus half
+of it 32.
+So 96.
+Number 5, use the rule of 72 for growth.
+Because dividing 72 by growth rate tells you roughly how many years something takes
+to double.
+So a market growing at 12% doubles in about 6 years.
+None of these makes you a maths genius.
+But together they let you answer while you keep talking in a case interview.
+That's what sounds like confidence in a case interview.
+Save this and practice one shortcut a day this week until you stop having to think about
+them at all.

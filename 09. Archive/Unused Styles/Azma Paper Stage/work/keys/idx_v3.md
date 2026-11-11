@@ -1,0 +1,30 @@
+
+## vid-3 (F1 prodigy Antonelli story; beige shirt)
+- v3 | 1–3 | fs-object | white bg, giant green pencil "CLASS" slides up, line "they get to skip a" w/ pennant icons
+- v3 | 3.3–4.2 | broll-text | greyscale freeze of her A-roll then meme B&W with white caption "AUDIENCE BE LIKE: ..." (bold white caps top)
+- v3 | 5.9–7.1 | broll-text | real footage (driver selfie, F1 car pan blur) full-screen
+- v3 | 8–9 | fs-object | pixel-art F1 cars in coloured stripes (mint/pink/blue) slide in with circular face sticker
+- v3 | 10.7–12 | fs-object | white bg bobblehead-style avatars (head cut-outs on body) w/ speech bubble in teal
+- v3 | 14 | broll-text | greyscale commentator clip
+- v3 | 20–22.5 | fs-object | bobblehead "ANTONELLI 12" on teal water floor; "20 YEAR OLD italian" bold + pennant icons
+- v3 | 24–27 | fs-object | pixel trophy "youngest F1 World Champion in History." + map card "Born in Italy in 2006" w/ polaroids
+- v3 | 27.5–29.7 | broll-text | photo cutaways: dark vignette + portrait photo card inset, team photo
+- v3 | 34–38.3 | broll-text | real kart/helmet footage cuts (watermark kept)
+- v3 | 40–42.5 | fs-object | white bg, pixel-art green car drives in; "I only had access to an RC CAR" (small lead-in + red bold)
+- v3 | 45.7–48.4 | fs-data | article screenshot, headline zoom, blue highlight bar sweep on sentence
+- v3 | 50–53 | broll-text | real podium / ADAC footage cuts
+- v3 | 55.5–57.5 | fs-object | white bg, pixel F3/F4 car stripes + face sticker "completely skipped F3"
+- v3 | 63.4–66 | fs-data | dark news-site screenshot (Hamilton headline) w/ blue highlight; then article with photo
+- v3 | 70 | camera | A-roll turns greyscale (beat) then colour
+- v3 | 73.3–75.3 | camera | A-roll greyscale hold while she looks down
+- v3 | 78–82.5 | broll-text | onboard F1 cockpit footage; digital glitch/pixel-corrupt transition at 82.5
+- v3 | 86.5–89 | fs-object | white bg, Mercedes star + green pixel F1 car front reveal (stripes), tag label "we don't really care about a CRASH OR TWO, Kimi" (gold tag, bold black)
+- v3 | 92.3–95 | broll-text | podium footage, then Lenovo-red framed photo cards on dark with greyscale bg (card pop)
+- v3 | 98–101.5, 106–111 | fs-object | white bg, circuit-shaped stripes with flags (China, Japan, Miami, Canada, Monaco, Monza) + gold name tags; Monza "CRASHED 2 YEARS EARLIER." w/ face sticker, F1 logo outlines in corners
+- v3 | 104.7–106.5, 113.7–115 | broll-text | onboard + pit footage
+- v3 | 121.6–122.5 | broll-text | greyscale actor close-up
+- v3 | 124–124.5 | fs-object | face sticker w/ pixel sunglasses on white
+- v3 | 129.4–131.4 | broll-text | greyscale clip of the driver w/ glasses (bow)
+- v3 | 132.7–135.5 | broll-text | colour real clips (necklace on blue, interview)
+- v3 | 140.5 | other | black end frame
+- v3 | other | captions | A-roll (rest of runtime), blur-in focus pull after each cutaway

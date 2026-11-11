@@ -1,0 +1,364 @@
+[
+ {
+  "id": "V05-A01",
+  "name": "footage to phone-card shrink",
+  "category": "transition",
+  "element": "footage to phone-card shrink",
+  "start_f": 0,
+  "end_f": 28,
+  "dur_ms": 933,
+  "props": {
+   "height_pct_H": [
+    100,
+    63
+   ]
+  },
+  "easing": "easeOutQuart-family",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "edits@#12 (card at 72%)",
+  "evidence": "OBS(heights),EST(ease)"
+ },
+ {
+  "id": "V05-A02",
+  "name": "in-card reel swipe",
+  "category": "graphic",
+  "element": "in-card reel swipe",
+  "start_f": 36,
+  "end_f": 58,
+  "dur_ms": 733,
+  "props": {
+   "translate_y_pct_card": [
+    0,
+    -60
+   ],
+   "blur_px": [
+    0,
+    9
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "n/a",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V05-A03",
+  "name": "glass comment toasts",
+  "category": "graphic",
+  "element": "glass comment toasts",
+  "start_f": 60,
+  "end_f": 140,
+  "dur_ms": 2667,
+  "props": {
+   "translate_y_px": [
+    -25,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "edits@#133 (\u0394 \u2248 -70..+10)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V05-A04",
+  "name": "cut + focus pull to A-roll",
+  "category": "cut",
+  "element": "cut + focus pull to A-roll",
+  "start_f": 198,
+  "end_f": 198,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "truth@#211",
+  "evidence": "MEAS(diff 86)"
+ },
+ {
+  "id": "V05-A05",
+  "name": "profile card enter",
+  "category": "graphic",
+  "element": "profile card enter",
+  "start_f": 225,
+  "end_f": 262,
+  "dur_ms": 1233,
+  "props": {
+   "height_px": [
+    386,
+    1137
+   ]
+  },
+  "easing": "easeOutExpo-family",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "10@#237",
+  "evidence": "EST(rmse .114, contaminated)"
+ },
+ {
+  "id": "V05-A06",
+  "name": "thumbnail cube to grid fill",
+  "category": "graphic",
+  "element": "thumbnail cube to grid fill",
+  "start_f": 310,
+  "end_f": 345,
+  "dur_ms": 1167,
+  "props": {
+   "tiles": [
+    0,
+    50
+   ],
+   "scale": [
+    0.8,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "frame@#320 (\u0394-10)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V05-A07",
+  "name": "PDF icon to document card",
+  "category": "graphic",
+  "element": "PDF icon to document card",
+  "start_f": 372,
+  "end_f": 430,
+  "dur_ms": 1933,
+  "props": {
+   "cy_px": [
+    227,
+    515
+   ]
+  },
+  "easing": "easeInOutCubic\u2248",
+  "bezier": [
+   0.7,
+   0,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "PDF@#372 (\u03940)",
+  "evidence": "MEAS(cy rmse .062)"
+ },
+ {
+  "id": "V05-A08",
+  "name": "doc title swap + page flip",
+  "category": "text",
+  "element": "doc title swap + page flip",
+  "start_f": 405,
+  "end_f": 520,
+  "dur_ms": 3833,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ],
+   "blur_px": [
+    6,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "scenes@#454",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V05-A09",
+  "name": "chat window chip drop",
+  "category": "ui",
+  "element": "chat window chip drop",
+  "start_f": 600,
+  "end_f": 650,
+  "dur_ms": 1667,
+  "props": {
+   "translate_xy": [
+    "lower-right",
+    "dock"
+   ]
+  },
+  "easing": "spring-like",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "PDF@#591 (\u0394+9..+49)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V05-A10",
+  "name": "typed prompt + file-chip fan",
+  "category": "ui",
+  "element": "typed prompt + file-chip fan",
+  "start_f": 650,
+  "end_f": 830,
+  "dur_ms": 6000,
+  "props": {
+   "chars": [
+    0,
+    120
+   ],
+   "chips": [
+    0,
+    10
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "analyze@#637 (\u0394+13)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V05-A11",
+  "name": "hologram brain icon pop",
+  "category": "graphic",
+  "element": "hologram brain icon pop",
+  "start_f": 871,
+  "end_f": 915,
+  "dur_ms": 1467,
+  "props": {
+   "width_px": [
+    106,
+    151
+   ],
+   "height_px": [
+    133,
+    160
+   ]
+  },
+  "easing": "easeOut-family",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "skill@#936 (\u0394-65)",
+  "evidence": "EST(rmse .14-.27)"
+ },
+ {
+  "id": "V05-A12",
+  "name": "A-roll captions sans+script",
+  "category": "style",
+  "element": "A-roll captions sans+script",
+  "start_f": 868,
+  "end_f": 1038,
+  "dur_ms": null,
+  "props": {},
+  "easing": "blur-fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "EST"
+ },
+ {
+  "id": "V05-A13",
+  "name": "UI blur-out to blue",
+  "category": "transition",
+  "element": "UI blur-out to blue",
+  "start_f": 1350,
+  "end_f": 1365,
+  "dur_ms": 500,
+  "props": {
+   "blur_px": [
+    0,
+    12
+   ]
+  },
+  "easing": "ease-in",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "viral@#1351",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V05-A14",
+  "name": "60-30-10 result card",
+  "category": "graphic",
+  "element": "60-30-10 result card",
+  "start_f": 1378,
+  "end_f": 1430,
+  "dur_ms": 1733,
+  "props": {
+   "scale": [
+    0.9,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "viral@#1351 (\u0394+29)",
+  "evidence": "EST(contaminated)"
+ },
+ {
+  "id": "V05-A15",
+  "name": "tutorial card rise",
+  "category": "graphic",
+  "element": "tutorial card rise",
+  "start_f": 1484,
+  "end_f": 1540,
+  "dur_ms": 1867,
+  "props": {
+   "height_px": [
+    6,
+    287
+   ]
+  },
+  "easing": "easeOutCubic\u2248",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "filmed@#1484 (\u03940)",
+  "evidence": "MEAS(bh rmse .064),EST(bw,cx)"
+ },
+ {
+  "id": "V05-A16",
+  "name": "comment bar + typed viral",
+  "category": "ui",
+  "element": "comment bar + typed viral",
+  "start_f": 1612,
+  "end_f": 1650,
+  "dur_ms": 1267,
+  "props": {
+   "chars": [
+    0,
+    5
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "comment@#1612 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V05-A17",
+  "name": "hard cuts dry",
+  "category": "cut",
+  "element": "hard cuts dry",
+  "start_f": 225,
+  "end_f": 225,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cuts",
+  "evidence": "MEAS(audio.json)"
+ }
+]

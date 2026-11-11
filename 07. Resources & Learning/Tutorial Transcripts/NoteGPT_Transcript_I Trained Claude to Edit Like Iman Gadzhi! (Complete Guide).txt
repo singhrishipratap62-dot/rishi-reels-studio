@@ -1,0 +1,152 @@
+00:00:00 - 00:00:50
+AI can now create stunning Iman Gadzhi videos just like this one. That entire edit was created only using AI. No After Effects, no animating frame by frame, and no editing software needed. And in this video, I'm going to give you the complete breakdown of how you can create Iman Gadzhi videos using AI from scratch. And if you've never edited anything with AI, or you're new to video editing, [music] don't worry. This is a complete A-to-Z walk-through of everything you need to know. First,
+
+00:00:28 - 00:01:14
+we're going to break down the Iman Gadzhi editing style down to each principle [music] in it: the planning, the design, and the animations. Then, I'll walk you through how we trained Claude to think like an Iman Gadzhi professional editor. And finally, I'm going to show you how we created the designs and animations [music] for each scene in this Iman Gadzhi video. All of this so that by the end of this video, you'll be able to take your client's footage, or your own video, and turn it
+
+00:00:50 - 00:01:44
+into an Iman Gadzhi premium video only using AI. So, without further ado, let's dive right in. But first, before we start creating amazing Iman Gadzhi designs and stunning animations, let me take the next few minutes to break down the three principles that make up the Iman Gadzhi editing style. Starting with principle number one, planning. When it comes to planning what to show in the video, Iman's team go above and beyond. And to reverse engineer exactly how, we studied 10 Iman Gadzhi videos, five of his best
+
+00:01:18 - 00:02:08
+performing ones, and five of his latest ones. We extracted every transcript, screenshotted every animation, and aligned each one to exactly what was being said and when it appeared. And after doing this, you start to see a pattern. And this pattern is the secret behind why Iman's videos are so good to watch. The intro and the body are planned completely differently. The intro has two to five times the animations, on average four to 10 visuals every minute, while the body sits around two animations per minute.
+
+00:01:43 - 00:02:36
+And these animations are never placed randomly. In the intro, there are five types of statements that always get animated: claims and concepts, numbers, chapter transitions, promises and open loops, and autobiographical proof. In the body, it just comes down to four: New information, numbers right after long dry explanations to restimulate the viewer, and proof. And one constant that never changes is every time a chapter is mentioned, the same chapter animation gets reused to help the viewer transition through the storyline. Now,
+
+00:02:10 - 00:02:54
+later in the video, you're going to see exactly how we taught Claude this entire planning psychology and used it to create the full plan for our Iman Gadzhi edit. So, make sure to stick around till then. But, knowing where to place animations is half the battle. The real question is, how do we come up with the design for each scene? When it comes to designing scenes for the Iman Gadzhi video, first we have to understand the most important principle, which is color. Iman chooses the accent color for
+
+00:02:32 - 00:03:20
+the video based on his recording. Whatever accent color is in the recording, that's the color theme for the animations. Now, out of that color, he extracts a darker variant and a lighter variant. So, if our color theme was red, that's a deep dark red gray and a light warm white. Now, the way that these colors are spread out is the scene is made up of 60% of the darker variant and 30% of the lighter variant and 10% of the accent vibrant color. This color combination stays consistent throughout
+
+00:02:56 - 00:03:42
+all the designs and it's what makes every scene feel like part of the same video. Now, with the color broken down, there are four main types of Iman Gadzhi designs that we see consistently in his videos. And understanding these four will help you recreate any Iman Gadzhi video that you want. The first type is on-screen animations. These are fillers between two major chapters that maintain the viewer's retention until Iman transitions. Here, you're going to find bottom of screen text and icon
+
+00:03:19 - 00:04:07
+animations, side-by-side object animations, UI elements like graphs with text at the bottom of the screen, graphics taking up one side while Iman takes the other, and lower thirds UI and text designs. The second type is UI animations, where the full screen becomes an animation incorporating UI and text. Here, you're going to find text-focused scenes with one word highlighted or underlined, two object scenes, which are great for comparison, one object plus text scenes revolving around a singular element, and every now
+
+00:03:43 - 00:04:29
+and then complex design scenes with advanced shape geometry. The third type is illustrated scenes, typically used when telling some kind of story or experience. Here, you're going to find single character scenes, environmental scenes where the character is doing something, and characters in environments with text describing what they're doing, and more rarely, mysterious scenes with complex illustrations describing a concept. And finally, the last type of scene, which is the weirdest one, is the 3D animation
+
+00:04:06 - 00:04:58
+scenes. These are designs composed around three-dimensional elements. These come very rarely and only when Iman really needs the viewer's attention to focus. So, to wrap things up, the four types of Iman Gadzhi designs are on-screen animations, UI animated scenes, illustrated cinematic art, and 3D animations. Now, training Cloud later on how to recreate each of these types of animations is exactly why our final edit turned out so good. So, stay tuned for that. And real quick, if you enjoy in-depth breakdowns of viral editing
+
+00:04:32 - 00:05:19
+styles like these, where you get to learn the back-end psychology of how these amazing videos are created, then you're going to love Ultimate Editors. Ultimate Editors is the step-by-step program to take you from a complete beginner to a viral editor making $2,000 per month with video editing in just 90 days. Inside, we'll give you step-by-step courses on Premiere Pro and After Effects, and in-depth breakdowns of the viral editing styles of 2026: the cinematic style, the minimal animation
+
+00:04:55 - 00:05:40
+style, the SaaS motion design style, and the 30+ viral animation breakdowns. We're not just teaching you how to create an editing style. We'll break down the branding fundamentals, the psychology of the style, and give you systems to recreate it. On top of all of this, we'll even give you the $2,000 per month editor blueprint, the step-by-step guide to making $2,000 a month as a video editor in 2026. [music] And the best part is, by the time you're watching this, we're going to have
+
+00:05:17 - 00:06:09
+released the AI editing fundamentals masterclass, where we teach you how to create viral edits like this one using AI in 2026. If you want to go from beginner editor to a viral professional editor creating stunning [music] edits and making $2,000 per month, Ultimate Editors is exactly where you need to be. The link is going to be down below. Editors are joining Ultimate Editors as beginner editors, and they go on to edit viral stunning content and make thousands of dollars every month. So, if you'd like to do the same, the link is
+
+00:05:44 - 00:06:32
+going to be down below. But now, with the first two pillars broken down, this brings us to pillar number three. How the Iman Gadzhi animations are created. It all comes down to four animation rules. And first is the text animations. Almost all of Iman's text use a word-by-word pop-up blur fade-in. Each word pops up, fades in, and blurs in. And they all happen sequentially to reveal. And this is exactly how we're going to be writing our prompts later to get the picture-perfect results with AI.
+
+00:06:07 - 00:06:55
+Second is the icon animations. Icons get a simple pop-up fade-in that's quick and smooth. Third is the UI animations. UI have a simple pop-up fade-in that starts fast and ends slow and smooth. And elements always animate in sequentially. Certain elements always start first and the rest follow after. And fourth is the camera movement, especially on the illustrated scenes. The character is always interacting with the environment, and most importantly, the camera always has some kind of slow zoom-in or pan
+
+00:06:31 - 00:07:21
+animation that keeps the scene active. So now, ladies and gentlemen, that wraps up all the principles to the Iman Gadzhi editing style, the planning, the design, and the animations. So now it's time to teach all of it to AI and train Claude to think exactly how an Iman Gadzhi editor thinks. To better understand how we're going to edit videos in the Iman Gadzhi style using AI, you need to understand this. Claude is a brain. It's able to study things and turn them into learned skills. And then use these skills to
+
+00:06:57 - 00:07:42
+execute tasks based on what it studied, which is exactly what we're going to be doing. We're going to be exposing Claude to the training that we put together on how Iman's videos are made so that we can train it to edit like Iman Gadzhi. And it all starts with training Claude on how Iman plans his videos. In order to do this, first I grabbed a few assets, the 10 videos that we studied, all their transcriptions, and all the animations which were planned for them. Then I uploaded them over to Claude and
+
+00:07:19 - 00:08:10
+told it to study exactly when every animation was planned, why, and what it included. Then use this analysis to conclude the planning system that Iman Gadzhi editors use. Now, by clicking enter, Claude studied all 10 scripts and every animation. And because of the sheer size of this analysis, it concluded the exact patterns behind how Iman's team thinks when planning animations. So, to test it, I uploaded the script of an Iman Gadzhi video and asked it to plan out the animations. And in the meantime, I did the same thing
+
+00:07:45 - 00:08:39
+myself using my 8 years of editing experience. To my surprise, both plans were essentially identical. Claude was officially planning videos like an Iman Gadzhi production team. Now, if you don't know, I can sit here and spend hours and hours training Claude on a task, but you won't have to do that. Because if you download this skill file, your Claude will know everything that I trained my Claude on, which is why I spent almost a week turning this entire style into skills. An editor brain that plans out
+
+00:08:14 - 00:08:59
+animations just like Iman Gadzhi, an Iman style designer to design scenes, and an Iman Gadzhi animator to create the animations. If you want access to these skills, I'll be including them in my AI editing fundamentals course in Ultimate Editors. Meaning not only will you be able to learn everything about AI video editing, but you're also going to get premium skills like these that do the editing for you. The link to check out Ultimate Editors is going to be down below. Check it out. But now that Claude
+
+00:08:37 - 00:09:27
+was trained to plan just like Iman Gadzhi, it was time to train it on high-quality Iman Gadzhi designs. [music] So, how exactly did we do that? What I did was I first collected a huge pile of every animation that Iman Gadzhi made and put them all in a Figma doc. Then, under each section, I added a breakdown of how each type of animation is created and the different kinds of layouts for each design. [music] So, we had a column that broke down the design fundamentals behind the on-screen animations, one for the UI animations,
+
+00:09:02 - 00:09:50
+one for the illustrated scenes, and one for the 3D animations. Then, I took these four PDFs and uploaded them to Claude. And I explained that this is the design fundamentals behind Iman Gadzhi's high-quality design scenes. Study it and analyze every kind of design and associate it with when they were used in the previous scripts. [music] Then, Claude studied these PDFs and created the Iman Gadzhi design brain. A skill that knows the four types of Iman Gadzhi designs and exactly how and when to
+
+00:09:26 - 00:10:10
+create them. From the colors to the glows to the layouts, fonts, [music] and everything. And to test it, later in the video, I used this exact skill to design all the amazing scenes for our Iman Gadzhi edit, which is coming up in just a second. Again, if you want to download the full skill that was trained on the four types of Iman Gadzhi designs, it's all going to go live with the editing fundamentals course in Ultimate Editors. But, by this point, Claude was essentially trained on how to plan
+
+00:09:48 - 00:10:37
+videos like Iman Gadzhi and how to design each type of scene just like Iman would, which meant that there was one last thing to teach Claude. How to animate just like Iman. And this is how we did it. In order to teach Claude how to animate like Iman Gadzhi, I had to do something special. You see, Claude can't actually watch videos or study animations. So, I had to tell Claude manually what was happening and when it was happening so that it could learn it. So, what I did was I uploaded screenshots of the designs of animations
+
+00:10:12 - 00:11:03
+that Iman Gadzhi made. Then, I broke each one down for Claude. First, I uploaded an on-screen animation. I explained to Claude how the word-by-word pop-up blur fade-in animation worked, how the icons pop up fade in smoothly, and how the on-screen animations are animated. Then, I uploaded a UI animation and explained how the icons pop up fade in smoothly, how the UI has a cinematic pop-up fade-in animation as well, and how the camera follows a cinematic zoom-in animation. Then, I uploaded an illustrated scene and
+
+00:10:38 - 00:11:24
+explained how the characters live out the environment, how the text pops up, and how most importantly the camera has a pan animation that starts quick and zooms out. After lots of prompting, I was finally able to explain to Claude how these scenes get [music] animated and what makes them the premium Iman Gadzhi style. Then, of course, I asked it to turn this into a skill called the Iman Gadzhi Animator Brain, which again, you can get access to in my AI Editing Fundamentals course in Ultimate Editors.
+
+00:11:01 - 00:11:52
+The link's going to be down below. But, now that Claude can plan out videos like Iman Gadzhi, design scenes like Iman Gadzhi, and create smooth animations like Iman Gadzhi, there was one [music] last thing left to do. It was time to put all of this to the test and plug a raw video into Claude and see if it truly is able to create a full Iman Gadzhi style edit from scratch using everything we taught it. This right here is my raw video. It's a segment from an Iman Gadzhi video that he recorded a while back and it's all
+
+00:11:27 - 00:12:12
+completely raw. I wanted to see just how good AI can edit this in the Iman Gadzhi style. So, let's find out. The first thing we need to do is plan out the edit, just like Iman Gadzhi. So, I pull up Claude and tell it to load up the Iman Gadzhi editor brain skill. Then, I uploaded the script of the video and prompted it this: Using the Iman Gadzhi editor brain, I want you to think like an Iman Gadzhi editor and plan out the edit for this script. For each line, extract the main subject of the scene,
+
+00:11:50 - 00:12:38
+choose whether the scene needs an animation or not, and choose what the animation should be about. And after clicking enter and giving it some time to load, it absolutely blew my mind. It analyzed the script exactly like an Iman Gadzhi editor would, and it planned animations for every segment that needed animating. In total, it planned out 10 total animations: a chapter reveal, four chapter references, three AI illustrations, and two dynamic scene designs. And the best part is, it planned them perfectly. They hooked the
+
+00:12:13 - 00:12:59
+viewer in, they highlighted new concepts, and showcased everything just how Iman would. With the full plan created, it was time to start turning each scene into an Iman style design. So, let's go ahead and start building that. I then prompted Claude to load up our Iman Gadzhi design brain skill, because we were about to start creating some designs. But before we create the scenes, there's a tiny problem. You see, Claude on its own is a brain. It can't actually generate images or video. So,
+
+00:12:36 - 00:13:24
+we connect it to a tool that can, which is Higgsfield. This means that Claude does the thinking and the decision-making, and Higgsfield executes on it and creates the images and animations. And we just keep working inside of Claude as if nothing happened. At the beginning of the video, Iman starts with this clip here. So, I've got a couple things written down, and honestly, I'm just going to spitball these 17 lessons. This clip introduces the subject of the video as 17 life lessons. So, Claude planned to reveal a
+
+00:13:00 - 00:13:43
+notebook as the chapter element, with every chapter written inside it. I told Claude the accent color was going to be red, since we could see a hint of red in the background where Iman was recording. And I prompted it to create the design for this scene in the Iman Gadzhi style. Claude thought a little and gave Higgsfield this prompt: In a black and red illustrated theme, create a top-down shot of a notebook on a table in a dark room with elements on the edges for depth. And this is the design it
+
+00:13:22 - 00:14:09
+generated. It perfectly fit the brand. Then, using the notebook as a reference, Claude prompted Higgsfield to create an image of this notebook but open. The paper has an off-white warm textured color and inside the title says 17 life lessons and a list of 17 ideas all scribbled. And this is the scene that it created, which looked perfect. Now, these two scenes form the first animation. So, I asked Claude to load up the Iman Gadzhi animator brain and bring them to life. Claude referenced both the
+
+00:13:45 - 00:14:31
+notebook shots in Scene Dance 2.0 and prompted the notebook starts closed on the desk then quickly opens as the wind makes the papers jitter revealing the 17 life lessons as a slow camera zoom in is constantly happening. There's no music, just [music] sound effects. And this is the animation it generated. This is the perfect chapter element reveal for the beginning of the video. By the way, if you're finding any of this complex and if you've never edited anything with AI before, don't worry. This is exactly why
+
+00:14:08 - 00:14:53
+I built the AI editing fundamentals course. I'm going to be breaking down everything you need to create stunning AI edits like these from A to Z. And you're also going to get access to all the Iman Gadzhi skills used in this video. The link is going to be down in the description. But this chapter reveal was only the beginning. The next clip was Iman revealing the first chapter. >> Lesson number one is you need to extend your timeline. >> To list out each chapter, we unscrambled
+
+00:14:30 - 00:15:18
+the text and write out the chapter title exactly how Iman does it. So, I prompted Claude to create the chapter animation for chapter one extend your timeline. First, Claude prompted Higgsfield to reference the open notebook and generate a close-up macro shot of lesson number one still scribbled. Then to unscramble the text into the title extend your timeline. Then using these two images as reference with Scene Dance 2.0, it prompted a close-up macro shot of the scribbled text in number one unscrambling and turning into the words
+
+00:14:54 - 00:15:43
+extend your timeline as a cinematic camera constantly tilts 3D around the image. And this is what Higgsfield created, a perfect animation revealing our first chapter. And for the three other chapters, Claude repeated the same workflow, unscrambling a different number into each chapter title giving us all four chapter animations for the video. And this was just the beginning. Next up were the three illustrated sequences, which follow a very similar workflow. In the next clip, Iman says this. He's telling a personal story. So,
+
+00:15:19 - 00:16:03
+Claude planned to emphasize the emotion with a cinematic illustrated chart of every scenario. Scenario one was the hangout with the friends. Claude prompted Hicksfield in the red and black illustrated style generated a group of friends hanging out having fun on a couch. And this is what it generated. It fit the branding and looked like something straight out of an Iman Gadzhi video. Then to animate it, Claude prompted Hicksfield to use it as a reference as the camera slowly zooms in on this group of teenagers having fun.
+
+00:15:41 - 00:16:30
+There's no music, there's just sound effects. And this is our first cinematic scene. Scenario two was about grabbing a beer. Same workflow. Claude references the first scene and creates a group toasting at the bar. Then it animates it with a cinematic slow zoom in as they toast and beer spills everywhere. And scenario three was about watching a football game. Claude generated the group of fans jumping hyped in a football stadium and animated a cinematic zoom in as they enthusiastically jump and scream. Now by
+
+00:16:05 - 00:16:52
+combining all three of these, this is what our cinematic illustration looked like. Now real quick, this happens two more times throughout the raw video. On our second section, Iman says this. >> I would walk down the street. You could tell I was on a mission. >> Claude generates a shot of a character walking down the crowded street and a close-up of the eyebrows. And then it turns both into a simple illustrated animation. And on our third scenario, Iman says this. >> If you pick up a girl, if you drop a
+
+00:16:29 - 00:17:14
+girl home after a date, if you pay for the bill. >> Claude generates a man opening the door for a woman. The man is taking her home and a top-down shot of him paying the bill. This time with a clean white text on the edge of each scene which looked super high quality. Then Claude turned all of these into high quality animated illustrations using the exact same workflow. Now by this point, most of the edit had animations and it was time to create the final cut. The two dynamic designs. For our first clip, Iman says
+
+00:16:52 - 00:17:36
+this. >> And I think that was really just a sign of having a clear direction, a vision for what I could become. >> So Claude planned to show a vision in the center of the scene with a man staring into it and distraction icons floating around the edges. Hicksfield processed a little and this is what it came up with. It fit the branding enough but definitely could have been better. But I still rolled with it. Then Claude prompted Hicksfield to use this as a reference and start the scene with a
+
+00:17:13 - 00:18:02
+black background, reveal the vision in the middle with particles and the effects then pop up and fade in the character and finally reveal the distracted icons. Now, this animation actually came out really solid. And for our second section, Iman mentions this. >> Focus on learning skills that are practical. Focus on starting businesses or careers that are practical. >> So, Claude planned a brain receiving information in the same style. It prompted a design in the middle with circular patterns emerging and two hands
+
+00:17:38 - 00:18:23
+reaching in from the edges with information. Then, it used it as a reference to create this beautiful animation. Which, by this point with the chapter animation done, the illustrated scenes and the dynamic designs, every animation in the video was officially complete. And after adding them into the video, I just couldn't believe how good this turned out. Check it out. >> I've got a couple things written down and honestly, I'm just going to spitball these 17 lessons. Lesson number one is
+
+00:18:00 - 00:18:56
+you need to extend your timeline. I can tell you that I have missed out on so many hangout with the friends, grab a beer with the friends, watch the football game. It is so easy to see the final product and think that you need to rush when quite frankly, you don't. The next life lesson is walk with purpose. I remember even from the age of 15 or 16, I would walk down the street. You could tell I was on a mission and I think that was really just a sign of having a clear direction, a vision for what I could
+
+00:18:28 - 00:19:16
+become. Now, the next thing is to focus on practicality and not purpose. Focus on learning skills that are practical. Focus on starting businesses or careers that are practical. Focus on becoming a gentleman. Do not listen to all of these guys that have never lived in the real world telling you, "Oh, you're a simp if you pick up a girl, if you drop a girl home after a date, if you pay >> [music] >> for the bill." I don't know who raised some of these kids because quite
+
+00:18:52 - 00:19:37
+clearly, they're not actual men. The way that I was raised is as a man, you pay for the bill. And if you cannot pay for the bill, if you cannot afford to, and when I was younger, I was in that position. Well, then guess what? [music] Get to work. Ladies and gentlemen, this brings us to the end of the video and this makes us realize something very shocking. I think it's very evident that video editing is slowly going from mastering the editing programs and the viral editing styles into learning how
+
+00:19:15 - 00:20:02
+you can utilize AI to do the technical work so that you as a video editor can focus on coming up with the creative [music] scenes. This by no means claims that video editing is dead because of AI. As a matter of fact, I think it's more alive than ever. Now AI can do all of the heavy work like the animating and the designs while you can focus on doing the things that matter like analyzing the video for where the best animations need to be and using AI to create that video for you. But with all this being
+
+00:19:39 - 00:20:20
+said, thank you guys so much for watching all the way to the end of the video and I'm very very interested to know what do you guys think of AI video editing? When you hear AI video editing, do you instantly get defensive? Do you feel angry about it? Or are you open to discovering AI and learning new tools that can make your workflow easier? Let us know in the comments down below. But in the meantime, stay tuned for our next video and feel free to check out one of these two tutorials which are just as
+
+00:19:59 - 00:20:09
+valuable as the one that you just watched. Thanks a lot for everything guys and we'll see you next time.

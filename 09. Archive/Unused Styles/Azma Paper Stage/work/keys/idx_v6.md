@@ -1,0 +1,28 @@
+
+## vid-6 (Changan car brands explainer; tan tee)
+- v6 | 1.4–5 | fs-object | white bg, money stack pixel 3D + silver pixel car slides along grey road strip
+- v6 | 5.7–8 | broll-text | B&W animated princess clip with pixel-mosaic blocks
+- v6 | 8.9–13.8 | broll-text | 3D cut-away engine/EV rendering, battery cells; car slides in at 13.8 on white strip
+- v6 | 16.3 | broll-text | B&W boy meme
+- v6 | 21.2–23 | fs-object | her cut-out holding spanners on yellow floor, "Changan's Evolution" heading
+- v6 | 24.9–28.5 | fs-object | road strip top-down, pill tags "ALSVIN"/"KARVAAN" w/ carousel arrows + cursor; cars drive in
+- v6 | 33–36.7 | broll-text | product footage interior/screen/tail cuts
+- v6 | 39.4–42.2 | fs-object | her cut-out stands by stacks of green cash blocks; "I chose it when I was buying my First New Car" (gold tag bold)
+- v6 | 44.5 | camera | A-roll greyscale w/ caption "Great decision" (colour drained beat)
+- v6 | 49.9–51 | fs-data | corporate photo + article screenshot blur->sharp, blue highlight
+- v6 | 53.2 | fs-object | white bg, cartoon man on teal floor, "creating different brands for different kinds of Customers" (ghost last word)
+- v6 | 54.5 | onscreen-pop | black SUV cut-out slides across lower-left over A-roll
+- v6 | 56.3–59.7 | broll-text | launch-event footage cars, light-streak glitch
+- v6 | 64 | broll-text | dim B&W speaker clip
+- v6 | 67.3–69.8 | broll-text | car interior/exterior shots
+- v6 | 70.3–72.3 | fs-object | cartoon man holding sunflower beside road; "Long drive py Chal, Chal, Chal." (bold)
+- v6 | 73.5 | camera | greyscale A-roll beat
+- v6 | 75–81 | fs-data | brand website screenshot (DEEPAL brand overview), highlight bars
+- v6 | 85.8 | onscreen-pop | car cut-out sliding behind her
+- v6 | 94–96.5 | broll-text | car footage, speedometer 91 km/h
+- v6 | 100.9 | fs-object | jigsaw pieces (gear/camera icons) green/red
+- v6 | 102.9 | fs-object | black sedan on road strip + gold label "into an experience that actually Makes ..."
+- v6 | 108–116.2 | onscreen-pop | lower-third car cards (grey label pills "NEVO", "DEEPAL", "AVATR" + product thumbnails slide in from left over A-roll, red/black card base)
+- v6 | 118–122 | fs-object | signpost "ENTIRE ECOSYSTEM" with 4 gold buttons (Mainstream Mobility → Ultra Luxury), cursor clicks each (turns green), car below changes
+- v6 | 122.4–126.2 | broll-text | car detail footage (mirror, wheel, headlight)
+- v6 | other | captions | A-roll top caption

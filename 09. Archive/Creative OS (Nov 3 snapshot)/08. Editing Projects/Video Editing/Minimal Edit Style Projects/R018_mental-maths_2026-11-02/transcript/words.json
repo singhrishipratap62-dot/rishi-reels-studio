@@ -1,0 +1,1364 @@
+{
+ "t0_source_ms": 0,
+ "words": [
+  {
+   "word": "Can",
+   "start_ms": 2751,
+   "p": 0.34,
+   "end_ms": 2751,
+   "uncertain": true
+  },
+  {
+   "word": "you",
+   "start_ms": 2751,
+   "p": 0.99,
+   "end_ms": 3200
+  },
+  {
+   "word": "work",
+   "start_ms": 3200,
+   "p": 0.8,
+   "end_ms": 3400
+  },
+  {
+   "word": "out",
+   "start_ms": 3400,
+   "p": 0.96,
+   "end_ms": 3860
+  },
+  {
+   "word": "16%",
+   "start_ms": 3860,
+   "p": 0.87,
+   "end_ms": 4400
+  },
+  {
+   "word": "of",
+   "start_ms": 4400,
+   "p": 0.86,
+   "end_ms": 4760
+  },
+  {
+   "word": "50",
+   "start_ms": 4760,
+   "p": 0.99,
+   "end_ms": 4940
+  },
+  {
+   "word": "lakh",
+   "start_ms": 4940,
+   "p": 0.5,
+   "end_ms": 5120,
+   "uncertain": true
+  },
+  {
+   "word": "in",
+   "start_ms": 5120,
+   "p": 0.76,
+   "end_ms": 5480
+  },
+  {
+   "word": "under",
+   "start_ms": 5480,
+   "p": 0.98,
+   "end_ms": 5760
+  },
+  {
+   "word": "3",
+   "start_ms": 5760,
+   "p": 0.87,
+   "end_ms": 6176
+  },
+  {
+   "word": "seconds?",
+   "start_ms": 6220,
+   "p": 0.65,
+   "end_ms": 6584,
+   "uncertain": true
+  },
+  {
+   "word": "If",
+   "start_ms": 6584,
+   "p": 0.98,
+   "end_ms": 6920
+  },
+  {
+   "word": "not,",
+   "start_ms": 6920,
+   "p": 0.77,
+   "end_ms": 7300
+  },
+  {
+   "word": "these",
+   "start_ms": 7300,
+   "p": 0.97,
+   "end_ms": 7540
+  },
+  {
+   "word": "5",
+   "start_ms": 7540,
+   "p": 0.8,
+   "end_ms": 8020
+  },
+  {
+   "word": "shortcuts",
+   "start_ms": 8020,
+   "p": 0.85,
+   "end_ms": 8280
+  },
+  {
+   "word": "will",
+   "start_ms": 8280,
+   "p": 0.99,
+   "end_ms": 8600
+  },
+  {
+   "word": "help",
+   "start_ms": 8600,
+   "p": 0.98,
+   "end_ms": 8700
+  },
+  {
+   "word": "you",
+   "start_ms": 8700,
+   "p": 0.99,
+   "end_ms": 8767
+  },
+  {
+   "word": "save",
+   "start_ms": 8998,
+   "p": 0.97,
+   "end_ms": 9400
+  },
+  {
+   "word": "a",
+   "start_ms": 9400,
+   "p": 0.95,
+   "end_ms": 9459
+  },
+  {
+   "word": "full",
+   "start_ms": 9590,
+   "p": 0.97,
+   "end_ms": 10000
+  },
+  {
+   "word": "minute",
+   "start_ms": 10000,
+   "p": 0.98,
+   "end_ms": 10280
+  },
+  {
+   "word": "in",
+   "start_ms": 10280,
+   "p": 0.97,
+   "end_ms": 10580
+  },
+  {
+   "word": "every",
+   "start_ms": 10580,
+   "p": 0.94,
+   "end_ms": 10880
+  },
+  {
+   "word": "case",
+   "start_ms": 10880,
+   "p": 0.99,
+   "end_ms": 11380
+  },
+  {
+   "word": "interview.",
+   "start_ms": 11380,
+   "p": 0.78,
+   "end_ms": 11414
+  },
+  {
+   "word": "Number",
+   "start_ms": 11908,
+   "p": 0.83,
+   "end_ms": 12420
+  },
+  {
+   "word": "1,",
+   "start_ms": 12420,
+   "p": 0.37,
+   "end_ms": 12458,
+   "uncertain": true
+  },
+  {
+   "word": "Flip",
+   "start_ms": 12690,
+   "p": 0.3,
+   "end_ms": 13040,
+   "uncertain": true
+  },
+  {
+   "word": "the",
+   "start_ms": 13040,
+   "p": 0.93,
+   "end_ms": 13579
+  },
+  {
+   "word": "percentage.",
+   "start_ms": 13620,
+   "p": 0.55,
+   "end_ms": 13999,
+   "uncertain": true
+  },
+  {
+   "word": "Because",
+   "start_ms": 13999,
+   "p": 0.99,
+   "end_ms": 14740
+  },
+  {
+   "word": "16%",
+   "start_ms": 14740,
+   "p": 0.98,
+   "end_ms": 15420
+  },
+  {
+   "word": "of",
+   "start_ms": 15420,
+   "p": 0.97,
+   "end_ms": 15448
+  },
+  {
+   "word": "50",
+   "start_ms": 15599,
+   "p": 1.0,
+   "end_ms": 16040
+  },
+  {
+   "word": "lakh",
+   "start_ms": 16040,
+   "p": 0.94,
+   "end_ms": 16076
+  },
+  {
+   "word": "is",
+   "start_ms": 16247,
+   "p": 0.97,
+   "end_ms": 16247
+  },
+  {
+   "word": "the",
+   "start_ms": 16247,
+   "p": 0.99,
+   "end_ms": 16800
+  },
+  {
+   "word": "same",
+   "start_ms": 16800,
+   "p": 1.0,
+   "end_ms": 16980
+  },
+  {
+   "word": "as",
+   "start_ms": 16980,
+   "p": 0.99,
+   "end_ms": 17238
+  },
+  {
+   "word": "50%",
+   "start_ms": 17373,
+   "p": 0.98,
+   "end_ms": 18000
+  },
+  {
+   "word": "of",
+   "start_ms": 18000,
+   "p": 0.99,
+   "end_ms": 18320
+  },
+  {
+   "word": "16",
+   "start_ms": 18320,
+   "p": 0.97,
+   "end_ms": 18620
+  },
+  {
+   "word": "lakh,",
+   "start_ms": 18620,
+   "p": 0.51,
+   "end_ms": 18740,
+   "uncertain": true
+  },
+  {
+   "word": "which",
+   "start_ms": 18874,
+   "p": 0.97,
+   "end_ms": 19194
+  },
+  {
+   "word": "is",
+   "start_ms": 19200,
+   "p": 0.99,
+   "end_ms": 19809
+  },
+  {
+   "word": "8",
+   "start_ms": 19809,
+   "p": 0.97,
+   "end_ms": 20180
+  },
+  {
+   "word": "lakh.",
+   "start_ms": 20180,
+   "p": 0.93,
+   "end_ms": 20184
+  },
+  {
+   "word": "So",
+   "start_ms": 20652,
+   "p": 0.95,
+   "end_ms": 20659
+  },
+  {
+   "word": "the",
+   "start_ms": 20908,
+   "p": 0.98,
+   "end_ms": 21440
+  },
+  {
+   "word": "hard",
+   "start_ms": 21440,
+   "p": 0.94,
+   "end_ms": 21800
+  },
+  {
+   "word": "version",
+   "start_ms": 21800,
+   "p": 0.99,
+   "end_ms": 22060
+  },
+  {
+   "word": "turns",
+   "start_ms": 22060,
+   "p": 0.99,
+   "end_ms": 22400
+  },
+  {
+   "word": "into",
+   "start_ms": 22400,
+   "p": 0.96,
+   "end_ms": 22560
+  },
+  {
+   "word": "an",
+   "start_ms": 22560,
+   "p": 0.97,
+   "end_ms": 22740
+  },
+  {
+   "word": "easy",
+   "start_ms": 22740,
+   "p": 0.99,
+   "end_ms": 22860
+  },
+  {
+   "word": "one.",
+   "start_ms": 22980,
+   "p": 0.96,
+   "end_ms": 23880
+  },
+  {
+   "word": "Number",
+   "start_ms": 24120,
+   "p": 0.95,
+   "end_ms": 24120
+  },
+  {
+   "word": "2,",
+   "start_ms": 24120,
+   "p": 0.97,
+   "end_ms": 24219
+  },
+  {
+   "word": "learn",
+   "start_ms": 24840,
+   "p": 0.68,
+   "end_ms": 25040,
+   "uncertain": true
+  },
+  {
+   "word": "your",
+   "start_ms": 25040,
+   "p": 0.99,
+   "end_ms": 25580
+  },
+  {
+   "word": "fraction",
+   "start_ms": 25580,
+   "p": 0.97,
+   "end_ms": 26033
+  },
+  {
+   "word": "anchors,",
+   "start_ms": 26181,
+   "p": 0.58,
+   "end_ms": 26181,
+   "uncertain": true
+  },
+  {
+   "word": "where",
+   "start_ms": 26181,
+   "p": 0.98,
+   "end_ms": 26660
+  },
+  {
+   "word": "1/8",
+   "start_ms": 26660,
+   "p": 0.88,
+   "end_ms": 27260
+  },
+  {
+   "word": "is",
+   "start_ms": 27260,
+   "p": 0.73,
+   "end_ms": 27480
+  },
+  {
+   "word": "12.5%,",
+   "start_ms": 27480,
+   "p": 0.56,
+   "end_ms": 28380,
+   "uncertain": true
+  },
+  {
+   "word": "1/6",
+   "start_ms": 28684,
+   "p": 0.97,
+   "end_ms": 29037
+  },
+  {
+   "word": "is",
+   "start_ms": 29206,
+   "p": 0.87,
+   "end_ms": 29357
+  },
+  {
+   "word": "16.7%,",
+   "start_ms": 29483,
+   "p": 0.45,
+   "end_ms": 29521,
+   "uncertain": true
+  },
+  {
+   "word": "and",
+   "start_ms": 31053,
+   "p": 0.95,
+   "end_ms": 31053
+  },
+  {
+   "word": "1/7",
+   "start_ms": 31053,
+   "p": 0.98,
+   "end_ms": 31920
+  },
+  {
+   "word": "is",
+   "start_ms": 31920,
+   "p": 0.97,
+   "end_ms": 32140
+  },
+  {
+   "word": "about",
+   "start_ms": 32140,
+   "p": 0.56,
+   "end_ms": 32560,
+   "uncertain": true
+  },
+  {
+   "word": "14.3%.",
+   "start_ms": 32560,
+   "p": 0.84,
+   "end_ms": 33460
+  },
+  {
+   "word": "So",
+   "start_ms": 33600,
+   "p": 1.0,
+   "end_ms": 33732
+  },
+  {
+   "word": "if",
+   "start_ms": 33732,
+   "p": 0.97,
+   "end_ms": 33732
+  },
+  {
+   "word": "the",
+   "start_ms": 33732,
+   "p": 0.99,
+   "end_ms": 34320
+  },
+  {
+   "word": "client",
+   "start_ms": 34320,
+   "p": 0.99,
+   "end_ms": 34667
+  },
+  {
+   "word": "sells",
+   "start_ms": 34760,
+   "p": 0.94,
+   "end_ms": 35660
+  },
+  {
+   "word": "120",
+   "start_ms": 35660,
+   "p": 0.91,
+   "end_ms": 35980
+  },
+  {
+   "word": "out",
+   "start_ms": 35980,
+   "p": 0.98,
+   "end_ms": 36200
+  },
+  {
+   "word": "of",
+   "start_ms": 36200,
+   "p": 0.99,
+   "end_ms": 36360
+  },
+  {
+   "word": "840",
+   "start_ms": 36360,
+   "p": 0.74,
+   "end_ms": 36920
+  },
+  {
+   "word": "units,",
+   "start_ms": 36920,
+   "p": 0.8,
+   "end_ms": 37120
+  },
+  {
+   "word": "so",
+   "start_ms": 37120,
+   "p": 0.88,
+   "end_ms": 37240
+  },
+  {
+   "word": "that's",
+   "start_ms": 37240,
+   "p": 0.79,
+   "end_ms": 37279
+  },
+  {
+   "word": "about",
+   "start_ms": 37444,
+   "p": 0.99,
+   "end_ms": 38060
+  },
+  {
+   "word": "14%.",
+   "start_ms": 38060,
+   "p": 0.88,
+   "end_ms": 38475
+  },
+  {
+   "word": "Number",
+   "start_ms": 38980,
+   "p": 0.99,
+   "end_ms": 39520
+  },
+  {
+   "word": "3,",
+   "start_ms": 39520,
+   "p": 0.89,
+   "end_ms": 39980
+  },
+  {
+   "word": "round",
+   "start_ms": 39980,
+   "p": 0.42,
+   "end_ms": 40360,
+   "uncertain": true
+  },
+  {
+   "word": "and",
+   "start_ms": 40360,
+   "p": 0.92,
+   "end_ms": 40560
+  },
+  {
+   "word": "then",
+   "start_ms": 40560,
+   "p": 0.99,
+   "end_ms": 40860
+  },
+  {
+   "word": "correct.",
+   "start_ms": 40860,
+   "p": 0.9,
+   "end_ms": 40881
+  },
+  {
+   "word": "So",
+   "start_ms": 41071,
+   "p": 1.0,
+   "end_ms": 41134
+  },
+  {
+   "word": "49",
+   "start_ms": 41259,
+   "p": 0.99,
+   "end_ms": 42080
+  },
+  {
+   "word": "times",
+   "start_ms": 42080,
+   "p": 0.9,
+   "end_ms": 42380
+  },
+  {
+   "word": "18",
+   "start_ms": 42380,
+   "p": 0.97,
+   "end_ms": 42700
+  },
+  {
+   "word": "becomes",
+   "start_ms": 42700,
+   "p": 0.94,
+   "end_ms": 43047
+  },
+  {
+   "word": "50",
+   "start_ms": 43168,
+   "p": 1.0,
+   "end_ms": 43620,
+   "uncertain": true,
+   "heard": "15"
+  },
+  {
+   "word": "times",
+   "start_ms": 43620,
+   "p": 0.98,
+   "end_ms": 43980
+  },
+  {
+   "word": "18,",
+   "start_ms": 43980,
+   "p": 0.87,
+   "end_ms": 44067
+  },
+  {
+   "word": "which",
+   "start_ms": 44331,
+   "p": 0.99,
+   "end_ms": 44331
+  },
+  {
+   "word": "is",
+   "start_ms": 44331,
+   "p": 1.0,
+   "end_ms": 45060
+  },
+  {
+   "word": "900,",
+   "start_ms": 45060,
+   "p": 0.73,
+   "end_ms": 45520
+  },
+  {
+   "word": "minus",
+   "start_ms": 45520,
+   "p": 0.89,
+   "end_ms": 45880
+  },
+  {
+   "word": "18,",
+   "start_ms": 45880,
+   "p": 0.67,
+   "end_ms": 46140,
+   "uncertain": true
+  },
+  {
+   "word": "which",
+   "start_ms": 46140,
+   "p": 1.0,
+   "end_ms": 46240
+  },
+  {
+   "word": "is",
+   "start_ms": 46240,
+   "p": 1.0,
+   "end_ms": 46500
+  },
+  {
+   "word": "882.",
+   "start_ms": 46500,
+   "p": 0.76,
+   "end_ms": 46953
+  },
+  {
+   "word": "Number",
+   "start_ms": 48020,
+   "p": 0.23,
+   "end_ms": 48320,
+   "uncertain": true,
+   "heard": "Therefore"
+  },
+  {
+   "word": "4,",
+   "start_ms": 48320,
+   "end_ms": 48358,
+   "p": 0.23,
+   "uncertain": true
+  },
+  {
+   "word": "split",
+   "start_ms": 48358,
+   "p": 0.84,
+   "end_ms": 48587
+  },
+  {
+   "word": "awkward",
+   "start_ms": 49180,
+   "p": 0.95,
+   "end_ms": 49820
+  },
+  {
+   "word": "percentages,",
+   "start_ms": 49820,
+   "p": 0.56,
+   "end_ms": 50235,
+   "uncertain": true
+  },
+  {
+   "word": "because",
+   "start_ms": 50367,
+   "p": 0.97,
+   "end_ms": 50367
+  },
+  {
+   "word": "15%",
+   "start_ms": 50367,
+   "p": 0.98,
+   "end_ms": 50424
+  },
+  {
+   "word": "of",
+   "start_ms": 51430,
+   "p": 0.99,
+   "end_ms": 51605
+  },
+  {
+   "word": "640",
+   "start_ms": 51909,
+   "p": 0.96,
+   "end_ms": 52071
+  },
+  {
+   "word": "is",
+   "start_ms": 52724,
+   "p": 0.91,
+   "end_ms": 52724
+  },
+  {
+   "word": "just",
+   "start_ms": 52724,
+   "p": 1.0,
+   "end_ms": 53360
+  },
+  {
+   "word": "10%,",
+   "start_ms": 53360,
+   "p": 0.87,
+   "end_ms": 53734
+  },
+  {
+   "word": "which",
+   "start_ms": 53961,
+   "p": 0.99,
+   "end_ms": 53961
+  },
+  {
+   "word": "is",
+   "start_ms": 53961,
+   "p": 1.0,
+   "end_ms": 54417
+  },
+  {
+   "word": "64",
+   "start_ms": 54549,
+   "p": 0.99,
+   "end_ms": 55080
+  },
+  {
+   "word": "plus",
+   "start_ms": 55080,
+   "p": 0.42,
+   "end_ms": 55400,
+   "uncertain": true
+  },
+  {
+   "word": "half",
+   "start_ms": 55400,
+   "p": 0.49,
+   "end_ms": 55500,
+   "uncertain": true
+  },
+  {
+   "word": "of",
+   "start_ms": 55500,
+   "p": 0.94,
+   "end_ms": 55680
+  },
+  {
+   "word": "it",
+   "start_ms": 55680,
+   "p": 0.75,
+   "end_ms": 55684
+  },
+  {
+   "word": "32.",
+   "start_ms": 56420,
+   "p": 0.65,
+   "end_ms": 56435,
+   "uncertain": true
+  },
+  {
+   "word": "So",
+   "start_ms": 56829,
+   "p": 1.0,
+   "end_ms": 57340
+  },
+  {
+   "word": "96.",
+   "start_ms": 57340,
+   "p": 0.93,
+   "end_ms": 57610
+  },
+  {
+   "word": "Number",
+   "start_ms": 58078,
+   "p": 0.97,
+   "end_ms": 58660
+  },
+  {
+   "word": "5,",
+   "start_ms": 58660,
+   "p": 0.98,
+   "end_ms": 58980
+  },
+  {
+   "word": "use",
+   "start_ms": 58980,
+   "p": 0.71,
+   "end_ms": 59200
+  },
+  {
+   "word": "the",
+   "start_ms": 59200,
+   "p": 0.99,
+   "end_ms": 59360
+  },
+  {
+   "word": "rule",
+   "start_ms": 59360,
+   "p": 0.99,
+   "end_ms": 59600
+  },
+  {
+   "word": "of",
+   "start_ms": 59600,
+   "p": 1.0,
+   "end_ms": 60000
+  },
+  {
+   "word": "72",
+   "start_ms": 60000,
+   "p": 0.99,
+   "end_ms": 60420
+  },
+  {
+   "word": "for",
+   "start_ms": 60420,
+   "p": 0.97,
+   "end_ms": 60690
+  },
+  {
+   "word": "growth.",
+   "start_ms": 60780,
+   "p": 0.75,
+   "end_ms": 61173
+  },
+  {
+   "word": "Because",
+   "start_ms": 61173,
+   "p": 0.99,
+   "end_ms": 61820
+  },
+  {
+   "word": "dividing",
+   "start_ms": 61820,
+   "p": 0.97,
+   "end_ms": 62460
+  },
+  {
+   "word": "72",
+   "start_ms": 62460,
+   "p": 0.99,
+   "end_ms": 62740
+  },
+  {
+   "word": "by",
+   "start_ms": 62740,
+   "p": 0.97,
+   "end_ms": 63200
+  },
+  {
+   "word": "growth",
+   "start_ms": 63200,
+   "p": 0.99,
+   "end_ms": 63310
+  },
+  {
+   "word": "rate",
+   "start_ms": 63444,
+   "p": 0.82,
+   "end_ms": 63662
+  },
+  {
+   "word": "tells",
+   "start_ms": 63784,
+   "p": 0.98,
+   "end_ms": 64214
+  },
+  {
+   "word": "you",
+   "start_ms": 64240,
+   "p": 1.0,
+   "end_ms": 64585
+  },
+  {
+   "word": "roughly",
+   "start_ms": 64585,
+   "p": 0.89,
+   "end_ms": 65120
+  },
+  {
+   "word": "how",
+   "start_ms": 65120,
+   "p": 0.98,
+   "end_ms": 65340
+  },
+  {
+   "word": "many",
+   "start_ms": 65340,
+   "p": 1.0,
+   "end_ms": 65680
+  },
+  {
+   "word": "years",
+   "start_ms": 65680,
+   "p": 0.96,
+   "end_ms": 66140
+  },
+  {
+   "word": "something",
+   "start_ms": 66140,
+   "p": 0.98,
+   "end_ms": 66430
+  },
+  {
+   "word": "takes",
+   "start_ms": 66583,
+   "p": 0.99,
+   "end_ms": 66583
+  },
+  {
+   "word": "to",
+   "start_ms": 66583,
+   "p": 0.97,
+   "end_ms": 66583
+  },
+  {
+   "word": "double.",
+   "start_ms": 66583,
+   "p": 0.94,
+   "end_ms": 66918
+  },
+  {
+   "word": "So",
+   "start_ms": 67318,
+   "p": 1.0,
+   "end_ms": 67318
+  },
+  {
+   "word": "a",
+   "start_ms": 67318,
+   "p": 0.96,
+   "end_ms": 67880
+  },
+  {
+   "word": "market",
+   "start_ms": 67880,
+   "p": 1.0,
+   "end_ms": 67981
+  },
+  {
+   "word": "growing",
+   "start_ms": 68460,
+   "p": 0.96,
+   "end_ms": 68700
+  },
+  {
+   "word": "at",
+   "start_ms": 68700,
+   "p": 1.0,
+   "end_ms": 68705
+  },
+  {
+   "word": "12%",
+   "start_ms": 68836,
+   "p": 0.93,
+   "end_ms": 69720
+  },
+  {
+   "word": "doubles",
+   "start_ms": 69720,
+   "p": 0.99,
+   "end_ms": 69920
+  },
+  {
+   "word": "in",
+   "start_ms": 69920,
+   "p": 1.0,
+   "end_ms": 70200
+  },
+  {
+   "word": "about",
+   "start_ms": 70200,
+   "p": 0.99,
+   "end_ms": 70700
+  },
+  {
+   "word": "6",
+   "start_ms": 70700,
+   "p": 0.91,
+   "end_ms": 71021
+  },
+  {
+   "word": "years.",
+   "start_ms": 71040,
+   "p": 0.97,
+   "end_ms": 71669
+  },
+  {
+   "word": "None",
+   "start_ms": 71669,
+   "p": 0.9,
+   "end_ms": 72000
+  },
+  {
+   "word": "of",
+   "start_ms": 72000,
+   "p": 1.0,
+   "end_ms": 72140
+  },
+  {
+   "word": "these",
+   "start_ms": 72140,
+   "p": 0.96,
+   "end_ms": 72380
+  },
+  {
+   "word": "makes",
+   "start_ms": 72380,
+   "p": 0.86,
+   "end_ms": 72445
+  },
+  {
+   "word": "you",
+   "start_ms": 72569,
+   "p": 1.0,
+   "end_ms": 72797
+  },
+  {
+   "word": "a",
+   "start_ms": 73210,
+   "p": 0.89,
+   "end_ms": 73476
+  },
+  {
+   "word": "maths",
+   "start_ms": 74040,
+   "p": 0.35,
+   "end_ms": 74420,
+   "uncertain": true
+  },
+  {
+   "word": "genius,",
+   "start_ms": 74420,
+   "p": 0.43,
+   "end_ms": 74520,
+   "uncertain": true
+  },
+  {
+   "word": "but",
+   "start_ms": 74710,
+   "p": 0.99,
+   "end_ms": 74870
+  },
+  {
+   "word": "together",
+   "start_ms": 75340,
+   "p": 1.0,
+   "end_ms": 75580
+  },
+  {
+   "word": "they",
+   "start_ms": 75580,
+   "p": 0.85,
+   "end_ms": 75900
+  },
+  {
+   "word": "let",
+   "start_ms": 75900,
+   "p": 0.74,
+   "end_ms": 76160
+  },
+  {
+   "word": "you",
+   "start_ms": 76160,
+   "p": 1.0,
+   "end_ms": 76181
+  },
+  {
+   "word": "answer",
+   "start_ms": 76680,
+   "p": 1.0,
+   "end_ms": 77020
+  },
+  {
+   "word": "while",
+   "start_ms": 77020,
+   "p": 0.95,
+   "end_ms": 77220
+  },
+  {
+   "word": "you",
+   "start_ms": 77220,
+   "p": 0.99,
+   "end_ms": 77277
+  },
+  {
+   "word": "keep",
+   "start_ms": 77400,
+   "p": 0.89,
+   "end_ms": 77541
+  },
+  {
+   "word": "talking",
+   "start_ms": 77750,
+   "p": 0.99,
+   "end_ms": 78280
+  },
+  {
+   "word": "in",
+   "start_ms": 78280,
+   "p": 0.97,
+   "end_ms": 78460
+  },
+  {
+   "word": "a",
+   "start_ms": 78460,
+   "p": 0.96,
+   "end_ms": 79092
+  },
+  {
+   "word": "case",
+   "start_ms": 79240,
+   "p": 0.99,
+   "end_ms": 79672
+  },
+  {
+   "word": "interview,",
+   "start_ms": 79672,
+   "p": 0.36,
+   "end_ms": 79672,
+   "uncertain": true
+  },
+  {
+   "word": "that's",
+   "start_ms": 79672,
+   "p": 0.99,
+   "end_ms": 80200
+  },
+  {
+   "word": "what",
+   "start_ms": 80200,
+   "p": 1.0,
+   "end_ms": 80760
+  },
+  {
+   "word": "sounds",
+   "start_ms": 80760,
+   "p": 0.98,
+   "end_ms": 80980
+  },
+  {
+   "word": "like",
+   "start_ms": 80980,
+   "p": 1.0,
+   "end_ms": 81620
+  },
+  {
+   "word": "confidence",
+   "start_ms": 81620,
+   "p": 0.99,
+   "end_ms": 81900
+  },
+  {
+   "word": "in",
+   "start_ms": 81900,
+   "p": 0.99,
+   "end_ms": 82000
+  },
+  {
+   "word": "a",
+   "start_ms": 82000,
+   "p": 0.97,
+   "end_ms": 82553
+  },
+  {
+   "word": "case",
+   "start_ms": 82580,
+   "p": 1.0,
+   "end_ms": 82580
+  },
+  {
+   "word": "interview.",
+   "start_ms": 82580,
+   "p": 0.97,
+   "end_ms": 83045
+  },
+  {
+   "word": "Save",
+   "start_ms": 83045,
+   "p": 0.98,
+   "end_ms": 83440
+  },
+  {
+   "word": "this",
+   "start_ms": 83440,
+   "p": 1.0,
+   "end_ms": 83720
+  },
+  {
+   "word": "and",
+   "start_ms": 83720,
+   "p": 0.95,
+   "end_ms": 84300
+  },
+  {
+   "word": "practice",
+   "start_ms": 84300,
+   "p": 0.98,
+   "end_ms": 84580
+  },
+  {
+   "word": "one",
+   "start_ms": 84580,
+   "p": 0.88,
+   "end_ms": 85060
+  },
+  {
+   "word": "shortcut",
+   "start_ms": 85060,
+   "p": 0.85,
+   "end_ms": 85300
+  },
+  {
+   "word": "a",
+   "start_ms": 85300,
+   "p": 0.97,
+   "end_ms": 85540
+  },
+  {
+   "word": "day",
+   "start_ms": 85540,
+   "p": 0.99,
+   "end_ms": 85593
+  },
+  {
+   "word": "this",
+   "start_ms": 85925,
+   "p": 0.48,
+   "end_ms": 86500,
+   "uncertain": true
+  },
+  {
+   "word": "week",
+   "start_ms": 86500,
+   "p": 1.0,
+   "end_ms": 86980
+  },
+  {
+   "word": "until",
+   "start_ms": 86980,
+   "p": 0.84,
+   "end_ms": 87160
+  },
+  {
+   "word": "you",
+   "start_ms": 87160,
+   "p": 1.0,
+   "end_ms": 87480
+  },
+  {
+   "word": "stop",
+   "start_ms": 87480,
+   "p": 0.99,
+   "end_ms": 87820
+  },
+  {
+   "word": "having",
+   "start_ms": 87820,
+   "p": 1.0,
+   "end_ms": 88000
+  },
+  {
+   "word": "to",
+   "start_ms": 88000,
+   "p": 1.0,
+   "end_ms": 88320
+  },
+  {
+   "word": "think",
+   "start_ms": 88320,
+   "p": 1.0,
+   "end_ms": 88520
+  },
+  {
+   "word": "about",
+   "start_ms": 88520,
+   "p": 0.78,
+   "end_ms": 88780
+  },
+  {
+   "word": "them",
+   "start_ms": 88780,
+   "p": 0.99,
+   "end_ms": 89020
+  },
+  {
+   "word": "at",
+   "start_ms": 89020,
+   "p": 0.98,
+   "end_ms": 89184
+  },
+  {
+   "word": "all.",
+   "start_ms": 89240,
+   "p": 0.99,
+   "end_ms": 89640
+  }
+ ]
+}

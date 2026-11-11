@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>vid5 Storyboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700;1,800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF0F5;--card:#fff;--line:#E2E5EC;--ink:#14161C;--mute:#6A7080;--keep:#1F9D6B;--maybe:#D99A1E;--no:#D2464C;
+ --r-ink:#0B1224;--r-ice:#EAF0F8;--r-acc:#3E7BFA;--r-card:#121C38;--r-txt:#F2F6FC;--r-red:#E5484D;--r-green:#2FD08A;
+ --p-hl:#FFD68A;--clay:#D97757;--jacket:#23704F}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.top{position:sticky;top:0;z-index:20;background:rgba(238,240,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .in{max-width:1500px;margin:auto;padding:12px 24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.top h1{font-size:20px;margin:0;font-weight:800;letter-spacing:-.02em}
+.top .count{font-size:13px;color:var(--mute)}
+.top button{font:600 13px Inter;border:0;border-radius:10px;padding:9px 14px;cursor:pointer;background:var(--ink);color:#fff}
+.top button.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.wrap{max-width:1500px;margin:auto;padding:16px 24px 80px}
+.intro{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:8px 0 24px}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:13.5px;line-height:1.5}
+.box h3{margin:0 0 6px;font-size:14px}
+.box code{font-size:12px;background:#F2F4F8;padding:1px 4px;border-radius:4px}
+.src{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:6px;padding:2px 7px;margin-right:4px}
+.s-me{background:#E3EBFF;color:#0B52F9}.s-r{background:#E6ECF7;color:#0B1224}.s-p{background:#FFF1D6;color:#8A5A00}.s-ps{background:#E2F5EE;color:#1E5B47}.s-v1{background:#F1E4FF;color:#6A2BB0}.s-lab{background:#FFE9DE;color:#9A3F12}.s-new{background:#FFE4E4;color:#A02A2A}
+section.beat{margin:34px 0 0}
+.bh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+.bh h2{margin:0;font-size:22px;letter-spacing:-.02em}
+.bh .t{font-size:13px;color:var(--mute);font-variant-numeric:tabular-nums}
+.line{font-size:14px;font-style:italic;color:#333;margin:2px 0 12px}
+.q{font-size:13px;background:#FFF6E0;border:1px solid #F2DDA6;border-radius:10px;padding:8px 12px;margin:0 0 12px}
+.opts{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+html.still .an{animation-delay:-3s!important;animation-play-state:paused!important}
+@media(max-width:700px){.opts{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap,.top .in{padding-left:16px;padding-right:16px}}
+.opt{background:#fff;border:2px solid transparent;border-radius:16px;padding:10px;display:flex;flex-direction:column;gap:8px;box-shadow:0 1px 0 var(--line)}
+.opt[data-v=keep]{border-color:var(--keep)}.opt[data-v=maybe]{border-color:var(--maybe)}.opt[data-v=no]{opacity:.45}
+.oh{display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.oh b{font-size:14px}
+.name{font-weight:700;font-size:13.5px;line-height:1.25}
+.desc{font-size:12px;line-height:1.45;color:#3a3f4b}
+.mot{font-size:11px;color:var(--mute);line-height:1.4}
+.btns{display:flex;gap:6px;margin-top:auto}
+.btns button{flex:1;font:600 12px Inter;padding:7px 0;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.opt[data-v=keep] .k{background:var(--keep);color:#fff;border-color:var(--keep)}
+.opt[data-v=maybe] .m{background:var(--maybe);color:#fff;border-color:var(--maybe)}
+.opt[data-v=no] .n{background:var(--no);color:#fff;border-color:var(--no)}
+textarea{width:100%;margin-top:10px;border:1px solid var(--line);border-radius:10px;padding:10px;font:13px Inter;min-height:44px;resize:vertical;background:#fff}
+.rec{font-size:10.5px;font-weight:700;color:#fff;background:var(--ink);border-radius:6px;padding:2px 6px}
+.sumout{white-space:pre-wrap;font:12px/1.5 ui-monospace,monospace;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;display:none;margin-top:12px}
+/* ---------- phone + drawing kit ---------- */
+.ph{position:relative;width:100%;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:#000;container-type:inline-size;font-family:Inter;cursor:pointer}
+.ph>*{position:absolute}
+.fill{inset:0}
+.still{inset:0;width:100%;height:100%;object-fit:cover}
+.grain::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.botgrad{left:0;right:0;bottom:0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.45))}
+.pf{font-family:'Playfair Display',serif;font-style:italic;font-weight:700}
+.c{left:0;right:0;text-align:center}
+.sup{font-weight:500;font-size:4.4cqw;color:rgba(255,255,255,.85);white-space:nowrap}
+.hero{font-size:12.2cqw;line-height:.95;color:#fff}
+.card{background:linear-gradient(#fff,#E4E6EA);border-radius:3cqw;box-shadow:0 1.3cqw 2.8cqw rgba(11,18,36,.16)}
+.dcard{background:var(--r-card);border-radius:3cqw;box-shadow:0 2.6cqw 5cqw rgba(0,0,0,.4);color:var(--r-txt)}
+.pill{border-radius:999px;display:flex;align-items:center;gap:1.6cqw;padding:1.4cqw 3cqw;white-space:nowrap}
+.file{background:#fff;border:1px solid #D9DDE3;border-radius:1.4cqw;padding:1.4cqw 2cqw;font-size:2.8cqw;font-weight:500;display:flex;gap:1.2cqw;align-items:center;white-space:nowrap;box-shadow:0 .8cqw 1.6cqw rgba(0,0,0,.08)}
+.file i{width:2.4cqw;height:3cqw;border-radius:.4cqw;background:#E3E8EF;display:inline-block}
+.tk{display:inline-grid;place-items:center;width:4.4cqw;height:4.4cqw;border-radius:50%;background:var(--r-acc);color:#fff;font-size:2.6cqw;font-weight:800;flex:none}
+.ring{display:inline-block;width:4.4cqw;height:4.4cqw;border-radius:50%;border:.5cqw solid #C9D2E3;flex:none}
+.mesh{background:radial-gradient(60% 40% at 25% 30%,#DCE5F7,transparent 70%),radial-gradient(50% 40% at 80% 70%,#fff,transparent 70%),#F2F4F8}
+.inkspot{background:radial-gradient(55% 35% at 40% 35%,rgba(62,123,250,.28),transparent 70%),#0B1224}
+/* ---------- looping motion (6 s cycle; click a phone to replay) ---------- */
+.an{animation-duration:6s;animation-iteration-count:infinite;animation-timing-function:cubic-bezier(.45,.05,.2,1);animation-fill-mode:both}
+@keyframes rect{0%,5%{opacity:0;transform:translateY(4cqw) scale(.96,.03);filter:blur(3cqw)}9%{opacity:1}20%,88%{opacity:1;transform:none;filter:blur(0)}96%,100%{opacity:0;transform:translateX(-14cqw);filter:blur(2cqw)}}
+.a-rect{animation-name:rect}
+@keyframes rise{0%,6%{opacity:0;transform:translateY(5cqw)}16%,88%{opacity:1;transform:none}96%,100%{opacity:0}}
+.a-rise{animation-name:rise;animation-timing-function:cubic-bezier(.22,1,.36,1)}
+@keyframes outc{0%,5%{opacity:0;transform:translate(var(--fx,0),var(--fy,0)) scale(.62)}8%{opacity:1}22%,86%{opacity:1;transform:none}96%,100%{opacity:0}}
+.a-out{animation-name:outc}
+@keyframes fan{0%,5%{opacity:0;transform:translateY(6cqw)}14%{opacity:1;transform:none}30%,88%{opacity:1;transform:translateX(var(--x,0)) rotate(var(--r,0))}97%,100%{opacity:0;transform:translateX(var(--x,0)) rotate(var(--r,0))}}
+.a-fan{animation-name:fan;transform-origin:50% 100%}
+@keyframes fanin{0%,5%{opacity:0;transform:rotate(var(--r0));filter:blur(2cqw)}28%,88%{opacity:1;transform:rotate(var(--r1));filter:none}97%,100%{opacity:0;transform:rotate(var(--r1))}}
+.a-fanin{animation-name:fanin;transform-origin:50% 100%}
+@keyframes grey{0%,30%{filter:none;opacity:1}42%,88%{filter:grayscale(1);opacity:.38}100%{filter:none;opacity:1}}
+.a-grey{animation-name:grey}
+@keyframes strike{0%,32%{transform:scaleX(0)}42%,88%{transform:scaleX(1);opacity:1}96%,100%{transform:scaleX(1);opacity:0}}
+.a-strike{animation-name:strike;transform-origin:0 50%}
+@keyframes fillx{0%,10%{transform:scaleX(.03)}45%,90%{transform:scaleX(1)}100%{transform:scaleX(1)}}
+.a-fill{animation-name:fillx;transform-origin:0 50%}
+@keyframes sheet{0%,6%{transform:translateY(105%)}22%,90%{transform:none}100%{transform:translateY(105%)}}
+.a-sheet{animation-name:sheet;animation-timing-function:cubic-bezier(.22,1,.36,1)}
+@keyframes faceup{0%,6%{transform:none;filter:none}22%,90%{transform:translateY(-22%);filter:blur(1.4cqw) brightness(.55)}100%{transform:none;filter:none}}
+.a-faceup{animation-name:faceup}
+@keyframes shrink{0%,6%{transform:none;border-radius:0}26%,88%{transform:translate(var(--sx),var(--sy)) scale(var(--s));border-radius:6cqw}100%{transform:none}}
+.a-shrink{animation-name:shrink;transform-origin:50% 50%;overflow:hidden}
+@keyframes bw{0%,10%{filter:none;transform:scale(1)}22%,85%{filter:grayscale(1);transform:scale(1.1) translateX(-1%)}100%{filter:none;transform:scale(1)}}
+.a-bw{animation-name:bw}
+@keyframes punch{0%,12%{transform:scale(1)}24%,88%{transform:scale(1.13)}100%{transform:scale(1)}}
+.a-punch{animation-name:punch;transform-origin:50% 32%}
+@keyframes zoomout{0%,5%{transform:scale(3.4)}32%,100%{transform:scale(1)}}
+.a-zoomout{animation-name:zoomout}
+@keyframes pane{0%,5%{transform:translateY(-102%)}22%,88%{transform:none}100%{transform:translateY(-102%)}}
+.a-pane{animation-name:pane}
+@keyframes paneface{0%,5%{transform:none}22%,88%{transform:translateY(26%)}100%{transform:none}}
+.a-paneface{animation-name:paneface}
+@keyframes wipe{0%,10%{clip-path:inset(0 90% 0 0)}50%,88%{clip-path:inset(0 10% 0 0)}100%{clip-path:inset(0 90% 0 0)}}
+.a-wipe{animation-name:wipe}
+@keyframes wipebar{0%,10%{left:10%}50%,88%{left:90%}100%{left:10%}}
+.a-wipebar{animation-name:wipebar}
+@keyframes draw{0%,10%{stroke-dashoffset:100}45%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+.a-draw{animation-name:draw;stroke-dasharray:100}
+@keyframes cursor{0%,8%{transform:translate(0,0);opacity:1}30%,40%{transform:translate(var(--cx),var(--cy));opacity:1}60%,100%{transform:translate(calc(var(--cx) * 2),calc(var(--cy) * 2.4));opacity:0}}
+.a-cursor{animation-name:cursor}
+@keyframes toggle{0%,38%{transform:none}48%,90%{transform:translateX(5.4cqw)}100%{transform:none}}
+.a-toggle{animation-name:toggle}
+@keyframes togbg{0%,38%{background:#C9D0DC}48%,90%{background:var(--r-green)}100%{background:#C9D0DC}}
+.a-togbg{animation-name:togbg}
+@keyframes spin{0%,100%{rotate:-6deg}50%{rotate:6deg}}
+.a-spin{animation:spin 3s ease-in-out infinite}
+@keyframes hl{0%,30%{transform:scaleX(0)}40%,90%{transform:scaleX(1)}100%{transform:scaleX(1);opacity:0}}
+.a-hl{animation-name:hl;transform-origin:0 50%}
+@keyframes greenbtn{0%,62%{background:var(--r-acc)}66%,92%{background:var(--r-green)}100%{background:var(--r-acc)}}
+.a-green{animation-name:greenbtn}
+@keyframes spot{0%,30%{opacity:0}42%,88%{opacity:1}100%{opacity:0}}
+.a-spot{animation-name:spot}
+@keyframes lift{0%,30%{transform:none;box-shadow:0 1.3cqw 2.8cqw rgba(11,18,36,.16)}42%,88%{transform:scale(1.07);box-shadow:0 0 6cqw rgba(62,123,250,.55)}100%{transform:none}}
+.a-lift{animation-name:lift}
+@keyframes pipin{0%,6%{transform:none;border-radius:0}24%,90%{transform:translate(0,22%) scale(.36);border-radius:14cqw}100%{transform:none}}
+.a-pip{animation-name:pipin;transform-origin:50% 50%;overflow:hidden}
+@keyframes echo{0%,10%{opacity:0;transform:translateY(4cqw)}26%,88%{opacity:var(--o,1);transform:none}100%{opacity:0}}
+.a-echo{animation-name:echo}
+@media(prefers-reduced-motion:reduce){.an,.a-spin{animation:none!important}}
+.sbb{margin:30px 0 0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px}
+.row{display:grid;grid-template-columns:220px 220px 1fr;gap:16px;align-items:start}
+@media(max-width:800px){.row{grid-template-columns:1fr 1fr}.row ul{grid-column:1/-1}}
+.row ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.55}
+.lab{font-size:11px;font-weight:700;color:var(--mute);text-transform:uppercase;margin-bottom:4px}
+.ph{cursor:default}
+ol,ul.as{font-size:13.5px;line-height:1.55}
+</style>
+</head>
+<body>
+<div class="top"><div class="in"><h1>vid5 · storyboard v2 (your picks → draft 1)</h1><span class="count">Building now; no need to reply unless something below is wrong.</span></div></div>
+<div class="wrap">
+ <div class="intro">
+  <div class="box"><h3>Feedback checklist (from your picks)</h3><ol id="fl" style="padding-left:18px;margin:0"></ol></div>
+  <div class="box"><h3>Assumptions (tell me if any is wrong)</h3><ul class="as" id="as" style="padding-left:18px;margin:0"></ul></div>
+ </div>
+ <div id="beats"></div>
+</div>
+<script>
+if(location.search.includes('still'))document.documentElement.classList.add('still');
+const A=`../../../Updated%20Rishi's%20editing%20style/`;
+const ST=t=>`<img class="still" src="stills/t${t}.jpg" alt="">`;
+const CUT=t=>`<img class="still" src="stills/cut_t${t}.png" alt="">`;
+const REF=n=>`${A}references/stills/${n}.jpg`;
+const DR=n=>`stills/draft${n}.jpg`;
+const CL=(w=4.2)=>`<img src="${A}assets/logos/claude/claude-symbol-color.png" style="width:${w}cqw;height:${w}cqw" alt="">`;
+const GH=(w=3)=>`<img src="${A}assets/logos/github/github-mark-mono-black.png" style="width:${w}cqw;height:${w}cqw;opacity:.8" alt="">`;
+const IG=`<img src="${A}assets/logos/instagram/instagram-glyph-color.png" style="width:4cqw" alt="">`;
+const STK=(w=8)=>`<img src="${A}assets/people/rishi/rishi-face-sticker.png" style="width:${w}cqw;height:${w}cqw;border-radius:50%;object-fit:cover;background:#ddd;flex:none" alt="">`;
+const LG={pr:`${A}assets/logos/premiere/premiere-pro-icon.png`,dv:`${A}assets/logos/davinci/davinci-resolve-icon.png`,fc:`${A}assets/logos/finalcut/final-cut-pro-icon.png`};
+const APP=(k,w=12,cls='',st='')=>`<img src="${LG[k]}" class="${cls}" style="width:${w}cqw;height:${w}cqw;border-radius:${(w*.22).toFixed(1)}cqw;${st}" alt="">`;
+const CAP=(a,h,b,y=66)=>`<div class="c" style="top:${y}%">${a?`<div class="sup" style="margin-bottom:.8cqw">${a}</div>`:''}<div class="hero pf" style="font-size:${Math.min(12.2,150/h.length)}cqw">${h}</div>${b?`<div class="sup" style="margin-top:.4cqw">${b}</div>`:''}</div>`;
+const LCAP=(a,h,y=6,hs=10)=>`<div class="c" style="top:${y}%">${a?`<div style="font-weight:500;font-size:3.8cqw;color:#4A5878;margin-bottom:.6cqw">${a}</div>`:''}<div class="pf" style="font-size:${hs}cqw;line-height:.95;color:#0B1730">${h}</div></div>`;
+const AR=(t,cap='')=>ST(t)+`<div class="botgrad"></div>`+cap;
+const ice=`<div class="fill grain" style="background:var(--r-ice)"></div>`;
+const mesh=`<div class="fill grain mesh"></div>`;
+const board=`<div class="fill grain" style="background:linear-gradient(#F4F5F7,#E2E4E8)"></div>`;
+const D=(s)=>`animation-delay:${s}s;`;
+const SPLIT=(t,inner)=>`<div class="an a-paneface" style="left:0;right:0;top:0;bottom:0"><img src="stills/t${t}.jpg" style="width:100%;height:100%;object-fit:cover"></div><div class="grain an a-pane" style="left:0;right:0;top:0;height:49%;background:var(--r-ice)"></div>`+inner;
+const PIPF=(t,top=58)=>`<div style="left:30%;top:${top}%;width:40%;aspect-ratio:9/12;border-radius:5cqw;overflow:hidden;border:1cqw solid #fff;box-shadow:0 0 5cqw rgba(140,157,255,.9)"><img src="stills/t${t}.jpg" style="width:100%;position:absolute;top:-12%"></div>`;
+const lanes=(w=1)=>['A-roll','captions','graphics','sfx'].map((l,i)=>`<div style="display:flex;align-items:center;gap:2cqw;margin:1.3cqw 0"><span style="width:13cqw;color:#4A5878;font-size:2.4cqw">${l}</span><span class="an a-fill" style="${D(i*.15)}flex:1;height:3.6cqw;border-radius:.8cqw;background:linear-gradient(90deg,${['#9DB7F5,#3E7BFA','#3E7BFA,#7A9BE0','#7A9BE0,#C6D3EC','#C6D3EC,#9DB7F5'][i]})"></span></div>`).join('');
+const KB=`<div style="position:absolute;left:0;right:0;bottom:0;height:52%;background:#2C2C2E;padding:2cqw 1.4cqw;display:grid;grid-template-rows:repeat(4,1fr);gap:1.4cqw">${['qwertyuiop','asdfghjkl','zxcvbnm',' '].map(r=>`<div style="display:flex;gap:1cqw;justify-content:center">${[...r].map(k=>`<span style="flex:${k==' '?6:1};max-width:${k==' '?'60%':'8cqw'};background:#5A5A5E;border-radius:1cqw;font-size:2.6cqw;display:grid;place-items:center;color:#fff">${k.trim()}</span>`).join('')}</div>`).join('')}</div>`;
+const ROW=(label,done=1,d=0,extra='')=>`<div class="an a-rise" style="${D(d)}display:flex;align-items:center;gap:2cqw;padding:1.7cqw 0;border-bottom:1px solid #E1E4EA;font-size:3cqw;color:#0B1730">${done?'<span class="tk">✓</span>':'<span class="ring"></span>'}<span>${label}</span>${extra}</div>`;
+const SCREEN=(src,label,st='',cls='')=>`<div class="${cls}" style="${st}aspect-ratio:9/16;border:1cqw solid #fff;border-radius:1.6cqw;overflow:hidden;box-shadow:0 1.2cqw 3.4cqw rgba(0,0,0,.4);background:#fff"><img src="${src}" style="width:100%;height:100%;object-fit:cover">${label?`<span style="position:absolute;left:50%;top:1.4cqw;transform:translateX(-50%);background:rgba(255,255,255,.92);color:#0B1730;font-size:2.1cqw;font-weight:600;border-radius:99px;padding:.4cqw 1.6cqw;white-space:nowrap">${label}</span>`:''}</div>`;
+
+const FL=[
+['F1','Hook 0.08–3.9','A fan of 3 real style screens behind the head, <b>smoother</b> (fade + rise 0.7 s, split over 1.1 s) and <b>lower</b>: tops at y≈180 instead of ≈70, tighter spread (±255 px, ±12°) so nothing leaves the frame. Plus F: slow punch 100 → 112 % over 1.0 s on "editing style".'],
+['F2','Proof 6.34–11.0','D: pipeline arc behind the head (record · board · story · build · sound · export), last dot on "end-to-end". A: the timeline card, <b>smaller</b> (580 × 250), sitting inside the arc behind the head. F: white highlight box drawn around the "end-to-end" hero.'],
+['F3','Contrast 11.0–14.9','C: ice split pane. On it, a <b>liquid-glass macOS dock</b> with the <b>big</b> real icons (Premiere, DaVinci, Final Cut). Each fades to grey on its name; on "kuch nahi khola hai" Claude (4th icon, after the divider) lifts with a running dot.'],
+['F4','Process 14.74–20.06','A: you move into the rounded PiP; a <b>smaller</b> Claude card above, rows arriving line by line, word by word, ticks on the spoken phrases. Under the card: 3 real doc cards with the GitHub mark (SKILL.md · CAPTION_SYSTEM.md · MOTION_LIBRARY.md) on "samjha rakha hai".'],
+['F5','CTA 20.06–25.9','A: comments sheet + keyboard; <b>CLAUDE</b> typed in capitals with key pop-ups; tap → green tick; then a <b>message notification</b> slides in left → right: "rishi sent you a file · breakdown.pdf".'],
+['F6','Turn 25.68–29.9','B: two faint copies of you on "style copy kar pao", then they clear and one sharp zoom in (smooth) on "learning". C: giant "art" slides <b>up from behind your head</b> on "the art of".'],
+['F7','References + iterations 29.85–33.3','A as on the board: PiP + one card; references (minimal · presley · paper stage) → your real drafts v1–v4.'],
+['F8','Autonomy 33.3–36.9','A (main): same card, Analyse · Plan · Build · Captions · Export tick on their own, the last on "intervention". B: <b>after</b> the rows appear, a progress bar opens <b>below the card</b>; a cursor glides toward it and drifts away; 100 % on "intervention". Back to full screen after the line.'],
+['F9','Outro 36.3–38.5','D: B&W nose-tracked zoom on "bahut english bol di maine" + E: hand-drawn circle around the "english" hero.'],
+['F10','Captions','Default A. App icons inline in the hero for "premiere / davinci / final cut pro" only. Ink captions in the split and PiP. Echo stack: skipped (no moment that clearly earns it).'],
+['F11','Look','accent.duo (blue UI, #FFD68A only for emphasis) on the mesh ground (+ coarse grain) for every graphic ground.'],
+];
+const AS=[
+'"wow!" timing: the SRT stretches "wow!" over the pause; the audio shows the word starts ≈37.05 s, so its caption lands there. The pause itself stays untouched.',
+'CLAUDE is typed in capitals (C·L·A·U·D·E), as you said; the one-word CTA captions stay lowercase as spoken.',
+'Notification text: "rishi sent you a file" / "breakdown.pdf · PDF". Tell me if you want different wording.',
+'Process ticks land on: "record ki hai" · "claude ko diya" · "kaam karna hai" · "exactly".',
+'Voice: vid5 audio is −17.4 LUFS raw → 75 Hz high-pass + small lift so the final mix sits ≈ −15.5 LUFS. No music bed (none supplied).',
+'Mock-ups below are sketches; the build uses the real person matte for every behind-the-head element.',
+];
+const SB=[
+{t:'0.08–3.90',line:'bhai, at this point aap claude se kisi bhi tarah ke editing style ko banwa sakte ho,',f:'F1',before:'002.0',draw:()=>`<div class="fill" style="transform:scale(1.1);transform-origin:50% 49%">${ST('002.0')}</div>`+[[-24,-12,DR(1),'paper stage'],[0,0,REF('05_split-doc-orbit'),'split doc'],[24,12,REF('07_slop-wall-one-word'),'slop wall']].map(([x,r,s,l])=>`<div style="left:37.5%;top:9.5%;width:25%;transform:translateX(${x}cqw) rotate(${r}deg);transform-origin:50% 100%">${SCREEN(s,l,'width:100%;position:relative;')}</div>`).join('')+`<div class="fill" style="transform:scale(1.1);transform-origin:50% 49%">${CUT('002.0')}</div><div class="botgrad"></div>`+CAP('kisi bhi tarah ke','editing style',''),
+ b:['1.34 "kisi": 3 screens fade + rise together from behind the head (0.7 s E1)','2.0 "editing style": they split to −12° / 0° / +12°, ±255 px, over 1.1 s (ES). Tops ≈ y 180 (was ≈70), nothing leaves the frame','1.9 → 2.9: slow punch 100 → 112 % (ES), then a slow drift; eases back by 6.3','3.35 "given": screens leave up + blur (0.6 s), A-roll only for "given the fact… banwana hai."']},
+{t:'6.34–11.00',line:'for context, ye jo poora aap editing style dekh rahe ho, ye bhi poora claude se banwaya gaya hai. end-to-end ye reel…',f:'F2',before:'009.0',draw:()=>AR('010.8')+`<svg viewBox="0 0 100 60" style="left:4%;top:3%;width:92%;overflow:visible"><path d="M4 50 Q50 -16 96 50" fill="none" stroke="#fff" stroke-width=".7" opacity=".9"/>${[[8,44],[22,28],[38,18.5],[62,18.5],[78,28],[92,44]].map(([x,y],i)=>`<circle cx="${x}" cy="${y}" r="1.6" fill="${i<5?'#fff':'#3E7BFA'}"/><text x="${x}" y="${y-3.6}" font-size="3" text-anchor="middle" fill="#fff" font-family="Inter" font-weight="600">${['record','board','story','build','sound','export'][i]}</text>`).join('')}</svg><div class="card" style="left:23%;right:23%;top:13.5%;padding:1.6cqw 2cqw;border-radius:1.2cqw"><div class="pill" style="display:inline-flex;background:#fff;border:1px solid #E3E6EC;font-size:1.9cqw;font-weight:600;padding:.5cqw 1.4cqw">${CL(2.4)} Claude · edited end-to-end</div>${lanes(.6).replaceAll('3.6cqw','2.2cqw').replaceAll('margin:1.3cqw 0','margin:.7cqw 0').replaceAll('font-size:2.4cqw','font-size:1.7cqw').replaceAll('width:13cqw','width:9cqw')}</div>`+CUT('010.8')+`<div class="botgrad"></div><div class="c" style="top:66%"><span class="hero pf" style="display:inline-block;font-size:12cqw;position:relative;padding:0 2cqw">end-to-end<span style="position:absolute;inset:-6% -2%;border:.5cqw solid #fff;border-radius:1.4cqw"></span></span><div class="sup" style="margin-top:.6cqw">ye reel</div></div>`,
+ b:['7.1 "ye jo poora": the arc rises behind the head (0.9 s ES), apex ≈ y 230, ends low at the sides','8.6 "ye bhi poora claude": the small timeline card opens inside the arc (line → rect 0.7 s), behind the head','8.69 → 9.94: the 6 dots light 0.25 s apart, labels above the dots; "export" (blue) on "end-to-end"','9.94 "end-to-end": every lane fills to full width (1.0 s ES); the white box draws around the hero (0.6 s)','10.7: arc + card leave up + blur (0.5 s) before the pane drops']},
+{t:'11.00–14.90',line:'na premiere khola hai, na davinci, na final cut pro, kuch nahi khola hai.',f:'F3 · F10',before:'012.2',draw:()=>`<div style="left:0;right:0;bottom:0;height:51%;overflow:hidden"><img src="stills/t013.4.jpg" style="width:100%;position:absolute;top:-4%"></div><div class="grain mesh" style="left:0;right:0;top:0;height:49%"></div><div class="c" style="top:5%"><div style="font-weight:500;font-size:3.8cqw;color:#4A5878">na</div><div class="pf" style="font-size:9cqw;color:#0B1730;display:inline-flex;gap:2cqw;align-items:center">${APP('pr',8)}premiere</div><div style="font-weight:500;font-size:3.8cqw;color:#4A5878">khola hai,</div></div><div style="left:6%;right:6%;top:25%;height:16%;border-radius:5cqw;background:linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.35));border:1px solid rgba(255,255,255,.9);box-shadow:0 2cqw 5cqw rgba(11,18,36,.14),inset 0 .5cqw 0 rgba(255,255,255,.9);display:flex;justify-content:space-around;align-items:center;padding:0 2cqw">${['pr','dv','fc'].map((k,i)=>`<div style="text-align:center;font-size:2.2cqw;color:#4A5878">${APP(k,17,'',i?'':'filter:grayscale(1);opacity:.4')}<div>${['premiere','davinci','final cut'][i]}</div></div>`).join('')}<span style="width:.3cqw;height:60%;background:rgba(11,23,48,.15)"></span><div style="text-align:center;font-size:2.2cqw;color:#0B1730"><div style="width:17cqw;height:17cqw;border-radius:3.8cqw;background:#fff;display:grid;place-items:center;box-shadow:0 0 4cqw rgba(62,123,250,.45)">${CL(11)}</div><div>claude ●</div></div></div>`,
+ b:['11.0: the mesh pane drops (1.0 s ES); the face shifts down so the hair line sits just below the pane (no black bar)','11.85: the glass dock condenses in the pane (0.8 s); icons big (≈190 px), labels under them','On "premiere" 11.76 / "davinci" 12.5 / "final cut" 13.06: that icon greys to 38 % (0.45 s ES), its label turns "not opened"','13.62 "kuch nahi khola hai": Claude lifts 107 % + blue glow + running dot','Captions: split mode, ink, at the top of the pane; the hero gets the small real icon before the word','14.74: pane lifts while you move into the PiP']},
+{t:'14.74–20.06',line:'maine bas ye video record ki hai, claude ko diya hai aur usko samjha rakha hai maine ki usko kis tarah kaam karna hai and usne exactly ye cheez bana ke di hai.',f:'F4',before:'017.5',draw:()=>mesh+`<div class="card" style="left:10%;right:10%;top:11%;padding:2.4cqw 3cqw"><div style="display:flex;gap:1.6cqw;align-items:center;font-weight:600;font-size:2.8cqw">${CL(3.2)} Claude <span style="margin-left:auto;color:#2FB58A;font-size:2.2cqw">● awake</span></div>${['recorded the video','gave it to claude','taught it how to work','made exactly this'].map((x,i)=>ROW(x,i<3).replace('class="an a-rise" style="','style="font-size:2.6cqw;padding:1.2cqw 0;')).join('')}</div><div style="left:5%;right:5%;top:38.5%;display:flex;gap:1.6cqw;justify-content:center">${['SKILL.md','CAPTION_SYSTEM.md','MOTION_LIBRARY.md'].map(f=>`<div class="file" style="position:relative;font-size:1.9cqw;padding:1.2cqw 1.4cqw">${GH(2.2)}${f}</div>`).join('')}</div><div class="c pf" style="top:46%;font-size:5.6cqw;color:#0B1730">samjha rakha hai</div>`+PIPF('017.5',53),
+ b:['14.74: the pane lifts, you shrink into the PiP (0.9 s ES, centre y≈1290)','14.95: the smaller card opens (line → rect); header "Claude · ● awake"','Rows rise line by line, words one by one: "recorded the video" (15.3) · "gave it to claude" (15.9) · "taught it how to work" (16.6) · "made exactly this" (18.9)','Ticks: 15.6 · 16.3 · 18.3 · 19.24 ("exactly", hitech)','16.6 "samjha rakha hai": 3 GitHub doc cards rise under the card, 0.18 s apart','Captions: one ink Playfair line between the docs and the PiP','20.06 "di hai.": card + docs leave, you grow back to full screen (0.8 s ES)']},
+{t:'20.06–25.95',line:'aur agar tumhe bhi is cheez ka breakdown chahiye, to comment kar do claude, and main tumhe dm mein ek pdf vagairah kuch to bhej dunga, jisse main tumhe samjha paun.',f:'F5',before:'021.2',draw:()=>`<div class="fill" style="transform:translateY(-21%);filter:blur(1.4cqw) brightness(.55)">${ST('021.2')}</div><div class="c pf" style="top:44%;font-size:8.6cqw;color:#fff">claude,</div><div style="left:5%;right:5%;top:30%;display:flex;gap:2.4cqw;align-items:center;padding:2.2cqw 3cqw;border-radius:3.4cqw;background:linear-gradient(#fff,#E4E6EA);box-shadow:0 1.6cqw 4cqw rgba(0,0,0,.35);font-size:2.6cqw;color:#0B1730">${STK(8.6)}<span style="flex:1"><b>rishi</b> sent you a file<br><span style="color:#4A5878">breakdown.pdf · PDF</span></span><span style="width:6.4cqw;height:7.8cqw;border-radius:1cqw;background:#E5484D;color:#fff;font-weight:800;font-size:2cqw;display:grid;place-items:center">PDF</span></div><div style="left:0;right:0;bottom:0;height:49%;background:#1C1C1E;border-radius:4cqw 4cqw 0 0;color:#fff"><div style="text-align:center;font-weight:600;font-size:3.2cqw;margin-top:4.6cqw">Comments</div><div style="display:flex;gap:2cqw;align-items:center;padding:2.6cqw 3.4cqw">${STK(7)}<span style="flex:1;border:1px solid #3A3A3C;border-radius:9cqw;padding:1.6cqw 3cqw;font-size:3cqw;font-weight:600">CLAUDE</span><span class="tk" style="width:6.6cqw;height:6.6cqw;background:var(--r-green)">✓</span></div>${KB.replace('height:52%','height:66%')}</div>`,
+ b:['20.06–20.9: full face, normal captions ("aur agar tumhe bhi / is cheez / ka")','20.9: the face moves up, blurs 24 px, dims 45 %; the sheet + keyboard rise (0.8 s E1). Captions switch to one word at a time above "Comments"','22.05–22.75: C·L·A·U·D·E typed in capitals with key pop-ups (on "claude,")','22.95: soft tap on send → green ✓','23.05 "dm mein ek pdf": the notification slides in left → right (0.8 s E1 + blur 14 → 0), mid-screen','25.68 "samjha paun.": sheet + notification slide down (R31), the face settles back sharp by 26.4']},
+{t:'25.68–29.90',line:'and it is not just about ki tum ye style copy kar pao. it is about learning the art of',f:'F6',before:'027.0',draw:()=>`<div class="fill" style="transform:scale(1.08);transform-origin:50% 49%">${ST('029.0')}</div><div class="c pf" style="top:1%;font-size:40cqw;color:rgba(255,255,255,.95);line-height:1">art</div><div class="fill" style="transform:scale(1.08);transform-origin:50% 49%">${CUT('029.0')}</div><div class="botgrad"></div>`+CAP('it is about learning','the art of',''),
+ b:['27.10 "style copy": two faint copies of you (30 % / 15 %, offset ±40 px) ease in (0.7 s ES)','27.82 "it is about": the copies fade + blur out (0.6 s)','28.36 "learning": one smooth zoom 100 → 108 % (0.7 s ES), held','28.94 "art": the giant Playfair "art" (≈420 px) slides up from behind your head (1.0 s ES + fade), held in the headroom','29.75: "art" leaves up + blur as you move into the PiP']},
+{t:'29.85–33.30',line:'giving it references and improving it by iterations and iterations so that',f:'F7',before:'031.0',draw:()=>mesh+`<div class="card" style="left:8%;right:8%;top:10%;padding:3cqw"><div style="display:flex;gap:1.6cqw;align-items:center;font-weight:600;font-size:3cqw;margin-bottom:1.6cqw">${CL(3.4)} iterations</div><div style="display:flex;gap:1.6cqw">${[1,2,3,4].map(i=>`<div style="flex:1;text-align:center;font-size:2.4cqw;color:#4A5878"><div style="font-weight:600;color:#0B1730;margin-bottom:.6cqw">v${i}</div><img src="${DR(i)}" style="width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:1cqw;${i==4?'box-shadow:0 0 0 .6cqw var(--r-acc)':''}"></div>`).join('')}</div></div><div class="c pf" style="top:50%;font-size:6.2cqw;color:#0B1730">iterations and iterations</div>`+PIPF('031.0',56),
+ b:['29.85: into the PiP during the pause (0.9 s ES)','30.1: card opens; 30.36 "references": minimal · presley · paper stage thumbnails rise','31.9 "iterations": contents swap (old slide left + blur), drafts v1 → v4 rise one by one; v4 gets the blue ring + tick on the second "iterations" (32.6)']},
+{t:'33.30–36.90',line:'it gets to a point that it can edit without your intervention.',f:'F8',before:'035.8',draw:()=>mesh+`<div class="card" style="left:10%;right:10%;top:9%;padding:2.4cqw 3cqw"><div style="display:flex;gap:1.6cqw;align-items:center;font-weight:600;font-size:2.8cqw">${CL(3.2)} Claude <span style="margin-left:auto;color:#2FB58A;font-size:2.2cqw">● autonomous</span></div>${['Analyse','Plan','Build','Captions','Export'].map(x=>ROW(x,1).replace('class="an a-rise" style="','style="font-size:2.6cqw;padding:1cqw 0;')).join('')}</div><div class="card" style="left:10%;right:10%;top:40%;padding:2cqw 3cqw;font-size:2.5cqw;color:#0B1730"><div style="display:flex">editing vid5.mp4<span style="margin-left:auto;font-weight:700">100%</span></div><div style="height:1.8cqw;border-radius:2cqw;background:#E1E5EC;margin-top:1.4cqw;overflow:hidden"><div style="height:100%;background:var(--r-acc)"></div></div></div><div class="c pf" style="top:50%;font-size:6cqw;color:#0B1730">intervention.</div>`+PIPF('035.8',56),
+ b:['33.3 "gets to": contents swap to Analyse · Plan · Build · Captions · Export (rows rise 0.2–0.08 s apart)','34.2 → 35.74: ticks land by themselves; the last (hitech) on "intervention"','34.35 (after the rows): the progress card opens below the main card; fill 34.5 → 35.9','34.5 → 35.6: a cursor glides toward the bar, then drifts away and fades ("without your")','35.9: 100 % + risertick','36.33 (line ended): card leaves, you grow back to full screen during the pause']},
+{t:'36.90–38.50',line:'wow! bahut english bol di maine.',f:'F9',before:'037.6',draw:()=>`<div class="fill" style="filter:grayscale(1);transform:scale(1.1) translateX(-1%)">${ST('037.6')}</div><div class="botgrad"></div><div class="c" style="top:66%"><div class="sup">bahut</div><span class="hero pf" style="display:inline-block;font-size:12.2cqw;position:relative;padding:0 3cqw">english<svg viewBox="0 0 100 40" preserveAspectRatio="none" style="position:absolute;inset:-18% -6%;width:112%;height:136%"><path d="M50 3 C80 2 98 10 97 21 C96 33 70 38 46 37 C20 36 3 30 4 19 C5 9 28 3 56 5" fill="none" stroke="#fff" stroke-width="1"/></svg></span><div class="sup" style="margin-top:.4cqw">bol di maine.</div></div>`,
+ b:['37.05 "wow!": hero on your face (colour)','37.30 "bahut": black & white + nose-tracked zoom to 110 % (flicker), held to the end','37.62 "english": the hero builds, then a loose hand-drawn ring draws around it (0.7 s ES)']},
+];
+document.getElementById('fl').innerHTML=FL.map(([k,t,d])=>`<li><b>${k}</b> · <i>${t}</i>: ${d}</li>`).join('');
+document.getElementById('as').innerHTML=AS.map(x=>`<li>${x}</li>`).join('');
+document.getElementById('beats').innerHTML=SB.map((s,i)=>`<section class="sbb"><div class="bh"><h2>${i+1} · ${s.t}</h2><span class="t">${s.f}</span></div><div class="line">“${s.line}”</div><div class="row"><div><div class="lab">raw</div><div class="ph">${ST(s.before)}</div></div><div><div class="lab">draft 1 (sketch)</div><div class="ph">${s.draw()}</div></div><ul>${s.b.map(x=>`<li>${x}</li>`).join('')}</ul></div></section>`).join('');
+</script>
+</body>
+</html>

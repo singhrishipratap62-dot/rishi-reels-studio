@@ -1,0 +1,906 @@
+{
+ "source": "riverside_first_principles thinking in consulting_kashish_malhotra's .mp4",
+ "fps": 24,
+ "duration_ms": 34208,
+ "silences_ms": [
+  [
+   523,
+   662
+  ],
+  [
+   1329,
+   1474
+  ],
+  [
+   3540,
+   3868
+  ],
+  [
+   6170,
+   6376
+  ],
+  [
+   6621,
+   6844
+  ],
+  [
+   9069,
+   9378
+  ],
+  [
+   10471,
+   10658
+  ],
+  [
+   12092,
+   12346
+  ],
+  [
+   13328,
+   13473
+  ],
+  [
+   14707,
+   14940
+  ],
+  [
+   15117,
+   15469
+  ],
+  [
+   19441,
+   19744
+  ],
+  [
+   23853,
+   24026
+  ],
+  [
+   24698,
+   25001
+  ],
+  [
+   25806,
+   25932
+  ],
+  [
+   26532,
+   26694
+  ],
+  [
+   29392,
+   29664
+  ],
+  [
+   31288,
+   31508
+  ],
+  [
+   32911,
+   33066
+  ],
+  [
+   34055,
+   34184
+  ]
+ ],
+ "words": [
+  {
+   "word": "If",
+   "start_ms": 0,
+   "end_ms": 200,
+   "conf": 0.53
+  },
+  {
+   "word": "you're",
+   "start_ms": 200,
+   "end_ms": 524,
+   "conf": 0.88
+  },
+  {
+   "word": "comfortable",
+   "start_ms": 663,
+   "end_ms": 1000,
+   "conf": 1.0
+  },
+  {
+   "word": "to",
+   "start_ms": 1000,
+   "end_ms": 1329,
+   "conf": 0.98
+  },
+  {
+   "word": "use",
+   "start_ms": 1475,
+   "end_ms": 1880,
+   "conf": 1.0
+  },
+  {
+   "word": "first",
+   "start_ms": 1880,
+   "end_ms": 2140,
+   "conf": 0.97
+  },
+  {
+   "word": "principle",
+   "start_ms": 2140,
+   "end_ms": 2500,
+   "conf": 0.93
+  },
+  {
+   "word": "thinking,",
+   "start_ms": 2500,
+   "end_ms": 2800,
+   "conf": 0.99
+  },
+  {
+   "word": "which",
+   "start_ms": 3020,
+   "end_ms": 3120,
+   "conf": 1.0
+  },
+  {
+   "word": "is",
+   "start_ms": 3120,
+   "end_ms": 3260,
+   "conf": 1.0
+  },
+  {
+   "word": "that",
+   "start_ms": 3260,
+   "end_ms": 3540,
+   "conf": 1.0
+  },
+  {
+   "word": "I",
+   "start_ms": 3869,
+   "end_ms": 3940,
+   "conf": 0.87
+  },
+  {
+   "word": "don't",
+   "start_ms": 3940,
+   "end_ms": 4140,
+   "conf": 1.0
+  },
+  {
+   "word": "know",
+   "start_ms": 4140,
+   "end_ms": 4260,
+   "conf": 1.0
+  },
+  {
+   "word": "anything",
+   "start_ms": 4260,
+   "end_ms": 4520,
+   "conf": 1.0
+  },
+  {
+   "word": "about",
+   "start_ms": 4520,
+   "end_ms": 4780,
+   "conf": 1.0
+  },
+  {
+   "word": "this.",
+   "start_ms": 4780,
+   "end_ms": 5020,
+   "conf": 1.0
+  },
+  {
+   "word": "If",
+   "start_ms": 5180,
+   "end_ms": 5240,
+   "conf": 1.0
+  },
+  {
+   "word": "I",
+   "start_ms": 5240,
+   "end_ms": 5340,
+   "conf": 1.0
+  },
+  {
+   "word": "was",
+   "start_ms": 5340,
+   "end_ms": 5500,
+   "conf": 0.99
+  },
+  {
+   "word": "to",
+   "start_ms": 5500,
+   "end_ms": 5640,
+   "conf": 1.0
+  },
+  {
+   "word": "look",
+   "start_ms": 5640,
+   "end_ms": 5860,
+   "conf": 1.0
+  },
+  {
+   "word": "at",
+   "start_ms": 5860,
+   "end_ms": 6170,
+   "conf": 1.0
+  },
+  {
+   "word": "it",
+   "start_ms": 6376,
+   "end_ms": 6180,
+   "conf": 1.0
+  },
+  {
+   "word": "from",
+   "start_ms": 6180,
+   "end_ms": 6621,
+   "conf": 1.0
+  },
+  {
+   "word": "the",
+   "start_ms": 6845,
+   "end_ms": 6960,
+   "conf": 1.0
+  },
+  {
+   "word": "foundational",
+   "start_ms": 6960,
+   "end_ms": 7420,
+   "conf": 0.89
+  },
+  {
+   "word": "aspects,",
+   "start_ms": 7420,
+   "end_ms": 7780,
+   "conf": 0.96
+  },
+  {
+   "word": "just",
+   "start_ms": 7780,
+   "end_ms": 8020,
+   "conf": 0.92
+  },
+  {
+   "word": "the",
+   "start_ms": 8020,
+   "end_ms": 8160,
+   "conf": 1.0
+  },
+  {
+   "word": "complete",
+   "start_ms": 8160,
+   "end_ms": 8540,
+   "conf": 1.0
+  },
+  {
+   "word": "basics.",
+   "start_ms": 8540,
+   "end_ms": 9070,
+   "conf": 1.0
+  },
+  {
+   "word": "And",
+   "start_ms": 9378,
+   "end_ms": 9460,
+   "conf": 1.0
+  },
+  {
+   "word": "if",
+   "start_ms": 9460,
+   "end_ms": 9580,
+   "conf": 1.0
+  },
+  {
+   "word": "I'm",
+   "start_ms": 9580,
+   "end_ms": 9680,
+   "conf": 1.0
+  },
+  {
+   "word": "able",
+   "start_ms": 9680,
+   "end_ms": 10040,
+   "conf": 1.0
+  },
+  {
+   "word": "to",
+   "start_ms": 10040,
+   "end_ms": 10471,
+   "conf": 1.0
+  },
+  {
+   "word": "then",
+   "start_ms": 10659,
+   "end_ms": 10900,
+   "conf": 0.93
+  },
+  {
+   "word": "from",
+   "start_ms": 10900,
+   "end_ms": 11160,
+   "conf": 0.99
+  },
+  {
+   "word": "that",
+   "start_ms": 11160,
+   "end_ms": 11480,
+   "conf": 1.0
+  },
+  {
+   "word": "position",
+   "start_ms": 11480,
+   "end_ms": 12092,
+   "conf": 1.0
+  },
+  {
+   "word": "come",
+   "start_ms": 12347,
+   "end_ms": 12460,
+   "conf": 0.63
+  },
+  {
+   "word": "to",
+   "start_ms": 12460,
+   "end_ms": 12660,
+   "conf": 1.0
+  },
+  {
+   "word": "a",
+   "start_ms": 12660,
+   "end_ms": 12780,
+   "conf": 1.0
+  },
+  {
+   "word": "solution",
+   "start_ms": 12780,
+   "end_ms": 13328,
+   "conf": 1.0
+  },
+  {
+   "word": "and",
+   "start_ms": 13473,
+   "end_ms": 13520,
+   "conf": 0.41
+  },
+  {
+   "word": "if",
+   "start_ms": 13520,
+   "end_ms": 13660,
+   "conf": 1.0
+  },
+  {
+   "word": "I'm",
+   "start_ms": 13660,
+   "end_ms": 13780,
+   "conf": 1.0
+  },
+  {
+   "word": "comfortable",
+   "start_ms": 13780,
+   "end_ms": 14100,
+   "conf": 1.0
+  },
+  {
+   "word": "to",
+   "start_ms": 14100,
+   "end_ms": 14320,
+   "conf": 1.0
+  },
+  {
+   "word": "do",
+   "start_ms": 14320,
+   "end_ms": 14440,
+   "conf": 1.0
+  },
+  {
+   "word": "that,",
+   "start_ms": 14440,
+   "end_ms": 14708,
+   "conf": 1.0
+  },
+  {
+   "word": "right,",
+   "start_ms": 14941,
+   "end_ms": 15117,
+   "conf": 0.96
+  },
+  {
+   "word": "a",
+   "start_ms": 15469,
+   "end_ms": 15520,
+   "conf": 0.99
+  },
+  {
+   "word": "lot",
+   "start_ms": 15520,
+   "end_ms": 15620,
+   "conf": 1.0
+  },
+  {
+   "word": "of",
+   "start_ms": 15620,
+   "end_ms": 15700,
+   "conf": 1.0
+  },
+  {
+   "word": "people",
+   "start_ms": 15700,
+   "end_ms": 15860,
+   "conf": 1.0
+  },
+  {
+   "word": "are",
+   "start_ms": 15860,
+   "end_ms": 15980,
+   "conf": 1.0
+  },
+  {
+   "word": "not",
+   "start_ms": 15980,
+   "end_ms": 16120,
+   "conf": 1.0
+  },
+  {
+   "word": "comfortable",
+   "start_ms": 16120,
+   "end_ms": 16400,
+   "conf": 1.0
+  },
+  {
+   "word": "to",
+   "start_ms": 16400,
+   "end_ms": 16560,
+   "conf": 0.93
+  },
+  {
+   "word": "do",
+   "start_ms": 16560,
+   "end_ms": 16600,
+   "conf": 0.94
+  },
+  {
+   "word": "that",
+   "start_ms": 16600,
+   "end_ms": 16720,
+   "conf": 1.0
+  },
+  {
+   "word": "because",
+   "start_ms": 16720,
+   "end_ms": 16960,
+   "conf": 0.97
+  },
+  {
+   "word": "the",
+   "start_ms": 16960,
+   "end_ms": 17100,
+   "conf": 0.96
+  },
+  {
+   "word": "second",
+   "start_ms": 17100,
+   "end_ms": 17360,
+   "conf": 1.0
+  },
+  {
+   "word": "they",
+   "start_ms": 17360,
+   "end_ms": 17540,
+   "conf": 0.91
+  },
+  {
+   "word": "think",
+   "start_ms": 17540,
+   "end_ms": 17680,
+   "conf": 1.0
+  },
+  {
+   "word": "they",
+   "start_ms": 17680,
+   "end_ms": 17820,
+   "conf": 1.0
+  },
+  {
+   "word": "don't",
+   "start_ms": 17820,
+   "end_ms": 18040,
+   "conf": 1.0
+  },
+  {
+   "word": "know",
+   "start_ms": 18040,
+   "end_ms": 18220,
+   "conf": 1.0
+  },
+  {
+   "word": "something",
+   "start_ms": 18220,
+   "end_ms": 18560,
+   "conf": 1.0
+  },
+  {
+   "word": "about",
+   "start_ms": 18560,
+   "end_ms": 18780,
+   "conf": 1.0
+  },
+  {
+   "word": "an",
+   "start_ms": 18780,
+   "end_ms": 18940,
+   "conf": 1.0
+  },
+  {
+   "word": "industry,",
+   "start_ms": 18940,
+   "end_ms": 19442,
+   "conf": 1.0
+  },
+  {
+   "word": "it's",
+   "start_ms": 19744,
+   "end_ms": 19880,
+   "conf": 1.0
+  },
+  {
+   "word": "something",
+   "start_ms": 19880,
+   "end_ms": 20100,
+   "conf": 1.0
+  },
+  {
+   "word": "that",
+   "start_ms": 20100,
+   "end_ms": 20260,
+   "conf": 1.0
+  },
+  {
+   "word": "I",
+   "start_ms": 20260,
+   "end_ms": 20360,
+   "conf": 1.0
+  },
+  {
+   "word": "will",
+   "start_ms": 20360,
+   "end_ms": 20500,
+   "conf": 1.0
+  },
+  {
+   "word": "have",
+   "start_ms": 20500,
+   "end_ms": 20640,
+   "conf": 0.96
+  },
+  {
+   "word": "to",
+   "start_ms": 20640,
+   "end_ms": 20760,
+   "conf": 1.0
+  },
+  {
+   "word": "do",
+   "start_ms": 20760,
+   "end_ms": 20920,
+   "conf": 0.99
+  },
+  {
+   "word": "some",
+   "start_ms": 20920,
+   "end_ms": 21180,
+   "conf": 1.0
+  },
+  {
+   "word": "work",
+   "start_ms": 21180,
+   "end_ms": 21600,
+   "conf": 1.0
+  },
+  {
+   "word": "in",
+   "start_ms": 21600,
+   "end_ms": 21740,
+   "conf": 0.98
+  },
+  {
+   "word": "the",
+   "start_ms": 21740,
+   "end_ms": 21840,
+   "conf": 1.0
+  },
+  {
+   "word": "background,",
+   "start_ms": 21840,
+   "end_ms": 22220,
+   "conf": 1.0
+  },
+  {
+   "word": "understand",
+   "start_ms": 22400,
+   "end_ms": 22760,
+   "conf": 1.0
+  },
+  {
+   "word": "what",
+   "start_ms": 22760,
+   "end_ms": 22920,
+   "conf": 1.0
+  },
+  {
+   "word": "that",
+   "start_ms": 22920,
+   "end_ms": 23140,
+   "conf": 1.0
+  },
+  {
+   "word": "industry",
+   "start_ms": 23140,
+   "end_ms": 23520,
+   "conf": 1.0
+  },
+  {
+   "word": "or",
+   "start_ms": 23520,
+   "end_ms": 23854,
+   "conf": 0.83
+  },
+  {
+   "word": "do",
+   "start_ms": 24026,
+   "end_ms": 24120,
+   "conf": 1.0
+  },
+  {
+   "word": "my",
+   "start_ms": 24120,
+   "end_ms": 24280,
+   "conf": 1.0
+  },
+  {
+   "word": "homework",
+   "start_ms": 24280,
+   "end_ms": 24699,
+   "conf": 1.0
+  },
+  {
+   "word": "and",
+   "start_ms": 25002,
+   "end_ms": 25080,
+   "conf": 0.93
+  },
+  {
+   "word": "then",
+   "start_ms": 25080,
+   "end_ms": 25220,
+   "conf": 1.0
+  },
+  {
+   "word": "come",
+   "start_ms": 25220,
+   "end_ms": 25420,
+   "conf": 1.0
+  },
+  {
+   "word": "back",
+   "start_ms": 25420,
+   "end_ms": 25806,
+   "conf": 1.0
+  },
+  {
+   "word": "with",
+   "start_ms": 25933,
+   "end_ms": 26000,
+   "conf": 1.0
+  },
+  {
+   "word": "an",
+   "start_ms": 26000,
+   "end_ms": 26140,
+   "conf": 1.0
+  },
+  {
+   "word": "answer.",
+   "start_ms": 26140,
+   "end_ms": 26532,
+   "conf": 1.0
+  },
+  {
+   "word": "You",
+   "start_ms": 26695,
+   "end_ms": 26760,
+   "conf": 1.0
+  },
+  {
+   "word": "will",
+   "start_ms": 26760,
+   "end_ms": 26860,
+   "conf": 1.0
+  },
+  {
+   "word": "start",
+   "start_ms": 26860,
+   "end_ms": 27020,
+   "conf": 1.0
+  },
+  {
+   "word": "faltering.",
+   "start_ms": 27020,
+   "end_ms": 27340,
+   "conf": 0.95
+  },
+  {
+   "word": "and",
+   "start_ms": 27340,
+   "end_ms": 27640,
+   "conf": 0.51
+  },
+  {
+   "word": "the",
+   "start_ms": 27640,
+   "end_ms": 27760,
+   "conf": 0.99
+  },
+  {
+   "word": "second",
+   "start_ms": 27760,
+   "end_ms": 27940,
+   "conf": 1.0
+  },
+  {
+   "word": "you",
+   "start_ms": 27940,
+   "end_ms": 28160,
+   "conf": 1.0
+  },
+  {
+   "word": "show",
+   "start_ms": 28160,
+   "end_ms": 28380,
+   "conf": 1.0
+  },
+  {
+   "word": "a",
+   "start_ms": 28380,
+   "end_ms": 28500,
+   "conf": 1.0
+  },
+  {
+   "word": "lack",
+   "start_ms": 28500,
+   "end_ms": 28680,
+   "conf": 1.0
+  },
+  {
+   "word": "of",
+   "start_ms": 28680,
+   "end_ms": 28820,
+   "conf": 1.0
+  },
+  {
+   "word": "confidence",
+   "start_ms": 28820,
+   "end_ms": 29392,
+   "conf": 1.0
+  },
+  {
+   "word": "in",
+   "start_ms": 29664,
+   "end_ms": 29780,
+   "conf": 1.0
+  },
+  {
+   "word": "front",
+   "start_ms": 29780,
+   "end_ms": 29980,
+   "conf": 1.0
+  },
+  {
+   "word": "of",
+   "start_ms": 29980,
+   "end_ms": 30140,
+   "conf": 1.0
+  },
+  {
+   "word": "your",
+   "start_ms": 30140,
+   "end_ms": 30260,
+   "conf": 1.0
+  },
+  {
+   "word": "client",
+   "start_ms": 30260,
+   "end_ms": 30560,
+   "conf": 1.0
+  },
+  {
+   "word": "in",
+   "start_ms": 30560,
+   "end_ms": 30760,
+   "conf": 0.6
+  },
+  {
+   "word": "front",
+   "start_ms": 30760,
+   "end_ms": 30960,
+   "conf": 1.0
+  },
+  {
+   "word": "of",
+   "start_ms": 30960,
+   "end_ms": 31288,
+   "conf": 1.0
+  },
+  {
+   "word": "the",
+   "start_ms": 31508,
+   "end_ms": 31580,
+   "conf": 1.0
+  },
+  {
+   "word": "person",
+   "start_ms": 31580,
+   "end_ms": 31880,
+   "conf": 1.0
+  },
+  {
+   "word": "who's",
+   "start_ms": 31880,
+   "end_ms": 32060,
+   "conf": 0.94
+  },
+  {
+   "word": "taking",
+   "start_ms": 32060,
+   "end_ms": 32260,
+   "conf": 1.0
+  },
+  {
+   "word": "your",
+   "start_ms": 32260,
+   "end_ms": 32460,
+   "conf": 1.0
+  },
+  {
+   "word": "interview",
+   "start_ms": 32460,
+   "end_ms": 32911,
+   "conf": 1.0
+  },
+  {
+   "word": "they",
+   "start_ms": 33067,
+   "end_ms": 33120,
+   "conf": 0.61,
+   "note": "Whisper heard 'i'; audio says 'they' \u2014 verify"
+  },
+  {
+   "word": "will",
+   "start_ms": 33120,
+   "end_ms": 33240,
+   "conf": 1.0
+  },
+  {
+   "word": "stop",
+   "start_ms": 33240,
+   "end_ms": 33400,
+   "conf": 0.99
+  },
+  {
+   "word": "believing",
+   "start_ms": 33400,
+   "end_ms": 33660,
+   "conf": 1.0
+  },
+  {
+   "word": "your",
+   "start_ms": 33660,
+   "end_ms": 34055,
+   "conf": 1.0
+  },
+  {
+   "word": "answer",
+   "start_ms": 34184,
+   "end_ms": 34040,
+   "conf": 1.0
+  }
+ ]
+}

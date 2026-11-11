@@ -1,0 +1,22 @@
+<!doctype html><body><canvas id="c" width="1080" height="1920"></canvas><script type="module">
+import init, { TesseractEngine, version, engineVersion } from '../runtime/web_api.js';
+const R={}; const T=()=>performance.now();
+window.run = async (mode) => {
+  try{
+    let t=T(); await init(); R.init_ms=Math.round(T()-t); R.version=version(); R.engine=engineVersion();
+    t=T(); const blob=await (await fetch('roughcut_v3_v4_COPY.tsrct')).blob(); R.fetch_ms=Math.round(T()-t); R.bytes=blob.size;
+    t=T(); const e=await TesseractEngine.create(blob); R.create_ms=Math.round(T()-t);
+    let doc=e.document(); const all=l=>l.flatMap(x=>[x,...all(x.layers||[])]); R.layers=all(doc.composition.layers).length;
+    R.gpu=!!navigator.gpu;
+    try{ t=T(); await e.connectCanvas(document.getElementById('c')); await e.loadResources(); R.load_ms=Math.round(T()-t);
+         const fr=[]; for(const ms of [1000,7600,16500,20600,30600]){ const s=T(); await e.renderFrame(ms); fr.push(Math.round(T()-s)); } R.render_ms=fr; }
+    catch(err){ R.render_error=String(err).slice(0,200); }
+    if(mode==='edit'){ const L=all(doc.composition.layers).find(x=>x.type==='Text'&&x.name.startsWith('Header'));
+      R.edited_layer=L&&L.id; doc=e.applyAction({type:'updateLayerField',compositionId:doc.composition.id,layerId:L.id,propertyName:'name',value:'Header (edited in browser)'}).document; }
+    t=T(); const out=await e.toBlob(); R.save_ms=Math.round(T()-t); R.saved_bytes=out.size;
+    const b=new Uint8Array(await out.arrayBuffer()); let s=''; for(let i=0;i<b.length;i+=0x8000) s+=String.fromCharCode.apply(null,b.subarray(i,i+0x8000)); R.b64=btoa(s);
+  }catch(err){ R.error=String(err).slice(0,400); }
+  return R;
+};
+window.ready=true;
+</script></body>

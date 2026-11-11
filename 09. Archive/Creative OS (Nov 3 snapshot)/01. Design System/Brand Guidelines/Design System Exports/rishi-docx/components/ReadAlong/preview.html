@@ -1,0 +1,39 @@
+<!-- @dsCard group="Context" height=1920 width=1080 subtitle="A real post read along: the highlight walks the spoken words, everything else dims" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Read along</title>
+<style>html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:inherit;font-style:normal;font-weight:inherit}
+.post{position:absolute;left:96px;right:176px;top:420px;color:var(--ink)}
+.who{display:flex;align-items:center;gap:20px;margin-bottom:36px;transition:opacity var(--dur-quick, 240ms) var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1))}
+.av{width:72px;height:72px;border-radius:50%;border:2px solid var(--line-strong);display:grid;place-items:center;font-weight:600;font-size:32px}
+.nm{font-size:36px;font-weight:600;line-height:1.1}.hd{font-size:32px;color:var(--ink-muted)}
+.txt{font-size:46px;line-height:1.45;margin:0 0 36px}
+.w{transition:color .2s var(--ease-soft, cubic-bezier(0.4, 0, 0.2, 1)),background-size .32s linear;background-image:linear-gradient(var(--highlight-follow, #b02e1a29),var(--highlight-follow, #b02e1a29));background-repeat:no-repeat;background-size:0% 100%;padding:0 6px;border-radius:var(--radius-highlight, 6px);-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.dim .w{color:var(--ink-ghost)}.dim .who{opacity:.22}
+.w.on{color:var(--ink);background-size:100% 100%}
+.meta{font-size:32px;color:var(--ink-muted);transition:opacity var(--dur-quick, 240ms) var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1))}.dim .meta{opacity:.22}
+</style></head>
+<body><div class="f"><div class="post" id="p">
+<div class="who"><div class="av">AI</div><div><div class="nm">Example Lab</div><div class="hd">@examplelab · sample post</div></div></div>
+<p class="txt"><span class="w">On the hardest agent test,</span> <span class="w">our new model scores 53.6,</span> <span class="w">beating the previous best by 13 points.</span></p>
+<p class="txt"><span class="w">At medium effort it costs</span> <span class="w">about a quarter as much.</span></p>
+<div class="meta">7:29 PM · Sample date</div></div>
+<div class="cap" id="c">the hardest</div></div>
+<script>
+var ws=[].slice.call(document.querySelectorAll('.w')),p=document.getElementById('p'),c=document.getElementById('c');
+var caps=['the hardest','scores 53.6','13 points','medium effort','a quarter'];
+function run(){p.classList.remove('dim');ws.forEach(function(w){w.classList.remove('on')});
+setTimeout(function(){p.classList.add('dim')},500);
+ws.forEach(function(w,i){setTimeout(function(){if(i==3)ws.slice(0,3).forEach(function(x){x.classList.remove('on')});w.classList.add('on');c.textContent=caps[i]},900+i*900)})}
+run();setInterval(run,6200);
+</script></body></html>

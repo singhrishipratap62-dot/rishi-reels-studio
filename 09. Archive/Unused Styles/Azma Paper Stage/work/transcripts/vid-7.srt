@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:02,695
+Mark Zuckerberg is back in the market with a new AI tool.
+
+2
+00:00:02,695 --> 00:00:11,935
+[chuckles] And this new tool wants access to your emails, calendar, shopping accounts, and potentially even your money.
+
+3
+00:00:11,935 --> 00:00:15,615
+Considering all of this is coming from Meta, it sounds a bit terrifying.
+
+4
+00:00:15,615 --> 00:00:18,575
+So while introducing it, Mark did something very interesting.
+
+5
+00:00:18,575 --> 00:00:20,115
+He talked about his daughters.
+
+6
+00:00:20,115 --> 00:00:26,595
+Hi, I'm Asma. I research things I find fascinating, and today we'll discuss Muse, Meta's new personal AI agent.
+
+7
+00:00:26,595 --> 00:00:30,095
+Unlike regular AI, Muse doesn't just tell you how to do something.
+
+8
+00:00:30,095 --> 00:00:31,695
+It actually goes and does it.
+
+9
+00:00:31,695 --> 00:00:37,155
+It can help you send emails, fill forms, book trips, and make purchases with approval, but it'll also keep
+
+10
+00:00:37,155 --> 00:00:40,915
+on working after you close the app. It also remembers things about you.
+
+11
+00:00:40,915 --> 00:00:45,855
+Very useful, but also very scary. If you think about it, it's a lot of access, which is
+
+12
+00:00:45,855 --> 00:00:49,335
+why I find it very interesting the way he delivered the announcement.
+
+13
+00:00:49,335 --> 00:00:55,895
+He talked about using Muse for baking projects with his three-year-old, finding mountain climbing permits for another daughter,
+
+14
+00:00:55,895 --> 00:00:58,475
+and even turning a video game into a history lesson.
+
+15
+00:00:58,475 --> 00:01:04,315
+Now, I obviously can't prove that this was a PR strategy, but communication-wise, it does feel that way. AI
+
+16
+00:01:04,315 --> 00:01:10,175
+with access to accounts and money sounds kind of scary, but AI helps dad bake with his daughter
+
+17
+00:01:10,175 --> 00:01:13,875
+sounds pretty nice. And if you think about it, Meta really needs that trust.
+
+18
+00:01:13,875 --> 00:01:18,695
+The launch of Muse was reportedly delayed because of security reasons as well, even though now the company
+
+19
+00:01:18,695 --> 00:01:21,895
+says that it has built multiple safeguards into the product.
+
+20
+00:01:21,895 --> 00:01:27,555
+But this whole thing really reminded me of WALL·E as well. The machines in WALL·E weren't really scary
+
+21
+00:01:27,555 --> 00:01:31,435
+because they were evil. They were scary because they were super helpful.
+
+22
+00:01:31,435 --> 00:01:37,135
+Humans became so comfortable with tech doing things for them that they stopped doing anything at all. I
+
+23
+00:01:37,135 --> 00:01:42,635
+don't know about you, but I'm not particularly interested in becoming a fat person floating on a device and
+
+24
+00:01:42,635 --> 00:01:45,335
+using their chubby fingers to put orders in a system.
+
+25
+00:01:45,595 --> 00:01:50,315
+And yes, Muse is not exactly that kind of a product, but the tech is really moving towards
+
+26
+00:01:50,315 --> 00:01:54,675
+that direction. So maybe the question is not if I can trust AI to do this for me,
+
+27
+00:01:54,675 --> 00:01:57,895
+but how much of my life do I want AI to do on my behalf?
+

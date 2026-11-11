@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Avenir;src:url(AvenirLTProBook.otf);font-weight:400}
+@font-face{font-family:Avenir;src:url(AvenirLTProMedium.otf);font-weight:500}
+@font-face{font-family:Avenir;src:url(AvenirLTProHeavy.otf);font-weight:800}
+@font-face{font-family:Avenir;src:url(AvenirLTProBlack.otf);font-weight:900}
+@font-face{font-family:Besley;src:url(Besley-Italic.ttf);font-style:italic;font-weight:400 900}
+:root{--rhino:#2e3558;--rhino-950:#1b1f38;--rhino-500:#5961ed;--peri:#8c9dff;--peri-100:#dee3ff;--yellow:#ffa601}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;font-family:Avenir,sans-serif;color:var(--rhino);position:relative;background:#e9e4dc}
+.bg{position:absolute;left:-431px;top:-270px;width:1664px;height:2220px;object-fit:cover}
+.veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.92) 0,rgba(255,255,255,.7) 18%,rgba(255,255,255,0) 34%,rgba(255,255,255,0) 60%,rgba(222,227,255,.55) 100%)}
+.stripes{position:absolute;left:0;top:0;width:280px;height:280px;background:repeating-linear-gradient(135deg,transparent 0 34px,var(--yellow) 34px 62px);-webkit-mask:linear-gradient(135deg,#000 0,#000 40%,transparent 40.1%);mask:linear-gradient(135deg,#000 0,#000 40%,transparent 40.1%)}
+.logo{position:absolute;right:56px;top:112px;height:44px}
+.chip{position:absolute;left:60px;top:210px;font:800 22px Avenir;letter-spacing:.16em;text-transform:uppercase;background:var(--yellow);color:var(--rhino);padding:10px 18px;border-radius:6px}
+h1{position:absolute;left:60px;top:268px;font-weight:900;font-size:90px;line-height:1.02;letter-spacing:-.045em}
+h1 .hl{position:relative;display:inline-block;z-index:0}
+h1 .hl:after{content:"";position:absolute;left:-6px;right:-6px;bottom:5px;height:36%;background:var(--yellow);opacity:.9;z-index:-1;border-radius:3px}
+h1 em{font-family:Besley;font-style:italic;font-weight:500;letter-spacing:-.03em;color:var(--rhino-500)}
+.glass{background:linear-gradient(135deg,rgba(255,255,255,.55),rgba(255,255,255,.3));backdrop-filter:blur(26px) saturate(1.8);-webkit-backdrop-filter:blur(26px) saturate(1.8);
+ border:1.5px solid rgba(255,255,255,.65);box-shadow:inset 0 2px 1px rgba(255,255,255,.95),inset 0 -2px 2px rgba(255,255,255,.3),inset 0 0 40px rgba(255,255,255,.18),0 24px 60px rgba(27,31,56,.22);position:relative}
+.glass:before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,rgba(255,255,255,.55) 0,rgba(255,255,255,0) 28%,rgba(255,255,255,0) 72%,rgba(255,255,255,.25) 100%);pointer-events:none}
+.cal{position:absolute;left:40px;top:1030px;width:1000px;border-radius:44px;padding:26px 28px 24px}
+.hd{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:18px;position:relative}
+.hd b{font-weight:900;font-size:42px;letter-spacing:-.035em}
+.hd span{font-weight:800;font-size:22px;letter-spacing:.16em;text-transform:uppercase;color:var(--rhino-500)}
+.s{font-weight:500;font-size:25px;letter-spacing:-.01em;margin-bottom:18px;position:relative}
+.g{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;position:relative}
+.d{height:88px;border-radius:20px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:36px;letter-spacing:-.03em;
+ border:1.5px solid rgba(255,255,255,.7);box-shadow:inset 0 2px 1px rgba(255,255,255,.8);backdrop-filter:blur(6px)}
+.w1{background:rgba(255,255,255,.55);color:var(--rhino)}
+.w2{background:rgba(140,157,255,.62);color:var(--rhino-950)}
+.w3{background:rgba(89,97,237,.78);color:#fff}
+.w4{background:rgba(27,31,56,.84);color:#fff}
+.last{background:var(--yellow);color:var(--rhino-950);border-color:#ffd68a}
+.tg{grid-column:span 5;height:88px;border-radius:20px;display:flex;align-items:center;padding-left:26px;font-weight:900;font-size:34px;letter-spacing:-.035em;background:rgba(255,255,255,.45);border:1.5px solid rgba(255,255,255,.7)}
+.tg b{color:var(--rhino-500);margin-left:10px}
+.lg{display:grid;grid-template-columns:repeat(4,auto);justify-content:space-between;margin-top:18px;position:relative}
+.lg div{font-weight:800;font-size:23px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+.lg i{width:22px;height:22px;border-radius:7px;display:block;border:1.5px solid rgba(255,255,255,.8)}
+</style></head><body>
+<img class="bg" src="kashish.jpg"><div class="veil"></div>
+<div class="stripes"></div><img class="logo" src="wordmark.svg">
+<div class="chip">New series</div>
+<h1>30 days to crack<br><span class="hl">consulting</span><br><em>case interviews</em></h1>
+<div class="cal glass">
+ <div class="hd"><b>Your 30-day plan</b><span>4 weeks · 30 lessons</span></div>
+ <div class="s">Master case interviews, business strategy and problem-solving.</div>
+ <div class="g"><div class="d w1">01</div><div class="d w1">02</div><div class="d w1">03</div><div class="d w1">04</div><div class="d w1">05</div><div class="d w1">06</div><div class="d w1">07</div><div class="d w2">08</div><div class="d w2">09</div><div class="d w2">10</div><div class="d w2">11</div><div class="d w2">12</div><div class="d w2">13</div><div class="d w2">14</div><div class="d w2">15</div><div class="d w3">16</div><div class="d w3">17</div><div class="d w3">18</div><div class="d w3">19</div><div class="d w3">20</div><div class="d w3">21</div><div class="d w4">22</div><div class="d w4">23</div><div class="d w4">24</div><div class="d w4">25</div><div class="d w4">26</div><div class="d w4">27</div><div class="d w4">28</div><div class="d w4">29</div><div class="d w4 last">30</div><div class="tg">30 days. 30 lessons.<b>One goal.</b></div></div>
+ <div class="lg"><div><i class="w1"></i>Master the basics</div><div><i class="w2"></i>Problem-solving</div><div><i class="w3"></i>Think like a strategist</div><div><i class="w4"></i>Advanced prep</div></div>
+</div></body></html>

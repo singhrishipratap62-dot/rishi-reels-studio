@@ -1,0 +1,9 @@
+{
+  "name": "vid1-remotion",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Main"
+  }
+}

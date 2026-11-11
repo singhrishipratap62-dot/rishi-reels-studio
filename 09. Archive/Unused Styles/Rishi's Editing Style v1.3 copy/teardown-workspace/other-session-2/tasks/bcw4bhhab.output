@@ -1,0 +1,119 @@
+### work/T1.csv bh --f0 26 --f1 70
+frames 26->70 = 44 f = 1467 ms | value 1279.0 -> 526.0 | overshoot 0.0%
+best free cubic-bezier(0.0, 0.8, 0.0, 0.9) rmse 0.012
+  easeOutExpo                  rmse 0.113
+  apple_spring_like(.16,1,.3,1) rmse 0.116
+  easeOutQuint                 rmse 0.146
+  (.22,1,.36,1)                rmse 0.148
+  easeOutCirc                  rmse 0.152
+  easeOutBack(1.70)            rmse 0.166
+### work/T1.csv area --f0 20 --f1 70
+frames 20->70 = 50 f = 1667 ms | value 920872.0 -> 307749.0 | overshoot 0.0%
+best free cubic-bezier(0.2, 0.5, 0.0, 1.0) rmse 0.010
+  (.22,1,.36,1)                rmse 0.027
+  easeOutQuint                 rmse 0.031
+  easeOutQuart                 rmse 0.045
+  apple_spring_like(.16,1,.3,1) rmse 0.055
+  easeOutExpo                  rmse 0.056
+  easeOutCirc                  rmse 0.073
+### work/T2.csv mean_luma_el --f0 150 --f1 164
+frames 150->164 = 14 f = 467 ms | value 37.0 -> 90.5 | overshoot 0.0%
+best free cubic-bezier(0.3, 0.0, 0.6, 0.9) rmse 0.009
+  AE_easyEase(33%)             rmse 0.017
+  easeInOutSine                rmse 0.022
+  easeInOutQuad                rmse 0.038
+  linear                       rmse 0.055
+  (.65,0,.35,1)                rmse 0.081
+  easeInOutCubic               rmse 0.084
+### work/T3.csv mean_luma_el --f0 176 --f1 198
+frames 176->198 = 22 f = 733 ms | value 44.3 -> 180.0 | overshoot 0.0%
+best free cubic-bezier(0.0, 0.1, 1.0, 1.05) rmse 0.022
+  linear                       rmse 0.048
+  AE_easyEase(33%)             rmse 0.081
+  easeInOutSine                rmse 0.086
+  easeInOutQuad                rmse 0.099
+  easeOutSine                  rmse 0.111
+  (.65,0,.35,1)                rmse 0.138
+### work/T4.csv mean_luma_el --f0 209 --f1 239
+frames 209->239 = 30 f = 1000 ms | value 36.1 -> 67.1 | overshoot 0.0%
+best free cubic-bezier(0.1, 0.1, 0.1, 0.8) rmse 0.019
+  AE_easeOut_infl80            rmse 0.042
+  easeOutCubic                 rmse 0.053
+  easeOutQuad                  rmse 0.056
+  css_ease                     rmse 0.078
+  easeOutSine                  rmse 0.089
+  easeOutCirc                  rmse 0.100
+### work/T5.csv area --f0 513 --f1 533
+frames 513->533 = 20 f = 667 ms | value 10959.0 -> 20775.0 | overshoot 0.0%
+best free cubic-bezier(0.4, 0.1, 0.5, 1.05) rmse 0.017
+  easeInOutQuad                rmse 0.073
+  easeInOutSine                rmse 0.073
+  AE_easyEase(33%)             rmse 0.075
+  (.65,0,.35,1)                rmse 0.089
+  easeInOutCubic               rmse 0.090
+  easeOutSine                  rmse 0.106
+### work/T6.csv area --f0 676 --f1 686
+frames 676->686 = 10 f = 333 ms | value 24344.0 -> 86722.0 | overshoot 0.0%
+best free cubic-bezier(0.6, 0.0, 0.2, 0.8) rmse 0.015
+  (.65,0,.35,1)                rmse 0.054
+  easeInOutCubic               rmse 0.054
+  easeInOutQuad                rmse 0.057
+  easeInOutSine                rmse 0.066
+  AE_easyEase(33%)             rmse 0.071
+  easeInOutQuart               rmse 0.071
+### work/T7.csv mean_luma_el --f0 872 --f1 886
+frames 872->886 = 14 f = 467 ms | value 37.1 -> 90.6 | overshoot 0.2%
+best free cubic-bezier(0.8, 0.7, 0.7, 1.05) rmse 0.016
+  AE_easyEase(33%)             rmse 0.051
+  easeInOutSine                rmse 0.055
+  linear                       rmse 0.059
+  easeInOutQuad                rmse 0.065
+  (.65,0,.35,1)                rmse 0.101
+  easeInOutCubic               rmse 0.103
+### work/T8.csv mean_luma_el --f0 1128 --f1 1146
+frames 1128->1146 = 18 f = 600 ms | value 32.1 -> 167.2 | overshoot 0.0%
+best free cubic-bezier(0.2, 0.3, 0.2, 0.9) rmse 0.009
+  AE_easeOut_infl80            rmse 0.042
+  easeOutCubic                 rmse 0.045
+  easeOutQuad                  rmse 0.061
+  css_ease                     rmse 0.070
+  easeOutSine                  rmse 0.094
+  easeOutQuart                 rmse 0.101
+### work/T9.csv mean_luma_el --f0 1318 --f1 1346
+frames 1318->1346 = 28 f = 933 ms | value 43.5 -> 86.5 | overshoot 5.8%
+best free cubic-bezier(0.1, 0.0, 0.6, 1.05) rmse 0.037
+  easeOutSine                  rmse 0.060
+  easeOutQuad                  rmse 0.089
+  css_ease                     rmse 0.094
+  AE_easyEase(33%)             rmse 0.121
+  linear                       rmse 0.122
+  easeInOutSine                rmse 0.124
+### work/T10.csv area --f0 1452 --f1 1470
+frames 1452->1470 = 18 f = 600 ms | value 4270.0 -> 104168.0 | overshoot 0.2%
+best free cubic-bezier(0.1, 0.0, 0.5, 0.9) rmse 0.016
+  easeOutSine                  rmse 0.049
+  easeOutQuad                  rmse 0.081
+  css_ease                     rmse 0.091
+  linear                       rmse 0.108
+  AE_easyEase(33%)             rmse 0.114
+  easeInOutSine                rmse 0.117
+### work/T10.csv cy --f0 1454 --f1 1474
+frames 1454->1474 = 20 f = 667 ms | value 962.5 -> 879.6 | overshoot 0.8%
+best free cubic-bezier(0.4, 0.7, 0.6, 0.6) rmse 0.044
+  linear                       rmse 0.083
+  easeOutSine                  rmse 0.103
+  AE_easyEase(33%)             rmse 0.123
+  easeOutQuad                  rmse 0.125
+  easeInOutSine                rmse 0.129
+  easeInOutQuad                rmse 0.144
+### work/T11.csv area --f0 1539 --f1 1553
+frames 1539->1553 = 14 f = 467 ms | value 692.0 -> 13788.0 | overshoot 0.0%
+best free cubic-bezier(1.0, 0.2, 0.6, 1.05) rmse 0.026
+  easeInSine                   rmse 0.071
+  easeInQuad                   rmse 0.084
+  easeInCubic                  rmse 0.156
+  AE_easyEase(33%)             rmse 0.162
+  easeInOutSine                rmse 0.163
+  easeInOutQuad                rmse 0.168
+
+[exited with code 0]

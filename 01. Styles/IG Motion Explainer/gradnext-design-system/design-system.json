@@ -1,0 +1,721 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Company~20and~20College~20Logos": {
+      "files": {
+        "ArthurDLittle_Logo_Blue_Grad_RGB.png": {
+          "blob": "641409afd83aab69d58aa3c4c382870d",
+          "name": "ArthurDLittle_Logo_Blue_Grad_RGB.png",
+          "sha256": "ad2eff0ece190b1918e83e97bfc017fdebd499c6c4c96c80c4d411942b4612e4",
+          "size": 95922,
+          "type": "image/png"
+        },
+        "Blinkit-yellow-rounded.svg.png": {
+          "blob": "f4d6caecf9a406e90b0fa4ef0d9abb52",
+          "name": "Blinkit-yellow-rounded.svg.png",
+          "sha256": "fb2868ae8ef3af8a375ab6cf1a9062fe2242fdffa0af5e3ece56a266e21f9eb9",
+          "size": 12443,
+          "type": "image/png"
+        },
+        "Boston_Consulting_Group_2020_logo.svg.png": {
+          "blob": "7f87fdfc531c66ba49e8a71fbd9f4238",
+          "name": "Boston_Consulting_Group_2020_logo.svg.png",
+          "sha256": "ab1ad420b08ca4e03218029153a8adcf9f61a79f3e8bc2fd52a082e4eef9b389",
+          "size": 32195,
+          "type": "image/png"
+        },
+        "Branding_lenovo-logo_lenovologoposred_low_res.png": {
+          "blob": "9135a5208ed4a35ed5f13b6b3a4bc5e0",
+          "name": "Branding_lenovo-logo_lenovologoposred_low_res.png",
+          "sha256": "c5eeec359f8f97ad2e9eb6b4c3c209cf9f023a8b9f83b9900d468786e3e5e0fd",
+          "size": 22568,
+          "type": "image/png"
+        },
+        "Cisco_logo_blue_2016.svg.png": {
+          "blob": "86d8b6121b4b8f3ffd87347441dc4c8f",
+          "name": "Cisco_logo_blue_2016.svg.png",
+          "sha256": "7a08ef2ac578d8b635ee663042b1a697d40510284663db04b8ce66601382efa8",
+          "size": 6633,
+          "type": "image/png"
+        },
+        "Darden.png": {
+          "blob": "63ce5a450522315064152abf413ad81b",
+          "name": "Darden.png",
+          "sha256": "eacb137812664e900b8ef22b3d00dc67721a05ea7d40458ea95d627e24dd20fb",
+          "size": 35744,
+          "type": "image/png"
+        },
+        "Dell_Logo.png": {
+          "blob": "3aaf4de105a4dc21c48f2e030f450d73",
+          "name": "Dell_Logo.png",
+          "sha256": "e3c7290c1f6920ade62721508c84e2b87c27d10b30ab843c2deb9995c331ad19",
+          "size": 42735,
+          "type": "image/png"
+        },
+        "EY_Parthenon_logo.svg.png": {
+          "blob": "e6518f5e4f0504dca3bb85dae7167834",
+          "name": "EY_Parthenon_logo.svg.png",
+          "sha256": "bddbba59e2c6676ed7f8b100c176a46a46e156a724f63f148f41217303dacc8b",
+          "size": 19648,
+          "type": "image/png"
+        },
+        "EY_logo_2019.svg.png": {
+          "blob": "e578ef78add847cafab75030d53e03fb",
+          "name": "EY_logo_2019.svg.png",
+          "sha256": "9d05438a9c7bdc42812b8ec45e62287c123f198ed8901771aeb59dfa97dd4ccb",
+          "size": 4732,
+          "type": "image/png"
+        },
+        "FMS-delhi-logo.png": {
+          "blob": "6ce71d5ac0878338ff1e7d5a3709cd22",
+          "name": "FMS-delhi-logo.png",
+          "sha256": "c62c9356cbf671f2287d7c2079853429e21b6797da859ffca687837fe3fbf604",
+          "size": 10898,
+          "type": "image/png"
+        },
+        "FSG.png": {
+          "blob": "f40642a026fee0342d7fd1c7dcf42e39",
+          "name": "FSG.png",
+          "sha256": "6a641f6608bac0e424a34a31ecb80c0eb7323c1e4f8e4a04164c6ea2821c53e8",
+          "size": 2928,
+          "type": "image/png"
+        },
+        "HEC_Paris.svg.png": {
+          "blob": "68fde1f80c45696e3a6e5d99417aba75",
+          "name": "HEC_Paris.svg.png",
+          "sha256": "b05f54ce4bea46753e24694e0dbe35fc863d62640f9fdcfc8141c0c387907fa9",
+          "size": 31409,
+          "type": "image/png"
+        },
+        "IIM_Bangalore_Logo.png": {
+          "blob": "11917df985c1e85a1c57e72d1f2a6354",
+          "name": "IIM_Bangalore_Logo.png",
+          "sha256": "40d3024c41564735671d04d3531a1bbb87e11ce0ebd5618b4ab058cd2ba9e2b7",
+          "size": 11770,
+          "type": "image/png"
+        },
+        "IIM_Bangalore_Logo.svg": {
+          "blob": "10546a87b8263fef487aea8f5ba072a8",
+          "name": "IIM_Bangalore_Logo.svg",
+          "sha256": "82d61adcb19dddba98a4bf556c96cdaba958ef621a9a8ff80a0567ca6ed5072c",
+          "size": 19021,
+          "type": "image/svg+xml"
+        },
+        "IIM_Bangalore_Logo~20~281~29.svg": {
+          "blob": "10546a87b8263fef487aea8f5ba072a8",
+          "name": "IIM_Bangalore_Logo (1).svg",
+          "sha256": "82d61adcb19dddba98a4bf556c96cdaba958ef621a9a8ff80a0567ca6ed5072c",
+          "size": 19021,
+          "type": "image/svg+xml"
+        },
+        "IIM_Calcutta_Logo.svg": {
+          "blob": "88565b8343e4afba80ddf17d73cf713d",
+          "name": "IIM_Calcutta_Logo.svg",
+          "sha256": "6559e360e72391a43c4ff6db4c341102b280c49f5b76d7910ff6b2d12dbe147a",
+          "size": 21602,
+          "type": "image/svg+xml"
+        },
+        "IIM_Indore_Logo.svg.png": {
+          "blob": "f06845565981daa43ced46dfc1af95ae",
+          "name": "IIM_Indore_Logo.svg.png",
+          "sha256": "7c7b35bfb131c4c690badfa2d064d815a82f730309fadc8ac88ee63e4fa9d5d3",
+          "size": 100117,
+          "type": "image/png"
+        },
+        "IIM_Kozhikode_Logo.svg.png": {
+          "blob": "ac018adff90048dcd743b1b1814bd580",
+          "name": "IIM_Kozhikode_Logo.svg.png",
+          "sha256": "bc917423580e4e504ca9c62ed4ca2819283ff4daf21e934016f5bff3a43f5a26",
+          "size": 182923,
+          "type": "image/png"
+        },
+        "IIM_Lucknow_Logo.svg.png": {
+          "blob": "2fde505daaa5f2021d192edadfdf5332",
+          "name": "IIM_Lucknow_Logo.svg.png",
+          "sha256": "e20e188ffa5073f63184123a057f6a86ff2eae75e835ef890fe8cf828b6f7058",
+          "size": 794006,
+          "type": "image/png"
+        },
+        "IIM~2c_Ahmedabad_Logo.svg": {
+          "blob": "92b96763d82f733129fdfe4237615a3f",
+          "name": "IIM,_Ahmedabad_Logo.svg",
+          "sha256": "af1cabb4fb29e98385c4b4c5581fb15277c9f7c4307ab8b5a766e86ac241dbbf",
+          "size": 25980,
+          "type": "image/svg+xml"
+        },
+        "INSEAD_Strapline_Logo.svg": {
+          "blob": "b584da6dd2cc7274ea362f879b9603a5",
+          "name": "INSEAD_Strapline_Logo.svg",
+          "sha256": "5b7e7ec781db4ebe16e7c779c915b6f37fc53ff31bcadd0303805b87c155c424",
+          "size": 13859,
+          "type": "image/svg+xml"
+        },
+        "Kearneypng.png": {
+          "blob": "b506f832026b725decae4e5c18a6c8ba",
+          "name": "Kearneypng.png",
+          "sha256": "776f07ec82c02407a9f76abae42119683f4902f644f398afb9a671e96bc4ef3e",
+          "size": 11751,
+          "type": "image/png"
+        },
+        "LSE_Logo.svg.png": {
+          "blob": "65fe3c2ec6f5f17a90b9c0bd2b22064c",
+          "name": "LSE_Logo.svg.png",
+          "sha256": "b8e4ede380135b4e95a26f88aedb4ec412339c5bef4c45ba2bf2ccbcf414285b",
+          "size": 2906,
+          "type": "image/png"
+        },
+        "Logo-Bain-and-Company.png": {
+          "blob": "59dca6958ab1175fee7ec11ef3cf2311",
+          "name": "Logo-Bain-and-Company.png",
+          "sha256": "871fd511025aef6435a9a8b2927e57048c59079cdbce18a5243ef0ad73401388",
+          "size": 11404,
+          "type": "image/png"
+        },
+        "Logo.webp": {
+          "blob": "1fe4a83f9c16a97d6bf5a316884bd116",
+          "name": "Logo.webp",
+          "sha256": "105f0d2497e89461264d1feff7b2d1eb43251ef6d6726579d473a115b38f4ac6",
+          "size": 11352,
+          "type": "image/webp"
+        },
+        "Logo_KkNtYcJHYE.webp": {
+          "blob": "679316bcc05c0a462014ad2fa04eebdd",
+          "name": "Logo_KkNtYcJHYE.webp",
+          "sha256": "cca6802442c68e63b6619388ed4869bd683e51a57b27a6e06c5d59d1713673bd",
+          "size": 146352,
+          "type": "image/webp"
+        },
+        "McKinsey_~26_Company-Logo.wine.svg": {
+          "blob": "da5a1b9e68bf0d28301207fc663c16f6",
+          "name": "McKinsey_&_Company-Logo.wine.svg",
+          "sha256": "ae2d4b0aaf0f77c412b783c7481ba5e4d3b943208cf39a4517972039a035e358",
+          "size": 5751,
+          "type": "image/svg+xml"
+        },
+        "Monitor_Deloitte_logo.png": {
+          "blob": "48e86fc3700ded41c6e541faa828894b",
+          "name": "Monitor_Deloitte_logo.png",
+          "sha256": "d8addee3375e4d5c5565a837540de74daf9c5b45cc6fb2611a32f9962cc1af0a",
+          "size": 208277,
+          "type": "image/png"
+        },
+        "Oliver-Wyman-Logo.png": {
+          "blob": "7cf12c2823e91190cae21af3bcc4786f",
+          "name": "Oliver-Wyman-Logo.png",
+          "sha256": "f140b2243bb5a7c425abc6be4abd6bc00839a07b4dc8ff4a94c1c49985d77316",
+          "size": 8423,
+          "type": "image/png"
+        },
+        "QueensLogo_colour.png": {
+          "blob": "d5959fa84a75ede41448197f78dd650d",
+          "name": "QueensLogo_colour.png",
+          "sha256": "0e6d59a4e21587a882cce5d3bd4887928c5517764ea272c8e07c149bb73a6936",
+          "size": 50261,
+          "type": "image/png"
+        },
+        "RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg": {
+          "blob": "e891cc408902cf197b5d14a8c2c168a0",
+          "name": "RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg",
+          "sha256": "011916d665654549a02b3416c35b385574889424b293e85068a6c928e00b4271",
+          "size": 195920,
+          "type": "image/jpeg"
+        },
+        "St._Xavier~27s_College~2c_Mumbai_crest.png": {
+          "blob": "e541fb58aaf5d8b3369609a804c4383f",
+          "name": "St._Xavier's_College,_Mumbai_crest.png",
+          "sha256": "1e21599958a8f23e9dfa5f4921d969fa97a79b1ceb46c57eae83f3c036f4d1e9",
+          "size": 112121,
+          "type": "image/png"
+        },
+        "Texas_A~26M_University_logo.svg.png": {
+          "blob": "48d27f9d51ee32c8d4bd080ba8f3a8dd",
+          "name": "Texas_A&M_University_logo.svg.png",
+          "sha256": "a05dc0f14da9a4167af5864fccc5da2c12ccc4bad44c0d620fc8688dd7fdff84",
+          "size": 17138,
+          "type": "image/png"
+        },
+        "XLRI~20~281~29.svg": {
+          "blob": "f273f9336fc00e1398dcfcb2edcae0f3",
+          "name": "XLRI (1).svg",
+          "sha256": "93d18ee5444791e04a5f815d2216387c3247c1807879e7c23739da1f03a384ee",
+          "size": 41049,
+          "type": "image/svg+xml"
+        },
+        "accenture-strategy-logo-2urgdjxcq4b5nq0w-2urgdjxcq4b5nq0w.png": {
+          "blob": "b63c5ed736b565165e370407536c55cf",
+          "name": "accenture-strategy-logo-2urgdjxcq4b5nq0w-2urgdjxcq4b5nq0w.png",
+          "sha256": "d709337e456adbbacc056861e3b2b36c84cfabadc0148f4dab2adea5cf346f42",
+          "size": 4565,
+          "type": "image/png"
+        },
+        "acuvon_logo.jpeg": {
+          "blob": "c9304c1c3cb50305ca93e3a2467b94db",
+          "name": "acuvon_logo.jpeg",
+          "sha256": "612a2990bd1e4685c3efdfc9cc482f82a4f01ac0e966a46f423a7266e5fed00f",
+          "size": 4558,
+          "type": "image/jpeg"
+        },
+        "download.png": {
+          "blob": "54f481fafa2da387fdc8a9742aa5f2df",
+          "name": "download.png",
+          "sha256": "686fe14682bc1f3062fa3fd868f6b1e2eb1b8d7a7dc008c0e20a351a5d2af2c4",
+          "size": 4976,
+          "type": "image/png"
+        },
+        "download~202.png": {
+          "blob": "f8444679e9aa4eb4db06be31bfa5827e",
+          "name": "download 2.png",
+          "sha256": "8bd95f4089b88f079d8577a8cc8e49f428d681638e7b0929412824257b00a742",
+          "size": 2447,
+          "type": "image/png"
+        },
+        "emblem_logo.png": {
+          "blob": "b03b9b0097b394969b2ec14416e2bf84",
+          "name": "emblem_logo.png",
+          "sha256": "77c15d3a858d7cbe428d5118e11d69f2518b5cc9a61a3be2dffb9607ffa24137",
+          "size": 117649,
+          "type": "image/png"
+        },
+        "iim-lucknow-logo.png": {
+          "blob": "976ac70b1c0b72f79e071b6383f15065",
+          "name": "iim-lucknow-logo.png",
+          "sha256": "5a637e289fc3ef817f7c23bc8804a8768179cf00ac1748536fe339d48f5764ed",
+          "size": 35612,
+          "type": "image/png"
+        },
+        "images.jpeg": {
+          "blob": "3be9b512b759507116078c1352f34876",
+          "name": "images.jpeg",
+          "sha256": "ed51cb525e1fb48cd7dc33388a8049ae11c29f3303f3fb1a1812f1ce427c5720",
+          "size": 6351,
+          "type": "image/jpeg"
+        },
+        "images.png": {
+          "blob": "1846c7424890871dec1d88b2a5424008",
+          "name": "images.png",
+          "sha256": "1b5230a55d3528cbb970ffaf6f0320dcb9b7fab2ae9cebc94797c0549803c206",
+          "size": 7232,
+          "type": "image/png"
+        },
+        "images~20~281~29.png": {
+          "blob": "02250544dd3c904e91ca012b70a2de70",
+          "name": "images (1).png",
+          "sha256": "57973a1b3d5ba898023b2132814f9ce537eb526b1fbf0a99ead42af13f8591c3",
+          "size": 2717,
+          "type": "image/png"
+        },
+        "logo_icai.png": {
+          "blob": "8eb2c2f5af9c23f370f3796c69211b1f",
+          "name": "logo_icai.png",
+          "sha256": "5b40a31025cfec0dfbc9a127f15226749a0954da099cc9523c98e536d0b96a30",
+          "size": 139868,
+          "type": "image/png"
+        },
+        "mca_300x300_featured.png": {
+          "blob": "e6ee130ebe967c10ae38331543206131",
+          "name": "mca_300x300_featured.png",
+          "sha256": "3ca2fce926e628ccac167dd18d1f3aef663ccf97bd0510bd27060f352abf1e32",
+          "size": 6452,
+          "type": "image/png"
+        },
+        "picus_capital_logo.jpeg": {
+          "blob": "01f8202e359a512452d9db715568c13f",
+          "name": "picus_capital_logo.jpeg",
+          "sha256": "21021cecf9f0bf60820ab06f9e413839eb951238f53ff14e4036fd9c3871951f",
+          "size": 2927,
+          "type": "image/jpeg"
+        },
+        "shield-logo.svg": {
+          "blob": "f273f9336fc00e1398dcfcb2edcae0f3",
+          "name": "shield-logo.svg",
+          "sha256": "93d18ee5444791e04a5f815d2216387c3247c1807879e7c23739da1f03a384ee",
+          "size": 41049,
+          "type": "image/svg+xml"
+        },
+        "ycp-solidiance-spotlight-2024-10-15-081545272.png": {
+          "blob": "e1f9e5d9e0f19c6de8c7ec805dd6cc83",
+          "name": "ycp-solidiance-spotlight-2024-10-15-081545272.png",
+          "sha256": "0e5383bed1bcb99b95670f4b4fa1cf6326bdafc0724500d42672ad323a961709",
+          "size": 68145,
+          "type": "image/png"
+        }
+      },
+      "name": "Company and College Logos",
+      "order": []
+    },
+    "Imagery": {
+      "files": {
+        "brochure-mockup.jpg": {
+          "blob": "e5fa7dd6f2d665a0281004e5b2227977",
+          "name": "brochure-mockup.jpg",
+          "size": 144628,
+          "type": "image/jpeg"
+        },
+        "business-card-mockup.jpg": {
+          "blob": "bdbf065684ecf88682f2a1e374d7b88b",
+          "name": "business-card-mockup.jpg",
+          "size": 430220,
+          "type": "image/jpeg"
+        },
+        "letterhead-mockup.jpg": {
+          "blob": "ea6573d2240a68b1faefcffd54ab8f1b",
+          "name": "letterhead-mockup.jpg",
+          "size": 272934,
+          "type": "image/jpeg"
+        },
+        "signage-mockup.jpg": {
+          "blob": "17dff2c853118bbfd5a3097c4b0cb7cf",
+          "name": "signage-mockup.jpg",
+          "size": 114523,
+          "type": "image/jpeg"
+        }
+      },
+      "name": "Imagery",
+      "order": [
+        "signage-mockup.jpg",
+        "business-card-mockup.jpg",
+        "brochure-mockup.jpg",
+        "letterhead-mockup.jpg"
+      ],
+      "tile": "l"
+    },
+    "Industry~20Primers": {
+      "files": {
+        "Airports.pdf": {
+          "blob": "54b45cab7cd9182f3b09b56a742f4f7a",
+          "name": "Airports.pdf",
+          "sha256": "7079d177feb2fe3ceb8d2ec8eef75634f9a9cfdf868ff93fa1d10d53abfe2a0d",
+          "size": 2262900,
+          "type": "application/pdf"
+        },
+        "Alcoholic~20Beverages.pdf": {
+          "blob": "93e00e063de38129ace4304d06d91277",
+          "name": "Alcoholic Beverages.pdf",
+          "sha256": "6fc7e4054c91fb44ae332c5db72a3cabb041ed1e4751a56b0ddc9ac83b952a87",
+          "size": 2348076,
+          "type": "application/pdf"
+        },
+        "Aluminium~20and~20Non-Ferrous.pdf": {
+          "blob": "8237771e16903876bc3d94ea83ae9e59",
+          "name": "Aluminium and Non-Ferrous.pdf",
+          "sha256": "288b0e492dd95d36e7e40b3001d6d925c728552b52137b9e299cd844062a1bb8",
+          "size": 2305929,
+          "type": "application/pdf"
+        },
+        "Asset~20Management.pdf": {
+          "blob": "dfa4eaad78b4440f2e32304fd6c7144e",
+          "name": "Asset Management.pdf",
+          "sha256": "f9221d3ba8a32cb03b6f84a3d03a0de61ca8446a41b39cd19ae457b1244d15fe",
+          "size": 2341526,
+          "type": "application/pdf"
+        },
+        "Capital~20Goods~20and~20EPC.pdf": {
+          "blob": "41fcd690d7c5d0383e920394b2677a5a",
+          "name": "Capital Goods and EPC.pdf",
+          "sha256": "e0dab68f402cbc6d4c034cc22d8fd525e122b34a41d31b64d28bb14e28e8cc95",
+          "size": 2294702,
+          "type": "application/pdf"
+        },
+        "Cement.pdf": {
+          "blob": "bf162887b5a3e38b597f7492db01050a",
+          "name": "Cement.pdf",
+          "sha256": "3a6221bc4ff7e17db05c4ae7bc8163ae0ee4b750d8e1d7bf620420e5bfd4c501",
+          "size": 1999069,
+          "type": "application/pdf"
+        },
+        "Data~20Centres.pdf": {
+          "blob": "6a8f141f930f8556c788f905bf83d782",
+          "name": "Data Centres.pdf",
+          "sha256": "4d6683a14682558e18000b4b021f0748f2f47e0fbfce3399d0d36f9a9939e3cb",
+          "size": 2259138,
+          "type": "application/pdf"
+        },
+        "Diagnostics.pdf": {
+          "blob": "e05ddadec35ac4491eb7cee281e60e43",
+          "name": "Diagnostics.pdf",
+          "sha256": "8bc16e6dceadb5733712a3320ae759c43c693058a1e37e03a8bdfcd3c31a23b1",
+          "size": 2270563,
+          "type": "application/pdf"
+        },
+        "Edtech.pdf": {
+          "blob": "f4a7ec412249e91137827b8e07489bde",
+          "name": "Edtech.pdf",
+          "sha256": "66bdc220afb77eaa7ee0015a2b2a047faf5fc999bc753db7b10fa7d6a60a1d32",
+          "size": 2144626,
+          "type": "application/pdf"
+        },
+        "Electronics~20Manufacturing.pdf": {
+          "blob": "24b541efc1c6d5abd06c0e5ffc412a76",
+          "name": "Electronics Manufacturing.pdf",
+          "sha256": "87e0ef7574fc9e7b8bae7e408332a7df4e9e435deda5cc8851cc1cd35474a155",
+          "size": 2269613,
+          "type": "application/pdf"
+        },
+        "FMCG.pdf": {
+          "blob": "1ab77efd9279b8c5a2850c621091d4af",
+          "name": "FMCG.pdf",
+          "sha256": "f5a5edd2ed3587befa1c617661a42da429831627b47f12f06a1033e1fd18daae",
+          "size": 2238103,
+          "type": "application/pdf"
+        },
+        "Fintech~20Foundations~20-~20Volume~204~20-~20Wealthtech~20and~20Broking.pdf": {
+          "blob": "60c198c109fc335744ec0592c19d0261",
+          "name": "Fintech Foundations - Volume 4 - Wealthtech and Broking.pdf",
+          "sha256": "c2080a21cc15b264193130c90cc831687b3bb5ecf9b2fe4339c8a20a8e3a172e",
+          "size": 2142979,
+          "type": "application/pdf"
+        },
+        "Fintech~20Foundations~20-~20Volume~205~20-~20Insurtech.pdf": {
+          "blob": "170a07b1f87f609edba22ac163e53087",
+          "name": "Fintech Foundations - Volume 5 - Insurtech.pdf",
+          "sha256": "291a65d9be42071afe00064bf2996ab63f82d4c5a85a4afa350e5786522e603d",
+          "size": 2148727,
+          "type": "application/pdf"
+        },
+        "Food~20Delivery.pdf": {
+          "blob": "bf46f70dfedaec8b5fe7913899bed763",
+          "name": "Food Delivery.pdf",
+          "sha256": "f4c7851fe43e876f2a2deefbb5918f4c72996a5bd2a824996e8227b5346ad902",
+          "size": 2294895,
+          "type": "application/pdf"
+        },
+        "Hospitals.pdf": {
+          "blob": "71601e9a99169b82fda988704cbb81d7",
+          "name": "Hospitals.pdf",
+          "sha256": "bc4d6a265569b8df2fa0e9187a9ba9e8aa26f00e5aa2a0ee2a6855c7e22d78ae",
+          "size": 2125827,
+          "type": "application/pdf"
+        },
+        "Hotels~20~26~20Travel.pdf": {
+          "blob": "c51d1a762a37196b33290eed2c9ca0c8",
+          "name": "Hotels & Travel.pdf",
+          "sha256": "393f334a10c8ed99e8c8e2429e53389c42e3d0115421fa8f9121ebcf77a6e7ba",
+          "size": 2433810,
+          "type": "application/pdf"
+        },
+        "IT~20Services.pdf": {
+          "blob": "461a6031e019a653c8d1b9ff2889c7cd",
+          "name": "IT Services.pdf",
+          "sha256": "95cb1b87bf1d6618935a46df373fa457d50af15304b81bf15579b6a9c1b24bcf",
+          "size": 1972977,
+          "type": "application/pdf"
+        },
+        "Logistics~20and~20Express.pdf": {
+          "blob": "3e6499d7f421eff9465e9002657d5367",
+          "name": "Logistics and Express.pdf",
+          "sha256": "0a48f364681ccaecd5e3d1f985aaf3d73b54f6e59acb6fc3a007f173d7c01106",
+          "size": 2271643,
+          "type": "application/pdf"
+        },
+        "Media~20and~20OTT.pdf": {
+          "blob": "c4a9f289f35a8e77771dffb3cd520db9",
+          "name": "Media and OTT.pdf",
+          "sha256": "641a303a9efd3624c0ebc973d85a7a75e15e5677fba1e1da7476670530d412c1",
+          "size": 2282949,
+          "type": "application/pdf"
+        },
+        "Paints.pdf": {
+          "blob": "4240eed80fc881a952ffe2e096c61370",
+          "name": "Paints.pdf",
+          "sha256": "87e5a0a88e490535705cf2aed1412a107af1d508bc3619248af0c33ed6e6929f",
+          "size": 2282119,
+          "type": "application/pdf"
+        },
+        "Pharmaceuticals.pdf": {
+          "blob": "ae3f59241e28e29896df8797d432ad44",
+          "name": "Pharmaceuticals.pdf",
+          "sha256": "e78e5f8d749ce658b19f7dfc73108ce1a0ab033e26106ccebfdd9ab0f2bf8f57",
+          "size": 2071767,
+          "type": "application/pdf"
+        }
+      },
+      "name": "Industry Primers",
+      "order": []
+    },
+    "Logos": {
+      "files": {
+        "gradnext-wordmark-midnight.svg": {
+          "blob": "8f218f175b2623a564ec2ab4d28950f3",
+          "name": "gradnext-wordmark-midnight.svg",
+          "size": 5812,
+          "type": "image/svg+xml"
+        },
+        "gradnext-wordmark-rhino.svg": {
+          "blob": "7ed000aebeb804805c72caff9a2d8067",
+          "name": "gradnext-wordmark-rhino.svg",
+          "size": 5812,
+          "type": "image/svg+xml"
+        },
+        "gradnext-wordmark-white.svg": {
+          "blob": "17c232b866715462af4a863896c94b41",
+          "name": "gradnext-wordmark-white.svg",
+          "size": 5812,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "gradnext-wordmark-rhino.svg",
+        "gradnext-wordmark-white.svg",
+        "gradnext-wordmark-midnight.svg"
+      ],
+      "tile": "l"
+    },
+    "Logos_Original": {
+      "files": {
+        "Gradnext~20logo~20-~20Blue~20~282~29.png": {
+          "blob": "feae3de566afc2a43797a22e91cee69e",
+          "name": "Gradnext logo - Blue (2).png",
+          "sha256": "52a9161f68e7ef39294874421b0ebaf6a84a3b2021ecc8fbdb8e5d745a9e6179",
+          "size": 153747,
+          "type": "image/png"
+        },
+        "Gradnext~20logo~20-~20White.png": {
+          "blob": "8229300f3f94524cf0a20595a72e50b7",
+          "name": "Gradnext logo - White.png",
+          "sha256": "cf2979fe96ff24953cebbbd9588cff7c558d9cc2dd6a329ff8043fc2ee5211a6",
+          "size": 140560,
+          "type": "image/png"
+        },
+        "Profile~20picture~20Blue.jpg": {
+          "blob": "8d9b816fbbe82549fbfd34554ce60950",
+          "name": "Profile picture Blue.jpg",
+          "sha256": "942e884d19c2fbef0429fb093e5741eaad4f2052bc098e5560d327f0c1599cad",
+          "size": 155402,
+          "type": "image/jpeg"
+        },
+        "Profile~20picture~20White.jpg": {
+          "blob": "5851978461b49e423a2f7d606083455c",
+          "name": "Profile picture White.jpg",
+          "sha256": "b2eec5b31d00df2b86709e1453dcbc96ea7491c3c4dfd034ccc4e71d422914bc",
+          "size": 156164,
+          "type": "image/jpeg"
+        },
+        "Website~20icon~20Blue.jpg": {
+          "blob": "2f056cebf87f85d68acf5052eedff459",
+          "name": "Website icon Blue.jpg",
+          "sha256": "29412d173898437b4d9e1951c344d76b2ac7435da01c1562e5c741cb657abbf9",
+          "size": 130605,
+          "type": "image/jpeg"
+        },
+        "Website~20icon~20White.jpg": {
+          "blob": "c52b909e35c5d617b97b1d2fd5a819b6",
+          "name": "Website icon White.jpg",
+          "sha256": "7526f8a4a9d740b98134a3b328235dfd3c6cfa464c7dca4f98a6d9217269bde2",
+          "size": 131009,
+          "type": "image/jpeg"
+        },
+        "White~20logo~20on~20blue~20box.png": {
+          "blob": "a73321aec1ad73da7ec94f809b038bb7",
+          "name": "White logo on blue box.png",
+          "sha256": "aa9f790c2a7b71551e0c8b151e826486bfeac9f635d5c8c14a82dfbf66bae595",
+          "size": 139353,
+          "type": "image/png"
+        }
+      },
+      "name": "Logos_Original",
+      "order": []
+    },
+    "Motifs": {
+      "files": {
+        "g-outline-motif.svg": {
+          "blob": "af978313e0af69f50dfdfb9edf1c6870",
+          "name": "g-outline-motif.svg",
+          "size": 4971,
+          "type": "image/svg+xml"
+        },
+        "stripe-motif-chrome-yellow.svg": {
+          "blob": "d04ef04207bd1c4a44b9b6fd12ad612d",
+          "name": "stripe-motif-chrome-yellow.svg",
+          "size": 1321,
+          "type": "image/svg+xml"
+        },
+        "stripe-motif-periwinkle.svg": {
+          "blob": "da6a9ffe325fc6c738656933788a3929",
+          "name": "stripe-motif-periwinkle.svg",
+          "size": 1321,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Motifs",
+      "order": [
+        "stripe-motif-chrome-yellow.svg",
+        "stripe-motif-periwinkle.svg",
+        "g-outline-motif.svg"
+      ]
+    },
+    "Presentations": {
+      "files": {},
+      "name": "Presentations",
+      "order": []
+    },
+    "Thumbnails": {
+      "files": {
+        "Automobile~20Case.png": {
+          "blob": "1f2c82c8629e6b23dd990c1ee3ba528d",
+          "name": "Automobile Case.png",
+          "sha256": "3df9629f06b9049a54acfe38f7108a49e9817ac6696236f6130bf3bd1c4848e0",
+          "size": 1007721,
+          "type": "image/png"
+        }
+      },
+      "name": "Thumbnails",
+      "order": []
+    },
+    "Thumbnail~20Mock~20Case~20Interview": {
+      "files": {
+        "Copy~20of~20Kokoa.png": {
+          "blob": "6b79e4e4f45fe734b1da7e627dd6332c",
+          "name": "Copy of Kokoa.png",
+          "sha256": "b6ffde7ca37e3cd8cb33180de6be91d055d45c867a53873fb8c72413d3069cfc",
+          "size": 1611908,
+          "type": "image/png"
+        }
+      },
+      "name": "Thumbnail Mock Case Interview",
+      "order": []
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-01T09:30:00Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [
+    "Logos",
+    "Motifs",
+    "Imagery",
+    "Logos_Original",
+    "Industry~20Primers",
+    "Presentations",
+    "Company~20and~20College~20Logos",
+    "Thumbnail~20Mock~20Case~20Interview",
+    "Thumbnails"
+  ],
+  "lastChange": {
+    "at": "2026-10-01T09:30:00Z",
+    "by": "Kashish",
+    "note": "Built from gradnext Brand Guidelines 2026 (PDF)",
+    "via": "Claude (Cowork)"
+  },
+  "layout": "files",
+  "libraries": [
+    {
+      "global": "React",
+      "name": "react",
+      "version": "18"
+    },
+    {
+      "global": "ReactDOM",
+      "name": "react-dom",
+      "version": "18"
+    }
+  ],
+  "namespace": "Gradnext",
+  "sections": {},
+  "title": "gradnext"
+}

@@ -1,0 +1,28 @@
+
+## vid-8 (Nike's decline; green tee)
+- v8 | 5.8 | broll-text | B&W Bollywood meme face
+- v8 | 6.9–10.5 | fs-object | white bg, pixel Nike Dunk on ramp w/ gold price tag "90s", green banner "Baji Sale"; shopping-basket wire frame full of items; huge black italic "BEST THING EVER" behind (letters reveal word by word)
+- v8 | 14.8 | broll-text | B&W film crowd clip
+- v8 | 19–24 | fs-object | traffic light (pixel Nike logo) lights change; coloured bars "Stopped / have / might" with body text lines "loving its customer back with the same intensity." (white/red/yellow/green strips)
+- v8 | 26–30 | fs-object | poker table (dark red) with falling pixel chips and green card "$200 BILLION in market value" Nike logo
+- v8 | 33.5–36 | fs-data | Fortune article blur->sharp, headline highlighted blue
+- v8 | 37.5–40 | fs-object | green chairs on dark red floor, "VIP ROOM that contains some of America's biggest brands"
+- v8 | 41.8–48 | fs-data | dark-mode article with Nike board photo + red chart, highlight bars
+- v8 | 50–54.5 | broll-text | sneaker product footage cuts
+- v8 | 55–57 | fs-object | white grid-paper bg, sneaker pixel cut-outs drop in w/ green labels (AIR JORDAN, AIR MAX), keychain shoe at bottom; also DUNKS/JORDANS/AIR FORCE at 65–67.5
+- v8 | 64 | broll-text | B&W bearded man praying meme (blur)
+- v8 | 69.5–71.6 | broll-text | B&W face meme
+- v8 | 72–79.7 | broll-text | running shoe footage (HOKA, On, adidas), marathon crowd
+- v8 | 83–87 | fs-object | pixel Adidas Gazelle/Samba on green/yellow tall rectangles (rect slides up), label text; then "Old-school Football Shoes" w/ legs cut-out
+- v8 | 88.7–94 | fs-object | dark red table, chips, "Nike was Betting Heavily on selling through its own" (white bold), 3 green cards w/ icons
+- v8 | 99–103 | broll-text | shoe product footage cuts
+- v8 | 107–109.5 | fs-object | pixel Nike running shoe on track; "The sport the company was literally Born From"
+- v8 | 112 | broll-text | colour unboxing orange shoes
+- v8 | 115–118.5 | fs-data | dark article w/ stat "25.9% → 22.9%" + bar chart; highlight line
+- v8 | 119 | broll-text | B&W CID-style meme face
+- v8 | 120.8–125 | fs-object | greyscale bobblehead Nike CEO on Jordan shoes; "NIKE Replaced its CEO back in 2024" (huge black bold)
+- v8 | 128.3–133.2 | fs-data | Reuters article + store photo, blur->sharp highlight
+- v8 | 136.9–139 | fs-data | Statista bar chart "The World's Most Popular Sneaker Brands" blue highlight
+- v8 | 141.4–146.5 | fs-object | her greyscale cut-out (red hair) on pixel Jordan shoes w/ hearts; "NIKE became so comfortable with that love" ; "Kuch tw naya bana lai Bhai" (bold word)
+- v8 | 148.7 | broll-text | B&W crying meme
+- v8 | other | captions | A-roll caption top

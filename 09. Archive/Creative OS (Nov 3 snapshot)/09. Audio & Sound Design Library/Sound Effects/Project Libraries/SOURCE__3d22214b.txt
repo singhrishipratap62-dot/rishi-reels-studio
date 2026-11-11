@@ -1,0 +1,1 @@
+SFX library: 48 kHz WAV copies of Minimal Edit Style/sfx (user-supplied). drop-short = drop.wav, first 1.6 s, 0.7 s fade-out.

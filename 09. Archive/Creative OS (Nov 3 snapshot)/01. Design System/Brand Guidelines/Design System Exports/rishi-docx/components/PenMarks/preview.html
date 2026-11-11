@@ -1,0 +1,24 @@
+<!-- @dsCard group="Pen" height=560 width=1080 subtitle="Underline, circle, arrow, strike, tick" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Pen marks</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;box-sizing:border-box;padding:64px;overflow:hidden}
+.grid{position:absolute;left:0;top:0;width:1080px;pointer-events:none}
+.grid line{stroke:var(--line);stroke-width:var(--stroke-hair)}
+.lab{font-size:32px;font-weight:500;letter-spacing:.04em;color:var(--ink-muted);margin:0}
+.cap{font-size:32px;line-height:1.3;color:var(--ink-muted);margin:0}
+.pen{fill:none;stroke:var(--signal);stroke-width:var(--stroke-pen);stroke-linecap:round;stroke-linejoin:round}
+.it{font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit}
+.sig{color:var(--signal)}
+@keyframes up{0%,4%{opacity:0;transform:translateY(24px)}14%,88%{opacity:1;transform:none}96%,100%{opacity:0;transform:none}}
+.f{height:560px}.row{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;margin-top:48px;text-align:center}.cell{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);position:relative;height:300px;display:flex;align-items:center;justify-content:center;font-size:60px;font-weight:700;letter-spacing:-.025em}.cell svg{position:absolute;left:0;top:0;width:100%;height:100%;overflow:visible}.cell path{stroke-dasharray:1000;animation:dp 4s var(--ease-draw, cubic-bezier(0.45, 0, 0.2, 1)) infinite}.cell .lab{position:absolute;bottom:0;left:0;right:0}@keyframes dp{0%,10%{stroke-dashoffset:1000}24%,88%{stroke-dashoffset:0;opacity:1}96%,100%{stroke-dashoffset:0;opacity:0}}</style></head>
+<body>
+<div class="f"><p class="lab">PEN · SIGNAL · STROKE-PEN · ONE STROKE, LAST</p><div class="row">
+<div class="cell"><span style="margin-bottom:40px">point</span><svg viewBox="0 0 170 300"><path class="pen" d="M14 168 C 60 160, 110 164, 158 158"/></svg><p class="lab">underline</p></div>
+<div class="cell"><span style="margin-bottom:40px">42%</span><svg viewBox="0 0 170 300"><path class="pen" d="M120 98 C 60 80, 6 110, 14 140 C 22 176, 140 184, 160 140 C 172 112, 130 92, 96 96"/></svg><p class="lab">circle</p></div>
+<div class="cell"><svg viewBox="0 0 170 300"><path class="pen" d="M20 190 C 60 160, 100 120, 146 92 M112 88 L 148 90 L 136 124"/></svg><p class="lab">arrow</p></div>
+<div class="cell"><span style="margin-bottom:40px;color:var(--ink-muted)">myth</span><svg viewBox="0 0 170 300"><path class="pen" d="M16 124 C 60 118, 110 116, 158 110"/></svg><p class="lab">strike</p></div>
+<div class="cell"><svg viewBox="0 0 170 300"><path class="pen" d="M36 128 L 70 166 L 140 70"/></svg><p class="lab">tick</p></div>
+</div></div>
+<script></script>
+</body></html>

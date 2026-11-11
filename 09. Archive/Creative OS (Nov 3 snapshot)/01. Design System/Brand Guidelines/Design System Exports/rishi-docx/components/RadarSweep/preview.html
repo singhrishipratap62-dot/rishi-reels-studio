@@ -1,0 +1,49 @@
+<!-- @dsCard group="Diagrams" height=1920 width=1080 subtitle="Something running and being watched: rings, nodes, a rotating sweep and a live readout" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Radar sweep</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:inherit;font-style:normal;font-weight:inherit}
+.f{background:var(--brand-ink);color:var(--brand-paper)}
+svg{position:absolute;left:0;top:0}
+.ring{fill:none;stroke:#f4f1ea33;stroke-width:2}
+.spoke{stroke:#f4f1ea33;stroke-width:2;stroke-dasharray:4 10}
+#sw{transform-origin:540px 860px;animation:spin 2.4s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.node rect{fill:var(--brand-paper)}.node path{fill:var(--brand-ink)}
+.node.hit rect{fill:var(--signal)}
+.tag{position:absolute;left:50%;top:330px;transform:translateX(-50%);background:var(--brand-paper);color:var(--brand-ink);font-size:32px;font-weight:600;letter-spacing:.12em;padding:12px 16px 10px;line-height:1}
+.read{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);position:absolute;left:250px;top:1290px;display:flex;align-items:center;gap:22px;font-size:60px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.025em}
+.read b{font-size:32px;letter-spacing:.12em;background:#f4f1ea33;padding:8px 12px 6px;line-height:1}
+.read i{font-style:normal;font-size:32px;color:var(--signal)}
+.cap{top:1460px;background:var(--brand-paper);color:var(--brand-ink)}
+</style></head>
+<body><div class="f">
+<div class="tag">SSH CONNECTIONS</div>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" id="s">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f4f1ea" stop-opacity="0"/><stop offset="1" stop-color="#f4f1ea" stop-opacity=".22"/></linearGradient></defs>
+<circle class="ring" cx="540" cy="860" r="90"/><circle class="ring" cx="540" cy="860" r="180"/><circle class="ring" cx="540" cy="860" r="270"/><circle class="ring" cx="540" cy="860" r="360"/>
+<path id="sw" d="M540 860 L540 500 A360 360 0 0 1 852 680 Z" fill="url(#g)"/>
+<g id="sp"></g><g id="nd"></g>
+<circle cx="540" cy="860" r="34" fill="var(--brand-ink)" stroke="var(--brand-paper)" stroke-width="3"/>
+<path d="M528 858 v-10 a12 12 0 0 1 24 0 v10 M524 858 h32 v22 h-32z" fill="none" stroke="var(--brand-paper)" stroke-width="4"/>
+</svg>
+<div class="read"><b>CPU</b><span id="v">2.1%</span><i id="d">+0.5 ms</i></div>
+<div class="cap" id="c">every connection</div></div>
+<script>
+var sp=document.getElementById('sp'),nd=document.getElementById('nd'),h1='',h2='';
+[-90,-18,54,126,198].forEach(function(a,i){var r=a*Math.PI/180,x=540+360*Math.cos(r),y=860+360*Math.sin(r);
+h1+='<line class="spoke" x1="540" y1="860" x2="'+x+'" y2="'+y+'"/>';
+h2+='<g class="node'+(i==3?' hit':'')+'" transform="translate('+(x-36)+','+(y-36)+')"><rect width="72" height="72" rx="8"/><circle cx="36" cy="28" r="12" fill="var(--brand-ink)"/><path d="M14 62 q22 -26 44 0z"/></g>'});
+sp.innerHTML=h1;nd.innerHTML=h2;
+var v=document.getElementById('v'),x=2.1;setInterval(function(){x=Math.min(2.9,Math.max(2.0,x+(Math.random()-.35)*.2));v.textContent=x.toFixed(1)+'%'},400);
+</script></body></html>

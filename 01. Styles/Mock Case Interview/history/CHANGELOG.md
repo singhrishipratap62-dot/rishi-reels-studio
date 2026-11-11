@@ -1,0 +1,2 @@
+# CHANGELOG — mock-case-interview-edit
+- 2026-11-11 — Restructure (v1.1): SKILL.md is the only mandatory read (~3,800 words across 7 docs → ~1,600); M1–M23 + L1–L23 compiled into it; WORKFLOW/DESIGN_SYSTEM/SOUND_DESIGN/README → reference/; DECISIONS/LESSONS_LEARNED/SKILL v1.0 → history/; RULE_AUDIT.md, FEEDBACK_LOG.md added; model gate + learning loop + finalize_reel close-out added; "<seq> RAW" backup before the silence cut; paths moved to the new studio layout.

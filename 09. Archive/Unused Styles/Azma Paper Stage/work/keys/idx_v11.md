@@ -1,0 +1,32 @@
+
+## vid-11 (her career/CV story; cream tee, mostly text-and-avatar)
+- v11 | 1–3.4 | fs-object | green cutting mat flat-lay w/ pencil/scissors; "DIY PROJECT with sparkles and hidden compartments." (white bold on mat)
+- v11 | 4–6.1 | broll-text | B&W grey flag waving
+- v11 | 6.7–7.9 | broll-text | film clip (crowd) + white caption lower "STILL GOT ME A JOB" (JOB bold)
+- v11 | 9.2–11.3 | broll-text | B&W clip + subtitle "Buy some p..."
+- v11 | 12.8–15 | fs-object | her avatar in sky/clouds frame; "share this dream with My Parents" (bold on white)
+- v11 | 17.9, 21.3 | broll-text | B&W faces
+- v11 | 22.8–25 | fs-object | desk flat-lay + 4 coloured chat bubbles (Hinglish lines), coffee, pencil
+- v11 | 26.5–27.5 | broll-text | pixel-mosaic classroom clip
+- v11 | 30.5–31.5 | broll-text | B&W girl meme
+- v11 | 34.6–37.7 | fs-object | yellow floor, giant grey hands closing around her avatar; green speech bubble "Nahi bahot kharab hai"
+- v11 | 41.9–44 | broll-text | B&W actor clips
+- v11 | 47.6 | fs-object | her face cut-out (greyscale + red hair) w/ star + flower stickers on white
+- v11 | 52.2 | broll-text | B&W meme + caption "CEO BE LIKE: NAHI BHAI ITNA BHI FUN NAHI THA" (bold lower-left)
+- v11 | 56.5 | broll-text | colour photo (woman in coat)
+- v11 | 59.3–60.3 | fs-object | avatar on stool w/ mic; gold speech bubble; mic stand
+- v11 | 63–65 | broll-text | B&W film cuts
+- v11 | 70.3–71.8 | fs-object | red laptop on yellow floor; search box "I'm not professional" w/ cursor; "jahaan pe what Professional meant"
+- v11 | 77.6–80 | fs-object | green rotary phone ringing w/ sparks; "call from a recruiter for a Comms Role"
+- v11 | 81–83 | broll-text | B&W portrait w/ name lower-third "HYDER BILGRAMI — GREAT GUY AND COMMS EXPERT" (white bold + grey caps)
+- v11 | 90.9 | broll-text | B&W film + "HOW I VIEWED MYSELF PROFESSIONALLY." (second word bold)
+- v11 | 97.8–98.8 | fs-object | brick wall being built by grey hand; "But because he gave me the Foundation"
+- v11 | 100.5 | broll-text | B&W corgi meme
+- v11 | 106.9–110.3 | fs-data | Instagram profile + comments UI mock-ups dark mode (@asmaijazkhann), zoom/scroll
+- v11 | 113.9–115 | broll-text | B&W office clip + caption "FAAA..." white
+- v11 | 117.2 | broll-text | B&W film face
+- v11 | 118.9–120 | fs-object | avatar at green desk w/ laptop, tripod camera; "A Stable Job"
+- v11 | 121–122.8 | broll-text | B&W faces meme
+- v11 | 127.3–129.3 | fs-object | her face cut-out w/ flower + sparkles; "So, moral of the story kids"
+- v11 | 132–135 | broll-text | B&W clips (dark, Mario-like figurine)
+- v11 | other | captions | A-roll caption top

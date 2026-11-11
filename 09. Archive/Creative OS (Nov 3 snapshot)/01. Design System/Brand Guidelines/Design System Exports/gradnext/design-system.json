@@ -1,0 +1,94 @@
+{
+ "v": 3,
+ "assetGroups": {
+  "Company~20and~20College~20Logos": {
+   "files": {},
+   "name": "Company and College Logos",
+   "order": []
+  },
+  "Imagery": {
+   "files": {},
+   "name": "Imagery",
+   "order": [],
+   "tile": "l"
+  },
+  "Industry~20Primers": {
+   "files": {},
+   "name": "Industry Primers",
+   "order": []
+  },
+  "Logos": {
+   "files": {},
+   "name": "Logos",
+   "order": [],
+   "tile": "l"
+  },
+  "Logos_Original": {
+   "files": {},
+   "name": "Logos_Original",
+   "order": []
+  },
+  "Motifs": {
+   "files": {},
+   "name": "Motifs",
+   "order": []
+  },
+  "Presentations": {
+   "files": {},
+   "name": "Presentations",
+   "order": []
+  },
+  "Thumbnails": {
+   "files": {},
+   "name": "Thumbnails",
+   "order": []
+  },
+  "Thumbnail~20Mock~20Case~20Interview": {
+   "files": {},
+   "name": "Thumbnail Mock Case Interview",
+   "order": []
+  }
+ },
+ "blobs": {},
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-02T19:18:01Z"
+ },
+ "docs": {
+  "readme": "project/README.md",
+  "sections": []
+ },
+ "groups": [
+  "Logos",
+  "Motifs",
+  "Imagery",
+  "Logos_Original",
+  "Industry~20Primers",
+  "Presentations",
+  "Company~20and~20College~20Logos",
+  "Thumbnail~20Mock~20Case~20Interview",
+  "Thumbnails"
+ ],
+ "lastChange": {
+  "by": "Rishi",
+  "at": "2026-11-02T19:18:01Z",
+  "via": "Claude (Cowork)",
+  "note": "Copied from the shared gradnext design system"
+ },
+ "layout": "files",
+ "libraries": [
+  {
+   "global": "React",
+   "name": "react",
+   "version": "18"
+  },
+  {
+   "global": "ReactDOM",
+   "name": "react-dom",
+   "version": "18"
+  }
+ ],
+ "namespace": "Gradnext",
+ "sections": {},
+ "title": "gradnext"
+}

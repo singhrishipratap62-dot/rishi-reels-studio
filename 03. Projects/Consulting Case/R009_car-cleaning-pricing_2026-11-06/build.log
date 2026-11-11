@@ -1,0 +1,40 @@
+=== events 02:17:54
+=== sound pass 02:17:55
+71 cues kept (93 raw). Program -15.0 LUFS, TP -1.4, LRA 2.7
+Counter({'Modern_technology_pop': 41, 'Pop_different-': 12, 'Hi-Tech_Click_': 5, 'Highlighter': 4, 'Mouse_click_different-': 4, 'Woosh': 2, 'Riser_+_Tick': 2, 'Swoosh': 1})
+=== compose 1x 02:18:03
+chunk 3830-4230 ok
+chunk 4230-4630 ok
+chunk 4630-5030 ok
+frame 5100
+chunk 5030-5149 ok
+frame 0
+s2zoom: 79 frames, 1.10 -> 1.00, sine in-out
+export duration: 171.807333 s
+=== speed + music 02:26:14
+speed 1.2x: 143.176367 s (1x: 171.807333 s)
+voice -17.1 dB RMS, music under speech -30.1 -> 13.0 dB under voice; duck depth (vs undocked, after calibration) median 3.2 dB, max 5.2 dB
+=== green 02:29:14
+green export: 171.807333 s
+=== raw 1080 02:30:51
+=== QC 1.2x final 02:34:46
+[PASS] 1080x1920 @ 29.97, H.264 High  — 1080x1920 30000/1001 High
+[PASS] audio present  — aac
+[PASS] video and audio same length (±2 frames)  — video 143.18s, audio 143.17s
+[PASS] duration = last word end + 0.2–0.6 s  — dur 143.18s, last word end 142.74
+[PASS] no black (blackdetect d=0.2)  — []
+[PASS] no gap >0.35 s inside speech (-45 dB)  — []
+[PASS] scene cuts only at S1→S2 and S2→S3  — [4.2, 6.41] expected [4.20, 6.40]
+[PASS] caption inside x 100–980 (one line)  — []
+[PASS] caption OCR readable on >=85% of samples  — 94%
+[PASS] end card shows Part 44 + Follow for Part 45  — Solving real consultant cases / Part 44 / Follow for Part 45
+[PASS] no "gradnext" on end card (R1.9)
+[PASS] blur-in: panel blurred at 0 s, sharp by 1.0 s  — sharpness 0.05s 0.0019 · 1.0s 0.0375 · 3.0s 0.0400
+[PASS] loudness -15 LUFS ±1, true peak <= -1 dBTP  — -15.1 LUFS, TP -1.7
+face freezes >=1s: 0
+R009_car-cleaning-pricing_2026-11-06.mp4: 1080,1920,4291  93M
+R009_car-cleaning-pricing_2026-11-06_1x.mp4: 1080,1920,5149 119M
+R009_car-cleaning-pricing_2026-11-06_green.mp4: 1080,1920,5149  26M
+R009_car-cleaning-pricing_2026-11-06_raw.mp4: 1080,1920,5149 223M
+/dev/disk3s1s1   228Gi    12Gi   4.1Gi    75%    458k   43M    1%   /
+ALL DONE 02:35:55

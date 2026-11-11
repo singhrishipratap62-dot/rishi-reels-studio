@@ -1,0 +1,32 @@
+
+## vid-4 (Meta smart-glasses privacy; yellow tee, black cushion)
+- v4 | 2.9–4.5 | fs-object | greyscale/teal ink illustration (whisper in ear), bold word "Gossip" (teal) + small "complain about", words swap word-by-word
+- v4 | 8–11 | fs-object | white bg, illustrated guy w/ yellow shades; CCTV-style photo frames pop in around head; "and created a Highlight" (grey lead-in, bold word)
+- v4 | 11.5 | camera | A-roll goes greyscale/blur with white caption "Congratulations" mid-frame
+- v4 | 12.5–13.5 | broll-text | B&W Shaun-the-sheep meme clip
+- v4 | 17–18 | fs-object | white bg, red gradient card sliding in with "Today's Story" text, corner lines
+- v4 | 22.7–29 | fs-data | dark-mode news site screenshot (404 Media headline), blue highlight sweeps line by line, yellow illustration card
+- v4 | 31 | broll-text | B&W face meme + bold white caption "SO WEIRD AND UNNECESSARY" (2nd word bold)
+- v4 | 35.2 | broll-text | greyscale portrait with network-graph overlay
+- v4 | 42.7–46 | fs-data | article screenshot (dox people), blurred->sharp, blue highlight, tweet embed
+- v4 | 47.8–48.5 | broll-text | B&W cartoon abstract
+- v4 | 53.3–55.3 | fs-object | illustrated guy from behind, pixelated red hoodie, gold info card (name/age/phone) pops on back
+- v4 | 56, 64–66 | broll-text | B&W film-face meme cuts
+- v4 | 60.3–62.6 | fs-data | The Verge article dark theme, highlight bar, title word big grey ghost "The Verge"
+- v4 | 70.5–72.5 | fs-object | white bg, desk + glasses, hand picks glasses; "content captured through" (grey lead-in + bold ghost word)
+- v4 | 76.6 | broll-text | B&W driver footage w/ glitch
+- v4 | 80–85 | fs-data | TechCrunch article screenshot, highlight on sentence
+- v4 | 91 | broll-text | B&W meme
+- v4 | 95.9–99 | fs-object | green silhouette detective with magnifier; "March 2026" (grey lead + bold year)
+- v4 | 101–103.5 | fs-object | greyscale cut-out man fading into green block w/ text "reviewing the footage of Meta glasses", logo bottom
+- v4 | 105.4 | broll-text | B&W film close-up
+- v4 | 105.9–109 | fs-object | pixel-illustrated guy changing jacket; "people changing Clothes" (gold highlight word) ; teacup + receipt "intimate Moments"
+- v4 | 117–121 | fs-data | article, blurred->sharp, highlight sentence; photo of man with glasses
+- v4 | 123.6–125.2 | broll-text | B&W Tom & Jerry cartoon w/ pixel blocks
+- v4 | 128–131 | fs-object | 3D glasses/device closeup on white with yellow beam; "it detected physical tampering"
+- v4 | 134.5–135 | broll-text | B&W CCTV door clip
+- v4 | 137–142.3 | broll-text | colour street/vlog/ store clips (Times Square etc.) real footage cuts
+- v4 | 146–149 | fs-object | white bg: folders flying (yellow/pink/green) + magnifier over word "some online / Still found some content"
+- v4 | 150.7–159 | fs-data | newspaper site screenshots (Guardian-like), blur->sharp; headline "Big Brother is watching..." zoom
+- v4 | 162.6–166 | fs-data | glasses frame closeup w/ WhatsApp notification card "Khayyam • 5 min ... Worth all of this?" lens UI mock-up
+- v4 | other | captions | A-roll with top caption

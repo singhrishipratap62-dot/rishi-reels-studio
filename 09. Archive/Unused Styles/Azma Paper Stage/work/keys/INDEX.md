@@ -1,0 +1,413 @@
+# keys/INDEX.md — first-pass sort (A5). One row per segment: vid | time (s) | scene type | note
+Scene types: captions, hook, chapter-ui, onscreen-pop, half-screen, fs-text, fs-object, fs-data, broll-text, camera, other.
+Common A-roll look: speaker centre-frame, tiny white sans caption (Poppins-like) top-centre ~3 words, caption fades in/out per phrase. Cutaways often open with A-roll blurred then focus-pull sharp.
+
+## vid-1 (talking head, woman w/ red curly hair, microphone prop; storytelling/intro)
+- v1 | 0–5 | hook+captions | A-roll, tiny white caption top-centre, no big graphic in first 5 s
+- v1 | 5.9–20.8 | fs-object | folder-tab stack (MUA/Designer/Stylist/Writer/Artist, glossy 3D tabs, cursor clicks) slides up from white; "Things that I wanted to do" bottom text; tab expands -> text line w/ bold word
+- v1 | 12.5–17 | captions | A-roll blurred-in then sharp, caption top
+- v1 | 24–25.5 | fs-object | yellow "Journaling" notebook on white, Naruto sticker, F1 car sticker, Pokeball; spiral rings animate in; big grey heading "Documenting my life as it" word-by-word
+- v1 | 28–30 | broll-text | B&W stock photo (kids reading by torchlight) full-screen, colour paper-tear reveal top
+- v1 | 31.8–33 | fs-object | white bg, cookie-hand cutout sliding in, small word "one" + yellow square
+- v1 | 35.3–38.3 | broll-text | B&W meme clip full-screen + bold white centred word DECEPTION (fade-in, word-by-word emphasis)
+- v1 | 41.5–45 | fs-object | white bg, Facebook profile card (blue window) + "My Stories" teal text, ring graphic
+- v1 | 56–57 | fs-object | B&W photos (BTS-like group, talk-show group) full-screen quick cuts
+- v1 | 62.8–68.4 | fs-object | 3D book cover "QUARTER LIFE CRISIS" swings in over white, shadow
+- v1 | 71–73.9 | broll-text | B&W meme baby clip full-screen
+- v1 | 77–81 | fs-object | cartoon cut-out avatar of her on easel board "PAISA HE PAISA" w/ ticked checklist (Marketing/Communication/Editorial/Tech), clips + money props, yellow floor
+- v1 | 81–86 | half-screen | podcast guest clips on top half, her clip bottom; one clip is stage talk with yellow caption pill "Why do you talk alot with your boss?"
+- v1 | 87.5–90 | fs-data | desktop UI: scribble + right-click context menu + cursor; then line + "to actually make people Care About Them." text
+- v1 | 95–97 | fs-object | yellow floor, cartoon avatar w/ speech bubble "Use me bro..." trees
+- v1 | 103–105 | fs-object | giant "?" with her greyscale cut-out (red hair kept) + "What does Asma actually Sound Like Now"
+- v1 | 108–115.9 | broll-text | B&W stock/meme cuts (kid, Jim Carrey, Bugs Bunny cartoon, man w/ sunglasses) rapid, no text
+- v1 | 120.7–122.8 | fs-object | white bg, bold "but I'm also Interested in!" + sticker cut-outs (Naruto, Scarface-like, F1 car) pop in
+- v1 | 124 | broll-text | B&W shiba meme with hearts
+- v1 | 133–142 | captions | A-roll, outro, last caption "and tell some"; ends on A-roll with no end card
+
+## vid-2 (talking head; AI/finance news: Anthropic IPO; white tee, yellow cushion)
+- v2 | 0–1 | hook+captions | A-roll caption top-centre; red candle slides in from left at 1.0
+- v2 | 1–4 | fs-data | white bg animated candlestick chart (red falling -> green rising), pixel-emoji coins on candles; text "company losing / Billions of Dollars" then "could soon be Worth" (small grey lead-in line + big bold word, word-by-word swap)
+- v2 | 6.6–8.3 | broll-text | cinematic stock (robot hand/human hand, glowing figure, light tunnel) full-screen, no text
+- v2 | 12.3–13 | fs-object | white bg, her cut-out holding yellow sign "AND TODAY" slides up from bottom, black floor
+- v2 | 14.7 | broll-text | pixel-mosaic censor B&W meme (animals w/ labels Anthropic / Claude)
+- v2 | 19.8–22 | broll-text | stock footage of stock ticker / red chart, full-screen
+- v2 | 22.9–24.4 | fs-object | white card: bold "Regular Investors will be able to" + 3D gold coin stack, thumbs-up hand, green wedge; dotted grid motif
+- v2 | 28.8–31, 41–48 | fs-data | article/doc screenshot, blurred -> sharp, blue text-highlight sweep on key sentence, slow zoom (also Alphabet stock UI card)
+- v2 | 34–39.6 | broll-text | B&W meme clips with pixel-mosaic blocks + subtitle-style white caption ("ALLAH ITNAY PAISA KAHAN SY LAON")
+- v2 | 52.9–55 | fs-data | UI mockup: Claude chat prompt box (pixel logo, user bubble, input bar w/ chips), meme inset "Heavy computer be like"
+- v2 | 64–65.5 | fs-object | seamless pattern of green pixel $ signs fading
+- v2 | 68.6–70.1 | broll-text | B&W monkey meme w/ pixel blocks; black frame
+- v2 | 75.9–77 | fs-data | article screenshot with her talking-head clip embedded top; blue highlight
+- v2 | 78–79.7 | camera | A-roll goes greyscale/blur (mood beat) then back to colour
+- v2 | 81–86 | fs-data | red/green candlesticks slide in again + "investors are not paying for what the Company is Today" (grey lead-in, big bold black words reveal)
+- v2 | 88.6 | broll-text | B&W reaction-meme face
+- v2 | 93–98 | fs-object | 3D calendar cards ("2024 $400 MILLION" strawberry pixel art, "2025 $4.6 BILLION"), stack in w/ rotation, price tags
+- v2 | 101.5–106 | fs-data | news headline screenshot (Bloomberg-like), blurred->sharp, blue highlight
+- v2 | 110.5 | broll-text | B&W cat with glasses + white subtitle caption bold lower third
+- v2 | 112.6–119.3 | fs-object | green calendar-leaf counter flipping 1…12 with pile of leaves, then "$65 Billion" text (counter-roll)
+- v2 | 123–131 | fs-object | slot machine 3D (green) on yellow floor; reels land on Amazon/Microsoft/Google/Anthropic logos; side text "by integrating themselves into our Daily Lives"
+- v2 | 133.7–136 | onscreen-pop | rounded teal-gradient quote card with small tag "Anthropic" overlaid on A-roll lower half ("pay us today for what you think the company is going to become tomorrow")
+- v2 | 136–142 | captions | outro A-roll
+
+## vid-3 (F1 prodigy Antonelli story; beige shirt)
+- v3 | 1–3 | fs-object | white bg, giant green pencil "CLASS" slides up, line "they get to skip a" w/ pennant icons
+- v3 | 3.3–4.2 | broll-text | greyscale freeze of her A-roll then meme B&W with white caption "AUDIENCE BE LIKE: ..." (bold white caps top)
+- v3 | 5.9–7.1 | broll-text | real footage (driver selfie, F1 car pan blur) full-screen
+- v3 | 8–9 | fs-object | pixel-art F1 cars in coloured stripes (mint/pink/blue) slide in with circular face sticker
+- v3 | 10.7–12 | fs-object | white bg bobblehead-style avatars (head cut-outs on body) w/ speech bubble in teal
+- v3 | 14 | broll-text | greyscale commentator clip
+- v3 | 20–22.5 | fs-object | bobblehead "ANTONELLI 12" on teal water floor; "20 YEAR OLD italian" bold + pennant icons
+- v3 | 24–27 | fs-object | pixel trophy "youngest F1 World Champion in History." + map card "Born in Italy in 2006" w/ polaroids
+- v3 | 27.5–29.7 | broll-text | photo cutaways: dark vignette + portrait photo card inset, team photo
+- v3 | 34–38.3 | broll-text | real kart/helmet footage cuts (watermark kept)
+- v3 | 40–42.5 | fs-object | white bg, pixel-art green car drives in; "I only had access to an RC CAR" (small lead-in + red bold)
+- v3 | 45.7–48.4 | fs-data | article screenshot, headline zoom, blue highlight bar sweep on sentence
+- v3 | 50–53 | broll-text | real podium / ADAC footage cuts
+- v3 | 55.5–57.5 | fs-object | white bg, pixel F3/F4 car stripes + face sticker "completely skipped F3"
+- v3 | 63.4–66 | fs-data | dark news-site screenshot (Hamilton headline) w/ blue highlight; then article with photo
+- v3 | 70 | camera | A-roll turns greyscale (beat) then colour
+- v3 | 73.3–75.3 | camera | A-roll greyscale hold while she looks down
+- v3 | 78–82.5 | broll-text | onboard F1 cockpit footage; digital glitch/pixel-corrupt transition at 82.5
+- v3 | 86.5–89 | fs-object | white bg, Mercedes star + green pixel F1 car front reveal (stripes), tag label "we don't really care about a CRASH OR TWO, Kimi" (gold tag, bold black)
+- v3 | 92.3–95 | broll-text | podium footage, then Lenovo-red framed photo cards on dark with greyscale bg (card pop)
+- v3 | 98–101.5, 106–111 | fs-object | white bg, circuit-shaped stripes with flags (China, Japan, Miami, Canada, Monaco, Monza) + gold name tags; Monza "CRASHED 2 YEARS EARLIER." w/ face sticker, F1 logo outlines in corners
+- v3 | 104.7–106.5, 113.7–115 | broll-text | onboard + pit footage
+- v3 | 121.6–122.5 | broll-text | greyscale actor close-up
+- v3 | 124–124.5 | fs-object | face sticker w/ pixel sunglasses on white
+- v3 | 129.4–131.4 | broll-text | greyscale clip of the driver w/ glasses (bow)
+- v3 | 132.7–135.5 | broll-text | colour real clips (necklace on blue, interview)
+- v3 | 140.5 | other | black end frame
+- v3 | other | captions | A-roll (rest of runtime), blur-in focus pull after each cutaway
+
+## vid-4 (Meta smart-glasses privacy; yellow tee, black cushion)
+- v4 | 2.9–4.5 | fs-object | greyscale/teal ink illustration (whisper in ear), bold word "Gossip" (teal) + small "complain about", words swap word-by-word
+- v4 | 8–11 | fs-object | white bg, illustrated guy w/ yellow shades; CCTV-style photo frames pop in around head; "and created a Highlight" (grey lead-in, bold word)
+- v4 | 11.5 | camera | A-roll goes greyscale/blur with white caption "Congratulations" mid-frame
+- v4 | 12.5–13.5 | broll-text | B&W Shaun-the-sheep meme clip
+- v4 | 17–18 | fs-object | white bg, red gradient card sliding in with "Today's Story" text, corner lines
+- v4 | 22.7–29 | fs-data | dark-mode news site screenshot (404 Media headline), blue highlight sweeps line by line, yellow illustration card
+- v4 | 31 | broll-text | B&W face meme + bold white caption "SO WEIRD AND UNNECESSARY" (2nd word bold)
+- v4 | 35.2 | broll-text | greyscale portrait with network-graph overlay
+- v4 | 42.7–46 | fs-data | article screenshot (dox people), blurred->sharp, blue highlight, tweet embed
+- v4 | 47.8–48.5 | broll-text | B&W cartoon abstract
+- v4 | 53.3–55.3 | fs-object | illustrated guy from behind, pixelated red hoodie, gold info card (name/age/phone) pops on back
+- v4 | 56, 64–66 | broll-text | B&W film-face meme cuts
+- v4 | 60.3–62.6 | fs-data | The Verge article dark theme, highlight bar, title word big grey ghost "The Verge"
+- v4 | 70.5–72.5 | fs-object | white bg, desk + glasses, hand picks glasses; "content captured through" (grey lead-in + bold ghost word)
+- v4 | 76.6 | broll-text | B&W driver footage w/ glitch
+- v4 | 80–85 | fs-data | TechCrunch article screenshot, highlight on sentence
+- v4 | 91 | broll-text | B&W meme
+- v4 | 95.9–99 | fs-object | green silhouette detective with magnifier; "March 2026" (grey lead + bold year)
+- v4 | 101–103.5 | fs-object | greyscale cut-out man fading into green block w/ text "reviewing the footage of Meta glasses", logo bottom
+- v4 | 105.4 | broll-text | B&W film close-up
+- v4 | 105.9–109 | fs-object | pixel-illustrated guy changing jacket; "people changing Clothes" (gold highlight word) ; teacup + receipt "intimate Moments"
+- v4 | 117–121 | fs-data | article, blurred->sharp, highlight sentence; photo of man with glasses
+- v4 | 123.6–125.2 | broll-text | B&W Tom & Jerry cartoon w/ pixel blocks
+- v4 | 128–131 | fs-object | 3D glasses/device closeup on white with yellow beam; "it detected physical tampering"
+- v4 | 134.5–135 | broll-text | B&W CCTV door clip
+- v4 | 137–142.3 | broll-text | colour street/vlog/ store clips (Times Square etc.) real footage cuts
+- v4 | 146–149 | fs-object | white bg: folders flying (yellow/pink/green) + magnifier over word "some online / Still found some content"
+- v4 | 150.7–159 | fs-data | newspaper site screenshots (Guardian-like), blur->sharp; headline "Big Brother is watching..." zoom
+- v4 | 162.6–166 | fs-data | glasses frame closeup w/ WhatsApp notification card "Khayyam • 5 min ... Worth all of this?" lens UI mock-up
+- v4 | other | captions | A-roll with top caption
+
+## vid-5 (car review: Avatr; tan tee; branded product footage heavy)
+- v5 | 1.5–7 | broll-text | colour product footage (AVATR car shots, pixel-mosaic transition at 1.5–2.6) rapid cuts, no text
+- v5 | 8.5–13.5 | broll-text | product footage (car front, tunnel, desert road)
+- v5 | 19.9 | fs-object | speedometer needle + car with her cut-out as driver on white; "exactly how fancy"
+- v5 | 24.9–26 | broll-text | stock: hand sketching
+- v5 | 28–30 | fs-object | greyscale cut-out man on green chair on white; gold-black name tag "NADIR FAGHIZADEH" + "spent more than" (grey ghost)
+- v5 | 34.4 | broll-text | B&W portrait of boy
+- v5 | 35–39.5 | onscreen-pop | car cut-out slides over A-roll lower half; then green label "AVATR 11" + dark/red rounded product card
+- v5 | 40.4–45 | broll-text | luxury interior stock (opera hall, door) cuts
+- v5 | 46.5 | fs-object | white bg, pixel hand w/ pencil icon; "That is actually APPLIED" (pink bold word)
+- v5 | 52.5 | broll-text | B&W face
+- v5 | 53.7–55.5 | broll-text | product shot, split-wipe mirror reveal (car front)
+- v5 | 59.8–67.5 | broll-text | interior detail footage (seat, speaker, touchscreen) quick cuts
+- v5 | 72–75.8 | broll-text | exterior/tail light/dash "95 km/h" cuts
+- v5 | 78.4 | onscreen-pop | white SUV toy-like cut-out slides in front of A-roll lower-left
+- v5 | 80–84.8 | broll-text | in-car screen demo footage (hand on touchscreen), glitch tile transition
+- v5 | 87.7 | camera | A-roll greyscale beat
+- v5 | 88.7–93 | broll-text | seat comfort close-ups
+- v5 | 94.8–96.8 | fs-object | battery pack 3D on yellow floor; text "BATTERY TECH is kind of insane as well" (teal bold word)
+- v5 | 97.5–101.5 | fs-data | spec sheet screenshot blur->sharp, blue highlight, car image
+- v5 | 104–109.2 | fs-data | launch/price web page, blue highlight bars on specs
+- v5 | 110.8–113.3 | broll-text | desert and neon-lit car footage
+- v5 | 114.6–117 | fs-object | black sedan slides on grey road in front of yellow banner; logo "AVATR / FIRST CLASS LUXURY" assembles (green/black blocks)
+- v5 | other | captions | A-roll with top caption
+
+## vid-6 (Changan car brands explainer; tan tee)
+- v6 | 1.4–5 | fs-object | white bg, money stack pixel 3D + silver pixel car slides along grey road strip
+- v6 | 5.7–8 | broll-text | B&W animated princess clip with pixel-mosaic blocks
+- v6 | 8.9–13.8 | broll-text | 3D cut-away engine/EV rendering, battery cells; car slides in at 13.8 on white strip
+- v6 | 16.3 | broll-text | B&W boy meme
+- v6 | 21.2–23 | fs-object | her cut-out holding spanners on yellow floor, "Changan's Evolution" heading
+- v6 | 24.9–28.5 | fs-object | road strip top-down, pill tags "ALSVIN"/"KARVAAN" w/ carousel arrows + cursor; cars drive in
+- v6 | 33–36.7 | broll-text | product footage interior/screen/tail cuts
+- v6 | 39.4–42.2 | fs-object | her cut-out stands by stacks of green cash blocks; "I chose it when I was buying my First New Car" (gold tag bold)
+- v6 | 44.5 | camera | A-roll greyscale w/ caption "Great decision" (colour drained beat)
+- v6 | 49.9–51 | fs-data | corporate photo + article screenshot blur->sharp, blue highlight
+- v6 | 53.2 | fs-object | white bg, cartoon man on teal floor, "creating different brands for different kinds of Customers" (ghost last word)
+- v6 | 54.5 | onscreen-pop | black SUV cut-out slides across lower-left over A-roll
+- v6 | 56.3–59.7 | broll-text | launch-event footage cars, light-streak glitch
+- v6 | 64 | broll-text | dim B&W speaker clip
+- v6 | 67.3–69.8 | broll-text | car interior/exterior shots
+- v6 | 70.3–72.3 | fs-object | cartoon man holding sunflower beside road; "Long drive py Chal, Chal, Chal." (bold)
+- v6 | 73.5 | camera | greyscale A-roll beat
+- v6 | 75–81 | fs-data | brand website screenshot (DEEPAL brand overview), highlight bars
+- v6 | 85.8 | onscreen-pop | car cut-out sliding behind her
+- v6 | 94–96.5 | broll-text | car footage, speedometer 91 km/h
+- v6 | 100.9 | fs-object | jigsaw pieces (gear/camera icons) green/red
+- v6 | 102.9 | fs-object | black sedan on road strip + gold label "into an experience that actually Makes ..."
+- v6 | 108–116.2 | onscreen-pop | lower-third car cards (grey label pills "NEVO", "DEEPAL", "AVATR" + product thumbnails slide in from left over A-roll, red/black card base)
+- v6 | 118–122 | fs-object | signpost "ENTIRE ECOSYSTEM" with 4 gold buttons (Mainstream Mobility → Ultra Luxury), cursor clicks each (turns green), car below changes
+- v6 | 122.4–126.2 | broll-text | car detail footage (mirror, wheel, headlight)
+- v6 | other | captions | A-roll top caption
+
+## vid-7 (Meta Muse AI agent; green tee, chair)
+- v7 | 0.9–3 | fs-object | white bg, yellow floor, greyscale cut-out Zuckerberg dancing next to plush "Muse" pod on a chair; "is back in the market with a New AI Tool" (blue bold)
+- v7 | 3.2–5.7 | camera | greyscale A-roll beat + orange handwritten words "Good Hook" overlay (scribble annotation)
+- v7 | 6.8–12 | fs-object | white bg, Muse pod, dock bar of app icons (Gmail, Calendar, ...) + blue pixel cursor clicks them
+- v7 | 17.2–19.5 | fs-object | greyscale cut-out Zuck head w/ pixel "deal with it" shades on stick legs; gold tag "Mark did something Very Interesting"
+- v7 | 23.5–25.5 | fs-object | Muse plush mascot on white with grey shadow ("MUSE Meta's new")
+- v7 | 28–30.4 | broll-text | B&W comedy meme + "CHAT GPT BE LIKE:"
+- v7 | 32–36 | fs-object | retro blue pixel PC w/ envelope; "Muse Features" big title; carousel arrows; cards FILL FORMS, BOOK TRIPS; cursor
+- v7 | 40.5 | broll-text | B&W tic-tac-toe notebook
+- v7 | 43.6–45 | fs-object | avatar (glasses, tie) on hill; blue folder icons; "It's a lot"
+- v7 | 49.8–59 | fs-data | Business Insider article blur->sharp, blue highlight sweeping lines, slow scroll
+- v7 | 59–61 | broll-text | B&W crying meme + caption block top-left "KASAY BATAO SARA PAISA KA CHAKAR HAI." (bold white caps)
+- v7 | 64.3–70.5 | fs-object | blue phone mock-ups on teal floor: wallet/card UI "Balance $700,000.00", cash stack; text "AI with access to Accounts & Money", "sounds kind of Scary"; chat mock-up "AI helps dad bake with his daughter" w/ ingredient chips
+- v7 | 74–77 | fs-data | blurred article, highlight
+- v7 | 79.8–82 | broll-text | phone lock-screen pattern close-up (greyscale)
+- v7 | 85.5–87.6 | broll-text | B&W WALL-E clip; pixel mosaic
+- v7 | 91.7–96.7 | broll-text | B&W WALL-E humans on hover chairs
+- v7 | 100–105.5 | fs-object | cartoon fat avatar floating on blue hover chair; "becoming a fat person Floating on a Device" (gold tag), "using their chubby fingers to put Orders in the System." (bold)
+- v7 | 108.9–110.2 | fs-object | white bg, sneaker running up green stairs; "but the tech is really moving" ; blue scribble
+- v7 | other | captions | A-roll top caption
+
+## vid-8 (Nike's decline; green tee)
+- v8 | 5.8 | broll-text | B&W Bollywood meme face
+- v8 | 6.9–10.5 | fs-object | white bg, pixel Nike Dunk on ramp w/ gold price tag "90s", green banner "Baji Sale"; shopping-basket wire frame full of items; huge black italic "BEST THING EVER" behind (letters reveal word by word)
+- v8 | 14.8 | broll-text | B&W film crowd clip
+- v8 | 19–24 | fs-object | traffic light (pixel Nike logo) lights change; coloured bars "Stopped / have / might" with body text lines "loving its customer back with the same intensity." (white/red/yellow/green strips)
+- v8 | 26–30 | fs-object | poker table (dark red) with falling pixel chips and green card "$200 BILLION in market value" Nike logo
+- v8 | 33.5–36 | fs-data | Fortune article blur->sharp, headline highlighted blue
+- v8 | 37.5–40 | fs-object | green chairs on dark red floor, "VIP ROOM that contains some of America's biggest brands"
+- v8 | 41.8–48 | fs-data | dark-mode article with Nike board photo + red chart, highlight bars
+- v8 | 50–54.5 | broll-text | sneaker product footage cuts
+- v8 | 55–57 | fs-object | white grid-paper bg, sneaker pixel cut-outs drop in w/ green labels (AIR JORDAN, AIR MAX), keychain shoe at bottom; also DUNKS/JORDANS/AIR FORCE at 65–67.5
+- v8 | 64 | broll-text | B&W bearded man praying meme (blur)
+- v8 | 69.5–71.6 | broll-text | B&W face meme
+- v8 | 72–79.7 | broll-text | running shoe footage (HOKA, On, adidas), marathon crowd
+- v8 | 83–87 | fs-object | pixel Adidas Gazelle/Samba on green/yellow tall rectangles (rect slides up), label text; then "Old-school Football Shoes" w/ legs cut-out
+- v8 | 88.7–94 | fs-object | dark red table, chips, "Nike was Betting Heavily on selling through its own" (white bold), 3 green cards w/ icons
+- v8 | 99–103 | broll-text | shoe product footage cuts
+- v8 | 107–109.5 | fs-object | pixel Nike running shoe on track; "The sport the company was literally Born From"
+- v8 | 112 | broll-text | colour unboxing orange shoes
+- v8 | 115–118.5 | fs-data | dark article w/ stat "25.9% → 22.9%" + bar chart; highlight line
+- v8 | 119 | broll-text | B&W CID-style meme face
+- v8 | 120.8–125 | fs-object | greyscale bobblehead Nike CEO on Jordan shoes; "NIKE Replaced its CEO back in 2024" (huge black bold)
+- v8 | 128.3–133.2 | fs-data | Reuters article + store photo, blur->sharp highlight
+- v8 | 136.9–139 | fs-data | Statista bar chart "The World's Most Popular Sneaker Brands" blue highlight
+- v8 | 141.4–146.5 | fs-object | her greyscale cut-out (red hair) on pixel Jordan shoes w/ hearts; "NIKE became so comfortable with that love" ; "Kuch tw naya bana lai Bhai" (bold word)
+- v8 | 148.7 | broll-text | B&W crying meme
+- v8 | other | captions | A-roll caption top
+
+## vid-9 (anime lessons; white graphic tee)
+- v9 | 1.7–5 | fs-object | green water floor, her greyscale cut-out w/ glasses & flower + gold coins; "for every time someone said this to me" (bold black)
+- v9 | 5.3–6.2 | fs-object | pixel Japan torii + pagoda, gold sign "WELCOME TO JAPAN"
+- v9 | 7.9 | camera | greyscale A-roll beat
+- v9 | 10.8 | broll-text | B&W child profile
+- v9 | 15.4–17.4 | fs-object | cut-out of her in blue jacket in Gojo-style glasses; speech bubble (gold) "if you go out wearing a GOJO T-SHIRT"
+- v9 | 19.7–21 | broll-text | B&W podcast clip, caption "CHUP KAR JA BAHAR" bold white lower
+- v9 | 24–25.2 | fs-object | exam paper "B-" flat-lay
+- v9 | 29.8–40.8 | broll-text | B&W animated memes (Lego, SpongeBob, athlete "ANIME AYIAN???", Batman fly)
+- v9 | 42–47 | fs-object | pixel UAE/Pakistan maps w/ avatar; "MIDDLE", "VERY DIFFERENT"
+- v9 | 47.7–49.4 | broll-text | B&W photo cuts (truck art, family), Urdu handwriting board
+- v9 | 51.2–53.2 | fs-object | green/pink/gold book stack; "I learned Pashto PRETTY LATE IN LIFE"
+- v9 | 53.8, 57.3–58.3 | broll-text | B&W reaction meme faces
+- v9 | 60.7–61.3 | broll-text | B&W cartoon clip
+- v9 | 65.5, 90.9, 101.2 | onscreen-pop | anime trading-card (One Piece / Digimon / Pokemon) + green banner "ONE PIECE taught me something about ambition." slides in lower-left over A-roll (card tilt pop)
+- v9 | 67–73, 74.6–76.6, 84.8–86.8 | broll-text | colour anime clips (One Piece), full-screen
+- v9 | 82–84.3 | fs-object | yellow floor, her avatar + two small avatars; "LUFFY also taught me LEADERSHIP" (green bold, gold lead-in)
+- v9 | 91.6–97.7 | broll-text | colour anime clips (Digimon)
+- v9 | 102.8–104.7 | broll-text | B&W Snorlax clip
+- v9 | 107.6–109.6 | fs-object | her avatar meditating floating on white with clouds; "the best thing to experience as a HUMAN" (green)
+- v9 | 117.8–123 | broll-text | colour anime clips (Beyblade)
+- v9 | 124.7–125.5 | fs-object | four trading cards (One Piece, Digimon, Pokemon, Beyblade) float on white, "These shows were MY FRIENDS before"
+- v9 | 129–130.3 | broll-text | B&W minions clip
+- v9 | 134.5–136.3 | fs-object | TV remote w/ gold beam cone widening to green screen; "I STILL WATCH ANIME" (pixel text)
+- v9 | 139.3–141.2 | broll-text | B&W dog clip
+- v9 | other | captions | A-roll with top caption; blur-in after cutaways
+
+## vid-10 (F1 explained for beginners; graphic tee)
+- v10 | 1.1–3 | fs-object | white bg, F1 logo red, yellow speed-streak blur
+- v10 | 3.7–5.6 | fs-object | white bg, mint water floor; pixel red F1 car w/ driver head cut-out; "Lewis HAMILTON" (bold black name w/ pennant icons), gold lead tag
+- v10 | 7.7 | fs-object | face sticker (gold polygon) + pixel helmet on stick-figure body; "MAX VERSTAPPEN"
+- v10 | 9.7–12.3 | broll-text | B&W meme clips (bearded man, football manager) + white bold caption "KHAO MAA KASAM"
+- v10 | 17.3–19 | fs-object | pixel F1 car front view in red with F1 logo and "BREAKDOWN" ghost text
+- v10 | 25.7 | fs-data | grid of 10 team car livery rows (mini table) w/ numbers
+- v10 | 30.9–33 | fs-object | tall gold bar, blue pixel car (Atlassian) from above; "Grand PRIX Not Grand Prizes."
+- v10 | 35.2 | broll-text | B&W dog laughing
+- v10 | 39.7–41 | fs-data | F1 site article screenshot dark; highlight word red; photo of champion
+- v10 | 45–47.1 | fs-object | blue pixel car + coin; "Drivers Championship / DRIVERS EARN POINTS based on where they finish"
+- v10 | 50.3–55.9 | fs-object | road strip, blue pixel cars + coin; "Constructors' Championship / WIN THE CHAMPIONSHIP for their team."
+- v10 | 62.3–64 | broll-text | B&W film characters
+- v10 | 67–69.2, 74.8, 92 | fs-object | calendar-sticky note (red "FREE PRACTICE 01 / 11 FRI") peels in on grid-paper, hand-drawn circle around date
+- v10 | 69.8–72.4 | fs-data | Instagram-style F1 posts (FASTEST FREE PRACTICE) mosaic, UI mockup w/ likes
+- v10 | 77.9–78.8 | broll-text | overhead real footage miniature grid cars
+- v10 | 79.6–81.7 | fs-object | pixel blue car on track strip w/ checker flag; track outline map "SECTOR 1"
+- v10 | 86.3 | fs-object | red bg, 4 pixel cars; "THEY START THE RACE FROM THE VERY FRONT" (white bold block text)
+- v10 | 89.3–91.3 | broll-text | B&W car cuts
+- v10 | 95–99 | broll-text | B&W cartoon snail/Turbo clip
+- v10 | 103.5–104.6 | fs-object | F1 logo + black pixel car over red diagonal speed lines; "is not just about DRIVING REALLY FAST" (grey ghost last words)
+- v10 | 108.8–115 | fs-object | 3 pixel tyres (black/red/yellow) with chart cards "Hard <H> LONG LASTING", "Soft <S> FASTEST", "Medium <M> BALANCED" (card lists slide vertically); "Drivers are driving with DIFFERENT TYRE COMPOUNDS"
+- v10 | 121–124.3 | broll-text | pit-stop overhead; B&W Cars movie clip
+- v10 | 126.9 | broll-text | B&W cockpit w/ pixel mosaic
+- v10 | 132–134.4 | broll-text | race footage
+- v10 | 135.6–137.1 | fs-object | red flat illustrated F1 front w/ helmet; "while the driver is doing"
+- v10 | 140.5–149.9 | broll-text | pit wall team + crash + race footage, driver POV
+- v10 | 153–157 | broll-text | F1 car blur footage + meme face
+- v10 | 161.4 | fs-data | UI: driver/team list phone card "All Stars / All Teams"
+- v10 | 163.6–170.6 | broll-text | B&W film footage cuts
+- v10 | 171.4 | camera | A-roll goes greyscale
+- v10 | 178.5–180.5 | fs-object | pixel half-dissolved driver cut-out; "SAINZ WILLIAMS" bold text + pixel car plate (card)
+- v10 | other | captions | A-roll caption
+
+## vid-11 (her career/CV story; cream tee, mostly text-and-avatar)
+- v11 | 1–3.4 | fs-object | green cutting mat flat-lay w/ pencil/scissors; "DIY PROJECT with sparkles and hidden compartments." (white bold on mat)
+- v11 | 4–6.1 | broll-text | B&W grey flag waving
+- v11 | 6.7–7.9 | broll-text | film clip (crowd) + white caption lower "STILL GOT ME A JOB" (JOB bold)
+- v11 | 9.2–11.3 | broll-text | B&W clip + subtitle "Buy some p..."
+- v11 | 12.8–15 | fs-object | her avatar in sky/clouds frame; "share this dream with My Parents" (bold on white)
+- v11 | 17.9, 21.3 | broll-text | B&W faces
+- v11 | 22.8–25 | fs-object | desk flat-lay + 4 coloured chat bubbles (Hinglish lines), coffee, pencil
+- v11 | 26.5–27.5 | broll-text | pixel-mosaic classroom clip
+- v11 | 30.5–31.5 | broll-text | B&W girl meme
+- v11 | 34.6–37.7 | fs-object | yellow floor, giant grey hands closing around her avatar; green speech bubble "Nahi bahot kharab hai"
+- v11 | 41.9–44 | broll-text | B&W actor clips
+- v11 | 47.6 | fs-object | her face cut-out (greyscale + red hair) w/ star + flower stickers on white
+- v11 | 52.2 | broll-text | B&W meme + caption "CEO BE LIKE: NAHI BHAI ITNA BHI FUN NAHI THA" (bold lower-left)
+- v11 | 56.5 | broll-text | colour photo (woman in coat)
+- v11 | 59.3–60.3 | fs-object | avatar on stool w/ mic; gold speech bubble; mic stand
+- v11 | 63–65 | broll-text | B&W film cuts
+- v11 | 70.3–71.8 | fs-object | red laptop on yellow floor; search box "I'm not professional" w/ cursor; "jahaan pe what Professional meant"
+- v11 | 77.6–80 | fs-object | green rotary phone ringing w/ sparks; "call from a recruiter for a Comms Role"
+- v11 | 81–83 | broll-text | B&W portrait w/ name lower-third "HYDER BILGRAMI — GREAT GUY AND COMMS EXPERT" (white bold + grey caps)
+- v11 | 90.9 | broll-text | B&W film + "HOW I VIEWED MYSELF PROFESSIONALLY." (second word bold)
+- v11 | 97.8–98.8 | fs-object | brick wall being built by grey hand; "But because he gave me the Foundation"
+- v11 | 100.5 | broll-text | B&W corgi meme
+- v11 | 106.9–110.3 | fs-data | Instagram profile + comments UI mock-ups dark mode (@asmaijazkhann), zoom/scroll
+- v11 | 113.9–115 | broll-text | B&W office clip + caption "FAAA..." white
+- v11 | 117.2 | broll-text | B&W film face
+- v11 | 118.9–120 | fs-object | avatar at green desk w/ laptop, tripod camera; "A Stable Job"
+- v11 | 121–122.8 | broll-text | B&W faces meme
+- v11 | 127.3–129.3 | fs-object | her face cut-out w/ flower + sparkles; "So, moral of the story kids"
+- v11 | 132–135 | broll-text | B&W clips (dark, Mario-like figurine)
+- v11 | other | captions | A-roll caption top
+
+## vid-12 (AI slop and LinkedIn; grey tee, green cushion, 29.97 fps)
+- v12 | 1–5.4 | fs-data | LinkedIn post mock-up (blurred) then post menu "Seems like AI slop" w/ pixel cursor click, teal swirl icons (light lavender bg)
+- v12 | 7.8 | fs-object | "Similar Sounding, pretentious LinkedIn posts" + 3 Spidermen pointing meme (flat illustration, grey shadow)
+- v12 | 8.8–11 | broll-text | B&W meme + bold white caption "TU MIL MERAY KO BAHAR" (right-aligned stacked)
+- v12 | 16.3–19 | fs-object | OS window "Note" with her cut-out head above, hand-drawn arms; "and today it's AI Slop and LinkedIn." + cursor
+- v12 | 21.5–24 | fs-data | magnifier over blurred social posts; "analyzed more than 1Million+ social media posts."
+- v12 | 26.2–27.8 | broll-text | B&W meme clips (man w/ glasses, spaghetti eating)
+- v12 | 30.8–32.8 | broll-text | B&W Bollywood comedy + caption "TERA TOH GAME BAJANA PARAY GA" (bold white stacked lower-right)
+- v12 | 38.1–40.1 | fs-object | eye outline + yellow light cone; "identifying AI Writing only 51% of the time."
+- v12 | 45.3–46.7 | broll-text | B&W cartoon
+- v12 | 51.2 | fs-object | LinkedIn logo blue square on legs w/ money bags; yellow floor
+- v12 | 55.4–57 | broll-text | B&W Bollywood face + caption "THANK U:) SAAB G"
+- v12 | 57.9, 62.5, 78.5 | broll-text | B&W meme faces (Jim Carrey, laughing man, Michael Rosen)
+- v12 | 66–72.7 | fs-object | "Notes" window w/ green "AI Helps" menu; list items Research/Organize/Edit/Express expand, then zoom-in w/ big icons + cursor
+- v12 | 83.6–84.3 | broll-text | greyscale space/creativity cloud clip "CREATIVITY" caption
+- v12 | 85.8–87.8 | fs-object | gold plate + hand dropping; "AI is making content seem Easy & Unlimited."
+- v12 | 90.5–91.3 | broll-text | B&W AI-generated vegetable characters (potato)
+- v12 | 94.8–97.9 | fs-object | social logo tiles (LinkedIn, Instagram, Snap, TikTok) spin in; "How long before the other Social Media Platforms"
+- v12 | other | captions | A-roll caption top
+
+## vid-13 (BTS part 2; yellow tee, black cushion)
+- v13 | 0.5–6 | fs-object | white bg, mic stand; title card "Part 02 how BTS became the biggest boy band in the world." (gold tag + big pixel "BT" letters w/ member face stickers); album "WINGS" record sleeve "And after that, Wings was Released"; collage of face cut-outs stacked totem
+- v13 | 6–6.5 | broll-text | greyscale news footage; blurred newspaper "COVID-19" heading
+- v13 | 10.8 | fs-object | pixel virus emoji w/ hands; white bg
+- v13 | 12.8 | fs-object | calendar/page edge sliding with pixel marks
+- v13 | 17.5–20.4 | fs-object | white bg, 7 member face stickers (green outline, pixel shades) float in; "BTS was the first ever Korean act to do that."
+- v13 | 21.9 | broll-text | B&W BTS red-carpet clip
+- v13 | 23–26 | fs-object | yellow "Butter" vinyl graphic, avatar w/ butter plate, "more than Dynamite" TNT plate
+- v13 | 28.4–29.8 | broll-text | B&W BTS Grammy room
+- v13 | 34–35.5 | fs-object | face-totem stack on green circle w/ gold arms, "one of ..."
+- v13 | 40.3 | fs-object | movie poster B&W "Coldplay + BTS My Universe"
+- v13 | 41.7–44 | broll-text | B&W Bollywood clip + bold "NO.1"
+- v13 | 50.5–51.2 | fs-object | black rectangle with white bars sliding (ID block), "after releasing the" small text top-right
+- v13 | 52.3–54.3 | broll-text | B&W kid meme + caption "BREAK"
+- v13 | 54.8, 60–62 | fs-object | glossy black-white 3D "BTS" ring then eye graphic w/ BTS in iris; "had already released Mixtapes" face stickers
+- v13 | 63–65 | onscreen-pop | left-edge vertical timeline over A-roll: teal line w/ dot + dark year pill "2022", "2023" (slides along as time moves) 
+- v13 | 67.5–73 | broll-text | B&W concert/ member clips w/ pixel overlay lyric "again"
+- v13 | 74–75 | broll-text | B&W military clip w/ white caption "MILITARY SERVICE" (centred, bold first word)
+- v13 | 79.7–81 | broll-text | B&W portraits / stage
+- v13 | 81.9–91 | onscreen-pop | timeline overlay continues: year pills "2023", "2025", "2026" on left over A-roll
+- v13 | 85.6–87.5 | fs-object | member face sticker on stick figure with AK-47 (meme) green label "Korean a gai oyy....."
+- v13 | 92–98.6 | fs-data | Billboard article screenshots (blur->sharp), headline zoom
+- v13 | 102.5–104.5 | broll-text | Grammy stage footage greyscale w/ white words "Grammy", "BTS" small floating
+- v13 | 110.7–113 | fs-object | gold gramophone trophy on white floor + flag "BEST ASIAN POP MUSIC PERFORMANCE"
+- v13 | 117.4 | fs-object | member sticker holding gold/black cards w/ pennant speech
+- v13 | 120.8–122 | broll-text | B&W meme (finger to temple)
+- v13 | 127–128.8 | fs-object | gramophone + green light cone; "the category is supposed to create more recognition for Asian artists," (bold)
+- v13 | 130–132 | broll-text | B&W podcast meme faces
+- v13 | 137–139.2 | fs-object | globe (green) on black road; astronaut member stickers floating "trying to prove that Korean Artists"
+- v13 | 142–146 | fs-object | member sticker kicks yellow 'C' letter; "they're big enough to Question the Stage itself." green label
+- v13 | other | captions | A-roll caption top
+
+## vid-14 (BTS part 1, origin story; yellow tee, black cushion, red hair clip)
+- v14 | 1.2–6 | broll-text | B&W concert/stage footage cuts (stadium, Spotify logo bg)
+- v14 | 8–10.6 | fs-object | white bg, face sticker of producer on stick-figure body w/ thumbs-up; "producer Bang Si Hyuk liked an Underground Rapper a lot." (bold name + grey pill word)
+- v14 | 12.1–14.8 | broll-text | B&W photo cuts (member holding sign; two men at table) ; pixel face sticker on white
+- v14 | 17.9 | broll-text | B&W woman laughing
+- v14 | 22.2 | fs-object | tiny her cut-out head on white (transition)
+- v14 | 24–26 | broll-text | B&W bearded man drawing on whiteboard
+- v14 | 30.5 | broll-text | pixel Tetris game UI ("FUEL 53 SPEED 05") greyscale
+- v14 | 34.2–38.1 | fs-object | white bg, 7 member face stickers with green name tags (RM, JIN, J-HOPE, JIMIN, V, SUGA...) connected by thin gold lines (network graph) growing
+- v14 | 38.8–46 | onscreen-pop | left-edge timeline over A-roll: teal vertical line, dark year pills "2010", "2013" etc.
+- v14 | 41.9–43.6 | broll-text | B&W group photo; Breaking-Bad meme face
+- v14 | 49.4–53.9 | fs-object | white bg, BIGHIT MUSIC pixel logo (gold/black), "and they were competing with already Established Groups like:" + group logos (EXO, B.A.P)
+- v14 | 56.9–59 | fs-object | white bg, old Motorola phone w/ green-screen "Contact" list (Mama Zong, Pyari behan?, Bestie) ; "and at that point" w/ red scribble swirls
+- v14 | 61–63.4 | fs-data/broll | tweet screenshot (blur) then B&W vlog clips
+- v14 | 68.5 | broll-text | B&W Lego man bow-tie meme
+- v14 | 73.5–75.2 | fs-object | vintage mic stand on wood floor; colour speech bubbles "School Pressure", "Ambition", "Young people" pop around; "they were Singing about"
+- v14 | 80 | broll-text | B&W stage silhouettes with lights
+- v14 | 82.7–84.7 | broll-text | B&W TV performance + big text "I NEED U" (bold white, 3D perspective)
+- v14 | 90.6–92.2 | broll-text | B&W blurred hug clip + caption "NATIONAL RECOGNITION" (small caps over bold)
+- v14 | 93.2–96.7 | fs-object | album sleeves slide in from left with vinyl: "YOUNG FOREVER" (hot-air balloon), "WINGS"; "turned them"
+- v14 | 98.5–103 | onscreen-pop | timeline overlay years "2015","2016","2017" over A-roll
+- v14 | 105–109 | fs-object | gold mic-stand trophy w/ member stickers + "Billboard MUSIC AWARD"; "won the Top Social Artist,"; face with tears sticker, red pill label "Mujhe kaan hai?"
+- v14 | 111.1 | broll-text | B&W cat meme + bold caption "KON HAI BAI TU...?"
+- v14 | 112.3–116.3 | fs-object | dark album sleeve "LOVE YOURSELF Tear" w/ vinyl sliding out; "to reach No.1 on the ..."
+- v14 | 122 | broll-text | B&W speech at mic clip
+- v14 | 123.9–126 | onscreen-pop | timeline overlay "2018", "2019"
+- v14 | 127.8–128.8 | broll-text | B&W stadium crowd/stage
+- v14 | 134.5–136.6 | fs-data | red-tinted poster "MAP OF THE SOUL TOUR" ; then "CANCELED" tour dates list UI
+- v14 | 138.8–142 | broll-text | B&W news anchor clips + blurred "COVID-19" heading
+- v14 | 144.3–146.3 | onscreen-pop | end card: rounded teal-gradient card over A-roll lower half, small tag "Part 2", "How COVID changed BTS forever COMING SOON"
+- v14 | other | captions | A-roll caption
+
+## vid-15 (Korean youth debt; grey tee, black cushion)
+- v15 | 2.6–8.6 | fs-object | white/green bg, 3D cash-stack grows beside gold pole; "Turned $14,000 into more than $200,000" (lead-in small + bold amounts; coins scatter "in just")
+- v15 | 12–15 | broll-text | dark pixel-game clip (apartment blocks stacking, planet) + bold white "BUY AN APARTMENT." (second word bold)
+- v15 | 20.6 | fs-object | avatar by easel with Korea map on canvas, yellow floor, autumn branch; "All in the South Korean Economy"
+- v15 | 25.1 | fs-object | white bg, cash stack on isometric ruler "costs around 14 Years worth of your salary"
+- v15 | 31–39.5 | broll-text | greyscale chip-factory / stock-board footage (SK hynix, KOSPI numbers), then B&W film face + caption "GOOD SHORTCUT" (second word bold)
+- v15 | 40–44.7 | fs-object | black hand lifts red cloche revealing app icons (finance apps) on tray; "To borrow more than 5X their own Money"
+- v15 | 47.2–50.3 | broll-text | B&W laughing-kid-with-cash meme
+- v15 | 55 | broll-text | B&W hamster meme + bold caption "KYA BAAT KAR RAHAY HO" (stacked caps)
+- v15 | 58–63 | fs-object | dark map of Korea with pink cash-brick towers rising; "total investor debt in the country 60 Trillion Won"
+- v15 | 65.7–67.7 | fs-object | old telephone receiver w/ red speech bubble "Call Utha Oyyy!!!"; "more than 1.2 Million Leveraged trading accounts" w/ red/green candle icons
+- v15 | 74.3 | fs-object | gold spotlight cone over black blob; "upto 360k Accounts"
+- v15 | 78.9–82.2 | fs-object | gavel slams over green bar chart; plaque "Economic Crisis Suicide Prevention Plan" (grey 3D gavel + green panel)
+- v15 | 84.2 | broll-text | B&W man covering face
+- v15 | 88.9–91 | broll-text | B&W film face + caption "FINANCIALLY CATCH UP" (bold first word)
+- v15 | 94.7–97 | fs-object | white bg, 3D keyboard keys "Ctrl + d"; "then a Dangerous Shortcut can seem like the only way" (red bold) w/ pointer cursor
+- v15 | other | captions | A-roll caption top; last A-roll runs to end
+
+## Scene-type tally (all 15 videos, read from thinned contact sheets)
+captions/A-roll ~40% of runtime; fs-object (illustrated/3D/pixel-art object scenes on white or yellow floor) ~25%; broll-text (mostly greyscale meme/stock cutaways, sometimes pixel-mosaic or w/ bold white caption) ~20%; fs-data (article/UI/chart screenshots with blue highlight) ~10%; onscreen-pop (cards/timeline overlays on A-roll) ~3%; camera (greyscale/blur beats) ~2%.
+No chapter-ui (not a listicle format); half-screen only in vid-1 (podcast split). Recurring motifs: greyscale cut-out of her ("avatar") in paper/cartoon style, pixel-art props, gold tag labels, bold black Poppins-like headline with small grey lead-in line, teal/green + gold palette, B&W meme cutaways, A-roll returning with blur->sharp focus-pull, caption tiny white top-centre.

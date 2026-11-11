@@ -1,0 +1,13 @@
+<!-- @dsCard group="Captions" height=520 subtitle="On the reel canvas and on the chroma-key pass, looping the first 8 seconds of a real SRT" -->
+<div id="root" style="display:flex;gap:28px;justify-content:center;padding:16px;font-family:var(--font-caption)">
+  <figure style="margin:0"><div class="box" style="width:259px;height:461px;overflow:hidden;border:1px solid #d9d9d9;border-radius:10px"><div class="stage" style="position:relative;width:1080px;height:1920px;transform:scale(0.24);transform-origin:0 0;background:var(--ground)"></div></div><figcaption style="font-size:13px;margin-top:8px;color:#333">On the motion graphics</figcaption></figure>
+  <figure style="margin:0"><div class="box" style="width:259px;height:461px;overflow:hidden;border-radius:10px"><div class="stage" style="position:relative;width:1080px;height:1920px;transform:scale(0.24);transform-origin:0 0;background:var(--chroma-key)"></div></div><figcaption style="font-size:13px;margin-top:8px;color:#333">Caption-only, #00FF00</figcaption></figure>
+</div>
+<script>
+  var SRT = '1\n00:00:00,180 --> 00:00:00,680\nLucknow\n\n2\n00:00:00,680 --> 00:00:01,640\npaid 27\n\n3\n00:00:01,640 --> 00:00:02,020\ncrore\n\n4\n00:00:02,020 --> 00:00:02,540\nrupees for\n\n5\n00:00:02,540 --> 00:00:02,960\nRishabh\n\n6\n00:00:02,960 --> 00:00:03,540\nPant, and\n\n7\n00:00:03,540 --> 00:00:04,160\ntwo years\n\n8\n00:00:04,160 --> 00:00:04,560\nlater,\n\n9\n00:00:04,560 --> 00:00:05,320\nthey traded him\n\n10\n00:00:05,320 --> 00:00:05,920\nto Delhi\n\n11\n00:00:05,920 --> 00:00:06,840\nfor 15 crore\n\n12\n00:00:06,840 --> 00:00:07,420\nrupees.';
+  var C = window.KMReel.RisingCaption;
+  var phrases = C.phrasesFromWords(C.wordsFromSrt(SRT), 7.6);
+  var renders = Array.prototype.map.call(document.querySelectorAll('.stage'), function (s) { return C.mount(s, phrases); });
+  var t0 = performance.now();
+  (function loop(now) { var t = ((now - t0) / 1000) % 9; renders.forEach(function (r) { r(t); }); requestAnimationFrame(loop); })(t0);
+</script>

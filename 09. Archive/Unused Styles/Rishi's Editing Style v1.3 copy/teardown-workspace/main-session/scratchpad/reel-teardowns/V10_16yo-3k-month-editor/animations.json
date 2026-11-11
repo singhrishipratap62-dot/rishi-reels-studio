@@ -1,0 +1,439 @@
+[
+ {
+  "id": "V10-A01",
+  "name": "student avatar pop",
+  "category": "graphic",
+  "element": "student avatar pop",
+  "start_f": 15,
+  "end_f": 26,
+  "dur_ms": 367,
+  "props": {
+   "height_px": [
+    0,
+    119
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0.1,
+   0.9,
+   0.2,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "16@#6 (\u0394+9)",
+  "evidence": "MEAS(bh rmse .021)"
+ },
+ {
+  "id": "V10-A02",
+  "name": "$3000 lockup reveal",
+  "category": "graphic",
+  "element": "$3000 lockup reveal",
+  "start_f": 37,
+  "end_f": 48,
+  "dur_ms": 367,
+  "props": {
+   "width_px": [
+    139,
+    317
+   ],
+   "cx_px": [
+    345,
+    455
+   ]
+  },
+  "easing": "easeOutCubic-like",
+  "bezier": [
+   0.5,
+   1.4,
+   0.9,
+   1
+  ],
+  "overshoot_pct": 3,
+  "trigger_word": "$3,000@#35 (\u0394+2)",
+  "evidence": "MEAS(rmse .014-.016)"
+ },
+ {
+  "id": "V10-A03",
+  "name": "you-wont-believe caption",
+  "category": "text",
+  "element": "you-wont-believe caption",
+  "start_f": 105,
+  "end_f": 114,
+  "dur_ms": 300,
+  "props": {
+   "width_px": [
+    137,
+    249
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0,
+   0.9,
+   0.4,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "you@~#100 (\u0394+5)",
+  "evidence": "MEAS(bw rmse .036)"
+ },
+ {
+  "id": "V10-A04",
+  "name": "hook defocus on A-roll",
+  "category": "camera",
+  "element": "hook defocus on A-roll",
+  "start_f": 9,
+  "end_f": 120,
+  "dur_ms": 3700,
+  "props": {
+   "blur_px": [
+    8,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "n/a",
+  "evidence": "EST"
+ },
+ {
+  "id": "V10-A05",
+  "name": "community post card wipe-in",
+  "category": "graphic",
+  "element": "community post card wipe-in",
+  "start_f": 145,
+  "end_f": 156,
+  "dur_ms": 367,
+  "props": {
+   "width_px": [
+    35,
+    645
+   ],
+   "height_px": [
+    21,
+    343
+   ],
+   "cy_px": [
+    512,
+    650
+   ]
+  },
+  "easing": "easeOutExpo",
+  "bezier": [
+   0,
+   0.9,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 1,
+  "trigger_word": "Wade@#144 (\u0394+1)",
+  "evidence": "MEAS(rmse .035-.057)"
+ },
+ {
+  "id": "V10-A06",
+  "name": "joined-line caption",
+  "category": "text",
+  "element": "joined-line caption",
+  "start_f": 160,
+  "end_f": 200,
+  "dur_ms": 1333,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "February@#192 (\u0394+3)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V10-A07",
+  "name": "centred diamond badge",
+  "category": "graphic",
+  "element": "centred diamond badge",
+  "start_f": 241,
+  "end_f": 254,
+  "dur_ms": 433,
+  "props": {
+   "width_px": [
+    13,
+    119
+   ],
+   "height_px": [
+    14,
+    116
+   ]
+  },
+  "easing": "easeOutCubic-like",
+  "bezier": [
+   0,
+   0.6,
+   0.2,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "Step@#249 (\u0394-8)",
+  "evidence": "MEAS(bh rmse .019; bw \u2248 .053)"
+ },
+ {
+  "id": "V10-A08",
+  "name": "course card wall focus swap",
+  "category": "graphic",
+  "element": "course card wall focus swap",
+  "start_f": 311,
+  "end_f": 471,
+  "dur_ms": 5333,
+  "props": {
+   "translate_px": [
+    0,
+    -60
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "breakdowns@#363 (\u0394-18)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V10-A09",
+  "name": "blurred cards behind speaker",
+  "category": "graphic",
+  "element": "blurred cards behind speaker",
+  "start_f": 472,
+  "end_f": 570,
+  "dur_ms": 3267,
+  "props": {
+   "translate_x_px": [
+    0,
+    -200
+   ],
+   "blur_px": [
+    0,
+    8
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "blowing@~#500",
+  "evidence": "EST"
+ },
+ {
+  "id": "V10-A10",
+  "name": "X profile page to card",
+  "category": "transition",
+  "element": "X profile page to card",
+  "start_f": 630,
+  "end_f": 670,
+  "dur_ms": 1333,
+  "props": {
+   "scale": [
+    1,
+    0.8
+   ],
+   "blur_px": [
+    8,
+    0
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "personal@#627 (\u0394+3)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V10-A11",
+  "name": "Stripe payout toast",
+  "category": "graphic",
+  "element": "Stripe payout toast",
+  "start_f": 833,
+  "end_f": 846,
+  "dur_ms": 433,
+  "props": {
+   "width_px": [
+    116,
+    548
+   ],
+   "cx_px": [
+    154,
+    353
+   ]
+  },
+  "easing": "easeOutExpo",
+  "bezier": [
+   0,
+   0.9,
+   0,
+   1
+  ],
+  "overshoot_pct": 2,
+  "trigger_word": "two@#833 (\u03940)",
+  "evidence": "MEAS(rmse .017-.019)"
+ },
+ {
+  "id": "V10-A12",
+  "name": "captions sans+script+bold",
+  "category": "style",
+  "element": "captions sans+script+bold",
+  "start_f": 750,
+  "end_f": 1059,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "EST"
+ },
+ {
+  "id": "V10-A13",
+  "name": "post card 3D push",
+  "category": "camera",
+  "element": "post card 3D push",
+  "start_f": 1165,
+  "end_f": 1278,
+  "dur_ms": 3767,
+  "props": {
+   "scale": [
+    0.55,
+    1.1
+   ],
+   "rotate_y_deg": [
+    0,
+    -8
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$3,000@#1177 (\u0394-12)",
+  "evidence": "OBS(scale),EST(rotation)"
+ },
+ {
+  "id": "V10-A14",
+  "name": "green highlight on $3,000",
+  "category": "graphic",
+  "element": "green highlight on $3,000",
+  "start_f": 1180,
+  "end_f": 1190,
+  "dur_ms": 333,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$3,000@#1177 (\u0394+3)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V10-A15",
+  "name": "A-roll captions with script key",
+  "category": "style",
+  "element": "A-roll captions with script key",
+  "start_f": 1279,
+  "end_f": 1360,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Money",
+  "evidence": "EST"
+ },
+ {
+  "id": "V10-A16",
+  "name": "split-screen recap",
+  "category": "transition",
+  "element": "split-screen recap",
+  "start_f": 1361,
+  "end_f": 1530,
+  "dur_ms": 5633,
+  "props": {
+   "pane_height_pct_H": [
+    0,
+    50
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "brand@#1443 (\u0394-18)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V10-A17",
+  "name": "course banner rise",
+  "category": "graphic",
+  "element": "course banner rise",
+  "start_f": 1623,
+  "end_f": 1634,
+  "dur_ms": 367,
+  "props": {
+   "height_px": [
+    232,
+    313
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0,
+   0.3,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "learn@#1630 (\u0394-7)",
+  "evidence": "MEAS(\u2248,rmse .062)"
+ },
+ {
+  "id": "V10-A18",
+  "name": "20-days red ellipse",
+  "category": "graphic",
+  "element": "20-days red ellipse",
+  "start_f": 1785,
+  "end_f": 1797,
+  "dur_ms": 400,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "20@#1778 (\u0394+7)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V10-A19",
+  "name": "comment sheet + typed ACCESS",
+  "category": "ui",
+  "element": "comment sheet + typed ACCESS",
+  "start_f": 1815,
+  "end_f": 1880,
+  "dur_ms": 2167,
+  "props": {
+   "chars": [
+    0,
+    6
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "comment@#1805 (\u0394+10)",
+  "evidence": "OBS"
+ }
+]

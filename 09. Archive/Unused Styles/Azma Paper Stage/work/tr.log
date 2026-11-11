@@ -1,0 +1,55 @@
+Traceback (most recent call last):
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_transports/default.py", line 98, in map_httpcore_exceptions
+    yield
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_transports/default.py", line 245, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpcore2/_sync/connection_pool.py", line 242, in handle_request
+    raise exc from None
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpcore2/_sync/connection_pool.py", line 224, in handle_request
+    response = connection.handle_request(pool_request.request)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpcore2/_sync/http_proxy.py", line 290, in handle_request
+    raise ProxyError(msg)
+httpcore2.ProxyError: 403 Forbidden
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/mnt/Azma's style/work/tr.py", line 4, in <module>
+    m=WhisperModel('small',device='cpu',compute_type='int8')
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 276, in _inner
+    return fn(*args, **kwargs)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/huggingface_hub/_snapshot_download.py", line 279, in snapshot_download
+    repo_info = api.repo_info(repo_id=repo_id, repo_type=repo_type, revision=revision)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 3535, in repo_info
+    return method(
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 3214, in model_info
+    r = get_session().get(path, headers=headers, timeout=timeout, params=params)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_client.py", line 1113, in get
+    return self.request(
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_client.py", line 797, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_client.py", line 980, in send
+    response = self._send_handling_auth(
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_client.py", line 1008, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_client.py", line 1043, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_client.py", line 1076, in _send_single_request
+    response = transport.handle_request(request)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_transports/default.py", line 244, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/sessions/rcw-01fluxwm4l5i2uz3dwa2nvlm/.local/lib/python3.10/site-packages/httpx2/_transports/default.py", line 115, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx2.ProxyError: 403 Forbidden

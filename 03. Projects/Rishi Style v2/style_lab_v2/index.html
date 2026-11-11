@@ -1,0 +1,277 @@
+<!-- Rishi v2 · STYLE LAB v2 (2026-11-09): fixes + variations from Rishi's Style Lab v1 notes. Built from style_lab_v1.
+     Not tied to one video: a board of animated style options to upgrade the pack in "Updated Rishi's editing style/".
+     A = what the pack does today; B–F = new extrapolations; last section = upgrades to motions already saved.
+     Every tile loops; click a phone to replay it. Mock-ups are sketches: the real build uses the RVM matte, Tesseract eases, real footage. -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Style Lab v2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<style>
+@property --n{syntax:'<integer>';inherits:false;initial-value:0}
+@property --p{syntax:'<number>';inherits:false;initial-value:0}
+:root{--bg:#EEF0F5;--line:#E2E5EC;--ink:#14161C;--mute:#6A7080;--keep:#1F9D6B;--maybe:#D99A1E;--no:#D2464C;
+ --ice:#EAF0F8;--rink:#0B1224;--itext:#0B1730;--muted:#4A5878;--acc:#3E7BFA;--cdark:#121C38;--green:#2FD08A;--hl:#FFD68A}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.top{position:sticky;top:0;z-index:20;background:rgba(238,240,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .in{max-width:1560px;margin:auto;padding:12px 24px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.top h1{font-size:20px;margin:0;font-weight:800;letter-spacing:-.02em}
+.top .count{font-size:13px;color:var(--mute)}
+.top button{font:600 13px Inter;border:0;border-radius:10px;padding:9px 14px;cursor:pointer;background:var(--ink);color:#fff}
+.top button.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.wrap{max-width:1560px;margin:auto;padding:16px 24px 80px}
+.intro{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:8px 0 10px}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:13.5px;line-height:1.5}
+.box h3{margin:0 0 6px;font-size:14px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.toc a{font-size:12.5px;font-weight:600;color:var(--ink);text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+.src{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:6px;padding:2px 7px;margin-right:4px}
+.s-now{background:#E6ECF7;color:#0B1224}.s-new{background:#E3EBFF;color:#0B52F9}.s-up{background:#E2F5EE;color:#1E5B47}.s-fix{background:#FFF1D6;color:#8A5A00}
+section.beat{margin:38px 0 0;scroll-margin-top:70px}
+.bh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:2px}
+.bh h2{margin:0;font-size:22px;letter-spacing:-.02em}
+.line{font-size:14px;color:#3a3f4b;margin:2px 0 12px;max-width:980px;line-height:1.45}
+.opts{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+@media(max-width:1400px){.opts{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){.opts{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap,.top .in{padding-left:16px;padding-right:16px}}
+.opt{background:#fff;border:2px solid transparent;border-radius:16px;padding:10px;display:flex;flex-direction:column;gap:8px;box-shadow:0 1px 0 var(--line)}
+.opt[data-v=keep]{border-color:var(--keep)}.opt[data-v=maybe]{border-color:var(--maybe)}.opt[data-v=no]{opacity:.45}
+.oh{display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.oh b{font-size:14px}
+.name{font-weight:700;font-size:13.5px;line-height:1.25}
+.desc{font-size:12px;line-height:1.45;color:#3a3f4b}
+.mot{font-size:11px;color:var(--mute);line-height:1.4}
+.bld{font-size:11px;color:#1E5B47;line-height:1.4}
+.btns{display:flex;gap:6px;margin-top:auto}
+.btns button{flex:1;font:600 12px Inter;padding:7px 0;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.opt[data-v=keep] .k{background:var(--keep);color:#fff;border-color:var(--keep)}
+.opt[data-v=maybe] .m{background:var(--maybe);color:#fff;border-color:var(--maybe)}
+.opt[data-v=no] .n{background:var(--no);color:#fff;border-color:var(--no)}
+textarea{width:100%;margin-top:10px;border:1px solid var(--line);border-radius:10px;padding:10px;font:13px Inter;min-height:44px;resize:vertical;background:#fff}
+.rec{font-size:10.5px;font-weight:700;color:#fff;background:var(--ink);border-radius:6px;padding:2px 6px}
+.sumout{white-space:pre-wrap;font:12px/1.5 ui-monospace,monospace;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;display:none;margin-top:12px}
+/* ---------- phone + drawing kit (all sizes in cqw: 1080 px = 100cqw) ---------- */
+.ph{position:relative;width:100%;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:#000;container-type:inline-size;font-family:Inter;cursor:pointer;isolation:isolate}
+.ph:not(.vis) *,.ph:not(.vis) *::before,.ph:not(.vis) *::after{animation-play-state:paused!important}
+.ph>*{position:absolute}
+.ph .rp{right:2cqw;bottom:2cqw;font-size:3cqw;color:rgba(255,255,255,.75);background:rgba(0,0,0,.35);border-radius:2cqw;padding:.6cqw 1.6cqw;z-index:50;opacity:0;transition:opacity .2s}
+.ph:hover .rp{opacity:1}
+.fill{inset:0}
+.still{inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.grain::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.32;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.grain.coarse::after{background-size:533px 533px}
+.grain.dk::after{mix-blend-mode:screen;opacity:.16}
+.botgrad{left:0;right:0;bottom:0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.45))}
+.pf{font-family:'Playfair Display',serif;font-style:italic;font-weight:700}
+.pfr{font-family:'Playfair Display',serif;font-weight:500}
+.c{left:0;right:0;text-align:center}
+.sup{font-weight:500;font-size:4.45cqw;color:rgba(255,255,255,.85);white-space:nowrap}
+.hero{font-size:12.2cqw;line-height:1;color:#fff;white-space:nowrap}
+.ib{display:inline-block}
+.wc{background:radial-gradient(130% 120% at 50% 40%,transparent 58%,rgba(0,0,0,.07)),linear-gradient(#fff,#E4E6EA);border-radius:3cqw;box-shadow:0 1.3cqw 2.8cqw rgba(11,18,36,.16)}
+.dc{background:var(--cdark);border-radius:3cqw;box-shadow:0 1.3cqw 3cqw rgba(0,0,0,.4);color:#F2F6FC}
+.hdr{display:flex;align-items:center;gap:1.6cqw;font-weight:600;font-size:3.4cqw;color:var(--itext);white-space:nowrap}
+.hdr img{width:4.6cqw;height:4.6cqw}
+.bar{height:1.6cqw;border-radius:1cqw;background:#D5D9E0;margin-top:2cqw}
+.bar.h{background:#B9C0CC;height:2.1cqw;width:55%}
+.ink{color:var(--itext)}
+.sil{inset:0;background:url(stills/aroll.jpg) center/cover;z-index:5;clip-path:polygon(45% 12.5%,36% 13.5%,26% 17%,20% 22%,18.5% 28%,20% 34%,21% 41%,24% 47%,20% 51%,8% 54%,0% 56%,0% 100%,100% 100%,100% 50%,80% 50.5%,66% 49%,69% 43%,71% 37%,72.5% 29%,72% 21%,67% 16%,58% 13%)}
+.sk{left:2cqw;top:2cqw;font-size:2.6cqw;font-weight:600;color:rgba(255,255,255,.8);background:rgba(0,0,0,.35);border-radius:1.4cqw;padding:.5cqw 1.4cqw;z-index:40}
+.half{left:0;right:0;height:50%;overflow:hidden;container-type:inline-size}
+.half>*{position:absolute}
+.hl{left:2cqw;top:2cqw;font-size:2.8cqw;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:1.2cqw;padding:.5cqw 1.4cqw;z-index:9}
+.tickc{width:4.6cqw;height:4.6cqw;border-radius:50%;display:grid;place-items:center;flex:none}
+.row{display:flex;align-items:center;gap:2cqw;font-size:3.4cqw;font-weight:500;color:var(--itext);padding:2.1cqw 0;border-bottom:1px solid #E1E4EA;white-space:nowrap}
+.row:last-child{border-bottom:0}
+.dig{display:inline-block;height:1em;overflow:hidden;line-height:1;vertical-align:top}
+.dig>span{display:block}.dig>span>span{display:block;height:1em;line-height:1em}
+</style>
+</head>
+<body>
+<div class="top"><div class="in">
+ <h1>Style Lab v2 · your notes, applied</h1>
+ <span class="count" id="count">0 kept · 0 maybe · 0 no</span>
+ <span style="flex:1"></span>
+ <button class="alt" id="replay">Replay all</button>
+ <button id="copy">Copy my picks</button>
+ <button class="alt" id="dl">Download picks .txt</button>
+</div></div>
+<div class="wrap">
+ <div class="intro">
+  <div class="box"><h3>What this is</h3>Your Style Lab v1 picks are already written into the pack (v2.1: <code>MOTION_LIBRARY</code> R26–R50, captions, grounds, accents, the "re-offer everything I liked" rule). This board shows only the things your notes asked me to <b>change</b> or <b>add</b>, so you can confirm them before they become defaults.</div>
+  <div class="box"><h3>How to use</h3>Same as v1: phones loop, click to replay. <span class="src s-fix">Fixed</span>= a v1 option with your note applied. <span class="src s-new">New variation</span>= an extra option you described. Keep / Maybe / No, notes, then <b>Copy my picks</b>.</div>
+  <div class="box"><h3>Assumptions (tell me if wrong)</h3>"Enter" in your notes = Inter. "Sea" / "deep" in the upgrades = options C and D. The texture you liked in "zoom through a window" = the coarser grain (the window was scaled up 3.3×, so its grain got 3.3× bigger). Behind-the-head tiles are still sketches; the build uses the matte.</div>
+ </div>
+ <div class="toc" id="toc"></div>
+ <div id="beats"></div>
+ <div class="sumout" id="sum"></div>
+</div>
+<script>
+/* ---------- motion kit: absolute-time keyframes inside one loop (L s). Eases = pack E1 / ES / EX ---------- */
+const E1="cubic-bezier(.22,1,.36,1)",ES="cubic-bezier(.45,.05,.2,1)",EX="cubic-bezier(.55,0,.75,.4)",IO="cubic-bezier(.37,0,.63,1)";
+const CSS=[],made={};
+function kf(name,L,frames){
+ if(made[name])return name;made[name]=1;
+ frames=frames.slice().sort((a,b)=>a[0]-b[0]);
+ CSS.push("@keyframes "+name+"{"+frames.map(([t,p,e])=>(Math.min(100,Math.max(0,t/L*100))).toFixed(3)+"%{"+p+(e?";animation-timing-function:"+e:"")+"}").join("")+"}");
+ return name;
+}
+const run=(name,L)=>`animation:${name} ${L}s infinite both`;
+const id=(...a)=>a.join("_").replace(/[^a-z0-9_]/gi,"x");
+// generic generators: d = start (s), L = loop, out = exit start
+function anim(tag,L,frames){return run(kf(id(tag,L,JSON.stringify(frames).length,hash(JSON.stringify(frames))),L,frames),L)}
+function hash(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))|0;return (h>>>0).toString(36)}
+const OUT=L=>L-.75;
+// R01 line -> rectangle (+ optional shadow-grow upgrade)
+function rect(d,L=5,exit="translateX(-30cqw)"){const H="opacity:0;transform:translateY(3.7cqw) scale(.96,.03);filter:blur(1.7cqw)",V="opacity:1;transform:none;filter:blur(0)";
+ return anim("rect",L,[[0,H],[d,H,ES],[d+.23,"opacity:1"],[d+.65,V],[OUT(L),V,EX],[OUT(L)+.5,"opacity:0;transform:"+exit+";filter:blur(1.3cqw)"],[L,"opacity:0;transform:"+exit+";filter:blur(1.3cqw)"]])}
+// R03 word rise
+function rise(d,L=5,dy=2.4,dur=.5){const H=`opacity:0;transform:translateY(${dy}cqw)`,V="opacity:1;transform:none";
+ return anim("rise",L,[[0,H],[d,H,E1],[d+dur,V],[OUT(L),V,EX],[OUT(L)+.4,"opacity:0;transform:translateY(-1.6cqw)"],[L,"opacity:0;transform:translateY(-1.6cqw)"]])}
+function fade(d,L=5,dur=.45,o=1){return anim("fade",L,[[0,"opacity:0"],[d,"opacity:0",E1],[d+dur,"opacity:"+o],[OUT(L),"opacity:"+o,EX],[OUT(L)+.4,"opacity:0"],[L,"opacity:0"]])}
+// R04 hero letter build
+function letters(text,d,step=.035,L=5){return [...text].map((ch,i)=>ch===" "?" ":`<span class="ib" style="${letter(d+i*step,L)}">${ch}</span>`).join("")}
+function letter(t,L){const H="opacity:0;transform:translateX(-2.2cqw);filter:blur(.74cqw)",V="opacity:1;transform:none;filter:blur(0)";
+ return anim("let",L,[[0,H],[t,H,E1],[t+.28,"opacity:1"],[t+.42,V],[OUT(L),V,EX],[OUT(L)+.4,"opacity:0;transform:none;filter:blur(.5cqw)"],[L,"opacity:0"]])}
+const words=(arr,d,step=.15,L=5)=>arr.map((w,i)=>`<span class="ib" style="${rise(d+i*step,L)}">${w}</span>`).join(" ");
+// stroke draw (SVG pathLength=100)
+function draw(d,L=5,dur=.6){return anim("draw",L,[[0,"stroke-dashoffset:100;opacity:1"],[d,"stroke-dashoffset:100",ES],[d+dur,"stroke-dashoffset:0"],[OUT(L),"stroke-dashoffset:0;opacity:1",EX],[OUT(L)+.4,"opacity:0;stroke-dashoffset:0"],[L,"opacity:0;stroke-dashoffset:0"]])}
+function scaleX(d,L=5,dur=.6,origin){return anim("sx",L,[[0,"transform:scaleX(0)"],[d,"transform:scaleX(0)",ES],[d+dur,"transform:scaleX(1)"],[OUT(L),"transform:scaleX(1);opacity:1",EX],[OUT(L)+.4,"opacity:0;transform:scaleX(1)"],[L,"opacity:0;transform:scaleX(1)"]])}
+
+/* ---------- scene pieces ---------- */
+const IMG="stills/aroll.jpg",CL=`<img src="assets/claude.png" alt="">`,GH=`<img src="assets/github.png" alt="" style="width:3.4cqw;height:3.4cqw;opacity:.75">`;
+const AR=(inner="",grad=true)=>`<img class="still" src="${IMG}" alt="">${grad?'<div class="botgrad"></div>':""}${inner}`;
+const ICE=(inner="",bg="var(--ice)")=>`<div class="fill grain" style="background:${bg}"></div>${inner}`;
+const SK=t=>`<div class="sk">${t}</div>`;
+const lines=(d,L=5,n=[90,70,82,60],step=.12)=>n.map((w,i)=>`<div class="bar" style="width:${w}%;${rise(d+i*step,L,1.6)}"></div>`).join("");
+const docInner=(d,L=5)=>`<div class="hdr">${CL}design-skill.md</div><div class="bar h" style="margin-top:3.4cqw;${rise(d,L,1.6)}"></div>${lines(d+.12,L)}`;
+const capInk=(sup,hero,d=.2,L=5,top="9%",size=10)=>`<div class="c" style="top:${top};z-index:6"><div class="sup" style="color:var(--muted);font-size:3.9cqw">${words(sup.split(" "),d,.15,L)}</div><div class="pf ink" style="font-size:${size}cqw;line-height:1.05;white-space:nowrap">${letters(hero,d+.3,.035,L)}</div></div>`;
+const capA=(sup,hero,d=.2,L=5,top="63%")=>`<div class="c" style="top:${top};z-index:6"><div class="sup">${words(sup.split(" "),d,.16,L)}</div><div class="pf hero">${letters(hero,d+.35,.035,L)}</div></div>`;
+const tick=(c="var(--acc)")=>`<span class="tickc" style="background:${c}"><svg viewBox="0 0 10 10" style="width:60%"><path d="M2 5.3 4.2 7.3 8 3" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>`;
+const BLOB=(fill="url(#bg)")=>`<svg viewBox="0 0 100 100" style="width:100%;height:100%;overflow:visible"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5D8BFF"/><stop offset="1" stop-color="#0839B0"/></linearGradient></defs><path d="M52 6C70 5 90 18 94 38S88 78 70 90 30 98 16 82 4 46 14 28 34 7 52 6Z" fill="${fill}"/></svg>`;
+
+/* ---------- sections ---------- */
+const BEATS=[
+{id:"fix",title:"1 · Fixes to options you kept",sub:"Each tile is a v1 option redrawn with your note applied. Keep = the fix is right and goes into the pack as drawn. No = tell me what's still off in the notes.",opts:[
+ {n:"Caption A: \"hai\" tight under the hero",tag:"fix",d:"The support line below the hero now sits right under it (+0.55 × its size) instead of floating far below.",m:"same R03 + R04 · lower support baseline = hero + 26 px at 1080.",b:"Easy: one constant in the caption block.",
+  draw:L=>AR(`<div class="c" style="top:63%;z-index:6"><div class="sup">${words(["aisa","kuch"],.25,.16,L)}</div><div class="pf hero">${letters("nahi hota",.6,.035,L)}</div><div class="sup" style="margin-top:.5cqw">${words(["hai."],1.15,0,L)}</div></div>`)},
+ {n:"Frosted glass, placed low",tag:"fix",d:"The frosted card now sits in the lower half, over your hand and the bottom gradient, so the condense is easy to see and your face stays clear.",m:"R28 · glass → solid 0.9 s ES · text blur 10 → 0.",b:"Medium: blurred A-roll copy masked to the card.",
+  draw:L=>AR(`<div style="left:8%;right:8%;top:56%;height:30%;border-radius:3cqw;overflow:hidden;backdrop-filter:blur(2.4cqw);-webkit-backdrop-filter:blur(2.4cqw);border:1px solid rgba(255,255,255,.55);box-shadow:0 1.3cqw 2.8cqw rgba(11,18,36,.2);${fade(.4,L,.35)}"><div class="wc" style="position:absolute;inset:0;border-radius:0;${anim("solid",L,[[0,"opacity:.12"],[.75,"opacity:.12",ES],[1.65,"opacity:1"],[L,"opacity:1"]])}"></div><div style="position:absolute;inset:0;padding:5cqw;${anim("tblur",L,[[0,"filter:blur(1cqw)"],[.75,"filter:blur(1cqw)",ES],[1.65,"filter:blur(0)"],[L,"filter:blur(0)"]])}"><div class="hdr">${CL}design-skill.md</div><div class="bar h" style="margin-top:3.4cqw"></div><div class="bar" style="width:90%"></div><div class="bar" style="width:70%"></div></div></div>`)},
+ {n:"Deck fans in (bottom-centre anchor)",tag:"fix",d:"All three cards pivot on the centre of their bottom edge. They start fanned wide (−22° / 0 / +22°) and close in toward each other, stopping at a still-visible fan (−7° / 0 / +7°).",m:"R29 · rotate wide → narrow 0.9 s ES + fade + blur 10 → 0, 0.12 s stagger.",b:"Easy: anchor point + rotation keys.",
+  draw:L=>{const c=(d,r0,r1)=>{const H=`opacity:0;transform:rotate(${r0}deg);filter:blur(1cqw)`,V=`opacity:1;transform:rotate(${r1}deg);filter:blur(0)`;return anim("fan",L,[[0,H],[d,H,ES],[d+.35,`opacity:1`],[d+.9,V],[OUT(L),V,EX],[OUT(L)+.5,`opacity:0;transform:rotate(${r1}deg) translateY(-8cqw);filter:blur(1cqw)`],[L,"opacity:0"]])};
+   const card=(s,inner="")=>`<div class="wc" style="left:22%;right:22%;top:30%;height:36%;padding:4cqw;transform-origin:50% 100%;${s}">${inner}</div>`;
+   return ICE(capInk("itni saari","skills",.1,L)+card(c(.45,-22,-7))+card(c(.57,22,7))+card(c(.69,0,0),`<div class="hdr" style="font-size:3cqw">${GH} pacing.skill.md</div><div class="bar h" style="margin-top:3cqw"></div><div class="bar" style="width:85%"></div><div class="bar" style="width:66%"></div>`))}},
+ {n:"Pane drop, full hair line visible",tag:"fix",d:"The face shifts down far enough that your whole hair line sits just below the pane edge (in this still that's +40 %; in the build it's measured from the face track).",m:"R08 · pane 1.0 s ES · face shift synced.",b:"Easy: one offset, from the face track.",
+  draw:L=>{const sh=anim("sh",L,[[0,"transform:none"],[.8,"transform:none",ES],[1.8,"transform:translateY(39%)"],[OUT(L)-.2,"transform:translateY(39%)",ES],[L-.25,"transform:none"],[L,"transform:none"]]),pn=anim("pn",L,[[0,"transform:translateY(-101%)"],[.8,"transform:translateY(-101%)",ES],[1.8,"transform:none"],[OUT(L)-.2,"transform:none",ES],[L-.25,"transform:translateY(-101%)"],[L,"transform:translateY(-101%)"]]);
+   return `<div class="fill" style="background:#0D0E12"></div><img class="still" src="${IMG}" style="${sh}"><div class="grain" style="left:0;right:0;top:0;height:49%;background:var(--ice);${pn}"><div class="c" style="position:absolute;top:12%"><div class="sup" style="color:var(--muted);font-size:3.9cqw">${words(["collect","all the"],1.9,.15,L)}</div><div class="pf ink" style="font-size:10cqw">${letters("skills",2.2,.04,L)}</div></div><div style="position:absolute;left:8%;right:8%;top:45%;display:grid;grid-template-columns:repeat(3,1fr);gap:2.4cqw">${["timing","palette","pacing","texture","rhythm","type"].map((t,i)=>`<div class="wc" style="padding:2.4cqw;font:600 2.8cqw Inter;color:var(--itext);display:flex;gap:1cqw;align-items:center;${rise(2.4+i*.12,L,2)}">${GH}${t}</div>`).join("")}</div></div>`},L:6},
+ {n:"Rack focus, bottom half only",tag:"fix",d:"Only the bottom half defocuses and darkens into the gradient; the card lands there. Your face at the top stays sharp the whole time.",m:"R34 · bottom-half blur 12 px + dim, card blur 16 → 0 + scale 104 → 100 %, 0.9 s ES in sync.",b:"Easy: blurred A-roll copy with a gradient mask.",
+  draw:L=>{const fb=anim("fb",L,[[0,"opacity:0"],[1,"opacity:0",ES],[1.9,"opacity:1"],[4.4,"opacity:1",ES],[5.3,"opacity:0"],[L,"opacity:0"]]);
+   const cb=anim("cb",L,[[0,"opacity:0;filter:blur(1.6cqw);transform:scale(1.04)"],[1,"opacity:0;filter:blur(1.6cqw);transform:scale(1.04)",ES],[1.9,"opacity:1;filter:blur(0);transform:none"],[4.4,"opacity:1;filter:blur(0);transform:none",ES],[5.3,"opacity:0;filter:blur(1.6cqw);transform:scale(1.04)"],[L,"opacity:0"]]);
+   return `<img class="still" src="${IMG}"><div class="fill" style="-webkit-mask-image:linear-gradient(transparent 44%,#000 60%);mask-image:linear-gradient(transparent 44%,#000 60%);overflow:hidden;${fb}"><img class="still" src="${IMG}" style="filter:blur(1.1cqw) brightness(.7);transform:scale(1.05)"><div class="fill" style="background:linear-gradient(transparent 50%,rgba(0,0,0,.45))"></div></div><div class="wc" style="left:9%;right:9%;top:57%;height:28%;padding:5cqw;${cb}"><div class="hdr">${CL}design-skill.md</div><div class="bar h" style="margin-top:3.4cqw"></div><div class="bar" style="width:90%"></div><div class="bar" style="width:70%"></div></div>`},L:6},
+ {n:"Blob wipe, parallax outro",tag:"fix",d:"Same intro you liked (the blob grows from behind your head). For the outro, the blue ground slides down and away while your face glides back in from the top, R31-style. No blob shrinking back.",m:"R32 in 1.1 s ES · out: ground y 0 → 100 %, face y −70 → 0 %, 1.0 s ES.",b:"Medium: shape scale + two position keys.",
+  draw:L=>{const b=anim("bw",L,[[0,"transform:translate(-50%,-50%) scale(.05) rotate(0)"],[.9,"transform:translate(-50%,-50%) scale(.05) rotate(0)",ES],[2.0,"transform:translate(-50%,-50%) scale(9) rotate(25deg)"],[L,"transform:translate(-50%,-50%) scale(9) rotate(32deg)"]]);
+   const g=anim("bwg",L,[[0,"transform:none"],[4.3,"transform:none",ES],[5.3,"transform:translateY(100%)"],[L-.01,"transform:translateY(100%)"],[L,"transform:none"]]);
+   const f=anim("bwf",L,[[0,"transform:none"],[4.29,"transform:none"],[4.3,"transform:translateY(-70%)",ES],[5.3,"transform:none"],[L,"transform:none"]]);
+   return `<div class="fill" style="background:#0D0E12"></div><img class="still" src="${IMG}" style="${f}"><div class="fill" style="overflow:hidden;${g}"><div style="left:45%;top:30%;width:40cqw;height:40cqw;position:absolute;${b}">${BLOB()}</div><div class="c" style="position:absolute;top:40%;z-index:6"><div class="sup" style="color:rgba(255,255,255,.8)">${words(["ye","hai"],2.0,.15,L)}</div><div class="pf hero">${letters("taste.",2.25,.04,L)}</div></div></div>`},L:6},
+ {n:"Number: Inter digits, Playfair word",tag:"fix",d:"Digits roll up in Inter Bold; the word under them (\"drafts tak\") is Playfair italic.",m:"R35 · strips 1.4 s ES · word R04 after.",b:"Medium: text strip inside a mask.",
+  draw:L=>{const st=(n,d,dur)=>anim("odo",L,[[0,"transform:translateY(0)"],[d,"transform:translateY(0)",ES],[d+dur,`transform:translateY(-${n}em)`],[OUT(L),`transform:translateY(-${n}em);opacity:1`,EX],[OUT(L)+.4,`transform:translateY(-${n}em);opacity:0`],[L,`opacity:0;transform:translateY(-${n}em)`]]);
+   const strip=n=>[...Array(n+1).keys()].map(i=>`<span>${i%10}</span>`).join("");
+   return ICE(`<div class="wc" style="left:14%;right:14%;top:30%;height:32%;${rect(.3,L)}"><div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center"><div style="font:700 22cqw Inter;letter-spacing:-.03em;color:var(--itext);line-height:1"><span class="dig"><span style="${st(4,.9,1.2)}">${strip(4)}</span></span><span class="dig"><span style="${st(17,.9,1.5)}">${strip(17)}</span></span></div><div class="pf" style="font-size:8cqw;color:var(--itext);margin-top:1cqw">${letters("drafts tak",2.2,.04,L)}</div></div></div>`)}},
+ {n:"Graph: label above the line",tag:"fix",d:"\"v4\" now sits above the end of the line with clear space, never on it.",m:"R42 · line 1.2 s ES · dot · label R04 above.",b:"Easy.",
+  draw:L=>ICE(capInk("har draft ke saath","better",.1,L)+`<div class="wc" style="left:8%;right:8%;top:30%;height:34%;padding:4cqw;${rect(.4,L)}"><div style="font:600 3cqw Inter;color:var(--muted)">quality per draft</div><div class="pf ink" style="position:absolute;right:4.5%;top:17%;font-size:7.5cqw;line-height:1">${letters("v4",2.3,.05,L)}</div><svg viewBox="0 0 100 50" style="position:absolute;left:5%;bottom:8%;width:90%;height:56%;overflow:visible"><path d="M0 48H100" stroke="#D5D9E0" stroke-width=".5"/><path d="M2 44 C20 42,28 36,40 33 S62 22,72 18 S88 10,95 8" pathLength="100" stroke="var(--acc)" stroke-width="1.6" fill="none" stroke-linecap="round" style="stroke-dasharray:100;${draw(1.1,L,1.2)}"/><circle cx="95" cy="8" r="2" fill="var(--acc)" style="${fade(2.25,L,.3)};filter:drop-shadow(0 0 2px #3E7BFA)"/></svg></div>`)},
+ {n:"Stats: Inter numbers, Playfair labels",tag:"fix",d:"Numbers count up in Inter Bold (no italics); the labels are Playfair roman.",m:"R44 · rows R03 (eased stagger) · count 1.2 s ES.",b:"Medium: text value keys.",
+  draw:L=>{const cnt=(d,n)=>anim("cnt",L,[[0,"--n:0"],[d,"--n:0",ES],[d+1.2,"--n:"+n],[L,"--n:"+n]]);const row=(lab,n,d)=>`<div class="row" style="${rise(d,L,1.6)}"><span class="pfr" style="flex:1;font-size:4.2cqw">${lab}</span><b style="font:700 6cqw Inter;counter-reset:n var(--n);${cnt(d+.1,n)}"><span class="cn"></span></b></div>`;
+   return ICE(capInk("itni","mehnat",.1,L)+`<div class="wc" style="left:10%;right:10%;top:30%;padding:2cqw 5cqw;${rect(.4,L)}">${row("drafts",4,.9)}${row("feedback notes",28,1.1)}${row("skill files",17,1.25)}</div>`)}},
+ {n:"Arc above the hair, labels above dots",tag:"fix",d:"The arc rises behind your head until its top clears your hair; v1–v4 labels sit above their dots so nothing overlaps.",m:"R40 · arc rise 1.0 s ES · dots + labels 0.25 s apart.",b:"Easy with the matte.",
+  draw:L=>{const dot=(d,x,y,t)=>`<div style="left:${x}%;top:${y}%;transform:translate(-50%,calc(-100% + 1.3cqw));text-align:center;${anim("vd",L,[[0,"opacity:0"],[d,"opacity:0",E1],[d+.4,"opacity:1"],[OUT(L),"opacity:1",EX],[OUT(L)+.4,"opacity:0"],[L,"opacity:0"]])}"><div style="font:700 3cqw Inter;color:#fff;margin-bottom:1cqw;text-shadow:0 .3cqw 1cqw rgba(0,0,0,.7)">${t}</div><div style="width:2.6cqw;height:2.6cqw;border-radius:50%;background:#fff;box-shadow:0 0 2cqw #8CB0FF;margin:auto"></div></div>`;
+   return `<img class="still" src="${IMG}"><div style="left:-20%;width:140%;top:9%;height:80%;border-radius:50%;border-top:.6cqw solid rgba(255,255,255,.95);box-shadow:0 -1.4cqw 4cqw -1cqw rgba(140,176,255,.8);${anim("arc",L,[[0,"opacity:0;transform:translateY(8%)"],[.3,"opacity:0;transform:translateY(8%)",ES],[1.3,"opacity:1;transform:none"],[OUT(L),"opacity:1;transform:none",EX],[OUT(L)+.4,"opacity:0;transform:none"],[L,"opacity:0"]])}"></div>${dot(1.3,12,15.4,"v1")}${dot(1.55,34,10.1,"v2")}${dot(1.8,66,10.1,"v3")}${dot(2.05,88,15.4,"v4")}<div class="sil"></div>${SK("sketch · real build uses the matte")}`}},
+ {n:"Screens appear together, then split",tag:"fix",d:"All three screens come out from behind your head together as one stack, pause a beat, then split left / up / right. Crisp version.",m:"R39 · stack fade + rise 0.5 s E1 · hold 0.25 s · split 0.8 s ES.",b:"Easy with the matte.",
+  draw:L=>fanScreens(L,false)},
+ {n:"Same, with the blurred \"reveal pending\" screens",tag:"fix",d:"Same move, but the screens stay softly blurred, for when the real reveal comes later in the video.",m:"as above + screens held at blur 6 px.",b:"Easy.",
+  draw:L=>fanScreens(L,true)},
+ {n:"Orbit: fast start, slow settle",tag:"fix",d:"The orbit words whip in fast and decelerate into a slow lap (the R11 curve). Only used when the frame has room; click to replay the fast start.",m:"speed = 1 + 5·e^(−t/0.9) laps-rate multiplier → settles to slow.",b:"Medium: matte + layer swap per half lap.",
+  draw:L=>{const W=["palette","rhythm","pacing","texture","timing","typography"];
+   return `<img class="still" src="${IMG}"><div class="sil"></div>${W.map((w,i)=>`<div class="orb" style="left:45%;top:22%;font:600 3.6cqw Inter;color:#fff;white-space:nowrap;text-shadow:0 .4cqw 1.4cqw rgba(0,0,0,.5);animation:orbit 9s linear infinite;animation-delay:${-i*9/W.length}s">${w}</div>`).join("")}${SK("sketch · real build uses the matte")}`}},
+]},
+{id:"var",title:"2 · New variations you asked for",sub:"Variations from your notes. Keep = it goes into the pack as an extra option next to the original.",opts:[
+ {n:"Spotlight: cards slide in, then glow",tag:"new",d:"The side cards glide in from the left and right edges, the centre card rises from below, all three align, then the rest dims and the centre lifts with the glow (R38b).",m:"slides 0.8 s E1 (side cards first, centre +0.15 s) · veil 0.6 s ES · lift 107 %.",b:"Easy.",
+  draw:L=>{const lift=anim("lift",L,[[0,"transform:none;box-shadow:0 1.3cqw 2.8cqw rgba(11,18,36,.16)"],[2.0,"transform:none;box-shadow:0 1.3cqw 2.8cqw rgba(11,18,36,.16)",ES],[2.7,"transform:scale(1.07);box-shadow:0 2.4cqw 6cqw rgba(62,123,250,.35)"],[L,"transform:scale(1.07);box-shadow:0 2.4cqw 6cqw rgba(62,123,250,.35)"]]);
+   const mv=(from,d)=>anim("sp",L,[[0,`opacity:0;transform:${from};filter:blur(1cqw)`],[d,`opacity:0;transform:${from};filter:blur(1cqw)`,E1],[d+.3,"opacity:1"],[d+.8,"opacity:1;transform:none;filter:blur(0)"],[OUT(L),"opacity:1;transform:none",EX],[OUT(L)+.5,"opacity:0;transform:translateY(-6cqw)"],[L,"opacity:0"]]);
+   const card=(t,x,s,extra="")=>`<div style="left:${x}%;width:28%;top:36%;height:22%;${s};${extra}"><div class="wc" style="width:100%;height:100%;padding:3cqw;${extra.includes("z-index")?lift:""}"><div class="hdr" style="font-size:2.6cqw;gap:1cqw">${GH}${t}</div><div class="bar" style="width:80%"></div><div class="bar" style="width:60%"></div></div></div>`;
+   return ICE(capInk("sabse zaroori","pacing",.1,L)+card("timing.md",5,mv("translateX(-45cqw)",.5))+card("palette.md",67,mv("translateX(45cqw)",.5))+`<div class="fill" style="background:rgba(234,240,248,.6);z-index:3;${anim("veil",L,[[0,"opacity:0"],[2.0,"opacity:0",ES],[2.6,"opacity:1"],[OUT(L),"opacity:1",EX],[OUT(L)+.4,"opacity:0"],[L,"opacity:0"]])}"></div>`+card("pacing.md",36,mv("translateY(40cqw)",.65),"z-index:4"))}},
+ {n:"Coarse grain behind cards",tag:"new",d:"The texture you liked inside the \"zoom through a window\" tile: the same ice ground with grain about 3× coarser. Proposed as the default texture behind every card scene.",m:"static · grain ≈3.3× size.",b:"Easy: grain size (calibrate on a 1080p test still).",draw:L=>`<div class="fill grain coarse" style="background:var(--ice)"></div>`+sample(L)},
+ {n:"Lighter dots + mesh light",tag:"new",d:"The drifting dot grid with lighter, smaller dots, plus the slow mesh light (your favourite) moving behind it.",m:"dots drift 1.5 %/s · mesh clouds 6 s sine.",b:"Easy.",
+  draw:L=>`<div class="fill" style="background:#F2F4F8"></div><div style="width:90%;height:50%;border-radius:50%;background:#DCE5F7;filter:blur(8cqw);${anim("m1",L,[[0,"transform:translate(-20%,0%)"],[L/2,"transform:translate(30%,40%)",IO],[L,"transform:translate(-20%,0%)"]])}"></div><div style="width:70%;height:40%;border-radius:50%;background:#fff;filter:blur(6cqw);right:-10%;bottom:10%;${anim("m2",L,[[0,"transform:translate(0,0)"],[L/2,"transform:translate(-30%,-40%)",IO],[L,"transform:translate(0,0)"]])}"></div><div class="fill" style="background:radial-gradient(circle,#D6DBE3 .24cqw,transparent .3cqw) 0 0/5cqw 5cqw;${anim("dots",L,[[0,"background-position:0 0"],[L,"background-position:5cqw 10cqw"]])};animation-timing-function:linear"></div><div class="fill grain"></div>`+sample(L),L:6},
+ {n:"Ink spotlight + white card",tag:"new",d:"The dark ink ground with the drifting spotlight, but the card is the standard white card: strongest contrast in the pack.",m:"spotlight drift 6 s sine · card R01.",b:"Easy.",
+  draw:L=>`<div class="fill" style="background:var(--rink)"></div><div style="width:120%;height:70%;left:-10%;top:5%;background:radial-gradient(closest-side,rgba(62,123,250,.3),transparent);${anim("spot",L,[[0,"transform:translate(-15%,0)"],[L/2,"transform:translate(15%,10%)",IO],[L,"transform:translate(-15%,0)"]])}"></div><div class="fill grain dk"></div><div class="c" style="top:12%"><div class="sup" style="color:#9AA8C7;font-size:3.9cqw">ye hai</div><div class="pf" style="font-size:10cqw;color:#fff">taste</div></div><div class="wc" style="left:10%;right:10%;top:32%;height:34%;padding:5cqw;box-shadow:0 2cqw 6cqw rgba(0,0,0,.5);${rect(.4,L)}"><div class="hdr">${CL}design-skill.md</div><div class="bar h" style="margin-top:3.4cqw"></div><div class="bar" style="width:90%"></div><div class="bar" style="width:70%"></div><div class="bar" style="width:82%"></div></div>`,L:6},
+ {n:"Comments rise inside a phone",tag:"new",d:"The comments stack up inside a phone mock-up (Instagram-style dark sheet) floating on the ground. Avatars are grey placeholders: send me real ones and I'll drop them in.",m:"phone R01 · comments R45 0.35 s apart · phone gentle float R47.",b:"Easy: phone frame PNG + comment layers.",
+  draw:L=>{const b=(t,d,who,n)=>`<div style="display:flex;gap:2cqw;align-items:flex-start;margin-top:3cqw;${anim("cm",L,[[0,"opacity:0;transform:translateY(4cqw);filter:blur(.8cqw)"],[d,"opacity:0;transform:translateY(4cqw);filter:blur(.8cqw)",E1],[d+.6,"opacity:1;transform:none;filter:blur(0)"],[OUT(L),"opacity:1;transform:none",EX],[OUT(L)+.4,"opacity:0"],[L,"opacity:0"]])}"><span style="width:6.4cqw;height:6.4cqw;border-radius:50%;background:${who};flex:none"></span><span style="font-size:3.1cqw;color:#F2F2F2;line-height:1.35"><b style="font-size:2.6cqw;color:#A8A8A8;display:block">${n}</b>${t}</span></div>`;
+   return ICE(capInk("aap logon ne","pucha",.1,L)+`<div style="left:20%;right:20%;top:27%;height:56%;${rect(.3,L)}"><div style="position:absolute;inset:0;border-radius:6cqw;background:#0E0E10;border:1cqw solid #1D1D20;box-shadow:0 2cqw 6cqw rgba(11,18,36,.35);overflow:hidden;animation:float 4s ${IO} infinite"><div style="width:16cqw;height:2.4cqw;border-radius:2cqw;background:#000;margin:2cqw auto 0"></div><div style="position:absolute;left:0;right:0;bottom:0;top:22%;background:#1C1C1E;border-radius:4cqw 4cqw 0 0;padding:3cqw 4cqw"><div style="width:9cqw;height:.8cqw;border-radius:1cqw;background:#48484A;margin:0 auto 2cqw"></div><div style="text-align:center;font:700 3.2cqw Inter;color:#fff">Comments</div>${b("EDIT",.9,"#5B6B8C","creator_one")}${b("bhai ye kaise kiya?",1.25,"#8C6B5B","creator_two")}${b("edit 🙏",1.6,"#5B8C6B","creator_three")}</div></div></div>`)}},
+ {n:"Sheen + breathing shadow together",tag:"new",d:"Both ambient effects on one held card: the shadow slowly breathes while a soft sheen passes every 3 s.",m:"R48 + R49 combined.",b:"Easy.",
+  draw:L=>ICE(`<div class="c" style="top:9%;z-index:6"><div class="sup" style="color:var(--muted);font-size:3.9cqw">ye hai</div><div class="pf ink" style="font-size:10cqw">taste</div></div><div class="wc" style="left:10%;right:10%;top:30%;height:36%;padding:5cqw;overflow:hidden;animation:shad 5s ${IO} infinite"><div class="hdr">${CL}design-skill.md</div><div class="bar h" style="margin-top:3.4cqw"></div><div class="bar" style="width:90%"></div><div class="bar" style="width:70%"></div><div class="bar" style="width:82%"></div><div style="position:absolute;top:-20%;bottom:-20%;left:0;width:40%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.8),transparent);animation:sheen 3s ${ES} infinite"></div></div>`),L:6},
+]},
+];
+function fanScreens(L,blur){const B=blur?"filter:blur(.55cqw)":"filter:blur(0)";
+ const f=(r,x,y)=>{const H="opacity:0;transform:translate(0,10cqw) rotate(0) scale(.8)",S="opacity:1;transform:translate(0,0) rotate(0) scale(.9)",V=`opacity:1;transform:translate(${x}cqw,${y}cqw) rotate(${r}deg) scale(1)`;return anim("fan2",L,[[0,H],[.4,H,E1],[.9,S],[1.15,S,ES],[1.95,V],[OUT(L),V,EX],[OUT(L)+.5,`opacity:0;transform:translate(${x}cqw,${y-8}cqw) rotate(${r}deg)`],[L,"opacity:0"]])};
+ const scr=(r,x,y,inner)=>`<div class="wc" style="left:32%;width:36%;top:13%;height:20%;padding:2.2cqw;overflow:hidden;${f(r,x,y)}"><div style="${B}">${inner}</div></div>`;
+ return `<img class="still" src="${IMG}">`+scr(-16,-29,3,`<div class="hdr" style="font-size:2.4cqw;gap:1cqw"><img src="assets/claude.png" style="width:3cqw;height:3cqw">Claude</div><div class="bar" style="width:80%;height:1.2cqw"></div><div class="bar" style="width:55%;height:1.2cqw"></div>`)+scr(16,29,3,`<div class="hdr" style="font-size:2.4cqw;gap:1cqw">${GH}skills/</div><div class="bar" style="width:70%;height:1.2cqw"></div><div class="bar" style="width:85%;height:1.2cqw"></div>`)+scr(0,0,-6,`<div class="hdr" style="font-size:2.4cqw">timeline</div>${[60,80,45].map(w=>`<div style="height:1.4cqw;margin-top:1.4cqw;width:${w}%;border-radius:.6cqw;background:linear-gradient(90deg,#5D8BFF,#3E7BFA)"></div>`).join("")}`)+`<div class="sil"></div>${SK("sketch · real build uses the matte")}`}
+
+/* ---------- shared scene builders used above ---------- */
+function sample(L,dark){return `<div class="c" style="top:12%"><div class="sup" style="color:${dark?"#9AA8C7":"var(--muted)"};font-size:3.9cqw">ye hai</div><div class="pf" style="font-size:10cqw;color:${dark?"#fff":"var(--itext)"}">taste</div></div><div class="${dark?"dc":"wc"}" style="left:10%;right:10%;top:32%;height:34%;padding:5cqw"><div class="hdr" style="${dark?"color:#F2F6FC":""}">${CL}design-skill.md</div><div class="bar h" style="margin-top:3.4cqw;${dark?"background:#3A4A72":""}"></div>${[90,70,82].map(w=>`<div class="bar" style="width:${w}%;${dark?"background:#26355C":""}"></div>`).join("")}</div>`}
+function timeline(L,d){const lane=(t,bars,i)=>`<div style="display:flex;align-items:center;gap:1.6cqw;margin-top:1.5cqw"><span style="width:16%;font:600 2.3cqw Inter;color:var(--muted)">${t}</span><span style="flex:1;position:relative;height:2.4cqw">${bars.map(([x,w])=>`<span style="position:absolute;left:${x}%;width:${w}%;top:0;bottom:0;border-radius:.6cqw;background:linear-gradient(90deg,#5D8BFF,#3E7BFA);transform-origin:0 50%;${scaleX(d+i*.12,L,.5)}"></span>`).join("")}</span></div>`;
+ return `<div class="hdr" style="font-size:2.8cqw;gap:1cqw"><img src="assets/claude.png" style="width:3.4cqw;height:3.4cqw">Claude · timeline</div><div style="position:relative">${lane("A-roll",[[0,100]],0)}${lane("captions",[[0,20],[24,30],[58,38]],1)}${lane("graphics",[[8,26],[40,22],[70,26]],2)}${lane("sfx",[[2,6],[30,5],[52,8],[80,6]],3)}<span style="position:absolute;top:0;bottom:-.5cqw;left:18%;width:.4cqw;background:#E5484D;${anim("ph",L,[[0,"transform:translateX(0);opacity:0"],[d+.3,"transform:translateX(0);opacity:1"],[OUT(L),"transform:translateX(40cqw);opacity:1"],[OUT(L)+.3,"opacity:0;transform:translateX(40cqw)"],[L,"opacity:0"]])};animation-timing-function:linear"></span></div>`}
+function accent(L,a,hl){const pr=anim("pr",L,[[0,"transform:scaleX(.03)"],[1.4,"transform:scaleX(.03)",ES],[2.4,"transform:scaleX(1)"],[L,"transform:scaleX(1)"]]);
+ return ICE(`<div class="c" style="top:9%"><div class="sup" style="color:var(--muted);font-size:3.9cqw">${words(["ye","hai"],.1,.15,L)}</div><div class="pf ink" style="font-size:10cqw;position:relative;display:inline-block">${hl?`<span style="position:absolute;left:-3%;right:-3%;top:45%;bottom:5%;background:${hl};z-index:-1;transform-origin:0 50%;${scaleX(.9,L,.4)}"></span>`:""}${letters("taste",.4,.04,L)}</div></div><div class="wc" style="left:9%;right:9%;top:28%;padding:2cqw 5cqw 5cqw;${rect(.3,L)}"><div class="row">${tick(a)} SKILL.md</div><div class="row">${tick(a)} RULEBOOK.md</div><div class="row">${tick(a)} LOOKBOOK.md</div><div style="margin-top:3cqw;height:1.8cqw;border-radius:1cqw;background:#DDE1E8;overflow:hidden"><div style="height:100%;background:${a};transform-origin:0 50%;${pr}"></div></div></div><div style="left:9%;right:9%;top:64%;display:flex;align-items:center;gap:2cqw;background:#fff;border-radius:999px;padding:1.6cqw 1.6cqw 1.6cqw 4cqw;box-shadow:0 1cqw 2cqw rgba(11,18,36,.12);font-size:3.6cqw;color:var(--itext)"><span style="flex:1">comment EDIT</span><span style="width:8cqw;height:8cqw;border-radius:50%;background:${a};display:grid;place-items:center"><svg viewBox="0 0 10 10" style="width:50%"><path d="M5 8V2M2.5 4.5 5 2l2.5 2.5" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg></span></div>`)}
+function split(now,up,bg="var(--ice)"){return `<div class="half grain" style="top:0;background:${bg}">${now}<div class="hl" style="background:#fff;color:var(--mute)">now</div></div><div class="half grain" style="top:50%;background:${bg};border-top:1px solid rgba(0,0,0,.12)">${up}<div class="hl" style="background:#1F9D6B;color:#fff">upgrade</div></div>`}
+
+/* static helper keyframes */
+CSS.push(`@keyframes orbit{0%{transform:translate(-50%,-50%) translate(38cqw,0) scale(.9);z-index:7;opacity:.95}12.5%{transform:translate(-50%,-50%) translate(27cqw,6cqw) scale(1);z-index:7;opacity:1}25%{transform:translate(-50%,-50%) translate(0,8.5cqw) scale(1.08);z-index:7;opacity:1}37.5%{transform:translate(-50%,-50%) translate(-27cqw,6cqw) scale(1);z-index:7;opacity:1}49.9%{transform:translate(-50%,-50%) translate(-38cqw,0) scale(.9);z-index:7;opacity:.95}50.1%{z-index:3}62.5%{transform:translate(-50%,-50%) translate(-27cqw,-6cqw) scale(.8);z-index:3;opacity:.6}75%{transform:translate(-50%,-50%) translate(0,-8.5cqw) scale(.75);z-index:3;opacity:.55}87.5%{transform:translate(-50%,-50%) translate(27cqw,-6cqw) scale(.8);z-index:3;opacity:.6}99.9%{z-index:3}100%{transform:translate(-50%,-50%) translate(38cqw,0) scale(.9);z-index:7;opacity:.95}}
+@keyframes rock{0%,100%{transform:rotate(0)}25%{transform:rotate(6deg)}75%{transform:rotate(-6deg)}}
+@keyframes float{0%,100%{transform:translateY(-.75cqw)}50%{transform:translateY(.75cqw)}}
+@keyframes sheen{0%{transform:translateX(-120%) skewX(-18deg)}45%,100%{transform:translateX(300%) skewX(-18deg)}}
+@keyframes shad{0%,100%{box-shadow:0 1.3cqw 2.8cqw rgba(11,18,36,.14)}50%{box-shadow:0 2.4cqw 5cqw rgba(11,18,36,.24)}}
+@keyframes expo{0%,100%{filter:brightness(.985)}50%{filter:brightness(1.02)}}
+@keyframes jit{0%{transform:translate(0,0)}20%{transform:translate(-3%,2%)}40%{transform:translate(2%,-3%)}60%{transform:translate(-2%,-1%)}80%{transform:translate(3%,1%)}100%{transform:translate(0,0)}}
+.cn::after{content:counter(n)}`);
+
+/* ---------- board ---------- */
+const TAG={now:["s-now","In pack"],new:["s-new","New variation"],up:["s-up","Upgrade"],fix:["s-fix","Fixed"]};
+const LS="styleLabV2";let state={};try{state=JSON.parse(localStorage.getItem(LS)||"{}")}catch(e){}
+const save=()=>{try{localStorage.setItem(LS,JSON.stringify(state))}catch(e){};count()};
+const root=document.getElementById("beats"),toc=document.getElementById("toc"),phones=[];
+BEATS.forEach(b=>{
+ const s=document.createElement("section");s.className="beat";s.id=b.id;
+ s.innerHTML=`<div class="bh"><h2>${b.title}</h2></div><div class="line">${b.sub}</div><div class="opts"></div><textarea data-note="${b.id}" placeholder="Notes for this section (optional): mixes, tweaks, where you'd use it"></textarea>`;
+ toc.insertAdjacentHTML("beforeend",`<a href="#${b.id}">${b.title}</a>`);
+ const g=s.querySelector(".opts");
+ b.opts.forEach((o,i)=>{
+  const L=o.L||b.L||5,key=b.id+"-"+String.fromCharCode(65+i);
+  const d=document.createElement("div");d.className="opt";d.dataset.key=key;if(state[key])d.dataset.v=state[key];
+  d.innerHTML=`<div class="oh"><b>${String.fromCharCode(65+i)}</b>${o.rec?'<span class="rec">my pick</span>':""}</div><div class="ph"></div>
+  <div><span class="src ${TAG[o.tag][0]}">${TAG[o.tag][1]}</span></div><div class="name">${o.n}</div><div class="desc">${o.d}</div><div class="mot">Motion: ${o.m}</div><div class="bld">Tesseract: ${o.b}</div>
+  <div class="btns"><button class="k">Keep</button><button class="m">Maybe</button><button class="n">No</button></div>`;
+  const ph=d.querySelector(".ph");const render=()=>{ph.innerHTML=o.draw(L)+'<div class="rp">↻ replay</div>';kick(ph)};render();ph.onclick=render;phones.push(render);
+  d.querySelector(".k").onclick=()=>set(d,key,"keep");d.querySelector(".m").onclick=()=>set(d,key,"maybe");d.querySelector(".n").onclick=()=>set(d,key,"no");
+  g.append(d);
+ });
+ const ta=s.querySelector("textarea");ta.value=state["note-"+b.id]||"";ta.oninput=()=>{state["note-"+b.id]=ta.value;save()};
+ root.append(s);
+});
+const st=document.createElement("style");st.textContent=CSS.join("\n");document.head.append(st);
+const io=new IntersectionObserver(es=>es.forEach(e=>e.target.classList.toggle("vis",e.isIntersecting)),{rootMargin:"80px"});
+document.querySelectorAll(".ph").forEach(p=>io.observe(p));
+document.getElementById("replay").onclick=()=>phones.forEach(r=>r());
+function kick(ph){const els=[...ph.querySelectorAll('.orb')];if(!els.length)return;const t0=performance.now();const step=()=>{const t=(performance.now()-t0)/1000;const r=1+5*Math.exp(-t/0.9);els.forEach(e=>e.getAnimations().forEach(a=>a.playbackRate=r));if(t<5)requestAnimationFrame(step)};requestAnimationFrame(step)}
+function set(d,key,v){if(state[key]===v){delete state[key];delete d.dataset.v}else{state[key]=v;d.dataset.v=v}save()}
+function count(){const v=Object.entries(state).filter(([k])=>!k.startsWith("note-")).map(([,x])=>x);document.getElementById("count").textContent=`${v.filter(x=>x=="keep").length} kept · ${v.filter(x=>x=="maybe").length} maybe · ${v.filter(x=>x=="no").length} no`}
+function summary(){let out="Style Lab v2: my picks\n";BEATS.forEach(b=>{out+=`\n${b.title}\n`;b.opts.forEach((o,i)=>{const k=b.id+"-"+String.fromCharCode(65+i);if(state[k])out+=`  ${String.fromCharCode(65+i)} ${state[k].toUpperCase()}: ${o.n}\n`});if(state["note-"+b.id])out+=`  note: ${state["note-"+b.id]}\n`});return out}
+document.getElementById("copy").onclick=async()=>{const t=summary();const el=document.getElementById("sum");el.textContent=t;el.style.display="block";try{await navigator.clipboard.writeText(t);document.getElementById("copy").textContent="Copied"}catch(e){document.getElementById("copy").textContent="Shown below"}setTimeout(()=>document.getElementById("copy").textContent="Copy my picks",2500)};
+document.getElementById("dl").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([summary()],{type:"text/plain"}));a.download="style_lab_v2_picks.txt";a.click()};
+count();
+</script>
+</body>
+</html>

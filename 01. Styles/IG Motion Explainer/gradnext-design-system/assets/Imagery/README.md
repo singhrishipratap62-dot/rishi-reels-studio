@@ -1,0 +1,1 @@
+Brand applications from the 2026 guidelines, for reference: building signage, business cards, the "Consulting Cohort 101" brochure and letterhead. Moody, directional light; the wordmark is always the hero.

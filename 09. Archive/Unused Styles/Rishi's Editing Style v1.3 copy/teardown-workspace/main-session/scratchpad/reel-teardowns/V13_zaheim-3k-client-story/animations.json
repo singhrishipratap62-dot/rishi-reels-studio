@@ -1,0 +1,406 @@
+[
+ {
+  "id": "V13-A01",
+  "name": "avatar circle pop",
+  "category": "graphic",
+  "element": "avatar circle pop",
+  "start_f": 20,
+  "end_f": 50,
+  "dur_ms": 1000,
+  "props": {
+   "width_px": [
+    75,
+    140
+   ],
+   "height_px": [
+    92,
+    171
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.2,
+   1.4,
+   0,
+   1
+  ],
+  "overshoot_pct": 8,
+  "trigger_word": "Zaheim@#16 (\u0394+4)",
+  "evidence": "MEAS(\u2248,rmse .055)"
+ },
+ {
+  "id": "V13-A02",
+  "name": "A-roll captions sans+script+bold",
+  "category": "style",
+  "element": "A-roll captions sans+script+bold",
+  "start_f": 0,
+  "end_f": 1799,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "EST"
+ },
+ {
+  "id": "V13-A03",
+  "name": "money numerals count-up",
+  "category": "graphic",
+  "element": "money numerals count-up",
+  "start_f": 130,
+  "end_f": 165,
+  "dur_ms": 1167,
+  "props": {
+   "value_usd": [
+    2757,
+    3000
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "3000@#127 (\u0394+8)",
+  "evidence": "OBS(values at 2 fps),EST(curve)"
+ },
+ {
+  "id": "V13-A04",
+  "name": "tweet card lower third",
+  "category": "graphic",
+  "element": "tweet card lower third",
+  "start_f": 150,
+  "end_f": 205,
+  "dur_ms": 1833,
+  "props": {
+   "translate_x_px": [
+    200,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "3000@#127 (\u0394+23)",
+  "evidence": "EST(rmse .16-.28)"
+ },
+ {
+  "id": "V13-A05",
+  "name": "Premiere Pro icon pop",
+  "category": "graphic",
+  "element": "Premiere Pro icon pop",
+  "start_f": 205,
+  "end_f": 245,
+  "dur_ms": 1333,
+  "props": {
+   "width_px": [
+    59,
+    215
+   ],
+   "height_px": [
+    60,
+    215
+   ]
+  },
+  "easing": "easeOutBack\u2248",
+  "bezier": [
+   0.4,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "Premiere@#282 (\u0394-77)",
+  "evidence": "MEAS(\u2248,rmse .071-.093)"
+ },
+ {
+  "id": "V13-A06",
+  "name": "top caption never opened",
+  "category": "text",
+  "element": "top caption never opened",
+  "start_f": 265,
+  "end_f": 290,
+  "dur_ms": 833,
+  "props": {
+   "width_px": [
+    174,
+    447
+   ],
+   "height_px": [
+    37,
+    63
+   ]
+  },
+  "easing": "easeOutSine\u2248",
+  "bezier": [
+   0.7,
+   0.6,
+   0.2,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "never@#264 (\u0394+1)",
+  "evidence": "MEAS(bh \u2248 .070),EST(bw)"
+ },
+ {
+  "id": "V13-A07",
+  "name": "community post card wipe-in",
+  "category": "graphic",
+  "element": "community post card wipe-in",
+  "start_f": 350,
+  "end_f": 385,
+  "dur_ms": 1167,
+  "props": {
+   "width_px": [
+    40,
+    614
+   ],
+   "height_px": [
+    40,
+    226
+   ],
+   "cy_px": [
+    485,
+    554
+   ]
+  },
+  "easing": "easeOutExpo",
+  "bezier": [
+   0,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 9,
+  "trigger_word": "cut #345 (\u0394+5)",
+  "evidence": "MEAS(rmse .015-.037)"
+ },
+ {
+  "id": "V13-A08",
+  "name": "vertical timeline + diamond nodes",
+  "category": "graphic",
+  "element": "vertical timeline + diamond nodes",
+  "start_f": 430,
+  "end_f": 560,
+  "dur_ms": 4333,
+  "props": {
+   "translate_y_pct_H": [
+    0,
+    -40
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Premiere@#435 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V13-A09",
+  "name": "Pr/Ae tiles + script line",
+  "category": "graphic",
+  "element": "Pr/Ae tiles + script line",
+  "start_f": 444,
+  "end_f": 520,
+  "dur_ms": 2533,
+  "props": {
+   "scale": [
+    0.6,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "animation@#504 (\u0394-4)",
+  "evidence": "OBS(f6 discarded)"
+ },
+ {
+  "id": "V13-A10",
+  "name": "Minimal Animations card + ghost wall",
+  "category": "graphic",
+  "element": "Minimal Animations card + ghost wall",
+  "start_f": 600,
+  "end_f": 696,
+  "dur_ms": 3200,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ],
+   "translate_y_px": [
+    40,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Minimal@#595 (\u0394+5)",
+  "evidence": "EST(f7 rmse .131)"
+ },
+ {
+  "id": "V13-A11",
+  "name": "profile card on A-roll",
+  "category": "graphic",
+  "element": "profile card on A-roll",
+  "start_f": 705,
+  "end_f": 735,
+  "dur_ms": 1000,
+  "props": {
+   "translate_y_px": [
+    40,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "posting@#713 (\u0394-8)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V13-A12",
+  "name": "SAAS card grows from left",
+  "category": "graphic",
+  "element": "SAAS card grows from left",
+  "start_f": 825,
+  "end_f": 885,
+  "dur_ms": 2000,
+  "props": {
+   "width_px": [
+    33,
+    480
+   ],
+   "cx_px": [
+    113,
+    361
+   ],
+   "cy_px": [
+    445,
+    627
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0.2,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 1,
+  "trigger_word": "SaaS@#825 (\u03940)",
+  "evidence": "MEAS(cx/cy rmse .043-.049; bw/bh \u2248)"
+ },
+ {
+  "id": "V13-A13",
+  "name": "card wall around SaaS card",
+  "category": "graphic",
+  "element": "card wall around SaaS card",
+  "start_f": 900,
+  "end_f": 1019,
+  "dur_ms": 3967,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ],
+   "cards": [
+    0,
+    16
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "style@#959 (\u0394-29)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V13-A14",
+  "name": "DM chat bubble + reel wall",
+  "category": "graphic",
+  "element": "DM chat bubble + reel wall",
+  "start_f": 1035,
+  "end_f": 1119,
+  "dur_ms": 2800,
+  "props": {
+   "chars": [
+    0,
+    45
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "lead@#1064 (\u0394-29)",
+  "evidence": "EST(f9 rmse .23-.34)"
+ },
+ {
+  "id": "V13-A15",
+  "name": "job-post 2D zoom",
+  "category": "camera",
+  "element": "job-post 2D zoom",
+  "start_f": 1314,
+  "end_f": 1344,
+  "dur_ms": 1000,
+  "props": {
+   "scale": [
+    1,
+    3.5
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "3000@#1336 (\u0394-22..+8)",
+  "evidence": "OBS(scale from tiles)"
+ },
+ {
+  "id": "V13-A16",
+  "name": "deadline text-only scene",
+  "category": "text",
+  "element": "deadline text-only scene",
+  "start_f": 1592,
+  "end_f": 1680,
+  "dur_ms": 2933,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "20@#1628 (\u0394-3)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V13-A17",
+  "name": "CTA comments sheet + typed keyword",
+  "category": "ui",
+  "element": "CTA comments sheet + typed keyword",
+  "start_f": 1700,
+  "end_f": 1780,
+  "dur_ms": 2667,
+  "props": {
+   "chars": [
+    0,
+    16
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Comment@#1692 (\u0394+8)",
+  "evidence": "OBS(f10 no fit)"
+ }
+]

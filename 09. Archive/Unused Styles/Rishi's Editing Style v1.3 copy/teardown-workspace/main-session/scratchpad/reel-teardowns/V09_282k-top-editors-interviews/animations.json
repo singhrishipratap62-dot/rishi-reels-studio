@@ -1,0 +1,391 @@
+[
+ {
+  "id": "V09-A01",
+  "name": "money counter count-up + confetti",
+  "category": "graphic",
+  "element": "money counter count-up + confetti",
+  "start_f": 0,
+  "end_f": 45,
+  "dur_ms": 1500,
+  "props": {
+   "value_usd": [
+    116697,
+    282000
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$282,000@#0 (\u03940)",
+  "evidence": "OBS(values at 2 fps),EST(curve)"
+ },
+ {
+  "id": "V09-A02",
+  "name": "caption sans+script",
+  "category": "style",
+  "element": "caption sans+script",
+  "start_f": 0,
+  "end_f": 1706,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "EST"
+ },
+ {
+  "id": "V09-A03",
+  "name": "counter handoff",
+  "category": "graphic",
+  "element": "counter handoff",
+  "start_f": 185,
+  "end_f": 210,
+  "dur_ms": 833,
+  "props": {
+   "opacity": [
+    1,
+    0
+   ]
+  },
+  "easing": "ease-in",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "months@#156",
+  "evidence": "EST"
+ },
+ {
+  "id": "V09-A04",
+  "name": "interview player card rise",
+  "category": "graphic",
+  "element": "interview player card rise",
+  "start_f": 224,
+  "end_f": 270,
+  "dur_ms": 1533,
+  "props": {
+   "height_px": [
+    474,
+    580
+   ],
+   "cy_px": [
+    598,
+    558
+   ]
+  },
+  "easing": "easeOutQuart\u2248",
+  "bezier": [
+   0.4,
+   0.9,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "interviewed@#223 (\u0394+1)",
+  "evidence": "MEAS(\u2248,rmse .056-.065)"
+ },
+ {
+  "id": "V09-A05",
+  "name": "step diamond badge",
+  "category": "graphic",
+  "element": "step diamond badge",
+  "start_f": 330,
+  "end_f": 345,
+  "dur_ms": 500,
+  "props": {
+   "scale": [
+    0.4,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "First@#326 (\u0394+4)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V09-A06",
+  "name": "category carousel",
+  "category": "graphic",
+  "element": "category carousel",
+  "start_f": 371,
+  "end_f": 668,
+  "dur_ms": 9900,
+  "props": {
+   "translate_x_pct_W": [
+    0,
+    -25
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cinematic@#398 (\u0394-13)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V09-A07",
+  "name": "step-by-step caption + carousel blur-out",
+  "category": "text",
+  "element": "step-by-step caption + carousel blur-out",
+  "start_f": 580,
+  "end_f": 660,
+  "dur_ms": 2667,
+  "props": {
+   "blur_px": [
+    0,
+    8
+   ]
+  },
+  "easing": "ease-in",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Ultimate@#630 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V09-A08",
+  "name": "blueprint card blur-in + lesson player",
+  "category": "graphic",
+  "element": "blueprint card blur-in + lesson player",
+  "start_f": 722,
+  "end_f": 800,
+  "dur_ms": 2600,
+  "props": {
+   "blur_px": [
+    10,
+    0
+   ],
+   "translate_y_px": [
+    60,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$2,000@#726 (\u0394-1)",
+  "evidence": "OBS(v2 discarded)"
+ },
+ {
+  "id": "V09-A09",
+  "name": "verb bullets",
+  "category": "text",
+  "element": "verb bullets",
+  "start_f": 804,
+  "end_f": 850,
+  "dur_ms": 1533,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "package@#801 (\u0394+3)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V09-A10",
+  "name": "community feed + post cards",
+  "category": "graphic",
+  "element": "community feed + post cards",
+  "start_f": 1021,
+  "end_f": 1075,
+  "dur_ms": 1800,
+  "props": {
+   "width_px": [
+    387,
+    719
+   ],
+   "height_px": [
+    292,
+    610
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.2,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "community@#954 (\u0394+38)",
+  "evidence": "MEAS(\u2248,rmse .072-.097)"
+ },
+ {
+  "id": "V09-A11",
+  "name": "income counter steps",
+  "category": "graphic",
+  "element": "income counter steps",
+  "start_f": 1155,
+  "end_f": 1232,
+  "dur_ms": 2567,
+  "props": {
+   "value_usd": [
+    2000,
+    4000
+   ]
+  },
+  "easing": "steps",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$2,000,@#1153 (\u0394+2)",
+  "evidence": "OBS(values at 2 fps)"
+ },
+ {
+  "id": "V09-A12",
+  "name": "tweet card rise + swap",
+  "category": "graphic",
+  "element": "tweet card rise + swap",
+  "start_f": 1150,
+  "end_f": 1200,
+  "dur_ms": 1667,
+  "props": {
+   "width_px": [
+    45,
+    679
+   ]
+  },
+  "easing": "easeOutQuart\u2248",
+  "bezier": [
+   0.2,
+   0.6,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "$2,000,@#1153 (\u0394-3)",
+  "evidence": "MEAS(\u2248,bw rmse .088),EST(rest)"
+ },
+ {
+  "id": "V09-A13",
+  "name": "viral-videos card scatter",
+  "category": "graphic",
+  "element": "viral-videos card scatter",
+  "start_f": 1262,
+  "end_f": 1360,
+  "dur_ms": 3267,
+  "props": {
+   "translate_y_px": [
+    200,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "viral@#1301 (\u0394-21)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V09-A14",
+  "name": "stacked tweet cards",
+  "category": "graphic",
+  "element": "stacked tweet cards",
+  "start_f": 1325,
+  "end_f": 1370,
+  "dur_ms": 1500,
+  "props": {
+   "translate_y_px": [
+    40,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$2,000@#1327 (\u0394-2)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V09-A15",
+  "name": "20-days red ellipse",
+  "category": "graphic",
+  "element": "20-days red ellipse",
+  "start_f": 1395,
+  "end_f": 1410,
+  "dur_ms": 500,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "days@#1389 (\u0394+6)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V09-A16",
+  "name": "course-card stack + price pill",
+  "category": "graphic",
+  "element": "course-card stack + price pill",
+  "start_f": 1450,
+  "end_f": 1545,
+  "dur_ms": 3167,
+  "props": {
+   "stack_height_px": [
+    153,
+    639
+   ],
+   "pill_cy_px": [
+    1093,
+    1034
+   ],
+   "pill_width_px": [
+    493,
+    545
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0.1,
+   0.9,
+   0,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "$299@#1581 (\u0394-73)",
+  "evidence": "MEAS(pill rmse .018-.038; stack \u2248 .077)"
+ },
+ {
+  "id": "V09-A17",
+  "name": "A-roll CTA captions",
+  "category": "style",
+  "element": "A-roll CTA captions",
+  "start_f": 1636,
+  "end_f": 1706,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Comment@#1636",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V09-A18",
+  "name": "hard cuts",
+  "category": "cut",
+  "element": "hard cuts",
+  "start_f": 221,
+  "end_f": 221,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cuts",
+  "evidence": "MEAS(audio.json)"
+ }
+]

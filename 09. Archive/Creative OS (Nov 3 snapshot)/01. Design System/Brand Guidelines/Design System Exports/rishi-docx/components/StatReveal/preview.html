@@ -1,0 +1,18 @@
+<!-- @dsCard group="Data" height=720 width=1080 subtitle="Number counts up; unit, rule and source follow" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Stat reveal</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;box-sizing:border-box;padding:64px;overflow:hidden}
+.grid{position:absolute;left:0;top:0;width:1080px;pointer-events:none}
+.grid line{stroke:var(--line);stroke-width:var(--stroke-hair)}
+.lab{font-size:32px;font-weight:500;letter-spacing:.04em;color:var(--ink-muted);margin:0}
+.cap{font-size:32px;line-height:1.3;color:var(--ink-muted);margin:0}
+.pen{fill:none;stroke:var(--signal);stroke-width:var(--stroke-pen);stroke-linecap:round;stroke-linejoin:round}
+.it{font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit}
+.sig{color:var(--signal)}
+@keyframes up{0%,4%{opacity:0;transform:translateY(24px)}14%,88%{opacity:1;transform:none}96%,100%{opacity:0;transform:none}}
+.f{height:720px}.n{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);font-size:260px;line-height:1;font-weight:800;letter-spacing:-.035em;margin:40px 0 0;opacity:0;animation:up 5s var(--ease-soft, cubic-bezier(0.4, 0, 0.2, 1)) infinite}.u{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);font-size:80px;line-height:1.05;font-weight:700;margin:16px 0 0;max-width:820px;opacity:0;animation:up 5s var(--ease-soft, cubic-bezier(0.4, 0, 0.2, 1)) .25s infinite;letter-spacing:-.025em}.rule{height:4px;background:var(--line-strong);margin:48px 0 24px;width:0;animation:rl 5s var(--ease-draw, cubic-bezier(0.45, 0, 0.2, 1)) infinite}@keyframes rl{0%,20%{width:0}32%,88%{width:952px;opacity:1}96%,100%{opacity:0;width:952px}}</style></head>
+<body>
+<div class="f"><p class="lab">02 · THE NUMBER</p><p class="n"><span id="c">0</span>x</p><p class="u">faster than doing it <span class="it sig">by hand</span></p><div class="rule"></div><p class="cap">Source: [source], [month year] · sample data</p></div>
+<script>var el=document.getElementById('c');function run(){var t0=performance.now();function f(t){var p=Math.min(1,(t-t0)/1000);el.textContent=Math.round(3*(1-Math.pow(1-p,4)));if(p<1)requestAnimationFrame(f)}requestAnimationFrame(f)}run();setInterval(run,5000);</script>
+</body></html>

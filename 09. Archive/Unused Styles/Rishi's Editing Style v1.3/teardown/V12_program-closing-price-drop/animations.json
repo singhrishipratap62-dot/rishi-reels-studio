@@ -1,0 +1,400 @@
+[
+ {
+  "id": "V12-A01",
+  "name": "program banner rise",
+  "category": "graphic",
+  "element": "program banner rise",
+  "start_f": 12,
+  "end_f": 55,
+  "dur_ms": 1433,
+  "props": {
+   "width_px": [
+    336,
+    440
+   ],
+   "height_px": [
+    229,
+    320
+   ]
+  },
+  "easing": "easeOutBack-family",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "program@#13 (\u0394-1)",
+  "evidence": "EST(rmse .19-.68)"
+ },
+ {
+  "id": "V12-A02",
+  "name": "hook captions sans+script",
+  "category": "style",
+  "element": "hook captions sans+script",
+  "start_f": 0,
+  "end_f": 174,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "forever@#70 (\u0394+2)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V12-A03",
+  "name": "calendar icon 14 days",
+  "category": "graphic",
+  "element": "calendar icon 14 days",
+  "start_f": 85,
+  "end_f": 120,
+  "dur_ms": 1167,
+  "props": {
+   "width_px": [
+    37,
+    139
+   ]
+  },
+  "easing": "easeOutQuart\u2248",
+  "bezier": [
+   0.1,
+   0.9,
+   0.2,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "weeks@#104 (\u0394-19)",
+  "evidence": "MEAS(\u2248,bw rmse .082)"
+ },
+ {
+  "id": "V12-A04",
+  "name": "red ellipse on never",
+  "category": "graphic",
+  "element": "red ellipse on never",
+  "start_f": 130,
+  "end_f": 141,
+  "dur_ms": 367,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "never@#122 (\u0394+8)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V12-A05",
+  "name": "price card on blue",
+  "category": "graphic",
+  "element": "price card on blue",
+  "start_f": 182,
+  "end_f": 225,
+  "dur_ms": 1433,
+  "props": {
+   "height_px": [
+    343,
+    544
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.2,
+   1.4,
+   0,
+   1
+  ],
+  "overshoot_pct": 2,
+  "trigger_word": "dropped@#209 (\u0394-27)",
+  "evidence": "MEAS(\u2248,rmse .067)"
+ },
+ {
+  "id": "V12-A06",
+  "name": "price count-down then pixelate",
+  "category": "graphic",
+  "element": "price count-down then pixelate",
+  "start_f": 180,
+  "end_f": 288,
+  "dur_ms": 3600,
+  "props": {
+   "price_usd": [
+    1200,
+    810
+   ],
+   "mosaic": [
+    0,
+    1
+   ]
+  },
+  "easing": "steps",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "believe@#267",
+  "evidence": "OBS(values at 2 fps)"
+ },
+ {
+  "id": "V12-A07",
+  "name": "portrait-card wall + zoom-out",
+  "category": "graphic",
+  "element": "portrait-card wall + zoom-out",
+  "start_f": 344,
+  "end_f": 475,
+  "dur_ms": 4367,
+  "props": {
+   "scale": [
+    1,
+    0.4
+   ],
+   "cards": [
+    20,
+    60
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "viral@#426 (\u0394+12)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V12-A08",
+  "name": "AI Editing Fundamentals red card",
+  "category": "graphic",
+  "element": "AI Editing Fundamentals red card",
+  "start_f": 480,
+  "end_f": 520,
+  "dur_ms": 1333,
+  "props": {
+   "blur_px": [
+    8,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "learn@#480 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V12-A09",
+  "name": "tweet wall + $2000 caption",
+  "category": "graphic",
+  "element": "tweet wall + $2000 caption",
+  "start_f": 525,
+  "end_f": 585,
+  "dur_ms": 2000,
+  "props": {
+   "scroll_px_per_s": 20
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$2,000@#531 (\u0394+14)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V12-A10",
+  "name": "split pane + Premiere/After Effects cards",
+  "category": "transition",
+  "element": "split pane + Premiere/After Effects cards",
+  "start_f": 625,
+  "end_f": 680,
+  "dur_ms": 1833,
+  "props": {
+   "pane_height_pct_H": [
+    0,
+    52
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Premiere@#653 (\u0394+2)",
+  "evidence": "EST(rmse .20)"
+ },
+ {
+  "id": "V12-A11",
+  "name": "category carousel sample+title",
+  "category": "graphic",
+  "element": "category carousel sample+title",
+  "start_f": 805,
+  "end_f": 1034,
+  "dur_ms": 7633,
+  "props": {
+   "height_px": [
+    556,
+    446
+   ],
+   "cy_px": [
+    368,
+    456
+   ]
+  },
+  "easing": "easeOutSine\u2248",
+  "bezier": [
+   0.3,
+   0,
+   0,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "cinematic@#818 (\u0394-13)",
+  "evidence": "MEAS(\u2248,bh rmse .056)"
+ },
+ {
+  "id": "V12-A12",
+  "name": "blueprint hero card",
+  "category": "graphic",
+  "element": "blueprint hero card",
+  "start_f": 1049,
+  "end_f": 1095,
+  "dur_ms": 1533,
+  "props": {
+   "width_px": [
+    372,
+    445
+   ],
+   "height_px": [
+    190,
+    233
+   ],
+   "cx_px": [
+    412,
+    360
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0.1,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "$2,000@#1035 (\u0394+14)",
+  "evidence": "MEAS(rmse .019-.026)"
+ },
+ {
+  "id": "V12-A13",
+  "name": "lesson UI + tweet stack",
+  "category": "graphic",
+  "element": "lesson UI + tweet stack",
+  "start_f": 1125,
+  "end_f": 1251,
+  "dur_ms": 4200,
+  "props": {
+   "translate_y_px": [
+    -60,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "outreach@~#1180",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V12-A14",
+  "name": "Scared AI captions defocus",
+  "category": "text",
+  "element": "Scared AI captions defocus",
+  "start_f": 1252,
+  "end_f": 1295,
+  "dur_ms": 1433,
+  "props": {
+   "blur_px": [
+    10,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "scared@#1267 (\u0394+8)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V12-A15",
+  "name": "AI card pane + wall expand",
+  "category": "graphic",
+  "element": "AI card pane + wall expand",
+  "start_f": 1375,
+  "end_f": 1405,
+  "dur_ms": 1000,
+  "props": {
+   "width_px": [
+    412,
+    487
+   ],
+   "height_px": [
+    212,
+    254
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0.1,
+   0.9,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "AI@#1335 (\u0394+40)",
+  "evidence": "MEAS(rmse .021-.024)"
+ },
+ {
+  "id": "V12-A16",
+  "name": "deadline text + red ellipse",
+  "category": "graphic",
+  "element": "deadline text + red ellipse",
+  "start_f": 1485,
+  "end_f": 1580,
+  "dur_ms": 3167,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "forever.@#1576 (\u0394-60)",
+  "evidence": "OBS(e7 discarded)"
+ },
+ {
+  "id": "V12-A17",
+  "name": "CTA comment bar grows + typed",
+  "category": "ui",
+  "element": "CTA comment bar grows + typed",
+  "start_f": 1600,
+  "end_f": 1665,
+  "dur_ms": 2167,
+  "props": {
+   "width_px": [
+    116,
+    674
+   ],
+   "cx_px": [
+    653,
+    358
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.1,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "comment@#1596 (\u0394+4)",
+  "evidence": "MEAS(\u2248,rmse .089-.091)"
+ }
+]

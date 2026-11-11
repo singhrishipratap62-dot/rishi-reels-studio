@@ -1,0 +1,24 @@
+<!-- @dsCard group="Captions" height=470 subtitle="Serif hero, 48px support tucked tight; word-rise + character reveal" -->
+<div class="me-row">
+  <div><div class="me-frame me-aroll"><div class="me-caption"><span class="me-sup" style="align-self:flex-start;margin-left:40px">if you are</span><span class="me-hero-serif">first principle</span><span class="me-sup" style="align-self:flex-end;margin-right:40px">thinking</span></div></div><div class="me-cap">A-roll hero is always serif. Support words rise in one by one; the hero writes on letter by letter.</div></div>
+  <div><div class="me-frame me-aroll"><div class="me-caption"><span class="me-sup" style="align-self:flex-start;margin-left:62px">that was</span><span class="me-hero-serif" style="font-size:calc(130px*var(--k))">brutal.</span></div></div><div class="me-cap">Emotional verdict: serif italic hero, tight close-up A-roll.</div></div>
+  <div><div class="me-frame me-aroll"><div class="me-caption"><span class="me-sup" style="align-self:flex-end;margin-right:52px">sach mein</span><span class="me-hero-serif">kaam</span><span class="me-sup" style="align-self:flex-start;margin-left:56px">karta hai.</span></div></div><div class="me-cap">Hinglish: the meaning word is hero; helper verbs stay support size.</div></div>
+</div>
+<script>
+// M01 word-rise-support + M02 hero-char-reveal (v1.1), replayed on load
+const E='cubic-bezier(.22,1,.36,1)';
+document.querySelectorAll('.me-caption').forEach((cap,ci)=>{
+  let t=250+ci*500;
+  cap.querySelectorAll('.me-sup,.me-hero-serif').forEach(el=>{
+    const hero=el.classList.contains('me-hero-serif');
+    const parts=hero?[...el.textContent]:el.textContent.split(' ');
+    el.textContent='';
+    parts.forEach((p,i)=>{
+      const s=document.createElement('span');s.textContent=p;s.style.display='inline-block';s.style.whiteSpace='pre';
+      el.append(s);if(!hero&&i<parts.length-1)el.append(' ');
+      if(hero){s.animate([{opacity:0,filter:'blur(2px)',transform:'translateX(-5.6px)'},{opacity:1,filter:'blur(0)',transform:'none'}],{duration:380,delay:t,easing:E,fill:'backwards'});t+=40;}
+      else{s.animate([{opacity:0,transform:'translateY(4.4px)'},{opacity:1,transform:'none'}],{duration:420,delay:t,easing:E,fill:'backwards'});t+=180;}
+    });
+  });
+});
+</script>

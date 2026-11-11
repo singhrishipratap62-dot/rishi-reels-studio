@@ -1,0 +1,25 @@
+
+## vid-5 (car review: Avatr; tan tee; branded product footage heavy)
+- v5 | 1.5–7 | broll-text | colour product footage (AVATR car shots, pixel-mosaic transition at 1.5–2.6) rapid cuts, no text
+- v5 | 8.5–13.5 | broll-text | product footage (car front, tunnel, desert road)
+- v5 | 19.9 | fs-object | speedometer needle + car with her cut-out as driver on white; "exactly how fancy"
+- v5 | 24.9–26 | broll-text | stock: hand sketching
+- v5 | 28–30 | fs-object | greyscale cut-out man on green chair on white; gold-black name tag "NADIR FAGHIZADEH" + "spent more than" (grey ghost)
+- v5 | 34.4 | broll-text | B&W portrait of boy
+- v5 | 35–39.5 | onscreen-pop | car cut-out slides over A-roll lower half; then green label "AVATR 11" + dark/red rounded product card
+- v5 | 40.4–45 | broll-text | luxury interior stock (opera hall, door) cuts
+- v5 | 46.5 | fs-object | white bg, pixel hand w/ pencil icon; "That is actually APPLIED" (pink bold word)
+- v5 | 52.5 | broll-text | B&W face
+- v5 | 53.7–55.5 | broll-text | product shot, split-wipe mirror reveal (car front)
+- v5 | 59.8–67.5 | broll-text | interior detail footage (seat, speaker, touchscreen) quick cuts
+- v5 | 72–75.8 | broll-text | exterior/tail light/dash "95 km/h" cuts
+- v5 | 78.4 | onscreen-pop | white SUV toy-like cut-out slides in front of A-roll lower-left
+- v5 | 80–84.8 | broll-text | in-car screen demo footage (hand on touchscreen), glitch tile transition
+- v5 | 87.7 | camera | A-roll greyscale beat
+- v5 | 88.7–93 | broll-text | seat comfort close-ups
+- v5 | 94.8–96.8 | fs-object | battery pack 3D on yellow floor; text "BATTERY TECH is kind of insane as well" (teal bold word)
+- v5 | 97.5–101.5 | fs-data | spec sheet screenshot blur->sharp, blue highlight, car image
+- v5 | 104–109.2 | fs-data | launch/price web page, blue highlight bars on specs
+- v5 | 110.8–113.3 | broll-text | desert and neon-lit car footage
+- v5 | 114.6–117 | fs-object | black sedan slides on grey road in front of yellow banner; logo "AVATR / FIRST CLASS LUXURY" assembles (green/black blocks)
+- v5 | other | captions | A-roll with top caption

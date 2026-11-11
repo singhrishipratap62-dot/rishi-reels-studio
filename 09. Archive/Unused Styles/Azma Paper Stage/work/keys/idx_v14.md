@@ -1,0 +1,32 @@
+
+## vid-14 (BTS part 1, origin story; yellow tee, black cushion, red hair clip)
+- v14 | 1.2–6 | broll-text | B&W concert/stage footage cuts (stadium, Spotify logo bg)
+- v14 | 8–10.6 | fs-object | white bg, face sticker of producer on stick-figure body w/ thumbs-up; "producer Bang Si Hyuk liked an Underground Rapper a lot." (bold name + grey pill word)
+- v14 | 12.1–14.8 | broll-text | B&W photo cuts (member holding sign; two men at table) ; pixel face sticker on white
+- v14 | 17.9 | broll-text | B&W woman laughing
+- v14 | 22.2 | fs-object | tiny her cut-out head on white (transition)
+- v14 | 24–26 | broll-text | B&W bearded man drawing on whiteboard
+- v14 | 30.5 | broll-text | pixel Tetris game UI ("FUEL 53 SPEED 05") greyscale
+- v14 | 34.2–38.1 | fs-object | white bg, 7 member face stickers with green name tags (RM, JIN, J-HOPE, JIMIN, V, SUGA...) connected by thin gold lines (network graph) growing
+- v14 | 38.8–46 | onscreen-pop | left-edge timeline over A-roll: teal vertical line, dark year pills "2010", "2013" etc.
+- v14 | 41.9–43.6 | broll-text | B&W group photo; Breaking-Bad meme face
+- v14 | 49.4–53.9 | fs-object | white bg, BIGHIT MUSIC pixel logo (gold/black), "and they were competing with already Established Groups like:" + group logos (EXO, B.A.P)
+- v14 | 56.9–59 | fs-object | white bg, old Motorola phone w/ green-screen "Contact" list (Mama Zong, Pyari behan?, Bestie) ; "and at that point" w/ red scribble swirls
+- v14 | 61–63.4 | fs-data/broll | tweet screenshot (blur) then B&W vlog clips
+- v14 | 68.5 | broll-text | B&W Lego man bow-tie meme
+- v14 | 73.5–75.2 | fs-object | vintage mic stand on wood floor; colour speech bubbles "School Pressure", "Ambition", "Young people" pop around; "they were Singing about"
+- v14 | 80 | broll-text | B&W stage silhouettes with lights
+- v14 | 82.7–84.7 | broll-text | B&W TV performance + big text "I NEED U" (bold white, 3D perspective)
+- v14 | 90.6–92.2 | broll-text | B&W blurred hug clip + caption "NATIONAL RECOGNITION" (small caps over bold)
+- v14 | 93.2–96.7 | fs-object | album sleeves slide in from left with vinyl: "YOUNG FOREVER" (hot-air balloon), "WINGS"; "turned them"
+- v14 | 98.5–103 | onscreen-pop | timeline overlay years "2015","2016","2017" over A-roll
+- v14 | 105–109 | fs-object | gold mic-stand trophy w/ member stickers + "Billboard MUSIC AWARD"; "won the Top Social Artist,"; face with tears sticker, red pill label "Mujhe kaan hai?"
+- v14 | 111.1 | broll-text | B&W cat meme + bold caption "KON HAI BAI TU...?"
+- v14 | 112.3–116.3 | fs-object | dark album sleeve "LOVE YOURSELF Tear" w/ vinyl sliding out; "to reach No.1 on the ..."
+- v14 | 122 | broll-text | B&W speech at mic clip
+- v14 | 123.9–126 | onscreen-pop | timeline overlay "2018", "2019"
+- v14 | 127.8–128.8 | broll-text | B&W stadium crowd/stage
+- v14 | 134.5–136.6 | fs-data | red-tinted poster "MAP OF THE SOUL TOUR" ; then "CANCELED" tour dates list UI
+- v14 | 138.8–142 | broll-text | B&W news anchor clips + blurred "COVID-19" heading
+- v14 | 144.3–146.3 | onscreen-pop | end card: rounded teal-gradient card over A-roll lower half, small tag "Part 2", "How COVID changed BTS forever COMING SOON"
+- v14 | other | captions | A-roll caption

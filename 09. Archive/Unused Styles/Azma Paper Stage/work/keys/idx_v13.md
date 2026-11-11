@@ -1,0 +1,32 @@
+
+## vid-13 (BTS part 2; yellow tee, black cushion)
+- v13 | 0.5–6 | fs-object | white bg, mic stand; title card "Part 02 how BTS became the biggest boy band in the world." (gold tag + big pixel "BT" letters w/ member face stickers); album "WINGS" record sleeve "And after that, Wings was Released"; collage of face cut-outs stacked totem
+- v13 | 6–6.5 | broll-text | greyscale news footage; blurred newspaper "COVID-19" heading
+- v13 | 10.8 | fs-object | pixel virus emoji w/ hands; white bg
+- v13 | 12.8 | fs-object | calendar/page edge sliding with pixel marks
+- v13 | 17.5–20.4 | fs-object | white bg, 7 member face stickers (green outline, pixel shades) float in; "BTS was the first ever Korean act to do that."
+- v13 | 21.9 | broll-text | B&W BTS red-carpet clip
+- v13 | 23–26 | fs-object | yellow "Butter" vinyl graphic, avatar w/ butter plate, "more than Dynamite" TNT plate
+- v13 | 28.4–29.8 | broll-text | B&W BTS Grammy room
+- v13 | 34–35.5 | fs-object | face-totem stack on green circle w/ gold arms, "one of ..."
+- v13 | 40.3 | fs-object | movie poster B&W "Coldplay + BTS My Universe"
+- v13 | 41.7–44 | broll-text | B&W Bollywood clip + bold "NO.1"
+- v13 | 50.5–51.2 | fs-object | black rectangle with white bars sliding (ID block), "after releasing the" small text top-right
+- v13 | 52.3–54.3 | broll-text | B&W kid meme + caption "BREAK"
+- v13 | 54.8, 60–62 | fs-object | glossy black-white 3D "BTS" ring then eye graphic w/ BTS in iris; "had already released Mixtapes" face stickers
+- v13 | 63–65 | onscreen-pop | left-edge vertical timeline over A-roll: teal line w/ dot + dark year pill "2022", "2023" (slides along as time moves) 
+- v13 | 67.5–73 | broll-text | B&W concert/ member clips w/ pixel overlay lyric "again"
+- v13 | 74–75 | broll-text | B&W military clip w/ white caption "MILITARY SERVICE" (centred, bold first word)
+- v13 | 79.7–81 | broll-text | B&W portraits / stage
+- v13 | 81.9–91 | onscreen-pop | timeline overlay continues: year pills "2023", "2025", "2026" on left over A-roll
+- v13 | 85.6–87.5 | fs-object | member face sticker on stick figure with AK-47 (meme) green label "Korean a gai oyy....."
+- v13 | 92–98.6 | fs-data | Billboard article screenshots (blur->sharp), headline zoom
+- v13 | 102.5–104.5 | broll-text | Grammy stage footage greyscale w/ white words "Grammy", "BTS" small floating
+- v13 | 110.7–113 | fs-object | gold gramophone trophy on white floor + flag "BEST ASIAN POP MUSIC PERFORMANCE"
+- v13 | 117.4 | fs-object | member sticker holding gold/black cards w/ pennant speech
+- v13 | 120.8–122 | broll-text | B&W meme (finger to temple)
+- v13 | 127–128.8 | fs-object | gramophone + green light cone; "the category is supposed to create more recognition for Asian artists," (bold)
+- v13 | 130–132 | broll-text | B&W podcast meme faces
+- v13 | 137–139.2 | fs-object | globe (green) on black road; astronaut member stickers floating "trying to prove that Korean Artists"
+- v13 | 142–146 | fs-object | member sticker kicks yellow 'C' letter; "they're big enough to Question the Stage itself." green label
+- v13 | other | captions | A-roll caption top

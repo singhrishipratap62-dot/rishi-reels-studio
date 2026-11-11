@@ -1,0 +1,25 @@
+Bundling 6%
+Bundling 20%
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+Bundling 98%
+Bundling 100%
+Getting composition
+
+💡 Get help for this issue at https://remotion.dev/docs/target-closed
+
+ProtocolError: Protocol error (Target.createTarget): Target closed. https://www.remotion.dev/docs/target-closed
+    at Connection._Connection_onClose (/Users/rishi/Documents/Teaching Claude/DIff Acc/tools/remotion/engine/node_modules/@remotion/renderer/dist/browser/Connection.js:154:38)
+    at WebSocket.<anonymous> (/Users/rishi/Documents/Teaching Claude/DIff Acc/tools/remotion/engine/node_modules/@remotion/renderer/dist/browser/NodeWebSocketTransport.js:60:30)
+    at callListener (/Users/rishi/Documents/Teaching Claude/DIff Acc/tools/remotion/engine/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/Users/rishi/Documents/Teaching Claude/DIff Acc/tools/remotion/engine/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:509:28)
+    at WebSocket.emitClose (/Users/rishi/Documents/Teaching Claude/DIff Acc/tools/remotion/engine/node_modules/ws/lib/websocket.js:279:10)
+    at Receiver.receiverOnFinish (/Users/rishi/Documents/Teaching Claude/DIff Acc/tools/remotion/engine/node_modules/ws/lib/websocket.js:1228:20)
+    at Receiver.emit (node:events:509:28)
+    at finish (node:internal/streams/writable:953:10)
+    at node:internal/streams/writable:934:13

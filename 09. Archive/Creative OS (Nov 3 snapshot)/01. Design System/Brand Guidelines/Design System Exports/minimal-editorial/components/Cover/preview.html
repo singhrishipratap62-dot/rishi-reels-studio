@@ -1,0 +1,26 @@
+<!-- @dsCard height=300 -->
+<style>
+html,body{margin:0;background:var(--surface)}
+.cv{position:relative;width:960px;height:300px;overflow:hidden;background:var(--surface)}
+.nm{position:absolute;left:40px;bottom:40px;max-width:440px}
+.nm h1{margin:0;font:italic 700 88px/.95 var(--font-serif);color:var(--text);letter-spacing:-.02em}
+.nm p{margin:12px 0 0;font:500 14px/1.4 var(--font-sans);color:var(--text-muted)}
+.a{fill:var(--accent)}.k{fill:var(--ink)}.p{fill:var(--blue-200)}.g{fill:var(--blue-400)}.w{fill:#fff}
+.ln{fill:none;stroke:var(--accent);stroke-width:24;stroke-linecap:round}
+</style>
+<div class="cv">
+<svg width="960" height="300" viewBox="0 0 960 300" style="position:absolute;inset:0">
+<!-- blocks: accent 168x300 slab (bleeds top+bottom), ink 192x204, blue-200 120x96, blue-400 disc r=24 (radius-round) -->
+<!-- arrangement: one tall slab with satellites, square corners (radius-none), right of x=480 -->
+<!-- pattern: literal motif — the accent line interrupted by text, ending in a marker dot ("a line leads to the idea") -->
+<!-- scales: safe-x 86px/2 inset, block-gap 48px, line-paper 24px stroke, radius-none, radius-round -->
+<rect class="k" x="520" y="48" width="192" height="204"/>
+<rect class="a" x="752" y="0" width="168" height="300"/>
+<rect class="p" x="616" y="204" width="120" height="96"/>
+<path class="ln" d="M500 24 C600 24 640 90 640 132"/>
+<path class="ln" d="M640 180 C640 240 700 262 800 262"/>
+<circle class="w" cx="640" cy="132" r="9"/>
+<circle class="g" cx="868" cy="72" r="24"/>
+</svg>
+<div class="nm"><h1>Minimal<br>Editorial</h1><p>Premium minimal talking-head edits: one accent, two typefaces, ten scenes.</p></div>
+</div>

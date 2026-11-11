@@ -1,0 +1,31 @@
+<!-- @dsCard group="Titles" height=1920 width=1080 subtitle="One big word per beat over matted footage; one word in signal fills the width" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Beat word</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:inherit;font-style:normal;font-weight:inherit}
+.mat{position:absolute;inset:24px;overflow:hidden;outline:2px solid var(--line)}
+.ft{position:absolute;inset:0;background:#2a2826;background-image:radial-gradient(#f4f1ea14 1.2px,transparent 1.6px),linear-gradient(160deg,#3a3733,#151413);background-size:9px 9px,100% 100%;animation:push 6s linear infinite}
+@keyframes push{from{transform:scale(1)}to{transform:scale(1.08)}}
+.scr{position:absolute;left:0;right:0;top:700px;height:520px;background:linear-gradient(transparent,var(--scrim) 50%,transparent)}
+.w{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);position:absolute;left:24px;right:24px;top:960px;transform:translateY(-50%);text-align:center;color:var(--brand-paper);font-weight:800;letter-spacing:-.035em;line-height:.95;font-size:150px;white-space:nowrap}
+.w.big{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);font-size:186px;color:var(--signal);font-weight:800;letter-spacing:-.035em}
+.w .it{font-weight:400;letter-spacing:0}
+.cap{top:1500px}
+</style></head>
+<body><div class="f"><div class="mat"><div class="ft"></div><div class="scr"></div></div>
+<div class="w" id="w">Something</div>
+<div class="cap" id="c">something</div></div>
+<script>
+var seq=[['Something',''],['completely',''],['Ridiculous','big'],['for a <span class="it">rupee</span>','']],i=0,w=document.getElementById('w'),c=document.getElementById('c');
+setInterval(function(){i=(i+1)%seq.length;w.innerHTML=seq[i][0];w.className='w '+seq[i][1];c.textContent=w.textContent.toLowerCase()},700);
+</script></body></html>

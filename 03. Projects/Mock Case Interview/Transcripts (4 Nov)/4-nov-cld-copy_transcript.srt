@@ -1,0 +1,2996 @@
+1
+00:00:00,000 --> 00:00:05,510
+[kashish] Aditya Yog Lion is a beer manufacturer. They
+
+2
+00:00:05,510 --> 00:00:10,610
+[kashish] make their own craft beers. They've been growing
+
+3
+00:00:10,610 --> 00:00:16,420
+[kashish] pretty well. From 100K barons, they've moved to
+
+4
+00:00:16,420 --> 00:00:21,260
+[kashish] about 500K in the last three years right
+
+5
+00:00:21,260 --> 00:00:23,410
+[kashish] now. And the way the distribution for them
+
+6
+00:00:23,410 --> 00:00:26,280
+[kashish] works, they have to move to the station.
+
+7
+00:00:26,280 --> 00:00:31,290
+[kashish] First is they sell directly to restaurants, bars,
+
+8
+00:00:31,290 --> 00:00:36,730
+[kashish] in cakes. Second is to wine shops, liquor
+
+9
+00:00:36,730 --> 00:00:40,300
+[kashish] stores, in cases of cans. So these are
+
+10
+00:00:40,300 --> 00:00:43,340
+[kashish] the two distribution channels that they have. So
+
+11
+00:00:43,340 --> 00:00:45,760
+[kashish] right now, what they are looking for is
+
+12
+00:00:45,760 --> 00:00:49,180
+[kashish] they have $20 million that they need to
+
+13
+00:00:49,180 --> 00:00:52,660
+[kashish] invest in. And the idea is to use
+
+14
+00:00:52,660 --> 00:00:56,730
+[kashish] that money to improve their cost and process
+
+15
+00:00:56,730 --> 00:01:00,620
+[kashish] efficiency. The two options that they have are
+
+16
+00:01:00,620 --> 00:01:06,080
+[kashish] one. Instead of using the cakes that they
+
+17
+00:01:06,080 --> 00:01:08,450
+[kashish] sell to the restaurants and bars, they can
+
+18
+00:01:08,450 --> 00:01:11,520
+[kashish] purchase them up front. And the second option
+
+19
+00:01:11,520 --> 00:01:15,460
+[kashish] is they can upgrade their calving system through
+
+20
+00:01:15,460 --> 00:01:19,840
+[kashish] which they can package their calons and everything.
+
+21
+00:01:19,840 --> 00:01:23,000
+[kashish] So the question for you is which one
+
+22
+00:01:23,000 --> 00:01:24,710
+[kashish] out of the two, they should go
+
+23
+00:01:24,710 --> 00:01:26,680
+[aditya] with it? Thank you for the problem statement,
+
+24
+00:01:26,680 --> 00:01:30,960
+[aditya] Kashish. This is very interesting. I just want
+
+25
+00:01:30,960 --> 00:01:33,800
+[aditya] to ask a few clarifying questions before
+
+26
+00:01:33,800 --> 00:01:33,890
+[kashish] we
+
+27
+00:01:33,890 --> 00:01:35,900
+[aditya] begin. And then I would want to lay
+
+28
+00:01:35,900 --> 00:01:38,760
+[aditya] down the structure of the case. I'll take
+
+29
+00:01:38,760 --> 00:01:41,680
+[aditya] a minute here to think of potential things
+
+30
+00:01:41,680 --> 00:01:43,660
+[aditya] I would want to start with. So up
+
+31
+00:01:43,660 --> 00:01:46,480
+[aditya] front, I would want to know-- you mentioned
+
+32
+00:01:46,480 --> 00:01:49,640
+[aditya] we want to improve their cost and process
+
+33
+00:01:49,640 --> 00:01:52,750
+[aditya] efficiency. Do we have any specific targets in
+
+34
+00:01:52,750 --> 00:01:54,800
+[aditya] mind? And a specific time frame within which
+
+35
+00:01:54,800 --> 00:01:56,450
+[aditya] we want to do achieve that
+
+36
+00:01:56,450 --> 00:01:58,930
+[kashish] target? No, so we have that investment. We
+
+37
+00:01:58,930 --> 00:02:02,030
+[kashish] can make it right away in terms of
+
+38
+00:02:02,030 --> 00:02:07,920
+[kashish] targets, whichever links better cost savings is the
+
+39
+00:02:07,920 --> 00:02:10,890
+[aditya] option. Now I would want to understand a
+
+40
+00:02:10,890 --> 00:02:13,360
+[aditya] bit more about our client. They are a
+
+41
+00:02:13,360 --> 00:02:14,520
+[aditya] pure manufacturer.
+
+42
+00:02:19,160 --> 00:02:21,460
+[aditya] And do we have any information on the
+
+43
+00:02:21,460 --> 00:02:24,000
+[aditya] scale at which they operate? What are their
+
+44
+00:02:24,000 --> 00:02:27,240
+[aditya] current revenues and margins? And in what geographies
+
+45
+00:02:27,240 --> 00:02:28,390
+[aditya] do they operate right
+
+46
+00:02:28,390 --> 00:02:30,960
+[kashish] now? Let's assume they operate in the US.
+
+47
+00:02:30,960 --> 00:02:33,050
+[kashish] In terms of scale, as I mentioned, they
+
+48
+00:02:33,050 --> 00:02:35,940
+[kashish] currently produce about 500K
+
+49
+00:02:35,940 --> 00:02:39,950
+[aditya] balance. Sure. And they distributed all
+
+50
+00:02:39,950 --> 00:02:40,460
+[kashish] across the
+
+51
+00:02:40,460 --> 00:02:46,090
+[aditya] US. And majorly, we manufactured it ourselves and
+
+52
+00:02:46,090 --> 00:02:49,190
+[aditya] then distributed using the two channels. So the
+
+53
+00:02:49,190 --> 00:02:52,240
+[aditya] value gene is pretty clear. Do we have
+
+54
+00:02:52,240 --> 00:02:53,670
+[aditya] any information
+
+55
+00:02:53,670 --> 00:02:53,810
+[kashish] on
+
+56
+00:02:53,810 --> 00:02:58,170
+[aditya] board contribution? Each of these distribution channels makes
+
+57
+00:02:58,170 --> 00:03:01,360
+[aditya] to our revenues and profits.
+
+58
+00:03:01,360 --> 00:03:03,370
+[kashish] You got it. In terms of not in
+
+59
+00:03:03,370 --> 00:03:06,180
+[kashish] revenue and profit, but in terms of the
+
+60
+00:03:06,180 --> 00:03:08,880
+[kashish] production of 500K balance out
+
+61
+00:03:08,880 --> 00:03:09,640
+[aditya] of that,
+
+62
+00:03:09,640 --> 00:03:13,350
+[kashish] 60% goes to crabming, cans. And if you
+
+63
+00:03:13,350 --> 00:03:16,920
+[kashish] have cans, 40% goes to cakes.
+
+64
+00:03:16,920 --> 00:03:26,690
+[aditya] OK. So 200K battles for cakes and 300,000
+
+65
+00:03:26,690 --> 00:03:28,160
+[aditya] for cans.
+
+66
+00:03:28,160 --> 00:03:29,160
+[kashish] Correct.
+
+67
+00:03:29,160 --> 00:03:32,360
+[aditya] Do we also know what sort of margins
+
+68
+00:03:32,360 --> 00:03:34,960
+[aditya] do we have across these distribution channels?
+
+69
+00:03:34,960 --> 00:03:36,640
+[kashish] No, not at this moment.
+
+70
+00:03:36,640 --> 00:03:42,680
+[aditya] All right. Given the information that I have,
+
+71
+00:03:42,680 --> 00:03:47,800
+[aditya] I would want to structure the discussion this
+
+72
+00:03:47,800 --> 00:03:48,040
+[aditya] way.
+
+73
+00:03:49,360 --> 00:03:53,250
+[aditya] I look at the initial investment, which is
+
+74
+00:03:53,250 --> 00:03:55,940
+[aditya] 20 million, and see how much of it
+
+75
+00:03:55,940 --> 00:03:59,910
+[aditya] is going to be invested across these two
+
+76
+00:03:59,910 --> 00:04:04,650
+[aditya] options of purchasing cakes or upgrading the canning
+
+77
+00:04:04,650 --> 00:04:07,760
+[aditya] system. So that will be the upfront cost
+
+78
+00:04:07,760 --> 00:04:10,110
+[aditya] that we link. Then I would want to
+
+79
+00:04:10,110 --> 00:04:12,200
+[aditya] look at what the current costs are and
+
+80
+00:04:12,200 --> 00:04:17,780
+[aditya] what expected cost savings are there, which would
+
+81
+00:04:17,780 --> 00:04:21,280
+[aditya] lead to any operating gains. I would also
+
+82
+00:04:21,280 --> 00:04:22,880
+[aditya] want to look at the time frame. If
+
+83
+00:04:22,880 --> 00:04:26,520
+[aditya] it's perpetual, then we can sort of have
+
+84
+00:04:26,520 --> 00:04:30,560
+[aditya] an NPV calculation and then compare it to
+
+85
+00:04:30,560 --> 00:04:33,960
+[aditya] our initial investment and then pick whichever option
+
+86
+00:04:33,960 --> 00:04:38,240
+[aditya] gives us the better NPV. Does that sound
+
+87
+00:04:38,240 --> 00:04:39,240
+[aditya] like an OK approach?
+
+88
+00:04:39,240 --> 00:04:40,280
+[kashish] Yeah, let's go
+
+89
+00:04:40,280 --> 00:04:40,440
+[aditya] to
+
+90
+00:04:40,440 --> 00:04:42,420
+[kashish] the NPV part. Let's just look at the
+
+91
+00:04:42,420 --> 00:04:43,440
+[kashish] cost savings for now.
+
+92
+00:04:43,440 --> 00:04:46,760
+[aditya] Sure. So then we are assuming that we
+
+93
+00:04:46,760 --> 00:04:49,800
+[aditya] are investing the full 20 million in both
+
+94
+00:04:49,800 --> 00:04:49,830
+[aditya] of
+
+95
+00:04:49,830 --> 00:04:50,200
+[kashish] these
+
+96
+00:04:50,200 --> 00:04:55,720
+[aditya] options. Perfect. I'll just take a minute to
+
+97
+00:04:55,720 --> 00:04:58,670
+[aditya] draw down all the potential cost heads that
+
+98
+00:04:58,670 --> 00:05:01,570
+[aditya] might be affected with this investment. And then
+
+99
+00:05:01,570 --> 00:05:04,650
+[aditya] we can discuss how they will change to
+
+100
+00:05:04,650 --> 00:05:06,740
+[aditya] reach the cost saving
+
+101
+00:05:06,740 --> 00:05:07,600
+[kashish] number.
+
+102
+00:05:07,600 --> 00:05:12,250
+[aditya] OK. So starting with the cakes first, I
+
+103
+00:05:12,250 --> 00:05:14,040
+[aditya] would want to look at our current lease
+
+104
+00:05:14,040 --> 00:05:16,170
+[aditya] costs as a function of the number of
+
+105
+00:05:16,170 --> 00:05:20,570
+[aditya] cakes that we are leasing currently. And multiply
+
+106
+00:05:20,570 --> 00:05:23,370
+[aditya] that with the average cost to lease per
+
+107
+00:05:23,370 --> 00:05:26,600
+[aditya] duration and multiply that with the average duration
+
+108
+00:05:26,600 --> 00:05:29,640
+[aditya] in which we sort of, for which we
+
+109
+00:05:29,640 --> 00:05:32,890
+[aditya] lease the cake. What I mean by that
+
+110
+00:05:32,890 --> 00:05:34,980
+[aditya] is they would of course be some turnover
+
+111
+00:05:34,980 --> 00:05:37,740
+[aditya] in terms of the cakes I'm assuming. Since
+
+112
+00:05:37,740 --> 00:05:39,640
+[aditya] we give them to restaurants and bars, they
+
+113
+00:05:39,640 --> 00:05:41,560
+[aditya] would return the cakes to us eventually. And
+
+114
+00:05:41,560 --> 00:05:43,960
+[aditya] then we give them, give it back to
+
+115
+00:05:43,960 --> 00:05:45,960
+[aditya] them. So there would be some turnover that
+
+116
+00:05:45,960 --> 00:05:48,600
+[aditya] I would want to account for. Do we
+
+117
+00:05:48,600 --> 00:05:51,190
+[aditya] have any information on how many cakes do
+
+118
+00:05:51,190 --> 00:05:52,760
+[aditya] we have and what it costs?
+
+119
+00:05:52,760 --> 00:05:53,830
+[kashish] So the cost
+
+120
+00:05:53,830 --> 00:05:56,530
+[aditya] cost of course, number of cakes we already
+
+121
+00:05:56,530 --> 00:05:58,880
+[aditya] know. It's 200,000.
+
+122
+00:05:58,880 --> 00:06:01,480
+[kashish] The number of cakes or the number of
+
+123
+00:06:01,480 --> 00:06:03,770
+[aditya] cakes? Oh, sorry. We know a number of
+
+124
+00:06:03,770 --> 00:06:06,880
+[aditya] batteries as 200,000. Do we know how many
+
+125
+00:06:06,880 --> 00:06:08,600
+[aditya] cakes does that translate into?
+
+126
+00:06:08,600 --> 00:06:12,700
+[kashish] So two cakes per barrel. Assume that the
+
+127
+00:06:12,700 --> 00:06:16,320
+[kashish] cost per barrel, sorry, per cake in terms
+
+128
+00:06:16,320 --> 00:06:20,280
+[kashish] of rent is about $10 a year. OK.
+
+129
+00:06:20,280 --> 00:06:22,800
+[kashish] Let's ignore the turnaround time. I think we
+
+130
+00:06:22,800 --> 00:06:23,960
+[kashish] can ignore that way.
+
+131
+00:06:23,960 --> 00:06:27,550
+[aditya] Sure. That will lead to an average your
+
+132
+00:06:27,550 --> 00:06:33,280
+[aditya] annual lease cost of $4 million. So then
+
+133
+00:06:33,280 --> 00:06:38,670
+[aditya] if we purchase these cakes outright, we're assuming
+
+134
+00:06:38,670 --> 00:06:43,560
+[aditya] that we're investing the $420 million, right. And
+
+135
+00:06:43,560 --> 00:06:47,240
+[aditya] if I divide that by the $400,000 cakes
+
+136
+00:06:47,240 --> 00:06:51,340
+[aditya] that we have, that will give us an
+
+137
+00:06:51,340 --> 00:06:57,080
+[aditya] average cost of $50 per cake. Yeah, $50
+
+138
+00:06:57,080 --> 00:06:58,440
+[aditya] per cake.
+
+139
+00:06:58,440 --> 00:07:00,710
+[kashish] That's correct. So we have a cost of
+
+140
+00:07:00,710 --> 00:07:01,880
+[kashish] $50.
+
+141
+00:07:01,880 --> 00:07:06,120
+[aditya] Sure. There are two considerations here that I
+
+142
+00:07:06,120 --> 00:07:08,720
+[aditya] would want to look at. Do we know
+
+143
+00:07:08,720 --> 00:07:10,850
+[aditya] the average useful life
+
+144
+00:07:10,850 --> 00:07:11,080
+[kashish] of a
+
+145
+00:07:11,080 --> 00:07:13,300
+[aditya] cake? That is the first thing. And then
+
+146
+00:07:13,300 --> 00:07:17,270
+[aditya] second, since you're leasing the cakes annually, I'm
+
+147
+00:07:17,270 --> 00:07:20,050
+[aditya] assuming that there would be a proper contract
+
+148
+00:07:20,050 --> 00:07:23,310
+[aditya] to this. Are there any exit costs, exit
+
+149
+00:07:23,310 --> 00:07:25,690
+[aditya] terms in the contract that we should be
+
+150
+00:07:25,690 --> 00:07:26,520
+[aditya] mindful of?
+
+151
+00:07:26,520 --> 00:07:28,530
+[kashish] No, that's interesting. So the useful life is
+
+152
+00:07:28,530 --> 00:07:32,170
+[kashish] about 10 years. So let's consider that in
+
+153
+00:07:32,170 --> 00:07:37,410
+[kashish] terms of contract, ignore the, ignore any terms
+
+154
+00:07:37,410 --> 00:07:40,120
+[kashish] which lead to exit opportunities, or sorry, exit
+
+155
+00:07:40,120 --> 00:07:42,280
+[kashish] costs related to the contract. So we can
+
+156
+00:07:42,280 --> 00:07:45,060
+[kashish] ignore those. Anything else that you think we
+
+157
+00:07:45,060 --> 00:07:47,590
+[kashish] should be considering while calculating
+
+158
+00:07:47,590 --> 00:07:51,090
+[aditya] the buying option? Of course, we should look
+
+159
+00:07:51,090 --> 00:07:54,520
+[aditya] at the opportunity cost involved in using the
+
+160
+00:07:54,520 --> 00:07:58,750
+[aditya] $20 million elsewhere. But I think that would
+
+161
+00:07:58,750 --> 00:08:01,720
+[aditya] be that we'll cover in the second option
+
+162
+00:08:01,720 --> 00:08:04,180
+[aditya] that we have, and then we'll have to
+
+163
+00:08:04,180 --> 00:08:07,310
+[aditya] compare both the options. Apart from the opportunity
+
+164
+00:08:07,310 --> 00:08:09,090
+[aditya] cost, let me take a minute to think
+
+165
+00:08:09,090 --> 00:08:11,840
+[aditya] of any other considerations that might be there.
+
+166
+00:08:11,840 --> 00:08:12,810
+[kashish] Let's do
+
+167
+00:08:12,810 --> 00:08:17,480
+[aditya] that. OK. A few other considerations here are--
+
+168
+00:08:17,480 --> 00:08:19,200
+[aditya] I'm assuming that the quality of cakes is
+
+169
+00:08:19,200 --> 00:08:23,180
+[aditya] same across what we're leasing and what we're
+
+170
+00:08:23,180 --> 00:08:29,370
+[aditya] buying. Other consideration would be any storage or
+
+171
+00:08:29,370 --> 00:08:33,040
+[aditya] obsidian cost that or maintenance costs that we
+
+172
+00:08:33,040 --> 00:08:35,560
+[aditya] might have to maintain our own cakes versus
+
+173
+00:08:35,560 --> 00:08:39,350
+[aditya] cakes that we lease. Majorly, that would include
+
+174
+00:08:39,350 --> 00:08:42,410
+[aditya] any damage or loss that happens to those
+
+175
+00:08:42,410 --> 00:08:44,610
+[aditya] cakes. I'm not sure how I'll contract this
+
+176
+00:08:44,610 --> 00:08:48,790
+[aditya] structure at the moment. Any damages or losses
+
+177
+00:08:48,790 --> 00:08:52,090
+[aditya] that occur during the process? Do we get
+
+178
+00:08:52,090 --> 00:08:55,210
+[aditya] a replacement cake or do we bear the
+
+179
+00:08:55,210 --> 00:08:57,590
+[aditya] cost of that battle of
+
+180
+00:08:57,590 --> 00:08:58,090
+[kashish] that
+
+181
+00:08:58,090 --> 00:09:02,050
+[aditya] cake? Is another constraint? And then, thirdly, I
+
+182
+00:09:02,050 --> 00:09:04,760
+[aditya] would also want to consider in terms of
+
+183
+00:09:04,760 --> 00:09:09,120
+[aditya] operating profits, the depreciation versus lease payments that
+
+184
+00:09:09,120 --> 00:09:10,910
+[aditya] we have. So even if we buy it,
+
+185
+00:09:10,910 --> 00:09:14,010
+[aditya] there would be some depreciation cost associated with
+
+186
+00:09:14,010 --> 00:09:19,440
+[aditya] the cake, which will be about $5, assuming
+
+187
+00:09:19,440 --> 00:09:21,440
+[aditya] there is no use for it. And then
+
+188
+00:09:21,440 --> 00:09:25,330
+[aditya] there's no exit value. And then the fourth
+
+189
+00:09:25,330 --> 00:09:27,280
+[aditya] factor is the exit value at the end
+
+190
+00:09:27,280 --> 00:09:29,380
+[aditya] of 10 years. So can we sell the
+
+191
+00:09:29,380 --> 00:09:32,390
+[aditya] cakes since it's made of wood? Can we
+
+192
+00:09:32,390 --> 00:09:35,370
+[aditya] sell it at some exit value that might
+
+193
+00:09:35,370 --> 00:09:37,080
+[aditya] help us recover some costs?
+
+194
+00:09:37,080 --> 00:09:39,910
+[kashish] Got it. No, so just consider the replacement
+
+195
+00:09:39,910 --> 00:09:43,650
+[kashish] cost here, which you mentioned, consider that. And
+
+196
+00:09:43,650 --> 00:09:47,200
+[kashish] we'll have to replace 5% of the cakes
+
+197
+00:09:47,200 --> 00:09:47,490
+[kashish] that we
+
+198
+00:09:47,490 --> 00:09:48,040
+[aditya] purchase.
+
+199
+00:09:48,040 --> 00:09:50,960
+[kashish] OK. And then look at the overall cost
+
+200
+00:09:50,960 --> 00:09:52,680
+[kashish] and what would be the cost savings.
+
+201
+00:09:52,680 --> 00:09:57,270
+[aditya] Sure. So the replacement cost comes out to
+
+202
+00:09:57,270 --> 00:10:01,160
+[aditya] $1 million annually, which is 5% of the
+
+203
+00:10:01,160 --> 00:10:06,240
+[aditya] 20 million that we're initially spending. The lease
+
+204
+00:10:06,240 --> 00:10:09,120
+[aditya] costs were $4 million. Would you want me
+
+205
+00:10:09,120 --> 00:10:11,160
+[aditya] to consider depreciation here? Or would you want
+
+206
+00:10:11,160 --> 00:10:11,930
+[aditya] me to ignore
+
+207
+00:10:11,930 --> 00:10:12,160
+[kashish] that?
+
+208
+00:10:12,160 --> 00:10:16,050
+[aditya] Only cash flows? Sure. So then that leads
+
+209
+00:10:16,050 --> 00:10:18,800
+[aditya] to a cost saving of $3 million annually.
+
+210
+00:10:18,800 --> 00:10:23,120
+[kashish] Let's look at it earlier time horizon.
+
+211
+00:10:23,120 --> 00:10:29,080
+[aditya] Of course. At our 10-year time horizon, we
+
+212
+00:10:29,080 --> 00:10:32,650
+[aditya] are spending 20 million up front and we're
+
+213
+00:10:32,650 --> 00:10:38,870
+[aditya] gaining $3 million annually. That would give us
+
+214
+00:10:38,870 --> 00:10:44,960
+[aditya] a benefit of $10 million over 10-year horizon.
+
+215
+00:10:44,960 --> 00:10:46,840
+[aditya] I'm assuming that the lease is fixed for
+
+216
+00:10:46,840 --> 00:10:49,610
+[aditya] the 10-year time period, and there's no inflation
+
+217
+00:10:49,610 --> 00:10:49,960
+[aditya] associated
+
+218
+00:10:49,960 --> 00:10:50,260
+[kashish] with
+
+219
+00:10:50,260 --> 00:10:50,480
+[aditya] it.
+
+220
+00:10:50,480 --> 00:10:51,120
+[kashish] That's correct.
+
+221
+00:10:51,120 --> 00:10:53,420
+[aditya] Sure, so we're seeing a total cost saving
+
+222
+00:10:53,420 --> 00:10:54,130
+[aditya] of $10
+
+223
+00:10:54,130 --> 00:10:55,140
+[kashish] million. You got
+
+224
+00:10:55,140 --> 00:10:55,560
+[aditya] it.
+
+225
+00:10:55,560 --> 00:10:57,200
+[kashish] Let's look at the other option.
+
+226
+00:10:57,200 --> 00:11:01,830
+[aditya] Perfect. The second option was upgrading
+
+227
+00:11:01,830 --> 00:11:02,160
+[kashish] the
+
+228
+00:11:02,160 --> 00:11:08,320
+[aditya] scanning system. I would follow the same approach,
+
+229
+00:11:08,320 --> 00:11:11,300
+[aditya] which is number of scans that we have
+
+230
+00:11:11,300 --> 00:11:15,410
+[aditya] multiplied by the cost per scan that we
+
+231
+00:11:15,410 --> 00:11:19,890
+[aditya] currently incurred. Do we have any information on
+
+232
+00:11:19,890 --> 00:11:24,640
+[aditya] what does 300,000 barrels translate into a scan?
+
+233
+00:11:24,640 --> 00:11:25,550
+[aditya] So what does one
+
+234
+00:11:25,550 --> 00:11:25,980
+[kashish] barrel
+
+235
+00:11:25,980 --> 00:11:26,520
+[aditya] mean?
+
+236
+00:11:26,520 --> 00:11:28,200
+[kashish] Downs in a barrel. 14
+
+237
+00:11:28,200 --> 00:11:28,770
+[aditya] cases
+
+238
+00:11:28,770 --> 00:11:29,170
+[kashish] of
+
+239
+00:11:29,170 --> 00:11:31,320
+[aditya] scans. OK, 14 cases of scans.
+
+240
+00:11:35,320 --> 00:11:40,620
+[aditya] So we have 4.2 million cases. And do
+
+241
+00:11:40,620 --> 00:11:43,570
+[aditya] we have the cost associated with scanning per
+
+242
+00:11:43,570 --> 00:11:44,040
+[aditya] case?
+
+243
+00:11:44,040 --> 00:11:47,160
+[kashish] We explain the difference between two systems first,
+
+244
+00:11:47,160 --> 00:11:47,640
+[kashish] and then we--
+
+245
+00:11:47,640 --> 00:11:48,640
+[aditya] Sure.
+
+246
+00:11:48,640 --> 00:11:51,270
+[kashish] Look at the costs associated with it. So
+
+247
+00:11:51,270 --> 00:11:58,600
+[kashish] the current scanning system needs four operators, right?
+
+248
+00:11:58,600 --> 00:12:01,610
+[kashish] The rate at which it produces is 600
+
+249
+00:12:01,610 --> 00:12:06,930
+[kashish] cases a hour. And has about 10% wastage
+
+250
+00:12:06,930 --> 00:12:12,370
+[kashish] in the entire production. This machine costed us
+
+251
+00:12:12,370 --> 00:12:15,970
+[kashish] about $10 million when we purchased it. On
+
+252
+00:12:15,970 --> 00:12:18,090
+[kashish] the other hand, the new
+
+253
+00:12:18,090 --> 00:12:18,770
+[aditya] system
+
+254
+00:12:18,770 --> 00:12:22,140
+[kashish] will also require four operators. The rate at
+
+255
+00:12:22,140 --> 00:12:25,680
+[kashish] which it produced will be 1,200 cases a
+
+256
+00:12:25,680 --> 00:12:26,560
+[aditya] hour.
+
+257
+00:12:26,560 --> 00:12:29,090
+[kashish] The wastage in this one would be about
+
+258
+00:12:29,090 --> 00:12:31,080
+[kashish] 7%. And this will cost us about $20
+
+259
+00:12:31,080 --> 00:12:32,400
+[kashish] million.
+
+260
+00:12:32,400 --> 00:12:36,170
+[aditya] OK, got it. I would like to get
+
+261
+00:12:36,170 --> 00:12:38,470
+[aditya] one thing out of the way before we
+
+262
+00:12:38,470 --> 00:12:41,870
+[aditya] get into the operating profits, which is what
+
+263
+00:12:41,870 --> 00:12:46,970
+[aditya] are we going to do with this older
+
+264
+00:12:46,970 --> 00:12:48,650
+[aditya] system? Older machine that we have. Are we
+
+265
+00:12:48,650 --> 00:12:49,720
+[aditya] going to sell it? Are we going to
+
+266
+00:12:49,720 --> 00:12:51,390
+[aditya] keep using it? Or are we going to
+
+267
+00:12:51,390 --> 00:12:51,930
+[aditya] scrap
+
+268
+00:12:51,930 --> 00:12:54,150
+[kashish] it? No. So we can sell it or
+
+269
+00:12:54,150 --> 00:12:57,550
+[kashish] we'll scrap it. And assume the salvage value
+
+270
+00:12:57,550 --> 00:12:57,860
+[kashish] of
+
+271
+00:12:57,860 --> 00:12:57,920
+[aditya] it
+
+272
+00:12:57,920 --> 00:12:59,960
+[kashish] about $1.3 million.
+
+273
+00:12:59,960 --> 00:13:01,440
+[aditya] $1.3 million.
+
+274
+00:13:01,440 --> 00:13:02,630
+[kashish] Yeah, that's a great
+
+275
+00:13:02,630 --> 00:13:05,840
+[aditya] question, by the way. Perfect. So then that
+
+276
+00:13:05,840 --> 00:13:10,170
+[aditya] would reduce our overall investment to $18.7
+
+277
+00:13:10,170 --> 00:13:12,000
+[kashish] right now.
+
+278
+00:13:12,000 --> 00:13:17,350
+[aditya] $18.7 million. Perfect. OK, I just take a
+
+279
+00:13:17,350 --> 00:13:20,640
+[aditya] minute to think of what other things I
+
+280
+00:13:20,640 --> 00:13:23,240
+[aditya] need to calculate the difference in cost.
+
+281
+00:13:23,240 --> 00:13:23,740
+[kashish] Yep.
+
+282
+00:13:26,840 --> 00:13:28,490
+[aditya] So the way I would want to structure
+
+283
+00:13:28,490 --> 00:13:34,760
+[aditya] it is that clearly the new machine has
+
+284
+00:13:34,760 --> 00:13:39,420
+[aditya] double the efficiency and has lower waste by
+
+285
+00:13:39,420 --> 00:13:42,800
+[aditya] about 3%. A clarifying question here that I
+
+286
+00:13:42,800 --> 00:13:46,720
+[aditya] have is, you mentioned the machine can produce
+
+287
+00:13:46,720 --> 00:13:49,440
+[aditya] 600 cases for other older machines, for example,
+
+288
+00:13:49,440 --> 00:13:50,560
+[aditya] and has 10%
+
+289
+00:13:50,560 --> 00:13:51,440
+[kashish] wastage.
+
+290
+00:13:51,440 --> 00:13:54,180
+[aditya] So is the 600 cases for our after
+
+291
+00:13:54,180 --> 00:13:57,330
+[aditya] accounting for wastage or does that waste reduce
+
+292
+00:13:57,330 --> 00:13:58,800
+[aditya] from the 600 cases?
+
+293
+00:13:58,800 --> 00:14:00,320
+[kashish] Reduce from the 600.
+
+294
+00:14:00,320 --> 00:14:07,760
+[aditya] OK. So actually the older machine produces about
+
+295
+00:14:07,760 --> 00:14:11,810
+[aditya] 540 cases an hour on average after accounting
+
+296
+00:14:11,810 --> 00:14:16,480
+[aditya] for the 10% wastage. And the newer machinery,
+
+297
+00:14:16,480 --> 00:14:24,280
+[aditya] I just take a minute, about 1116 cases--
+
+298
+00:14:24,280 --> 00:14:27,860
+[aditya] yeah, 1116 cases, but is what the new
+
+299
+00:14:27,860 --> 00:14:35,410
+[aditya] machinery produces. So it's almost a 100% efficiency
+
+300
+00:14:35,410 --> 00:14:38,530
+[aditya] gain in terms of number of cases. Do
+
+301
+00:14:38,530 --> 00:14:40,810
+[aditya] we know what it costs for us to
+
+302
+00:14:40,810 --> 00:14:43,600
+[aditya] make a case of times?
+
+303
+00:14:43,600 --> 00:14:46,000
+[kashish] What are the different kinds of costs that
+
+304
+00:14:46,000 --> 00:14:46,720
+[kashish] we need?
+
+305
+00:14:46,720 --> 00:14:50,440
+[aditya] Sure. I would ignore labor costs because it's
+
+306
+00:14:50,440 --> 00:14:52,880
+[aditya] both of them have four operators. Unless there's
+
+307
+00:14:52,880 --> 00:14:55,120
+[aditya] a change in the scale of the operator
+
+308
+00:14:55,120 --> 00:14:56,960
+[aditya] that we require.
+
+309
+00:14:56,960 --> 00:15:00,600
+[kashish] Regardless, let's say, even if the scale of
+
+310
+00:15:00,600 --> 00:15:03,550
+[kashish] operators does not change, do
+
+311
+00:15:03,550 --> 00:15:03,700
+[aditya] you
+
+312
+00:15:03,700 --> 00:15:05,850
+[kashish] think the cost will change or
+
+313
+00:15:05,850 --> 00:15:09,050
+[aditya] limit? It will actually change because it's a
+
+314
+00:15:09,050 --> 00:15:13,010
+[aditya] variable cost per hour. So we'll actually spend
+
+315
+00:15:13,010 --> 00:15:16,010
+[aditya] lesser in labor terms. Fair
+
+316
+00:15:16,010 --> 00:15:19,480
+[kashish] enough. In fact, even in terms of wastage,
+
+317
+00:15:19,480 --> 00:15:22,720
+[kashish] I'd simplified a bit for you so that
+
+318
+00:15:22,720 --> 00:15:26,810
+[kashish] we don't get confused there. Assume like the
+
+319
+00:15:26,810 --> 00:15:29,760
+[kashish] total number of cases that we require, which
+
+320
+00:15:29,760 --> 00:15:33,550
+[kashish] is 4.2 million. In the first case, 10%
+
+321
+00:15:33,550 --> 00:15:36,080
+[kashish] of it gets wasted in the second 1/7%.
+
+322
+00:15:36,080 --> 00:15:38,510
+[kashish] So just do 10% of that. That'll be
+
+323
+00:15:38,510 --> 00:15:38,920
+[kashish] easier
+
+324
+00:15:38,920 --> 00:15:42,870
+[aditya] for me. A 4.2 million. Sure. Thank you
+
+325
+00:15:42,870 --> 00:15:45,090
+[aditya] for that. So there are two major cost
+
+326
+00:15:45,090 --> 00:15:48,500
+[aditya] buckets involved in casing. First is the labor
+
+327
+00:15:48,500 --> 00:15:52,040
+[aditya] cost. And then second is the machinery operating
+
+328
+00:15:52,040 --> 00:15:57,080
+[aditya] cost. Running costs that would include any maintenance
+
+329
+00:15:57,080 --> 00:16:02,400
+[aditya] but electricity or the cost of operations. That
+
+330
+00:16:02,400 --> 00:16:05,280
+[aditya] will materially change. Apart from this, I'm assuming
+
+331
+00:16:05,280 --> 00:16:08,530
+[aditya] that the raw material cost would say the
+
+332
+00:16:08,530 --> 00:16:10,930
+[aditya] same. And the fixed overheads would say the
+
+333
+00:16:10,930 --> 00:16:12,770
+[aditya] same. So these are the two main cost
+
+334
+00:16:12,770 --> 00:16:13,570
+[aditya] buckets that
+
+335
+00:16:13,570 --> 00:16:13,730
+[kashish] we
+
+336
+00:16:13,730 --> 00:16:15,600
+[aditya] should ideally look at.
+
+337
+00:16:15,600 --> 00:16:17,680
+[kashish] What do you think about cost of wastage?
+
+338
+00:16:17,680 --> 00:16:19,450
+[kashish] How will you
+
+339
+00:16:19,450 --> 00:16:20,680
+[aditya] factor
+
+340
+00:16:20,680 --> 00:16:21,800
+[kashish] that?
+
+341
+00:16:21,800 --> 00:16:24,800
+[aditya] For cost of wastage, I would want to
+
+342
+00:16:24,800 --> 00:16:28,070
+[aditya] look at it so what I would want
+
+343
+00:16:28,070 --> 00:16:31,310
+[aditya] to do is calculate the labor cost per
+
+344
+00:16:31,310 --> 00:16:34,660
+[aditya] hour and machinery cost per hour. And then
+
+345
+00:16:34,660 --> 00:16:36,480
+[aditya] see how many hours it takes for us
+
+346
+00:16:36,480 --> 00:16:41,410
+[aditya] to get to 4.2 million units after accounting
+
+347
+00:16:41,410 --> 00:16:44,940
+[aditya] for the wastage. And then basically, if we
+
+348
+00:16:44,940 --> 00:16:48,120
+[aditya] have the allocated or a portion cost per
+
+349
+00:16:48,120 --> 00:16:50,690
+[aditya] hour, then wastage will be accounted for it
+
+350
+00:16:50,690 --> 00:16:51,520
+[aditya] in that respect.
+
+351
+00:16:51,520 --> 00:16:55,140
+[kashish] Got it. I'll change the approach a
+
+352
+00:16:55,140 --> 00:16:55,480
+[aditya] bit.
+
+353
+00:16:55,480 --> 00:16:58,490
+[kashish] Assume like no wastage and calculate the number
+
+354
+00:16:58,490 --> 00:17:01,370
+[kashish] of hours and calculate the cost of labor
+
+355
+00:17:01,370 --> 00:17:06,550
+[kashish] based on that. Ignore the utility, electricity, and
+
+356
+00:17:06,550 --> 00:17:08,900
+[kashish] cost of running the machine for now. Just
+
+357
+00:17:08,900 --> 00:17:12,680
+[kashish] calculate the cost of labor based on that.
+
+358
+00:17:12,680 --> 00:17:15,080
+[kashish] And then the number of cans that are
+
+359
+00:17:15,080 --> 00:17:17,290
+[kashish] wasted, assume a cost to that and then
+
+360
+00:17:17,290 --> 00:17:20,400
+[kashish] calculate what is the cost of wastage? Does
+
+361
+00:17:20,400 --> 00:17:21,900
+[kashish] that sound
+
+362
+00:17:21,900 --> 00:17:25,670
+[aditya] good? Sure, I think I get the broad
+
+363
+00:17:25,670 --> 00:17:28,130
+[aditya] context. And I'll ask you a few questions
+
+364
+00:17:28,130 --> 00:17:28,850
+[aditya] in a minute if I need
+
+365
+00:17:28,850 --> 00:17:29,040
+[kashish] any
+
+366
+00:17:29,040 --> 00:17:29,520
+[aditya] help.
+
+367
+00:17:29,520 --> 00:17:31,170
+[kashish] Let me give you the cost as
+
+368
+00:17:31,170 --> 00:17:31,520
+[aditya] well.
+
+369
+00:17:31,520 --> 00:17:35,510
+[kashish] The cost of labor here is $25 an
+
+370
+00:17:35,510 --> 00:17:36,450
+[kashish] hour. And
+
+371
+00:17:36,450 --> 00:17:36,740
+[aditya] the
+
+372
+00:17:36,740 --> 00:17:40,480
+[kashish] cost of waste is about $20. OK.
+
+373
+00:17:40,480 --> 00:17:40,980
+[aditya] OK.
+
+374
+00:17:44,920 --> 00:17:51,770
+[aditya] $20 a case. OK. So 4.2 million divided
+
+375
+00:17:51,770 --> 00:17:56,530
+[aditya] by 600 cases per hour gives us 7,000
+
+376
+00:17:56,530 --> 00:18:01,060
+[aditya] hours required to produce the entire lot that
+
+377
+00:18:01,060 --> 00:18:05,210
+[aditya] we require. I'll go ahead and multiply that
+
+378
+00:18:05,210 --> 00:18:10,920
+[aditya] by 25. That gives us $175 a case.
+
+379
+00:18:10,920 --> 00:18:16,360
+[aditya] OK. I do calculate the number of hours
+
+380
+00:18:16,360 --> 00:18:17,970
+[aditya] for 12 million cases. I just have what
+
+381
+00:18:17,970 --> 00:18:22,160
+[aditya] we had earlier 7,000 by 2 is 3,500.
+
+382
+00:18:22,160 --> 00:18:28,000
+[aditya] And I multiply that by $25 per hour.
+
+383
+00:18:28,000 --> 00:18:29,880
+[aditya] So again, I will basically have the cost
+
+384
+00:18:29,880 --> 00:18:35,040
+[aditya] that we had earlier from $175 to $87.5K
+
+385
+00:18:35,040 --> 00:18:36,680
+[aditya] without a company for wastage.
+
+386
+00:18:39,880 --> 00:18:44,230
+[kashish] Is this total labor cost per, like cost
+
+387
+00:18:44,230 --> 00:18:44,850
+[kashish] per
+
+388
+00:18:44,850 --> 00:18:46,430
+[aditya] labor? This is cost
+
+389
+00:18:46,430 --> 00:18:46,930
+[kashish] per
+
+390
+00:18:46,930 --> 00:18:51,800
+[aditya] labor. I multiply that by these numbers by
+
+391
+00:18:51,800 --> 00:18:55,720
+[aditya] 4 to get to the total labor cost.
+
+392
+00:18:55,720 --> 00:18:58,850
+[aditya] In the first option, we get $7.8K. And
+
+393
+00:18:58,850 --> 00:19:01,920
+[aditya] in the second option, we'll basically get $350
+
+394
+00:19:01,920 --> 00:19:07,520
+[aditya] a case. Now I'll add the wastage
+
+395
+00:19:07,520 --> 00:19:09,010
+[kashish] cost on
+
+396
+00:19:09,010 --> 00:19:12,050
+[aditya] top of it. I'll just take a
+
+397
+00:19:12,050 --> 00:19:12,700
+[kashish] minute
+
+398
+00:19:12,700 --> 00:19:16,240
+[aditya] to do that. So in the first case,
+
+399
+00:19:16,240 --> 00:19:20,850
+[aditya] like in the older machine, the wastage cost
+
+400
+00:19:20,850 --> 00:19:23,480
+[aditya] comes out to be 10% of 4.2 million,
+
+401
+00:19:23,480 --> 00:19:27,070
+[aditya] which is 420K multiplied by $20 per case,
+
+402
+00:19:27,070 --> 00:19:30,840
+[aditya] which is $8.4 million. And in the new
+
+403
+00:19:30,840 --> 00:19:34,370
+[aditya] machinery, with the new machinery, we bring that
+
+404
+00:19:34,370 --> 00:19:37,880
+[aditya] down to $5.8 million. We can round that
+
+405
+00:19:37,880 --> 00:19:41,710
+[aditya] up to, I think, $5.9 million for ease
+
+406
+00:19:41,710 --> 00:19:45,450
+[aditya] of calculation. So I think wastage is the
+
+407
+00:19:45,450 --> 00:19:48,290
+[aditya] major cost here and not the cost of
+
+408
+00:19:48,290 --> 00:19:51,870
+[aditya] operating the machinery as such. So the total
+
+409
+00:19:51,870 --> 00:19:55,270
+[aditya] cost in, with the older machine, comes out
+
+410
+00:19:55,270 --> 00:20:00,000
+[aditya] to be $8.4 million plus $700K, which is
+
+411
+00:20:00,000 --> 00:20:05,430
+[aditya] $9.1 million. And with the new machinery, the
+
+412
+00:20:05,430 --> 00:20:09,720
+[aditya] cost comes out to be $5.9 plus $350,
+
+413
+00:20:09,720 --> 00:20:15,010
+[aditya] 6.25 million. The difference between the two is
+
+414
+00:20:15,010 --> 00:20:24,800
+[aditya] $2.85 million annually. I would multiply, to compare
+
+415
+00:20:24,800 --> 00:20:28,100
+[aditya] the two options, I would multiply this number
+
+416
+00:20:28,100 --> 00:20:32,640
+[aditya] by 10, giving us our total cost savings
+
+417
+00:20:32,640 --> 00:20:37,880
+[aditya] of $28.5 million over 10 years. And I'll
+
+418
+00:20:37,880 --> 00:20:40,690
+[aditya] go ahead and subtract the initial cost of
+
+419
+00:20:40,690 --> 00:20:43,880
+[aditya] investment, which was $18.7 million after the scrap
+
+420
+00:20:43,880 --> 00:20:45,720
+[aditya] value.
+
+421
+00:20:45,720 --> 00:20:48,530
+[kashish] The human to be $18.5 million,
+
+422
+00:20:48,530 --> 00:20:50,770
+[aditya] I think, that would be short. $18.5, that
+
+423
+00:20:50,770 --> 00:20:53,640
+[aditya] would give us $10 million in cost savings,
+
+424
+00:20:53,640 --> 00:20:55,950
+[aditya] which is exactly the same as what we
+
+425
+00:20:55,950 --> 00:20:57,760
+[aditya] heard with Kex, Kex.
+
+426
+00:20:57,760 --> 00:21:02,130
+[kashish] You got it. Cool. So what do you
+
+427
+00:21:02,130 --> 00:21:02,880
+[kashish] like to do
+
+428
+00:21:02,880 --> 00:21:08,860
+[aditya] next? Given the financial numbers are aligning, and
+
+429
+00:21:08,860 --> 00:21:12,080
+[aditya] both of them are leading to same cost
+
+430
+00:21:12,080 --> 00:21:14,710
+[aditya] savings over a period of 10 years, I
+
+431
+00:21:14,710 --> 00:21:17,430
+[aditya] would want to assess the operational feasibility of
+
+432
+00:21:17,430 --> 00:21:22,250
+[aditya] both of these options and compare the risks
+
+433
+00:21:22,250 --> 00:21:25,120
+[aditya] involved. Given that most of these are assumptions
+
+434
+00:21:25,120 --> 00:21:27,690
+[aditya] that we are taking, we can do a
+
+435
+00:21:27,690 --> 00:21:31,360
+[aditya] bit of a scenario analysis and see which
+
+436
+00:21:31,360 --> 00:21:35,700
+[aditya] of these assumptions are most likely to vary,
+
+437
+00:21:35,700 --> 00:21:38,290
+[aditya] and then take a call based on these
+
+438
+00:21:38,290 --> 00:21:39,600
+[aditya] considerations.
+
+439
+00:21:39,600 --> 00:21:42,360
+[kashish] Cool. With the knowledge that you have, let's
+
+440
+00:21:42,360 --> 00:21:44,760
+[kashish] look at the final recommendation. What would you
+
+441
+00:21:44,760 --> 00:21:47,280
+[kashish] recommend, which option we go ahead with and
+
+442
+00:21:47,280 --> 00:21:47,680
+[kashish] why?
+
+443
+00:21:47,680 --> 00:21:50,710
+[aditya] Sure. I just take a minute to structure
+
+444
+00:21:50,710 --> 00:21:54,730
+[aditya] my thoughts. Sure. I'm assuming that we don't
+
+445
+00:21:54,730 --> 00:21:57,120
+[aditya] need to consider those scrap value of the
+
+446
+00:21:57,120 --> 00:22:00,000
+[aditya] new machine that we have after 10 years
+
+447
+00:22:00,000 --> 00:22:01,440
+[aditya] of its useful life.
+
+448
+00:22:01,440 --> 00:22:02,530
+[kashish] Yeah,
+
+449
+00:22:02,530 --> 00:22:06,260
+[aditya] sure. Before I make my recommendation, I would
+
+450
+00:22:06,260 --> 00:22:09,480
+[aditya] also want to understand-- and this is critical
+
+451
+00:22:09,480 --> 00:22:11,900
+[aditya] to my recommendation that are we seeing an
+
+452
+00:22:11,900 --> 00:22:14,680
+[aditya] increase in demand from our customers or do
+
+453
+00:22:14,680 --> 00:22:17,020
+[aditya] we assume that demand will stay flat for
+
+454
+00:22:17,020 --> 00:22:18,360
+[aditya] the next 10 years?
+
+455
+00:22:18,360 --> 00:22:19,460
+[kashish] What is your
+
+456
+00:22:19,460 --> 00:22:24,280
+[aditya] hypothesis? We here actually is the most stable
+
+457
+00:22:24,280 --> 00:22:28,610
+[aditya] industry. So I'm assuming that demand usually remains
+
+458
+00:22:28,610 --> 00:22:32,720
+[aditya] flat, and does not go abroad unless you
+
+459
+00:22:32,720 --> 00:22:37,710
+[aditya] have expansion plans into any new territories or
+
+460
+00:22:37,710 --> 00:22:41,370
+[aditya] new channels. So if we aren't doing that,
+
+461
+00:22:41,370 --> 00:22:44,350
+[aditya] then the organic growth should remain flat. It's
+
+462
+00:22:44,350 --> 00:22:45,520
+[aditya] my hypothesis.
+
+463
+00:22:45,520 --> 00:22:47,820
+[kashish] We've been seeing growth considering in the last
+
+464
+00:22:47,820 --> 00:22:51,630
+[kashish] three years, we've grown from 100K barrels to
+
+465
+00:22:51,630 --> 00:22:55,410
+[kashish] 500K barrels. But we don't know
+
+466
+00:22:55,410 --> 00:22:55,670
+[aditya] how
+
+467
+00:22:55,670 --> 00:22:58,490
+[kashish] that's going to look like. But they would
+
+468
+00:22:58,490 --> 00:23:00,640
+[kashish] be definitely some growth in the next 10
+
+469
+00:23:00,640 --> 00:23:04,760
+[aditya] years. Great. So then my recommendation to the
+
+470
+00:23:04,760 --> 00:23:09,650
+[aditya] client is that we should go with the
+
+471
+00:23:09,650 --> 00:23:15,550
+[aditya] cases, with upgrading the casing system. That's because
+
+472
+00:23:15,550 --> 00:23:17,690
+[aditya] it's not only going to give us core
+
+473
+00:23:17,690 --> 00:23:20,510
+[aditya] savings, but it's also helping us expand our
+
+474
+00:23:20,510 --> 00:23:25,070
+[aditya] capacity. I see that we already operate at
+
+475
+00:23:25,070 --> 00:23:30,420
+[aditya] about 7,000 hours a year. And that divided
+
+476
+00:23:30,420 --> 00:23:33,630
+[aditya] by roughly 365 gives us about just a
+
+477
+00:23:33,630 --> 00:23:36,360
+[aditya] bit of 20 hours a day. So I'm
+
+478
+00:23:36,360 --> 00:23:38,670
+[aditya] assuming that we are already operating close to
+
+479
+00:23:38,670 --> 00:23:43,370
+[aditya] capacity given our machines. And given that we
+
+480
+00:23:43,370 --> 00:23:46,640
+[aditya] are seeing an increasing demand in the market,
+
+481
+00:23:46,640 --> 00:23:50,280
+[aditya] and we are scaling up exponentially every year,
+
+482
+00:23:50,280 --> 00:23:53,170
+[aditya] we could use the increasing capacity along with
+
+483
+00:23:53,170 --> 00:23:55,670
+[aditya] the core savings. Even though this is a
+
+484
+00:23:55,670 --> 00:24:00,560
+[aditya] more risky investment, because only one number, which
+
+485
+00:24:00,560 --> 00:24:02,760
+[aditya] is a wastage, can vary
+
+486
+00:24:02,760 --> 00:24:03,090
+[kashish] our
+
+487
+00:24:03,090 --> 00:24:08,080
+[aditya] cost efficiencies by a huge margin, taking it
+
+488
+00:24:08,080 --> 00:24:10,520
+[aditya] from 10 to 7% led to a cost
+
+489
+00:24:10,520 --> 00:24:13,920
+[aditya] savings of 2.8 million annually, which is a
+
+490
+00:24:13,920 --> 00:24:16,420
+[aditya] huge number in a very small range. So
+
+491
+00:24:16,420 --> 00:24:18,930
+[aditya] it's a more riskier investment, but it's good
+
+492
+00:24:18,930 --> 00:24:22,480
+[aditya] for the long term potential of the business.
+
+493
+00:24:22,480 --> 00:24:27,440
+[aditya] On the other hand, purchasing kegs outright, instead
+
+494
+00:24:27,440 --> 00:24:31,580
+[aditya] of leasing, does save very predictably costs of
+
+495
+00:24:31,580 --> 00:24:34,540
+[aditya] 10 million dollars over 10 years. And the
+
+496
+00:24:34,540 --> 00:24:36,840
+[aditya] damage or loss is the key metric that
+
+497
+00:24:36,840 --> 00:24:40,560
+[aditya] will sort of affect the variance of this
+
+498
+00:24:40,560 --> 00:24:44,530
+[aditya] discussion, of this decision. But that is not
+
+499
+00:24:44,530 --> 00:24:49,070
+[aditya] going to make or break the decision. So
+
+500
+00:24:49,070 --> 00:24:52,190
+[aditya] even though it's a safer choice, it does
+
+501
+00:24:52,190 --> 00:24:55,050
+[aditya] not offer the growth potential that the casing
+
+502
+00:24:55,050 --> 00:24:57,550
+[aditya] offers, which is why I recommend that the
+
+503
+00:24:57,550 --> 00:25:00,400
+[aditya] client goes with the casing upgrade.
+
+504
+00:25:00,400 --> 00:25:03,500
+[kashish] Go ahead. Cool. Sounds good, Aditya. Thank you
+
+505
+00:25:03,500 --> 00:25:05,754
+[kashish] so much. I think you did evil in
+
+506
+00:25:05,754 --> 00:25:10,064
+[kashish] terms of case. Your strength is your analytical
+
+507
+00:25:10,064 --> 00:25:14,954
+[kashish] thinking and your business insights. They were so
+
+508
+00:25:14,954 --> 00:25:18,384
+[kashish] spot on in this case, which I really
+
+509
+00:25:18,384 --> 00:25:21,534
+[kashish] like. I'll give you examples of that as
+
+510
+00:25:21,534 --> 00:25:21,744
+[aditya] well.
+
+511
+00:25:21,744 --> 00:25:23,634
+[kashish] I'd play to it as much as you
+
+512
+00:25:23,634 --> 00:25:26,954
+[kashish] find, right? The kind of insights that you
+
+513
+00:25:26,954 --> 00:25:28,864
+[kashish] give during the case, I'll take a few
+
+514
+00:25:28,864 --> 00:25:30,654
+[kashish] examples, I've written those
+
+515
+00:25:30,654 --> 00:25:31,144
+[aditya] down.
+
+516
+00:25:31,144 --> 00:25:34,304
+[kashish] So for example, when we were doing the
+
+517
+00:25:34,304 --> 00:25:36,864
+[kashish] keg calculation, you told me, hey, we need
+
+518
+00:25:36,864 --> 00:25:39,334
+[kashish] to look at any exit costs that are
+
+519
+00:25:39,334 --> 00:25:42,584
+[kashish] involved with the contract. Then when I asked
+
+520
+00:25:42,584 --> 00:25:44,074
+[kashish] you what other costs could you look with
+
+521
+00:25:44,074 --> 00:25:47,504
+[kashish] purchasing the kegs? You told me depreciation, storage,
+
+522
+00:25:47,504 --> 00:25:50,264
+[kashish] things like that. Why it sounds very simple?
+
+523
+00:25:50,264 --> 00:25:51,914
+[kashish] Not everyone is able to think
+
+524
+00:25:51,914 --> 00:25:52,014
+[aditya] about
+
+525
+00:25:52,014 --> 00:25:56,364
+[kashish] it, right? So that's the first example of
+
+526
+00:25:56,364 --> 00:25:59,584
+[kashish] it. The second example you outright said here
+
+527
+00:25:59,584 --> 00:26:02,614
+[kashish] is there any in the second calculation that
+
+528
+00:26:02,614 --> 00:26:04,464
+[kashish] we were doing regarding the accounting system? You
+
+529
+00:26:04,464 --> 00:26:05,144
+[kashish] outright
+
+530
+00:26:05,144 --> 00:26:05,414
+[aditya] said,
+
+531
+00:26:05,414 --> 00:26:06,934
+[kashish] what are we going to do with the
+
+532
+00:26:06,934 --> 00:26:09,224
+[kashish] old machinery if we are going to upgrade
+
+533
+00:26:09,224 --> 00:26:11,424
+[kashish] it? And you right away subtracted that cost.
+
+534
+00:26:11,424 --> 00:26:14,654
+[kashish] Again, an excellent question. A lot of people
+
+535
+00:26:14,654 --> 00:26:17,664
+[kashish] are not able to think about it, right?
+
+536
+00:26:17,664 --> 00:26:22,814
+[kashish] So I think your analytical region, the third,
+
+537
+00:26:22,814 --> 00:26:25,064
+[kashish] amazing, like I don't think anyone has ever
+
+538
+00:26:25,064 --> 00:26:28,064
+[kashish] done that whether I do this case, while
+
+539
+00:26:28,064 --> 00:26:32,074
+[kashish] giving recommendation, you told me, hey, we are
+
+540
+00:26:32,074 --> 00:26:34,944
+[kashish] running at 7,000 hours, which is about 20
+
+541
+00:26:34,944 --> 00:26:37,264
+[kashish] hours a day of capacity. So we have
+
+542
+00:26:37,264 --> 00:26:39,504
+[kashish] already asked capacity. And that is why it
+
+543
+00:26:39,504 --> 00:26:41,514
+[kashish] makes sense for us to move. No one
+
+544
+00:26:41,514 --> 00:26:42,784
+[kashish] has ever thought
+
+545
+00:26:42,784 --> 00:26:44,224
+[aditya] of it.
+
+546
+00:26:44,224 --> 00:26:46,964
+[kashish] Till long that I've done this case. So
+
+547
+00:26:46,964 --> 00:26:51,834
+[kashish] your analytical thinking and your business acumen is
+
+548
+00:26:51,834 --> 00:26:56,064
+[kashish] something that sets you apart. I judge a
+
+549
+00:26:56,064 --> 00:26:59,444
+[kashish] lot on those metrics, right? And a lot
+
+550
+00:26:59,444 --> 00:27:02,024
+[kashish] of interviews do as well. Because
+
+551
+00:27:02,024 --> 00:27:02,294
+[aditya] the
+
+552
+00:27:02,294 --> 00:27:05,184
+[kashish] key KPI in the interview that you are
+
+553
+00:27:05,184 --> 00:27:08,264
+[kashish] trying to solve for is did the interviewer
+
+554
+00:27:08,264 --> 00:27:11,354
+[kashish] enjoy speaking to this person? Did I enjoy
+
+555
+00:27:11,354 --> 00:27:13,584
+[kashish] speaking to you? And did I feel that
+
+556
+00:27:13,584 --> 00:27:17,464
+[kashish] you go yourself? And this shows structure, don't
+
+557
+00:27:17,464 --> 00:27:20,584
+[kashish] optimize, or go over-optimize, right? I don't really
+
+558
+00:27:20,584 --> 00:27:22,334
+[kashish] care about structure, because at the end of
+
+559
+00:27:22,334 --> 00:27:23,444
+[kashish] the day, I want to have a good
+
+560
+00:27:23,444 --> 00:27:26,194
+[kashish] one this week. So those are some good
+
+561
+00:27:26,194 --> 00:27:30,434
+[kashish] things. Few things which can make your facing
+
+562
+00:27:30,434 --> 00:27:34,284
+[kashish] much better. Right now, it seems like I
+
+563
+00:27:34,284 --> 00:27:37,754
+[kashish] am speaking to a very smart person, but
+
+564
+00:27:37,754 --> 00:27:42,584
+[kashish] does not seem like I'm talking to a
+
+565
+00:27:42,584 --> 00:27:47,904
+[kashish] very well-practiced case of, right? So if we
+
+566
+00:27:47,904 --> 00:27:51,394
+[kashish] merge the two, it's going to be like
+
+567
+00:27:51,394 --> 00:27:54,294
+[kashish] excellent. And the second part is easy. The
+
+568
+00:27:54,294 --> 00:27:56,414
+[kashish] first part is difficult, which you already
+
+569
+00:27:56,414 --> 00:27:56,544
+[aditya] have,
+
+570
+00:27:56,544 --> 00:28:00,474
+[kashish] right? So few things. For example, when you're
+
+571
+00:28:00,474 --> 00:28:00,564
+[kashish] doing
+
+572
+00:28:00,564 --> 00:28:00,754
+[aditya] the
+
+573
+00:28:00,754 --> 00:28:03,984
+[kashish] case, bring in your personality slightly more, which
+
+574
+00:28:03,984 --> 00:28:06,474
+[kashish] is you recap the case. Hey, thank you
+
+575
+00:28:06,474 --> 00:28:09,224
+[kashish] so much for doing this case with me.
+
+576
+00:28:09,224 --> 00:28:11,894
+[kashish] Sound super interesting, beer is something I am
+
+577
+00:28:11,894 --> 00:28:14,154
+[kashish] also in. So I'll be very happy to
+
+578
+00:28:14,154 --> 00:28:16,384
+[kashish] dive into the case. Or this is something
+
+579
+00:28:16,384 --> 00:28:18,304
+[kashish] I don't drink, but it'll be fine to
+
+580
+00:28:18,304 --> 00:28:20,974
+[kashish] do this case, right? Some of the personality
+
+581
+00:28:20,974 --> 00:28:22,544
+[kashish] that you bring in, we have the problem
+
+582
+00:28:22,544 --> 00:28:25,624
+[kashish] that you bring in some person. Second, I
+
+583
+00:28:25,624 --> 00:28:29,064
+[kashish] think your clarification questions again were very good.
+
+584
+00:28:29,064 --> 00:28:31,364
+[kashish] You focused a lot on revenue in your
+
+585
+00:28:31,364 --> 00:28:34,074
+[kashish] clarification question, but I specifically mentioned in the
+
+586
+00:28:34,074 --> 00:28:36,814
+[kashish] case here, we are just looking at cost
+
+587
+00:28:36,814 --> 00:28:38,914
+[kashish] efficiencies, right? So
+
+588
+00:28:38,914 --> 00:28:39,264
+[aditya] that
+
+589
+00:28:39,264 --> 00:28:41,384
+[kashish] was a very small thick up, but I
+
+590
+00:28:41,384 --> 00:28:43,544
+[kashish] don't think it changes the outcome of the
+
+591
+00:28:43,544 --> 00:28:48,774
+[kashish] case. Your initial structure wasn't very comprehensive. Initial
+
+592
+00:28:48,774 --> 00:28:50,904
+[kashish] framework. So what is happening is I'm going
+
+593
+00:28:50,904 --> 00:28:51,584
+[kashish] to look at
+
+594
+00:28:51,584 --> 00:28:52,304
+[aditya] the
+
+595
+00:28:52,304 --> 00:28:54,264
+[kashish] cost and look at what the cost is.
+
+596
+00:28:54,264 --> 00:28:56,734
+[kashish] You did not talk about operational capabilities or
+
+597
+00:28:56,734 --> 00:28:57,384
+[kashish] risks
+
+598
+00:28:57,384 --> 00:28:58,704
+[aditya] initially.
+
+599
+00:28:58,704 --> 00:29:00,584
+[kashish] You spoke about it when I said, what
+
+600
+00:29:00,584 --> 00:29:02,334
+[kashish] would you like to do next in the
+
+601
+00:29:02,334 --> 00:29:04,914
+[kashish] end, right? So why you know here we
+
+602
+00:29:04,914 --> 00:29:07,304
+[kashish] are going to compare cost, but give all
+
+603
+00:29:07,304 --> 00:29:09,794
+[kashish] the things that you would like to put
+
+604
+00:29:09,794 --> 00:29:12,624
+[kashish] in your approach while you're solving that case,
+
+605
+00:29:12,624 --> 00:29:14,304
+[kashish] which will help you reach
+
+606
+00:29:14,304 --> 00:29:15,424
+[aditya] the decision.
+
+607
+00:29:15,424 --> 00:29:17,304
+[kashish] Because eventually
+
+608
+00:29:17,304 --> 00:29:17,734
+[aditya] you
+
+609
+00:29:17,734 --> 00:29:22,264
+[kashish] ended up doing that, right? The initial approach
+
+610
+00:29:22,264 --> 00:29:25,674
+[kashish] should be comprehensive, even though you want to
+
+611
+00:29:25,674 --> 00:29:26,164
+[kashish] focus
+
+612
+00:29:26,164 --> 00:29:26,354
+[aditya] on
+
+613
+00:29:26,354 --> 00:29:34,894
+[kashish] one. Sure, I think I get where what
+
+614
+00:29:34,894 --> 00:29:36,834
+[kashish] you were trying to do with the second
+
+615
+00:29:36,834 --> 00:29:40,704
+[kashish] counting system of understanding him is that 600
+
+616
+00:29:40,704 --> 00:29:43,664
+[kashish] cases were are before or after the wastage,
+
+617
+00:29:43,664 --> 00:29:46,964
+[kashish] but that would have made your calculation very
+
+618
+00:29:46,964 --> 00:29:49,654
+[kashish] good. That is, I said, don't go that
+
+619
+00:29:49,654 --> 00:29:50,184
+[kashish] way. Just
+
+620
+00:29:50,184 --> 00:29:50,834
+[aditya] multiply
+
+621
+00:29:50,834 --> 00:29:53,304
+[kashish] it by 20 and move it into that.
+
+622
+00:29:53,304 --> 00:29:55,654
+[kashish] But I'm at the start. So allegedly, I
+
+623
+00:29:55,654 --> 00:29:58,994
+[kashish] said, that makes sense. But I just try
+
+624
+00:29:58,994 --> 00:30:02,084
+[kashish] to solve for the complication of it. Next
+
+625
+00:30:02,084 --> 00:30:04,744
+[kashish] thing, what he should look at is your
+
+626
+00:30:04,744 --> 00:30:09,424
+[kashish] communication slightly. And when I say communication, record
+
+627
+00:30:09,424 --> 00:30:12,654
+[kashish] yourself, if you can, if you're doing online
+
+628
+00:30:12,654 --> 00:30:15,184
+[kashish] cases with people, there's a lot of errors
+
+629
+00:30:15,184 --> 00:30:18,284
+[kashish] that comes. It does not change a lot,
+
+630
+00:30:18,284 --> 00:30:20,614
+[kashish] but if you can fix that, that's going
+
+631
+00:30:20,614 --> 00:30:23,964
+[kashish] to be amazing. I wouldn't optimize or prioritize
+
+632
+00:30:23,964 --> 00:30:26,764
+[kashish] that, but just a point to go. Second
+
+633
+00:30:26,764 --> 00:30:28,934
+[kashish] thing in terms of communication, which you can
+
+634
+00:30:28,934 --> 00:30:31,704
+[kashish] solve and you should solve very fast, is
+
+635
+00:30:31,704 --> 00:30:32,004
+[kashish] you
+
+636
+00:30:32,004 --> 00:30:32,714
+[aditya] ended up
+
+637
+00:30:32,714 --> 00:30:36,214
+[kashish] calculating 10 million as a saving for both
+
+638
+00:30:36,214 --> 00:30:37,974
+[kashish] of them. And you waited for me to
+
+639
+00:30:37,974 --> 00:30:40,834
+[kashish] give you guidance on what? You have to
+
+640
+00:30:40,834 --> 00:30:42,134
+[kashish] tell me what you need
+
+641
+00:30:42,134 --> 00:30:43,064
+[aditya] to do next.
+
+642
+00:30:43,064 --> 00:30:45,364
+[kashish] So always leave the case. This is for
+
+643
+00:30:45,364 --> 00:30:48,724
+[kashish] case leadership. I give this feedback to almost
+
+644
+00:30:48,724 --> 00:30:51,244
+[kashish] everyone. Where you are driving the case. I'm
+
+645
+00:30:51,244 --> 00:30:53,524
+[kashish] not driving the case. So you tell me,
+
+646
+00:30:53,524 --> 00:30:56,064
+[kashish] you know, both the scenarios we are saving
+
+647
+00:30:56,064 --> 00:30:58,384
+[kashish] 10 million dollars. I think as next step
+
+648
+00:30:58,384 --> 00:31:00,864
+[kashish] to understand which one is going to be
+
+649
+00:31:00,864 --> 00:31:02,914
+[kashish] the best fit for us. I would like
+
+650
+00:31:02,914 --> 00:31:05,334
+[kashish] to also look at operational capabilities and do
+
+651
+00:31:05,334 --> 00:31:07,944
+[kashish] some sensitivity analysis on the numbers that we've
+
+652
+00:31:07,944 --> 00:31:09,784
+[kashish] done, whatever you want to do. But you
+
+653
+00:31:09,784 --> 00:31:10,214
+[aditya] tell
+
+654
+00:31:10,214 --> 00:31:12,494
+[kashish] me that we could give you some other
+
+655
+00:31:12,494 --> 00:31:14,784
+[kashish] direction or agree with you. That's not matter,
+
+656
+00:31:14,784 --> 00:31:16,864
+[kashish] but you give them the next step. And
+
+657
+00:31:16,864 --> 00:31:18,274
+[kashish] don't wait for me to
+
+658
+00:31:18,274 --> 00:31:18,384
+[aditya] tell
+
+659
+00:31:18,384 --> 00:31:21,314
+[kashish] you what you like to do next. So
+
+660
+00:31:21,314 --> 00:31:23,454
+[kashish] that's a quick fix that you should always
+
+661
+00:31:23,454 --> 00:31:30,524
+[kashish] move. After every sort of communication layer, close
+
+662
+00:31:30,524 --> 00:31:32,334
+[kashish] it with a loop of next
+
+663
+00:31:32,334 --> 00:31:33,444
+[aditya] step or with a
+
+664
+00:31:33,444 --> 00:31:37,014
+[kashish] question if you have any. That's also a
+
+665
+00:31:37,014 --> 00:31:42,164
+[kashish] very good point or a very strong art
+
+666
+00:31:42,164 --> 00:31:43,564
+[kashish] of your case solving that you ask a
+
+667
+00:31:43,564 --> 00:31:45,624
+[kashish] lot of relevant questions during the case as
+
+668
+00:31:45,624 --> 00:31:48,704
+[kashish] well, which is something that you should still
+
+669
+00:31:48,704 --> 00:31:53,144
+[kashish] do. And finally, I think very small nitpick
+
+670
+00:31:53,144 --> 00:31:56,974
+[kashish] regarding the case, you assume or your hypothesis
+
+671
+00:31:56,974 --> 00:31:59,714
+[kashish] was widely of that here, you know, beer
+
+672
+00:31:59,714 --> 00:32:00,894
+[kashish] industry is not
+
+673
+00:32:00,894 --> 00:32:01,664
+[aditya] going.
+
+674
+00:32:01,664 --> 00:32:03,974
+[kashish] Whereas I've given you those numbers,
+
+675
+00:32:03,974 --> 00:32:04,424
+[aditya] right?
+
+676
+00:32:04,424 --> 00:32:06,594
+[kashish] Yeah. And the industry is not going
+
+677
+00:32:06,594 --> 00:32:06,734
+[aditya] to do
+
+678
+00:32:06,734 --> 00:32:09,374
+[kashish] that. And you don't know about the US
+
+679
+00:32:09,374 --> 00:32:10,424
+[kashish] industry. So look
+
+680
+00:32:10,424 --> 00:32:10,664
+[aditya] at
+
+681
+00:32:10,664 --> 00:32:13,074
+[kashish] the information from the
+
+682
+00:32:13,074 --> 00:32:15,624
+[aditya] case.
+
+683
+00:32:15,624 --> 00:32:18,364
+[kashish] Right. But I think overall I'm very happy
+
+684
+00:32:18,364 --> 00:32:21,404
+[kashish] in terms of how you think, how you
+
+685
+00:32:21,404 --> 00:32:25,064
+[kashish] look at the problem, the only things that
+
+686
+00:32:25,064 --> 00:32:29,054
+[kashish] you need to work on are one communication,
+
+687
+00:32:29,054 --> 00:32:34,134
+[kashish] second approach. You're giving your approach. And third,
+
+688
+00:32:34,134 --> 00:32:38,464
+[kashish] just bring out more personality. That's
+
+689
+00:32:38,464 --> 00:32:39,204
+[aditya] it. Got
+
+690
+00:32:39,204 --> 00:32:41,064
+[kashish] it. Does that make sense?
+
+691
+00:32:41,064 --> 00:32:44,774
+[aditya] Yeah, that's very helpful. I think in terms
+
+692
+00:32:44,774 --> 00:32:46,954
+[aditya] of the columns, I do usually lead the
+
+693
+00:32:46,954 --> 00:32:50,464
+[aditya] case. But I should have done it here,
+
+694
+00:32:50,464 --> 00:32:54,784
+[aditya] actually. But in marketing cases, for example, I'm
+
+695
+00:32:54,784 --> 00:32:57,464
+[aditya] not always sure what to do next. And
+
+696
+00:32:57,464 --> 00:32:58,944
+[aditya] if I think that, OK, I should start
+
+697
+00:32:58,944 --> 00:33:02,344
+[aditya] with the operational feasibility now after completing the
+
+698
+00:33:02,344 --> 00:33:05,584
+[aditya] financial feasibility, it usually goes in some other
+
+699
+00:33:05,584 --> 00:33:09,224
+[aditya] direction. And sometimes the interview also lets you
+
+700
+00:33:09,224 --> 00:33:10,864
+[aditya] go on and then say that you didn't
+
+701
+00:33:10,864 --> 00:33:12,884
+[aditya] ask me what you should be doing. So
+
+702
+00:33:12,884 --> 00:33:15,824
+[aditya] how do we maintain that balance in leading
+
+703
+00:33:15,824 --> 00:33:17,914
+[aditya] versus sort of keeping it open for the
+
+704
+00:33:17,914 --> 00:33:19,994
+[aditya] interview or to let you where, or to
+
+705
+00:33:19,994 --> 00:33:20,794
+[aditya] tell you where to
+
+706
+00:33:20,794 --> 00:33:23,604
+[kashish] go? It's just a framing issue. It's a
+
+707
+00:33:23,604 --> 00:33:24,584
+[aditya] question frame.
+
+708
+00:33:24,584 --> 00:33:27,144
+[kashish] They do the financial feasibility. And you say,
+
+709
+00:33:27,144 --> 00:33:28,944
+[kashish] hey, the revenues are coming out to be
+
+710
+00:33:28,944 --> 00:33:32,184
+[kashish] $200. I will say, next, this looks good.
+
+711
+00:33:32,184 --> 00:33:32,494
+[kashish] But to
+
+712
+00:33:32,494 --> 00:33:32,724
+[aditya] make
+
+713
+00:33:32,724 --> 00:33:34,924
+[kashish] sure we are being comprehensive about how we
+
+714
+00:33:34,924 --> 00:33:37,174
+[kashish] approach this problem, I would like to look
+
+715
+00:33:37,174 --> 00:33:40,744
+[kashish] at the operational capabilities next. If that sounds
+
+716
+00:33:40,744 --> 00:33:42,544
+[kashish] good to you, I can go ahead with
+
+717
+00:33:42,544 --> 00:33:44,594
+[kashish] that. Happy to get your thoughts. So you
+
+718
+00:33:44,594 --> 00:33:46,784
+[kashish] give the next steps and then ask, does
+
+719
+00:33:46,784 --> 00:33:47,934
+[kashish] that sound good? And
+
+720
+00:33:47,934 --> 00:33:48,234
+[aditya] then,
+
+721
+00:33:48,234 --> 00:33:50,014
+[kashish] sure, if the interview takes you in some
+
+722
+00:33:50,014 --> 00:33:51,354
+[kashish] other direction, that's
+
+723
+00:33:51,354 --> 00:33:51,964
+[aditya] something different
+
+724
+00:33:51,964 --> 00:33:52,004
+[kashish] about
+
+725
+00:33:52,004 --> 00:33:52,824
+[aditya] it. Got it.
+
+726
+00:33:52,824 --> 00:33:56,694
+[kashish] And push, where should you go next? That
+
+727
+00:33:56,694 --> 00:33:58,664
+[kashish] depends on your approach, what are you doing?
+
+728
+00:33:58,664 --> 00:34:00,484
+[kashish] So your approach will tell you where you
+
+729
+00:34:00,484 --> 00:34:01,094
+[kashish] should
+
+730
+00:34:01,094 --> 00:34:01,304
+[aditya] be
+
+731
+00:34:01,304 --> 00:34:01,864
+[kashish] doing this.
+
+732
+00:34:01,864 --> 00:34:02,174
+[aditya] It's
+
+733
+00:34:02,174 --> 00:34:04,174
+[kashish] not in the case, and you build some
+
+734
+00:34:04,174 --> 00:34:06,464
+[kashish] approach, and your next step is completely off
+
+735
+00:34:06,464 --> 00:34:07,744
+[kashish] from what the approach
+
+736
+00:34:07,744 --> 00:34:08,144
+[aditya] should
+
+737
+00:34:08,144 --> 00:34:10,494
+[kashish] be. Even if it is, then say, hey,
+
+738
+00:34:10,494 --> 00:34:12,204
+[kashish] I like to change my approach of it
+
+739
+00:34:12,204 --> 00:34:14,184
+[kashish] based on the information that we have now.
+
+740
+00:34:14,184 --> 00:34:17,024
+[kashish] I'd like to evaluate this instead of this.
+
+741
+00:34:17,024 --> 00:34:18,804
+[kashish] And make that sounds good to
+
+742
+00:34:18,804 --> 00:34:19,794
+[aditya] you. Got
+
+743
+00:34:19,794 --> 00:34:20,624
+[kashish] it.
+
+744
+00:34:20,624 --> 00:34:21,144
+[aditya] That's
+
+745
+00:34:21,144 --> 00:34:25,824
+[kashish] helpful. So it's almost always apart from your
+
+746
+00:34:25,824 --> 00:34:30,544
+[kashish] calculation errors or your general frame, almost always
+
+747
+00:34:30,544 --> 00:34:32,584
+[kashish] a communication. And
+
+748
+00:34:32,584 --> 00:34:32,824
+[aditya] you
+
+749
+00:34:32,824 --> 00:34:35,944
+[kashish] can just frame things very differently.
+

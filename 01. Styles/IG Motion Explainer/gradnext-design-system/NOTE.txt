@@ -1,0 +1,1 @@
+Not included: the logo, motif, imagery, thumbnail, industry-primer PDF and company/college logo files. They are stored as uploads in the original artifact, which was shared view-only, so they could not be downloaded. design-system.json still lists them.

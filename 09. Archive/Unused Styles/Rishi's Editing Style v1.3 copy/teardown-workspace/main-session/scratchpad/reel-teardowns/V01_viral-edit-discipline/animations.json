@@ -1,0 +1,582 @@
+[
+ {
+  "id": "V01-A01",
+  "name": "footage-to-card shrink",
+  "category": "transition",
+  "element": "footage-to-card shrink",
+  "start_f": 21,
+  "end_f": 77,
+  "dur_ms": 1867,
+  "props": {
+   "width_pct": [
+    100,
+    47.7
+   ]
+  },
+  "easing": "easeOutQuart",
+  "bezier": [
+   0.2,
+   0.4,
+   0,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "can't",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A02",
+  "name": "grey reel thumbnail field",
+  "category": "background",
+  "element": "grey reel thumbnail field",
+  "start_f": 29,
+  "end_f": 92,
+  "dur_ms": 2100,
+  "props": {
+   "opacity": [
+    0,
+    0.6
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "viral",
+  "evidence": "EST"
+ },
+ {
+  "id": "V01-A03",
+  "name": "grey-to-dark small caption",
+  "category": "caption",
+  "element": "grey-to-dark small caption",
+  "start_f": 30,
+  "end_f": 92,
+  "dur_ms": 2067,
+  "props": {
+   "color": [
+    "#9AA",
+    "#333"
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "create",
+  "evidence": "EST"
+ },
+ {
+  "id": "V01-A04",
+  "name": "zoom-cut push to empty space",
+  "category": "cut",
+  "element": "zoom-cut push to empty space",
+  "start_f": 92,
+  "end_f": 93,
+  "dur_ms": 0,
+  "props": {
+   "scale": [
+    1,
+    2.0
+   ],
+   "zoom_center_pct": [
+    99.4,
+    43.9
+   ]
+  },
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "one",
+  "evidence": "MEAS (frame pair #92/#93)"
+ },
+ {
+  "id": "V01-A05",
+  "name": "gradient numeral + script slide-in",
+  "category": "text",
+  "element": "gradient numeral + script slide-in",
+  "start_f": 103,
+  "end_f": 115,
+  "dur_ms": 400,
+  "props": {
+   "x_px": [
+    836,
+    724
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeOutSine",
+  "bezier": [
+   0,
+   0.1,
+   0.4,
+   0.8
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "thing",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A06",
+  "name": "font-cycle word",
+  "category": "text",
+  "element": "font-cycle word",
+  "start_f": 132,
+  "end_f": 143,
+  "dur_ms": 367,
+  "props": {
+   "font": [
+    "sans",
+    "script",
+    "bold",
+    "italic script",
+    "bold"
+   ]
+  },
+  "easing": "step 2f",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "only",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V01-A07",
+  "name": "dip-to-background fade",
+  "category": "transition",
+  "element": "dip-to-background fade",
+  "start_f": 146,
+  "end_f": 153,
+  "dur_ms": 233,
+  "props": {
+   "opacity": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A08",
+  "name": "thumbnail hue drift",
+  "category": "micro",
+  "element": "thumbnail hue drift",
+  "start_f": 168,
+  "end_f": 200,
+  "dur_ms": 1067,
+  "props": {
+   "hue_deg": [
+    0,
+    -30
+   ]
+  },
+  "easing": "easeInOutSine",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "don't",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V01-A09",
+  "name": "card morph to search bar",
+  "category": "morph",
+  "element": "card morph to search bar",
+  "start_f": 215,
+  "end_f": 229,
+  "dur_ms": 467,
+  "props": {
+   "height_pct": [
+    100,
+    34
+   ],
+   "width_pct": [
+    100,
+    83
+   ]
+  },
+  "easing": "custom",
+  "bezier": [
+   0.4,
+   0,
+   0,
+   1.05
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "can't",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A10",
+  "name": "search typing with caret",
+  "category": "ui",
+  "element": "search typing with caret",
+  "start_f": 229,
+  "end_f": 275,
+  "dur_ms": 1533,
+  "props": {
+   "chars": [
+    0,
+    30
+   ]
+  },
+  "easing": "stepped ~20cps",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "do it",
+  "evidence": "EST"
+ },
+ {
+  "id": "V01-A11",
+  "name": "footage to curved carousel card",
+  "category": "transition",
+  "element": "footage to curved carousel card",
+  "start_f": 330,
+  "end_f": 365,
+  "dur_ms": 1167,
+  "props": {
+   "height_px": [
+    1198,
+    927
+   ]
+  },
+  "easing": "easeOutQuad",
+  "bezier": [
+   0.2,
+   0,
+   0,
+   0.8
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "look",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A12",
+  "name": "cylinder carousel scroll",
+  "category": "3d",
+  "element": "cylinder carousel scroll",
+  "start_f": 347,
+  "end_f": 422,
+  "dur_ms": 2500,
+  "props": {
+   "x_per_card_f": [
+    0,
+    25
+   ]
+  },
+  "easing": "easeInOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "how many",
+  "evidence": "EST"
+ },
+ {
+  "id": "V01-A13",
+  "name": "stacked caption word fade-in",
+  "category": "caption",
+  "element": "stacked caption word fade-in",
+  "start_f": 1354,
+  "end_f": 1370,
+  "dur_ms": 533,
+  "props": {
+   "opacity": [
+    0.25,
+    1
+   ]
+  },
+  "easing": "easeOutCubic",
+  "bezier": [
+   0.2,
+   0,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "one",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A14",
+  "name": "single word caption swap",
+  "category": "style",
+  "element": "single word caption swap",
+  "start_f": 531,
+  "end_f": 1238,
+  "dur_ms": null,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "various",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V01-A15",
+  "name": "grey word on light canvas",
+  "category": "caption",
+  "element": "grey word on light canvas",
+  "start_f": 170,
+  "end_f": 210,
+  "dur_ms": 1333,
+  "props": {
+   "color": [
+    "#AAA",
+    "#222"
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "have",
+  "evidence": "EST"
+ },
+ {
+  "id": "V01-A16",
+  "name": "script headline lockup blur in/out",
+  "category": "text",
+  "element": "script headline lockup blur in/out",
+  "start_f": 360,
+  "end_f": 436,
+  "dur_ms": 2533,
+  "props": {
+   "blur_px": [
+    10,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "professional",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V01-A17",
+  "name": "card rotate-morph to profile",
+  "category": "morph",
+  "element": "card rotate-morph to profile",
+  "start_f": 423,
+  "end_f": 448,
+  "dur_ms": 833,
+  "props": {
+   "rotate_deg": [
+    0,
+    -40,
+    5
+   ],
+   "width_px": [
+    940,
+    710
+   ]
+  },
+  "easing": "easeInOut",
+  "bezier": [
+   0.5,
+   0.5,
+   0.7,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "none",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A18",
+  "name": "single blue word above card",
+  "category": "caption",
+  "element": "single blue word above card",
+  "start_f": 437,
+  "end_f": 487,
+  "dur_ms": 1667,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "were",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V01-A19",
+  "name": "gradient type-on with drift",
+  "category": "text",
+  "element": "gradient type-on with drift",
+  "start_f": 488,
+  "end_f": 530,
+  "dur_ms": 1400,
+  "props": {
+   "chars": [
+    0,
+    23
+   ],
+   "x_px_per_f": [
+    0,
+    -14
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "had",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A20",
+  "name": "stark tiny word card",
+  "category": "caption",
+  "element": "stark tiny word card",
+  "start_f": 749,
+  "end_f": 792,
+  "dur_ms": 1433,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "just",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V01-A21",
+  "name": "flicker-on title",
+  "category": "text",
+  "element": "flicker-on title",
+  "start_f": 793,
+  "end_f": 802,
+  "dur_ms": 300,
+  "props": {
+   "opacity": [
+    0,
+    1,
+    0.5,
+    1
+   ]
+  },
+  "easing": "step",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "hard",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A22",
+  "name": "hand-held hologram icons (entrance)",
+  "category": "overlay",
+  "element": "hand-held hologram icon",
+  "start_f": 857,
+  "end_f": 871,
+  "dur_ms": 467,
+  "props": {
+   "area": [
+    0,
+    3249
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeIn",
+  "bezier": [
+   0.6,
+   0.1,
+   0.8,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "knowledge",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A23",
+  "name": "face circle orbit ring",
+  "category": "3d",
+  "element": "face circle orbit ring",
+  "start_f": 1012,
+  "end_f": 1096,
+  "dur_ms": 2800,
+  "props": {
+   "card_h_px": [
+    1910,
+    824
+   ],
+   "cluster_h_px": [
+    1851,
+    746
+   ],
+   "orbit_deg": [
+    36,
+    151
+   ],
+   "x_px": [
+    526,
+    204
+   ]
+  },
+  "easing": "easeOutCubic",
+  "bezier": [
+   0.1,
+   0.3,
+   0.2,
+   0.8
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "hundreds",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A24",
+  "name": "glowing thumbnail stack pop",
+  "category": "pop",
+  "element": "glowing thumbnail stack pop",
+  "start_f": 1099,
+  "end_f": 1119,
+  "dur_ms": 667,
+  "props": {
+   "scale": [
+    0.05,
+    1
+   ]
+  },
+  "easing": "easeOutBack",
+  "bezier": [
+   0.2,
+   1.4,
+   0.2,
+   1.1
+  ],
+  "overshoot_pct": 18.9,
+  "trigger_word": "courses",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V01-A22b",
+  "name": "hand-held hologram icons (exit)",
+  "category": "graphic",
+  "element": "hologram icons exit",
+  "start_f": 913,
+  "end_f": 923,
+  "dur_ms": 333,
+  "props": {
+   "opacity": [
+    1,
+    0
+   ],
+   "blur": [
+    "0",
+    "on"
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "n/a",
+  "evidence": "OBS"
+ }
+]

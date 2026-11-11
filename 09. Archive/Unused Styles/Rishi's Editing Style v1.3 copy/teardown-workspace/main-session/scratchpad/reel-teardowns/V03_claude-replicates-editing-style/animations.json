@@ -1,0 +1,463 @@
+[
+ {
+  "id": "V03-A01",
+  "name": "UI cards drop from top",
+  "category": "graphic",
+  "element": "UI cards drop from top",
+  "start_f": 4,
+  "end_f": 18,
+  "dur_ms": 467,
+  "props": {
+   "height_px": [
+    1,
+    111
+   ]
+  },
+  "easing": "easeOutBack",
+  "bezier": [
+   0.4,
+   1.4,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 34.5,
+  "trigger_word": "editing",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A02",
+  "name": "white sans + script caption build",
+  "category": "caption",
+  "element": "white sans + script caption build",
+  "start_f": 16,
+  "end_f": 26,
+  "dur_ms": 333,
+  "props": {
+   "line_width_px": [
+    34,
+    140
+   ]
+  },
+  "easing": "easeInQuad",
+  "bezier": [
+   1,
+   0.5,
+   0.8,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "style",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A03",
+  "name": "app card rise",
+  "category": "graphic",
+  "element": "app card rise",
+  "start_f": 85,
+  "end_f": 100,
+  "dur_ms": 500,
+  "props": {
+   "width_px": [
+    12,
+    586
+   ],
+   "cy_px": [
+    922.6,
+    945.5
+   ]
+  },
+  "easing": "easeOutQuart",
+  "bezier": [
+   0.5,
+   0.9,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 3,
+  "trigger_word": "claude",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A04",
+  "name": "channel card pop + slow settle",
+  "category": "graphic",
+  "element": "channel card pop + slow settle",
+  "start_f": 130,
+  "end_f": 146,
+  "dur_ms": 533,
+  "props": {
+   "height_px": [
+    741,
+    787
+   ]
+  },
+  "easing": "easeOutBack",
+  "bezier": [
+   0,
+   1.4,
+   0.4,
+   1.1
+  ],
+  "overshoot_pct": 28.3,
+  "trigger_word": "YouTube",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A05",
+  "name": "card to chat UI swap",
+  "category": "transition",
+  "element": "card to chat UI swap",
+  "start_f": 212,
+  "end_f": 241,
+  "dur_ms": 967,
+  "props": {
+   "ground": [
+    "#225FAA",
+    "#F4F2EC"
+   ]
+  },
+  "easing": "hard swap",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "drop",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V03-A06",
+  "name": "chat typing + growing prompt box",
+  "category": "ui",
+  "element": "chat typing + growing prompt box",
+  "start_f": 290,
+  "end_f": 396,
+  "dur_ms": 3533,
+  "props": {
+   "chars": [
+    0,
+    62
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "frame",
+  "evidence": "EST"
+ },
+ {
+  "id": "V03-A07",
+  "name": "defocus pulse",
+  "category": "camera",
+  "element": "defocus pulse",
+  "start_f": 390,
+  "end_f": 410,
+  "dur_ms": 667,
+  "props": {
+   "blur_px": [
+    12,
+    0
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "pulls",
+  "evidence": "EST"
+ },
+ {
+  "id": "V03-A08",
+  "name": "blue pane slide-in",
+  "category": "transition",
+  "element": "blue pane slide-in",
+  "start_f": 428,
+  "end_f": 458,
+  "dur_ms": 1000,
+  "props": {
+   "pane_height_px": [
+    654,
+    699
+   ]
+  },
+  "easing": "easeOutExpo-spring",
+  "bezier": [
+   0.1,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "total",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A09",
+  "name": "counter stack exit",
+  "category": "graphic",
+  "element": "counter stack exit",
+  "start_f": 526,
+  "end_f": 541,
+  "dur_ms": 500,
+  "props": {
+   "width_px": [
+    430,
+    0
+   ]
+  },
+  "easing": "easeInQuad",
+  "bezier": [
+   0.8,
+   0,
+   0.6,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "creates",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A10",
+  "name": "lookbook card stack enter",
+  "category": "graphic",
+  "element": "lookbook card stack enter",
+  "start_f": 546,
+  "end_f": 558,
+  "dur_ms": 400,
+  "props": {
+   "width_px": [
+    365,
+    506
+   ]
+  },
+  "easing": "easeOutSine",
+  "bezier": [
+   0.3,
+   0.5,
+   0.7,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "lookbook",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A11",
+  "name": "skill icon scene",
+  "category": "graphic",
+  "element": "skill icon scene",
+  "start_f": 590,
+  "end_f": 610,
+  "dur_ms": 667,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ],
+   "blur_px": [
+    8,
+    0
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "skill",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V03-A12",
+  "name": "pane exit to A-roll",
+  "category": "transition",
+  "element": "pane exit to A-roll",
+  "start_f": 608,
+  "end_f": 640,
+  "dur_ms": 1067,
+  "props": {
+   "aroll_height_px": [
+    699,
+    675
+   ]
+  },
+  "easing": "easeInCubic",
+  "bezier": [
+   0.7,
+   0,
+   0.84,
+   0
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "test",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A13",
+  "name": "reply box rise + chip drop",
+  "category": "ui",
+  "element": "reply box rise + chip drop",
+  "start_f": 659,
+  "end_f": 674,
+  "dur_ms": 500,
+  "props": {
+   "width_px": [
+    449,
+    613
+   ]
+  },
+  "easing": "easeInCubic",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "raw",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A14",
+  "name": "document wall scroll",
+  "category": "graphic",
+  "element": "document wall scroll",
+  "start_f": 777,
+  "end_f": 1076,
+  "dur_ms": 9967,
+  "props": {
+   "translate_y": [
+    "0",
+    "scroll"
+   ],
+   "blur_px": [
+    12,
+    0
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "document",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V03-A15",
+  "name": "over 6 hours headline + tile mosaic",
+  "category": "graphic",
+  "element": "over 6 hours headline + tile mosaic",
+  "start_f": 1185,
+  "end_f": 1346,
+  "dur_ms": 5367,
+  "props": {
+   "line_width_px": [
+    93,
+    359
+   ],
+   "tiles": [
+    12,
+    60
+   ]
+  },
+  "easing": "easeOutQuart",
+  "bezier": [
+   0.5,
+   1.1,
+   0,
+   1.05
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "six",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A16",
+  "name": "question card + Yeah pop",
+  "category": "text",
+  "element": "question card + Yeah pop",
+  "start_f": 1347,
+  "end_f": 1408,
+  "dur_ms": 2033,
+  "props": {
+   "yeah_width_px": [
+    49,
+    217
+   ]
+  },
+  "easing": "easeOutCirc",
+  "bezier": [
+   0,
+   0.6,
+   0.6,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "Yeah",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V03-A17",
+  "name": "bottom UI-card carousel",
+  "category": "graphic",
+  "element": "bottom UI-card carousel",
+  "start_f": 1410,
+  "end_f": 1560,
+  "dur_ms": 5000,
+  "props": {
+   "translate_x": [
+    "-100%",
+    "0"
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "stunning",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V03-A18",
+  "name": "tutorial card rise",
+  "category": "graphic",
+  "element": "tutorial card rise",
+  "start_f": 1560,
+  "end_f": 1650,
+  "dur_ms": 3000,
+  "props": {
+   "translate_y": [
+    "100%",
+    "0"
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "tutorial",
+  "evidence": "EST"
+ },
+ {
+  "id": "V03-A19",
+  "name": "comment-box CTA typing",
+  "category": "ui",
+  "element": "comment-box CTA typing",
+  "start_f": 1655,
+  "end_f": 1721,
+  "dur_ms": 2200,
+  "props": {
+   "chars": [
+    0,
+    7
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "premium",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V03-A20",
+  "name": "hard cuts with soft SFX",
+  "category": "cut",
+  "element": "hard cuts with soft SFX",
+  "start_f": 1185,
+  "end_f": 1185,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "over",
+  "evidence": "MEAS"
+ }
+]

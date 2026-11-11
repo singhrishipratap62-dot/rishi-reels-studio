@@ -1,0 +1,7 @@
+/* RisingCaption — layer sized for a 1080x1920 stage; scale the stage, never these values */
+.kmr-cap { position:absolute; left:0; top:0; width:1080px; height:1920px; pointer-events:none; z-index:50 }
+.kmr-cap-pill { position:absolute; left:540px; top:var(--cap-top); height:var(--cap-height); border-radius:var(--cap-radius); background:var(--caption-pill); transform-origin:50% 50% }
+.kmr-cap-clip { position:absolute; left:0; top:var(--cap-top); width:1080px; height:var(--cap-height); overflow:hidden }
+.kmr-cap-line { position:absolute; left:540px; top:0; height:var(--cap-height); display:flex; align-items:center; gap:0.26em; white-space:nowrap; font-family:var(--font-caption); font-weight:800; font-size:58px; letter-spacing:-0.015em; color:var(--caption-text); font-synthesis:none }
+.kmr-cap-w { display:inline-block }
+.kmr-cap-hl { color:var(--caption-highlight) }

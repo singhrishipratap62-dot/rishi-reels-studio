@@ -1,0 +1,40 @@
+<!-- @dsCard group="Titles" height=1920 width=1080 subtitle="Kicker between hairlines, Gambetta title, italic second line, ghost-to-ink on the voice" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Concept title</title>
+<style>html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:var(--font-serif);font-style:italic;font-weight:400}
+.blk{position:absolute;left:64px;right:160px;top:420px;text-align:center}
+h1{margin:28px 0 0;font-size:120px;line-height:1.0;letter-spacing:-.01em;font-weight:400}
+h1 .w{color:var(--ink-ghost);transition:color .12s linear}h1 .w.on{color:var(--ink)}
+.obj{position:absolute;left:50%;top:820px;transform:translateX(-50%) scale(.9);opacity:0;transition:all var(--dur-normal, 400ms) var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1))}
+.obj.on{opacity:1;transform:translateX(-50%)}
+</style></head>
+<body><div class="f"><div class="crop"><i></i><i></i><i></i><i></i></div>
+<div class="blk"><div class="kick">The phenomenon</div>
+<h1><span class="w serif">Automation</span><br><span class="w it">Bias</span></h1></div>
+<svg class="obj" id="o" width="420" height="420" viewBox="0 0 420 420">
+<defs><pattern id="h" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><circle cx="7" cy="7" r="3.4" fill="var(--ink)"/></pattern>
+<clipPath id="cl"><circle cx="210" cy="210" r="150"/></clipPath></defs>
+<circle cx="210" cy="210" r="190" fill="none" stroke="var(--line-strong)" stroke-width="2"/>
+<circle cx="210" cy="210" r="150" fill="var(--bg)" stroke="var(--ink)" stroke-width="5"/>
+<path d="M210 60 A150 150 0 0 1 210 360 A110 150 0 0 0 210 60" fill="url(#h)" clip-path="url(#cl)"/>
+<path d="M140 210 Q210 150 280 210 Q210 270 140 210 Z" fill="var(--bg)" stroke="var(--ink)" stroke-width="5"/>
+<circle cx="210" cy="210" r="26" fill="var(--signal)"/>
+<path d="M386 60 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8z" fill="var(--ink)"/></svg>
+<div class="cap" id="c">automation bias</div></div>
+<script>
+var w=[].slice.call(document.querySelectorAll('h1 .w')),o=document.getElementById('o');
+function run(){w.forEach(function(x){x.classList.remove('on')});o.classList.remove('on');
+w.forEach(function(x,i){setTimeout(function(){x.classList.add('on')},500+i*450)});setTimeout(function(){o.classList.add('on')},1600)}
+run();setInterval(run,5000);
+</script></body></html>

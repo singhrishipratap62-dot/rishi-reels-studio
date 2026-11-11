@@ -1,0 +1,57 @@
+# Back up the studio's knowledge (skills, docs, scripts, configs) to GitHub; heavy media goes to Drive instead.
+
+# media and project binaries
+*.mp4
+*.mov
+*.MOV
+*.m4a
+*.mp3
+*.wav
+*.aif
+*.tsrct
+*.npy
+*.zip
+*.pdf
+*.docx
+*.psd
+*.onnx
+*.torchscript
+*.bin
+*.wasm
+*.otf
+*.ttf
+*.woff
+*.woff2
+
+# images (keep small approved-look references only if added with git add -f)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# big generated data
+*_words.json
+*_transcript_words.*
+**/isl*/
+**/.tesseract-work/
+**/.work/
+**/board/
+**/board_frames/
+**/sfx48/
+
+# toolchains (reinstallable)
+06. Tools/venv-style/
+06. Tools/.uv-python/
+06. Tools/uv-tools/
+06. Tools/claude-tools/venv/
+**/node_modules/
+
+# machine/local
+.DS_Store
+.claude/settings.local.json
+.claude/.cc-writes/
+**/.claude/.cc-writes/
+*.pptx
+*.key
+*.svg

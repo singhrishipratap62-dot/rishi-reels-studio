@@ -1,0 +1,152 @@
+1
+00:00:00,008 --> 00:00:04,828
+Imagine going to your friend's birthday party. You eat, you gossip, you complain about the friend that's too
+
+2
+00:00:04,828 --> 00:00:11,408
+loud. Sub sounds normal until you discover that someone's Meta glasses recorded everything and created a highlight reel.
+
+3
+00:00:11,408 --> 00:00:16,808
+Congratulations. अब आप एक content piece बन गए हैं। Hi, I'm Asma. I like researching stories I find fun.
+
+4
+00:00:16,808 --> 00:00:19,328
+लेकिन आज की story is kind of scary.
+
+5
+00:00:19,328 --> 00:00:26,208
+Last week, 404 Media reported on a Meta patent that describes glasses that can recognize people, identify interesting
+
+6
+00:00:26,208 --> 00:00:31,468
+moments, and automatically create a highlight reel. So weird and unnecessary if you ask me.
+
+7
+00:00:31,768 --> 00:00:36,128
+खैर, for now, it's only a patent, but this for sure tells us the future that the company is
+
+8
+00:00:36,128 --> 00:00:42,688
+working towards. लेकिन Meta glasses की privacy का problem did not just start right now. In October 2024, two
+
+9
+00:00:42,688 --> 00:00:47,528
+Harvard students connected the Meta glasses with facial recognition tools and public databases.
+
+10
+00:00:47,528 --> 00:00:53,368
+They did this experiment to demonstrate that these glasses were capable of looking at complete strangers and uncovering
+
+11
+00:00:53,368 --> 00:00:55,988
+their personal information like phone numbers and address.
+
+12
+00:00:55,988 --> 00:00:57,328
+Doesn't that make you uncomfortable?
+
+13
+00:00:57,328 --> 00:01:03,128
+फिर in April 2025, we found out that Meta changed the default privacy settings for people who already
+
+14
+00:01:03,128 --> 00:01:06,768
+owned the glasses. Meta AI with camera was switched on automatically.
+
+15
+00:01:06,768 --> 00:01:12,408
+इसका मतलब यह है कि whenever someone used certain AI features, then Meta could access all the content
+
+16
+00:01:12,408 --> 00:01:13,808
+captured through those glasses.
+
+17
+00:01:13,808 --> 00:01:17,048
+And then there was a second change which involved voice recordings.
+
+18
+00:01:17,248 --> 00:01:23,168
+TechCrunch reported that conversations that followed the "Hey Meta" command could be stored for up to one year to
+
+19
+00:01:23,168 --> 00:01:24,908
+help improve Meta's products.
+
+20
+00:01:24,908 --> 00:01:29,288
+At that time, users reportedly could not simply opt out of that storage.
+
+21
+00:01:29,288 --> 00:01:32,588
+They had to enter the companion app and delete the recordings manually.
+
+22
+00:01:32,788 --> 00:01:35,488
+Basically, no such thing as consent with Meta.
+
+23
+00:01:35,488 --> 00:01:41,908
+फिर March 2026 में, Expedite Investigation ने report किया कि Meta के contractors in Kenya कुछ smart glasses की
+
+24
+00:01:41,908 --> 00:01:48,748
+footage को review कर रहे थे, and they encountered extremely private material, including people changing clothes, intimate moments,
+
+25
+00:01:48,748 --> 00:01:50,408
+and visible financial information.
+
+26
+00:01:50,408 --> 00:01:55,328
+So if you think कि glasses पहनने वाला is safe, then you're wrong, because AI features and accidental
+
+27
+00:01:55,388 --> 00:01:57,088
+activations are just that scary.
+
+28
+00:01:57,088 --> 00:02:01,828
+Meta says that a small light will turn on whenever a recording is happening to alert people, but people
+
+29
+00:02:01,828 --> 00:02:05,108
+who want to use it for the wrong stuff are already finding ways around it.
+
+30
+00:02:05,108 --> 00:02:11,028
+In July 2026, Meta announced that the camera would stop working if it detected physical tampering with the
+
+31
+00:02:11,028 --> 00:02:17,008
+light, which means कि privacy feature only became important after people reported it. लेकिन it's still not enough.
+
+32
+00:02:17,008 --> 00:02:23,328
+Many creators reportedly are still using these glasses to record women during uncomfortable pickup and prank videos.
+
+33
+00:02:23,328 --> 00:02:29,488
+And although Instagram promised to remove this content, Business Insider still found some content online. It is obviously
+
+34
+00:02:29,488 --> 00:02:33,708
+a very serious concern, which is why the courts in England, Wales, and New York have put a
+
+35
+00:02:33,708 --> 00:02:39,128
+ban on the glasses. A German rights group called HateAid has also filed a criminal complaint about it,
+
+36
+00:02:39,128 --> 00:02:42,388
+which means that the danger is not just theoretical anymore.
+
+37
+00:02:42,428 --> 00:02:46,288
+अब सवाल यह है कि is the convenience of these glasses worth all of this?
+
+38
+00:02:46,288 --> 00:02:49,088
+और अगर यह सब चलता रहा, then what is the future going to look like?
+

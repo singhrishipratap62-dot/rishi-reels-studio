@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>roughcut_v3 Storyboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1E1E1E;--lead:#6E6E6E;--ghost:#CFCFCF;--paper:#FFFFFF;--lav:#F6F4FA;--mint:#8ED9BF;--teal:#3FA884;--deep:#1E5B47;--yel1:#E9C95A;--yel2:#F4E3A1;--red1:#D23C4C;--red2:#5C1A24;--blue:#1F5FD6;--clay:#D97757;--clay2:#9E4A30;--line:#E3E7E5}
+*{box-sizing:border-box}
+body{margin:0;background:#EEEBF3;color:var(--ink);font-family:Inter,system-ui,sans-serif}
+header{padding:32px 24px 8px;max-width:1400px;margin:auto}
+h1{font-size:30px;margin:0 0 4px;font-weight:700;letter-spacing:-.02em}
+.sub{color:var(--lead);font-size:15px;margin:0}
+.wrap{max-width:1400px;margin:auto;padding:0 24px 60px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13px}
+.chip b{font-weight:600}
+.chip.warn{background:#FFF4E5;border-color:#F3D3A6}
+/* timeline */
+.tl{background:#fff;border-radius:16px;padding:16px;margin:8px 0 24px;border:1px solid var(--line)}
+.tl h2,.sec{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--lead);margin:0 0 10px;font-weight:600}
+.bar{position:relative;height:44px;border-radius:8px;background:#E9E6EE;overflow:hidden}
+.bar div{position:absolute;top:0;bottom:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#fff;border-right:1px solid #fff}
+.bar .fs{background:var(--teal)} .bar .ov{background:var(--clay)} .bar .bw{background:#555}
+.ticks{position:relative;height:16px;font-size:10px;color:var(--lead)}
+.ticks span{position:absolute;transform:translateX(-50%)}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--lead);margin-top:8px;flex-wrap:wrap}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:4px}
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.card{background:#fff;border-radius:18px;padding:12px;border:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.card.g{outline:3px solid color-mix(in srgb,var(--teal) 50%,transparent)}
+.card.o{outline:3px solid color-mix(in srgb,var(--clay) 50%,transparent)}
+.meta{display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.num{font-weight:700;font-size:14px}
+.time{color:var(--lead);font-variant-numeric:tabular-nums}
+.key{font-size:11px;font-weight:600;padding:3px 8px;border-radius:999px;background:#EEE}
+.key.fs{background:#DDF3EA;color:var(--deep)} .key.ov{background:#F8E1D8;color:var(--clay2)} .key.ar{background:#EEE;color:#555}
+.vo{font-size:13px;line-height:1.4;color:var(--ink);font-style:italic}
+.beats{margin:0;padding-left:16px;font-size:12px;line-height:1.5;color:#444}
+.beats b{color:var(--ink)}
+/* phone */
+.phone{position:relative;width:100%;aspect-ratio:9/16;border-radius:14px;overflow:hidden;background:#000;container-type:inline-size}
+.phone>*{position:absolute}
+.still{inset:0;width:100%;height:100%;object-fit:cover}
+.cap{left:0;right:0;top:66%;text-align:center;color:#fff;font-size:4cqw;text-shadow:0 .1cqw .6cqw rgba(0,0,0,.45);font-weight:400}
+.paper{inset:0;background:#fff}
+.lav{inset:0;background:var(--lav)}
+.floor{left:-10%;right:-10%;bottom:0;transform:perspective(60cqw) rotateX(38deg);transform-origin:bottom}
+.lead{font-weight:300;color:var(--lead);font-size:4.2cqw;margin:0}
+.big{font-weight:500;font-size:14cqw;line-height:.92;letter-spacing:-.02em;margin:0}
+.ghost{color:var(--ghost);font-weight:300}
+.pf{font-family:'Playfair Display',serif;font-style:italic;font-weight:500}
+.shadow{border-radius:50%;background:rgba(0,0,0,.18);filter:blur(1.6cqw)}
+.win{background:#fff;border:1px solid var(--line);border-radius:2.6cqw;box-shadow:0 2cqw 5cqw rgba(30,30,30,.12);overflow:hidden}
+.winh{display:flex;align-items:center;gap:1.6cqw;padding:2.4cqw 3cqw;border-bottom:1px solid var(--line);font-size:3.6cqw;font-weight:600;background:linear-gradient(#fff,#F4FBF8)}
+.winh img{width:4.4cqw;height:4.4cqw}
+.input{margin:2.6cqw;border:1px solid var(--line);border-radius:2.4cqw;padding:2.2cqw;font-size:3.2cqw;display:flex;flex-direction:column;gap:1.6cqw;background:#fff}
+.fchip{display:inline-flex;align-items:center;gap:1.2cqw;background:#EEF4FF;border-radius:1.4cqw;padding:1cqw 1.8cqw;font-size:2.8cqw;font-weight:500;align-self:flex-start}
+.send{align-self:flex-end;width:7cqw;height:7cqw;border-radius:50%;background:var(--mint);display:grid;place-items:center;color:var(--deep);font-weight:700;font-size:3.6cqw}
+.mock{position:relative;border-radius:2cqw;overflow:hidden;background:linear-gradient(160deg,#2B2140,#7A3B6E 55%,#E58B5A);color:#fff;display:grid;place-items:center}
+.tag{font-size:2.4cqw;font-weight:700;background:#FFE08A;color:#5A4300;border-radius:1cqw;padding:.6cqw 1.4cqw;letter-spacing:.04em}
+.cursor{width:10cqw;image-rendering:pixelated}
+.file{background:#fff;border:1px solid #D9DDE0;border-radius:1.2cqw;padding:1.6cqw 2cqw;font-size:2.8cqw;font-weight:500;box-shadow:0 .6cqw 1.2cqw rgba(0,0,0,.08);display:flex;align-items:center;gap:1.2cqw;white-space:nowrap}
+.file::before{content:"";width:2.6cqw;height:3.2cqw;background:linear-gradient(135deg,#fff 50%,#CFD6DA 50%) top right/1.2cqw 1.2cqw no-repeat,#EEF1F3;border-radius:.4cqw;flex:none}
+.repo{background:#fff;border:1px solid #D0D7DE;border-radius:1.2cqw;padding:1.6cqw 2cqw;font-size:2.8cqw;font-weight:600;box-shadow:0 .6cqw 1.2cqw rgba(0,0,0,.1);display:flex;align-items:center;gap:1.4cqw;white-space:nowrap}
+.repo img{width:3.4cqw}
+.repo small{font-weight:400;color:var(--lead);margin-left:auto;padding-left:2cqw}
+.px{width:2.4cqw;height:2.4cqw}
+.slop{width:30cqw;aspect-ratio:4/5;border-radius:2cqw;background:linear-gradient(150deg,#7B5CFF,#E05CD0);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;font-size:3.4cqw;text-align:center;box-shadow:0 1cqw 2cqw rgba(0,0,0,.25);gap:1cqw}
+.slop span{font-size:7cqw}
+.row{display:flex;align-items:center;gap:2cqw;padding:1.8cqw 2.6cqw;font-size:3.2cqw;border-bottom:1px solid #F0F2F1}
+.row.ok{background:#E3F6EE}
+.row .tick{margin-left:auto;color:var(--teal);font-weight:700}
+.lbl{background:var(--ink);color:#fff;font-size:2.8cqw;font-weight:600;border-radius:1cqw;padding:.8cqw 1.6cqw}
+.prog{height:2.2cqw;border-radius:2cqw;background:#E8ECEA;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--teal)}
+.pill{background:rgba(46,46,46,.7);color:#fff;border-radius:.8cqw;font-size:5.6cqw;padding:.6cqw 2.4cqw;display:flex;align-items:center;gap:1.4cqw}
+.notes{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:32px}
+.note{background:#fff;border-radius:16px;padding:16px;border:1px solid var(--line);font-size:14px;line-height:1.5}
+.note h3{margin:0 0 6px;font-size:15px}
+.logos{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.logos img{height:34px}
+.q{background:#FFF8EC;border-color:#F3D3A6}
+@media (max-width:600px){header,.wrap{padding-left:16px;padding-right:16px}.grid{grid-template-columns:1fr 1fr;gap:12px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>roughcut_v3 · storyboard</h1>
+  <p class="sub">Paper Stage style · 1080×1920 · 30 fps · 33.5 s · built in Tesseract once you approve</p>
+</header>
+<div class="wrap">
+  <div class="chips">
+    <span class="chip"><b>Graphics</b> 15.7 s = 47 % (target 40–45 %)</span>
+    <span class="chip"><b>First graphic</b> 0.55 s ✓</span>
+    <span class="chip"><b>Hook 0–8 s</b> 66 % covered ✓</span>
+    <span class="chip"><b>Longest A-roll</b> 5.6 s ✓</span>
+    <span class="chip"><b>Ends</b> on plain A-roll ✓</span>
+    <span class="chip"><b>Captions</b> romanised, exactly as spoken, Inter 42 px under the chin</span>
+  </div>
+
+  <div class="tl">
+    <h2>Timeline</h2>
+    <div class="bar" id="bar"></div>
+    <div class="ticks" id="ticks"></div>
+    <div class="legend"><span><i style="background:var(--teal)"></i>full-screen graphic</span><span><i style="background:var(--clay)"></i>graphic over A-roll</span><span><i style="background:#555"></i>black-and-white beat</span><span><i style="background:#E9E6EE"></i>A-roll + caption</span></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="notes">
+    <div class="note">
+      <h3>Logos saved for reuse</h3>
+      <code>Video Projects/assets/logos/&lt;brand&gt;/</code>: SVG and 1024 px PNG, sources in README.md
+      <div class="logos">
+        <img src="../../assets/logos/claude/claude-symbol-color.png" alt="Claude symbol">
+        <img src="../../assets/logos/claude/claude-wordmark.png" alt="Claude wordmark">
+        <img src="../../assets/logos/github/github-mark-mono-black.png" alt="GitHub">
+        <img src="../../assets/logos/instagram/instagram-glyph-color.png" alt="Instagram">
+        <img src="../../assets/logos/anthropic/anthropic-mark-mono-black.png" alt="Anthropic">
+      </div>
+    </div>
+    <div class="note">
+      <h3>Motion, everywhere</h3>
+      Entries blur in over 4–6 frames (16 → 0 px), exits are hard cuts, and full-screen scenes drift 1.00 → 1.05. Words go from ghost grey to ink on the exact spoken word. A-roll returns with a 3-frame blur → sharp. Sound effects come later, at the Sound step.
+    </div>
+    <div class="note q">
+      <h3>To confirm</h3>
+      1. Approve this storyboard as it stands, or send notes by shot number.<br>
+      2. Shot 2's finished-video card stays a <b>mockup</b> until you say what goes there.<br>
+      3. Graphics run at 47 %, 2 % over target. Keep it, or I can trim shot 16.
+    </div>
+  </div>
+</div>
+
+<script>
+const L='../../assets/logos/';
+const CUR='<svg class="cursor" viewBox="0 0 16 22" shape-rendering="crispEdges"><defs><linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5B8CFF"/><stop offset="1" stop-color="#1F5FD6"/></linearGradient></defs><path d="M1 1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h-4v1h1v1h1v2h1v2h-2v1h-2v-1h-1v-2h-1v-2h-1v1h-1v1h-1v1h-1z" fill="url(#cg)" stroke="#000" stroke-width="1" vector-effect="non-scaling-stroke"/></svg>';
+const PX=(x,y,c)=>`<div class="px" style="left:${x}%;top:${y}%;background:${c}"></div>`;
+const ST=t=>`<img class="still" src="stills/t${t}.jpg" alt="">`;
+const CAP=s=>`<div class="cap">${s}</div>`;
+
+const scenes={
+aroll:(s)=>ST(s.still)+CAP(s.cap),
+chat:()=>`<div class="lav"></div>
+ <div class="shadow" style="left:14%;right:14%;bottom:13%;height:4%"></div>
+ <div class="win" style="left:7%;right:7%;top:16%">
+  <div class="winh"><img src="${L}claude/claude-symbol-color.png" alt="">Claude</div>
+  <div style="padding:2.6cqw 2.6cqw 0;display:flex;justify-content:flex-end">
+   <div class="mock" style="width:46cqw;aspect-ratio:9/14"><div style="font-weight:900;font-size:9cqw;letter-spacing:-.03em">WOW.</div><div style="position:absolute;width:9cqw;height:9cqw;border-radius:50%;background:rgba(255,255,255,.85);bottom:5cqw;display:grid;place-items:center;color:#7A3B6E;font-size:3.4cqw">▶</div><div class="tag" style="position:absolute;top:2cqw;left:2cqw">MOCKUP</div></div>
+  </div>
+  <div class="input"><span class="fchip">🎞 roughcut.mp4</span><span>edit this like a pro ✨</span><div class="send">↑</div></div>
+ </div>
+ <div style="left:78%;top:79%">${CUR}</div>
+ ${PX(14,12,'var(--mint)')}${PX(84,10,'var(--blue)')}`,
+bw:(s)=>`<img class="still" src="stills/t${s.still}.jpg" style="filter:grayscale(1) contrast(1.1);transform:scale(1.08)" alt=""><div style="inset:0;display:grid;place-items:center"><div style="color:#fff;font-size:8cqw;text-shadow:0 0 3cqw rgba(255,255,255,.7),0 0 1cqw rgba(0,0,0,.4)">nope.</div></div>`,
+stack:()=>{const files=['video-editor.md','caption-pro.md','motion-kit.md','viral-hooks.md','color-grade.md'];const repos=[['awesome-edits','★ 12.4k'],['reel-templates','★ 8.1k'],['ai-video-tools','★ 21k'],['prompt-pack','★ 5.6k']];
+ let h=`<div class="paper"></div><div class="floor" style="height:32%;background:linear-gradient(var(--mint),#BFEBDC)"></div>
+ <div style="left:7%;top:9%"><p class="lead">collect all the</p><p class="big">skills</p><p class="big ghost" style="font-size:9cqw">→ repos</p></div>
+ <div class="shadow" style="left:18%;right:18%;bottom:15%;height:4%"></div>`;
+ files.forEach((f,i)=>h+=`<div class="file" style="left:${18+(i%2)*14}%;bottom:${17+i*4.2}%;transform:rotate(${[-4,3,-2,5,-3][i]}deg)">${f}</div>`);
+ repos.forEach((r,i)=>h+=`<div class="repo" style="left:${14+(i%2)*10}%;bottom:${39+i*5}%;transform:rotate(${[3,-3,2,-4][i]}deg)"><img src="${L}github/github-mark-mono-black.png" alt="">${r[0]}<small>${r[1]}</small></div>`);
+ return h+PX(80,30,'var(--teal)')+PX(86,34,'var(--mint)');},
+taste:()=>`<div class="paper"></div><div class="floor" style="height:36%;background:linear-gradient(var(--yel1),var(--yel2))"></div>
+ <div style="right:7%;top:9%;text-align:right"><p class="lead">until you teach it your</p><p class="big pf" style="font-size:17cqw">taste</p><p class="big" style="font-size:9cqw">&amp; design skill</p></div>
+ <div class="shadow" style="left:20%;right:20%;bottom:17%;height:4.5%"></div>
+ <svg style="left:14%;bottom:19%;width:72%" viewBox="0 0 200 130"><path d="M100 10C40 10 8 45 10 80c2 30 40 40 60 30 14-7 10-24 26-24 22 0 18 34 54 30 30-3 46-30 40-60C182 28 150 10 100 10z" fill="#F3E2C4" stroke="#C9A877" stroke-width="3"/><circle cx="58" cy="44" r="11" fill="#D23C4C"/><circle cx="92" cy="32" r="11" fill="#E9C95A"/><circle cx="128" cy="34" r="11" fill="#3FA884"/><circle cx="158" cy="52" r="11" fill="#1F5FD6"/><circle cx="46" cy="76" r="11" fill="#1E1E1E"/><g transform="rotate(-32 120 80)"><rect x="60" y="74" width="110" height="10" rx="5" fill="#8B5A2B"/><rect x="40" y="72" width="24" height="14" rx="3" fill="#B8BEC4"/><path d="M14 79c8-10 20-10 28-7v14c-8 3-20 3-28-7z" fill="#1E5B47"/></g></svg>
+ ${PX(16,46,'var(--red1)')}${PX(80,52,'var(--blue)')}`,
+k19:(s)=>ST(s.still)+`<div class="cap" style="top:63%">claude se edited</div>
+ <div style="left:6%;right:6%;top:73%;height:12%;border-radius:2.4cqw;background:linear-gradient(120deg,var(--clay),var(--clay2));box-shadow:0 1.4cqw 3cqw rgba(0,0,0,.3);overflow:hidden"><div style="position:absolute;top:0;bottom:0;left:55%;width:12%;background:rgba(255,255,255,.35);transform:skewX(-20deg)"></div>
+  <svg style="position:absolute;left:5%;top:14%;height:72%" viewBox="0 0 60 50"><rect x="4" y="18" width="52" height="30" rx="3" fill="#1E1E1E"/><g transform="rotate(-14 4 18)"><rect x="4" y="8" width="52" height="10" fill="#fff"/><path d="M10 8l8 10M24 8l8 10M38 8l8 10" stroke="#1E1E1E" stroke-width="5"/></g><rect x="10" y="26" width="40" height="3" fill="#555"/></svg>
+  <div style="position:absolute;left:34%;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:1.6cqw;background:#fff;border-radius:999px;padding:1.2cqw 2.6cqw;font-weight:700;font-size:3.6cqw;color:var(--clay2)"><img src="${L}claude/claude-symbol-color.png" style="width:4cqw" alt="">EDITED BY CLAUDE</div></div>`,
+slop:()=>{let h=`<div class="paper"></div><div class="floor" style="height:34%;background:linear-gradient(var(--red1),var(--red2))"></div>
+ <div style="left:7%;top:9%"><p class="lead">than all the</p><p class="big" style="font-size:12cqw">Claude <span style="color:var(--red1)">slop</span></p></div>
+ <div class="shadow" style="left:14%;right:14%;bottom:15%;height:4%"></div>`;
+ [[12,18,-10],[40,16,6],[26,26,-3],[54,24,12],[34,36,-7]].forEach(([x,y,r])=>h+=`<div class="slop" style="left:${x}%;bottom:${y}%;transform:rotate(${r}deg)"><span>🚀</span>10X YOUR<br>LIFE ✨</div>`);
+ return h;},
+drowsy:()=>`<div style="inset:0;background:#D9D7DD"></div>
+ <div class="win" style="left:8%;right:8%;top:20%;filter:saturate(.25) brightness(.92);transform:rotate(-2deg) translateY(1.5cqw)">
+  <div class="winh"><img src="${L}claude/claude-symbol-color.png" style="opacity:.5" alt="">Claude <span style="margin-left:auto;font-size:4.4cqw">😴</span></div>
+  <div style="padding:3cqw"><div class="mock" style="height:34cqw;filter:blur(1.2cqw) grayscale(1);transform:rotate(3deg)"><div style="font-size:8cqw;font-weight:900">wow?</div></div></div>
+  <div style="padding:0 3cqw 3cqw;display:flex;flex-direction:column;gap:1.4cqw"><div class="prog"><i style="width:12%;background:#9AA"></i></div><span style="font-size:2.8cqw;color:#888">rendering… 12 %</span></div>
+ </div>
+ <div style="right:12%;top:12%;font-size:6cqw;color:#888;font-weight:300;line-height:1.1;text-align:right">z<br><span style="font-size:4.6cqw;margin-right:4cqw">z</span><br><span style="font-size:3.4cqw;margin-right:8cqw">z</span></div>
+ <div class="tag" style="left:8%;bottom:16%;background:#555;color:#eee;font-size:3cqw">NO SKILL LOADED</div>`,
+skill:()=>`<div class="paper"></div><div class="floor" style="height:26%;background:linear-gradient(var(--mint),#BFEBDC)"></div>
+ <div class="shadow" style="left:16%;right:16%;bottom:14%;height:4%"></div>
+ <div class="win" style="left:7%;right:7%;top:14%">
+  <div class="winh"><img src="${L}claude/claude-symbol-color.png" alt="">Claude <span style="margin-left:auto;font-weight:500;color:var(--teal);font-size:3cqw">● awake</span></div>
+  <div class="row" style="font-weight:600">📁 paper-stage-edit/</div>
+  <div class="row">📄 SKILL.md</div>
+  <div class="row ok">📄 RULEBOOK.md <span class="tick">✓</span></div>
+  <div class="row ok">📄 LOOKBOOK.md <span class="tick">✓</span></div>
+  <div class="row">📄 SOUND.md</div>
+  <div class="row">📄 LESSONS.md</div>
+  <div style="padding:2.6cqw;display:flex;align-items:center;gap:2cqw"><div class="prog" style="flex:1"><i style="width:100%"></i></div><b style="color:var(--teal);font-size:3.4cqw">100 % ✓</b></div>
+ </div>
+ <div class="lbl" style="right:4%;top:35%">what to do</div>
+ <div class="lbl" style="right:4%;top:41.5%">how to do it</div>
+ <div style="left:56%;top:43%">${CUR}</div>
+ ${PX(12,9,'var(--mint)')}${PX(18,7,'var(--teal)')}${PX(84,72,'var(--blue)')}`,
+rail:(s)=>ST(s.still)+CAP(s.cap)+`<div style="left:3.7%;top:0;bottom:0;width:.6cqw;background:#49B79A"></div>
+ <div style="left:2%;top:0;bottom:0;width:4cqw;background:repeating-linear-gradient(#49B79A 0 .25cqw,transparent .25cqw 2.2cqw);opacity:.8"></div>
+ <div class="pill" style="left:7%;top:24%"><span style="color:#F4B6C8">✿</span>v3</div>
+ <div style="left:9%;top:31%;color:#fff;font-size:3cqw;opacity:.8;text-shadow:0 0 1cqw #000">v1 → v2 → v3</div>`,
+cta:(s)=>ST(s.still)+`<div style="left:0;right:0;bottom:0;height:52%;backdrop-filter:blur(1cqw);-webkit-backdrop-filter:blur(1cqw);background:linear-gradient(transparent,rgba(0,0,0,.7))"></div>
+ <div style="left:8%;right:8%;top:62%;border-radius:3cqw;background:linear-gradient(var(--clay2),var(--clay));padding:7cqw 4cqw 5cqw;text-align:center;color:#fff">
+  <div style="position:absolute;top:-4cqw;left:50%;transform:translateX(-50%);background:#F2B8A0;color:#5A2414;border-radius:999px;padding:1.2cqw 3.6cqw;font-weight:500;font-size:3.8cqw;display:flex;align-items:center;gap:1.4cqw;white-space:nowrap"><img src="${L}instagram/instagram-glyph-color.png" style="width:4.2cqw" alt="">comment</div>
+  <div style="font-size:15cqw;font-weight:700;letter-spacing:-.02em;line-height:1">EDIT</div>
+  <div style="font-size:3.8cqw;margin-top:1.6cqw;opacity:.55">for the step-by-step breakdown</div>
+ </div>`,
+};
+
+const S=[
+ {n:'1',a:0,b:.55,t:'aroll',k:'A-roll',still:'0.3',cap:'claude mein video',vo:'claude mein video…',beats:['Hook opens on Rishi.']},
+ {n:'2',a:.55,b:2.87,t:'chat',k:'K17 chat + K09 cursor',vo:'…daal ke ye prompt daal doge toh aisa kuch ban jaayega.',beats:['<b>0.55</b> “roughcut.mp4” chip slides into the input','<b>0.85</b> prompt types out','<b>1.45</b> pixel cursor arcs to Send, clicks, sparkles','<b>1.77</b> <b>mockup</b> output card blurs in']},
+ {n:'3',a:2.87,b:3.25,t:'aroll',k:'A-roll',still:'3.0',cap:'aisa kuch',vo:'aisa kuch…',beats:['A-roll returns with blur → sharp.']},
+ {n:'4',a:3.25,b:4.15,t:'bw',k:'K03 mono-beat',still:'3.6',vo:'…nahi hota hai.',beats:['Black-and-white snap, scale 1.08, frame follows the nose','“nope.” glowing in the centre','Hard cut back to colour after 0.9 s']},
+ {n:'5',a:4.15,b:5.93,t:'aroll',k:'A-roll',still:'5.0',cap:'this doesn’t work',vo:'this doesn’t work like that. aap duniya bhar…',beats:['Plain A-roll with captions.']},
+ {n:'6',a:5.93,b:8.10,t:'stack',k:'K10 stack-in',vo:'…ki skills ikattha kar lo, github repos ikattha kar lo.',beats:['<b>5.93</b> “skills” inks; skill files drop and pile up, one every 0.2 s','<b>6.75</b> big word → “repos”; GitHub repo cards stack on top','The pile gets comically tall']},
+ {n:'7',a:8.10,b:9.15,t:'aroll',k:'A-roll',still:'8.6',cap:'jab tak aap claude',vo:'jab tak aap claude ko apna…',beats:['A-roll returns with blur → sharp.']},
+ {n:'8',a:9.15,b:10.75,t:'taste',k:'K06 paper stage',vo:'…taste ya design skill nahi samjha paoge,',beats:['Paint palette and brush slide up onto the yellow floor','<b>9.15</b> “taste” inks in Playfair italic','<b>9.51</b> “& design skill” inks']},
+ {n:'9',a:10.75,b:13.39,t:'aroll',k:'A-roll',still:'12.0',cap:'nahi karne wala hai.',vo:'woh aapke liye kuch ghanta achha edit nahi karne wala hai. and ye poori video bhi…',beats:['Plain A-roll with captions.']},
+ {n:'10',a:13.39,b:14.71,t:'k19',k:'K19 lower-third',still:'14.0',vo:'…end-to-end claude se edited hai.',beats:['Orange plate wipes in from the left; clapperboard slides on','Shine band sweeps across','<b>13.73</b> pill “EDITED BY CLAUDE” with the real Claude mark']},
+ {n:'11',a:14.71,b:16.11,t:'aroll',k:'A-roll',still:'15.4',cap:'why does this look',vo:'why does this look better than all…',beats:['Plain A-roll with captions.']},
+ {n:'12',a:16.11,b:17.45,t:'slop',k:'K06 paper stage',vo:'…the claude slop which you see out there?',beats:['A pile of identical purple “🚀 10X YOUR LIFE” cards that boil slightly','<b>16.43</b> “slop” inks in red']},
+ {n:'13',a:17.45,b:18.78,t:'aroll',k:'A-roll',still:'18.1',cap:'because maine usko',vo:'because maine usko samjhaaya. pehli baar mein…',beats:['A-roll returns with blur → sharp.']},
+ {n:'14a',a:18.78,b:19.98,t:'drowsy',k:'Drowsy screen',vo:'…aapko usko mehnat se samjhaana hai',beats:['Same chat window, dull and grey, sagging as if nodding off','😴 and “z z z” drift up','Progress stuck at 12 %, output blurry and crooked','Tag: “NO SKILL LOADED”']},
+ {n:'14b',a:19.98,b:21.70,t:'skill',k:'Skill-folder screen',vo:'ki kya karna hai, kaise karna hai aur ek baar woh samajh gaya,',beats:['Window wakes up; paper-stage-edit/ files cascade in','<b>19.98</b> cursor clicks RULEBOOK.md → ✓ “what to do”','<b>20.54</b> clicks LOOKBOOK.md → ✓ “how to do it”','<b>21.28</b> progress bar hits 100 % ✓ with pixel sparkles']},
+ {n:'15',a:21.70,b:22.27,t:'aroll',k:'A-roll',still:'21.9',cap:'gaya.',vo:'…gaya.',beats:['A-roll returns with blur → sharp.']},
+ {n:'16',a:22.27,b:23.47,t:'rail',k:'K20 version rail',still:'22.9',cap:'kuch iterations ke',vo:'kuch iterations ke baad it will get…',beats:['Teal ruler down the left edge','Pill rolls <b>v1</b> (22.27) → <b>v2</b> (22.67) → <b>v3</b> (23.09)']},
+ {n:'17',a:23.47,b:29.10,t:'aroll',k:'A-roll',still:'26.0',cap:'thing autonomously',vo:'so better that it can do the whole thing autonomously without your intervention. and if you want to learn how i did this,',beats:['Plain A-roll with captions (5.6 s, the longest plain stretch)']},
+ {n:'18',a:29.10,b:31.06,t:'cta',k:'K18 CTA card',still:'30.0',vo:'comment “edit” and i will send you a step-by-step…',beats:['Lower half blurs and darkens','Orange card blurs in, tab “comment” with the Instagram mark','<b>29.48</b> “EDIT” lights up','Captions hidden while the card is up']},
+ {n:'19',a:31.06,b:33.5,t:'aroll',k:'A-roll',still:'32.5',cap:'kind of results.',vo:'…breakdown of how you can achieve these kind of results.',beats:['Ends on plain A-roll.']},
+];
+const kind=s=>s.t==='aroll'?'ar':(['k19','rail','cta','bw'].includes(s.t)?'ov':'fs');
+const T=33.5,bar=document.getElementById('bar'),ticks=document.getElementById('ticks'),grid=document.getElementById('grid');
+S.forEach(s=>{const k=kind(s);if(k!=='ar'){const d=document.createElement('div');d.className=s.t==='bw'?'bw':k;d.style.left=(s.a/T*100)+'%';d.style.width=((s.b-s.a)/T*100)+'%';d.textContent=s.n;d.title=s.k;bar.append(d);}
+ const c=document.createElement('div');c.className='card'+(k==='fs'?' g':k==='ov'?' o':'');
+ c.innerHTML=`<div class="meta"><span class="num">Shot ${s.n}</span><span class="time">${s.a.toFixed(2)}–${s.b.toFixed(2)} · ${(s.b-s.a).toFixed(1)} s</span></div>
+ <div class="phone">${scenes[s.t](s)}</div>
+ <div><span class="key ${k}">${s.k}</span></div><div class="vo">“${s.vo}”</div><ul class="beats">${s.beats.map(b=>'<li>'+b+'</li>').join('')}</ul>`;
+ grid.append(c);});
+for(let t=0;t<=33;t+=3){const sp=document.createElement('span');sp.style.left=(t/T*100)+'%';sp.textContent=t+'s';ticks.append(sp);}
+</script>
+</body>
+</html>

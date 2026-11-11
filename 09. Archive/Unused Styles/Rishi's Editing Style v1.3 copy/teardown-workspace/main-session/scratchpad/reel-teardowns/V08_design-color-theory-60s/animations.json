@@ -1,0 +1,420 @@
+[
+ {
+  "id": "V08-A01",
+  "name": "bad-design example tile",
+  "category": "graphic",
+  "element": "bad-design example tile",
+  "start_f": 15,
+  "end_f": 100,
+  "dur_ms": 2833,
+  "props": {
+   "opacity": [
+    0,
+    1,
+    0
+   ]
+  },
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "designs@#11 (\u0394+4)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V08-A02",
+  "name": "caption sans+script",
+  "category": "style",
+  "element": "caption sans+script",
+  "start_f": 0,
+  "end_f": 1978,
+  "dur_ms": null,
+  "props": {},
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "EST"
+ },
+ {
+  "id": "V08-A03",
+  "name": "60-second stopwatch",
+  "category": "graphic",
+  "element": "60-second stopwatch",
+  "start_f": 150,
+  "end_f": 215,
+  "dur_ms": 2167,
+  "props": {
+   "scale": [
+    0.6,
+    1
+   ]
+  },
+  "easing": "spring-like",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "60@#165 (\u0394-15)",
+  "evidence": "EST(rmse .19-.52)"
+ },
+ {
+  "id": "V08-A04",
+  "name": "step diamond badge",
+  "category": "graphic",
+  "element": "step diamond badge",
+  "start_f": 205,
+  "end_f": 225,
+  "dur_ms": 667,
+  "props": {
+   "scale": [
+    0.4,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "First@#198 (\u0394+7)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V08-A05",
+  "name": "blue square pop",
+  "category": "graphic",
+  "element": "blue square pop",
+  "start_f": 250,
+  "end_f": 295,
+  "dur_ms": 1500,
+  "props": {
+   "width_px": [
+    27,
+    153
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.3,
+   1.4,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "lead@#269 (\u0394-19)",
+  "evidence": "MEAS(\u2248,bw rmse .119)"
+ },
+ {
+  "id": "V08-A06",
+  "name": "navy square slides out",
+  "category": "graphic",
+  "element": "navy square slides out",
+  "start_f": 292,
+  "end_f": 335,
+  "dur_ms": 1433,
+  "props": {
+   "cy_px": [
+    632,
+    520
+   ],
+   "union_height_px": [
+    136,
+    356
+   ]
+  },
+  "easing": "easeOutQuad-like",
+  "bezier": [
+   0.5,
+   0,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "darker@#311 (\u0394-19)",
+  "evidence": "MEAS(rmse .039-.042)"
+ },
+ {
+  "id": "V08-A07",
+  "name": "light-blue square emerges",
+  "category": "graphic",
+  "element": "light-blue square emerges",
+  "start_f": 350,
+  "end_f": 400,
+  "dur_ms": 1667,
+  "props": {
+   "cy_px": [
+    640,
+    727
+   ],
+   "union_height_px": [
+    155,
+    336
+   ]
+  },
+  "easing": "easeOutCubic\u2248",
+  "bezier": [
+   0.5,
+   0.3,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "lighter@#356 (\u0394-6)",
+  "evidence": "MEAS(\u2248,rmse .073-.086)"
+ },
+ {
+  "id": "V08-A08",
+  "name": "squares re-arrange + labels",
+  "category": "graphic",
+  "element": "squares re-arrange + labels",
+  "start_f": 421,
+  "end_f": 530,
+  "dur_ms": 3633,
+  "props": {
+   "translate": [
+    "layout A",
+    "layout B"
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "accent@#433 (\u0394-3)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V08-A09",
+  "name": "squares blur-collapse",
+  "category": "transition",
+  "element": "squares blur-collapse",
+  "start_f": 527,
+  "end_f": 555,
+  "dur_ms": 933,
+  "props": {
+   "scale": [
+    1,
+    0.25
+   ],
+   "blur_px": [
+    0,
+    8
+   ]
+  },
+  "easing": "ease-in",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "60/30/10@#561 (\u0394-6)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V08-A10",
+  "name": "60-30-10 video card slide-in",
+  "category": "graphic",
+  "element": "60-30-10 video card slide-in",
+  "start_f": 548,
+  "end_f": 600,
+  "dur_ms": 1733,
+  "props": {
+   "width_px": [
+    147,
+    599
+   ],
+   "height_px": [
+    147,
+    892
+   ]
+  },
+  "easing": "easeOutCubic\u2248",
+  "bezier": [
+   0.5,
+   0.3,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "60/30/10@#561 (\u0394-13)",
+  "evidence": "MEAS(\u2248,rmse .088-.115)"
+ },
+ {
+  "id": "V08-A11",
+  "name": "swatch bar growth 60-30-10",
+  "category": "graphic",
+  "element": "swatch bar growth 60-30-10",
+  "start_f": 610,
+  "end_f": 760,
+  "dur_ms": 5000,
+  "props": {
+   "navy_width_px": [
+    235,
+    523
+   ]
+  },
+  "easing": "easeInOutCubic\u2248",
+  "bezier": [
+   0.7,
+   0,
+   0.2,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "60%@#615 (\u0394-5)",
+  "evidence": "MEAS(\u2248,60% bar rmse .113),EST(30%)"
+ },
+ {
+  "id": "V08-A12",
+  "name": "leader-line callouts",
+  "category": "graphic",
+  "element": "leader-line callouts",
+  "start_f": 630,
+  "end_f": 750,
+  "dur_ms": 4000,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "60%@#615 (\u0394+15)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V08-A13",
+  "name": "split pane to full-frame card",
+  "category": "transition",
+  "element": "split pane to full-frame card",
+  "start_f": 840,
+  "end_f": 942,
+  "dur_ms": 3400,
+  "props": {
+   "pane_height_pct_H": [
+    47,
+    100
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "thirds@#840 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V08-A14",
+  "name": "object/text movers on thirds card",
+  "category": "graphic",
+  "element": "object/text movers on thirds card",
+  "start_f": 945,
+  "end_f": 1050,
+  "dur_ms": 3500,
+  "props": {
+   "translate": [
+    "third A",
+    "third B"
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "left@#973 (\u0394-28)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V08-A15",
+  "name": "poster card + grid + diagonal",
+  "category": "graphic",
+  "element": "poster card + grid + diagonal",
+  "start_f": 1115,
+  "end_f": 1237,
+  "dur_ms": 4067,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "grid@#1165 (\u0394-15)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V08-A16",
+  "name": "font list build",
+  "category": "text",
+  "element": "font list build",
+  "start_f": 1375,
+  "end_f": 1450,
+  "dur_ms": 2500,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Sans@#1368 (\u0394+7)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V08-A17",
+  "name": "typography formula demo",
+  "category": "text",
+  "element": "typography formula demo",
+  "start_f": 1471,
+  "end_f": 1650,
+  "dur_ms": 5967,
+  "props": {
+   "font_swaps": 3
+  },
+  "easing": "swap",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "secondary@#1547 (\u0394-2)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V08-A18",
+  "name": "blue square drag accent recolour",
+  "category": "graphic",
+  "element": "blue square drag accent recolour",
+  "start_f": 1660,
+  "end_f": 1700,
+  "dur_ms": 1333,
+  "props": {
+   "color": [
+    "#1B2A4A",
+    "#2F6FD6"
+   ]
+  },
+  "easing": "fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "accent@#1665 (\u0394-5)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V08-A19",
+  "name": "comments sheet + typed keyword",
+  "category": "ui",
+  "element": "comments sheet + typed keyword",
+  "start_f": 1900,
+  "end_f": 1975,
+  "dur_ms": 2500,
+  "props": {
+   "chars": [
+    0,
+    16
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "comment@#1910 (\u0394-10)",
+  "evidence": "OBS"
+ }
+]

@@ -1,0 +1,662 @@
+{
+ "v1": {
+  "source": "Version 1 raw.MOV",
+  "duration_ms": 10770,
+  "text": "Anatomy of a case. This is day 1 of 30 of cracking consulting cases where I am teaching all consulting frameworks in 30 days.",
+  "silences_ms": [
+   [
+    72,
+    2193
+   ],
+   [
+    3264,
+    3397
+   ],
+   [
+    4340,
+    4481
+   ],
+   [
+    6418,
+    6772
+   ],
+   [
+    7508,
+    7681
+   ],
+   [
+    9067,
+    9282
+   ],
+   [
+    10039,
+    10770
+   ]
+  ],
+  "words": [
+   {
+    "word": "Anatomy",
+    "start_ms": 2120,
+    "end_ms": 2680,
+    "conf": 0.96
+   },
+   {
+    "word": "of",
+    "start_ms": 2680,
+    "end_ms": 2860,
+    "conf": 0.98
+   },
+   {
+    "word": "a",
+    "start_ms": 2860,
+    "end_ms": 3020,
+    "conf": 0.97
+   },
+   {
+    "word": "case.",
+    "start_ms": 3020,
+    "end_ms": 3265,
+    "conf": 0.77
+   },
+   {
+    "word": "This",
+    "start_ms": 3397,
+    "end_ms": 3600,
+    "conf": 0.99
+   },
+   {
+    "word": "is",
+    "start_ms": 3600,
+    "end_ms": 3740,
+    "conf": 1.0
+   },
+   {
+    "word": "day",
+    "start_ms": 3740,
+    "end_ms": 3940,
+    "conf": 0.92
+   },
+   {
+    "word": "1",
+    "start_ms": 3940,
+    "end_ms": 4200,
+    "conf": 0.49
+   },
+   {
+    "word": "of",
+    "start_ms": 4200,
+    "end_ms": 4340,
+    "conf": 0.98
+   },
+   {
+    "word": "30",
+    "start_ms": 4481,
+    "end_ms": 4680,
+    "conf": 0.99
+   },
+   {
+    "word": "of",
+    "start_ms": 4680,
+    "end_ms": 4940,
+    "conf": 0.98
+   },
+   {
+    "word": "cracking",
+    "start_ms": 4940,
+    "end_ms": 5300,
+    "conf": 0.98
+   },
+   {
+    "word": "consulting",
+    "start_ms": 5300,
+    "end_ms": 5860,
+    "conf": 0.99
+   },
+   {
+    "word": "cases",
+    "start_ms": 5860,
+    "end_ms": 6419,
+    "conf": 1.0
+   },
+   {
+    "word": "where",
+    "start_ms": 6773,
+    "end_ms": 6880,
+    "conf": 0.79
+   },
+   {
+    "word": "I",
+    "start_ms": 6880,
+    "end_ms": 7000,
+    "conf": 0.98
+   },
+   {
+    "word": "am",
+    "start_ms": 7000,
+    "end_ms": 7100,
+    "conf": 0.7
+   },
+   {
+    "word": "teaching",
+    "start_ms": 7100,
+    "end_ms": 7509,
+    "conf": 1.0
+   },
+   {
+    "word": "all",
+    "start_ms": 7682,
+    "end_ms": 7840,
+    "conf": 1.0
+   },
+   {
+    "word": "consulting",
+    "start_ms": 7840,
+    "end_ms": 8460,
+    "conf": 0.99
+   },
+   {
+    "word": "frameworks",
+    "start_ms": 8460,
+    "end_ms": 9068,
+    "conf": 0.99
+   },
+   {
+    "word": "in",
+    "start_ms": 9283,
+    "end_ms": 9380,
+    "conf": 1.0
+   },
+   {
+    "word": "30",
+    "start_ms": 9380,
+    "end_ms": 9660,
+    "conf": 0.99
+   },
+   {
+    "word": "days.",
+    "start_ms": 9660,
+    "end_ms": 10040,
+    "conf": 1.0
+   }
+  ]
+ },
+ "v2": {
+  "source": "Version 2 raw.MOV",
+  "duration_ms": 11698,
+  "text": "Anatomy of a case. This is day 1 of 30 of cracking consulting case interviews where I am teaching how to crack every case type in 30 days.",
+  "silences_ms": [
+   [
+    0,
+    1078
+   ],
+   [
+    1094,
+    1389
+   ],
+   [
+    1393,
+    1755
+   ],
+   [
+    2944,
+    3344
+   ],
+   [
+    6939,
+    7226
+   ],
+   [
+    10041,
+    10178
+   ],
+   [
+    11074,
+    11698
+   ]
+  ],
+  "words": [
+   {
+    "word": "Anatomy",
+    "start_ms": 1680,
+    "end_ms": 2260,
+    "conf": 0.96
+   },
+   {
+    "word": "of",
+    "start_ms": 2260,
+    "end_ms": 2500,
+    "conf": 0.96
+   },
+   {
+    "word": "a",
+    "start_ms": 2500,
+    "end_ms": 2660,
+    "conf": 0.96
+   },
+   {
+    "word": "case.",
+    "start_ms": 2660,
+    "end_ms": 2944,
+    "conf": 0.74
+   },
+   {
+    "word": "This",
+    "start_ms": 3345,
+    "end_ms": 3560,
+    "conf": 0.99
+   },
+   {
+    "word": "is",
+    "start_ms": 3560,
+    "end_ms": 3720,
+    "conf": 1.0
+   },
+   {
+    "word": "day",
+    "start_ms": 3720,
+    "end_ms": 3900,
+    "conf": 0.85
+   },
+   {
+    "word": "1",
+    "start_ms": 3900,
+    "end_ms": 4160,
+    "conf": 0.55
+   },
+   {
+    "word": "of",
+    "start_ms": 4160,
+    "end_ms": 4380,
+    "conf": 0.99
+   },
+   {
+    "word": "30",
+    "start_ms": 4380,
+    "end_ms": 4720,
+    "conf": 0.99
+   },
+   {
+    "word": "of",
+    "start_ms": 4720,
+    "end_ms": 5040,
+    "conf": 0.98
+   },
+   {
+    "word": "cracking",
+    "start_ms": 5040,
+    "end_ms": 5440,
+    "conf": 0.89
+   },
+   {
+    "word": "consulting",
+    "start_ms": 5440,
+    "end_ms": 6040,
+    "conf": 0.98
+   },
+   {
+    "word": "case",
+    "start_ms": 6040,
+    "end_ms": 6320,
+    "conf": 1.0
+   },
+   {
+    "word": "interviews",
+    "start_ms": 6320,
+    "end_ms": 6940,
+    "conf": 0.99
+   },
+   {
+    "word": "where",
+    "start_ms": 7227,
+    "end_ms": 7360,
+    "conf": 0.69
+   },
+   {
+    "word": "I",
+    "start_ms": 7360,
+    "end_ms": 7620,
+    "conf": 0.98
+   },
+   {
+    "word": "am",
+    "start_ms": 7620,
+    "end_ms": 7760,
+    "conf": 0.9
+   },
+   {
+    "word": "teaching",
+    "start_ms": 7760,
+    "end_ms": 8060,
+    "conf": 1.0
+   },
+   {
+    "word": "how",
+    "start_ms": 8060,
+    "end_ms": 8400,
+    "conf": 0.98
+   },
+   {
+    "word": "to",
+    "start_ms": 8400,
+    "end_ms": 8600,
+    "conf": 1.0
+   },
+   {
+    "word": "crack",
+    "start_ms": 8600,
+    "end_ms": 8940,
+    "conf": 0.99
+   },
+   {
+    "word": "every",
+    "start_ms": 8940,
+    "end_ms": 9460,
+    "conf": 1.0
+   },
+   {
+    "word": "case",
+    "start_ms": 9460,
+    "end_ms": 9740,
+    "conf": 1.0
+   },
+   {
+    "word": "type",
+    "start_ms": 9740,
+    "end_ms": 10042,
+    "conf": 1.0
+   },
+   {
+    "word": "in",
+    "start_ms": 10179,
+    "end_ms": 10280,
+    "conf": 1.0
+   },
+   {
+    "word": "30",
+    "start_ms": 10280,
+    "end_ms": 10580,
+    "conf": 0.99
+   },
+   {
+    "word": "days.",
+    "start_ms": 10580,
+    "end_ms": 11075,
+    "conf": 1.0
+   }
+  ]
+ },
+ "v3": {
+  "source": "Version 3 raw.MOV",
+  "duration_ms": 4701,
+  "text": "Anatomy of a case, this is day 1 of 30 of cracking consulting cases.",
+  "silences_ms": [
+   [
+    4313,
+    4701
+   ]
+  ],
+  "words": [
+   {
+    "word": "Anatomy",
+    "start_ms": 0,
+    "end_ms": 380,
+    "conf": 0.98
+   },
+   {
+    "word": "of",
+    "start_ms": 380,
+    "end_ms": 580,
+    "conf": 0.97
+   },
+   {
+    "word": "a",
+    "start_ms": 580,
+    "end_ms": 720,
+    "conf": 0.94
+   },
+   {
+    "word": "case,",
+    "start_ms": 720,
+    "end_ms": 900,
+    "conf": 0.76
+   },
+   {
+    "word": "this",
+    "start_ms": 1140,
+    "end_ms": 1240,
+    "conf": 0.89
+   },
+   {
+    "word": "is",
+    "start_ms": 1240,
+    "end_ms": 1400,
+    "conf": 0.99
+   },
+   {
+    "word": "day",
+    "start_ms": 1400,
+    "end_ms": 1600,
+    "conf": 0.82
+   },
+   {
+    "word": "1",
+    "start_ms": 1600,
+    "end_ms": 1920,
+    "conf": 0.73
+   },
+   {
+    "word": "of",
+    "start_ms": 1920,
+    "end_ms": 2140,
+    "conf": 0.97
+   },
+   {
+    "word": "30",
+    "start_ms": 2140,
+    "end_ms": 2460,
+    "conf": 0.98
+   },
+   {
+    "word": "of",
+    "start_ms": 2460,
+    "end_ms": 2740,
+    "conf": 0.93
+   },
+   {
+    "word": "cracking",
+    "start_ms": 2740,
+    "end_ms": 3080,
+    "conf": 0.91
+   },
+   {
+    "word": "consulting",
+    "start_ms": 3080,
+    "end_ms": 3660,
+    "conf": 0.99
+   },
+   {
+    "word": "cases.",
+    "start_ms": 3660,
+    "end_ms": 4314,
+    "conf": 0.99
+   }
+  ]
+ },
+ "v4": {
+  "source": "Version 4 raw.MOV",
+  "duration_ms": 8631,
+  "text": "Anatomy of a case. This is day 1 of 30 of cracking consulting case interviews where I am teaching all types of frameworks in 30 days.",
+  "silences_ms": [
+   [
+    0,
+    934
+   ],
+   [
+    3005,
+    3134
+   ],
+   [
+    8360,
+    8631
+   ]
+  ],
+  "words": [
+   {
+    "word": "Anatomy",
+    "start_ms": 935,
+    "end_ms": 1420,
+    "conf": 0.97
+   },
+   {
+    "word": "of",
+    "start_ms": 1420,
+    "end_ms": 1600,
+    "conf": 0.97
+   },
+   {
+    "word": "a",
+    "start_ms": 1600,
+    "end_ms": 1740,
+    "conf": 0.95
+   },
+   {
+    "word": "case.",
+    "start_ms": 1740,
+    "end_ms": 1900,
+    "conf": 0.73
+   },
+   {
+    "word": "This",
+    "start_ms": 2140,
+    "end_ms": 2240,
+    "conf": 0.99
+   },
+   {
+    "word": "is",
+    "start_ms": 2240,
+    "end_ms": 2380,
+    "conf": 0.99
+   },
+   {
+    "word": "day",
+    "start_ms": 2380,
+    "end_ms": 2580,
+    "conf": 0.89
+   },
+   {
+    "word": "1",
+    "start_ms": 2580,
+    "end_ms": 2820,
+    "conf": 0.64
+   },
+   {
+    "word": "of",
+    "start_ms": 2820,
+    "end_ms": 3006,
+    "conf": 0.97
+   },
+   {
+    "word": "30",
+    "start_ms": 3135,
+    "end_ms": 3340,
+    "conf": 0.99
+   },
+   {
+    "word": "of",
+    "start_ms": 3340,
+    "end_ms": 3620,
+    "conf": 0.98
+   },
+   {
+    "word": "cracking",
+    "start_ms": 3620,
+    "end_ms": 4060,
+    "conf": 0.93
+   },
+   {
+    "word": "consulting",
+    "start_ms": 4060,
+    "end_ms": 4640,
+    "conf": 0.98
+   },
+   {
+    "word": "case",
+    "start_ms": 4640,
+    "end_ms": 4920,
+    "conf": 0.99
+   },
+   {
+    "word": "interviews",
+    "start_ms": 4920,
+    "end_ms": 5420,
+    "conf": 0.98
+   },
+   {
+    "word": "where",
+    "start_ms": 5420,
+    "end_ms": 5700,
+    "conf": 0.86
+   },
+   {
+    "word": "I",
+    "start_ms": 5700,
+    "end_ms": 5800,
+    "conf": 0.97
+   },
+   {
+    "word": "am",
+    "start_ms": 5800,
+    "end_ms": 5880,
+    "conf": 0.73
+   },
+   {
+    "word": "teaching",
+    "start_ms": 5880,
+    "end_ms": 6120,
+    "conf": 1.0
+   },
+   {
+    "word": "all",
+    "start_ms": 6120,
+    "end_ms": 6460,
+    "conf": 1.0
+   },
+   {
+    "word": "types",
+    "start_ms": 6460,
+    "end_ms": 6740,
+    "conf": 0.99
+   },
+   {
+    "word": "of",
+    "start_ms": 6740,
+    "end_ms": 6940,
+    "conf": 1.0
+   },
+   {
+    "word": "frameworks",
+    "start_ms": 6940,
+    "end_ms": 7380,
+    "conf": 0.97
+   },
+   {
+    "word": "in",
+    "start_ms": 7380,
+    "end_ms": 7660,
+    "conf": 1.0
+   },
+   {
+    "word": "30",
+    "start_ms": 7660,
+    "end_ms": 7940,
+    "conf": 0.99
+   },
+   {
+    "word": "days.",
+    "start_ms": 7940,
+    "end_ms": 8360,
+    "conf": 0.99
+   }
+  ]
+ }
+}

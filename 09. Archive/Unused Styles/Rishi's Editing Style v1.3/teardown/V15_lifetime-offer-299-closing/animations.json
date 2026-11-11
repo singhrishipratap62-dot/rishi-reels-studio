@@ -1,0 +1,475 @@
+[
+ {
+  "id": "V15-A01",
+  "name": "hook caption chest-mid",
+  "category": "caption",
+  "element": "hook caption chest-mid",
+  "start_f": 1,
+  "end_f": 12,
+  "dur_ms": 367,
+  "props": {
+   "width_px": [
+    115,
+    315
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Ultimate@#0 (\u0394+1)",
+  "evidence": "EST(rmse .15-.19)"
+ },
+ {
+  "id": "V15-A02",
+  "name": "price strikethrough + arrow",
+  "category": "graphic",
+  "element": "price strikethrough + arrow",
+  "start_f": 67,
+  "end_f": 128,
+  "dur_ms": 2033,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$1,200@#67 (\u0394+8)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A03",
+  "name": "$299 green price + bill confetti",
+  "category": "graphic",
+  "element": "$299 green price + bill confetti",
+  "start_f": 124,
+  "end_f": 138,
+  "dur_ms": 467,
+  "props": {
+   "width_px": [
+    215,
+    258
+   ]
+  },
+  "easing": "easeInOutCubic\u2248",
+  "bezier": [
+   0.7,
+   0,
+   0.2,
+   1.1
+  ],
+  "overshoot_pct": 3,
+  "trigger_word": "$299@#126 (\u0394-2)",
+  "evidence": "MEAS(\u2248,rmse .101)"
+ },
+ {
+  "id": "V15-A04",
+  "name": "red ellipse November 15th",
+  "category": "graphic",
+  "element": "red ellipse November 15th",
+  "start_f": 250,
+  "end_f": 262,
+  "dur_ms": 400,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "November@#237 (\u0394+13)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A05",
+  "name": "tweet wall fade-in",
+  "category": "graphic",
+  "element": "tweet wall fade-in",
+  "start_f": 304,
+  "end_f": 360,
+  "dur_ms": 1867,
+  "props": {
+   "cards": [
+    0,
+    40
+   ],
+   "scale": [
+    0.9,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Ultimate@#329 (\u0394+1)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V15-A06",
+  "name": "282000 counter",
+  "category": "graphic",
+  "element": "282000 counter",
+  "start_f": 374,
+  "end_f": 412,
+  "dur_ms": 1267,
+  "props": {
+   "value_usd": [
+    137616,
+    282000
+   ],
+   "cx_px": [
+    559,
+    514
+   ]
+  },
+  "easing": "easeOutQuad\u2248",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$282,000@#396 (\u0394-22)",
+  "evidence": "MEAS(\u2248,cx rmse .09),OBS(values)"
+ },
+ {
+  "id": "V15-A07",
+  "name": "cream pane enter over A-roll",
+  "category": "transition",
+  "element": "cream pane enter over A-roll",
+  "start_f": 521,
+  "end_f": 556,
+  "dur_ms": 1167,
+  "props": {
+   "width_px": [
+    506,
+    719
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "inside@#523 (\u0394-2)",
+  "evidence": "MEAS(bw rmse .035; interpretation uncertain)"
+ },
+ {
+  "id": "V15-A08",
+  "name": "banner card in pane",
+  "category": "graphic",
+  "element": "banner card in pane",
+  "start_f": 550,
+  "end_f": 568,
+  "dur_ms": 600,
+  "props": {
+   "height_px": [
+    32,
+    471
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "inside@#523",
+  "evidence": "EST(rmse .132)"
+ },
+ {
+  "id": "V15-A09",
+  "name": "Premiere/After Effects cards slide-in",
+  "category": "graphic",
+  "element": "Premiere/After Effects cards slide-in",
+  "start_f": 604,
+  "end_f": 616,
+  "dur_ms": 400,
+  "props": {
+   "cx_px": [
+    146,
+    204
+   ],
+   "width_px": [
+    292,
+    355
+   ]
+  },
+  "easing": "easeOutCubic",
+  "bezier": [
+   0.4,
+   0.9,
+   0.4,
+   1
+  ],
+  "overshoot_pct": 6,
+  "trigger_word": "Premiere@#606 (\u0394-2)",
+  "evidence": "MEAS(cx rmse .014; bw \u2248)"
+ },
+ {
+  "id": "V15-A10",
+  "name": "cream pane sweep up",
+  "category": "transition",
+  "element": "cream pane sweep up",
+  "start_f": 596,
+  "end_f": 628,
+  "dur_ms": 1067,
+  "props": {
+   "cy_px": [
+    974,
+    626
+   ]
+  },
+  "easing": "easeInOutCubic\u2248",
+  "bezier": [
+   0.7,
+   0,
+   0.6,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "First,@#594",
+  "evidence": "MEAS(\u2248,cy rmse .093)"
+ },
+ {
+  "id": "V15-A11",
+  "name": "reel-card strip behind head",
+  "category": "graphic",
+  "element": "reel-card strip behind head",
+  "start_f": 718,
+  "end_f": 800,
+  "dur_ms": 2733,
+  "props": {
+   "translate_x_card_per_s": -1
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Second,@#720 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A12",
+  "name": "IG-style category carousel",
+  "category": "graphic",
+  "element": "IG-style category carousel",
+  "start_f": 809,
+  "end_f": 975,
+  "dur_ms": 5533,
+  "props": {
+   "swap_period_s": 1.5
+  },
+  "easing": "blur-dissolve",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "viral@#930 (\u0394-3)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A13",
+  "name": "before-after results card",
+  "category": "graphic",
+  "element": "before-after results card",
+  "start_f": 990,
+  "end_f": 1096,
+  "dur_ms": 3533,
+  "props": {
+   "profit_usd": [
+    576247,
+    600000
+   ]
+  },
+  "easing": "count",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "beginners@#1016 (\u0394-26)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A14",
+  "name": "Blueprint card settle",
+  "category": "graphic",
+  "element": "Blueprint card settle",
+  "start_f": 1118,
+  "end_f": 1132,
+  "dur_ms": 467,
+  "props": {
+   "width_px": [
+    487,
+    631
+   ]
+  },
+  "easing": "easeOutCubic",
+  "bezier": [
+   0.5,
+   0.9,
+   0.4,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "Third,@#1098 (\u0394+20)",
+  "evidence": "MEAS(rmse .013)"
+ },
+ {
+  "id": "V15-A15",
+  "name": "lesson player slide + bullets",
+  "category": "graphic",
+  "element": "lesson player slide + bullets",
+  "start_f": 1172,
+  "end_f": 1300,
+  "dur_ms": 4267,
+  "props": {
+   "cx_px": [
+    360,
+    250
+   ]
+  },
+  "easing": "easeInOutCubic\u2248",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "personal@~#1260 (\u0394-30)",
+  "evidence": "MEAS(\u2248,cx rmse .056)"
+ },
+ {
+  "id": "V15-A16",
+  "name": "AI Editing Fundamentals card",
+  "category": "graphic",
+  "element": "AI Editing Fundamentals card",
+  "start_f": 1362,
+  "end_f": 1372,
+  "dur_ms": 333,
+  "props": {
+   "width_px": [
+    383,
+    467
+   ],
+   "cy_px": [
+    1106,
+    1071
+   ]
+  },
+  "easing": "easeOutQuad-like",
+  "bezier": [
+   0.2,
+   0.3,
+   0.4,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "bonus@#1364 (\u0394-2)",
+  "evidence": "MEAS(rmse .013)"
+ },
+ {
+  "id": "V15-A17",
+  "name": "three format cards",
+  "category": "graphic",
+  "element": "three format cards",
+  "start_f": 1500,
+  "end_f": 1620,
+  "dur_ms": 4000,
+  "props": {
+   "blur_px": [
+    8,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Vox@#1518 (\u0394-18)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A18",
+  "name": "deadline text + red ellipse 2",
+  "category": "graphic",
+  "element": "deadline text + red ellipse 2",
+  "start_f": 1633,
+  "end_f": 1670,
+  "dur_ms": 1233,
+  "props": {
+   "stroke_dashoffset": [
+    1,
+    0
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "20@#1651 (\u0394+14)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A19",
+  "name": "price pill + dollar confetti",
+  "category": "graphic",
+  "element": "price pill + dollar confetti",
+  "start_f": 1725,
+  "end_f": 1830,
+  "dur_ms": 3500,
+  "props": {
+   "translate_y_px": [
+    60,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "lifetime@#1734 (\u0394-9)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V15-A20",
+  "name": "button zoom with cursor press",
+  "category": "camera",
+  "element": "button zoom with cursor press",
+  "start_f": 1834,
+  "end_f": 1860,
+  "dur_ms": 867,
+  "props": {
+   "scale": [
+    1,
+    2.2
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "$299.@#1811 (\u0394+23)",
+  "evidence": "EST(rmse .167-.238)"
+ },
+ {
+  "id": "V15-A21",
+  "name": "CTA comments sheet",
+  "category": "ui",
+  "element": "CTA comments sheet",
+  "start_f": 1867,
+  "end_f": 1878,
+  "dur_ms": 367,
+  "props": {
+   "width_px": [
+    355,
+    633
+   ],
+   "cy_px": [
+    834,
+    928
+   ]
+  },
+  "easing": "easeOutCubic-like",
+  "bezier": [
+   0.7,
+   0.6,
+   0.6,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "Comment@#1854 (\u0394+13)",
+  "evidence": "MEAS(cy rmse .048; bw \u2248)"
+ }
+]

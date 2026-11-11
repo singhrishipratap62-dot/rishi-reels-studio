@@ -1,0 +1,1194 @@
+{
+  "manifestVersion": 3,
+  "name": "gradnext",
+  "namespace": "Gradnext",
+  "files": [
+    "assets/Imagery/README.md",
+    "assets/Logos/README.md",
+    "assets/Motifs/README.md",
+    "components/Button/README.md",
+    "components/OverlayTile/README.md",
+    "components/PartnerLockup/README.md",
+    "components/ValueCard/README.md",
+    "components/Wordmark/README.md",
+    "components/bundle.css",
+    "components/bundle.js",
+    "components/index.d.ts",
+    "tokens.css"
+  ],
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18",
+      "global": "React"
+    },
+    {
+      "name": "react-dom",
+      "version": "18",
+      "global": "ReactDOM"
+    }
+  ],
+  "components": [
+    {
+      "name": "Wordmark",
+      "group": "Brand",
+      "summary": "The gradnext logo — a lowercase text-only wordmark — rendered from the guideline artwork as inline SVG."
+    },
+    {
+      "name": "Button",
+      "group": "Actions",
+      "summary": "A text button for digital surfaces — an intentional addition, since the guidelines define colour pairings but no button."
+    },
+    {
+      "name": "ValueCard",
+      "group": "Brand",
+      "summary": "A rounded dark-glass card with a periwinkle under-glow that presents one brand value or pillar."
+    },
+    {
+      "name": "OverlayTile",
+      "group": "Color",
+      "summary": "One approved colour-overlay pairing: a rounded square fill centred on a rounded square ground."
+    },
+    {
+      "name": "PartnerLockup",
+      "group": "Brand",
+      "summary": "gradnext set beside a partner brand with equal respect — neither logo dominates."
+    }
+  ],
+  "assetGroups": [
+    {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "gradnext-wordmark-rhino.svg",
+        "gradnext-wordmark-white.svg",
+        "gradnext-wordmark-midnight.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Logos/gradnext-wordmark-rhino.svg",
+          "id": "7ed000aebeb804805c72caff9a2d8067"
+        },
+        {
+          "path": "assets/Logos/gradnext-wordmark-white.svg",
+          "id": "17c232b866715462af4a863896c94b41"
+        },
+        {
+          "path": "assets/Logos/gradnext-wordmark-midnight.svg",
+          "id": "8f218f175b2623a564ec2ab4d28950f3"
+        }
+      ]
+    },
+    {
+      "name": "Motifs",
+      "order": [
+        "stripe-motif-chrome-yellow.svg",
+        "stripe-motif-periwinkle.svg",
+        "g-outline-motif.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Motifs/stripe-motif-chrome-yellow.svg",
+          "id": "d04ef04207bd1c4a44b9b6fd12ad612d"
+        },
+        {
+          "path": "assets/Motifs/stripe-motif-periwinkle.svg",
+          "id": "da6a9ffe325fc6c738656933788a3929"
+        },
+        {
+          "path": "assets/Motifs/g-outline-motif.svg",
+          "id": "af978313e0af69f50dfdfb9edf1c6870"
+        }
+      ]
+    },
+    {
+      "name": "Imagery",
+      "tile": "l",
+      "order": [
+        "signage-mockup.jpg",
+        "business-card-mockup.jpg",
+        "brochure-mockup.jpg",
+        "letterhead-mockup.jpg"
+      ],
+      "files": [
+        {
+          "path": "assets/Imagery/signage-mockup.jpg",
+          "id": "17dff2c853118bbfd5a3097c4b0cb7cf"
+        },
+        {
+          "path": "assets/Imagery/business-card-mockup.jpg",
+          "id": "bdbf065684ecf88682f2a1e374d7b88b"
+        },
+        {
+          "path": "assets/Imagery/brochure-mockup.jpg",
+          "id": "e5fa7dd6f2d665a0281004e5b2227977"
+        },
+        {
+          "path": "assets/Imagery/letterhead-mockup.jpg",
+          "id": "ea6573d2240a68b1faefcffd54ab8f1b"
+        }
+      ]
+    },
+    {
+      "name": "Logos_Original",
+      "files": [
+        {
+          "path": "assets/Logos_Original/Gradnext logo - Blue (2).png",
+          "id": "feae3de566afc2a43797a22e91cee69e"
+        },
+        {
+          "path": "assets/Logos_Original/Gradnext logo - White.png",
+          "id": "8229300f3f94524cf0a20595a72e50b7"
+        },
+        {
+          "path": "assets/Logos_Original/Profile picture Blue.jpg",
+          "id": "8d9b816fbbe82549fbfd34554ce60950"
+        },
+        {
+          "path": "assets/Logos_Original/Profile picture White.jpg",
+          "id": "5851978461b49e423a2f7d606083455c"
+        },
+        {
+          "path": "assets/Logos_Original/Website icon Blue.jpg",
+          "id": "2f056cebf87f85d68acf5052eedff459"
+        },
+        {
+          "path": "assets/Logos_Original/Website icon White.jpg",
+          "id": "c52b909e35c5d617b97b1d2fd5a819b6"
+        },
+        {
+          "path": "assets/Logos_Original/White logo on blue box.png",
+          "id": "a73321aec1ad73da7ec94f809b038bb7"
+        }
+      ]
+    },
+    {
+      "name": "Industry Primers",
+      "files": [
+        {
+          "path": "assets/Industry Primers/Airports.pdf",
+          "id": "54b45cab7cd9182f3b09b56a742f4f7a"
+        },
+        {
+          "path": "assets/Industry Primers/Alcoholic Beverages.pdf",
+          "id": "93e00e063de38129ace4304d06d91277"
+        },
+        {
+          "path": "assets/Industry Primers/Aluminium and Non-Ferrous.pdf",
+          "id": "8237771e16903876bc3d94ea83ae9e59"
+        },
+        {
+          "path": "assets/Industry Primers/Asset Management.pdf",
+          "id": "dfa4eaad78b4440f2e32304fd6c7144e"
+        },
+        {
+          "path": "assets/Industry Primers/Capital Goods and EPC.pdf",
+          "id": "41fcd690d7c5d0383e920394b2677a5a"
+        },
+        {
+          "path": "assets/Industry Primers/Cement.pdf",
+          "id": "bf162887b5a3e38b597f7492db01050a"
+        },
+        {
+          "path": "assets/Industry Primers/Data Centres.pdf",
+          "id": "6a8f141f930f8556c788f905bf83d782"
+        },
+        {
+          "path": "assets/Industry Primers/Diagnostics.pdf",
+          "id": "e05ddadec35ac4491eb7cee281e60e43"
+        },
+        {
+          "path": "assets/Industry Primers/Edtech.pdf",
+          "id": "f4a7ec412249e91137827b8e07489bde"
+        },
+        {
+          "path": "assets/Industry Primers/Electronics Manufacturing.pdf",
+          "id": "24b541efc1c6d5abd06c0e5ffc412a76"
+        },
+        {
+          "path": "assets/Industry Primers/FMCG.pdf",
+          "id": "1ab77efd9279b8c5a2850c621091d4af"
+        },
+        {
+          "path": "assets/Industry Primers/Fintech Foundations - Volume 4 - Wealthtech and Broking.pdf",
+          "id": "60c198c109fc335744ec0592c19d0261"
+        },
+        {
+          "path": "assets/Industry Primers/Fintech Foundations - Volume 5 - Insurtech.pdf",
+          "id": "170a07b1f87f609edba22ac163e53087"
+        },
+        {
+          "path": "assets/Industry Primers/Food Delivery.pdf",
+          "id": "bf46f70dfedaec8b5fe7913899bed763"
+        },
+        {
+          "path": "assets/Industry Primers/Hospitals.pdf",
+          "id": "71601e9a99169b82fda988704cbb81d7"
+        },
+        {
+          "path": "assets/Industry Primers/Hotels & Travel.pdf",
+          "id": "c51d1a762a37196b33290eed2c9ca0c8"
+        },
+        {
+          "path": "assets/Industry Primers/IT Services.pdf",
+          "id": "461a6031e019a653c8d1b9ff2889c7cd"
+        },
+        {
+          "path": "assets/Industry Primers/Logistics and Express.pdf",
+          "id": "3e6499d7f421eff9465e9002657d5367"
+        },
+        {
+          "path": "assets/Industry Primers/Media and OTT.pdf",
+          "id": "c4a9f289f35a8e77771dffb3cd520db9"
+        },
+        {
+          "path": "assets/Industry Primers/Paints.pdf",
+          "id": "4240eed80fc881a952ffe2e096c61370"
+        },
+        {
+          "path": "assets/Industry Primers/Pharmaceuticals.pdf",
+          "id": "ae3f59241e28e29896df8797d432ad44"
+        }
+      ]
+    },
+    {
+      "name": "Presentations"
+    },
+    {
+      "name": "Company and College Logos",
+      "files": [
+        {
+          "path": "assets/Company and College Logos/ArthurDLittle_Logo_Blue_Grad_RGB.png",
+          "id": "641409afd83aab69d58aa3c4c382870d"
+        },
+        {
+          "path": "assets/Company and College Logos/Blinkit-yellow-rounded.svg.png",
+          "id": "f4d6caecf9a406e90b0fa4ef0d9abb52"
+        },
+        {
+          "path": "assets/Company and College Logos/Boston_Consulting_Group_2020_logo.svg.png",
+          "id": "7f87fdfc531c66ba49e8a71fbd9f4238"
+        },
+        {
+          "path": "assets/Company and College Logos/Branding_lenovo-logo_lenovologoposred_low_res.png",
+          "id": "9135a5208ed4a35ed5f13b6b3a4bc5e0"
+        },
+        {
+          "path": "assets/Company and College Logos/Cisco_logo_blue_2016.svg.png",
+          "id": "86d8b6121b4b8f3ffd87347441dc4c8f"
+        },
+        {
+          "path": "assets/Company and College Logos/Darden.png",
+          "id": "63ce5a450522315064152abf413ad81b"
+        },
+        {
+          "path": "assets/Company and College Logos/Dell_Logo.png",
+          "id": "3aaf4de105a4dc21c48f2e030f450d73"
+        },
+        {
+          "path": "assets/Company and College Logos/EY_Parthenon_logo.svg.png",
+          "id": "e6518f5e4f0504dca3bb85dae7167834"
+        },
+        {
+          "path": "assets/Company and College Logos/EY_logo_2019.svg.png",
+          "id": "e578ef78add847cafab75030d53e03fb"
+        },
+        {
+          "path": "assets/Company and College Logos/FMS-delhi-logo.png",
+          "id": "6ce71d5ac0878338ff1e7d5a3709cd22"
+        },
+        {
+          "path": "assets/Company and College Logos/FSG.png",
+          "id": "f40642a026fee0342d7fd1c7dcf42e39"
+        },
+        {
+          "path": "assets/Company and College Logos/HEC_Paris.svg.png",
+          "id": "68fde1f80c45696e3a6e5d99417aba75"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM_Bangalore_Logo.png",
+          "id": "11917df985c1e85a1c57e72d1f2a6354"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM_Bangalore_Logo.svg",
+          "id": "10546a87b8263fef487aea8f5ba072a8"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM_Bangalore_Logo (1).svg",
+          "id": "10546a87b8263fef487aea8f5ba072a8"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM_Calcutta_Logo.svg",
+          "id": "88565b8343e4afba80ddf17d73cf713d"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM_Indore_Logo.svg.png",
+          "id": "f06845565981daa43ced46dfc1af95ae"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM_Kozhikode_Logo.svg.png",
+          "id": "ac018adff90048dcd743b1b1814bd580"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM_Lucknow_Logo.svg.png",
+          "id": "2fde505daaa5f2021d192edadfdf5332"
+        },
+        {
+          "path": "assets/Company and College Logos/IIM,_Ahmedabad_Logo.svg",
+          "id": "92b96763d82f733129fdfe4237615a3f"
+        },
+        {
+          "path": "assets/Company and College Logos/INSEAD_Strapline_Logo.svg",
+          "id": "b584da6dd2cc7274ea362f879b9603a5"
+        },
+        {
+          "path": "assets/Company and College Logos/Kearneypng.png",
+          "id": "b506f832026b725decae4e5c18a6c8ba"
+        },
+        {
+          "path": "assets/Company and College Logos/LSE_Logo.svg.png",
+          "id": "65fe3c2ec6f5f17a90b9c0bd2b22064c"
+        },
+        {
+          "path": "assets/Company and College Logos/Logo-Bain-and-Company.png",
+          "id": "59dca6958ab1175fee7ec11ef3cf2311"
+        },
+        {
+          "path": "assets/Company and College Logos/Logo.webp",
+          "id": "1fe4a83f9c16a97d6bf5a316884bd116"
+        },
+        {
+          "path": "assets/Company and College Logos/Logo_KkNtYcJHYE.webp",
+          "id": "679316bcc05c0a462014ad2fa04eebdd"
+        },
+        {
+          "path": "assets/Company and College Logos/McKinsey_&_Company-Logo.wine.svg",
+          "id": "da5a1b9e68bf0d28301207fc663c16f6"
+        },
+        {
+          "path": "assets/Company and College Logos/Monitor_Deloitte_logo.png",
+          "id": "48e86fc3700ded41c6e541faa828894b"
+        },
+        {
+          "path": "assets/Company and College Logos/Oliver-Wyman-Logo.png",
+          "id": "7cf12c2823e91190cae21af3bcc4786f"
+        },
+        {
+          "path": "assets/Company and College Logos/QueensLogo_colour.png",
+          "id": "d5959fa84a75ede41448197f78dd650d"
+        },
+        {
+          "path": "assets/Company and College Logos/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg",
+          "id": "e891cc408902cf197b5d14a8c2c168a0"
+        },
+        {
+          "path": "assets/Company and College Logos/St._Xavier's_College,_Mumbai_crest.png",
+          "id": "e541fb58aaf5d8b3369609a804c4383f"
+        },
+        {
+          "path": "assets/Company and College Logos/Texas_A&M_University_logo.svg.png",
+          "id": "48d27f9d51ee32c8d4bd080ba8f3a8dd"
+        },
+        {
+          "path": "assets/Company and College Logos/XLRI (1).svg",
+          "id": "f273f9336fc00e1398dcfcb2edcae0f3"
+        },
+        {
+          "path": "assets/Company and College Logos/accenture-strategy-logo-2urgdjxcq4b5nq0w-2urgdjxcq4b5nq0w.png",
+          "id": "b63c5ed736b565165e370407536c55cf"
+        },
+        {
+          "path": "assets/Company and College Logos/acuvon_logo.jpeg",
+          "id": "c9304c1c3cb50305ca93e3a2467b94db"
+        },
+        {
+          "path": "assets/Company and College Logos/download.png",
+          "id": "54f481fafa2da387fdc8a9742aa5f2df"
+        },
+        {
+          "path": "assets/Company and College Logos/download 2.png",
+          "id": "f8444679e9aa4eb4db06be31bfa5827e"
+        },
+        {
+          "path": "assets/Company and College Logos/emblem_logo.png",
+          "id": "b03b9b0097b394969b2ec14416e2bf84"
+        },
+        {
+          "path": "assets/Company and College Logos/iim-lucknow-logo.png",
+          "id": "976ac70b1c0b72f79e071b6383f15065"
+        },
+        {
+          "path": "assets/Company and College Logos/images.jpeg",
+          "id": "3be9b512b759507116078c1352f34876"
+        },
+        {
+          "path": "assets/Company and College Logos/images.png",
+          "id": "1846c7424890871dec1d88b2a5424008"
+        },
+        {
+          "path": "assets/Company and College Logos/images (1).png",
+          "id": "02250544dd3c904e91ca012b70a2de70"
+        },
+        {
+          "path": "assets/Company and College Logos/logo_icai.png",
+          "id": "8eb2c2f5af9c23f370f3796c69211b1f"
+        },
+        {
+          "path": "assets/Company and College Logos/mca_300x300_featured.png",
+          "id": "e6ee130ebe967c10ae38331543206131"
+        },
+        {
+          "path": "assets/Company and College Logos/picus_capital_logo.jpeg",
+          "id": "01f8202e359a512452d9db715568c13f"
+        },
+        {
+          "path": "assets/Company and College Logos/shield-logo.svg",
+          "id": "f273f9336fc00e1398dcfcb2edcae0f3"
+        },
+        {
+          "path": "assets/Company and College Logos/ycp-solidiance-spotlight-2024-10-15-081545272.png",
+          "id": "e1f9e5d9e0f19c6de8c7ec805dd6cc83"
+        }
+      ]
+    },
+    {
+      "name": "Thumbnail Mock Case Interview",
+      "files": [
+        {
+          "path": "assets/Thumbnail Mock Case Interview/Copy of Kokoa.png",
+          "id": "6b79e4e4f45fe734b1da7e627dd6332c"
+        }
+      ]
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/Company and College Logos/ArthurDLittle_Logo_Blue_Grad_RGB.png": {
+        "store": "blob",
+        "id": "641409afd83aab69d58aa3c4c382870d",
+        "sha256": "ad2eff0ece190b1918e83e97bfc017fdebd499c6c4c96c80c4d411942b4612e4",
+        "bytes": 95922,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Blinkit-yellow-rounded.svg.png": {
+        "store": "blob",
+        "id": "f4d6caecf9a406e90b0fa4ef0d9abb52",
+        "sha256": "fb2868ae8ef3af8a375ab6cf1a9062fe2242fdffa0af5e3ece56a266e21f9eb9",
+        "bytes": 12443,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Boston_Consulting_Group_2020_logo.svg.png": {
+        "store": "blob",
+        "id": "7f87fdfc531c66ba49e8a71fbd9f4238",
+        "sha256": "ab1ad420b08ca4e03218029153a8adcf9f61a79f3e8bc2fd52a082e4eef9b389",
+        "bytes": 32195,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Branding_lenovo-logo_lenovologoposred_low_res.png": {
+        "store": "blob",
+        "id": "9135a5208ed4a35ed5f13b6b3a4bc5e0",
+        "sha256": "c5eeec359f8f97ad2e9eb6b4c3c209cf9f023a8b9f83b9900d468786e3e5e0fd",
+        "bytes": 22568,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Cisco_logo_blue_2016.svg.png": {
+        "store": "blob",
+        "id": "86d8b6121b4b8f3ffd87347441dc4c8f",
+        "sha256": "7a08ef2ac578d8b635ee663042b1a697d40510284663db04b8ce66601382efa8",
+        "bytes": 6633,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Darden.png": {
+        "store": "blob",
+        "id": "63ce5a450522315064152abf413ad81b",
+        "sha256": "eacb137812664e900b8ef22b3d00dc67721a05ea7d40458ea95d627e24dd20fb",
+        "bytes": 35744,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Dell_Logo.png": {
+        "store": "blob",
+        "id": "3aaf4de105a4dc21c48f2e030f450d73",
+        "sha256": "e3c7290c1f6920ade62721508c84e2b87c27d10b30ab843c2deb9995c331ad19",
+        "bytes": 42735,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/EY_Parthenon_logo.svg.png": {
+        "store": "blob",
+        "id": "e6518f5e4f0504dca3bb85dae7167834",
+        "sha256": "bddbba59e2c6676ed7f8b100c176a46a46e156a724f63f148f41217303dacc8b",
+        "bytes": 19648,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/EY_logo_2019.svg.png": {
+        "store": "blob",
+        "id": "e578ef78add847cafab75030d53e03fb",
+        "sha256": "9d05438a9c7bdc42812b8ec45e62287c123f198ed8901771aeb59dfa97dd4ccb",
+        "bytes": 4732,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/FMS-delhi-logo.png": {
+        "store": "blob",
+        "id": "6ce71d5ac0878338ff1e7d5a3709cd22",
+        "sha256": "c62c9356cbf671f2287d7c2079853429e21b6797da859ffca687837fe3fbf604",
+        "bytes": 10898,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/FSG.png": {
+        "store": "blob",
+        "id": "f40642a026fee0342d7fd1c7dcf42e39",
+        "sha256": "6a641f6608bac0e424a34a31ecb80c0eb7323c1e4f8e4a04164c6ea2821c53e8",
+        "bytes": 2928,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/HEC_Paris.svg.png": {
+        "store": "blob",
+        "id": "68fde1f80c45696e3a6e5d99417aba75",
+        "sha256": "b05f54ce4bea46753e24694e0dbe35fc863d62640f9fdcfc8141c0c387907fa9",
+        "bytes": 31409,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/IIM,_Ahmedabad_Logo.svg": {
+        "store": "blob",
+        "id": "92b96763d82f733129fdfe4237615a3f",
+        "sha256": "af1cabb4fb29e98385c4b4c5581fb15277c9f7c4307ab8b5a766e86ac241dbbf",
+        "bytes": 25980,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/IIM_Bangalore_Logo (1).svg": {
+        "store": "blob",
+        "id": "10546a87b8263fef487aea8f5ba072a8",
+        "sha256": "82d61adcb19dddba98a4bf556c96cdaba958ef621a9a8ff80a0567ca6ed5072c",
+        "bytes": 19021,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/IIM_Bangalore_Logo.png": {
+        "store": "blob",
+        "id": "11917df985c1e85a1c57e72d1f2a6354",
+        "sha256": "40d3024c41564735671d04d3531a1bbb87e11ce0ebd5618b4ab058cd2ba9e2b7",
+        "bytes": 11770,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/IIM_Bangalore_Logo.svg": {
+        "store": "blob",
+        "id": "10546a87b8263fef487aea8f5ba072a8",
+        "sha256": "82d61adcb19dddba98a4bf556c96cdaba958ef621a9a8ff80a0567ca6ed5072c",
+        "bytes": 19021,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/IIM_Calcutta_Logo.svg": {
+        "store": "blob",
+        "id": "88565b8343e4afba80ddf17d73cf713d",
+        "sha256": "6559e360e72391a43c4ff6db4c341102b280c49f5b76d7910ff6b2d12dbe147a",
+        "bytes": 21602,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/IIM_Indore_Logo.svg.png": {
+        "store": "blob",
+        "id": "f06845565981daa43ced46dfc1af95ae",
+        "sha256": "7c7b35bfb131c4c690badfa2d064d815a82f730309fadc8ac88ee63e4fa9d5d3",
+        "bytes": 100117,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/IIM_Kozhikode_Logo.svg.png": {
+        "store": "blob",
+        "id": "ac018adff90048dcd743b1b1814bd580",
+        "sha256": "bc917423580e4e504ca9c62ed4ca2819283ff4daf21e934016f5bff3a43f5a26",
+        "bytes": 182923,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/IIM_Lucknow_Logo.svg.png": {
+        "store": "blob",
+        "id": "2fde505daaa5f2021d192edadfdf5332",
+        "sha256": "e20e188ffa5073f63184123a057f6a86ff2eae75e835ef890fe8cf828b6f7058",
+        "bytes": 794006,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/INSEAD_Strapline_Logo.svg": {
+        "store": "blob",
+        "id": "b584da6dd2cc7274ea362f879b9603a5",
+        "sha256": "5b7e7ec781db4ebe16e7c779c915b6f37fc53ff31bcadd0303805b87c155c424",
+        "bytes": 13859,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/Kearneypng.png": {
+        "store": "blob",
+        "id": "b506f832026b725decae4e5c18a6c8ba",
+        "sha256": "776f07ec82c02407a9f76abae42119683f4902f644f398afb9a671e96bc4ef3e",
+        "bytes": 11751,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/LSE_Logo.svg.png": {
+        "store": "blob",
+        "id": "65fe3c2ec6f5f17a90b9c0bd2b22064c",
+        "sha256": "b8e4ede380135b4e95a26f88aedb4ec412339c5bef4c45ba2bf2ccbcf414285b",
+        "bytes": 2906,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Logo-Bain-and-Company.png": {
+        "store": "blob",
+        "id": "59dca6958ab1175fee7ec11ef3cf2311",
+        "sha256": "871fd511025aef6435a9a8b2927e57048c59079cdbce18a5243ef0ad73401388",
+        "bytes": 11404,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Logo.webp": {
+        "store": "blob",
+        "id": "1fe4a83f9c16a97d6bf5a316884bd116",
+        "sha256": "105f0d2497e89461264d1feff7b2d1eb43251ef6d6726579d473a115b38f4ac6",
+        "bytes": 11352,
+        "type": "image/webp"
+      },
+      "assets/Company and College Logos/Logo_KkNtYcJHYE.webp": {
+        "store": "blob",
+        "id": "679316bcc05c0a462014ad2fa04eebdd",
+        "sha256": "cca6802442c68e63b6619388ed4869bd683e51a57b27a6e06c5d59d1713673bd",
+        "bytes": 146352,
+        "type": "image/webp"
+      },
+      "assets/Company and College Logos/McKinsey_&_Company-Logo.wine.svg": {
+        "store": "blob",
+        "id": "da5a1b9e68bf0d28301207fc663c16f6",
+        "sha256": "ae2d4b0aaf0f77c412b783c7481ba5e4d3b943208cf39a4517972039a035e358",
+        "bytes": 5751,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/Monitor_Deloitte_logo.png": {
+        "store": "blob",
+        "id": "48e86fc3700ded41c6e541faa828894b",
+        "sha256": "d8addee3375e4d5c5565a837540de74daf9c5b45cc6fb2611a32f9962cc1af0a",
+        "bytes": 208277,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Oliver-Wyman-Logo.png": {
+        "store": "blob",
+        "id": "7cf12c2823e91190cae21af3bcc4786f",
+        "sha256": "f140b2243bb5a7c425abc6be4abd6bc00839a07b4dc8ff4a94c1c49985d77316",
+        "bytes": 8423,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/QueensLogo_colour.png": {
+        "store": "blob",
+        "id": "d5959fa84a75ede41448197f78dd650d",
+        "sha256": "0e6d59a4e21587a882cce5d3bd4887928c5517764ea272c8e07c149bb73a6936",
+        "bytes": 50261,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg": {
+        "store": "blob",
+        "id": "e891cc408902cf197b5d14a8c2c168a0",
+        "sha256": "011916d665654549a02b3416c35b385574889424b293e85068a6c928e00b4271",
+        "bytes": 195920,
+        "type": "image/jpeg"
+      },
+      "assets/Company and College Logos/St._Xavier's_College,_Mumbai_crest.png": {
+        "store": "blob",
+        "id": "e541fb58aaf5d8b3369609a804c4383f",
+        "sha256": "1e21599958a8f23e9dfa5f4921d969fa97a79b1ceb46c57eae83f3c036f4d1e9",
+        "bytes": 112121,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/Texas_A&M_University_logo.svg.png": {
+        "store": "blob",
+        "id": "48d27f9d51ee32c8d4bd080ba8f3a8dd",
+        "sha256": "a05dc0f14da9a4167af5864fccc5da2c12ccc4bad44c0d620fc8688dd7fdff84",
+        "bytes": 17138,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/XLRI (1).svg": {
+        "store": "blob",
+        "id": "f273f9336fc00e1398dcfcb2edcae0f3",
+        "sha256": "93d18ee5444791e04a5f815d2216387c3247c1807879e7c23739da1f03a384ee",
+        "bytes": 41049,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/accenture-strategy-logo-2urgdjxcq4b5nq0w-2urgdjxcq4b5nq0w.png": {
+        "store": "blob",
+        "id": "b63c5ed736b565165e370407536c55cf",
+        "sha256": "d709337e456adbbacc056861e3b2b36c84cfabadc0148f4dab2adea5cf346f42",
+        "bytes": 4565,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/acuvon_logo.jpeg": {
+        "store": "blob",
+        "id": "c9304c1c3cb50305ca93e3a2467b94db",
+        "sha256": "612a2990bd1e4685c3efdfc9cc482f82a4f01ac0e966a46f423a7266e5fed00f",
+        "bytes": 4558,
+        "type": "image/jpeg"
+      },
+      "assets/Company and College Logos/download 2.png": {
+        "store": "blob",
+        "id": "f8444679e9aa4eb4db06be31bfa5827e",
+        "sha256": "8bd95f4089b88f079d8577a8cc8e49f428d681638e7b0929412824257b00a742",
+        "bytes": 2447,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/download.png": {
+        "store": "blob",
+        "id": "54f481fafa2da387fdc8a9742aa5f2df",
+        "sha256": "686fe14682bc1f3062fa3fd868f6b1e2eb1b8d7a7dc008c0e20a351a5d2af2c4",
+        "bytes": 4976,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/emblem_logo.png": {
+        "store": "blob",
+        "id": "b03b9b0097b394969b2ec14416e2bf84",
+        "sha256": "77c15d3a858d7cbe428d5118e11d69f2518b5cc9a61a3be2dffb9607ffa24137",
+        "bytes": 117649,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/iim-lucknow-logo.png": {
+        "store": "blob",
+        "id": "976ac70b1c0b72f79e071b6383f15065",
+        "sha256": "5a637e289fc3ef817f7c23bc8804a8768179cf00ac1748536fe339d48f5764ed",
+        "bytes": 35612,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/images (1).png": {
+        "store": "blob",
+        "id": "02250544dd3c904e91ca012b70a2de70",
+        "sha256": "57973a1b3d5ba898023b2132814f9ce537eb526b1fbf0a99ead42af13f8591c3",
+        "bytes": 2717,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/images.jpeg": {
+        "store": "blob",
+        "id": "3be9b512b759507116078c1352f34876",
+        "sha256": "ed51cb525e1fb48cd7dc33388a8049ae11c29f3303f3fb1a1812f1ce427c5720",
+        "bytes": 6351,
+        "type": "image/jpeg"
+      },
+      "assets/Company and College Logos/images.png": {
+        "store": "blob",
+        "id": "1846c7424890871dec1d88b2a5424008",
+        "sha256": "1b5230a55d3528cbb970ffaf6f0320dcb9b7fab2ae9cebc94797c0549803c206",
+        "bytes": 7232,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/logo_icai.png": {
+        "store": "blob",
+        "id": "8eb2c2f5af9c23f370f3796c69211b1f",
+        "sha256": "5b40a31025cfec0dfbc9a127f15226749a0954da099cc9523c98e536d0b96a30",
+        "bytes": 139868,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/mca_300x300_featured.png": {
+        "store": "blob",
+        "id": "e6ee130ebe967c10ae38331543206131",
+        "sha256": "3ca2fce926e628ccac167dd18d1f3aef663ccf97bd0510bd27060f352abf1e32",
+        "bytes": 6452,
+        "type": "image/png"
+      },
+      "assets/Company and College Logos/picus_capital_logo.jpeg": {
+        "store": "blob",
+        "id": "01f8202e359a512452d9db715568c13f",
+        "sha256": "21021cecf9f0bf60820ab06f9e413839eb951238f53ff14e4036fd9c3871951f",
+        "bytes": 2927,
+        "type": "image/jpeg"
+      },
+      "assets/Company and College Logos/shield-logo.svg": {
+        "store": "blob",
+        "id": "f273f9336fc00e1398dcfcb2edcae0f3",
+        "sha256": "93d18ee5444791e04a5f815d2216387c3247c1807879e7c23739da1f03a384ee",
+        "bytes": 41049,
+        "type": "image/svg+xml"
+      },
+      "assets/Company and College Logos/ycp-solidiance-spotlight-2024-10-15-081545272.png": {
+        "store": "blob",
+        "id": "e1f9e5d9e0f19c6de8c7ec805dd6cc83",
+        "sha256": "0e5383bed1bcb99b95670f4b4fa1cf6326bdafc0724500d42672ad323a961709",
+        "bytes": 68145,
+        "type": "image/png"
+      },
+      "assets/Imagery/brochure-mockup.jpg": {
+        "store": "blob",
+        "id": "e5fa7dd6f2d665a0281004e5b2227977",
+        "bytes": 144628,
+        "type": "image/jpeg"
+      },
+      "assets/Imagery/business-card-mockup.jpg": {
+        "store": "blob",
+        "id": "bdbf065684ecf88682f2a1e374d7b88b",
+        "bytes": 430220,
+        "type": "image/jpeg"
+      },
+      "assets/Imagery/letterhead-mockup.jpg": {
+        "store": "blob",
+        "id": "ea6573d2240a68b1faefcffd54ab8f1b",
+        "bytes": 272934,
+        "type": "image/jpeg"
+      },
+      "assets/Imagery/signage-mockup.jpg": {
+        "store": "blob",
+        "id": "17dff2c853118bbfd5a3097c4b0cb7cf",
+        "bytes": 114523,
+        "type": "image/jpeg"
+      },
+      "assets/Industry Primers/Airports.pdf": {
+        "store": "blob",
+        "id": "54b45cab7cd9182f3b09b56a742f4f7a",
+        "sha256": "7079d177feb2fe3ceb8d2ec8eef75634f9a9cfdf868ff93fa1d10d53abfe2a0d",
+        "bytes": 2262900,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Alcoholic Beverages.pdf": {
+        "store": "blob",
+        "id": "93e00e063de38129ace4304d06d91277",
+        "sha256": "6fc7e4054c91fb44ae332c5db72a3cabb041ed1e4751a56b0ddc9ac83b952a87",
+        "bytes": 2348076,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Aluminium and Non-Ferrous.pdf": {
+        "store": "blob",
+        "id": "8237771e16903876bc3d94ea83ae9e59",
+        "sha256": "288b0e492dd95d36e7e40b3001d6d925c728552b52137b9e299cd844062a1bb8",
+        "bytes": 2305929,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Asset Management.pdf": {
+        "store": "blob",
+        "id": "dfa4eaad78b4440f2e32304fd6c7144e",
+        "sha256": "f9221d3ba8a32cb03b6f84a3d03a0de61ca8446a41b39cd19ae457b1244d15fe",
+        "bytes": 2341526,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Capital Goods and EPC.pdf": {
+        "store": "blob",
+        "id": "41fcd690d7c5d0383e920394b2677a5a",
+        "sha256": "e0dab68f402cbc6d4c034cc22d8fd525e122b34a41d31b64d28bb14e28e8cc95",
+        "bytes": 2294702,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Cement.pdf": {
+        "store": "blob",
+        "id": "bf162887b5a3e38b597f7492db01050a",
+        "sha256": "3a6221bc4ff7e17db05c4ae7bc8163ae0ee4b750d8e1d7bf620420e5bfd4c501",
+        "bytes": 1999069,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Data Centres.pdf": {
+        "store": "blob",
+        "id": "6a8f141f930f8556c788f905bf83d782",
+        "sha256": "4d6683a14682558e18000b4b021f0748f2f47e0fbfce3399d0d36f9a9939e3cb",
+        "bytes": 2259138,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Diagnostics.pdf": {
+        "store": "blob",
+        "id": "e05ddadec35ac4491eb7cee281e60e43",
+        "sha256": "8bc16e6dceadb5733712a3320ae759c43c693058a1e37e03a8bdfcd3c31a23b1",
+        "bytes": 2270563,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Edtech.pdf": {
+        "store": "blob",
+        "id": "f4a7ec412249e91137827b8e07489bde",
+        "sha256": "66bdc220afb77eaa7ee0015a2b2a047faf5fc999bc753db7b10fa7d6a60a1d32",
+        "bytes": 2144626,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Electronics Manufacturing.pdf": {
+        "store": "blob",
+        "id": "24b541efc1c6d5abd06c0e5ffc412a76",
+        "sha256": "87e0ef7574fc9e7b8bae7e408332a7df4e9e435deda5cc8851cc1cd35474a155",
+        "bytes": 2269613,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/FMCG.pdf": {
+        "store": "blob",
+        "id": "1ab77efd9279b8c5a2850c621091d4af",
+        "sha256": "f5a5edd2ed3587befa1c617661a42da429831627b47f12f06a1033e1fd18daae",
+        "bytes": 2238103,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Fintech Foundations - Volume 4 - Wealthtech and Broking.pdf": {
+        "store": "blob",
+        "id": "60c198c109fc335744ec0592c19d0261",
+        "sha256": "c2080a21cc15b264193130c90cc831687b3bb5ecf9b2fe4339c8a20a8e3a172e",
+        "bytes": 2142979,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Fintech Foundations - Volume 5 - Insurtech.pdf": {
+        "store": "blob",
+        "id": "170a07b1f87f609edba22ac163e53087",
+        "sha256": "291a65d9be42071afe00064bf2996ab63f82d4c5a85a4afa350e5786522e603d",
+        "bytes": 2148727,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Food Delivery.pdf": {
+        "store": "blob",
+        "id": "bf46f70dfedaec8b5fe7913899bed763",
+        "sha256": "f4c7851fe43e876f2a2deefbb5918f4c72996a5bd2a824996e8227b5346ad902",
+        "bytes": 2294895,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Hospitals.pdf": {
+        "store": "blob",
+        "id": "71601e9a99169b82fda988704cbb81d7",
+        "sha256": "bc4d6a265569b8df2fa0e9187a9ba9e8aa26f00e5aa2a0ee2a6855c7e22d78ae",
+        "bytes": 2125827,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Hotels & Travel.pdf": {
+        "store": "blob",
+        "id": "c51d1a762a37196b33290eed2c9ca0c8",
+        "sha256": "393f334a10c8ed99e8c8e2429e53389c42e3d0115421fa8f9121ebcf77a6e7ba",
+        "bytes": 2433810,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/IT Services.pdf": {
+        "store": "blob",
+        "id": "461a6031e019a653c8d1b9ff2889c7cd",
+        "sha256": "95cb1b87bf1d6618935a46df373fa457d50af15304b81bf15579b6a9c1b24bcf",
+        "bytes": 1972977,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Logistics and Express.pdf": {
+        "store": "blob",
+        "id": "3e6499d7f421eff9465e9002657d5367",
+        "sha256": "0a48f364681ccaecd5e3d1f985aaf3d73b54f6e59acb6fc3a007f173d7c01106",
+        "bytes": 2271643,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Media and OTT.pdf": {
+        "store": "blob",
+        "id": "c4a9f289f35a8e77771dffb3cd520db9",
+        "sha256": "641a303a9efd3624c0ebc973d85a7a75e15e5677fba1e1da7476670530d412c1",
+        "bytes": 2282949,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Paints.pdf": {
+        "store": "blob",
+        "id": "4240eed80fc881a952ffe2e096c61370",
+        "sha256": "87e5a0a88e490535705cf2aed1412a107af1d508bc3619248af0c33ed6e6929f",
+        "bytes": 2282119,
+        "type": "application/pdf"
+      },
+      "assets/Industry Primers/Pharmaceuticals.pdf": {
+        "store": "blob",
+        "id": "ae3f59241e28e29896df8797d432ad44",
+        "sha256": "e78e5f8d749ce658b19f7dfc73108ce1a0ab033e26106ccebfdd9ab0f2bf8f57",
+        "bytes": 2071767,
+        "type": "application/pdf"
+      },
+      "assets/Logos/gradnext-wordmark-midnight.svg": {
+        "store": "blob",
+        "id": "8f218f175b2623a564ec2ab4d28950f3",
+        "bytes": 5812,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/gradnext-wordmark-rhino.svg": {
+        "store": "blob",
+        "id": "7ed000aebeb804805c72caff9a2d8067",
+        "bytes": 5812,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/gradnext-wordmark-white.svg": {
+        "store": "blob",
+        "id": "17c232b866715462af4a863896c94b41",
+        "bytes": 5812,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos_Original/Gradnext logo - Blue (2).png": {
+        "store": "blob",
+        "id": "feae3de566afc2a43797a22e91cee69e",
+        "sha256": "52a9161f68e7ef39294874421b0ebaf6a84a3b2021ecc8fbdb8e5d745a9e6179",
+        "bytes": 153747,
+        "type": "image/png"
+      },
+      "assets/Logos_Original/Gradnext logo - White.png": {
+        "store": "blob",
+        "id": "8229300f3f94524cf0a20595a72e50b7",
+        "sha256": "cf2979fe96ff24953cebbbd9588cff7c558d9cc2dd6a329ff8043fc2ee5211a6",
+        "bytes": 140560,
+        "type": "image/png"
+      },
+      "assets/Logos_Original/Profile picture Blue.jpg": {
+        "store": "blob",
+        "id": "8d9b816fbbe82549fbfd34554ce60950",
+        "sha256": "942e884d19c2fbef0429fb093e5741eaad4f2052bc098e5560d327f0c1599cad",
+        "bytes": 155402,
+        "type": "image/jpeg"
+      },
+      "assets/Logos_Original/Profile picture White.jpg": {
+        "store": "blob",
+        "id": "5851978461b49e423a2f7d606083455c",
+        "sha256": "b2eec5b31d00df2b86709e1453dcbc96ea7491c3c4dfd034ccc4e71d422914bc",
+        "bytes": 156164,
+        "type": "image/jpeg"
+      },
+      "assets/Logos_Original/Website icon Blue.jpg": {
+        "store": "blob",
+        "id": "2f056cebf87f85d68acf5052eedff459",
+        "sha256": "29412d173898437b4d9e1951c344d76b2ac7435da01c1562e5c741cb657abbf9",
+        "bytes": 130605,
+        "type": "image/jpeg"
+      },
+      "assets/Logos_Original/Website icon White.jpg": {
+        "store": "blob",
+        "id": "c52b909e35c5d617b97b1d2fd5a819b6",
+        "sha256": "7526f8a4a9d740b98134a3b328235dfd3c6cfa464c7dca4f98a6d9217269bde2",
+        "bytes": 131009,
+        "type": "image/jpeg"
+      },
+      "assets/Logos_Original/White logo on blue box.png": {
+        "store": "blob",
+        "id": "a73321aec1ad73da7ec94f809b038bb7",
+        "sha256": "aa9f790c2a7b71551e0c8b151e826486bfeac9f635d5c8c14a82dfbf66bae595",
+        "bytes": 139353,
+        "type": "image/png"
+      },
+      "assets/Motifs/g-outline-motif.svg": {
+        "store": "blob",
+        "id": "af978313e0af69f50dfdfb9edf1c6870",
+        "bytes": 4971,
+        "type": "image/svg+xml"
+      },
+      "assets/Motifs/stripe-motif-chrome-yellow.svg": {
+        "store": "blob",
+        "id": "d04ef04207bd1c4a44b9b6fd12ad612d",
+        "bytes": 1321,
+        "type": "image/svg+xml"
+      },
+      "assets/Motifs/stripe-motif-periwinkle.svg": {
+        "store": "blob",
+        "id": "da6a9ffe325fc6c738656933788a3929",
+        "bytes": 1321,
+        "type": "image/svg+xml"
+      },
+      "assets/Thumbnail Mock Case Interview/Copy of Kokoa.png": {
+        "store": "blob",
+        "id": "6b79e4e4f45fe734b1da7e627dd6332c",
+        "sha256": "b6ffde7ca37e3cd8cb33180de6be91d055d45c867a53873fb8c72413d3069cfc",
+        "bytes": 1611908,
+        "type": "image/png"
+      },
+      "fonts/AvenirLTProBlack.otf": {
+        "store": "blob",
+        "id": "8a3dc70d3040bd15736dfdf6ba225ba0",
+        "sha256": "caa087c07f3254f0afbac365b516d2e3c8569056350a23da94ce8e2c27f4a824",
+        "bytes": 44088,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProBlackOblique.otf": {
+        "store": "blob",
+        "id": "ed57fcc3d46e4ea670f605b01d38f124",
+        "sha256": "4b01a179eba8cb4f416958304e961bc0e954cf92b4636db75d66750cae715d69",
+        "bytes": 45824,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProBook.otf": {
+        "store": "blob",
+        "id": "c7eeee4d430dfaeddc3ce55952ed7fd9",
+        "sha256": "f1795944c1b766a6ebeb365942f6f200a2aee4cf10e66318ab254e42bd39b8e9",
+        "bytes": 44964,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProBookOblique.otf": {
+        "store": "blob",
+        "id": "13f6a8e7e4e34f02f231f5a470b4b8cf",
+        "sha256": "d1efae39b14c61b89916bf36a03d6a0a86f6e9166096d8f60f67ee0b0ecef6cb",
+        "bytes": 45296,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProHeavy.otf": {
+        "store": "blob",
+        "id": "aa9cdeeaf3ae6711c9f67ce3b523372d",
+        "sha256": "e294d82fb74c813032063bbff166d34e332a48d59d5ff64bff2bcfdad452e75f",
+        "bytes": 45424,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProHeavyOblique.otf": {
+        "store": "blob",
+        "id": "dd67876bed7f3fbbc703b0aa3c714c67",
+        "sha256": "0a0f60bda72eb7f3b029fdf49958e48d32ba09dfed559961f0e6b0a17795a1f4",
+        "bytes": 45476,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProLight.otf": {
+        "store": "blob",
+        "id": "21c64ff142e8f3123e78317f51575e89",
+        "sha256": "58e42a88e70060b0170227a85ffb5887152150de944e93ee5852da7bec1cd740",
+        "bytes": 44332,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProLightOblique.otf": {
+        "store": "blob",
+        "id": "fe837bb1b2a79aef58c0b67772064709",
+        "sha256": "a217668b2be81cd921a60f58d6d514a934e1193ee9ca2867fb9c3a80f36e0a4b",
+        "bytes": 44812,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProMedium.otf": {
+        "store": "blob",
+        "id": "6f05c35b7c768a983c4cd936b50820b1",
+        "sha256": "b8aadcb464b799fbdba957c1b144d52eb3286e245a0d0fc1434d8f47a3a79f6e",
+        "bytes": 44856,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProMediumOblique.otf": {
+        "store": "blob",
+        "id": "df0a7e7b303653b057628731db7a093e",
+        "sha256": "bdf5ebf449e9ffd46caad7451d8a84fce4be88df779a9131620d93583411a5b4",
+        "bytes": 43940,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProOblique.otf": {
+        "store": "blob",
+        "id": "68f33df672fdd39e33a5c3c0ab6e6bb9",
+        "sha256": "d258a493613e927502b73282621101efcf94b440e36fe8a0fd133b55e65f97f0",
+        "bytes": 44688,
+        "type": "font/otf"
+      },
+      "fonts/AvenirLTProRoman.otf": {
+        "store": "blob",
+        "id": "f2f85458cd39658ff179993e80d456c1",
+        "sha256": "a05697e9b7660b04bb246c6550f53e530060a6c153e9738c97952cdb8b84f5c4",
+        "bytes": 44072,
+        "type": "font/otf"
+      },
+      "fonts/Futura Bold.ttf": {
+        "store": "blob",
+        "id": "1e9e5910ac0b0669a649554d065de6a2",
+        "sha256": "dd088d9288c73cda92e5c72345ddddf8f072075122f961ffb0d3ea5e44d62730",
+        "bytes": 38134,
+        "type": "font/ttf"
+      },
+      "fonts/Futura Book.ttf": {
+        "store": "blob",
+        "id": "99c458bf5cf3615cfa73b421493de1a8",
+        "sha256": "22847930f7950d0a5ca38426a82642757a1c133de6f8612f94eb70d8434f0fb1",
+        "bytes": 112892,
+        "type": "font/ttf"
+      },
+      "fonts/Futura Round.ttf": {
+        "store": "blob",
+        "id": "7cb155d354fc2d5309b47bb590a4536c",
+        "sha256": "9706136c4c9297bb8d023c01ae3c90a3716bdea3363cf377347d1a5a1ad0438b",
+        "bytes": 48720,
+        "type": "font/ttf"
+      },
+      "fonts/Futura Std Book.ttf": {
+        "store": "blob",
+        "id": "466a8fe73ed3f74b501cd3da7ffe3719",
+        "sha256": "c375fc29f6420b114fe2dd7c3725a833811b443ee145a45cd053e4c778383532",
+        "bytes": 26644,
+        "type": "font/ttf"
+      },
+      "fonts/Futura Std Heavy.ttf": {
+        "store": "blob",
+        "id": "798aa3d306aeaf5f92d31e629bda13ad",
+        "sha256": "1cdeb6235b52e14b5e2148fb16dc240fdd9725c84378ac6a918a02369f31dc61",
+        "bytes": 27316,
+        "type": "font/ttf"
+      },
+      "fonts/Futura Thin.ttf": {
+        "store": "blob",
+        "id": "2f9f063d33868fe6401d9580e918dfce",
+        "sha256": "b1444d70a42248c789b68242b0522969cbe3701993eabd74318054c0b829ab2a",
+        "bytes": 38284,
+        "type": "font/ttf"
+      }
+    },
+    "blobBytesUsed": 53911139
+  }
+}

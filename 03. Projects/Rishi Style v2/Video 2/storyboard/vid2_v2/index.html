@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>vid2 Storyboard v2</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF0F5;--line:#E2E5EC;--ink:#14161C;--mute:#6A7080;--acc:#3E7BFA;--warn:#B7791F}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.wrap{max-width:1300px;margin:auto;padding:24px 24px 80px}
+h1{font-size:24px;margin:0 0 4px;letter-spacing:-.02em}
+.sub{color:var(--mute);font-size:14px;margin-bottom:20px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin-bottom:28px}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;font-size:13.5px;line-height:1.55}
+.box h3{margin:0 0 8px;font-size:15px}
+.box.warn{border-color:#F1D39A;background:#FFFBF2}
+.box ol,.box ul{margin:0;padding-left:20px}
+.box li{margin:3px 0}
+code{font-size:12px;background:#F2F4F8;padding:1px 5px;border-radius:4px}
+.beat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0;display:grid;grid-template-columns:150px 150px 1fr;gap:18px;align-items:start}
+@media(max-width:760px){.beat{grid-template-columns:1fr 1fr}.beat .txt{grid-column:1/-1}}
+.beat img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:10px;background:#000;display:block}
+.cap{font-size:11px;color:var(--mute);text-align:center;margin-top:4px}
+.txt h2{margin:0 0 2px;font-size:18px}
+.t{font-size:12.5px;color:var(--mute);font-variant-numeric:tabular-nums}
+.line{font-style:italic;font-size:13.5px;margin:6px 0 8px;color:#333}
+.tag{display:inline-block;font-size:10.5px;font-weight:700;background:#E6ECF7;color:#0B1224;border-radius:6px;padding:2px 7px;margin-right:4px}
+.txt ul{margin:0;padding-left:18px;font-size:13px;line-height:1.55}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <h1>vid2 · storyboard v2 (your picks → draft 1)</h1>
+ <div class="sub">Each beat shows two real frames from <code>vid2_edit_v1/vid2_draft1.mp4</code> (not sketches). Times are on the trimmed clock (0 = "okay"). Draft 1 is already built because you said to go ahead. Tell me anything below that's wrong, and the fixes go into draft 2 in a new folder.</div>
+
+ <div class="grid2">
+  <div class="box"><h3>Feedback list (from your picks)</h3><ol>
+   <li><b>F1</b> Trim automatically: 1.73 s of silence and unclear sound cut from the head, 1.5 s of quiet cut from the tail. No pauses inside the clip were long enough to cut (all under 0.25 s). Reel = 15.9 s.</li>
+   <li><b>F2</b> Timer pill with subtle corners (12 px) rises from behind you, holds above your head, then glides to the corner. "short reel" leaves word by word (rise + fade); the ring and the countdown stay for the whole reel.</li>
+   <li><b>F3</b> Timeline card behind your head on "claude se edit".</li>
+   <li><b>F4</b> Split: drafts 1 → 4 as the baseline, plus 3 skill cards with a small GitHub mark between the captions and the drafts. Your full hair line sits just below the pane.</li>
+   <li><b>F5</b> PiP + pipeline card; the last tick lands on "badhiya edit".</li>
+   <li><b>F6</b> The word is <b>slop</b> (captions corrected). B&W + nose tracking. "slop" and "lagti hai." are up from the start; the line above shows one word at a time.</li>
+   <li><b>F7</b> Bridge: same caption, only the hero changes from "seekhni hai," to "samajhni hai,".</li>
+   <li><b>F8</b> CTA: comments sheet + keyboard. When EDIT is typed and the tick turns green, a DM card slides in from left to right in the middle of the screen, just above "resource".</li>
+   <li><b>F9</b> After you approve the whole video: save this round into the skill's learnings.</li>
+  </ol></div>
+  <div class="box warn"><h3>Assumptions (tell me if any is wrong)</h3><ul>
+   <li><b>Timer corner:</b> your note says "top-left" once and "top-right" once. I used <b>top-right</b>.</li>
+   <li><b>Timer content:</b> the ring fills over the whole reel and the number counts down 0:16 → 0:01. I dropped the thin progress line along the top edge so there's only one timer.</li>
+   <li><b>"slop" line above:</b> I read "each word comes in a different frame" as one word at a time, each replacing the last: warna → har → doosri → video → toh.</li>
+   <li><b>Skill names</b> are real files from your style folder: CAPTION_SYSTEM.md, MOTION_LIBRARY.md, SOUND_DESIGN.md. The draft frames are real frames from roughcut_v3 drafts 1–4, at the same moment (9.8 s).</li>
+   <li><b>DM card text:</b> "rishi sent you a file · resource · step by step", with your face sticker as the avatar.</li>
+   <li><b>Caption:</b> I wrote "हफ्ते" as <i>hafte</i>. Please listen around 4.6 s.</li>
+  </ul></div>
+ </div>
+
+ <div id="beats"></div>
+</div>
+<script>
+const B=[
+ {n:'Hook · reel timer',t:'0.00–2.00',line:'okay, so this is going to be a very short reel.',f:['F1','F2'],a:'0.5',b:'1.7',pts:['Timer rises from behind your back (person matte), 0.05–0.85 s, smooth ease, settles above your head','Serif hero "short reel." on the A-roll; slow push +1.2 %/s']},
+ {n:'Timer → corner, proof card',t:'2.00–3.45',line:'maine ye poori video claude se edit ki hai',f:['F2','F3'],a:'2.3',b:'3.0',pts:['2.0 s: "reel", "short" and the dot rise + fade one after another; the pill shrinks to ring + countdown and glides to the top-right (0.8 s)','2.45 s: timeline card opens line → rectangle behind your head (matte); lanes slide in, playhead runs; eased zoom 100 → 108 %','Card leaves up + blur at 3.05 s']},
+ {n:'Split · drafts + skills',t:'3.25–5.45',line:'and mujhe ye cheez seekhne mein hafte ya mahine lag gaye hain',f:['F4'],a:'4.3',b:'5.2',pts:['Ice pane swipes down 3.25 → 4.0 s; your face shifts down 510 px so the full hair line sits just below the pane','Captions at the top of the pane (hero "hafte ya mahine")','3 skill cards (GitHub mark) settle one by one, then drafts 1 → 4 glide in from the right; drafts 1–3 dim as draft 4 lands']},
+ {n:'PiP · pipeline',t:'5.45–8.32',line:'ki aap end-to-end usse badhiya edit kaise karwa sakte ho,',f:['F5'],a:'6.6',b:'7.3',pts:['You shrink straight out of the split framing into the rounded, glowing PiP (0.9 s) while the pane lifts','Card "Claude · awake": Analyse · Plan · Build · Captions · Export tick one by one; the last tick on "edit" (7.0 s)','Single-line Playfair caption between the card and the PiP; back to full screen only after "ho," (7.72 s)']},
+ {n:'B&W · slop',t:'7.75–9.68',line:'warna har doosri video toh slop lagti hai.',f:['F6'],a:'8.6',b:'9.2',pts:['Snap to black & white on "warna", nose-tracked camera (110 %, slight lag + wiggle)','"slop" + "lagti hai." are up from the start; above them: warna → har → doosri → video → toh, one word at a time','Colour eases back over 0.45 s on "and"']},
+ {n:'Bridge',t:'9.68–11.47',line:'and agar aapko bhi ye cheez seekhni hai, samajhni hai,',f:['F7'],a:'10.3',b:'11.2',pts:['A-roll + captions, slow push','The support line stays; the hero "seekhni hai," lifts out and "samajhni hai," builds in its place']},
+ {n:'CTA · comments + DM',t:'11.50–15.90',line:'toh comment kar do "edit" and i will send you a resource jisse aap ye poori cheez step by step seekh sakte ho.',f:['F8'],a:'12.9',b:'14.6',pts:['Sheet + keyboard rise (0.8 s); your face moves up, blurred and dimmed','E·D·I·T typed on "edit" (key pop-ups + suggestion bar); tap dot + green tick at 12.55 s','The DM card slides in left → right at 12.65 s, just above the one-word captions; everything holds to the last 0.3 s']},
+];
+document.getElementById('beats').innerHTML=B.map(x=>`<div class="beat"><div><img src="frames/d1_${x.a}.jpg" alt=""><div class="cap">${x.a} s</div></div><div><img src="frames/d1_${x.b}.jpg" alt=""><div class="cap">${x.b} s</div></div>
+<div class="txt"><h2>${x.n}</h2><div class="t">${x.t} s</div><div class="line">“${x.line}”</div><div>${x.f.map(f=>`<span class="tag">${f}</span>`).join('')}</div><ul style="margin-top:8px">${x.pts.map(p=>`<li>${p}</li>`).join('')}</ul></div></div>`).join('');
+</script>
+</body>
+</html>

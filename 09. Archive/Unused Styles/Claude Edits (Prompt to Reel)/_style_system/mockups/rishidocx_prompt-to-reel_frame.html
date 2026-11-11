@@ -1,0 +1,64 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:GS;src:url(GS400.otf);font-weight:400}
+@font-face{font-family:GS;src:url(GS500.otf);font-weight:500}
+@font-face{font-family:GS;src:url(GS600.otf);font-weight:600}
+@font-face{font-family:Gamb;src:url(GambI.otf);font-style:italic}
+@font-face{font-family:Bric;src:url(Bric.ttf);font-weight:200 800}
+:root{--signal:#e2432a;--paper:#f4f1ea;--ink0:#141414}
+body.ink{--bg:#141414;--surface:#1f1e1c;--raised:#2b2a27;--ink:#f4f1ea;--muted:#a29e95;--line:#f4f1ea24;--card:#1b1a18;--cardInk:#f4f1ea;--bar:#3a3833;--scrim:linear-gradient(transparent,#0b0b0bee 45%)}
+body.paper{--bg:#f4f1ea;--surface:#e9e4d8;--raised:#dcd6c8;--ink:#141414;--muted:#5f5c56;--line:#1414141f;--card:#fffdf8;--cardInk:#141414;--bar:#e3ddcf;--scrim:linear-gradient(#fffdf800,#fffdf8 45%)}
+*{box-sizing:border-box;margin:0}
+body{width:1080px;height:1920px;background:var(--bg);color:var(--ink);font-family:GS;position:relative;overflow:hidden}
+.status{position:absolute;top:34px;left:80px;right:80px;display:flex;justify-content:space-between;font:600 40px GS}
+.status i{display:inline-block;width:62px;height:28px;border:3px solid var(--ink);border-radius:9px;position:relative;opacity:.9}
+.status i:after{content:"";position:absolute;inset:3px 12px 3px 3px;background:var(--ink);border-radius:4px}
+.hdr{position:absolute;top:96px;left:64px;right:64px;height:84px;display:flex;align-items:center;justify-content:space-between}
+.round{width:84px;height:84px;border-radius:50%;background:var(--surface);display:grid;place-items:center;font:600 32px GS}
+.brand{display:flex;align-items:center;gap:14px;font:600 40px GS;letter-spacing:-.01em}
+.brand b{width:22px;height:22px;background:var(--signal);border-radius:6px;display:inline-block}
+.brand span{color:var(--muted);font-weight:500}
+.bubble{position:absolute;top:212px;right:64px;max-width:640px;background:var(--surface);border-radius:28px 28px 8px 28px;padding:22px 30px;font:500 34px/1.3 GS}
+.bubble em{font-style:normal;color:var(--signal);font-weight:600}
+.card{position:absolute;left:102px;right:102px;top:400px;height:1100px;border-radius:28px;background:var(--card);overflow:hidden;box-shadow:0 40px 90px rgba(0,0,0,.35);color:var(--cardInk)}
+.paper .card{box-shadow:0 30px 70px rgba(20,20,20,.14);border:2px solid #1414140f}
+.cap{position:absolute;top:70px;left:0;right:0;text-align:center;font:600 54px/1.2 GS;letter-spacing:-.01em}
+.cap .dim{opacity:.4}
+.hl{background:var(--signal);color:var(--paper);padding:0 14px 4px;border-radius:8px}
+.glass{position:absolute;left:56px;right:56px;top:250px;height:470px;border-radius:28px;background:var(--surface);border:2px solid var(--line);padding:44px 48px}
+.ink .glass{background:#262522}
+.ink .card{border:2px solid #f4f1ea14}
+.kick{font:500 32px GS;color:var(--muted);letter-spacing:.04em}
+.big{font:800 132px/1 Bric;letter-spacing:-.03em;margin-top:18px}
+.big sup{font-size:56px;color:var(--signal);vertical-align:top;margin-left:8px;font-weight:700}
+.bars{position:absolute;left:48px;right:48px;bottom:44px;height:170px;display:flex;align-items:flex-end;gap:22px}
+.bars div{flex:1;background:var(--bar);border-radius:8px 8px 0 0;position:relative}
+.bars div.on{background:var(--signal)}
+.bars div span{position:absolute;bottom:-0px;left:0;right:0;text-align:center;font:500 22px GS;color:var(--muted);transform:translateY(34px)}
+.labels{position:absolute;left:0;right:0;bottom:190px;text-align:center}
+.l1{font:600 52px GS;letter-spacing:-.01em}
+.l2{font:italic 400 58px/1.1 Gamb;color:var(--signal);margin-top:4px}
+.pill{position:absolute;bottom:60px;left:50%;transform:translateX(-50%);border:3px solid var(--line);border-radius:999px;padding:18px 40px;display:flex;gap:18px;align-items:center;white-space:nowrap}
+.pill b{font:800 60px Bric;letter-spacing:-.02em}
+.pill span{font:500 38px GS;color:var(--muted)}
+.tri{width:0;height:0;border-left:26px solid var(--ink);border-top:16px solid transparent;border-bottom:16px solid transparent;opacity:.9}
+.card .tri{border-left-color:var(--cardInk)}
+.reply{position:absolute;left:64px;right:64px;top:1540px;height:108px;border-radius:999px;background:var(--surface);display:flex;align-items:center;padding:0 22px 0 40px;gap:24px;font:500 36px GS;color:var(--muted)}
+.reply .plus{font:400 52px GS;color:var(--ink)}
+.reply .go{margin-left:auto;width:76px;height:76px;border-radius:50%;background:var(--signal);color:var(--paper);display:grid;place-items:center;font:600 40px GS}
+.chips{position:absolute;top:1690px;left:0;right:0;display:flex;justify-content:center;gap:16px}
+.chips div{font:500 30px GS;padding:14px 26px;border-radius:999px;border:2px solid var(--line);color:var(--muted)}
+.chips div.now{border-color:var(--signal);color:var(--ink)}
+</style></head><body class="THEME">
+<div class="status"><span>9:41</span><span><i></i></span></div>
+<div class="hdr"><div class="round">≡</div><div class="brand"><b></b>rishi<span>.docx</span></div><div class="round">2/4</div></div>
+<div class="bubble"><em>/glass-chart</em> show how far one reel travelled</div>
+<div class="card">
+  <div class="cap"><span class="dim">one reel reached</span><br>this <span class="hl">many people</span></div>
+  <div class="glass"><div class="kick">VIEWS · ONE REEL · 30 DAYS</div><div class="big">1,248,930<sup>↑</sup></div>
+    <div class="bars"><div style="height:22%"><span>wk 1</span></div><div style="height:38%"><span>wk 2</span></div><div style="height:61%"><span>wk 3</span></div><div class="on" style="height:100%"><span>wk 4</span></div><div style="height:72%"><span>now</span></div></div></div>
+  <div class="labels"><div class="l1">reel analytics explainer</div><div class="l2">with one prompt</div></div>
+  <div class="pill"><div class="tri"></div><b>1,248,930</b><span>views</span></div>
+</div>
+<div class="reply"><span class="plus">+</span>Ask rishi.docx…<div class="go">↑</div></div>
+<div class="chips"><div>/stat-chart</div><div class="now">/glass-chart</div><div>/text-behind</div><div>/tier-list</div></div>
+</body></html>

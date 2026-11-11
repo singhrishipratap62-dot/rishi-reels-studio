@@ -1,0 +1,34 @@
+
+## vid-10 (F1 explained for beginners; graphic tee)
+- v10 | 1.1–3 | fs-object | white bg, F1 logo red, yellow speed-streak blur
+- v10 | 3.7–5.6 | fs-object | white bg, mint water floor; pixel red F1 car w/ driver head cut-out; "Lewis HAMILTON" (bold black name w/ pennant icons), gold lead tag
+- v10 | 7.7 | fs-object | face sticker (gold polygon) + pixel helmet on stick-figure body; "MAX VERSTAPPEN"
+- v10 | 9.7–12.3 | broll-text | B&W meme clips (bearded man, football manager) + white bold caption "KHAO MAA KASAM"
+- v10 | 17.3–19 | fs-object | pixel F1 car front view in red with F1 logo and "BREAKDOWN" ghost text
+- v10 | 25.7 | fs-data | grid of 10 team car livery rows (mini table) w/ numbers
+- v10 | 30.9–33 | fs-object | tall gold bar, blue pixel car (Atlassian) from above; "Grand PRIX Not Grand Prizes."
+- v10 | 35.2 | broll-text | B&W dog laughing
+- v10 | 39.7–41 | fs-data | F1 site article screenshot dark; highlight word red; photo of champion
+- v10 | 45–47.1 | fs-object | blue pixel car + coin; "Drivers Championship / DRIVERS EARN POINTS based on where they finish"
+- v10 | 50.3–55.9 | fs-object | road strip, blue pixel cars + coin; "Constructors' Championship / WIN THE CHAMPIONSHIP for their team."
+- v10 | 62.3–64 | broll-text | B&W film characters
+- v10 | 67–69.2, 74.8, 92 | fs-object | calendar-sticky note (red "FREE PRACTICE 01 / 11 FRI") peels in on grid-paper, hand-drawn circle around date
+- v10 | 69.8–72.4 | fs-data | Instagram-style F1 posts (FASTEST FREE PRACTICE) mosaic, UI mockup w/ likes
+- v10 | 77.9–78.8 | broll-text | overhead real footage miniature grid cars
+- v10 | 79.6–81.7 | fs-object | pixel blue car on track strip w/ checker flag; track outline map "SECTOR 1"
+- v10 | 86.3 | fs-object | red bg, 4 pixel cars; "THEY START THE RACE FROM THE VERY FRONT" (white bold block text)
+- v10 | 89.3–91.3 | broll-text | B&W car cuts
+- v10 | 95–99 | broll-text | B&W cartoon snail/Turbo clip
+- v10 | 103.5–104.6 | fs-object | F1 logo + black pixel car over red diagonal speed lines; "is not just about DRIVING REALLY FAST" (grey ghost last words)
+- v10 | 108.8–115 | fs-object | 3 pixel tyres (black/red/yellow) with chart cards "Hard <H> LONG LASTING", "Soft <S> FASTEST", "Medium <M> BALANCED" (card lists slide vertically); "Drivers are driving with DIFFERENT TYRE COMPOUNDS"
+- v10 | 121–124.3 | broll-text | pit-stop overhead; B&W Cars movie clip
+- v10 | 126.9 | broll-text | B&W cockpit w/ pixel mosaic
+- v10 | 132–134.4 | broll-text | race footage
+- v10 | 135.6–137.1 | fs-object | red flat illustrated F1 front w/ helmet; "while the driver is doing"
+- v10 | 140.5–149.9 | broll-text | pit wall team + crash + race footage, driver POV
+- v10 | 153–157 | broll-text | F1 car blur footage + meme face
+- v10 | 161.4 | fs-data | UI: driver/team list phone card "All Stars / All Teams"
+- v10 | 163.6–170.6 | broll-text | B&W film footage cuts
+- v10 | 171.4 | camera | A-roll goes greyscale
+- v10 | 178.5–180.5 | fs-object | pixel half-dissolved driver cut-out; "SAINZ WILLIAMS" bold text + pixel car plate (card)
+- v10 | other | captions | A-roll caption

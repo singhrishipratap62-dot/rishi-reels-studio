@@ -1,0 +1,28 @@
+<!-- @dsCard group="Titles" height=1920 width=1080 subtitle="Face-led hook: title over the top of the talking-head frame for the first 2–4 seconds" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Title over face</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:inherit;font-style:normal;font-weight:inherit}
+.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%;transform:scale(1.15);transform-origin:50% 30%}
+.scr{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(var(--scrim),var(--scrim) 40%,transparent)}
+.t{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);position:absolute;left:64px;right:160px;top:300px;color:var(--brand-paper);font-size:96px;line-height:1.02;font-weight:700;letter-spacing:-.025em}
+.t span{display:inline-block;opacity:0}.t.go span{animation:wi var(--dur-normal, 400ms) var(--ease-soft, cubic-bezier(0.4, 0, 0.2, 1)) forwards}
+@keyframes wi{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.t .it{color:var(--brand-paper);font-size:104px}
+.t .sig{color:var(--signal)}
+</style></head>
+<body><div class="f"><img class="ph" src="/_blob/ef1a2b62a299af5316a8e4ef8172d46b" alt=""><div class="scr"></div>
+<div class="t" id="t"><span>AI</span> <span>agents,</span> <span>explained</span> <span class="it">in under</span> <span class="it sig">2 minutes</span></div>
+<div class="cap" id="c">let me explain</div></div>
+<script>function loop(fn,ms){fn();setInterval(fn,ms)}loop(function(){var t=document.getElementById('t');t.classList.remove('go');void t.offsetWidth;t.classList.add('go');t.querySelectorAll('span').forEach(function(s,i){s.style.animationDelay=(0.3+i*0.12)+'s'})},4500)</script>
+</body></html>

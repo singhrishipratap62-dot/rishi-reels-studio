@@ -1,0 +1,475 @@
+[
+ {
+  "id": "V02-A01",
+  "name": "chapter tracker badge line",
+  "category": "graphic",
+  "element": "chapter tracker badge line",
+  "start_f": 10,
+  "end_f": 34,
+  "dur_ms": 800,
+  "props": {
+   "line_px": [
+    0,
+    275
+   ]
+  },
+  "easing": "easeOutCirc",
+  "bezier": [
+   0,
+   0.9,
+   0,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "three",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V02-A02",
+  "name": "blue script phrase wipe",
+  "category": "caption",
+  "element": "blue script phrase wipe",
+  "start_f": 20,
+  "end_f": 30,
+  "dur_ms": 333,
+  "props": {
+   "clip_x": [
+    0,
+    100
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "mistakes",
+  "evidence": "EST"
+ },
+ {
+  "id": "V02-A03",
+  "name": "beginner-professional slider",
+  "category": "ui",
+  "element": "beginner-professional slider",
+  "start_f": 125,
+  "end_f": 197,
+  "dur_ms": 2400,
+  "props": {
+   "thumb_x_px": [
+    208,
+    504
+   ]
+  },
+  "easing": "linear-ish",
+  "bezier": [
+   1,
+   0.7,
+   1,
+   0.6
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "beginner",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V02-A04",
+  "name": "centre iris wipe to cream",
+  "category": "transition",
+  "element": "centre iris wipe to cream",
+  "start_f": 259,
+  "end_f": 262,
+  "dur_ms": 100,
+  "props": {
+   "circle_diameter_pct_W": [
+    0,
+    150
+   ]
+  },
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "biggest",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V02-A05",
+  "name": "thumbnail card enter + slide-up",
+  "category": "graphic",
+  "element": "thumbnail card enter + slide-up",
+  "start_f": 262,
+  "end_f": 335,
+  "dur_ms": 2433,
+  "props": {
+   "height_px": [
+    375,
+    585
+   ],
+   "rotate_deg": [
+    -20.6,
+    5.5
+   ],
+   "top_px": [
+    727,
+    0
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "biggest",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V02-A06",
+  "name": "sans + script lockup on cream",
+  "category": "text",
+  "element": "sans + script lockup on cream",
+  "start_f": 290,
+  "end_f": 345,
+  "dur_ms": 1833,
+  "props": {
+   "clip_x": [
+    0,
+    100
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "screams",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V02-A07",
+  "name": "split screen pane slide-in",
+  "category": "transition",
+  "element": "split screen pane slide-in",
+  "start_f": 405,
+  "end_f": 418,
+  "dur_ms": 433,
+  "props": {
+   "pane_height_px": [
+    0,
+    639
+   ]
+  },
+  "easing": "easeInOutCubic",
+  "bezier": [
+   0.6,
+   0,
+   0.3,
+   1.05
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "rule",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V02-A08",
+  "name": "app icon pop",
+  "category": "graphic",
+  "element": "app icon pop",
+  "start_f": 410,
+  "end_f": 420,
+  "dur_ms": 333,
+  "props": {
+   "scale": [
+    0.6,
+    1
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "rule",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V02-A09",
+  "name": "25pct shrink with ghost outline",
+  "category": "graphic",
+  "element": "25pct shrink with ghost outline",
+  "start_f": 536,
+  "end_f": 600,
+  "dur_ms": 2133,
+  "props": {
+   "width_px": [
+    225,
+    169
+   ]
+  },
+  "easing": "easeOutBack-ish",
+  "bezier": [
+   0.3,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 21.4,
+  "trigger_word": "25%",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V02-A10",
+  "name": "pill pop + particle burst",
+  "category": "graphic",
+  "element": "pill pop + particle burst",
+  "start_f": 540,
+  "end_f": 600,
+  "dur_ms": 2000,
+  "props": {
+   "pill_width_px": [
+    6,
+    86
+   ]
+  },
+  "easing": "easeOutBack-ish",
+  "bezier": null,
+  "overshoot_pct": null,
+  "trigger_word": "smaller",
+  "evidence": "EST (rmse .189)"
+ },
+ {
+  "id": "V02-A11",
+  "name": "pane collapse to A-roll",
+  "category": "transition",
+  "element": "pane collapse to A-roll",
+  "start_f": 606,
+  "end_f": 624,
+  "dur_ms": 600,
+  "props": {
+   "aroll_height_px": [
+    639,
+    1279
+   ]
+  },
+  "easing": "easeInSine",
+  "bezier": [
+   1,
+   0,
+   0.3,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "watch",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V02-A12",
+  "name": "segmented effect meter",
+  "category": "ui",
+  "element": "segmented effect meter",
+  "start_f": 720,
+  "end_f": 806,
+  "dur_ms": 2867,
+  "props": {
+   "highlight_index": [
+    1,
+    5
+   ]
+  },
+  "easing": "spring",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "less",
+  "evidence": "OBS (strip_024)"
+ },
+ {
+  "id": "V02-A13",
+  "name": "rounded-rect wipe + eye pop",
+  "category": "transition",
+  "element": "rounded-rect wipe + eye pop",
+  "start_f": 805,
+  "end_f": 829,
+  "dur_ms": 800,
+  "props": {
+   "rect_width_px": [
+    0,
+    719
+   ],
+   "eye_scale": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeOutQuart",
+  "bezier": [
+   0.3,
+   0.3,
+   0,
+   1.1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "reserve",
+  "evidence": "MEAS"
+ },
+ {
+  "id": "V02-A14",
+  "name": "two-line lockup cream",
+  "category": "text",
+  "element": "two-line lockup cream",
+  "start_f": 807,
+  "end_f": 900,
+  "dur_ms": 3100,
+  "props": {
+   "clip_x": [
+    0,
+    100
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "visual",
+  "evidence": "EST"
+ },
+ {
+  "id": "V02-A15",
+  "name": "floating UI panels",
+  "category": "graphic",
+  "element": "floating UI panels",
+  "start_f": 833,
+  "end_f": 845,
+  "dur_ms": 400,
+  "props": {
+   "translate_px": [
+    30,
+    0
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "effects",
+  "evidence": "EST"
+ },
+ {
+  "id": "V02-A16",
+  "name": "colour swatch spring pop",
+  "category": "graphic",
+  "element": "colour swatch spring pop",
+  "start_f": 1040,
+  "end_f": 1104,
+  "dur_ms": 2133,
+  "props": {
+   "black_width_px": [
+    96,
+    156
+   ],
+   "red_width_px": [
+    48,
+    148
+   ]
+  },
+  "easing": "easeOutBack-ish",
+  "bezier": null,
+  "overshoot_pct": null,
+  "trigger_word": "harsh",
+  "evidence": "MEAS(peak ratio 1.24 on black swatch),EST(curve shape)"
+ },
+ {
+  "id": "V02-A17",
+  "name": "brand logo card stagger",
+  "category": "graphic",
+  "element": "brand logo card stagger",
+  "start_f": 1115,
+  "end_f": 1195,
+  "dur_ms": 2667,
+  "props": {
+   "scale": [
+    0.8,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "brands",
+  "evidence": "OBS (strip_036/038)"
+ },
+ {
+  "id": "V02-A18",
+  "name": "high-end line wipe",
+  "category": "text",
+  "element": "high-end line wipe",
+  "start_f": 1272,
+  "end_f": 1296,
+  "dur_ms": 800,
+  "props": {
+   "line_width_px": [
+    201,
+    572
+   ]
+  },
+  "easing": "easeInOutQuart",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "high-end",
+  "evidence": "EST (rmse .205-.226)"
+ },
+ {
+  "id": "V02-A19",
+  "name": "CTA recap tracker",
+  "category": "graphic",
+  "element": "CTA recap tracker",
+  "start_f": 1310,
+  "end_f": 1490,
+  "dur_ms": 6000,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "easeOut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "now",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V02-A20",
+  "name": "A-roll caption stack",
+  "category": "style",
+  "element": "A-roll caption stack",
+  "start_f": 0,
+  "end_f": 1490,
+  "dur_ms": null,
+  "props": {
+   "opacity": [
+    0.25,
+    1
+   ]
+  },
+  "easing": "easeOutCubic",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "all",
+  "evidence": "EST"
+ },
+ {
+  "id": "V02-A21",
+  "name": "A-roll hard cut",
+  "category": "cut",
+  "element": "A-roll hard cut",
+  "start_f": 920,
+  "end_f": 920,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "number",
+  "evidence": "MEAS"
+ }
+]

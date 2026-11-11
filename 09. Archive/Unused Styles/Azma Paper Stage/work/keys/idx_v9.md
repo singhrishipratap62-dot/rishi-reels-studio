@@ -1,0 +1,27 @@
+
+## vid-9 (anime lessons; white graphic tee)
+- v9 | 1.7–5 | fs-object | green water floor, her greyscale cut-out w/ glasses & flower + gold coins; "for every time someone said this to me" (bold black)
+- v9 | 5.3–6.2 | fs-object | pixel Japan torii + pagoda, gold sign "WELCOME TO JAPAN"
+- v9 | 7.9 | camera | greyscale A-roll beat
+- v9 | 10.8 | broll-text | B&W child profile
+- v9 | 15.4–17.4 | fs-object | cut-out of her in blue jacket in Gojo-style glasses; speech bubble (gold) "if you go out wearing a GOJO T-SHIRT"
+- v9 | 19.7–21 | broll-text | B&W podcast clip, caption "CHUP KAR JA BAHAR" bold white lower
+- v9 | 24–25.2 | fs-object | exam paper "B-" flat-lay
+- v9 | 29.8–40.8 | broll-text | B&W animated memes (Lego, SpongeBob, athlete "ANIME AYIAN???", Batman fly)
+- v9 | 42–47 | fs-object | pixel UAE/Pakistan maps w/ avatar; "MIDDLE", "VERY DIFFERENT"
+- v9 | 47.7–49.4 | broll-text | B&W photo cuts (truck art, family), Urdu handwriting board
+- v9 | 51.2–53.2 | fs-object | green/pink/gold book stack; "I learned Pashto PRETTY LATE IN LIFE"
+- v9 | 53.8, 57.3–58.3 | broll-text | B&W reaction meme faces
+- v9 | 60.7–61.3 | broll-text | B&W cartoon clip
+- v9 | 65.5, 90.9, 101.2 | onscreen-pop | anime trading-card (One Piece / Digimon / Pokemon) + green banner "ONE PIECE taught me something about ambition." slides in lower-left over A-roll (card tilt pop)
+- v9 | 67–73, 74.6–76.6, 84.8–86.8 | broll-text | colour anime clips (One Piece), full-screen
+- v9 | 82–84.3 | fs-object | yellow floor, her avatar + two small avatars; "LUFFY also taught me LEADERSHIP" (green bold, gold lead-in)
+- v9 | 91.6–97.7 | broll-text | colour anime clips (Digimon)
+- v9 | 102.8–104.7 | broll-text | B&W Snorlax clip
+- v9 | 107.6–109.6 | fs-object | her avatar meditating floating on white with clouds; "the best thing to experience as a HUMAN" (green)
+- v9 | 117.8–123 | broll-text | colour anime clips (Beyblade)
+- v9 | 124.7–125.5 | fs-object | four trading cards (One Piece, Digimon, Pokemon, Beyblade) float on white, "These shows were MY FRIENDS before"
+- v9 | 129–130.3 | broll-text | B&W minions clip
+- v9 | 134.5–136.3 | fs-object | TV remote w/ gold beam cone widening to green screen; "I STILL WATCH ANIME" (pixel text)
+- v9 | 139.3–141.2 | broll-text | B&W dog clip
+- v9 | other | captions | A-roll with top caption; blur-in after cutaways

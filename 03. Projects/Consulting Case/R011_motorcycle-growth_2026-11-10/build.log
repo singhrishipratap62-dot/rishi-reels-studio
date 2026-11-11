@@ -1,0 +1,40 @@
+=== events 12:47:19
+=== sound pass 12:47:20
+89 cues kept (121 raw). Program -15.0 LUFS, TP -1.5, LRA 2.5
+Counter({'Modern_technology_pop': 48, 'Pop_different-': 24, 'Highlighter': 6, 'Riser_+_Tick': 3, 'Mouse_click_different-': 3, 'Woosh': 2, 'Hi-Tech_Click_': 2, 'Swoosh': 1})
+=== compose 1x 12:47:28
+frame 5400
+frame 5100
+frame 5700
+chunk 5370-5726 ok
+chunk 4970-5370 ok
+frame 0
+s2zoom: 63 frames, 1.10 -> 1.00, sine in-out
+export duration: 191.080938 s
+=== speed + music 13:06:47
+speed 1.2x: 159.217479 s (1x: 191.080938 s)
+voice -17.5 dB RMS, music under speech -30.5 -> 13.0 dB under voice; duck depth (vs undocked, after calibration) median 0.1 dB, max 2.6 dB
+=== green 13:09:37
+green export: 191.080979 s
+=== raw 1080 13:11:27
+=== QC 1.2x final 13:15:54
+[PASS] 1080x1920 @ 29.97, H.264 High  — 1080x1920 30000/1001 High
+[PASS] audio present  — aac
+[PASS] video and audio same length (±2 frames)  — video 159.19s, audio 159.22s
+[PASS] duration = last word end + 0.2–0.6 s  — dur 159.22s, last word end 158.78
+[PASS] no black (blackdetect d=0.2)  — []
+[PASS] no gap >0.35 s inside speech (-45 dB)  — []
+[PASS] scene cuts only at S1→S2 and S2→S3  — [2.97, 4.74] expected [2.98, 4.73]
+[PASS] caption inside x 100–980 (one line)  — []
+[PASS] caption OCR readable on >=85% of samples  — 87%
+[PASS] end card shows Part 45 + Follow for Part 46  — Solving real consultant cases / Part 45 / Follow for Part 46
+[PASS] no "gradnext" on end card (R1.9)
+[PASS] blur-in: panel blurred at 0 s, sharp by 1.0 s  — sharpness 0.05s 0.0019 · 1.0s 0.0410 · 3.0s 0.0442
+[PASS] loudness -15 LUFS ±1, true peak <= -1 dBTP  — -15.1 LUFS, TP -1.8
+face freezes >=1s: 0
+R011_motorcycle-growth_2026-11-10.mp4: 1080,1920,4771  95M
+R011_motorcycle-growth_2026-11-10_1x.mp4: 1080,1920,5726 120M
+R011_motorcycle-growth_2026-11-10_green.mp4: 1080,1920,5726  30M
+R011_motorcycle-growth_2026-11-10_raw.mp4: 1080,1920,5726 236M
+/dev/disk3s1s1   228Gi    12Gi   6.9Gi    64%    458k   72M    1%   /
+ALL DONE 13:16:59

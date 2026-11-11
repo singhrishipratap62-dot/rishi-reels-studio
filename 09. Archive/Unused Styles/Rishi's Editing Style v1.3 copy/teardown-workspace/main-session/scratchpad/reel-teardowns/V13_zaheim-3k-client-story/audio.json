@@ -1,0 +1,147 @@
+{
+ "file": "a22.wav",
+ "dur_s": 60.0,
+ "cuts": 8,
+ "strong_onsets": 18,
+ "onsets_per_s": 0.3,
+ "cuts_with_hit_100ms": 1,
+ "hit_rate": 0.12,
+ "median_offset_ms": 46.0,
+ "rms_p10_db": -30.8,
+ "rms_p50_db": -19.5,
+ "rms_p90_db": -13.0,
+ "cue_medians": {
+  "dur_ms": 586.0,
+  "attack_ms": 447.0,
+  "centroid_hz": 2656.0,
+  "peak_dbfs": -3.5
+ },
+ "cues": [
+  {
+   "t": 3.53,
+   "dur_ms": 604,
+   "attack_ms": 569,
+   "centroid_hz": 2962,
+   "peak_dbfs": -1.6
+  },
+  {
+   "t": 8.94,
+   "dur_ms": 604,
+   "attack_ms": 302,
+   "centroid_hz": 1233,
+   "peak_dbfs": -3.2
+  },
+  {
+   "t": 13.82,
+   "dur_ms": 557,
+   "attack_ms": 441,
+   "centroid_hz": 2328,
+   "peak_dbfs": -1.0
+  },
+  {
+   "t": 15.21,
+   "dur_ms": 482,
+   "attack_ms": 174,
+   "centroid_hz": 3951,
+   "peak_dbfs": -3.5
+  },
+  {
+   "t": 15.84,
+   "dur_ms": 528,
+   "attack_ms": 476,
+   "centroid_hz": 3400,
+   "peak_dbfs": -3.2
+  },
+  {
+   "t": 21.73,
+   "dur_ms": 569,
+   "attack_ms": 499,
+   "centroid_hz": 2689,
+   "peak_dbfs": -3.5
+  },
+  {
+   "t": 22.5,
+   "dur_ms": 319,
+   "attack_ms": 145,
+   "centroid_hz": 2479,
+   "peak_dbfs": -8.3
+  },
+  {
+   "t": 29.61,
+   "dur_ms": 604,
+   "attack_ms": 331,
+   "centroid_hz": 2799,
+   "peak_dbfs": -5.2
+  },
+  {
+   "t": 31.49,
+   "dur_ms": 598,
+   "attack_ms": 41,
+   "centroid_hz": 3976,
+   "peak_dbfs": -2.6
+  },
+  {
+   "t": 37.01,
+   "dur_ms": 604,
+   "attack_ms": 575,
+   "centroid_hz": 2445,
+   "peak_dbfs": -2.8
+  },
+  {
+   "t": 44.21,
+   "dur_ms": 592,
+   "attack_ms": 290,
+   "centroid_hz": 2374,
+   "peak_dbfs": -6.2
+  },
+  {
+   "t": 46.58,
+   "dur_ms": 604,
+   "attack_ms": 488,
+   "centroid_hz": 1870,
+   "peak_dbfs": -2.6
+  },
+  {
+   "t": 50.9,
+   "dur_ms": 557,
+   "attack_ms": 139,
+   "centroid_hz": 2746,
+   "peak_dbfs": -6.2
+  },
+  {
+   "t": 56.45,
+   "dur_ms": 604,
+   "attack_ms": 557,
+   "centroid_hz": 2641,
+   "peak_dbfs": -2.6
+  },
+  {
+   "t": 57.56,
+   "dur_ms": 604,
+   "attack_ms": 586,
+   "centroid_hz": 2125,
+   "peak_dbfs": -4.0
+  },
+  {
+   "t": 57.72,
+   "dur_ms": 534,
+   "attack_ms": 453,
+   "centroid_hz": 2578,
+   "peak_dbfs": -5.7
+  },
+  {
+   "t": 57.96,
+   "dur_ms": 569,
+   "attack_ms": 221,
+   "centroid_hz": 2671,
+   "peak_dbfs": -6.2
+  },
+  {
+   "t": 58.42,
+   "dur_ms": 580,
+   "attack_ms": 551,
+   "centroid_hz": 2931,
+   "peak_dbfs": -6.7
+  }
+ ]
+}

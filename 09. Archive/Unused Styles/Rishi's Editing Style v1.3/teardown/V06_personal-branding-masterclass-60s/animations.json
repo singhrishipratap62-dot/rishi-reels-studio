@@ -1,0 +1,436 @@
+[
+ {
+  "id": "V06-A01",
+  "name": "profile card + payout toasts rise",
+  "category": "graphic",
+  "element": "profile card + payout toasts rise",
+  "start_f": 8,
+  "end_f": 70,
+  "dur_ms": 2067,
+  "props": {
+   "height_px": [
+    29,
+    597
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.1,
+   1.4,
+   0,
+   1
+  ],
+  "overshoot_pct": 5,
+  "trigger_word": "clients@#29 (\u0394-21)",
+  "evidence": "MEAS(\u2248,bh rmse .050),EST(bw,cy)"
+ },
+ {
+  "id": "V06-A02",
+  "name": "60-second countdown ring pop",
+  "category": "graphic",
+  "element": "60-second countdown ring pop",
+  "start_f": 103,
+  "end_f": 130,
+  "dur_ms": 900,
+  "props": {
+   "diameter_px": [
+    8,
+    161
+   ]
+  },
+  "easing": "easeOutExpo-like",
+  "bezier": [
+   0,
+   1.4,
+   0,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "master@#88 (\u0394+15)",
+  "evidence": "MEAS(rmse .023)"
+ },
+ {
+  "id": "V06-A03",
+  "name": "hook captions sans+script",
+  "category": "style",
+  "element": "hook captions sans+script",
+  "start_f": 0,
+  "end_f": 179,
+  "dur_ms": null,
+  "props": {},
+  "easing": "blur-fade",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "words",
+  "evidence": "EST"
+ },
+ {
+  "id": "V06-A04",
+  "name": "ring shrink + corner dock",
+  "category": "graphic",
+  "element": "ring shrink + corner dock",
+  "start_f": 180,
+  "end_f": 225,
+  "dur_ms": 1500,
+  "props": {
+   "diameter_pct_W": [
+    22,
+    7
+   ],
+   "y_pct_H": [
+    70,
+    83
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cut #180",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V06-A05",
+  "name": "browser window + slide zoom",
+  "category": "graphic",
+  "element": "browser window + slide zoom",
+  "start_f": 185,
+  "end_f": 260,
+  "dur_ms": 2500,
+  "props": {
+   "scale": [
+    1,
+    3
+   ]
+  },
+  "easing": "ease-in-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "masterclass@#236 (\u0394-36)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V06-A06",
+  "name": "diamond chapter badge + title",
+  "category": "graphic",
+  "element": "diamond chapter badge + title",
+  "start_f": 316,
+  "end_f": 340,
+  "dur_ms": 800,
+  "props": {
+   "scale": [
+    0,
+    1
+   ],
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cut #316 (\u0394+10)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V06-A07",
+  "name": "footage to phone card + sea-of-editors field",
+  "category": "transition",
+  "element": "footage to phone card + sea-of-editors field",
+  "start_f": 404,
+  "end_f": 470,
+  "dur_ms": 2200,
+  "props": {
+   "height_pct_H": [
+    100,
+    55
+   ],
+   "tiles": [
+    0,
+    30
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "average@#468 (\u0394-28)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V06-A08",
+  "name": "phone-card IG reel with income table",
+  "category": "graphic",
+  "element": "phone-card IG reel with income table",
+  "start_f": 540,
+  "end_f": 680,
+  "dur_ms": 4667,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "stunning",
+  "evidence": "EST"
+ },
+ {
+  "id": "V06-A09",
+  "name": "cut to A-roll badge 2",
+  "category": "cut",
+  "element": "cut to A-roll badge 2",
+  "start_f": 687,
+  "end_f": 687,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cut #687",
+  "evidence": "MEAS(diff 81)"
+ },
+ {
+  "id": "V06-A10",
+  "name": "cheap vs premium profile cards",
+  "category": "graphic",
+  "element": "cheap vs premium profile cards",
+  "start_f": 737,
+  "end_f": 850,
+  "dur_ms": 3767,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ],
+   "blur_px": [
+    8,
+    0
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Cheap@#752 (\u03940)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V06-A11",
+  "name": "profile-picture circle rise",
+  "category": "graphic",
+  "element": "profile-picture circle rise",
+  "start_f": 855,
+  "end_f": 905,
+  "dur_ms": 1667,
+  "props": {
+   "cy_px": [
+    501,
+    613
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.1,
+   0.9,
+   0,
+   1
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "profile@#891 (\u0394-6)",
+  "evidence": "MEAS(cy rmse .049, union with caption)"
+ },
+ {
+  "id": "V06-A12",
+  "name": "sparkle bullets",
+  "category": "text",
+  "element": "sparkle bullets",
+  "start_f": 910,
+  "end_f": 990,
+  "dur_ms": 2667,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "speech",
+  "evidence": "EST"
+ },
+ {
+  "id": "V06-A13",
+  "name": "name mind-map pills",
+  "category": "graphic",
+  "element": "name mind-map pills",
+  "start_f": 1080,
+  "end_f": 1130,
+  "dur_ms": 1667,
+  "props": {
+   "bbox_width_px": [
+    99,
+    425
+   ]
+  },
+  "easing": "staged",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "Alex@#1089 (\u03940..+6)",
+  "evidence": "MEAS(bbox steps)"
+ },
+ {
+  "id": "V06-A14",
+  "name": "split-screen composition",
+  "category": "cut",
+  "element": "split-screen composition",
+  "start_f": 1004,
+  "end_f": 1004,
+  "dur_ms": 0,
+  "props": {},
+  "easing": "cut",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "cut #1004",
+  "evidence": "MEAS(diff 45)"
+ },
+ {
+  "id": "V06-A15",
+  "name": "bio card typed lines + slow zoom",
+  "category": "graphic",
+  "element": "bio card typed lines + slow zoom",
+  "start_f": 1190,
+  "end_f": 1400,
+  "dur_ms": 7000,
+  "props": {
+   "scale": [
+    1,
+    1.08
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "bio@#1232 (\u0394-42)",
+  "evidence": "OBS(scale),EST(typing)"
+ },
+ {
+  "id": "V06-A16",
+  "name": "trash-content grid scroll",
+  "category": "graphic",
+  "element": "trash-content grid scroll",
+  "start_f": 1483,
+  "end_f": 1590,
+  "dur_ms": 3567,
+  "props": {
+   "grid_scroll_pct": [
+    0,
+    90
+   ]
+  },
+  "easing": "linear",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "content@#1523",
+  "evidence": "EST"
+ },
+ {
+  "id": "V06-A17",
+  "name": "12 phone-card field",
+  "category": "graphic",
+  "element": "12 phone-card field",
+  "start_f": 1610,
+  "end_f": 1676,
+  "dur_ms": 2200,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "12@#1592 (\u0394+18)",
+  "evidence": "OBS"
+ },
+ {
+  "id": "V06-A18",
+  "name": "poster card shrink + slide-left",
+  "category": "graphic",
+  "element": "poster card shrink + slide-left",
+  "start_f": 1680,
+  "end_f": 1790,
+  "dur_ms": 3667,
+  "props": {
+   "height_px": [
+    813,
+    718
+   ],
+   "cx_px": [
+    360,
+    195
+   ]
+  },
+  "easing": "easeOutQuart\u2248",
+  "bezier": [
+   0.5,
+   1.4,
+   0.6,
+   0.9
+  ],
+  "overshoot_pct": 0,
+  "trigger_word": "premium@#1777 (\u0394-97)",
+  "evidence": "MEAS(bh rmse .032; cx \u2248 rmse .070)"
+ },
+ {
+  "id": "V06-A19",
+  "name": "poster bullets",
+  "category": "text",
+  "element": "poster bullets",
+  "start_f": 1710,
+  "end_f": 1830,
+  "dur_ms": 4000,
+  "props": {
+   "opacity": [
+    0,
+    1
+   ]
+  },
+  "easing": "ease-out",
+  "bezier": null,
+  "overshoot_pct": 0,
+  "trigger_word": "trend@#1822 (\u0394+13)",
+  "evidence": "EST"
+ },
+ {
+  "id": "V06-A20",
+  "name": "comment bar grows + typed brand",
+  "category": "ui",
+  "element": "comment bar grows + typed brand",
+  "start_f": 1989,
+  "end_f": 2030,
+  "dur_ms": 1367,
+  "props": {
+   "height_px": [
+    2,
+    97
+   ],
+   "cx_px": [
+    692,
+    358
+   ]
+  },
+  "easing": "easeOutExpo\u2248",
+  "bezier": [
+   0.2,
+   1.4,
+   0,
+   1
+  ],
+  "overshoot_pct": 10,
+  "trigger_word": "comment@#1986 (\u0394+3)",
+  "evidence": "MEAS(\u2248,rmse .089-.100),EST(bw)"
+ }
+]

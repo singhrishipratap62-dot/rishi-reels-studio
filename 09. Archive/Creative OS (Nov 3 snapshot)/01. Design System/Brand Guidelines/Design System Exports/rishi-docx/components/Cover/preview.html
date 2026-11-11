@@ -1,0 +1,47 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>rishi.docx</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .slab { fill:var(--ink); rx:var(--radius-0); }
+  .sig { fill:var(--signal); rx:var(--radius-0); }
+  .tint { fill:var(--surface); rx:var(--radius-0); }
+  .rule { stroke:var(--line-strong); stroke-width:var(--stroke-hair); }
+  .words { position:absolute; left:var(--space-5); bottom:var(--space-5); max-width:440px; }
+  .name {font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif); margin:0; font-size:72px; line-height:.95; font-weight:700; letter-spacing:-.025em; color:var(--ink); }
+  .tag { margin:var(--space-2) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      ink 192×240 bled off the top (the identity, largest) · signal 96×96 once (the one thing to notice, small) · surface 120×184 bleeding off the right edge — ≈30% of 960×288
+  arrangement one tall ink slab with satellites, bottoms on one line space-5 above the edge, space-3 gutters
+  pattern     hairline rules, from "the grid: structure you feel more than see": four line-strong rules at a space-6 pitch crossing the blocks
+  scales      sides in space-3/space-6 multiples; gutters space-3; pitch space-6; corners radius-0 (square, editorial); rules stroke-hair
+-->
+<rect class="slab" x="48" y="-16" width="192" height="240"/>
+<rect class="sig" x="264" y="128" width="96" height="96"/>
+<rect class="tint" x="384" y="40" width="120" height="184"/>
+<line class="rule" x1="0" y1="96" x2="480" y2="96"/>
+<line class="rule" x1="0" y1="192" x2="480" y2="192"/>
+<line class="rule" x1="24" y1="0" x2="24" y2="288"/>
+<line class="rule" x1="312" y1="0" x2="312" y2="288"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">rishi.docx</h1>
+<p class="tag">Bold, editorial design for explaining AI.</p>
+</div>
+</div>
+</body>
+</html>

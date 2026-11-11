@@ -1,0 +1,37 @@
+/Users/rishi/Documents/Teaching Claude/DIff Acc/tools/venv-style/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+[matte] device=mps size=720x1280 ds=0.375
+[matte] 30 frames, 16.82 fps
+[matte] 60 frames, 21.87 fps
+[matte] 90 frames, 24.12 fps
+[matte] 120 frames, 25.62 fps
+[matte] 150 frames, 26.56 fps
+[matte] 180 frames, 27.26 fps
+[matte] 210 frames, 27.75 fps
+[matte] 240 frames, 28.15 fps
+[matte] 270 frames, 28.47 fps
+[matte] 300 frames, 28.74 fps
+[matte] 330 frames, 28.92 fps
+[matte] 360 frames, 29.06 fps
+[matte] 390 frames, 29.21 fps
+[matte] 420 frames, 29.34 fps
+[matte] 450 frames, 29.45 fps
+[matte] 480 frames, 29.57 fps
+[matte] 510 frames, 29.65 fps
+[matte] 540 frames, 29.73 fps
+[matte] 570 frames, 29.78 fps
+[matte] 600 frames, 29.85 fps
+[matte] 630 frames, 29.91 fps
+[matte] 660 frames, 29.97 fps
+[matte] 690 frames, 30.02 fps
+[matte] 720 frames, 30.06 fps
+[matte] 750 frames, 30.11 fps
+[matte] 780 frames, 30.15 fps
+[matte] 810 frames, 30.20 fps
+[matte] 840 frames, 30.22 fps
+[matte] 870 frames, 30.26 fps
+[matte] 900 frames, 30.29 fps
+[matte] 930 frames, 30.32 fps
+[matte] 960 frames, 30.35 fps
+[matte] 990 frames, 30.39 fps
+[matte] done: 1002 frames in 33.0s (30.33 fps) -> pilot/vid1/build/matte.mp4

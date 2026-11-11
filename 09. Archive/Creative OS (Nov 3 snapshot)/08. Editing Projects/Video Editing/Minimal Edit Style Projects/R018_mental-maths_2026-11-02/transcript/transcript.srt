@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:06,680
+ Can you work out 16% of 50 lakh in under 3 seconds?
+
+2
+00:00:06,680 --> 00:00:12,180
+ If not, these 5 shortcuts will help you save a full minute in every case interview.
+
+3
+00:00:12,180 --> 00:00:14,280
+ Number 1, Flip the percentage.
+
+4
+00:00:14,280 --> 00:00:20,940
+ Because 16% of 50 lakh is the same as 50% of 16 lakh, which is 8 lakh.
+
+5
+00:00:20,940 --> 00:00:23,940
+ So the hard version turns into an easy one.
+
+6
+00:00:23,940 --> 00:00:33,540
+ Number 2, learn your fraction anchors, where 1/8 is 12.5% 1/6 is 16.7% and 1/7 is about 14.3%.
+
+7
+00:00:33,540 --> 00:00:39,220
+ So if the client sells 120 out of 840 units, so that's about 14%.
+
+8
+00:00:39,220 --> 00:00:41,100
+ Number 3, round and then correct.
+
+9
+00:00:41,100 --> 00:00:47,780
+ So 49 times 18 becomes 15 times 18, which is 900, minus 18, which is 882.
+
+10
+00:00:47,780 --> 00:00:55,340
+ Number 4, split awkward percentages because 15% of 640 is just 10%, which is 64, plus half
+
+11
+00:00:55,340 --> 00:00:56,860
+ of it 32.
+
+12
+00:00:56,860 --> 00:00:58,360
+ So 96.
+
+13
+00:00:58,360 --> 00:01:01,460
+ Number 5, use the rule of 72 for growth.
+
+14
+00:01:01,460 --> 00:01:06,500
+ Because dividing 72 by growth rate tells you roughly how many years something takes
+
+15
+00:01:06,500 --> 00:01:07,500
+ to double.
+
+16
+00:01:07,500 --> 00:01:11,820
+ So a market growing at 12% doubles in about 6 years.
+
+17
+00:01:11,820 --> 00:01:14,860
+ None of these makes you a maths genius.
+
+18
+00:01:14,860 --> 00:01:19,960
+ But together they let you answer while you keep talking in a case interview.
+
+19
+00:01:19,960 --> 00:01:23,260
+ That's what sounds like confidence in a case interview.
+
+20
+00:01:23,260 --> 00:01:28,620
+ Save this and practice one shortcut a day this week until you stop having to think about
+
+21
+00:01:28,620 --> 00:01:29,260
+ them at all.
+

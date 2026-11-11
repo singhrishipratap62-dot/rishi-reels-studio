@@ -1,0 +1,22 @@
+{
+  "_comment": "One file per mock case: 03. Projects/Mock Case Interview/<CASE_ID>/case.json. inbox_folder = case media folder, relative to the studio root. Times in seconds. Fill 'clips' from get_sequence_structure (audio track 0 of the ORIGINAL sequence): [timeline_start, timeline_end, source_in].",
+  "sequence_name": "4 nov-cld",
+  "sequence_end": 2409.17343333333,
+  "fps": 29.97002997,
+  "inbox_folder": "03. Projects/Mock Case Interview/mock case, 4th November",
+  "speakers": [
+    {"name": "Kashish", "role": "Interviewer", "file": "kashish-792bb451-a8b5-46eb-a207-1-CFR.mp4", "crop_x": 180,
+     "absent": []},
+    {"name": "Aditya", "role": "Candidate", "file": "aditya-c26e72d6-e5e9-49c4-a155-1-CFR.mp4", "crop_x": 276,
+     "absent": [[0, 87.9545333333333]]}
+  ],
+  "clips": [[0, 87.9545333333333, 348.614933333333], [87.9545333333333, 105.839066666667, 457.290166666667],
+            [105.839066666667, 132.3322, 485.1847], [132.3322, 164.7646, 516.449266666667],
+            [164.7646, 327.8275, 556.422533333333], [327.8275, 533.666466666667, 773.606166666667],
+            [533.666466666667, 1253.98606666667, 1050.41603333333], [1253.98606666667, 1350.0487, 1837.70253333333],
+            [1350.0487, 1526.95876666667, 1980.5786], [1526.95876666667, 1537.3358, 2178.5764],
+            [1537.3358, 1599.86493333333, 2226.0238], [1599.86493333333, 2409.17343333333, 2305.06943333333]],
+  "silence": {"threshold_db": -50, "min_pause": 1.0, "pad": 0.12, "merge_gap": 0.3},
+  "extra_cuts_after_silence": [[1503.96913333333, 1580.1452]],
+  "voice_lufs": -28.9
+}

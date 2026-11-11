@@ -1,0 +1,94 @@
+when,action,old path,new path
+2026-11-11T09:35:06,copy,DIff Acc/Rishi's Editing Style/engine/matte,02. Shared Core/engine/matte
+2026-11-11T09:35:06,copy,DIff Acc/Daniel Presley Editing Style/reverse engineer style SKILL.md,01. Styles/_New Style Builder/SKILL.md
+2026-11-11T09:35:06,move,DIff Acc/Consulting case reel edit/Video Projects,03. Projects/Consulting Case/Raw Footage
+2026-11-11T09:35:06,move,DIff Acc/projects/R006_cooling-helmet-pricing_2026-11-05,03. Projects/Consulting Case/R006_cooling-helmet-pricing_2026-11-05
+2026-11-11T09:35:06,move,DIff Acc/projects/R007_ropeway-pricing_2026-11-06,03. Projects/Consulting Case/R007_ropeway-pricing_2026-11-06
+2026-11-11T09:35:06,move,DIff Acc/projects/R008_diwali-crackers_2026-11-06,03. Projects/Consulting Case/R008_diwali-crackers_2026-11-06
+2026-11-11T09:35:06,move,DIff Acc/projects/R009_car-cleaning-pricing_2026-11-06,03. Projects/Consulting Case/R009_car-cleaning-pricing_2026-11-06
+2026-11-11T09:35:06,move,DIff Acc/projects/R010_motorcycle-growth_2026-11-07,03. Projects/Consulting Case/R010_motorcycle-growth_2026-11-07
+2026-11-11T09:35:06,move,DIff Acc/projects/R011_motorcycle-growth_2026-11-10,03. Projects/Consulting Case/R011_motorcycle-growth_2026-11-10
+2026-11-11T09:35:06,move,DIff Acc/projects/R012_claude-edit-before-after_2026-11-11,03. Projects/Before-After/R012_claude-edit-before-after_2026-11-11
+2026-11-11T09:35:06,move,DIff Acc/before-after style/raw.mp4,03. Projects/Before-After/Original Sample/raw.mp4
+2026-11-11T09:35:06,move,DIff Acc/before-after style/edited.mp4,03. Projects/Before-After/Original Sample/edited.mp4
+2026-11-11T09:35:06,move,DIff Acc/before-after style/audio.mp4,03. Projects/Before-After/Original Sample/audio.mp4
+2026-11-11T09:35:06,move,DIff Acc/before-after style/Reference.mp4,03. Projects/Before-After/Original Sample/Reference.mp4
+2026-11-11T09:35:06,move,DIff Acc/before-after style/Before-After EDIT,03. Projects/Before-After/Original Sample/Before-After EDIT
+2026-11-11T09:35:06,move,DIff Acc/IG Grad Next Motion Explainer/Video Projects,03. Projects/IG Motion Explainer
+2026-11-11T09:35:06,move,Azma's style/Video Projects/Video 1,03. Projects/Rishi Style v2/Video 1
+2026-11-11T09:35:06,move,Azma's style/Video Projects/Video 2,03. Projects/Rishi Style v2/Video 2
+2026-11-11T09:35:06,move,Azma's style/Video Projects/video 5,03. Projects/Rishi Style v2/video 5
+2026-11-11T09:35:06,move,Azma's style/Video Projects/claude edit raw,03. Projects/Rishi Style v2/claude edit raw
+2026-11-11T09:35:06,move,Azma's style/Video Projects/style_lab_v1,03. Projects/Rishi Style v2/style_lab_v1
+2026-11-11T09:35:06,move,Azma's style/Video Projects/style_lab_v2,03. Projects/Rishi Style v2/style_lab_v2
+2026-11-11T09:35:06,move,Azma's style/Video Projects/_tesseract-editor,03. Projects/Rishi Style v2/_tesseract-editor
+2026-11-11T09:35:06,move,DIff Acc/projects/R_mock_4nov_MG,03. Projects/Mock Case Interview/R_mock_4nov_MG
+2026-11-11T09:35:06,move,DIff Acc/projects/mg_ref,03. Projects/Mock Case Interview/mg_ref
+2026-11-11T09:35:06,move,DIff Acc/Mock case interview edit/vid project,03. Projects/Mock Case Interview/vid project
+2026-11-11T09:35:06,move,"DIff Acc/inbox/mock case, 4th November","03. Projects/Mock Case Interview/mock case, 4th November"
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_caption_corrections.csv,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_caption_corrections.csv
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_captions_4to6w.srt,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_captions_4to6w.srt
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_captions_5w.srt,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_captions_5w.srt
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_captions_final.srt,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_captions_final.srt
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_captions_final_v2.srt,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_captions_final_v2.srt
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_transcript.srt,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_transcript.srt
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_transcript_words.csv,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_transcript_words.csv
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld-copy_transcript_words.json,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld-copy_transcript_words.json
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld_transcript.srt,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld_transcript.srt
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld_transcript_words.csv,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld_transcript_words.csv
+2026-11-11T09:35:06,move,DIff Acc/inbox/4-nov-cld_transcript_words.json,03. Projects/Mock Case Interview/Transcripts (4 Nov)/4-nov-cld_transcript_words.json
+2026-11-11T09:35:06,move,DIff Acc/.premiere-bridge,09. Archive/Old Config/.premiere-bridge
+2026-11-11T09:35:06,move,DIff Acc/Minimal Edit Style/edits/first-principles-kashish,03. Projects/Minimal Edit/first-principles-kashish
+2026-11-11T09:35:06,move,DIff Acc/Minimal Edit Style/edits/R017_structuring-soft-skills_2026-11-02,03. Projects/Minimal Edit/R017_structuring-soft-skills_2026-11-02
+2026-11-11T09:35:06,move,DIff Acc/Minimal Edit Style/edits/series-intro-30days,03. Projects/Minimal Edit/series-intro-30days
+2026-11-11T09:35:06,move,Minimal Edits/minimal-edit-system/edits/series-intro-v1,03. Projects/Minimal Edit/series-intro-v1
+2026-11-11T09:35:06,move,Minimal Edits/minimal-edit-system/edits/series-intro-versions,03. Projects/Minimal Edit/series-intro-versions
+2026-11-11T09:35:06,move,DIff Acc/30 Days of Consulting Series Announcement,03. Projects/One-offs/30 Days of Consulting Series Announcement
+2026-11-11T09:35:06,move,DIff Acc/exports/R003_mckinsey-hourly-rates_2026-11-03.mp4,04. Exports/IG Motion Explainer/R003_mckinsey-hourly-rates_2026-11-03.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R004_mbb-revenue_2026-11-03.mp4,04. Exports/IG Motion Explainer/R004_mbb-revenue_2026-11-03.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R005_india-consulting-hub_2026-11-03.mp4,04. Exports/IG Motion Explainer/R005_india-consulting-hub_2026-11-03.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R006_cooling-helmet-pricing_2026-11-05_green_PLACEMENT.md,04. Exports/Consulting Case/R006_cooling-helmet-pricing_2026-11-05_green_PLACEMENT.md
+2026-11-11T09:35:06,move,DIff Acc/exports/R007_ropeway-pricing_2026-11-06_green_PLACEMENT.md,04. Exports/Consulting Case/R007_ropeway-pricing_2026-11-06_green_PLACEMENT.md
+2026-11-11T09:35:06,move,DIff Acc/exports/R008_diwali-crackers_2026-11-06_green_PLACEMENT.md,04. Exports/Consulting Case/R008_diwali-crackers_2026-11-06_green_PLACEMENT.md
+2026-11-11T09:35:06,move,DIff Acc/exports/R009_car-cleaning-pricing_2026-11-06_green_PLACEMENT.md,04. Exports/Consulting Case/R009_car-cleaning-pricing_2026-11-06_green_PLACEMENT.md
+2026-11-11T09:35:06,move,DIff Acc/exports/R010_motorcycle-growth_2026-11-07_1x.mp4,04. Exports/Consulting Case/R010_motorcycle-growth_2026-11-07_1x.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R011_motorcycle-growth_2026-11-10_1x.mp4,04. Exports/Consulting Case/R011_motorcycle-growth_2026-11-10_1x.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R011_motorcycle-growth_2026-11-10_green_PLACEMENT.md,04. Exports/Consulting Case/R011_motorcycle-growth_2026-11-10_green_PLACEMENT.md
+2026-11-11T09:35:06,move,DIff Acc/exports/R011_motorcycle-growth_2026-11-10_green.mp4,04. Exports/Consulting Case/R011_motorcycle-growth_2026-11-10_green.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R011_motorcycle-growth_2026-11-10_raw.mp4,04. Exports/Consulting Case/R011_motorcycle-growth_2026-11-10_raw.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R011_motorcycle-growth_2026-11-10.mp4,04. Exports/Consulting Case/R011_motorcycle-growth_2026-11-10.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/R012_claude-edit-before-after_2026-11-11.mp4,04. Exports/Before-After/R012_claude-edit-before-after_2026-11-11.mp4
+2026-11-11T09:35:06,move,DIff Acc/exports/Vid1_v1.mp4,04. Exports/_Archived styles/Vid1_v1 (Rishi v1.3 pilot).mp4
+2026-11-11T09:35:06,move,DIff Acc/Minimal Edit Style/Experimental Podcast,09. Archive/Unused Styles/Experimental Podcast
+2026-11-11T09:35:06,move,Minimal Edits,09. Archive/Duplicates (safe to delete)/Minimal Edits (old copy)
+2026-11-11T09:35:06,move,DIff Acc/Consulting case reel edit,01. Styles/Consulting Case
+2026-11-11T09:35:06,move,DIff Acc/before-after style,01. Styles/Before-After
+2026-11-11T09:35:06,move,DIff Acc/IG Grad Next Motion Explainer,01. Styles/IG Motion Explainer
+2026-11-11T09:35:06,move,Azma's style/Video Projects/Updated Rishi's editing style,01. Styles/Rishi Style v2
+2026-11-11T09:35:06,move,DIff Acc/Mock case interview edit,01. Styles/Mock Case Interview
+2026-11-11T09:35:06,move,DIff Acc/Minimal Edit Style,01. Styles/Minimal Edit
+2026-11-11T09:35:06,move,DIff Acc/assets,05. Asset Library
+2026-11-11T09:35:06,move,DIff Acc/tools,06. Tools
+2026-11-11T09:35:06,move,Resources for IG,07. Resources & Learning/Resources for IG
+2026-11-11T09:35:06,move,NoteGPT_Transcript_How to Edit Premium Instagram Reels Using ONLY Claude! (Full Breakdown).txt,07. Resources & Learning/Tutorial Transcripts/NoteGPT_Transcript_How to Edit Premium Instagram Reels Using ONLY Claude! (Full Breakdown).txt
+2026-11-11T09:35:06,move,NoteGPT_Transcript_I Trained Claude to Edit Like Iman Gadzhi! (Complete Guide).txt,07. Resources & Learning/Tutorial Transcripts/NoteGPT_Transcript_I Trained Claude to Edit Like Iman Gadzhi! (Complete Guide).txt
+2026-11-11T09:35:06,move,Teach-Claude-Your-Taste.pdf,07. Resources & Learning/Teach-Claude-Your-Taste.pdf
+2026-11-11T09:35:06,move,DIff Acc/TASK- Build My Creative Operatin.txt,07. Resources & Learning/Prompts/TASK- Build My Creative Operatin.txt
+2026-11-11T09:35:06,move,DIff Acc/inbox,08. Inbox
+2026-11-11T09:35:06,move,DIff Acc/Daniel Presley Editing Style,09. Archive/Unused Styles/Daniel Presley Editing Style
+2026-11-11T09:35:06,move,DIff Acc/Rishi's Editing Style,09. Archive/Unused Styles/Rishi's Editing Style v1.3
+2026-11-11T09:35:06,move,DIff Acc/Rishi's Editing Style copy,09. Archive/Unused Styles/Rishi's Editing Style v1.3 copy
+2026-11-11T09:35:06,move,DIff Acc/Creative OS,09. Archive/Creative OS (Nov 3 snapshot)
+2026-11-11T09:35:06,move,Claude Edits,09. Archive/Unused Styles/Claude Edits (Prompt to Reel)
+2026-11-11T09:35:06,move,Azma's style,09. Archive/Unused Styles/Azma Paper Stage
+2026-11-11T09:35:06,move,Stills,09. Archive/Unused Styles/Azma Paper Stage/Stills
+2026-11-11T09:35:06,move,DIff Acc/skills,09. Archive/Reference Repos (animation-skills)
+2026-11-11T09:35:06,move,DIff Acc/backups,09. Archive/Backups
+2026-11-11T09:35:06,move,DIff Acc/.claude-home,09. Archive/Old Config/.claude-home
+2026-11-11T09:35:06,move,DIff Acc/start-claude.sh,09. Archive/Old Config/start-claude.sh
+2026-11-11T09:35:06,move,DIff Acc/.mcp.json,09. Archive/Old Config/.mcp.json
+2026-11-11T09:35:06,move,DIff Acc/.claude/skills,09. Archive/Old Config/generic reel-skills
+2026-11-11T09:35:06,move,DIff Acc/CLAUDE.md,09. Archive/Old Config/DIff Acc CLAUDE.md
+2026-11-11T09:35:06,move,DIff Acc/.claude,.claude
+2026-11-11T09:35:06,move,DIff Acc/exports/.claude,09. Archive/Old Config/exports .claude
+2026-11-11T09:35:06,move,DIff Acc/projects/.claude,09. Archive/Old Config/projects .claude

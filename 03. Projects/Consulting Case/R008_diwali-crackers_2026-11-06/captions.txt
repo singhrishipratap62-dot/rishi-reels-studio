@@ -1,0 +1,138 @@
+How many crackers does
+India burst on Diwali?
+This is a real
+BCG interview question.
+Your client
+is a
+firecracker manufacturer
+planning next
+year's production.
+The CEO asks:
+how many crackers will
+India burst this Diwali?
+This is how you
+would solve it,
+consultant style.
+Before jumping to
+a number,
+I would ask clarifying
+questions such as:
+what counts as one
+cracker to begin with?
+She said,
+anything you light once.
+So for example,
+a phuljhadi stick
+counts as 1,
+and so does
+a ladi.
+Are we sizing all
+of India or just
+one region?
+She said all
+of India,
+and only for Diwali.
+Then I asked,
+is anything holding
+demand back?
+She said yes.
+In some states and
+cities now they have
+banned crackers,
+so we cannot
+include that.
+And a lot
+of families live
+in apartments where
+they can't burst them.
+So, how do
+we estimate it?
+There are two ways
+to go about it.
+First is from
+the demand side,
+counting the families
+who buy,
+or from the
+supply side,
+counting what
+factories make.
+I'll build it from
+the demand side and
+use supply to check
+the answer.
+The equation
+is households
+times share
+that buy
+crackers times
+crackers per household.
+The first thing
+I'll look at
+here is households.
+India has about
+140 crore people.
+About 40 crore live
+in cities at 4
+per home,
+which gives us 10
+crore urban households.
+The other 100 crore
+are rural at 5
+per home,
+so that's about 20
+crore rural households.
+Second, we will then
+look at cities.
+Split the 10 crore
+homes by income into
+1 crore rich,
+4 crore middle
+and 5 crore
+low income class.
+Because of bans
+and apartments,
+I'd assume only about
+half the rich and
+middle homes buy about
+40% of the low
+income ones,
+at 100,
+40 and 15
+crackers each,
+that's about 160 crore
+crackers from cities.
+Third, villages.
+The 20 crore
+homes split into
+1 crore rich,
+5 crore middle and
+14 crore low.
+More of them buy:
+80%, 60% and half,
+at 50,
+30 and 10
+crackers each.
+That's about 200
+crore from villages.
+So, India bursts
+about 360 crore
+crackers on Diwali,
+and more of them
+go off in villages
+than cities.
+Now, the check from
+the supply side.
+At around 16
+rupees a cracker,
+360 crore crackers is
+about 6,000 crore,
+which is roughly what
+the cracker market does
+in a year.
+So the number
+holds up.
+This is part
+43 of solving
+real consulting cases.
+Follow for part 44.

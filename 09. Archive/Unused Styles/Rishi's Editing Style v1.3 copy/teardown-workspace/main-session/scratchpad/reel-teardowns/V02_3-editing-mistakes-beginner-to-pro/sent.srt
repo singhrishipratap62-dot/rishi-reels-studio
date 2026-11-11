@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:03,300
+ These three mistakes make your edits look like an amateur.
+
+2
+00:00:03,300 --> 00:00:06,700
+ Here's what you should do to take your animation from beginner to profession.
+
+3
+00:00:06,700 --> 00:00:08,700
+ Number one, stop over-sizing everything.
+
+4
+00:00:08,700 --> 00:00:13,500
+ The biggest thing that screams beginner editor is huge icons and huge shape layers.
+
+5
+00:00:13,500 --> 00:00:16,300
+ As a rule of thumb, the next time you're creating an animation,
+
+6
+00:00:16,300 --> 00:00:20,500
+ make every element 25% smaller and just watch how much better it looks.
+
+7
+00:00:20,500 --> 00:00:22,600
+ Number two, stop over-using effects.
+
+8
+00:00:22,600 --> 00:00:23,900
+ Less is more.
+
+9
+00:00:23,900 --> 00:00:26,800
+ The less you use in effect, the more special it is.
+
+10
+00:00:26,800 --> 00:00:30,600
+ Reserve your visual effects for elements that you really need to grab attention.
+
+11
+00:00:30,600 --> 00:00:33,000
+ And number three, use more dull colors.
+
+12
+00:00:33,000 --> 00:00:37,000
+ Beginner editors always use harsh blacks, harsh whites and bright reds.
+
+13
+00:00:37,000 --> 00:00:41,000
+ The jergiest brands always use dull colors, dull blues and dull greens.
+
+14
+00:00:41,000 --> 00:00:43,600
+ Duller colors always look more high-end.
+
+15
+00:00:43,600 --> 00:00:47,000
+ So now that you know that, change these three things about your edits
+
+16
+00:00:47,000 --> 00:00:49,800
+ and watch your animations go from beginner to professional.
+

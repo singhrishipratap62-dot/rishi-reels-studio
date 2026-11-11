@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>roughcut_v3 Draft 4 Storyboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF0F5;--line:#E2E5EC;--ink:#14161C;--mute:#6A7080;--acc:#3E7BFA;--ice:#EAF0F8;--keep:#1F9D6B;--maybe:#D99A1E;--no:#D2464C}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.top{position:sticky;top:0;z-index:5;background:rgba(238,240,245,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .in{max-width:1400px;margin:auto;padding:12px 24px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.top h1{font-size:19px;margin:0}.top span{font-size:13px;color:var(--mute)}.top button{font:600 13px Inter;border:0;border-radius:10px;padding:9px 14px;background:var(--ink);color:#fff;cursor:pointer}
+.wrap{max-width:1400px;margin:auto;padding:16px 24px 80px}
+.sec{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;margin-top:18px}
+.sec h2{margin:0 0 4px;font-size:20px}.t{color:var(--mute);font-size:13px;margin-bottom:10px}
+.note{font-size:13.5px;line-height:1.55;margin:6px 0 12px}
+.opt{border:2px solid var(--line);border-radius:14px;padding:12px;margin-top:12px}
+.opt[data-v=keep]{border-color:var(--keep)}.opt[data-v=maybe]{border-color:var(--maybe)}.opt[data-v=no]{opacity:.5}
+.oh{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.oh b{font-size:15px}
+.btns{display:flex;gap:6px}.btns button{font:600 12px Inter;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.opt[data-v=keep] .k{background:var(--keep);color:#fff}.opt[data-v=maybe] .m{background:var(--maybe);color:#fff}.opt[data-v=no] .n{background:var(--no);color:#fff}
+.strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:10px}
+.strip.two{grid-template-columns:repeat(2,minmax(0,220px))}.strip.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:800px){.strip{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.fr{font-size:11px;color:var(--mute);text-align:center}
+.ph{position:relative;width:100%;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:#000;container-type:inline-size;margin-bottom:4px}
+.ph>*{position:absolute}.ph img.s{inset:0;width:100%;height:100%;object-fit:cover}
+.pf{font-family:'Playfair Display',serif;font-style:italic;font-weight:700}
+.logo{width:16cqw;height:16cqw}.vid{width:26cqw;aspect-ratio:9/16;border:.6cqw solid #fff;border-radius:2cqw;overflow:hidden;box-shadow:0 2cqw 4cqw rgba(0,0,0,.35)}
+.vid img{width:100%;height:100%;object-fit:cover}
+.head{inset:0;width:100%;height:100%;object-fit:cover;-webkit-mask-image:radial-gradient(26% 20% at 50% 30%,#000 96%,transparent 100%),linear-gradient(transparent 38%,#000 38%);mask-image:radial-gradient(26% 20% at 50% 30%,#000 96%,transparent 100%),linear-gradient(transparent 38%,#000 38%)}
+.arrow{font-size:7cqw;color:#fff;text-shadow:0 0 2cqw rgba(0,0,0,.6)}
+.card{background:linear-gradient(160deg,#fff,#E6E8EC);border-radius:2cqw;box-shadow:0 2cqw 4cqw rgba(0,0,0,.15)}
+textarea{width:100%;margin-top:10px;border:1px solid var(--line);border-radius:10px;padding:10px;font:13px Inter;min-height:42px}
+ul{margin:4px 0 0;padding-left:18px;font-size:13px;line-height:1.55}
+.sum{white-space:pre-wrap;font:12px/1.5 ui-monospace,monospace;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;display:none;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="top"><div class="in"><h1>roughcut_v3 · draft 4 storyboard</h1><span>Storyboard only: nothing is built until you approve. Mark Keep / Maybe / No, then press Copy my picks.</span><span style="flex:1"></span><button id="copy">Copy my picks</button></div></div>
+<div class="wrap" id="root"></div>
+<div class="wrap"><div class="sum" id="sum"></div></div>
+<script>
+const R=t=>`<img class="s" src="../roughcut_v3/stills/t${t}.jpg">`;
+const D3=t=>`<img class="s" src="stills/d3_${t}.jpg">`;
+const HEAD=t=>`<img class="head" src="../roughcut_v3/stills/t${t}.jpg">`;  // drawn stand-in for the real person matte
+const LOGO='<img class="logo" src="../../assets/logos/claude/claude-symbol-color.png">';
+const VID=(t='0.3',st='')=>`<div class="vid" style="${st}"><img src="../roughcut_v3/stills/t${t}.jpg"></div>`;
+const pos=(x,y,inner,extra='')=>`<div style="left:${x}%;top:${y}%;transform:translate(-50%,-50%) ${extra}">${inner}</div>`;
+// opening frame builder: logo / video positions per frame (percent of frame), opacity, rotation, behind-head flag
+function openFrame(o){
+ const lg=`<div style="left:${o.lx}%;top:${o.ly}%;opacity:${o.lo??1};transform:translate(-50%,-50%) rotate(${o.lr||0}deg) scale(${o.ls||1})">${LOGO}</div>`;
+ const vd=`<div style="left:${o.vx}%;top:${o.vy}%;opacity:${o.lo??1};transform:translate(-50%,-50%) rotate(${o.vr||0}deg) scale(${o.vs||1})">${VID(o.vt||'0.3',o.vst||'')}</div>`;
+ return R('0.3')+(o.extra||'')+lg+vd+(o.behind?HEAD('0.3'):'')+(o.cap||'')}
+const T=['0.00 s','0.15 s','0.30 s','0.50 s','0.72 s → shrink'];
+const OPEN=[
+ {k:'O1',n:'Diagonal slide-out (twin)',d:'Logo and a small card of your video start hidden behind your head, then slide out diagonally on soft curves: the logo up-left, your video up-right. They settle in the top corners with a slow drift. At 0.72 s the logo flies into the chat header and the video card becomes the result card.',
+  f:[{lx:50,ly:34,vx:50,vy:34,behind:1,lo:0},{lx:42,ly:28,vx:58,vy:28,behind:1},{lx:30,ly:20,vx:70,vy:19,behind:1},{lx:22,ly:14,vx:76,vy:15},{lx:22,ly:14,vx:76,vy:15,extra:'<div style="inset:0;outline:1cqw solid rgba(62,123,250,.6);outline-offset:-1cqw"></div>'}]},
+ {k:'O2',n:'Peek, then rise (with tilt)',d:'Both first peek out from behind the sides of your head at ear height, tilted ~8°, then rise diagonally to the top corners and straighten as they land, like objects pulled out from behind you.',
+  f:[{lx:38,ly:33,vx:62,vy:33,behind:1,lr:-8,vr:8,lo:.4},{lx:33,ly:30,vx:67,vy:30,behind:1,lr:-8,vr:8},{lx:27,ly:22,vx:72,vy:22,lr:-5,vr:5},{lx:22,ly:14,vx:76,vy:15,lr:-1,vr:1},{lx:22,ly:14,vx:76,vy:15}]},
+ {k:'O3',n:'Arc swing (orbit-out)',d:'Both swing out from behind your head along curved arcs, like the start of an orbit: the logo arcs over to the left, the video to the right. They slow down as they reach the top corners, with a gentle scale-up from 70 % to 100 %.',
+  f:[{lx:50,ly:30,vx:50,vy:30,behind:1,ls:.7,vs:.7,lo:0},{lx:40,ly:22,vx:60,vy:24,behind:1,ls:.75,vs:.75},{lx:28,ly:17,vx:72,vy:18,ls:.88,vs:.88},{lx:22,ly:14,vx:76,vy:15},{lx:22,ly:14,vx:76,vy:15}]},
+ {k:'O4',n:'Slide-out + connector line',d:'Same diagonal slide-out as O1. Once both land, a thin dotted line draws from the Claude logo to your video, reading "Claude → my video" before the shrink starts.',
+  f:[{lx:50,ly:34,vx:50,vy:34,behind:1,lo:0},{lx:40,ly:27,vx:60,vy:27,behind:1},{lx:24,ly:16,vx:74,vy:17},{lx:22,ly:14,vx:76,vy:15,extra:'<svg style="left:28%;top:12%;width:40%" viewBox="0 0 100 10"><path d="M2 5 H98" stroke="#fff" stroke-width="1.6" stroke-dasharray="3 3"/></svg>'},{lx:22,ly:14,vx:76,vy:15,extra:'<svg style="left:28%;top:12%;width:40%" viewBox="0 0 100 10"><path d="M2 5 H98" stroke="#fff" stroke-width="1.6" stroke-dasharray="3 3"/></svg>'}]},
+ {k:'O5',n:'Fan of clips top-right',d:'The logo slides out diagonally to the top-left as in O1. On the right, three small clips of you fan out from behind your head into a slightly rotated stack in the top-right corner, suggesting "raw footage".',
+  f:[{lx:50,ly:34,vx:50,vy:34,behind:1,lo:0},{lx:40,ly:27,vx:60,vy:27,behind:1,vr:4},{lx:28,ly:18,vx:70,vy:19,vr:6,extra:''},{lx:22,ly:14,vx:76,vy:15,vr:6,extra:'<div style="left:70%;top:15%;transform:translate(-50%,-50%) rotate(-6deg)">'+VID('5.0')+'</div><div style="left:73%;top:15%;transform:translate(-50%,-50%) rotate(0deg)">'+VID('12.0')+'</div>'},{lx:22,ly:14,vx:76,vy:15,vr:6,extra:'<div style="left:70%;top:15%;transform:translate(-50%,-50%) rotate(-6deg)">'+VID('5.0')+'</div><div style="left:73%;top:15%;transform:translate(-50%,-50%) rotate(0deg)">'+VID('12.0')+'</div>'}]},
+];
+const capTop=(txt,hero)=>`<div style="left:0;right:0;top:4.5%;text-align:center;color:#0B1730"><div style="font-size:3.4cqw;color:#4A5878">${txt}</div><div class="pf" style="font-size:8cqw;line-height:1">${hero}</div></div>`;
+const S=[];
+S.push({id:'open',h:'A · Opening, 0.00–0.72 s: Claude logo top-left + your video top-right, from behind your head',t:'5 interpretations, each frame by frame (0.00 / 0.15 / 0.30 / 0.50 / 0.72 s). The final build uses the real body matte, so they truly pass behind your head (the outline here is a drawing).',
+ opts:OPEN.map(o=>({k:o.k,n:o.n,d:o.d,frames:o.f.map((f,i)=>({lab:T[i],html:openFrame(f)}))}))});
+S.push({id:'hook',h:'B · Hook shrink, 0.72–2.87 s',t:'Applies with any opening option.',note:'<ul><li>While you shrink into the dialog box, the Claude logo (now in the header) rotates very slowly, about ±6° over 3 s, just enough to feel alive.</li><li>Captions move up, about 120 px higher, so they no longer touch the chat card.</li></ul>',
+ opts:[{k:'B',n:'Logo slow-spin + higher captions',frames:[{lab:'draft 3 · 1.5 s',html:D3('1.5')},{lab:'draft 4 · 1.5 s',html:`<div style="inset:0;background:var(--ice)"></div><div class="card" style="left:7%;right:7%;top:26%;height:58%"></div>${pos(15,29.5,'<img src="../../assets/logos/claude/claude-symbol-color.png" style="width:5.4cqw">','rotate(14deg)')}<div style="left:20%;top:28%;font-weight:600;font-size:3.6cqw">Claude</div><div style="left:11%;top:58%;width:24%;aspect-ratio:9/16;border-radius:1.4cqw;overflow:hidden"><img src="../roughcut_v3/stills/t0.3.jpg" style="width:100%;height:100%;object-fit:cover"></div>`+capTop('daal ke ye','prompt')}]}]});
+const paneBase=(capWhere)=>{const cap=`<div style="left:0;right:0;top:${capWhere=='above'?'5%':'34%'};text-align:center;color:#0B1730"><div style="font-size:3.2cqw;color:#4A5878">aap duniya bhar ki</div><div class="pf" style="font-size:8cqw;line-height:1">skills</div></div>`;
+ const y0=capWhere=='above'?14:6;
+ return `<div style="left:0;right:0;bottom:0;height:51%;overflow:hidden"><img src="../roughcut_v3/stills/t5.0.jpg" style="position:absolute;width:100%;top:-6%"></div><div style="left:0;right:0;top:0;height:49%;background:var(--ice)"></div>`+
+ [0,1,2,3,4,5].map(i=>`<div style="left:${5+(i%3)*31}%;top:${y0+Math.floor(i/3)*5.6}%;width:28%;background:#fff;border:1px solid #D9DDE3;border-radius:1.2cqw;padding:.9cqw 1.4cqw;font-size:2.2cqw;display:flex;gap:1cqw;align-items:center"><img src="../../assets/logos/github/github-mark-mono-black.png" style="width:2.4cqw">${['video-editor','caption-pro','hooks','motion-kit','color-grade','b-roll'][i]}.md</div>`).join('')+
+ [0,1,2].map(i=>`<div style="left:20%;right:20%;top:${y0+12+i*4.4}%;background:#121C38;color:#fff;border-radius:1.2cqw;padding:.7cqw 2cqw;font-size:2.3cqw">${['awesome-edits','reel-templates','ai-video-tools'][i]}</div>`).join('')+cap};
+S.push({id:'split',h:'C · Split screen, 5.33–11.51 s: everything moved up',t:'In draft 3 the content sat on the bottom edge of the white pane. Both options lift it clear of the edge; pick where the captions go.',
+ opts:[{k:'C1',n:'Captions ABOVE the graphics',d:'Caption at the top of the white pane, skill + repo cards directly under it, with a clear gap above the pane edge.',frames:[{lab:'draft 3 · 6.5 s',html:D3('6.5')},{lab:'C1 · 7.6 s',html:paneBase('above')}]},
+       {k:'C2',n:'Captions BELOW the graphics (still in the white area)',d:'Cards start near the top of the pane; the caption sits under them, still inside the white area, above your head.',frames:[{lab:'draft 3 · 6.5 s',html:D3('6.5')},{lab:'C2 · 7.6 s',html:paneBase('below')}]}]});
+const wall=(word)=>`<div style="inset:0;background:#0D0E12"></div>`+Array.from({length:12},(_,i)=>{const x=5.5+(i%3)*30.5,y=3+Math.floor(i/3)*29.5;
+ if(i==4)return `<div style="left:${x}%;top:${y}%;width:28%;aspect-ratio:9/16;border-radius:.8cqw;overflow:hidden;box-shadow:0 0 4cqw rgba(255,255,255,.3)"><img src="../roughcut_v3/stills/t15.4.jpg" style="width:100%;height:100%;object-fit:cover"></div>`;
+ if(i==7)return `<div style="left:${x}%;top:${y}%;width:28%;aspect-ratio:9/16;border-radius:.8cqw;background:linear-gradient(160deg,#fff,#CFD3D9);display:grid;place-items:center"><span style="font-weight:800;font-size:${word.length>6?5:7}cqw;color:#000">${word}</span></div>`;
+ return `<div style="left:${x}%;top:${y}%;width:28%;aspect-ratio:9/16;border-radius:.8cqw;background:linear-gradient(${30+i*20}deg,#fff,#CFD3D9);filter:blur(.2cqw);display:grid;place-items:center;font-weight:800;font-size:6cqw;color:#6B7078">slop</div>`}).join('');
+S.push({id:'wall',h:'D · Slop wall, 14.56–17.45 s',t:'Subtler corners + one-word captions inside the tile below you, in pure black.',note:'<ul><li>Corner radius cut from 22 px to about 8 px, on every tile and on your tile.</li><li>Captions show <b>one word at a time</b> (“all” → “the” → “claude” → “slop” → …), each on its spoken time, centred inside the tile directly <b>below</b> you, Inter Bold, <b>pure black</b>, auto-sized so it never leaves the tile. That tile shows the caption instead of "slop" while captions run.</li></ul>',
+ opts:[{k:'D',n:'Subtle corners + one-word black captions in the tile below',frames:[{lab:'draft 3 · 16.5 s',html:D3('16.5')},{lab:'16.0 s · "all"',html:wall('all')},{lab:'16.1 s · "the"',html:wall('the')},{lab:'16.2 s · "claude"',html:wall('claude')},{lab:'16.4 s · "slop"',html:wall('slop')}]}]});
+const pipCard=(rows,head=true,ex='')=>`<div style="inset:0;background:linear-gradient(#F4F5F7,#E4E6EA)"></div><div class="card" style="left:10%;right:10%;top:12%;height:33%;padding:2.6cqw;font-size:2.5cqw;line-height:2;overflow:hidden">${head?'<img src="../../assets/logos/claude/claude-symbol-color.png" style="width:3.6cqw;vertical-align:middle"> <b>Claude</b><span style="float:right;color:#2FB58A;font-weight:600">● awake</span><br>':''}${rows}</div>${ex}<div style="left:32%;width:36%;top:53%;aspect-ratio:9/13.5;border-radius:3cqw;overflow:hidden;border:.6cqw solid #fff;box-shadow:0 0 5cqw rgba(140,157,255,.8)"><img src="../roughcut_v3/stills/t21.9.jpg" style="width:100%;height:118%;object-fit:cover;object-position:50% 70%;border-radius:2.4cqw"></div>`;
+const A_ROWS='<div>📁 paper-stage-edit/</div><div>SKILL.md</div><div style="background:#E3F6EE">RULEBOOK.md · what to do ✓</div><div style="background:#E3F6EE">LOOKBOOK.md · how to do it ✓</div>';
+S.push({id:'pip',h:'E · Picture-in-picture, 18.5–26.75 s',t:'Rounded corners back on your video · one card, contents swap inside it.',note:'<ul><li><b>20 s:</b> your video gets its rounded corners back, matching the glowing frame behind it.</li><li><b>22 s:</b> the card itself <b>stays</b>; the "Claude · ● awake" header stays too. Only the contents (folder, paper-stage-edit/, files, progress) slide left with a little blur and fade out. Then Analyse · Plan · Build · Captions · Export appear word by word, the same way the design-skill.md lines did at ~10 s. Ticks land as before, the last on "autonomously".</li><li><b>Return to full screen</b> starts only <b>after</b> you&rsquo;ve said "intervention" and its caption has shown (≈26.75 s), easing over ~0.8 s.</li></ul>',
+ opts:[{k:'E',n:'Same card, contents swap · rounded PiP · later return',frames:[
+  {lab:'draft 3 · 20.6 s',html:D3('20.6')},
+  {lab:'21.9 s · rounded PiP',html:pipCard(A_ROWS)},
+  {lab:'22.4 s · contents slide left',html:pipCard(`<div style="opacity:.45;filter:blur(.4cqw);transform:translateX(-18%)">${A_ROWS}</div>`)},
+  {lab:'23.1 s · words arrive',html:pipCard('<div>Analyse</div><div>Plan</div><div style="opacity:.4">Build</div>')},
+  {lab:'25.3 s · all ticked',html:pipCard(['Analyse','Plan','Build','Captions','Export'].map(s=>`<div style="display:flex;justify-content:space-between"><span>${s}</span><span style="color:#3E7BFA">✓</span></div>`).join(''))}]}]});
+const cta=(word,sheet=1,blur=1)=>`<img class="s" src="../roughcut_v3/stills/t30.0.jpg" style="filter:blur(${blur?'.9cqw':'0'}) brightness(${blur?.65:1});transform:translateY(${sheet?'-20%':'0'})">`+
+ (word?`<div class="pf" style="left:0;right:0;top:44%;text-align:center;color:#fff;font-size:8cqw">${word}</div>`:'')+
+ (sheet?`<div style="left:0;right:0;top:51%;bottom:0;background:#1C1C1E;border-radius:4cqw 4cqw 0 0"></div><div style="left:0;right:0;top:53.5%;text-align:center;color:#fff;font-weight:700;font-size:3.4cqw">Comments</div><div style="left:5%;top:58%;width:8cqw;height:8cqw;border-radius:50%;overflow:hidden"><img src="../roughcut_v3_edit_v2/avatar_sticker.png" style="width:100%"></div><div style="left:15%;right:15%;top:58%;height:8cqw;border:1px solid #3A3A3C;border-radius:4cqw;color:#fff;font-weight:600;font-size:3.4cqw;padding:1.8cqw 3cqw">EDIT</div><div style="right:4%;top:58%;width:8cqw;height:8cqw;border-radius:50%;background:#2FD08A;color:#fff;display:grid;place-items:center;font-weight:800">✓</div><div style="left:0;right:0;top:66%;bottom:0;background:#2C2C2E"></div>`+'QWERTYUIOP'.split('').map((k,i)=>`<div style="left:${1.5+i*9.8}%;top:71%;width:8.6%;height:5.5%;background:#6C6C70;border-radius:1cqw;color:#fff;font-size:3.4cqw;display:grid;place-items:center">${k}</div>`).join(''):'');
+S.push({id:'cta',h:'F · CTA, 29.10 s → end',t:'You blurred · one-word captions · keyboard stays to the very end.',note:'<ul><li>Once the keyboard is up, you are blurred a little more and dimmed.</li><li>Captions become <b>one word at a time</b> in Playfair (“comment” → “edit” → “and” → …), just above "Comments".</li><li>The sheet + keyboard <b>stay until the last moment</b>: it starts sliding down at ~33.0 s and the video ends as it leaves (no full second of face afterwards).</li></ul>',
+ opts:[{k:'F',n:'Single-word captions · keyboard held to the end',frames:[{lab:'draft 3 · 32.9 s',html:D3('32.9')},{lab:'29.6 s · "comment"',html:cta('comment')},{lab:'30.4 s · "send"',html:cta('send')},{lab:'32.6 s · "results"',html:cta('results.')},{lab:'33.35 s · sliding out = end',html:cta('',1,1).replace('top:51%','top:86%').replace('top:53.5%','top:88%').replace(/top:58%/g,'top:93%').replace('top:66%','top:98%')}]}]});
+
+let st={};try{st=JSON.parse(localStorage.getItem('rc3v4')||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem('rc3v4',JSON.stringify(st))}catch(e){}};
+const root=document.getElementById('root');
+S.forEach(s=>{const el=document.createElement('div');el.className='sec';
+ el.innerHTML=`<h2>${s.h}</h2><div class="t">${s.t}</div>${s.note?`<div class="note">${s.note}</div>`:''}`;
+ s.opts.forEach(o=>{const key=s.id+'-'+o.k;const d=document.createElement('div');d.className='opt';if(st[key])d.dataset.v=st[key];
+  const n=o.frames.length;
+  d.innerHTML=`<div class="oh"><b>${o.k} · ${o.n}</b><div class="btns"><button class="k">Keep</button><button class="m">Maybe</button><button class="n">No</button></div></div>${o.d?`<div class="note">${o.d}</div>`:''}<div class="strip ${n==2?'two':n==4?'four':''}">${o.frames.map(f=>`<div><div class="ph">${f.html}</div><div class="fr">${f.lab}</div></div>`).join('')}</div>`;
+  ['k','m','n'].forEach((c,i)=>d.querySelector('.'+c).onclick=()=>{const v=['keep','maybe','no'][i];if(st[key]===v){delete st[key];delete d.dataset.v}else{st[key]=v;d.dataset.v=v}save()});
+  el.append(d)});
+ const ta=document.createElement('textarea');ta.placeholder='Notes (optional)';ta.value=st['note-'+s.id]||'';ta.oninput=()=>{st['note-'+s.id]=ta.value;save()};el.append(ta);
+ root.append(el)});
+document.getElementById('copy').onclick=async()=>{let out='roughcut_v3 draft 4 storyboard: my picks\n';S.forEach(s=>{out+=`\n${s.h}\n`;s.opts.forEach(o=>{const v=st[s.id+'-'+o.k];if(v)out+=`  ${o.k} ${v.toUpperCase()}: ${o.n}\n`});if(st['note-'+s.id])out+=`  note: ${st['note-'+s.id]}\n`});
+ const el=document.getElementById('sum');el.textContent=out;el.style.display='block';try{await navigator.clipboard.writeText(out);document.getElementById('copy').textContent='Copied ✓'}catch(e){document.getElementById('copy').textContent='Shown below ↓'}};
+</script>
+</body></html>

@@ -1,0 +1,43 @@
+<!-- @dsCard group="Data" height=1920 width=1080 subtitle="A real table with one focus row inverted; everything else drops to ghost" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Data table</title>
+<style>@font-face{font-family:"Bricolage Grotesque";src:url(../../fonts/BricolageGrotesque-Variable.ttf) format("truetype");font-weight:200 800;font-style:normal}html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.cap{position:absolute;left:50%;top:1380px;transform:translate(-50%,-50%);background:var(--brand-ink);color:var(--brand-paper);font-weight:600;font-size:34px;line-height:1.2;padding:10px 22px;border-radius:var(--radius-sm);white-space:nowrap}
+.crop i{position:absolute;width:28px;height:28px;border:0 solid var(--ink-muted)}
+.crop i:nth-child(1){left:64px;top:250px;border-left-width:3px;border-top-width:3px}
+.crop i:nth-child(2){right:160px;top:250px;border-right-width:3px;border-top-width:3px}
+.crop i:nth-child(3){left:64px;bottom:420px;border-left-width:3px;border-bottom-width:3px}
+.crop i:nth-child(4){right:160px;bottom:420px;border-right-width:3px;border-bottom-width:3px}
+.kick{display:flex;align-items:center;justify-content:center;gap:20px;font-size:32px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted)}
+.kick:before,.kick:after{content:"";width:56px;height:2px;background:var(--line-strong)}
+.serif{font-family:var(--font-serif);font-weight:400}
+.it{font-family:inherit;font-style:normal;font-weight:inherit}
+.ttl{position:absolute;left:64px;top:300px}.ttl .kick{justify-content:flex-start}.ttl .kick:before{display:none}
+.ttl h2{font-family:var(--font-display, "Bricolage Grotesque", "General Sans", sans-serif);margin:16px 0 0;font-size:80px;line-height:1.05;font-weight:700;letter-spacing:-.025em}
+table{position:absolute;left:64px;width:856px;top:560px;border-collapse:collapse;font-size:38px;font-variant-numeric:tabular-nums}
+th{font-size:32px;font-weight:600;letter-spacing:.12em;text-align:left;color:var(--ink-muted);padding:0 14px 18px;border-bottom:4px solid var(--ink)}
+td{padding:22px 14px;border-bottom:2px solid var(--line);transition:color .2s var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1)),background .15s var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1))}
+td.n,th.n{text-align:right}
+.dim td{color:var(--ink-ghost)}
+.dim tr.on td{color:var(--brand-paper);background:var(--brand-ink)}
+.src{position:absolute;left:64px;top:1240px;font-size:32px;color:var(--ink-muted)}
+</style></head>
+<body><div class="f">
+<div class="ttl"><div class="kick">Price per million tokens</div><h2>Who's cheapest?</h2></div>
+<table id="t"><thead><tr><th>MODEL</th><th class="n">INPUT</th><th class="n">OUTPUT</th></tr></thead><tbody>
+<tr><td>Model A</td><td class="n">₹420</td><td class="n">₹2,520</td></tr>
+<tr><td>Model B</td><td class="n">₹840</td><td class="n">₹4,200</td></tr>
+<tr class="f1"><td>Model C</td><td class="n">₹85</td><td class="n">₹505</td></tr>
+<tr><td>Model D</td><td class="n">₹250</td><td class="n">₹1,260</td></tr>
+<tr class="f2"><td>Model E</td><td class="n">₹1,260</td><td class="n">₹6,300</td></tr>
+</tbody></table>
+<div class="src">Sample data for layout only.</div>
+<div class="cap" id="c">the cheapest</div></div>
+<script>
+var t=document.getElementById('t'),a=t.querySelector('.f1'),b=t.querySelector('.f2'),c=document.getElementById('c');
+function run(){t.classList.remove('dim');a.classList.remove('on');b.classList.remove('on');c.textContent='the cheapest';
+setTimeout(function(){t.classList.add('dim');a.classList.add('on')},900);
+setTimeout(function(){a.classList.remove('on');b.classList.add('on');c.textContent='the priciest'},2800)}
+run();setInterval(run,5000);
+</script></body></html>

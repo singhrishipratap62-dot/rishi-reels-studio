@@ -1,0 +1,21 @@
+
+## vid-7 (Meta Muse AI agent; green tee, chair)
+- v7 | 0.9–3 | fs-object | white bg, yellow floor, greyscale cut-out Zuckerberg dancing next to plush "Muse" pod on a chair; "is back in the market with a New AI Tool" (blue bold)
+- v7 | 3.2–5.7 | camera | greyscale A-roll beat + orange handwritten words "Good Hook" overlay (scribble annotation)
+- v7 | 6.8–12 | fs-object | white bg, Muse pod, dock bar of app icons (Gmail, Calendar, ...) + blue pixel cursor clicks them
+- v7 | 17.2–19.5 | fs-object | greyscale cut-out Zuck head w/ pixel "deal with it" shades on stick legs; gold tag "Mark did something Very Interesting"
+- v7 | 23.5–25.5 | fs-object | Muse plush mascot on white with grey shadow ("MUSE Meta's new")
+- v7 | 28–30.4 | broll-text | B&W comedy meme + "CHAT GPT BE LIKE:"
+- v7 | 32–36 | fs-object | retro blue pixel PC w/ envelope; "Muse Features" big title; carousel arrows; cards FILL FORMS, BOOK TRIPS; cursor
+- v7 | 40.5 | broll-text | B&W tic-tac-toe notebook
+- v7 | 43.6–45 | fs-object | avatar (glasses, tie) on hill; blue folder icons; "It's a lot"
+- v7 | 49.8–59 | fs-data | Business Insider article blur->sharp, blue highlight sweeping lines, slow scroll
+- v7 | 59–61 | broll-text | B&W crying meme + caption block top-left "KASAY BATAO SARA PAISA KA CHAKAR HAI." (bold white caps)
+- v7 | 64.3–70.5 | fs-object | blue phone mock-ups on teal floor: wallet/card UI "Balance $700,000.00", cash stack; text "AI with access to Accounts & Money", "sounds kind of Scary"; chat mock-up "AI helps dad bake with his daughter" w/ ingredient chips
+- v7 | 74–77 | fs-data | blurred article, highlight
+- v7 | 79.8–82 | broll-text | phone lock-screen pattern close-up (greyscale)
+- v7 | 85.5–87.6 | broll-text | B&W WALL-E clip; pixel mosaic
+- v7 | 91.7–96.7 | broll-text | B&W WALL-E humans on hover chairs
+- v7 | 100–105.5 | fs-object | cartoon fat avatar floating on blue hover chair; "becoming a fat person Floating on a Device" (gold tag), "using their chubby fingers to put Orders in the System." (bold)
+- v7 | 108.9–110.2 | fs-object | white bg, sneaker running up green stairs; "but the tech is really moving" ; blue scribble
+- v7 | other | captions | A-roll top caption

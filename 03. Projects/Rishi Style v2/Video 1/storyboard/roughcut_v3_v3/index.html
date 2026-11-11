@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>roughcut_v3 Draft 3 Storyboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF0F5;--line:#E2E5EC;--ink:#14161C;--mute:#6A7080;--acc:#3E7BFA;--ice:#EAF0F8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.wrap{max-width:1400px;margin:auto;padding:28px 24px 80px}
+h1{margin:0 0 4px;font-size:28px;letter-spacing:-.02em}.sub{color:var(--mute);margin:0 0 18px}
+.grid2{display:grid;grid-template-columns:1.3fr 1fr;gap:16px}@media(max-width:900px){.grid2{grid-template-columns:1fr}}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-size:13.5px;line-height:1.5}
+.box h3{margin:0 0 8px;font-size:15px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}td{border-top:1px solid var(--line);padding:5px 6px;vertical-align:top}td:first-child{font-weight:700;color:var(--acc);white-space:nowrap}
+.beat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:20px;display:grid;grid-template-columns:200px 200px 1fr;gap:18px}
+@media(max-width:800px){.beat{grid-template-columns:1fr 1fr}.beat .txt{grid-column:1/-1}}
+.lab{font-size:11px;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.ph{position:relative;width:100%;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:#000;container-type:inline-size}
+.ph>*{position:absolute}.ph img.s{inset:0;width:100%;height:100%;object-fit:cover}
+.txt h2{margin:0 0 2px;font-size:19px}.t{color:var(--mute);font-size:12.5px;margin-bottom:6px}
+.vo{font-style:italic;font-size:13px;margin-bottom:8px}
+.txt ul{margin:0;padding-left:18px;font-size:13px;line-height:1.55}
+.f{display:inline-block;font-size:10.5px;font-weight:700;background:#E6EEFF;color:var(--acc);border-radius:5px;padding:1px 5px;margin-left:3px}
+.pf{font-family:'Playfair Display',serif;font-style:italic;font-weight:700}
+.card{background:linear-gradient(160deg,#fff,#E9EBEF);border-radius:2cqw;box-shadow:0 2cqw 4cqw rgba(0,0,0,.15)}
+.cap{left:0;right:0;text-align:center;color:#fff}
+.q{background:#FFF8EC;border-color:#F3D3A6}
+</style>
+</head>
+<body><div class="wrap">
+<h1>roughcut_v3 · draft 3 storyboard</h1>
+<p class="sub">Your 28 feedback points applied to draft 2. Left = draft 2 frame, middle = draft 3 frame (drawn), right = exact changes. If you don't flag anything, I treat this as approved and build it.</p>
+<div class="grid2">
+<div class="box"><h3>Feedback checklist</h3><table>
+<tr><td>F1</td><td>Hook shrink runs ~0.7 → 2.0 s with slow ease-in-out: no pause, no snap</td></tr>
+<tr><td>F2</td><td>Claude logo rises from behind your head (person matte) and flies into the chat header while you shrink</td></tr>
+<tr><td>F3</td><td>Playfair caption glitch (bottom slice appearing first) fixed</td></tr>
+<tr><td>F4</td><td>Result card: line → rectangle reveal from the centre, with blur and a small rise; shows your own clip with a premium grade (no "wow" gradient)</td></tr>
+<tr><td>F5</td><td>B&W + nose tracking from 2.87 s (the moment the hook returns to you) to the end of "like that"; the pane starts dropping while still B&W</td></tr>
+<tr><td>F6</td><td>"nope." removed</td></tr>
+<tr><td>F7</td><td>Split screen: you're reframed in the lower half so your whole head (hair included) is visible</td></tr>
+<tr><td>F8</td><td>Split-screen captions move up into the white area</td></tr>
+<tr><td>F9</td><td>Pane lands first, then skill cards arrive one by one, slower</td></tr>
+<tr><td>F10</td><td>Skill-card text padding made consistent; small GitHub mark on all six</td></tr>
+<tr><td>F11</td><td>Smoothness everywhere: longer eases are fine</td></tr>
+<tr><td>F12</td><td>~9–10 s: no long empty white. The wall leaves smoothly as the next set arrives</td></tr>
+<tr><td>F13</td><td>design-skill.md: line → rectangle reveal, blur, slight slide (no pop), slower</td></tr>
+<tr><td>F14</td><td>Oval and doc arrive close together; orbit words fade in; orbit starts fast and settles slow</td></tr>
+<tr><td>F15</td><td>The cut at ~12.5 s is hidden inside a smooth eased zoom-in</td></tr>
+<tr><td>F16</td><td>Timeline card: softer, smaller corners; gradient on the blue bars; white card gets a grey gradient + vignette</td></tr>
+<tr><td>F17</td><td>Wall zoom-out starts exactly on "why", slow and smooth, holds on the wall near 16 s</td></tr>
+<tr><td>F18</td><td>Wall tiles white with a slowly moving grey gradient, one word "slop" in Inter Bold with a grey gradient; no logos</td></tr>
+<tr><td>F19</td><td>~18 s: smooth move into the picture-in-picture, with the headspace cropped</td></tr>
+<tr><td>F20</td><td>Claude card: line → rectangle reveal + blur + slide; white/grey gradient (no blue tint)</td></tr>
+<tr><td>F21</td><td>Progress bar fills slower and holds longer</td></tr>
+<tr><td>F22</td><td>Iterations stay in the PiP layout: the Claude card blurs and slides out left, the pipeline card slides in from the right (line reveal, blur, gradient)</td></tr>
+<tr><td>F23</td><td>You grow back to full screen slowly before "and if you want"</td></tr>
+<tr><td>F24</td><td>Comment sheet + keyboard come in smoother and stay longer</td></tr>
+<tr><td>F25</td><td>Soft tap dot on send; button turns blue → green with a tick</td></tr>
+<tr><td>F26</td><td>CTA captions: one line of Playfair just above "Comments"</td></tr>
+<tr><td>F27</td><td>All captions centre-aligned, with a character cap per caption (≈22 per line)</td></tr>
+<tr><td>F28</td><td>Swooshes longer and smoother (fade-in, peak on the move's midpoint)</td></tr>
+</table></div>
+<div class="box q"><h3>My assumptions (tell me if any is wrong)</h3>
+1. <b>F5:</b> black & white lasts 2.87 → ~6.3 s. The pane swipes down while you're still B&W, and colour eases back in as the pane lands. The punch-in from draft 2 is dropped (the tracking replaces it).<br><br>
+2. <b>F14:</b> "fast at the start, slow at the end" = the orbit spins in quickly, then decelerates to a gentle drift.<br><br>
+3. <b>F4:</b> "the same video of me, a little more premium" = your live clip in the card with a warmer grade, a soft vignette and one serif word (<i class="pf">taste</i>), plus a thin white frame.<br><br>
+4. <b>F22:</b> In the PiP section (18.5–26.4 s) the words are on cards, so captions show as one small Playfair line between the card and your PiP, the same single-line style you asked for in the CTA.<br><br>
+5. <b>F18:</b> all wall tiles say just "slop", as you wrote.
+</div></div>
+
+<div id="beats"></div>
+</div>
+<script>
+const D2=t=>`<img class="s" src="stills/d2_${t}.jpg">`;
+const R=t=>`<img class="s" src="../roughcut_v3/stills/t${t}.jpg">`;
+const CL='<img src="../../assets/logos/claude/claude-symbol-color.png" style="width:5cqw">';
+const B=[
+{n:'1 · Hook',t:'0.00–2.87',vo:'claude mein video daal ke ye prompt daal doge toh aisa kuch ban jaayega.',d2:'1.0',f:['F1','F2','F4','F3'],
+ draw:`<div style="inset:0;background:var(--ice)"></div><div class="card" style="left:7%;right:7%;top:24%;height:58%"></div><div style="left:12%;top:26.5%;font-weight:600;font-size:3.6cqw">${CL} Claude</div>
+ <div style="left:12%;top:58%;width:24%;aspect-ratio:9/16;border-radius:1.6cqw;overflow:hidden"><img src="../roughcut_v3/stills/t0.3.jpg" style="width:100%;height:100%;object-fit:cover"></div>
+ <div style="left:62%;top:31%;width:26%;aspect-ratio:9/16;border:.6cqw solid #fff;border-radius:1.6cqw;overflow:hidden;box-shadow:0 2cqw 4cqw rgba(0,0,0,.3)"><img src="../roughcut_v3/stills/t0.3.jpg" style="width:100%;height:100%;object-fit:cover;filter:saturate(1.2) sepia(.15) contrast(1.05)"><div class="pf" style="position:absolute;bottom:8%;width:100%;text-align:center;color:#fff;font-size:6cqw">taste</div></div>
+ <div style="left:40%;top:63%;font-size:3.2cqw;background:linear-gradient(transparent 30%,#FFD68A 30% 90%,transparent 90%)">edit this like a pro</div><div class="pf" style="left:0;right:0;top:12%;text-align:center;font-size:9cqw;color:#0B1730">prompt</div>`,
+ c:['0–0.72 s: you, normal captions.','0.72–2.0 s: you shrink into the chat attachment with one long, slow ease-in-out (no pause, no snap). <span class="f">F1</span>','0.72–1.2 s: the Claude logo rises from <b>behind your head</b>, then flies up into the chat header, landing as the shrink finishes. <span class="f">F2</span>','1.55–2.0 s: prompt types · 2.0 s highlighter · 2.1 s send.','2.15–2.65 s: the result card opens from a thin line into a rectangle from its centre, unblurring and rising 40 px. It shows <b>your clip</b>, graded warmer, with a vignette and a serif <i>taste</i>. <span class="f">F4</span>','Serif caption glitch fixed: hero letters no longer clip. <span class="f">F3</span>']},
+{n:'2 · The "no"',t:'2.87–5.33',vo:'aisa kuch nahi hota hai. this doesn\'t work like that.',d2:'3.7',f:['F5','F6','F27'],
+ draw:`${R('3.6')}<div style="inset:0;backdrop-filter:grayscale(1)"></div><div class="cap" style="top:64%"><div style="font-size:4cqw;opacity:.85">aisa kuch</div><div class="pf" style="font-size:12cqw">nahi hota</div><div style="font-size:4cqw;opacity:.85">hai.</div></div>`,
+ c:['2.87 s, the moment the hook returns to you: black & white + nose-tracked camera (scale ~110 %, follows your nose with a slight lag). It holds through "this doesn\'t work like that". <span class="f">F5</span>','"nope." removed. <span class="f">F6</span>','Captions centred: support line centred above, hero centred. <span class="f">F27</span>']},
+{n:'3 · Hoarding',t:'5.33–8.40',vo:'aap duniya bhar ki skills ikattha kar lo, github repos ikattha kar lo.',d2:'6.2',f:['F7','F8','F9','F10','F11'],
+ draw:`<div style="left:0;right:0;bottom:0;height:51%;overflow:hidden">${R('5.0').replace('class="s"','class="s" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 15%;transform:translateY(8%)"')}</div><div style="left:0;right:0;top:0;height:49%;background:var(--ice)"></div>
+ <div style="left:0;right:0;top:7%;text-align:center;font-size:3.6cqw;color:#4A5878">aap duniya bhar ki</div><div class="pf" style="left:0;right:0;top:9.5%;text-align:center;font-size:9cqw;color:#0B1730">skills</div>
+ ${[0,1,2,3,4,5].map(i=>`<div style="left:${5+(i%3)*31}%;top:${22+Math.floor(i/3)*6.5}%;width:28%;background:#fff;border:1px solid #D9DDE3;border-radius:1.4cqw;padding:1cqw 1.6cqw;font-size:2.3cqw;display:flex;gap:1cqw;align-items:center"><img src="../../assets/logos/github/github-mark-mono-black.png" style="width:2.6cqw">${['video-editor','caption-pro','hooks','motion-kit','color-grade','b-roll'][i]}.md</div>`).join('')}
+ ${[0,1,2].map(i=>`<div style="left:22%;right:22%;top:${36+i*4}%;background:#121C38;color:#fff;border-radius:1.4cqw;padding:.8cqw 2cqw;font-size:2.4cqw">${['awesome-edits','reel-templates','ai-video-tools'][i]}</div>`).join('')}`,
+ c:['5.33–6.33 s: the ice pane swipes down from the top while you\'re still B&W; colour eases back as it lands. <span class="f">F5</span>','You\'re reframed lower (shift ~580 px) so your <b>whole head, hair included</b>, sits in the lower half. <span class="f">F7</span>','Captions move <b>up into the white area</b> (dark ink serif, centred). <span class="f">F8</span>','Pane first, <b>then</b> the six skill cards one by one from "skills" (6.0 s), 0.18 s apart, each a slow 0.5 s rise + unblur. <span class="f">F9</span>','Every card has a small GitHub mark and the same padding. <span class="f">F10</span>','Repo cards glide in from the right over 0.7 s (kept, smoother).']},
+{n:'4 · Thesis',t:'8.40–11.51 (pane lifts → 12.2)',vo:'jab tak aap claude ko apna taste ya design skill nahi samjha paoge, woh aapke liye kuch ghanta…',d2:'9.6',f:['F12','F13','F14'],
+ draw:`<div style="left:0;right:0;bottom:0;height:51%;overflow:hidden">${R('8.6').replace('class="s"','class="s" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 15%;transform:translateY(8%)"')}</div><div style="left:0;right:0;top:0;height:49%;background:var(--ice)"></div>
+ <div class="pf" style="left:0;right:0;top:9%;text-align:center;font-size:9cqw;color:#0B1730">taste</div>
+ <div class="card" style="left:8%;width:40%;top:20%;height:26%;padding:2cqw;font-size:2.2cqw;line-height:1.7"><b>design-skill.md</b><br><span style="color:#3E7BFA">## taste</span><br>palette · type · pacing<br><span style="color:#3E7BFA">## captions</span><br>serif hero…</div>
+ <div style="left:58%;top:23%;width:30cqw;height:30cqw;border-radius:50%;background:radial-gradient(#5D8BFF,#0839B0);box-shadow:0 0 8cqw rgba(62,123,250,.4)"></div><div style="left:54%;top:21%;font-size:2.6cqw">palette</div><div style="left:84%;top:33%;font-size:2.6cqw">rhythm</div><div style="left:60%;top:44%;font-size:2.6cqw">pacing</div>`,
+ c:['8.1–8.6 s: the wall drifts up, blurs and fades while the next set arrives. No empty white beat. <span class="f">F12</span>','8.55 s: the oval paints in; 8.7 s: design-skill.md opens <b>from a line into its rectangle</b> with blur and a small slide. Both almost together. <span class="f">F13 F14</span>','Doc lines rise in word by word, slower (0.12 s apart).','Orbit words fade in (no sudden pop). The orbit spins in fast and decelerates to a gentle drift. <span class="f">F14</span>','11.51 s: the pane lifts over 0.7 s and you glide back to full frame.']},
+{n:'5 · Proof',t:'11.9–14.56',vo:'…nahi karne wala hai. and ye poori video bhi end-to-end claude se edited hai.',d2:'13.6',f:['F15','F16'],
+ draw:`${R('14.0').replace('class="s"','class="s" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.12)"')}<div style="left:8%;right:8%;top:13%;height:24%;border-radius:1.4cqw;background:linear-gradient(160deg,#fff,#E6E8EC);box-shadow:inset 0 0 6cqw rgba(0,0,0,.08),0 2cqw 4cqw rgba(0,0,0,.2);padding:2cqw;font-size:2.4cqw">${CL} <b>Claude</b> <span style="color:#888">edited this entire video</span>${[0,1,2,3].map(i=>`<div style="margin-top:1.4cqw;height:2.6cqw;width:${70-i*8}%;margin-left:22%;border-radius:.6cqw;background:linear-gradient(90deg,#2F6BF0,#9DB7F5)"></div>`).join('')}</div>
+ <img class="s" src="../roughcut_v3/stills/t14.0.jpg" style="transform:scale(1.12);-webkit-mask-image:radial-gradient(30% 34% at 50% 42%,#000 68%,transparent 70%);mask-image:radial-gradient(30% 34% at 50% 42%,#000 68%,transparent 70%)"><div class="cap" style="top:70%"><div style="font-size:4cqw">bhi</div><div class="pf" style="font-size:11cqw">end-to-end</div></div>`,
+ c:['12.2–12.9 s: a smooth eased zoom-in (100 → 112 %) runs <b>across the cut at 12.53 s</b>, so the jump is hidden inside the move. <span class="f">F15</span>','12.72 s: the timeline card opens from a line into its rectangle behind your head.','Corners smaller (14 px), blue bars get a blue → light-blue gradient, white card gets a white → light-grey gradient + soft vignette. <span class="f">F16</span>']},
+{n:'6 · Slop wall',t:'14.56–17.45',vo:'why does this look better than all the claude slop which you see out there?',d2:'16.8',f:['F17','F18','F28'],
+ draw:`<div style="inset:0;background:#0D0E12"></div>${Array.from({length:12},(_,i)=>i==4?`<div style="left:36%;top:32.5%;width:28%;aspect-ratio:9/16;border-radius:1.4cqw;overflow:hidden;box-shadow:0 0 5cqw rgba(255,255,255,.35)"><img src="../roughcut_v3/stills/t15.4.jpg" style="width:100%;height:100%;object-fit:cover"></div>`:`<div style="left:${5.5+(i%3)*30.5}%;top:${3+Math.floor(i/3)*29.5}%;width:28%;aspect-ratio:9/16;border-radius:1.4cqw;background:linear-gradient(${30+i*20}deg,#FFFFFF,#CFD3D9);filter:blur(.25cqw);display:grid;place-items:center;font-weight:800;font-size:6cqw;color:#6B7078">slop</div>`).join('')}<div class="cap" style="top:72%"><div style="font-size:4cqw">why does this look</div><div class="pf" style="font-size:11cqw">better</div></div>`,
+ c:['Starts exactly on "why" (14.56 s). A slow 1.4 s ease-in-out zoom-out, then it holds on the wall until 17.45 s. <span class="f">F17</span>','Tiles are white with a grey gradient that drifts very slowly; each says just <b>slop</b> in Inter Bold with a grey gradient. No stars, no colour. <span class="f">F18</span>','Your tile gets a soft white glow instead of blue.','Swoosh lengthened, with a fade-in and its peak on the middle of the zoom. <span class="f">F28</span>']},
+{n:'7 · "I taught it" (PiP)',t:'17.45–22.3',vo:'because maine usko samjhaaya. pehli baar mein aapko usko mehnat se samjhaana hai ki kya karna hai, kaise karna hai aur ek baar woh samajh gaya,',d2:'21.4',f:['F19','F20','F21'],
+ draw:`<div style="inset:0;background:linear-gradient(#F4F5F7,#E4E6EA)"></div><div class="card" style="left:10%;right:10%;top:12%;height:33%;padding:2.4cqw;font-size:2.4cqw;line-height:2">${CL} <b>Claude</b><br>📁 paper-stage-edit/<br><span style="background:#E3F6EE;display:block">RULEBOOK.md · what to do ✓</span><span style="background:#E3F6EE;display:block">LOOKBOOK.md · how to do it ✓</span><div style="height:1.2cqw;border-radius:1cqw;background:#3E7BFA;width:100%"></div></div>
+ <div class="pf" style="left:0;right:0;top:48%;text-align:center;font-size:4.6cqw;color:#0B1730">kaise karna hai</div><div style="left:32%;width:36%;top:53%;aspect-ratio:9/13.5;border-radius:2cqw;overflow:hidden;border:.6cqw solid #fff;box-shadow:0 0 5cqw rgba(140,157,255,.8)"><img src="../roughcut_v3/stills/t21.9.jpg" style="width:100%;height:118%;object-fit:cover;object-position:50% 70%"></div>`,
+ c:['18.5–19.4 s: a slow ease-in-out move into the picture-in-picture, with the headspace cropped so your face fills the PiP. <span class="f">F19</span>','The card opens from a line into its rectangle with blur and a small slide. White → light-grey gradient + vignette, no blue tint. <span class="f">F20</span>','Rows rise in word by word; ticks on "kya" and "kaise".','Progress fills slowly from 21.0 to 22.0 s ("samajh gaya"), then "100%" holds. <span class="f">F21</span>','One-line Playfair caption sits between the card and the PiP (assumption 4).']},
+{n:'8 · Iterations (still PiP)',t:'22.3–26.75',vo:'kuch iterations ke baad it will get so better that it can do the whole thing autonomously without your intervention.',d2:'23.6',f:['F22','F23'],
+ draw:`<div style="inset:0;background:linear-gradient(#F4F5F7,#E4E6EA)"></div><div class="card" style="left:-30%;width:60%;top:12%;height:33%;filter:blur(.8cqw);opacity:.4"></div><div class="card" style="left:14%;right:14%;top:12%;height:33%;padding:3cqw;font-size:3.2cqw;line-height:1.9">${['Analyse','Plan','Build','Captions','Export'].map((s,i)=>`<div style="display:flex;justify-content:space-between"><span>${s}</span><span style="color:#3E7BFA">${i<4?'✓':'○'}</span></div>`).join('')}</div>
+ <div class="pf" style="left:0;right:0;top:48%;text-align:center;font-size:4.6cqw;color:#0B1730">autonomously</div><div style="left:32%;width:36%;top:53%;aspect-ratio:9/13.5;border-radius:2cqw;overflow:hidden;border:.6cqw solid #fff;box-shadow:0 0 5cqw rgba(140,157,255,.8)"><img src="../roughcut_v3/stills/t22.9.jpg" style="width:100%;height:118%;object-fit:cover;object-position:50% 70%"></div>`,
+ c:['No separate behind-the-head scene: you stay in the PiP. <span class="f">F22</span>','22.3–22.9 s: the Claude card blurs and slides out to the left; 22.6–23.3 s: the pipeline card slides in from the right (line reveal + blur, white/grey gradient). <span class="f">F22</span>','Analyse · Plan · Build · Captions · Export rise in one by one; ticks at 23.6 / 24.0 / 24.45 / 24.85 / 25.19 s (the last on "autonomously").','26.0–26.75 s: you grow slowly back to full screen while the card drifts away, ready for "and if you want…" at 26.75 s. <span class="f">F23</span>']},
+{n:'9 · CTA',t:'26.75–33.4',vo:'and if you want to learn how i did this, comment "edit" and i will send you a step-by-step breakdown…',d2:'29.9',f:['F24','F25','F26'],
+ draw:`<img class="s" src="../roughcut_v3/stills/t30.0.jpg" style="filter:blur(1cqw) brightness(.65);transform:translateY(-20%)"><div class="pf cap" style="top:44%;font-size:6cqw">comment "edit" and i</div>
+ <div style="left:0;right:0;top:51%;bottom:0;background:#1C1C1E;border-radius:4cqw 4cqw 0 0"></div><div style="left:0;right:0;top:53.5%;text-align:center;color:#fff;font-weight:700;font-size:3.4cqw">Comments</div>
+ <div style="left:5%;top:58%;width:8cqw;height:8cqw;border-radius:50%;overflow:hidden"><img src="../roughcut_v3_edit_v2/avatar_sticker.png" style="width:100%"></div><div style="left:15%;right:15%;top:58%;height:8cqw;border:1px solid #3A3A3C;border-radius:4cqw;color:#fff;font-weight:600;font-size:3.4cqw;padding:1.8cqw 3cqw">EDIT</div>
+ <div style="right:4%;top:58%;width:8cqw;height:8cqw;border-radius:50%;background:#2FD08A;color:#fff;display:grid;place-items:center;font-weight:800;box-shadow:0 0 0 2.4cqw rgba(255,255,255,.18)">✓</div>
+ <div style="left:0;right:0;top:66%;bottom:0;background:#2C2C2E"></div>${'QWERTYUIOP'.split('').map((k,i)=>`<div style="left:${1.5+i*9.8}%;top:71%;width:8.6%;height:5.5%;background:#6C6C70;border-radius:1cqw;color:#fff;font-size:3.4cqw;display:grid;place-items:center">${k}</div>`).join('')}`,
+ c:['29.10–29.9 s: the sheet and keyboard rise slowly together (0.8 s smooth ease), and you drift up and blur. It all stays until ~32.8 s. <span class="f">F24</span>','E · D · I · T type out with key pop-ups (29.55–30.15 s).','30.35 s ("send"): a soft white tap dot appears on send; the button turns <b>green with a tick</b>. <span class="f">F25</span>','Captions here: one line of Playfair <b>just above "Comments"</b>: "comment “edit” and i" → "will send you a" → "step-by-step breakdown". <span class="f">F26</span>','32.8–33.2 s: the sheet slides down smoothly and the video ends on your face ("…these kind of results").']},
+];
+document.getElementById('beats').innerHTML=B.map(b=>`<div class="beat"><div><div class="lab">Draft 2</div><div class="ph">${D2(b.d2)}</div></div><div><div class="lab">Draft 3</div><div class="ph">${b.draw}</div></div>
+<div class="txt"><h2>${b.n}</h2><div class="t">${b.t} ${b.f.map(x=>`<span class="f">${x}</span>`).join('')}</div><div class="vo">“${b.vo}”</div><ul>${b.c.map(x=>`<li>${x}</li>`).join('')}</ul></div></div>`).join('')+
+`<div class="beat" style="grid-template-columns:1fr"><div class="txt"><h2>Everywhere</h2><ul><li>Captions centre-aligned, ≤ ~22 characters per line; hero in Playfair Bold Italic, support in Inter Medium. <span class="f">F27</span></li><li>Hero letters build with a slide + fade only (the blur that clipped them is gone, or rebuilt so it can't clip). <span class="f">F3</span></li><li>Every entrance uses long, soft ease-in-out curves; every card uses the same "line → rectangle + blur + small slide" reveal. <span class="f">F11</span></li><li>Swoosh / woosh: full-length files with fade-in, peaks on each move's midpoint, a touch quieter. <span class="f">F28</span></li></ul></div></div>`;
+</script>
+</body></html>

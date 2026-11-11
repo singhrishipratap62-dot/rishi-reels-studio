@@ -1,0 +1,54 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>gradnext</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--surface); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; width:960px; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .rhino { fill:var(--rhino); }
+  .peri { fill:var(--periwinkle); }
+  .yellow { fill:var(--chrome-yellow); }
+  .tint { fill:var(--periwinkle-100); }
+  .stripe { fill:var(--chrome-yellow); }
+  .tile { rx:var(--radius-md); }
+  .words { position:absolute; left:var(--space-4); bottom:var(--space-4); max-width:440px; }
+  .name { margin:0; font-size:88px; line-height:.92; font-weight:700; letter-spacing:-.02em; color:var(--ink); }
+  .tag { margin:var(--space-2) 0 0 4px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      rhino 200x288 slab bled off the top (primary, largest) · periwinkle 248x104 bled off the right · chrome-yellow 104x120 · periwinkle-100 128x120 tint bled right — ~40% of 960x288
+  arrangement one tall rhino slab with satellites, bottoms on one line space-3 above the edge, space-2 gutters
+  pattern     stripes: the brand's own 45° chrome-yellow bar motif, bleeding off the slab's bottom-right corner exactly as on the guideline cover
+  scales      bars space-2 wide at a space-4 pitch; gutters space-2; corners radius-md on every block
+-->
+<defs><clipPath id="slab"><rect class="tile" x="16" y="-24" width="200" height="288" rx="20"/></clipPath></defs>
+<rect class="rhino tile" x="16" y="-24" width="200" height="288" rx="20"/>
+<g clip-path="url(#slab)">
+<polygon class="stripe" points="704.0,-400.0 726.6,-400.0 -273.4,600.0 -296.0,600.0"/>
+<polygon class="stripe" points="744.0,-400.0 766.6,-400.0 -233.4,600.0 -256.0,600.0"/>
+<polygon class="stripe" points="784.0,-400.0 806.6,-400.0 -193.4,600.0 -216.0,600.0"/>
+<polygon class="stripe" points="824.0,-400.0 846.6,-400.0 -153.4,600.0 -176.0,600.0"/>
+<polygon class="stripe" points="864.0,-400.0 886.6,-400.0 -113.4,600.0 -136.0,600.0"/>
+</g>
+<rect class="peri tile" x="232" y="24" width="268" height="104" rx="20"/>
+<rect class="yellow tile" x="232" y="144" width="104" height="120" rx="20"/>
+<rect class="tint tile" x="352" y="144" width="148" height="120" rx="20"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">gradnext</h1>
+<p class="tag">Sharp thinkers who solve problems from first principles, not formulas.</p>
+</div>
+</div>
+</body>
+</html>

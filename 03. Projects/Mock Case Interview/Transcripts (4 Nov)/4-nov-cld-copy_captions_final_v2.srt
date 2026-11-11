@@ -1,0 +1,3827 @@
+1
+00:00:00,000 --> 00:00:04,960
+Aditya, your client is a beer manufacturer.
+
+2
+00:00:04,960 --> 00:00:08,960
+They make their own craft beers.
+
+3
+00:00:08,960 --> 00:00:11,360
+They've been growing pretty well.
+
+4
+00:00:11,360 --> 00:00:15,800
+From 100K barrels, they've moved
+
+5
+00:00:15,800 --> 00:00:19,100
+to about 500K in the last
+
+6
+00:00:19,100 --> 00:00:21,760
+three years right now.
+
+7
+00:00:21,760 --> 00:00:22,360
+And the way the
+
+8
+00:00:22,360 --> 00:00:24,080
+distribution for them works,
+
+9
+00:00:24,080 --> 00:00:26,280
+they have two channels.
+
+10
+00:00:26,280 --> 00:00:28,810
+First is they sell directly
+
+11
+00:00:28,810 --> 00:00:32,280
+to restaurants, bars, in kegs.
+
+12
+00:00:32,280 --> 00:00:35,520
+Second is to wine shops,
+
+13
+00:00:35,520 --> 00:00:39,760
+liquor stores, in cases of cans.
+
+14
+00:00:39,760 --> 00:00:40,640
+So these are the two
+
+15
+00:00:40,640 --> 00:00:43,200
+distribution channels that they have.
+
+16
+00:00:43,200 --> 00:00:44,320
+So right now, what
+
+17
+00:00:44,320 --> 00:00:45,600
+they are looking for
+
+18
+00:00:45,600 --> 00:00:48,070
+is they have $20 million
+
+19
+00:00:48,070 --> 00:00:50,280
+that they need to invest in.
+
+20
+00:00:50,280 --> 00:00:52,660
+And the idea is to use
+
+21
+00:00:52,660 --> 00:00:54,630
+that money to improve
+
+22
+00:00:54,630 --> 00:00:58,320
+their cost and process efficiency.
+
+23
+00:00:58,320 --> 00:01:03,080
+The two options that they have are one.
+
+24
+00:01:03,080 --> 00:01:05,390
+Instead of using the kegs
+
+25
+00:01:05,390 --> 00:01:06,630
+that they sell to
+
+26
+00:01:06,630 --> 00:01:08,160
+the restaurants and bars,
+
+27
+00:01:08,160 --> 00:01:10,480
+they can purchase them up front.
+
+28
+00:01:10,480 --> 00:01:11,520
+And the second option
+
+29
+00:01:11,520 --> 00:01:13,160
+is they can upgrade their canning
+
+30
+00:01:13,160 --> 00:01:18,160
+system through which they can package
+
+31
+00:01:18,160 --> 00:01:19,840
+their cans and everything.
+
+32
+00:01:19,840 --> 00:01:22,150
+So the question for you is
+
+33
+00:01:22,150 --> 00:01:23,760
+which one out of the two,
+
+34
+00:01:23,760 --> 00:01:25,440
+they should go with it?
+
+35
+00:01:25,440 --> 00:01:27,600
+Thank you for the problem statement, Kashish.
+
+36
+00:01:27,600 --> 00:01:30,360
+This is very interesting.
+
+37
+00:01:30,360 --> 00:01:31,350
+I just want to ask a
+
+38
+00:01:31,350 --> 00:01:34,880
+few clarifying questions before we begin.
+
+39
+00:01:34,880 --> 00:01:35,480
+And then I would
+
+40
+00:01:35,480 --> 00:01:36,120
+want to lay down
+
+41
+00:01:36,120 --> 00:01:37,880
+the structure of the case.
+
+42
+00:01:37,880 --> 00:01:40,180
+I'll take a minute here
+
+43
+00:01:40,180 --> 00:01:41,680
+to think of potential things
+
+44
+00:01:41,680 --> 00:01:43,280
+I would want to start with.
+
+45
+00:01:43,280 --> 00:01:44,420
+So up front, I
+
+46
+00:01:44,420 --> 00:01:45,960
+would want to know--
+
+47
+00:01:45,960 --> 00:01:47,160
+you mentioned we want to improve
+
+48
+00:01:47,160 --> 00:01:50,440
+their cost and process efficiency.
+
+49
+00:01:50,440 --> 00:01:53,080
+Do we have any specific targets in mind?
+
+50
+00:01:53,080 --> 00:01:54,730
+And a specific time frame within
+
+51
+00:01:54,730 --> 00:01:55,360
+which we want to
+
+52
+00:01:55,360 --> 00:01:56,960
+do achieve that target?
+
+53
+00:01:56,960 --> 00:01:58,720
+No, so we have that investment.
+
+54
+00:01:58,720 --> 00:02:00,410
+We can make it right
+
+55
+00:02:00,410 --> 00:02:03,780
+away in terms of targets,
+
+56
+00:02:03,780 --> 00:02:06,430
+whichever leads to better cost
+
+57
+00:02:06,430 --> 00:02:09,240
+savings is the option.
+
+58
+00:02:09,240 --> 00:02:10,730
+Now I would want to understand
+
+59
+00:02:10,730 --> 00:02:12,880
+a bit more about our client.
+
+60
+00:02:12,880 --> 00:02:14,520
+They are a pure manufacturer.
+
+61
+00:02:19,160 --> 00:02:19,160
+And do we have any
+
+62
+00:02:19,160 --> 00:02:22,080
+information on the scale
+
+63
+00:02:22,080 --> 00:02:23,120
+at which they operate?
+
+64
+00:02:23,120 --> 00:02:25,720
+What are their current revenues and margins?
+
+65
+00:02:25,720 --> 00:02:27,240
+And in what geographies
+
+66
+00:02:27,240 --> 00:02:28,880
+do they operate right now?
+
+67
+00:02:28,880 --> 00:02:30,960
+Let's assume they operate in the US.
+
+68
+00:02:30,960 --> 00:02:31,850
+In terms of scale,
+
+69
+00:02:31,850 --> 00:02:33,890
+as I mentioned, they currently
+
+70
+00:02:33,890 --> 00:02:36,920
+produce about 500K barrels.
+
+71
+00:02:36,920 --> 00:02:40,960
+Sure. And they distributed all across the US.
+
+72
+00:02:40,960 --> 00:02:44,380
+And majorly, we manufactured
+
+73
+00:02:44,380 --> 00:02:47,160
+it ourselves and then distributed
+
+74
+00:02:47,160 --> 00:02:48,760
+using the two channels.
+
+75
+00:02:48,760 --> 00:02:51,360
+So the value chain is pretty clear.
+
+76
+00:02:51,360 --> 00:02:53,102
+Do we have any information
+
+77
+00:02:53,102 --> 00:02:55,590
+on what contribution each
+
+78
+00:02:55,590 --> 00:02:58,170
+of these distribution channels makes
+
+79
+00:02:58,170 --> 00:03:01,360
+to our revenues and profits.
+
+80
+00:03:01,360 --> 00:03:02,910
+You got it. In terms
+
+81
+00:03:02,910 --> 00:03:04,520
+of not in revenue and profit,
+
+82
+00:03:04,520 --> 00:03:07,230
+but in terms of the production
+
+83
+00:03:07,230 --> 00:03:09,640
+of 500K barrels out of that,
+
+84
+00:03:09,640 --> 00:03:12,440
+60% goes to canning, cans.
+
+85
+00:03:12,440 --> 00:03:14,740
+And if you have cans,
+
+86
+00:03:14,740 --> 00:03:16,920
+40% goes to kegs.
+
+87
+00:03:16,920 --> 00:03:23,290
+OK. So 200K barrels for kegs
+
+88
+00:03:23,290 --> 00:03:28,160
+and 300,000 for cans.
+
+89
+00:03:28,160 --> 00:03:30,480
+Correct. Do we also know
+
+90
+00:03:30,480 --> 00:03:32,600
+what sort of margins do we
+
+91
+00:03:32,600 --> 00:03:34,960
+have across these distribution channels?
+
+92
+00:03:34,960 --> 00:03:36,640
+No, not at this moment.
+
+93
+00:03:36,640 --> 00:03:41,590
+All right. Given the information
+
+94
+00:03:41,590 --> 00:03:44,330
+that I have, I would want
+
+95
+00:03:44,330 --> 00:03:48,040
+to structure the discussion this way.
+
+96
+00:03:49,360 --> 00:03:53,000
+I look at the initial investment,
+
+97
+00:03:53,000 --> 00:03:54,280
+which is 20 million,
+
+98
+00:03:54,280 --> 00:03:55,940
+and see how much of it
+
+99
+00:03:55,940 --> 00:03:59,000
+is going to be invested across
+
+100
+00:03:59,000 --> 00:04:03,000
+these two options of purchasing kegs
+
+101
+00:04:03,000 --> 00:04:05,360
+or upgrading the canning system.
+
+102
+00:04:05,360 --> 00:04:07,660
+So that will be the upfront
+
+103
+00:04:07,660 --> 00:04:09,040
+cost that we link.
+
+104
+00:04:09,040 --> 00:04:10,380
+Then I would want to look
+
+105
+00:04:10,380 --> 00:04:11,710
+at what the current costs
+
+106
+00:04:11,710 --> 00:04:14,330
+are and what expected cost savings
+
+107
+00:04:14,330 --> 00:04:18,330
+are there, which would lead
+
+108
+00:04:18,330 --> 00:04:20,680
+to any operating gains.
+
+109
+00:04:20,680 --> 00:04:21,880
+I would also want to look
+
+110
+00:04:21,880 --> 00:04:22,760
+at the time frame.
+
+111
+00:04:22,760 --> 00:04:24,680
+If it's perpetual, then we can
+
+112
+00:04:24,680 --> 00:04:27,090
+sort of have an NPV
+
+113
+00:04:27,090 --> 00:04:29,800
+calculation and then compare
+
+114
+00:04:29,800 --> 00:04:32,160
+it to our initial investment
+
+115
+00:04:32,160 --> 00:04:33,960
+and then pick whichever option
+
+116
+00:04:33,960 --> 00:04:37,560
+gives us the better NPV.
+
+117
+00:04:37,560 --> 00:04:39,240
+Does that sound like an OK approach?
+
+118
+00:04:39,240 --> 00:04:41,520
+Yeah, let's not go to the NPV part.
+
+119
+00:04:41,520 --> 00:04:42,420
+Let's just look at the
+
+120
+00:04:42,420 --> 00:04:43,440
+cost savings for now.
+
+121
+00:04:43,440 --> 00:04:46,140
+Sure. So then we are assuming
+
+122
+00:04:46,140 --> 00:04:47,520
+that we are investing
+
+123
+00:04:47,520 --> 00:04:49,180
+the full 20 million
+
+124
+00:04:49,180 --> 00:04:51,080
+in both of these options.
+
+125
+00:04:51,080 --> 00:04:55,410
+Perfect. I'll just take a minute
+
+126
+00:04:55,410 --> 00:04:57,560
+to draw down all the potential
+
+127
+00:04:57,560 --> 00:04:59,210
+cost heads that might
+
+128
+00:04:59,210 --> 00:05:01,120
+be affected with this investment.
+
+129
+00:05:01,120 --> 00:05:02,350
+And then we can discuss
+
+130
+00:05:02,350 --> 00:05:05,320
+how they will change to reach
+
+131
+00:05:05,320 --> 00:05:07,600
+the cost saving number.
+
+132
+00:05:07,600 --> 00:05:11,440
+OK. So starting with the kegs
+
+133
+00:05:11,440 --> 00:05:13,080
+first, I would want to look
+
+134
+00:05:13,080 --> 00:05:14,040
+at our current lease
+
+135
+00:05:14,040 --> 00:05:15,360
+costs as a function
+
+136
+00:05:15,360 --> 00:05:16,560
+of the number of kegs
+
+137
+00:05:16,560 --> 00:05:19,320
+that we are leasing currently.
+
+138
+00:05:19,320 --> 00:05:22,640
+And multiply that with the average
+
+139
+00:05:22,640 --> 00:05:23,880
+cost to lease per duration
+
+140
+00:05:23,880 --> 00:05:25,540
+and multiply that with the average
+
+141
+00:05:25,540 --> 00:05:29,080
+duration in which we sort of,
+
+142
+00:05:29,080 --> 00:05:31,720
+for which we lease the keg.
+
+143
+00:05:31,720 --> 00:05:32,890
+What I mean by that
+
+144
+00:05:32,890 --> 00:05:34,040
+is they would of course
+
+145
+00:05:34,040 --> 00:05:35,550
+be some turnover in terms
+
+146
+00:05:35,550 --> 00:05:37,520
+of the kegs I'm assuming.
+
+147
+00:05:37,520 --> 00:05:38,760
+Since we give them to restaurants
+
+148
+00:05:38,760 --> 00:05:40,320
+and bars, they would return
+
+149
+00:05:40,320 --> 00:05:41,360
+the kegs to us eventually.
+
+150
+00:05:41,360 --> 00:05:42,640
+And then we give them,
+
+151
+00:05:42,640 --> 00:05:44,760
+give it back to them.
+
+152
+00:05:44,760 --> 00:05:45,280
+So there would be
+
+153
+00:05:45,280 --> 00:05:46,120
+some turnover that I
+
+154
+00:05:46,120 --> 00:05:48,440
+would want to account for.
+
+155
+00:05:48,440 --> 00:05:49,400
+Do we have any information
+
+156
+00:05:49,400 --> 00:05:51,450
+on how many kegs do we
+
+157
+00:05:51,450 --> 00:05:52,760
+have and what it costs?
+
+158
+00:05:52,760 --> 00:05:55,320
+So the cost cost of course,
+
+159
+00:05:55,320 --> 00:05:56,680
+number of kegs we already know.
+
+160
+00:05:56,680 --> 00:06:00,530
+It's 200,000. The number of kegs
+
+161
+00:06:00,530 --> 00:06:02,200
+or the number of kegs?
+
+162
+00:06:02,200 --> 00:06:03,558
+Oh, sorry. We know a number
+
+163
+00:06:03,558 --> 00:06:06,000
+of barrels as 200,000.
+
+164
+00:06:06,000 --> 00:06:06,880
+Do we know how many
+
+165
+00:06:06,880 --> 00:06:08,600
+kegs does that translate into?
+
+166
+00:06:08,600 --> 00:06:11,520
+So two kegs per barrel.
+
+167
+00:06:11,520 --> 00:06:14,120
+Assume that the cost per barrel,
+
+168
+00:06:14,120 --> 00:06:16,600
+sorry, per keg in terms of
+
+169
+00:06:16,600 --> 00:06:18,800
+rent is about $10 a year.
+
+170
+00:06:18,800 --> 00:06:22,320
+OK. Let's ignore the turnaround time.
+
+171
+00:06:22,320 --> 00:06:23,960
+I think we can ignore that way.
+
+172
+00:06:23,960 --> 00:06:26,200
+Sure. That will lead
+
+173
+00:06:26,200 --> 00:06:28,400
+to an average annual lease
+
+174
+00:06:28,400 --> 00:06:32,400
+cost of $4 million.
+
+175
+00:06:32,400 --> 00:06:33,610
+So then if we
+
+176
+00:06:33,610 --> 00:06:38,080
+purchase these kegs outright,
+
+177
+00:06:38,080 --> 00:06:40,090
+we're assuming that we're investing
+
+178
+00:06:40,090 --> 00:06:43,320
+the $20 million, right.
+
+179
+00:06:43,320 --> 00:06:44,290
+And if I divide
+
+180
+00:06:44,290 --> 00:06:46,483
+that by the 400,000
+
+181
+00:06:46,483 --> 00:06:49,040
+kegs that we have,
+
+182
+00:06:49,040 --> 00:06:51,900
+that will give us an average
+
+183
+00:06:51,900 --> 00:06:55,360
+cost of $50 per keg.
+
+184
+00:06:55,360 --> 00:06:58,440
+Yeah, $50 per keg.
+
+185
+00:06:58,440 --> 00:06:59,930
+That's correct. So we have
+
+186
+00:06:59,930 --> 00:07:01,880
+a cost of $50.
+
+187
+00:07:01,880 --> 00:07:04,960
+Sure. There are two
+
+188
+00:07:04,960 --> 00:07:06,120
+considerations here that I
+
+189
+00:07:06,120 --> 00:07:07,840
+would want to look at.
+
+190
+00:07:07,840 --> 00:07:09,720
+Do we know the average
+
+191
+00:07:09,720 --> 00:07:11,840
+useful life of a keg?
+
+192
+00:07:11,840 --> 00:07:12,720
+That is the first thing.
+
+193
+00:07:12,720 --> 00:07:15,020
+And then second, since you're
+
+194
+00:07:15,020 --> 00:07:17,040
+leasing the kegs annually,
+
+195
+00:07:17,040 --> 00:07:19,250
+I'm assuming that there would be
+
+196
+00:07:19,250 --> 00:07:21,000
+a proper contract to this.
+
+197
+00:07:21,000 --> 00:07:22,790
+Are there any exit costs,
+
+198
+00:07:22,790 --> 00:07:24,760
+exit terms in the contract
+
+199
+00:07:24,760 --> 00:07:26,520
+that we should be mindful of?
+
+200
+00:07:26,520 --> 00:07:28,160
+No, that's interesting. So the useful
+
+201
+00:07:28,160 --> 00:07:29,760
+life is about 10 years.
+
+202
+00:07:29,760 --> 00:07:32,770
+So let's consider that in terms
+
+203
+00:07:32,770 --> 00:07:35,570
+of contract, ignore the,
+
+204
+00:07:35,570 --> 00:07:38,340
+ignore any terms which lead
+
+205
+00:07:38,340 --> 00:07:39,820
+to exit opportunities, or sorry,
+
+206
+00:07:39,820 --> 00:07:41,720
+exit costs related to the contract.
+
+207
+00:07:41,720 --> 00:07:43,400
+So we can ignore those.
+
+208
+00:07:43,400 --> 00:07:45,000
+Anything else that you think
+
+209
+00:07:45,000 --> 00:07:45,920
+we should be considering
+
+210
+00:07:45,920 --> 00:07:49,480
+while calculating the buying option?
+
+211
+00:07:49,480 --> 00:07:51,090
+Of course, we should look
+
+212
+00:07:51,090 --> 00:07:53,640
+at the opportunity cost involved
+
+213
+00:07:53,640 --> 00:07:57,120
+in using the $20 million elsewhere.
+
+214
+00:07:57,120 --> 00:07:58,770
+But I think that would be
+
+215
+00:07:58,770 --> 00:08:00,320
+that we'll cover in the second
+
+216
+00:08:00,320 --> 00:08:02,700
+option that we have,
+
+217
+00:08:02,700 --> 00:08:04,030
+and then we'll have
+
+218
+00:08:04,030 --> 00:08:06,000
+to compare both the options.
+
+219
+00:08:06,000 --> 00:08:07,680
+Apart from the opportunity cost,
+
+220
+00:08:07,680 --> 00:08:08,760
+let me take a minute
+
+221
+00:08:08,760 --> 00:08:10,410
+to think of any other considerations
+
+222
+00:08:10,410 --> 00:08:11,840
+that might be there.
+
+223
+00:08:11,840 --> 00:08:14,800
+Let's do that. OK.
+
+224
+00:08:14,800 --> 00:08:17,480
+A few other considerations here are--
+
+225
+00:08:17,480 --> 00:08:18,640
+I'm assuming that the quality
+
+226
+00:08:18,640 --> 00:08:19,600
+of kegs is same
+
+227
+00:08:19,600 --> 00:08:22,000
+across what we're leasing
+
+228
+00:08:22,000 --> 00:08:24,240
+and what we're buying.
+
+229
+00:08:24,240 --> 00:08:29,188
+Other consideration would be any storage
+
+230
+00:08:29,188 --> 00:08:32,780
+or upkeep costs or maintenance costs
+
+231
+00:08:32,780 --> 00:08:34,480
+that we might have to maintain
+
+232
+00:08:34,480 --> 00:08:35,560
+our own kegs versus
+
+233
+00:08:35,560 --> 00:08:37,440
+kegs that we lease.
+
+234
+00:08:37,440 --> 00:08:39,350
+Majorly, that would include
+
+235
+00:08:39,350 --> 00:08:40,760
+any damage or loss
+
+236
+00:08:40,760 --> 00:08:42,960
+that happens to those kegs.
+
+237
+00:08:42,960 --> 00:08:44,280
+I'm not sure how I'll contract
+
+238
+00:08:44,280 --> 00:08:46,480
+this structure at the moment.
+
+239
+00:08:46,480 --> 00:08:48,790
+Any damages or losses
+
+240
+00:08:48,790 --> 00:08:51,600
+that occur during the process?
+
+241
+00:08:51,600 --> 00:08:53,260
+Do we get a replacement keg
+
+242
+00:08:53,260 --> 00:08:54,810
+or do we bear
+
+243
+00:08:54,810 --> 00:08:58,720
+the cost of that keg?
+
+244
+00:08:58,720 --> 00:09:01,980
+Is another constraint? And then, thirdly,
+
+245
+00:09:01,980 --> 00:09:03,870
+I would also want to consider
+
+246
+00:09:03,870 --> 00:09:06,680
+in terms of operating profits,
+
+247
+00:09:06,680 --> 00:09:08,330
+the depreciation versus lease
+
+248
+00:09:08,330 --> 00:09:09,960
+payments that we have.
+
+249
+00:09:09,960 --> 00:09:10,910
+So even if we buy it,
+
+250
+00:09:10,910 --> 00:09:12,320
+there would be some depreciation
+
+251
+00:09:12,320 --> 00:09:15,030
+cost associated with the keg,
+
+252
+00:09:15,030 --> 00:09:19,440
+which will be about $5, assuming
+
+253
+00:09:19,440 --> 00:09:20,560
+there is no use for it.
+
+254
+00:09:20,560 --> 00:09:23,680
+And then there's no exit value.
+
+255
+00:09:23,680 --> 00:09:25,670
+And then the fourth factor
+
+256
+00:09:25,670 --> 00:09:26,880
+is the exit value
+
+257
+00:09:26,880 --> 00:09:28,120
+at the end of 10 years.
+
+258
+00:09:28,120 --> 00:09:29,830
+So can we sell the kegs
+
+259
+00:09:29,830 --> 00:09:31,840
+since it's made of wood?
+
+260
+00:09:31,840 --> 00:09:33,490
+Can we sell it at
+
+261
+00:09:33,490 --> 00:09:35,370
+some exit value that might
+
+262
+00:09:35,370 --> 00:09:37,080
+help us recover some costs?
+
+263
+00:09:37,080 --> 00:09:38,790
+Got it. No, so just consider
+
+264
+00:09:38,790 --> 00:09:40,320
+the replacement cost here,
+
+265
+00:09:40,320 --> 00:09:43,320
+which you mentioned, consider that.
+
+266
+00:09:43,320 --> 00:09:46,070
+And we'll have to replace 5%
+
+267
+00:09:46,070 --> 00:09:48,040
+of the kegs that we purchase.
+
+268
+00:09:48,040 --> 00:09:49,920
+OK. And then look
+
+269
+00:09:49,920 --> 00:09:51,240
+at the overall cost and what
+
+270
+00:09:51,240 --> 00:09:52,680
+would be the cost savings.
+
+271
+00:09:52,680 --> 00:09:56,640
+Sure. So the replacement cost comes
+
+272
+00:09:56,640 --> 00:10:00,040
+out to $1 million annually,
+
+273
+00:10:00,040 --> 00:10:01,690
+which is 5% of the 20
+
+274
+00:10:01,690 --> 00:10:05,360
+million that we're initially spending.
+
+275
+00:10:05,360 --> 00:10:08,600
+The lease costs were $4 million.
+
+276
+00:10:08,600 --> 00:10:10,280
+Would you want me to consider depreciation here?
+
+277
+00:10:10,280 --> 00:10:12,160
+Or would you want me to ignore that?
+
+278
+00:10:12,160 --> 00:10:14,960
+Only cash flows? Sure.
+
+279
+00:10:14,960 --> 00:10:16,050
+So then that leads
+
+280
+00:10:16,050 --> 00:10:17,030
+to a cost saving
+
+281
+00:10:17,030 --> 00:10:18,800
+of $3 million annually.
+
+282
+00:10:18,800 --> 00:10:21,275
+Let's look at it over
+
+283
+00:10:21,275 --> 00:10:23,120
+a 10-year time horizon.
+
+284
+00:10:23,120 --> 00:10:27,530
+Of course. At a 10-year
+
+285
+00:10:27,530 --> 00:10:29,600
+time horizon, we are spending
+
+286
+00:10:29,600 --> 00:10:31,320
+20 million up front
+
+287
+00:10:31,320 --> 00:10:37,040
+and we're gaining $3 million annually.
+
+288
+00:10:37,040 --> 00:10:40,040
+That would give us a benefit
+
+289
+00:10:40,040 --> 00:10:44,960
+of $10 million over 10-year horizon.
+
+290
+00:10:44,960 --> 00:10:46,270
+I'm assuming that the lease
+
+291
+00:10:46,270 --> 00:10:47,790
+is fixed for the 10-year
+
+292
+00:10:47,790 --> 00:10:48,980
+time period, and there's no
+
+293
+00:10:48,980 --> 00:10:50,480
+inflation associated with it.
+
+294
+00:10:50,480 --> 00:10:51,610
+That's correct. Sure, so
+
+295
+00:10:51,610 --> 00:10:52,770
+we're seeing a total
+
+296
+00:10:52,770 --> 00:10:54,640
+cost saving of $10 million.
+
+297
+00:10:54,640 --> 00:10:56,070
+You got it. Let's look
+
+298
+00:10:56,070 --> 00:10:57,200
+at the other option.
+
+299
+00:10:57,200 --> 00:11:00,440
+Perfect. The second option
+
+300
+00:11:00,440 --> 00:11:04,160
+was upgrading the canning system.
+
+301
+00:11:04,160 --> 00:11:08,320
+I would follow the same approach,
+
+302
+00:11:08,320 --> 00:11:10,210
+which is number of cans
+
+303
+00:11:10,210 --> 00:11:12,440
+that we have multiplied
+
+304
+00:11:12,440 --> 00:11:14,350
+by the cost per can
+
+305
+00:11:14,350 --> 00:11:18,240
+that we currently incurred.
+
+306
+00:11:18,240 --> 00:11:19,600
+Do we have any information
+
+307
+00:11:19,600 --> 00:11:22,730
+on what does 300,000 barrels
+
+308
+00:11:22,730 --> 00:11:24,640
+translate into in cans?
+
+309
+00:11:24,640 --> 00:11:26,520
+So what does one barrel mean?
+
+310
+00:11:26,520 --> 00:11:27,520
+Cans in a barrel?
+
+311
+00:11:27,520 --> 00:11:29,920
+14 cases of cans.
+
+312
+00:11:29,920 --> 00:11:31,320
+OK, 14 cases of cans.
+
+313
+00:11:35,320 --> 00:11:40,200
+So we have 4.2 million cases.
+
+314
+00:11:40,200 --> 00:11:41,850
+And do we have the cost
+
+315
+00:11:41,850 --> 00:11:44,040
+associated with canning per case?
+
+316
+00:11:44,040 --> 00:11:45,360
+Let me explain the difference
+
+317
+00:11:45,360 --> 00:11:47,160
+between two systems first,
+
+318
+00:11:47,160 --> 00:11:48,640
+and then we-- Sure.
+
+319
+00:11:48,640 --> 00:11:51,000
+Look at the costs associated with it.
+
+320
+00:11:51,000 --> 00:11:54,440
+So the current canning system
+
+321
+00:11:54,440 --> 00:11:58,600
+needs four operators, right?
+
+322
+00:11:58,600 --> 00:12:00,590
+The rate at which it produces
+
+323
+00:12:00,590 --> 00:12:03,080
+is 600 cases a hour.
+
+324
+00:12:03,080 --> 00:12:06,930
+And has about 10% wastage
+
+325
+00:12:06,930 --> 00:12:10,720
+in the entire production.
+
+326
+00:12:10,720 --> 00:12:13,280
+This machine costed us about $10
+
+327
+00:12:13,280 --> 00:12:15,760
+million when we purchased it.
+
+328
+00:12:15,760 --> 00:12:18,090
+On the other hand, the new
+
+329
+00:12:18,090 --> 00:12:21,240
+system will also require four operators.
+
+330
+00:12:21,240 --> 00:12:23,620
+The rate at which it produced
+
+331
+00:12:23,620 --> 00:12:26,560
+will be 1,200 cases a hour.
+
+332
+00:12:26,560 --> 00:12:28,210
+The wastage in this one
+
+333
+00:12:28,210 --> 00:12:29,840
+would be about 7%.
+
+334
+00:12:29,840 --> 00:12:32,400
+And this will cost us about $20 million.
+
+335
+00:12:32,400 --> 00:12:35,150
+OK, got it. I would
+
+336
+00:12:35,150 --> 00:12:36,930
+like to get one thing
+
+337
+00:12:36,930 --> 00:12:38,310
+out of the way before
+
+338
+00:12:38,310 --> 00:12:40,550
+we get into the operating profits,
+
+339
+00:12:40,550 --> 00:12:43,840
+which is what are we going
+
+340
+00:12:43,840 --> 00:12:47,360
+to do with this older system?
+
+341
+00:12:47,360 --> 00:12:48,480
+Older machine that we have.
+
+342
+00:12:48,480 --> 00:12:49,240
+Are we going to sell it?
+
+343
+00:12:49,240 --> 00:12:50,320
+Are we going to keep using it?
+
+344
+00:12:50,320 --> 00:12:52,200
+Or are we going to scrap it?
+
+345
+00:12:52,200 --> 00:12:53,710
+No. So we can sell
+
+346
+00:12:53,710 --> 00:12:55,560
+it or we'll scrap it.
+
+347
+00:12:55,560 --> 00:12:57,550
+And assume the salvage value
+
+348
+00:12:57,550 --> 00:12:59,960
+of it about $1.3 million.
+
+349
+00:12:59,960 --> 00:13:02,630
+$1.3 million. Yeah, that's a great
+
+350
+00:13:02,630 --> 00:13:04,080
+question, by the way.
+
+351
+00:13:04,080 --> 00:13:05,840
+Perfect. So then that
+
+352
+00:13:05,840 --> 00:13:07,110
+would reduce our overall
+
+353
+00:13:07,110 --> 00:13:12,000
+investment to $18.7 right now.
+
+354
+00:13:12,000 --> 00:13:15,680
+$18.7 million. Perfect. OK,
+
+355
+00:13:15,680 --> 00:13:18,240
+I just take a minute
+
+356
+00:13:18,240 --> 00:13:20,270
+to think of what other
+
+357
+00:13:20,270 --> 00:13:21,480
+things I need to calculate
+
+358
+00:13:21,480 --> 00:13:23,240
+the difference in cost.
+
+359
+00:13:23,240 --> 00:13:26,840
+Yep. So the way
+
+360
+00:13:26,840 --> 00:13:28,490
+I would want to structure
+
+361
+00:13:28,490 --> 00:13:31,520
+it is that clearly
+
+362
+00:13:31,520 --> 00:13:35,040
+the new machine has double
+
+363
+00:13:35,040 --> 00:13:38,230
+the efficiency and has lower
+
+364
+00:13:38,230 --> 00:13:41,480
+waste by about 3%.
+
+365
+00:13:41,480 --> 00:13:42,530
+A clarifying question here
+
+366
+00:13:42,530 --> 00:13:43,720
+that I have is,
+
+367
+00:13:43,720 --> 00:13:46,720
+you mentioned the machine can produce
+
+368
+00:13:46,720 --> 00:13:48,760
+600 cases for the older machine,
+
+369
+00:13:48,760 --> 00:13:51,440
+for example, and has 10% wastage.
+
+370
+00:13:51,440 --> 00:13:53,490
+So is the 600 cases before
+
+371
+00:13:53,490 --> 00:13:55,680
+or after accounting for wastage
+
+372
+00:13:55,680 --> 00:13:57,330
+or does that waste reduce
+
+373
+00:13:57,330 --> 00:13:58,800
+from the 600 cases?
+
+374
+00:13:58,800 --> 00:14:00,320
+Reduce from the 600.
+
+375
+00:14:00,320 --> 00:14:04,990
+OK. So actually the older
+
+376
+00:14:04,990 --> 00:14:09,110
+machine produces about 540 cases
+
+377
+00:14:09,110 --> 00:14:10,600
+an hour on average
+
+378
+00:14:10,600 --> 00:14:13,480
+after accounting for the 10% wastage.
+
+379
+00:14:13,480 --> 00:14:16,480
+And the newer machinery,
+
+380
+00:14:16,480 --> 00:14:20,920
+I just take a minute,
+
+381
+00:14:20,920 --> 00:14:24,820
+about 1116 cases-- yeah,
+
+382
+00:14:24,820 --> 00:14:27,340
+1116 cases, but is what
+
+383
+00:14:27,340 --> 00:14:31,600
+the new machinery produces.
+
+384
+00:14:31,600 --> 00:14:34,220
+So it's almost a 100%
+
+385
+00:14:34,220 --> 00:14:36,520
+efficiency gain in terms
+
+386
+00:14:36,520 --> 00:14:38,360
+of number of cases.
+
+387
+00:14:38,360 --> 00:14:40,010
+Do we know what it costs
+
+388
+00:14:40,010 --> 00:14:41,480
+for us to make
+
+389
+00:14:41,480 --> 00:14:43,600
+a case of cans?
+
+390
+00:14:43,600 --> 00:14:45,300
+What are the different kinds
+
+391
+00:14:45,300 --> 00:14:46,720
+of costs that we need?
+
+392
+00:14:46,720 --> 00:14:49,290
+Sure. I would ignore labor
+
+393
+00:14:49,290 --> 00:14:50,670
+costs because it's both
+
+394
+00:14:50,670 --> 00:14:52,040
+of them have four operators.
+
+395
+00:14:52,040 --> 00:14:53,240
+Unless there's a change
+
+396
+00:14:53,240 --> 00:14:54,340
+in the scale of
+
+397
+00:14:54,340 --> 00:14:56,960
+the operator that we require.
+
+398
+00:14:56,960 --> 00:14:59,470
+Regardless, let's say, even
+
+399
+00:14:59,470 --> 00:15:01,240
+if the scale of operators
+
+400
+00:15:01,240 --> 00:15:04,360
+does not change, do you think
+
+401
+00:15:04,360 --> 00:15:07,400
+the cost will change or not?
+
+402
+00:15:07,400 --> 00:15:08,670
+It will actually change because
+
+403
+00:15:08,670 --> 00:15:10,440
+it's a variable cost per hour.
+
+404
+00:15:10,440 --> 00:15:15,760
+So we'll actually spend lesser in labor terms.
+
+405
+00:15:15,760 --> 00:15:17,480
+Fair enough. In fact,
+
+406
+00:15:17,480 --> 00:15:19,480
+even in terms of wastage,
+
+407
+00:15:19,480 --> 00:15:21,200
+I'd simplified a bit
+
+408
+00:15:21,200 --> 00:15:22,840
+for you so that we
+
+409
+00:15:22,840 --> 00:15:25,160
+don't get confused there.
+
+410
+00:15:25,160 --> 00:15:27,730
+Assume like the total number
+
+411
+00:15:27,730 --> 00:15:29,280
+of cases that we require,
+
+412
+00:15:29,280 --> 00:15:31,800
+which is 4.2 million.
+
+413
+00:15:31,800 --> 00:15:33,020
+In the first case,
+
+414
+00:15:33,020 --> 00:15:34,720
+10% of it gets wasted
+
+415
+00:15:34,720 --> 00:15:36,080
+in the second, 7%.
+
+416
+00:15:36,080 --> 00:15:38,040
+So just do 10% of that.
+
+417
+00:15:38,040 --> 00:15:39,280
+That'll be easier for me.
+
+418
+00:15:39,280 --> 00:15:42,440
+A 4.2 million. Sure.
+
+419
+00:15:42,440 --> 00:15:43,440
+Thank you for that.
+
+420
+00:15:43,440 --> 00:15:44,700
+So there are two major
+
+421
+00:15:44,700 --> 00:15:47,400
+cost buckets involved in canning.
+
+422
+00:15:47,400 --> 00:15:49,040
+First is the labor cost.
+
+423
+00:15:49,040 --> 00:15:53,040
+And then second is the machinery operating cost.
+
+424
+00:15:53,040 --> 00:15:54,840
+Running costs that would include
+
+425
+00:15:54,840 --> 00:15:59,340
+any maintenance but electricity
+
+426
+00:15:59,340 --> 00:16:02,120
+or the cost of operations.
+
+427
+00:16:02,120 --> 00:16:04,040
+That will materially change.
+
+428
+00:16:04,040 --> 00:16:05,280
+Apart from this, I'm assuming
+
+429
+00:16:05,280 --> 00:16:07,360
+that the raw material cost
+
+430
+00:16:07,360 --> 00:16:09,280
+would stay the same.
+
+431
+00:16:09,280 --> 00:16:11,120
+And the fixed overheads would stay the same.
+
+432
+00:16:11,120 --> 00:16:12,190
+So these are the two
+
+433
+00:16:12,190 --> 00:16:13,730
+main cost buckets that we
+
+434
+00:16:13,730 --> 00:16:15,600
+should ideally look at.
+
+435
+00:16:15,600 --> 00:16:17,680
+What do you think about cost of wastage?
+
+436
+00:16:17,680 --> 00:16:21,800
+How will you factor that?
+
+437
+00:16:21,800 --> 00:16:23,800
+For cost of wastage,
+
+438
+00:16:23,800 --> 00:16:25,390
+I would want to look
+
+439
+00:16:25,390 --> 00:16:27,920
+at it so what I would
+
+440
+00:16:27,920 --> 00:16:29,800
+want to do is calculate
+
+441
+00:16:29,800 --> 00:16:31,880
+the labor cost per hour
+
+442
+00:16:31,880 --> 00:16:34,160
+and machinery cost per hour.
+
+443
+00:16:34,160 --> 00:16:35,370
+And then see how many
+
+444
+00:16:35,370 --> 00:16:36,480
+hours it takes for us
+
+445
+00:16:36,480 --> 00:16:40,160
+to get to 4.2 million units
+
+446
+00:16:40,160 --> 00:16:42,520
+after accounting for the wastage.
+
+447
+00:16:42,520 --> 00:16:44,830
+And then basically, if
+
+448
+00:16:44,830 --> 00:16:46,960
+we have the allocated
+
+449
+00:16:46,960 --> 00:16:48,630
+or apportioned cost per hour,
+
+450
+00:16:48,630 --> 00:16:50,440
+then wastage will be accounted
+
+451
+00:16:50,440 --> 00:16:51,520
+for it in that respect.
+
+452
+00:16:51,520 --> 00:16:55,480
+Got it. I'll change the approach a bit.
+
+453
+00:16:55,480 --> 00:16:57,130
+Assume like no wastage
+
+454
+00:16:57,130 --> 00:16:59,720
+and calculate the number of hours
+
+455
+00:16:59,720 --> 00:17:00,850
+and calculate the cost
+
+456
+00:17:00,850 --> 00:17:03,920
+of labor based on that.
+
+457
+00:17:03,920 --> 00:17:06,430
+Ignore the utility, electricity,
+
+458
+00:17:06,430 --> 00:17:07,270
+and cost of running
+
+459
+00:17:07,270 --> 00:17:08,480
+the machine for now.
+
+460
+00:17:08,480 --> 00:17:10,780
+Just calculate the cost
+
+461
+00:17:10,780 --> 00:17:12,680
+of labor based on that.
+
+462
+00:17:12,680 --> 00:17:14,500
+And then the number of cans
+
+463
+00:17:14,500 --> 00:17:16,510
+that are wasted, assume a cost
+
+464
+00:17:16,510 --> 00:17:17,920
+to that and then calculate
+
+465
+00:17:17,920 --> 00:17:19,520
+what is the cost of wastage?
+
+466
+00:17:19,520 --> 00:17:23,200
+Does that sound good?
+
+467
+00:17:23,200 --> 00:17:26,480
+Sure, I think I get the broad context.
+
+468
+00:17:26,480 --> 00:17:27,500
+And I'll ask you a few
+
+469
+00:17:27,500 --> 00:17:28,400
+questions in a minute
+
+470
+00:17:28,400 --> 00:17:29,520
+if I need any help.
+
+471
+00:17:29,520 --> 00:17:31,520
+Let me give you the cost as well.
+
+472
+00:17:31,520 --> 00:17:34,040
+The cost of labor here
+
+473
+00:17:34,040 --> 00:17:36,160
+is $25 an hour.
+
+474
+00:17:36,160 --> 00:17:39,480
+And the cost of waste is about $20.
+
+475
+00:17:39,480 --> 00:17:47,640
+OK. OK. $20 a case.
+
+476
+00:17:47,640 --> 00:17:51,770
+OK. So 4.2 million divided
+
+477
+00:17:51,770 --> 00:17:55,280
+by 600 cases per hour gives
+
+478
+00:17:55,280 --> 00:17:59,320
+us 7,000 hours required to produce
+
+479
+00:17:59,320 --> 00:18:02,200
+the entire lot that we require.
+
+480
+00:18:02,200 --> 00:18:06,160
+I'll go ahead and multiply that by 25.
+
+481
+00:18:06,160 --> 00:18:10,920
+That gives us $175K.
+
+482
+00:18:10,920 --> 00:18:14,830
+OK. I do calculate
+
+483
+00:18:14,830 --> 00:18:16,245
+the number of hours
+
+484
+00:18:16,245 --> 00:18:17,320
+for 1,200 cases an hour.
+
+485
+00:18:17,320 --> 00:18:18,220
+I just have what we had
+
+486
+00:18:18,220 --> 00:18:22,160
+earlier 7,000 by 2 is 3,500.
+
+487
+00:18:22,160 --> 00:18:28,000
+And I multiply that by $25 per hour.
+
+488
+00:18:28,000 --> 00:18:29,190
+So again, I will basically
+
+489
+00:18:29,190 --> 00:18:30,440
+have the cost that we had
+
+490
+00:18:30,440 --> 00:18:35,040
+earlier from $175 to $87.5K
+
+491
+00:18:35,040 --> 00:18:36,680
+without accounting for wastage.
+
+492
+00:18:39,880 --> 00:18:43,360
+Is this total labor cost per,
+
+493
+00:18:43,360 --> 00:18:45,280
+like cost per labor?
+
+494
+00:18:45,280 --> 00:18:47,720
+This is cost per labor.
+
+495
+00:18:47,720 --> 00:18:51,310
+I multiply that by these numbers
+
+496
+00:18:51,310 --> 00:18:53,100
+by 4 to get
+
+497
+00:18:53,100 --> 00:18:55,720
+to the total labor cost.
+
+498
+00:18:55,720 --> 00:18:58,640
+In the first option, we get $700K.
+
+499
+00:18:58,640 --> 00:19:00,290
+And in the second option,
+
+500
+00:19:00,290 --> 00:19:04,040
+we'll basically get $350K.
+
+501
+00:19:04,040 --> 00:19:07,520
+Now I'll add the wastage
+
+502
+00:19:07,520 --> 00:19:10,400
+cost on top of it.
+
+503
+00:19:10,400 --> 00:19:13,720
+I'll just take a minute to do that.
+
+504
+00:19:13,720 --> 00:19:16,240
+So in the first case,
+
+505
+00:19:16,240 --> 00:19:19,200
+like in the older machine,
+
+506
+00:19:19,200 --> 00:19:21,680
+the wastage cost comes out
+
+507
+00:19:21,680 --> 00:19:23,480
+to be 10% of 4.2 million,
+
+508
+00:19:23,480 --> 00:19:25,780
+which is 420K multiplied
+
+509
+00:19:25,780 --> 00:19:27,070
+by $20 per case,
+
+510
+00:19:27,070 --> 00:19:29,960
+which is $8.4 million.
+
+511
+00:19:29,960 --> 00:19:31,740
+And in the new machinery,
+
+512
+00:19:31,740 --> 00:19:34,000
+with the new machinery, we bring
+
+513
+00:19:34,000 --> 00:19:36,800
+that down to $5.8 million.
+
+514
+00:19:36,800 --> 00:19:38,400
+We can round that up to,
+
+515
+00:19:38,400 --> 00:19:40,800
+I think, $5.9 million
+
+516
+00:19:40,800 --> 00:19:43,800
+for ease of calculation.
+
+517
+00:19:43,800 --> 00:19:44,890
+So I think wastage
+
+518
+00:19:44,890 --> 00:19:46,640
+is the major cost here
+
+519
+00:19:46,640 --> 00:19:48,950
+and not the cost of operating
+
+520
+00:19:48,950 --> 00:19:50,960
+the machinery as such.
+
+521
+00:19:50,960 --> 00:19:52,610
+So the total cost in,
+
+522
+00:19:52,610 --> 00:19:55,270
+with the older machine, comes out
+
+523
+00:19:55,270 --> 00:19:58,390
+to be $8.4 million plus $700K,
+
+524
+00:19:58,390 --> 00:20:02,240
+which is $9.1 million.
+
+525
+00:20:02,240 --> 00:20:04,920
+And with the new machinery,
+
+526
+00:20:04,920 --> 00:20:06,930
+the cost comes out to be
+
+527
+00:20:06,930 --> 00:20:12,280
+$5.9 plus $350, 6.25 million.
+
+528
+00:20:12,280 --> 00:20:14,590
+The difference between the two
+
+529
+00:20:14,590 --> 00:20:23,000
+is $2.85 million annually.
+
+530
+00:20:23,000 --> 00:20:24,800
+I would multiply, to compare
+
+531
+00:20:24,800 --> 00:20:27,060
+the two options, I would multiply
+
+532
+00:20:27,060 --> 00:20:28,810
+this number by 10,
+
+533
+00:20:28,810 --> 00:20:32,640
+giving us our total cost savings
+
+534
+00:20:32,640 --> 00:20:37,320
+of $28.5 million over 10 years.
+
+535
+00:20:37,320 --> 00:20:39,590
+And I'll go ahead and subtract
+
+536
+00:20:39,590 --> 00:20:41,480
+the initial cost of investment,
+
+537
+00:20:41,480 --> 00:20:43,130
+which was $18.7 million
+
+538
+00:20:43,130 --> 00:20:45,720
+after the scrap value.
+
+539
+00:20:45,720 --> 00:20:48,530
+Assume it to be $18.5 million.
+
+540
+00:20:48,530 --> 00:20:49,120
+I think, that would be sure.
+
+541
+00:20:49,120 --> 00:20:51,420
+$18.5, that would give us
+
+542
+00:20:51,420 --> 00:20:53,640
+$10 million in cost savings,
+
+543
+00:20:53,640 --> 00:20:55,290
+which is exactly the same
+
+544
+00:20:55,290 --> 00:20:57,760
+as what we heard with kegs.
+
+545
+00:20:57,760 --> 00:21:00,480
+You got it. Cool.
+
+546
+00:21:00,480 --> 00:21:03,840
+So what do you like to do next?
+
+547
+00:21:03,840 --> 00:21:08,640
+Given the financial numbers are aligning,
+
+548
+00:21:08,640 --> 00:21:10,360
+and both of them are leading
+
+549
+00:21:10,360 --> 00:21:12,720
+to same cost savings over
+
+550
+00:21:12,720 --> 00:21:14,360
+a period of 10 years,
+
+551
+00:21:14,360 --> 00:21:15,760
+I would want to assess
+
+552
+00:21:15,760 --> 00:21:17,430
+the operational feasibility of
+
+553
+00:21:17,430 --> 00:21:19,890
+both of these options
+
+554
+00:21:19,890 --> 00:21:23,240
+and compare the risks involved.
+
+555
+00:21:23,240 --> 00:21:24,490
+Given that most of these are
+
+556
+00:21:24,490 --> 00:21:27,280
+assumptions that we are taking,
+
+557
+00:21:27,280 --> 00:21:27,850
+we can do a bit
+
+558
+00:21:27,850 --> 00:21:31,160
+of a scenario analysis and see
+
+559
+00:21:31,160 --> 00:21:32,240
+which of these assumptions
+
+560
+00:21:32,240 --> 00:21:35,700
+are most likely to vary,
+
+561
+00:21:35,700 --> 00:21:37,400
+and then take a call
+
+562
+00:21:37,400 --> 00:21:39,600
+based on these considerations.
+
+563
+00:21:39,600 --> 00:21:40,760
+Cool. With the knowledge
+
+564
+00:21:40,760 --> 00:21:42,600
+that you have, let's look
+
+565
+00:21:42,600 --> 00:21:43,880
+at the final recommendation.
+
+566
+00:21:43,880 --> 00:21:45,530
+What would you recommend,
+
+567
+00:21:45,530 --> 00:21:46,880
+which option we go
+
+568
+00:21:46,880 --> 00:21:47,680
+ahead with and why?
+
+569
+00:21:47,680 --> 00:21:49,620
+Sure. I just take a minute
+
+570
+00:21:49,620 --> 00:21:52,080
+to structure my thoughts.
+
+571
+00:21:52,080 --> 00:21:54,730
+Sure. I'm assuming that we don't
+
+572
+00:21:54,730 --> 00:21:56,280
+need to consider those scrap
+
+573
+00:21:56,280 --> 00:21:58,040
+value of the new machine
+
+574
+00:21:58,040 --> 00:21:59,690
+that we have after 10
+
+575
+00:21:59,690 --> 00:22:01,440
+years of its useful life.
+
+576
+00:22:01,440 --> 00:22:04,460
+Yeah, sure. Before I make
+
+577
+00:22:04,460 --> 00:22:06,720
+my recommendation, I would also
+
+578
+00:22:06,720 --> 00:22:09,110
+want to understand-- and this
+
+579
+00:22:09,110 --> 00:22:10,200
+is critical to my recommendation
+
+580
+00:22:10,200 --> 00:22:12,700
+that are we seeing an increase
+
+581
+00:22:12,700 --> 00:22:14,440
+in demand from our customers
+
+582
+00:22:14,440 --> 00:22:15,320
+or do we assume
+
+583
+00:22:15,320 --> 00:22:16,880
+that demand will stay flat
+
+584
+00:22:16,880 --> 00:22:18,360
+for the next 10 years?
+
+585
+00:22:18,360 --> 00:22:20,920
+What is your hypothesis?
+
+586
+00:22:20,920 --> 00:22:25,600
+Beer actually is the most stable industry.
+
+587
+00:22:25,600 --> 00:22:27,930
+So I'm assuming that demand usually
+
+588
+00:22:27,930 --> 00:22:31,520
+remains flat, and does not grow
+
+589
+00:22:31,520 --> 00:22:35,780
+unless you have expansion plans into
+
+590
+00:22:35,780 --> 00:22:38,920
+any new territories or new channels.
+
+591
+00:22:38,920 --> 00:22:40,730
+So if we aren't doing
+
+592
+00:22:40,730 --> 00:22:42,510
+that, then the organic
+
+593
+00:22:42,510 --> 00:22:44,040
+growth should remain flat.
+
+594
+00:22:44,040 --> 00:22:45,800
+It's my hypothesis. We've
+
+595
+00:22:45,800 --> 00:22:47,240
+been seeing growth considering
+
+596
+00:22:47,240 --> 00:22:48,240
+in the last three years,
+
+597
+00:22:48,240 --> 00:22:50,710
+we've grown from 100K
+
+598
+00:22:50,710 --> 00:22:53,760
+barrels to 500K barrels.
+
+599
+00:22:53,760 --> 00:22:56,340
+But we don't know how that's
+
+600
+00:22:56,340 --> 00:22:57,640
+going to look like.
+
+601
+00:22:57,640 --> 00:22:59,350
+But they would be definitely some
+
+602
+00:22:59,350 --> 00:23:02,140
+growth in the next 10 years.
+
+603
+00:23:02,140 --> 00:23:04,480
+Great. So then my recommendation
+
+604
+00:23:04,480 --> 00:23:05,570
+to the client is
+
+605
+00:23:05,570 --> 00:23:08,200
+that we should go
+
+606
+00:23:08,200 --> 00:23:14,640
+with upgrading the canning system.
+
+607
+00:23:14,640 --> 00:23:16,320
+That's because it's not only
+
+608
+00:23:16,320 --> 00:23:18,200
+going to give us cost savings,
+
+609
+00:23:18,200 --> 00:23:19,490
+but it's also helping
+
+610
+00:23:19,490 --> 00:23:21,120
+us expand our capacity.
+
+611
+00:23:21,120 --> 00:23:24,780
+I see that we already operate
+
+612
+00:23:24,780 --> 00:23:29,200
+at about 7,000 hours a year.
+
+613
+00:23:29,200 --> 00:23:32,200
+And that divided by roughly 365
+
+614
+00:23:32,200 --> 00:23:34,238
+gives us about just a bit
+
+615
+00:23:34,238 --> 00:23:36,160
+over 20 hours a day.
+
+616
+00:23:36,160 --> 00:23:37,040
+So I'm assuming that we
+
+617
+00:23:37,040 --> 00:23:38,400
+are already operating close
+
+618
+00:23:38,400 --> 00:23:42,320
+to capacity given our machines.
+
+619
+00:23:42,320 --> 00:23:44,040
+And given that we are seeing
+
+620
+00:23:44,040 --> 00:23:46,640
+an increasing demand in the market,
+
+621
+00:23:46,640 --> 00:23:47,950
+and we are scaling
+
+622
+00:23:47,950 --> 00:23:50,280
+up exponentially every year,
+
+623
+00:23:50,280 --> 00:23:52,520
+we could use the increasing capacity
+
+624
+00:23:52,520 --> 00:23:54,440
+along with the cost savings.
+
+625
+00:23:54,440 --> 00:23:56,090
+Even though this is a more
+
+626
+00:23:56,090 --> 00:24:00,120
+risky investment, because only one number,
+
+627
+00:24:00,120 --> 00:24:01,880
+which is a wastage,
+
+628
+00:24:01,880 --> 00:24:05,080
+can vary our cost efficiencies
+
+629
+00:24:05,080 --> 00:24:07,200
+by a huge margin,
+
+630
+00:24:07,200 --> 00:24:09,760
+taking it from 10 to 7%
+
+631
+00:24:09,760 --> 00:24:10,790
+led to a cost savings
+
+632
+00:24:10,790 --> 00:24:13,320
+of 2.8 million annually,
+
+633
+00:24:13,320 --> 00:24:14,710
+which is a huge number
+
+634
+00:24:14,710 --> 00:24:16,320
+in a very small range.
+
+635
+00:24:16,320 --> 00:24:17,760
+So it's a more riskier investment,
+
+636
+00:24:17,760 --> 00:24:20,070
+but it's good for the long
+
+637
+00:24:20,070 --> 00:24:22,480
+term potential of the business.
+
+638
+00:24:22,480 --> 00:24:24,390
+On the other hand,
+
+639
+00:24:24,390 --> 00:24:28,860
+purchasing kegs outright, instead of leasing,
+
+640
+00:24:28,860 --> 00:24:31,080
+does save very predictably
+
+641
+00:24:31,080 --> 00:24:32,510
+costs of 10 million
+
+642
+00:24:32,510 --> 00:24:34,120
+dollars over 10 years.
+
+643
+00:24:34,120 --> 00:24:35,360
+And the damage or loss
+
+644
+00:24:35,360 --> 00:24:37,320
+is the key metric that will
+
+645
+00:24:37,320 --> 00:24:40,080
+sort of affect the variance
+
+646
+00:24:40,080 --> 00:24:42,880
+of this discussion, of this decision.
+
+647
+00:24:42,880 --> 00:24:45,440
+But that is not going to
+
+648
+00:24:45,440 --> 00:24:48,880
+make or break the decision.
+
+649
+00:24:48,880 --> 00:24:51,190
+So even though it's a safer
+
+650
+00:24:51,190 --> 00:24:52,970
+choice, it does not offer the
+
+651
+00:24:52,970 --> 00:24:55,730
+growth potential that the canning offers,
+
+652
+00:24:55,730 --> 00:24:56,960
+which is why I recommend
+
+653
+00:24:56,960 --> 00:24:58,610
+that the client goes
+
+654
+00:24:58,610 --> 00:25:00,400
+with the canning upgrade.
+
+655
+00:25:00,400 --> 00:25:03,040
+Go ahead. Cool. Sounds good, Aditya.
+
+656
+00:25:03,040 --> 00:25:03,969
+Thank you so much.
+
+657
+00:25:03,969 --> 00:25:05,421
+I think you did well
+
+658
+00:25:05,421 --> 00:25:07,064
+in terms of case.
+
+659
+00:25:07,064 --> 00:25:10,664
+Your strength is your analytical thinking
+
+660
+00:25:10,664 --> 00:25:13,304
+and your business insights.
+
+661
+00:25:13,304 --> 00:25:15,604
+They were so spot
+
+662
+00:25:15,604 --> 00:25:17,284
+on in this case,
+
+663
+00:25:17,284 --> 00:25:19,224
+which I really like.
+
+664
+00:25:19,224 --> 00:25:21,744
+I'll give you examples of that as well.
+
+665
+00:25:21,744 --> 00:25:23,374
+I'd play to it as much
+
+666
+00:25:23,374 --> 00:25:25,304
+as you find, right?
+
+667
+00:25:25,304 --> 00:25:26,424
+The kind of insights
+
+668
+00:25:26,424 --> 00:25:27,984
+that you give during the case,
+
+669
+00:25:27,984 --> 00:25:29,644
+I'll take a few examples,
+
+670
+00:25:29,644 --> 00:25:31,144
+I've written those down.
+
+671
+00:25:31,144 --> 00:25:32,954
+So for example, when
+
+672
+00:25:32,954 --> 00:25:35,344
+we were doing the keg calculation,
+
+673
+00:25:35,344 --> 00:25:36,404
+you told me, hey,
+
+674
+00:25:36,404 --> 00:25:37,264
+we need to look
+
+675
+00:25:37,264 --> 00:25:38,704
+at any exit costs
+
+676
+00:25:38,704 --> 00:25:41,704
+that are involved with the contract.
+
+677
+00:25:41,704 --> 00:25:42,584
+Then when I asked
+
+678
+00:25:42,584 --> 00:25:43,654
+you what other costs could you
+
+679
+00:25:43,654 --> 00:25:45,144
+look with purchasing the kegs?
+
+680
+00:25:45,144 --> 00:25:48,824
+You told me depreciation, storage, things like that.
+
+681
+00:25:48,824 --> 00:25:50,264
+Why it sounds very simple?
+
+682
+00:25:50,264 --> 00:25:51,294
+Not everyone is able
+
+683
+00:25:51,294 --> 00:25:53,024
+to think about it, right?
+
+684
+00:25:53,024 --> 00:25:57,064
+So that's the first example of it.
+
+685
+00:25:57,064 --> 00:25:59,374
+The second example you outright
+
+686
+00:25:59,374 --> 00:26:00,474
+said here is there any
+
+687
+00:26:00,474 --> 00:26:02,464
+in the second calculation
+
+688
+00:26:02,464 --> 00:26:03,024
+that we were doing
+
+689
+00:26:03,024 --> 00:26:04,264
+regarding the canning system?
+
+690
+00:26:04,264 --> 00:26:06,064
+You outright said, what are we
+
+691
+00:26:06,064 --> 00:26:07,104
+going to do with the old
+
+692
+00:26:07,104 --> 00:26:08,194
+machinery if we are
+
+693
+00:26:08,194 --> 00:26:09,224
+going to upgrade it?
+
+694
+00:26:09,224 --> 00:26:11,424
+And you right away subtracted that cost.
+
+695
+00:26:11,424 --> 00:26:13,624
+Again, an excellent question.
+
+696
+00:26:13,624 --> 00:26:15,274
+A lot of people are not
+
+697
+00:26:15,274 --> 00:26:17,664
+able to think about it, right?
+
+698
+00:26:17,664 --> 00:26:20,904
+So I think your analytical reasoning,
+
+699
+00:26:20,904 --> 00:26:23,974
+the third, amazing, like I don't
+
+700
+00:26:23,974 --> 00:26:25,264
+think anyone has ever done
+
+701
+00:26:25,264 --> 00:26:26,664
+that whenever I do this case,
+
+702
+00:26:26,664 --> 00:26:31,634
+while giving recommendation, you told me,
+
+703
+00:26:31,634 --> 00:26:33,454
+hey, we are running at 7,000
+
+704
+00:26:33,454 --> 00:26:34,944
+hours, which is about 20
+
+705
+00:26:34,944 --> 00:26:36,664
+hours a day of capacity.
+
+706
+00:26:36,664 --> 00:26:38,824
+So we have already at capacity.
+
+707
+00:26:38,824 --> 00:26:39,754
+And that is why it makes
+
+708
+00:26:39,754 --> 00:26:41,064
+sense for us to move.
+
+709
+00:26:41,064 --> 00:26:44,224
+No one has ever thought of it.
+
+710
+00:26:44,224 --> 00:26:46,744
+Till now that I've done this case.
+
+711
+00:26:46,744 --> 00:26:49,414
+So your analytical thinking
+
+712
+00:26:49,414 --> 00:26:52,484
+and your business acumen is something
+
+713
+00:26:52,484 --> 00:26:54,944
+that sets you apart.
+
+714
+00:26:54,944 --> 00:26:58,864
+I judge a lot on those metrics, right?
+
+715
+00:26:58,864 --> 00:27:01,144
+And a lot of interviewers do as well.
+
+716
+00:27:01,144 --> 00:27:02,974
+Because the key KPI
+
+717
+00:27:02,974 --> 00:27:04,844
+in the interview that
+
+718
+00:27:04,844 --> 00:27:05,914
+you are trying to solve
+
+719
+00:27:05,914 --> 00:27:08,264
+for is did the interviewer
+
+720
+00:27:08,264 --> 00:27:10,664
+enjoy speaking to this person?
+
+721
+00:27:10,664 --> 00:27:12,624
+Did I enjoy speaking to you?
+
+722
+00:27:12,624 --> 00:27:14,464
+And did I feel that you go yourself?
+
+723
+00:27:14,464 --> 00:27:18,344
+And this shows structure, don't optimize,
+
+724
+00:27:18,344 --> 00:27:19,904
+or go over-optimize, right?
+
+725
+00:27:19,904 --> 00:27:21,664
+I don't really care about structure,
+
+726
+00:27:21,664 --> 00:27:22,254
+because at the end
+
+727
+00:27:22,254 --> 00:27:22,934
+of the day, I want to
+
+728
+00:27:22,934 --> 00:27:24,264
+have a good one this week.
+
+729
+00:27:24,264 --> 00:27:27,184
+So those are some good things.
+
+730
+00:27:27,184 --> 00:27:29,342
+Few things which can make
+
+731
+00:27:29,342 --> 00:27:31,864
+your case solving much better.
+
+732
+00:27:31,864 --> 00:27:33,734
+Right now, it seems
+
+733
+00:27:33,734 --> 00:27:35,454
+like I am speaking
+
+734
+00:27:35,454 --> 00:27:37,104
+to a very smart person,
+
+735
+00:27:37,104 --> 00:27:40,144
+but does not seem
+
+736
+00:27:40,144 --> 00:27:42,584
+like I'm talking to a
+
+737
+00:27:42,584 --> 00:27:46,944
+very well-practiced case solver, right?
+
+738
+00:27:46,944 --> 00:27:50,064
+So if we merge the two,
+
+739
+00:27:50,064 --> 00:27:51,944
+it's going to be like excellent.
+
+740
+00:27:51,944 --> 00:27:54,144
+And the second part is easy.
+
+741
+00:27:54,144 --> 00:27:55,464
+The first part is difficult,
+
+742
+00:27:55,464 --> 00:27:57,504
+which you already have, right?
+
+743
+00:27:57,504 --> 00:27:59,704
+So few things. For example,
+
+744
+00:27:59,704 --> 00:28:01,104
+when you're doing the case,
+
+745
+00:28:01,104 --> 00:28:03,664
+bring in your personality slightly more,
+
+746
+00:28:03,664 --> 00:28:05,304
+which is you recap the case.
+
+747
+00:28:05,304 --> 00:28:07,014
+Hey, thank you so much
+
+748
+00:28:07,014 --> 00:28:09,224
+for doing this case with me.
+
+749
+00:28:09,224 --> 00:28:11,724
+Sound super interesting, beer is something
+
+750
+00:28:11,724 --> 00:28:12,504
+I am also into.
+
+751
+00:28:12,504 --> 00:28:13,834
+So I'll be very happy
+
+752
+00:28:13,834 --> 00:28:15,264
+to dive into the case.
+
+753
+00:28:15,264 --> 00:28:16,914
+Or this is something I don't
+
+754
+00:28:16,914 --> 00:28:18,164
+drink, but it'll be fine
+
+755
+00:28:18,164 --> 00:28:19,784
+to do this case, right?
+
+756
+00:28:19,784 --> 00:28:20,974
+Some of the personality
+
+757
+00:28:20,974 --> 00:28:21,904
+that you bring in,
+
+758
+00:28:21,904 --> 00:28:22,544
+we have the problem
+
+759
+00:28:22,544 --> 00:28:24,744
+that you bring in some person.
+
+760
+00:28:24,744 --> 00:28:27,384
+Second, I think your clarification
+
+761
+00:28:27,384 --> 00:28:29,064
+questions again were very good.
+
+762
+00:28:29,064 --> 00:28:30,984
+You focused a lot on revenue
+
+763
+00:28:30,984 --> 00:28:32,264
+in your clarification question,
+
+764
+00:28:32,264 --> 00:28:33,914
+but I specifically mentioned
+
+765
+00:28:33,914 --> 00:28:34,504
+in the case here,
+
+766
+00:28:34,504 --> 00:28:36,154
+we are just looking
+
+767
+00:28:36,154 --> 00:28:38,744
+at cost efficiencies, right?
+
+768
+00:28:38,744 --> 00:28:40,509
+So that was a very small
+
+769
+00:28:40,509 --> 00:28:42,324
+hiccup, but I don't think it
+
+770
+00:28:42,324 --> 00:28:44,944
+changes the outcome of the case.
+
+771
+00:28:44,944 --> 00:28:48,224
+Your initial structure wasn't very comprehensive.
+
+772
+00:28:48,224 --> 00:28:50,624
+Initial framework. So what is happening
+
+773
+00:28:50,624 --> 00:28:51,394
+is I'm going to look
+
+774
+00:28:51,394 --> 00:28:53,184
+at the cost and look
+
+775
+00:28:53,184 --> 00:28:54,264
+at what the cost is.
+
+776
+00:28:54,264 --> 00:28:55,914
+You did not talk about operational
+
+777
+00:28:55,914 --> 00:28:58,704
+capabilities or risks initially.
+
+778
+00:28:58,704 --> 00:28:59,954
+You spoke about it when
+
+779
+00:28:59,954 --> 00:29:01,184
+I said, what would you
+
+780
+00:29:01,184 --> 00:29:01,984
+like to do next
+
+781
+00:29:01,984 --> 00:29:03,264
+in the end, right?
+
+782
+00:29:03,264 --> 00:29:04,884
+So why you know here
+
+783
+00:29:04,884 --> 00:29:06,424
+we are going to compare cost,
+
+784
+00:29:06,424 --> 00:29:08,074
+but give all the things
+
+785
+00:29:08,074 --> 00:29:09,794
+that you would like to put
+
+786
+00:29:09,794 --> 00:29:12,234
+in your approach while you're solving
+
+787
+00:29:12,234 --> 00:29:13,664
+that case, which will help
+
+788
+00:29:13,664 --> 00:29:15,424
+you reach the decision.
+
+789
+00:29:15,424 --> 00:29:20,944
+Because eventually you ended up doing that, right?
+
+790
+00:29:20,944 --> 00:29:23,824
+The initial approach should be comprehensive,
+
+791
+00:29:23,824 --> 00:29:25,484
+even though you want
+
+792
+00:29:25,484 --> 00:29:26,984
+to focus on one.
+
+793
+00:29:26,984 --> 00:29:34,064
+Sure, I think I get
+
+794
+00:29:34,064 --> 00:29:35,524
+where what you were trying
+
+795
+00:29:35,524 --> 00:29:36,959
+to do with the second
+
+796
+00:29:36,959 --> 00:29:39,934
+canning system of understanding whether
+
+797
+00:29:39,934 --> 00:29:42,264
+600 cases were are before
+
+798
+00:29:42,264 --> 00:29:43,664
+or after the wastage,
+
+799
+00:29:43,664 --> 00:29:45,314
+but that would have made
+
+800
+00:29:45,314 --> 00:29:47,344
+your calculation very good.
+
+801
+00:29:47,344 --> 00:29:49,864
+That is, I said, don't go that way.
+
+802
+00:29:49,864 --> 00:29:51,644
+Just multiply it by 20
+
+803
+00:29:51,644 --> 00:29:53,304
+and move it into that.
+
+804
+00:29:53,304 --> 00:29:54,504
+But I'm at the start.
+
+805
+00:29:54,504 --> 00:29:57,784
+So allegedly, I said, that makes sense.
+
+806
+00:29:57,784 --> 00:29:59,784
+But I just try to solve
+
+807
+00:29:59,784 --> 00:30:01,744
+for the complication of it.
+
+808
+00:30:01,744 --> 00:30:04,054
+Next thing, what you should look
+
+809
+00:30:04,054 --> 00:30:06,984
+at is your communication slightly.
+
+810
+00:30:06,984 --> 00:30:08,704
+And when I say communication,
+
+811
+00:30:08,704 --> 00:30:11,204
+record yourself, if you can,
+
+812
+00:30:11,204 --> 00:30:12,864
+if you're doing online cases
+
+813
+00:30:12,864 --> 00:30:14,694
+with people, there's a lot
+
+814
+00:30:14,694 --> 00:30:15,984
+of errors that comes.
+
+815
+00:30:15,984 --> 00:30:18,284
+It does not change a lot,
+
+816
+00:30:18,284 --> 00:30:19,744
+but if you can fix that,
+
+817
+00:30:19,744 --> 00:30:21,464
+that's going to be amazing.
+
+818
+00:30:21,464 --> 00:30:24,344
+I wouldn't optimize or prioritize that,
+
+819
+00:30:24,344 --> 00:30:26,424
+but just a point to go.
+
+820
+00:30:26,424 --> 00:30:28,304
+Second thing in terms of communication,
+
+821
+00:30:28,304 --> 00:30:29,224
+which you can solve
+
+822
+00:30:29,224 --> 00:30:31,504
+and you should solve very fast,
+
+823
+00:30:31,504 --> 00:30:33,834
+is you ended up calculating
+
+824
+00:30:33,834 --> 00:30:35,764
+10 million as a saving
+
+825
+00:30:35,764 --> 00:30:36,824
+for both of them.
+
+826
+00:30:36,824 --> 00:30:37,854
+And you waited for me
+
+827
+00:30:37,854 --> 00:30:40,144
+to give you guidance on what?
+
+828
+00:30:40,144 --> 00:30:41,294
+You have to tell me
+
+829
+00:30:41,294 --> 00:30:43,064
+what you need to do next.
+
+830
+00:30:43,064 --> 00:30:44,824
+So always lead the case.
+
+831
+00:30:44,824 --> 00:30:46,424
+This is for case leadership.
+
+832
+00:30:46,424 --> 00:30:49,264
+I give this feedback to almost everyone.
+
+833
+00:30:49,264 --> 00:30:51,064
+Where you are driving the case.
+
+834
+00:30:51,064 --> 00:30:52,544
+I'm not driving the case.
+
+835
+00:30:52,544 --> 00:30:53,524
+So you tell me,
+
+836
+00:30:53,524 --> 00:30:55,464
+you know, both the scenarios
+
+837
+00:30:55,464 --> 00:30:57,384
+we are saving 10 million dollars.
+
+838
+00:30:57,384 --> 00:30:58,384
+I think as next step
+
+839
+00:30:58,384 --> 00:30:59,684
+to understand which one
+
+840
+00:30:59,684 --> 00:31:00,864
+is going to be
+
+841
+00:31:00,864 --> 00:31:02,344
+the best fit for us.
+
+842
+00:31:02,344 --> 00:31:03,254
+I would like to also
+
+843
+00:31:03,254 --> 00:31:04,984
+look at operational capabilities
+
+844
+00:31:04,984 --> 00:31:06,974
+and do some sensitivity analysis
+
+845
+00:31:06,974 --> 00:31:08,184
+on the numbers that we've done,
+
+846
+00:31:08,184 --> 00:31:09,144
+whatever you want to do.
+
+847
+00:31:09,144 --> 00:31:10,424
+But you tell me
+
+848
+00:31:10,424 --> 00:31:11,854
+that we could give
+
+849
+00:31:11,854 --> 00:31:12,984
+you some other direction
+
+850
+00:31:12,984 --> 00:31:13,904
+or agree with you.
+
+851
+00:31:13,904 --> 00:31:15,764
+That's not matter, but you give
+
+852
+00:31:15,764 --> 00:31:16,624
+them the next step.
+
+853
+00:31:16,624 --> 00:31:17,924
+And don't wait for me
+
+854
+00:31:17,924 --> 00:31:19,544
+to tell you what you
+
+855
+00:31:19,544 --> 00:31:21,144
+like to do next.
+
+856
+00:31:21,144 --> 00:31:22,794
+So that's a quick fix
+
+857
+00:31:22,794 --> 00:31:24,264
+that you should always move.
+
+858
+00:31:24,264 --> 00:31:30,024
+After every sort of communication layer,
+
+859
+00:31:30,024 --> 00:31:31,824
+close it with a loop of
+
+860
+00:31:31,824 --> 00:31:34,384
+next step or with a question
+
+861
+00:31:34,384 --> 00:31:36,024
+if you have any.
+
+862
+00:31:36,024 --> 00:31:38,334
+That's also a very good point
+
+863
+00:31:38,334 --> 00:31:41,144
+or a very strong part
+
+864
+00:31:41,144 --> 00:31:43,014
+of your case solving
+
+865
+00:31:43,014 --> 00:31:43,714
+that you ask a lot
+
+866
+00:31:43,714 --> 00:31:45,584
+of relevant questions during the case
+
+867
+00:31:45,584 --> 00:31:46,904
+as well, which is something
+
+868
+00:31:46,904 --> 00:31:49,224
+that you should still do.
+
+869
+00:31:49,224 --> 00:31:52,304
+And finally, I think very small
+
+870
+00:31:52,304 --> 00:31:55,544
+nitpick regarding the case, you assume
+
+871
+00:31:55,544 --> 00:31:57,704
+or your hypothesis was widely
+
+872
+00:31:57,704 --> 00:31:59,464
+of that here, you know,
+
+873
+00:31:59,464 --> 00:32:01,664
+beer industry is not going.
+
+874
+00:32:01,664 --> 00:32:04,424
+Whereas I've given you those numbers, right?
+
+875
+00:32:04,424 --> 00:32:05,834
+Yeah. And the industry
+
+876
+00:32:05,834 --> 00:32:07,064
+is not going to do that.
+
+877
+00:32:07,064 --> 00:32:09,744
+And you don't know about the US industry.
+
+878
+00:32:09,744 --> 00:32:15,624
+So look at the information from the case.
+
+879
+00:32:15,624 --> 00:32:17,274
+Right. But I think overall
+
+880
+00:32:17,274 --> 00:32:18,744
+I'm very happy in terms
+
+881
+00:32:18,744 --> 00:32:20,644
+of how you think,
+
+882
+00:32:20,644 --> 00:32:22,164
+how you look at
+
+883
+00:32:22,164 --> 00:32:24,764
+the problem, the only things
+
+884
+00:32:24,764 --> 00:32:26,094
+that you need to work
+
+885
+00:32:26,094 --> 00:32:30,944
+on are one communication, second approach.
+
+886
+00:32:30,944 --> 00:32:33,064
+You're giving your approach.
+
+887
+00:32:33,064 --> 00:32:38,104
+And third, just bring out more personality.
+
+888
+00:32:38,104 --> 00:32:39,904
+That's it. Got it.
+
+889
+00:32:39,904 --> 00:32:41,064
+Does that make sense?
+
+890
+00:32:41,064 --> 00:32:43,944
+Yeah, that's very helpful.
+
+891
+00:32:43,944 --> 00:32:44,774
+I think in terms
+
+892
+00:32:44,774 --> 00:32:45,594
+of the columns, I
+
+893
+00:32:45,594 --> 00:32:47,464
+do usually lead the case.
+
+894
+00:32:47,464 --> 00:32:51,744
+But I should have done it here, actually.
+
+895
+00:32:51,744 --> 00:32:53,474
+But in marketing cases,
+
+896
+00:32:53,474 --> 00:32:55,584
+for example, I'm not always
+
+897
+00:32:55,584 --> 00:32:57,344
+sure what to do next.
+
+898
+00:32:57,344 --> 00:32:58,144
+And if I think that,
+
+899
+00:32:58,144 --> 00:32:58,944
+OK, I should start
+
+900
+00:32:58,944 --> 00:33:01,364
+with the operational feasibility now after
+
+901
+00:33:01,364 --> 00:33:04,534
+completing the financial feasibility, it usually
+
+902
+00:33:04,534 --> 00:33:06,224
+goes in some other direction.
+
+903
+00:33:06,224 --> 00:33:08,664
+And sometimes the interviewer also lets
+
+904
+00:33:08,664 --> 00:33:10,054
+you go on and then say
+
+905
+00:33:10,054 --> 00:33:11,174
+that you didn't ask me
+
+906
+00:33:11,174 --> 00:33:12,704
+what you should be doing.
+
+907
+00:33:12,704 --> 00:33:14,354
+So how do we maintain
+
+908
+00:33:14,354 --> 00:33:16,634
+that balance in leading versus
+
+909
+00:33:16,634 --> 00:33:17,676
+sort of keeping it open
+
+910
+00:33:17,676 --> 00:33:18,834
+for the interviewer or to let
+
+911
+00:33:18,834 --> 00:33:20,094
+you where, or to tell
+
+912
+00:33:20,094 --> 00:33:21,184
+you where to go?
+
+913
+00:33:21,184 --> 00:33:23,304
+It's just a framing issue.
+
+914
+00:33:23,304 --> 00:33:24,584
+It's a question frame.
+
+915
+00:33:24,584 --> 00:33:26,264
+They do the financial feasibility.
+
+916
+00:33:26,264 --> 00:33:27,384
+And you say, hey,
+
+917
+00:33:27,384 --> 00:33:28,584
+the revenues are coming
+
+918
+00:33:28,584 --> 00:33:30,024
+out to be $200.
+
+919
+00:33:30,024 --> 00:33:32,184
+I will say, next, this looks good.
+
+920
+00:33:32,184 --> 00:33:33,064
+But to make sure
+
+921
+00:33:33,064 --> 00:33:34,424
+we are being comprehensive
+
+922
+00:33:34,424 --> 00:33:35,984
+about how we approach this problem,
+
+923
+00:33:35,984 --> 00:33:37,174
+I would like to look
+
+924
+00:33:37,174 --> 00:33:39,864
+at the operational capabilities next.
+
+925
+00:33:39,864 --> 00:33:41,524
+If that sounds good to you,
+
+926
+00:33:41,524 --> 00:33:42,944
+I can go ahead with that.
+
+927
+00:33:42,944 --> 00:33:44,264
+Happy to get your thoughts.
+
+928
+00:33:44,264 --> 00:33:45,334
+So you give the next
+
+929
+00:33:45,334 --> 00:33:46,614
+steps and then ask,
+
+930
+00:33:46,614 --> 00:33:47,784
+does that sound good?
+
+931
+00:33:47,784 --> 00:33:49,346
+And then, sure, if the interviewer
+
+932
+00:33:49,346 --> 00:33:50,814
+takes you in some other direction,
+
+933
+00:33:50,814 --> 00:33:52,104
+that's something different about it.
+
+934
+00:33:52,104 --> 00:33:53,944
+Got it. And push,
+
+935
+00:33:53,944 --> 00:33:56,504
+where should you go next?
+
+936
+00:33:56,504 --> 00:33:57,774
+That depends on your approach,
+
+937
+00:33:57,774 --> 00:33:58,664
+what are you doing?
+
+938
+00:33:58,664 --> 00:33:59,984
+So your approach will tell you
+
+939
+00:33:59,984 --> 00:34:01,864
+where you should be doing this.
+
+940
+00:34:01,864 --> 00:34:03,384
+It's not in the case,
+
+941
+00:34:03,384 --> 00:34:04,664
+and you build some approach,
+
+942
+00:34:04,664 --> 00:34:05,544
+and your next step
+
+943
+00:34:05,544 --> 00:34:07,004
+is completely off from what
+
+944
+00:34:07,004 --> 00:34:08,504
+the approach should be.
+
+945
+00:34:08,504 --> 00:34:09,464
+Even if it is,
+
+946
+00:34:09,464 --> 00:34:11,064
+then say, hey, I like
+
+947
+00:34:11,064 --> 00:34:12,024
+to change my approach
+
+948
+00:34:12,024 --> 00:34:13,204
+of it based on the information
+
+949
+00:34:13,204 --> 00:34:14,184
+that we have now.
+
+950
+00:34:14,184 --> 00:34:17,024
+I'd like to evaluate this instead of this.
+
+951
+00:34:17,024 --> 00:34:19,304
+And make that sounds good to you.
+
+952
+00:34:19,304 --> 00:34:22,024
+Got it. That's helpful.
+
+953
+00:34:22,024 --> 00:34:25,384
+So it's almost always apart
+
+954
+00:34:25,384 --> 00:34:27,504
+from your calculation errors
+
+955
+00:34:27,504 --> 00:34:29,384
+or your general frame,
+
+956
+00:34:29,384 --> 00:34:32,304
+almost always a communication.
+
+957
+00:34:32,304 --> 00:34:35,944
+And you can just frame things very differently.

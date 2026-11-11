@@ -1,0 +1,32 @@
+<!-- @dsCard group="Context" height=460 width=1080 subtitle="Types the prompt with key words highlighted; send button fills when done" -->
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Prompt box</title>
+<style>html,body{margin:0}body{background:var(--bg);color:var(--ink);font-family:var(--font-sans)}
+.f{position:relative;width:1080px;box-sizing:border-box;padding:64px;overflow:hidden}
+.grid{position:absolute;left:0;top:0;width:1080px;pointer-events:none}
+.grid line{stroke:var(--line);stroke-width:var(--stroke-hair)}
+.lab{font-size:32px;font-weight:500;letter-spacing:.04em;color:var(--ink-muted);margin:0}
+.cap{font-size:32px;line-height:1.3;color:var(--ink-muted);margin:0}
+.pen{fill:none;stroke:var(--signal);stroke-width:var(--stroke-pen);stroke-linecap:round;stroke-linejoin:round}
+.it{font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit}
+.sig{color:var(--signal)}
+@keyframes up{0%,4%{opacity:0;transform:translateY(24px)}14%,88%{opacity:1;transform:none}96%,100%{opacity:0;transform:none}}
+.cm{position:absolute;left:-10px;top:-10px;width:calc(100% + 20px);height:calc(100% + 20px);overflow:visible}.cm path{fill:none;stroke:var(--ink);stroke-width:2px;vector-effect:non-scaling-stroke}
+.tag{position:absolute;padding:8px 16px;background:var(--signal-marker);font-size:32px;font-weight:600;color:var(--ink);white-space:nowrap}
+.ticks{position:absolute;inset:0;pointer-events:none}.ticks i{position:absolute;width:24px;height:24px;border-color:var(--ink);border-style:solid;border-width:0}
+.ticks i:nth-child(1){left:-2px;top:-2px;border-left-width:4px;border-top-width:4px}.ticks i:nth-child(2){right:-2px;top:-2px;border-right-width:4px;border-top-width:4px}
+.ticks i:nth-child(3){left:-2px;bottom:-2px;border-left-width:4px;border-bottom-width:4px}.ticks i:nth-child(4){right:-2px;bottom:-2px;border-right-width:4px;border-bottom-width:4px}
+@keyframes snap{0%,3%{opacity:0;transform:translateY(16px)}7%,90%{opacity:1;transform:none}96%,100%{opacity:0}}
+.f{height:460px;display:flex;align-items:center}.pb{display:flex;gap:32px;align-items:flex-start;width:880px;background:var(--surface-2,var(--brand-paper));background:#fffdf8;padding:32px;box-shadow:var(--shadow-float);border-radius:24px;position:relative}
+[data-theme=ink] .pb{background:var(--surface)}
+.ic{flex:none;width:150px;height:150px;background:var(--signal-marker);display:flex;align-items:center;justify-content:center;border-radius:12px}
+.tx{font-size:48px;line-height:1.3;min-height:190px;flex:1}.tx mark{border-radius:var(--radius-highlight, 6px);-webkit-box-decoration-break:clone;box-decoration-break:clone;background:var(--signal-marker);color:inherit}.cur{display:inline-block;width:4px;height:52px;background:var(--ink);vertical-align:-8px;animation:bl .8s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}.send{position:absolute;right:28px;bottom:28px;width:64px;height:64px;border-radius:50%;background:var(--ink-ghost);display:flex;align-items:center;justify-content:center;transition:background .15s var(--ease-smooth, cubic-bezier(0.65, 0, 0.35, 1))}
+.send.on{background:var(--ink)}.send svg path{stroke:var(--bg);stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}</style></head>
+<body>
+<div class="f"><div class="pb"><div class="ic"><svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true"><path d="M40 8 L72 26 L40 44 L8 26 Z M8 26 V54 L40 72 L72 54 V26 M40 44 V72" fill="none" stroke="var(--ink)" stroke-width="4" stroke-linejoin="round"/></svg></div>
+<div class="tx" id="tx"></div><div class="send" id="sd"><svg width="30" height="30" viewBox="0 0 30 30"><path d="M15 25 V6 M7 13 L15 5 L23 13"/></svg></div></div></div>
+<script>var parts=[['Create a ',0],['diagram',1],[' that explains how ',0],['photosynthesis',1],[' works',0]];var tx=document.getElementById('tx'),sd=document.getElementById('sd');
+function run(){tx.innerHTML='';sd.classList.remove('on');var q=[];parts.forEach(function(p){for(var i=0;i<p[0].length;i++)q.push([p[0][i],p[1]])});var html='',mk=false,i=0;
+var t=setInterval(function(){if(i>=q.length){clearInterval(t);sd.classList.add('on');tx.innerHTML=html;return}var c=q[i++];if(c[1]&&!mk){html+='<mark>';mk=true}if(!c[1]&&mk){html+='</mark>';mk=false}html+=c[0];tx.innerHTML=html+(mk?'</mark>':'')+'<span class=cur></span>'},38)}run();setInterval(run,5200);</script>
+</body></html>

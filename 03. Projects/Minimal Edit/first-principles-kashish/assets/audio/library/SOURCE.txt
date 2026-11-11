@@ -1,0 +1,2 @@
+Library SFX from minimal-edit-system/SFX (supplied by Rishi), converted to 48 kHz mono WAV with no gain change:
+Hi-Tech Click .wav→hitech-click, flick.MP3→flick, Highlighter.mp3→highlighter, Riser + Tick.MP3→riser-tick, Swoosh.mp3→swoosh, Woosh.MP3→woosh, Pop different-.mp3→pop-round, Modern technology pop.mp3→tech-pop, Mouse click different-.mp3→mouse-click, multi flicker.MP3→multi-flicker

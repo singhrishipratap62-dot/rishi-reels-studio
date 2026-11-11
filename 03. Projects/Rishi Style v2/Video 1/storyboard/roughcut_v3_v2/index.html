@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>roughcut_v3 Options Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700;1,800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF0F5;--card:#fff;--line:#E2E5EC;--ink:#14161C;--mute:#6A7080;--keep:#1F9D6B;--maybe:#D99A1E;--no:#D2464C;
+ /* minimal editorial */--me-blue:#0B52F9;--me-paper:#F7F6F4;--me-dark:#141414;
+ /* rishi v1.3 */--r-ink:#0B1224;--r-ice:#EAF0F8;--r-acc:#3E7BFA;--r-card:#121C38;--r-txt:#F2F6FC;--r-red:#E5484D;--r-green:#2FD08A;
+ /* presley gradnext */--p-paper:#F4F1E4;--p-mist:#DCE6F0;--p-blue:#363EA7;--p-blue2:#5961ED;--p-ink:#2E3558;--p-yel:#FFA601;--p-hl:#FFD68A;--p-crim:#A52D40;
+ /* paper stage */--ps-lav:#F6F4FA;--ps-mint:#8ED9BF;--clay:#D97757}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.top{position:sticky;top:0;z-index:20;background:rgba(238,240,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .in{max-width:1500px;margin:auto;padding:12px 24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.top h1{font-size:20px;margin:0;font-weight:800;letter-spacing:-.02em}
+.top .count{font-size:13px;color:var(--mute)}
+.top button{font:600 13px Inter;border:0;border-radius:10px;padding:9px 14px;cursor:pointer;background:var(--ink);color:#fff}
+.top button.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.wrap{max-width:1500px;margin:auto;padding:16px 24px 80px}
+.intro{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:8px 0 24px}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:13.5px;line-height:1.5}
+.box h3{margin:0 0 6px;font-size:14px}
+.src{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:6px;padding:2px 7px;margin-right:4px}
+.s-me{background:#E3EBFF;color:#0B52F9}.s-r{background:#E6ECF7;color:#0B1224}.s-p{background:#FFF1D6;color:#8A5A00}.s-ps{background:#E2F5EE;color:#1E5B47}.s-d1{background:#F1E4FF;color:#6A2BB0}
+section.beat{margin:34px 0 0}
+.bh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+.bh h2{margin:0;font-size:22px;letter-spacing:-.02em}
+.bh .t{font-size:13px;color:var(--mute);font-variant-numeric:tabular-nums}
+.line{font-size:14px;font-style:italic;color:#333;margin:2px 0 12px}
+.opts{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+@media(max-width:1200px){.opts{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.opts{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap,.top .in{padding-left:16px;padding-right:16px}}
+.opt{background:#fff;border:2px solid transparent;border-radius:16px;padding:10px;display:flex;flex-direction:column;gap:8px;box-shadow:0 1px 0 var(--line)}
+.opt[data-v=keep]{border-color:var(--keep)}.opt[data-v=maybe]{border-color:var(--maybe)}.opt[data-v=no]{opacity:.45}
+.oh{display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.oh b{font-size:14px}
+.name{font-weight:700;font-size:13.5px;line-height:1.25}
+.desc{font-size:12px;line-height:1.45;color:#3a3f4b}
+.mot{font-size:11px;color:var(--mute);line-height:1.4}
+.btns{display:flex;gap:6px;margin-top:auto}
+.btns button{flex:1;font:600 12px Inter;padding:7px 0;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.opt[data-v=keep] .k{background:var(--keep);color:#fff;border-color:var(--keep)}
+.opt[data-v=maybe] .m{background:var(--maybe);color:#fff;border-color:var(--maybe)}
+.opt[data-v=no] .n{background:var(--no);color:#fff;border-color:var(--no)}
+textarea{width:100%;margin-top:10px;border:1px solid var(--line);border-radius:10px;padding:10px;font:13px Inter;min-height:44px;resize:vertical;background:#fff}
+.rec{font-size:10.5px;font-weight:700;color:#fff;background:var(--ink);border-radius:6px;padding:2px 6px}
+/* ---------- phone + drawing kit ---------- */
+.ph{position:relative;width:100%;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:#000;container-type:inline-size;font-family:Inter}
+.ph>*{position:absolute}
+.fill{inset:0}
+.still{inset:0;width:100%;height:100%;object-fit:cover}
+.grain::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.grain.dk::after{mix-blend-mode:screen;opacity:.18}
+.vig{inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 55%,rgba(0,0,0,.35))}
+.botgrad{left:0;right:0;bottom:0;height:42%;background:linear-gradient(transparent,rgba(0,0,0,.5))}
+.pf{font-family:'Playfair Display',serif;font-style:italic;font-weight:700}
+.pfr{font-family:'Playfair Display',serif;font-weight:500}
+.cav{font-family:Caveat,cursive;font-weight:600}
+.c{left:0;right:0;text-align:center}
+.sup{font-weight:500;font-size:4.4cqw;color:rgba(255,255,255,.85);white-space:nowrap}
+.hero{font-size:12.2cqw;line-height:.95;color:#fff}
+.card{background:#fff;border-radius:3cqw;box-shadow:0 2.6cqw 5cqw rgba(11,18,36,.18)}
+.dcard{background:var(--r-card);border-radius:3cqw;box-shadow:0 2.6cqw 5cqw rgba(0,0,0,.4);color:var(--r-txt)}
+.asterisk{color:var(--clay);font-weight:800}
+.pill{border-radius:999px;display:flex;align-items:center;gap:1.6cqw;padding:1.4cqw 3cqw;white-space:nowrap}
+.tag{font-size:2.3cqw;font-weight:700;border-radius:1cqw;padding:.5cqw 1.3cqw;letter-spacing:.04em}
+.file{background:#fff;border:1px solid #D9DDE3;border-radius:1.4cqw;padding:1.4cqw 2cqw;font-size:2.8cqw;font-weight:500;display:flex;gap:1.2cqw;align-items:center;white-space:nowrap;box-shadow:0 .8cqw 1.6cqw rgba(0,0,0,.08)}
+.file i{width:2.4cqw;height:3cqw;border-radius:.4cqw;background:#E3E8EF;display:inline-block}
+.blur{filter:blur(.7cqw)}
+.mk{position:absolute;width:3.4cqw;height:3.4cqw;border-radius:50%;background:#fff;box-shadow:0 0 2cqw #fff}
+.tick{color:var(--r-acc);font-weight:800}
+.note{font-size:12px;color:var(--mute)}
+.sumout{white-space:pre-wrap;font:12px/1.5 ui-monospace,monospace;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;display:none;margin-top:12px}
+</style>
+</head>
+<body>
+<div class="top"><div class="in">
+ <h1>roughcut_v3 · options board v2</h1>
+ <span class="count" id="count">0 kept · 0 maybe · 0 no</span>
+ <span style="flex:1"></span>
+ <button id="copy">Copy my picks</button>
+ <button class="alt" id="dl">Download picks .txt</button>
+</div></div>
+<div class="wrap">
+ <div class="intro">
+  <div class="box"><h3>How to use</h3>For each frame type, mark every option <b>Keep</b>, <b>Maybe</b> or <b>No</b> (keep several if you like, and I'll pick per beat). Add notes under each row. When you're done, press <b>Copy my picks</b> and paste the result to me. Your marks are saved in this browser.</div>
+  <div class="box"><h3>Sources mixed here</h3><span class="src s-me">Minimal</span>Minimal Edit Style (serif captions, blue paper, grid graphs, line + text)<br><span class="src s-r">Rishi</span>Rishi's Editing Style v1.3 (ink / ice, cards, split pane, depth)<br><span class="src s-p">Presley</span>Daniel Presley (cream cards, chips, name pills, quote cards)<br><span class="src s-ps">Paper Stage</span>the current skill · <span class="src s-d1">Draft 1</span>= what draft 1 used</div>
+  <div class="box"><h3>Fixed either way</h3>1080×1920 · Roman Hinglish, exactly as spoken · everything inside the Instagram safe zone (x 120–960, y 250–1600) · it ends on your face · sound comes after the visuals. Draft 1 stays untouched in <code>roughcut_v3_edit/</code>.</div>
+ </div>
+ <div id="beats"></div>
+ <div class="sumout" id="sum"></div>
+</div>
+<script>
+const ST=t=>`<img class="still" src="../roughcut_v3/stills/t${t}.jpg" alt="">`;
+const LG=n=>`../../assets/logos/${n}`;
+const CL=`<img src="${LG('claude/claude-symbol-color.png')}" style="width:4.2cqw;height:4.2cqw" alt="">`;
+const GH=`<img src="${LG('github/github-mark-mono-black.png')}" style="width:3.2cqw" alt="">`;
+const GHW=`<img src="${LG('github/github-mark-mono-white.png')}" style="width:3.2cqw" alt="">`;
+const IG=`<img src="${LG('instagram/instagram-glyph-color.png')}" style="width:4cqw" alt="">`;
+const CUR=`<svg viewBox="0 0 16 22" style="width:7cqw" shape-rendering="crispEdges"><path d="M1 1v15h1v-1h1v-1h1v-1h1v2h1v2h1v1h2v-1h1v-2h-1v-2h-1v-1h4v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1z" fill="#fff" stroke="#000" stroke-width="1" vector-effect="non-scaling-stroke"/></svg>`;
+// minimal-editorial A-roll caption: support above (inset left), serif hero, support below (inset right)
+const MEcap=(a,h,b,y=58,col='#fff')=>`<div class="c" style="top:${y}%"><div style="display:inline-block;text-align:left">
+ ${a?`<div class="sup" style="margin-left:8%;margin-bottom:.6cqw">${a}</div>`:''}<div class="hero pf" style="color:${col}">${h}</div>
+ ${b?`<div class="sup" style="text-align:right;margin-right:8%;margin-top:1cqw">${b}</div>`:''}</div></div>`;
+const AR=(t,cap='')=>ST(t)+`<div class="botgrad"></div>`+cap;
+const paper=(c,dk)=>`<div class="fill grain${dk?' dk':''}" style="background:${c}"></div>`;
+const gridbg=`<div class="fill grain dk" style="background:#151515;background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);background-size:9cqw 9cqw"></div>`;
+const qm=(c)=>`<div style="font-family:'Playfair Display';font-weight:700;font-size:22cqw;line-height:.6;color:${c}">“</div>`;
+
+const BEATS=[
+{id:'cap',title:'0 · Caption style (every A-roll moment)',t:'whole video',line:'Shown on: “jab tak aap claude ko apna taste…”',opts:[
+ {n:'Serif hero + tucked support',src:['me'],rec:1,d:'Playfair Bold Italic lowercase hero (~132 px) on the meaning word; Inter Medium 48 px support tucked above-left / below-right. Sits at chest height.',m:'Support rises word by word on spoken times; hero builds letter by letter with blur, done 350 ms before the cut.',
+  draw:()=>AR('8.6',MEcap('jab tak aap claude ko','taste','ya design skill',57))},
+ {n:'Serif hero, below the face + blue key word',src:['r'],d:'Same grammar placed lower (hero baseline y≈1420) over a 0→45 % bottom gradient; one hero per video can switch to accent blue #3E7BFA.',m:'Same reveal. Bottom gradient keeps the green jacket from fighting the type.',
+  draw:()=>AR('8.6',`<div class="fill" style="background:linear-gradient(transparent 58%,rgba(0,0,0,.45))"></div>`+MEcap('jab tak aap claude ko','taste','ya design skill',64,'#7FA6FF'))},
+ {n:'Karaoke grey → white',src:['r'],d:'Full phrase in Inter; unspoken words grey #8E8E8E turn white as spoken. Key word Inter Bold, one Playfair italic word per line.',m:'Each word flips grey→white on its timestamp, no movement.',
+  draw:()=>AR('8.6',`<div class="c" style="top:63%;font-size:4.6cqw;font-weight:500;line-height:1.35;padding:0 12%"><span style="color:#fff">jab tak aap claude ko apna</span> <span class="pf" style="color:#fff;font-size:6.4cqw">taste</span> <span style="color:#8E8E8E">ya design skill</span></div>`)},
+ {n:'Keyword titles only (no running captions)',src:['p'],d:'Presley rule: no word-by-word captions. Only the key word appears as a Title Case Playfair title above the head, with a soft glow.',m:'Each word blurs in over 0.1 s on its spoken time; ~4 s hold; hard cut out.',
+  draw:()=>AR('8.6',`<div class="c pfr" style="top:9%;font-size:14cqw;color:#fff;text-shadow:0 0 3cqw rgba(255,255,255,.5)">Taste</div>`)},
+ {n:'Serif hero + blue highlight box',src:['me'],d:'Minimal grammar, but the punch word sits in a blue #0B52F9 box (Inter Bold white). Used sparingly for numbers / claims, serif for feelings.',m:'Box grows scaleX 0→100 over 480 ms ease-in-out, starting 120 ms before the word; text then word by word.',
+  draw:()=>AR('8.6',`<div class="c" style="top:58%"><div class="sup" style="margin-bottom:1cqw">jab tak aap claude ko apna</div><span style="background:#0B52F9;color:#fff;font-weight:800;font-size:9cqw;padding:.6cqw 2.4cqw;border-radius:1cqw">taste</span><div class="sup" style="margin-top:1.4cqw">ya design skill nahi samjhaoge</div></div>`)},
+]},
+{id:'b1',title:'1 · Hook: the naive shortcut',t:'0.21–2.87',line:'claude mein video daal ke ye prompt daal doge toh aisa kuch ban jaayega.',opts:[
+ {n:'Chat card on ice, prompt types, result pops',src:['r'],rec:1,d:'White chat card on ice #EAF0F8 with the real Claude mark. Video chip drops in on "video", prompt types on "prompt", a glossy result card pops on "aisa kuch". Caption hero top band: prompt.',m:'hero-settle 1 s (scale .86→1, blur 8→0) · typing ~18 chars/s · spring-pop result.',
+  draw:()=>`<div class="fill grain" style="background:var(--r-ice)"></div><div class="c pf" style="top:9%;font-size:10cqw;color:#0B1730">prompt</div>
+  <div class="card" style="left:8%;right:8%;top:22%;height:58%;padding:4cqw"><div style="display:flex;gap:2cqw;align-items:center;font-weight:600;font-size:3.6cqw">${CL} Claude</div>
+  <div style="position:absolute;right:5cqw;top:14cqw;width:34cqw;height:44cqw;border-radius:2cqw;background:linear-gradient(160deg,#2B2140,#E58B5A);box-shadow:0 2cqw 4cqw rgba(0,0,0,.25);color:#fff;font-weight:900;font-size:7cqw;display:grid;place-items:center">wow.</div>
+  <div style="position:absolute;left:4cqw;right:4cqw;bottom:4cqw;border:1px solid #E3E7EE;border-radius:2.4cqw;padding:2.4cqw;font-size:3.2cqw"><span class="tag" style="background:#EEF4FF;color:#1F5FD6">roughcut.mp4</span><div style="margin-top:1.6cqw">make this go viral|</div></div></div>`},
+ {n:'Footage shrinks into the chat',src:['r'],d:'Opens on the face, then the A-roll shrinks (scale 1→0.55, corners round) and drops into the chat input as the "video" attachment. Prompt types next to it.',m:'footage→card opener 28–40 f ease (.2,.4,0,1), then typing.',
+  draw:()=>`<div class="fill grain" style="background:var(--r-ice)"></div><div class="card" style="left:8%;right:8%;top:16%;height:66%;padding:4cqw"><div style="display:flex;gap:2cqw;align-items:center;font-weight:600;font-size:3.6cqw">${CL} Claude</div>
+  <div style="position:absolute;left:6cqw;top:16cqw;width:36cqw;aspect-ratio:9/16;border-radius:2cqw;overflow:hidden;box-shadow:0 2cqw 4cqw rgba(0,0,0,.25)"><img src="../roughcut_v3/stills/t0.3.jpg" style="width:100%;height:100%;object-fit:cover"></div>
+  <div style="position:absolute;left:46cqw;right:5cqw;top:30cqw;font-size:3.6cqw;line-height:1.4">+ <b>"edit this like a pro"</b><div style="margin-top:3cqw;width:9cqw;height:9cqw;border-radius:50%;background:var(--r-acc);color:#fff;display:grid;place-items:center;font-weight:800">↑</div></div></div>`},
+ {n:'Framed screen + highlighter',src:['p'],d:'Presley "framed screen": the chat UI in a rounded card on pale blue-grey #DCE6F0; a yellow highlighter swipe runs across the prompt line on "prompt"; a white name pill "Claude" bottom-left.',m:'Slow 3–5 % push across the shot · highlighter swipe 0.3 s · pill fades/scales in 0.1 s.',
+  draw:()=>`<div class="fill" style="background:var(--p-mist)"></div><div class="card" style="left:7%;right:7%;top:18%;height:52%;border-radius:4cqw;padding:5cqw;font-size:3.4cqw"><div style="color:#888;font-size:2.8cqw">New chat</div>
+  <div style="margin-top:6cqw;border:1px solid #E4E7EC;border-radius:2cqw;padding:3cqw;line-height:1.6">[ video.mp4 ]<br><span style="background:linear-gradient(transparent 35%,var(--p-hl) 35% 90%,transparent 90%)">make this look like a pro edit</span></div>
+  <div style="position:absolute;bottom:5cqw;left:5cqw;right:5cqw;height:20cqw;border-radius:2cqw;background:repeating-linear-gradient(90deg,#EEF1F5 0 10cqw,#F7F9FB 10cqw 20cqw)"></div></div>
+  <div class="card pill" style="left:9%;top:76%;font-size:3cqw"><span style="width:6cqw;height:6cqw;border-radius:50%;background:#fff;border:1px solid #eee;display:grid;place-items:center">${CL}</span><span><b>Claude</b><br><span style="color:#888;font-size:2.4cqw">AI assistant</span></span></div>`},
+ {n:'Line + text: video → prompt → ?',src:['me'],d:'Dark textured ground. A blue line draws from "video" to "prompt", is interrupted by each word, and ends at a glowing "?" orb on "aisa kuch". The naive formula as a sentence.',m:'line-draw 0.6–1 s per segment, camera tracks the line head; words word-by-word.',
+  draw:()=>`<div class="fill grain dk" style="background:#111"></div><svg style="inset:0;width:100%;height:100%" viewBox="0 0 100 178"><path d="M10 40 H30 M58 40 Q80 40 80 70 V96 Q80 120 50 120" stroke="#0B52F9" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>
+  <div style="left:6%;top:20%;color:#fff;font-size:3.4cqw">claude mein</div><div style="left:32%;top:20%;color:#fff;font-weight:800;font-size:7cqw">video</div>
+  <div style="left:30%;top:60%;color:#fff;font-size:3.4cqw">+ ye</div><div class="pf" style="left:44%;top:56%;color:#fff;font-size:9cqw">prompt</div>
+  <div style="left:22%;top:74%;width:14cqw;height:14cqw;border-radius:50%;background:radial-gradient(#5D8BFF,#0B52F9);box-shadow:0 0 6cqw #0B52F9;color:#fff;font-weight:800;font-size:8cqw;display:grid;place-items:center">?</div>`},
+ {n:'Face + floating prompt pill',src:['r','me'],d:'Stays on the face. A prompt pill floats in front of the chest; the background defocuses behind it. Serif caption hero "prompt". Keeps the hook personal.',m:'defocus bridge: A-roll blur 0→10 px over 15 f · pill slide-in 12 f.',
+  draw:()=>`<img class="still" src="../roughcut_v3/stills/t0.3.jpg" style="filter:blur(1cqw);transform:scale(1.05)"><div class="botgrad"></div>
+  <div class="card pill" style="left:10%;right:10%;top:44%;font-size:3.4cqw;padding:2.4cqw 3.4cqw">${CL}<span>make this go viral ✨</span><span style="margin-left:auto;width:7cqw;height:7cqw;border-radius:50%;background:var(--r-acc);color:#fff;display:grid;place-items:center">↑</span></div>`+MEcap('ye','prompt','daal doge toh',62)},
+]},
+{id:'b2',title:'2 · The "no": reaction + verdict',t:'2.87–5.93',line:'aisa kuch nahi hota hai. this doesn\'t work like that.',opts:[
+ {n:'Red pen strike → ink verdict',src:['r'],rec:1,d:'The result card from beat 1 gets a hand-drawn red strike on "nahi". Hard cut to ink #0B1224: "this doesn\'t work" small Inter, verdict hero <i>like that.</i> big serif.',m:'red strike 8–11 f linear · verdict hero-char-blur 200 px.',
+  draw:()=>`<div class="fill grain dk" style="background:var(--r-ink)"></div><div class="c" style="top:38%;color:var(--r-txt);font-size:5cqw;font-weight:500;opacity:.8">this doesn't work</div><div class="c pf" style="top:45%;color:var(--r-txt);font-size:17cqw">like that.</div>
+  <svg style="left:18%;top:40%;width:64%" viewBox="0 0 100 20"><path d="M2 14 C30 6 70 4 98 10" stroke="var(--r-red)" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>`},
+ {n:'Face + zoom-cut punch-in',src:['me'],d:'Pure A-roll. A digital punch-in (115–130 %) lands on "nahi"; serif hero nahi hota, then cut back wide for "this doesn\'t work like that".',m:'aroll-zoom-cut (instant) + constant +1.2 %/s push.',
+  draw:()=>`<img class="still" src="../roughcut_v3/stills/t3.0.jpg" style="transform:scale(1.25);transform-origin:50% 35%"><div class="botgrad"></div>`+MEcap('aisa kuch','nahi hota','hai.',58)},
+ {n:'Circled serif payoff word',src:['p'],d:'Cream paper. "Nope." in big Playfair, a hand-drawn crimson ellipse draws around it; small Caveat note "this doesn\'t work like that".',m:'Ellipse draws 0.4 s · title stem-first reveal 0.3 s · hold 1.5 s.',
+  draw:()=>`<div class="fill grain" style="background:var(--p-paper)"></div><div class="c pfr" style="top:40%;font-size:22cqw;color:#111">Nope.</div>
+  <svg style="left:12%;top:36%;width:76%" viewBox="0 0 100 40"><ellipse cx="50" cy="20" rx="46" ry="17" fill="none" stroke="var(--p-crim)" stroke-width="1.4" transform="rotate(-3 50 20)"/></svg><div class="c cav" style="top:60%;font-size:6cqw;color:#555">this doesn't work like that</div>`},
+ {n:'Black & white beat + "nope."',src:['ps','d1'],d:'What draft 1 did: the A-roll snaps to greyscale with a nose-tracked wiggle for ~0.9 s, one glowing word "nope." above the head.',m:'saturation −100 + scale 1.08, hard cut back to colour.',
+  draw:()=>`<img class="still" src="../roughcut_v3/stills/t3.6.jpg" style="filter:grayscale(1) contrast(1.1);transform:scale(1.08)"><div class="c" style="top:16%;color:#fff;font-size:8cqw;text-shadow:0 0 3cqw rgba(255,255,255,.7)">nope.</div>`},
+ {n:'Drum-roll words on ink',src:['r'],d:'Type beat: "this" → "doesn\'t" → "work" swap hard every ~15 f in the centre, last word lands as serif italic <i>like that.</i> with letter-spacing opening.',m:'≈15 f per word hard swaps · final word tracking opens over 50 f.',
+  draw:()=>`<div class="fill grain dk" style="background:var(--r-ink)"></div><div class="c" style="top:30%;color:rgba(242,246,252,.25);font-size:7cqw;font-weight:800;line-height:1.3">this<br>doesn't<br>work</div><div class="c pf" style="top:60%;color:var(--r-txt);font-size:15cqw;letter-spacing:.06em">like that.</div>`},
+]},
+{id:'b3',title:'3 · Hoarding: skills + GitHub repos',t:'5.93–8.10',line:'aap duniya bhar ki skills ikattha kar lo, github repos ikattha kar lo.',opts:[
+ {n:'Split pane: card wall above, face below',src:['r'],rec:1,d:'Ice pane drops over the top 48 %; skill cards build as a wall on "skills", dark GitHub repo cards slide over on "repos", wall zooms out on the last "kar lo". Your face stays in the lower half.',m:'pane-drop 30 f · wall-build diagonal wave · wall-zoom-out 1→0.6.',
+  draw:()=>`<div style="left:0;right:0;bottom:0;height:52%">${ST('5.0')}</div><div class="grain" style="left:0;right:0;top:0;height:48%;background:var(--r-ice);border-bottom:1px solid #cdd6e4"></div>
+  <div style="left:6%;top:8%;display:grid;grid-template-columns:repeat(3,1fr);gap:1.6cqw;width:88%">${['video-editor','caption-pro','hooks.md','motion-kit','color-grade','b-roll'].map((f,i)=>`<div class="file" style="${i==4?'':'filter:blur(.3cqw)'}"><i></i>${f}</div>`).join('')}${['awesome-edits','reel-kit','ai-tools'].map(f=>`<div class="file" style="background:#121C38;color:#fff;border-color:#121C38">${GHW}${f}</div>`).join('')}</div>
+  <div class="c pf" style="top:34%;font-size:9cqw;color:#0B1730">repos</div>`},
+ {n:'Full-frame card wall + zoom out',src:['r'],d:'Dozens of skill / repo cards fill the frame, outer ones blurred, one sharp in focus; camera zooms out to show how many you\'ve collected.',m:'diagonal wave build (1.2 f × row+col) · zoom 1→0.4.',
+  draw:()=>`<div class="fill grain" style="background:var(--r-ice)"></div><div style="inset:-6%;display:grid;grid-template-columns:repeat(4,1fr);gap:1.4cqw;padding:4cqw;transform:rotate(-6deg)">${Array.from({length:28},(_,i)=>`<div class="file" style="font-size:2.2cqw;${i==13?'transform:scale(1.25);z-index:2;box-shadow:0 2cqw 4cqw rgba(0,0,0,.25)':'filter:blur(.35cqw);opacity:.8'}">${i%3?'<i></i>':GH}${['skill.md','repo','prompt','hooks'][i%4]}</div>`).join('')}</div><div class="c pf" style="top:8%;font-size:10cqw;color:#0B1730">skills</div>`},
+ {n:'Chip row: what you collected',src:['p'],d:'Cool white ground, Inter Bold header "You collected:", then blue chips with Playfair labels pop one per spoken item: Skills · GitHub repos · Prompts.',m:'each chip: small square rises 10 px and widens 0.12–0.16 s, letters drop in; one per item.',
+  draw:()=>`<div class="fill" style="background:#F5FAFB"></div><div class="c" style="top:36%;font-weight:700;font-size:5.4cqw;color:#1A1A1A">You collected:</div><div class="c" style="top:46%;display:flex;flex-wrap:wrap;justify-content:center;gap:2cqw;padding:0 8%">${['Skills','GitHub repos','Prompts'].map(x=>`<span class="pfr" style="background:var(--p-blue);color:#fff;font-size:4.6cqw;padding:1.4cqw 3.4cqw;border-radius:1.6cqw">${x}</span>`).join('')}</div>`},
+ {n:'Object callout: file stack on paper',src:['me'],d:'White grained paper. Tilted file cards drop into a messy stack as each is named, with a serif caption skills → repos above.',m:'photo-drop 8–10 f each (y −30, rotate ±4°) · overlap-build, no pauses.',
+  draw:()=>`<div class="fill grain" style="background:var(--me-paper)"></div><div style="left:14%;top:12%;font-size:4cqw;color:#111">duniya bhar ki</div><div class="pf" style="left:30%;top:16%;font-size:13cqw;color:#0B52F9">skills</div>
+  ${['video-editor.md','caption-pro.md','awesome-edits','reel-templates','prompt-pack'].map((f,i)=>`<div class="file" style="left:${20+(i%2)*14}%;top:${66-i*6}%;transform:rotate(${[-6,4,-3,7,-2][i]}deg);font-size:3.2cqw">${i>1?GH:'<i></i>'}${f}</div>`).join('')}`},
+ {n:'Cylinder carousel behind the head',src:['r'],d:'Signature depth move used here instead of later: repo cards rotate on a cylinder behind your head (person matte), front cards sharp, back cards dim.',m:'rotateY ±25°, slow constant spin; cards stay upright. Max one depth move per reel.',
+  draw:()=>`${ST('5.0')}<div style="left:-10%;right:-10%;top:12%;height:22%;display:flex;justify-content:center;gap:2cqw;perspective:60cqw">${['skill.md','repos','hooks','motion','prompts'].map((f,i)=>`<div class="file" style="transform:rotateY(${(i-2)*24}deg) translateZ(${i==2?6:0}cqw);opacity:${1-Math.abs(i-2)*.25}">${GH}${f}</div>`).join('')}</div>`+MEcap('','skills','github repos',62)},
+]},
+{id:'b4',title:'4 · Thesis: taste / design skill',t:'8.10–12.51',line:'jab tak aap claude ko apna taste ya design skill nahi samjha paoge, woh aapke liye kuch ghanta achha edit nahi karne wala hai.',opts:[
+ {n:'Text-centric on blue paper, with quote marks',src:['me'],rec:1,d:'Full-bleed rough blue paper. Quote marks bracket a short line: "jab tak claude ko apna" (Inter) + <i>taste</i> (white serif hero) + "nahi samjhaoge". The words are the visual.',m:'quote-marks-first 4 f, then words word by word; hero char-by-char.',
+  draw:()=>`<div class="fill grain" style="background:var(--me-blue)"></div><div style="left:10%;top:32%">${qm('#fff')}</div><div class="c" style="top:40%;color:#fff;font-size:4.2cqw;padding:0 14%">jab tak claude ko apna</div><div class="c pf" style="top:45%;color:#fff;font-size:18cqw">taste</div><div class="c" style="top:57%;color:#fff;font-size:4.2cqw">ya design skill nahi samjhaoge</div><div style="right:10%;top:56%;transform:rotate(180deg)">${qm('#fff')}</div>`},
+ {n:'Card → doc morph: design-skill.md',src:['r'],d:'In the split pane, one card from the wall ("design-skill.md") grows and morphs into a document with headings (palette, type, pacing…). Pane lifts on "ghanta" back to full face.',m:'card→doc morph 35 f (.2,1.4,.6,.9) · pane-lift 29 f.',
+  draw:()=>`<div style="left:0;right:0;bottom:0;height:52%">${ST('8.6')}</div><div class="grain" style="left:0;right:0;top:0;height:48%;background:var(--r-ice)"></div>
+  <div class="card" style="left:16%;right:16%;top:6%;height:38%;padding:4cqw;font-size:2.8cqw;line-height:1.7"><b style="font-size:3.6cqw">design-skill.md</b><br><span style="color:#3E7BFA">## taste</span><br>palette · type · pacing<br><span style="color:#3E7BFA">## captions</span><br>serif hero, 48 px support<br><span style="color:#3E7BFA">## motion</span><br>ease-out, no bounce</div>`},
+ {n:'Quote card (blue text, bold nouns)',src:['p'],d:'Paper ground with giant pale ghost quote marks bottom-right; the blue opening mark pops; Inter 52 px blue line with the nouns bold: "Until you teach Claude your <b>taste</b> and <b>design skill</b>, it won\'t edit well."',m:'ghost marks hard cut · blue mark scales up 0.32 s · type-on 15–25 chars/s.',
+  draw:()=>`<div class="fill grain" style="background:var(--p-paper)"></div><div class="pfr" style="right:-4%;bottom:6%;font-size:70cqw;line-height:.5;color:#E6E1D3">”</div><div style="left:9%;top:30%">${qm('var(--p-blue)')}</div>
+  <div style="left:9%;right:9%;top:42%;color:var(--p-blue);font-size:5cqw;line-height:1.35">Until you teach Claude your <b style="color:var(--p-blue2)">taste</b> and <b style="color:var(--p-blue2)">design skill</b>, it won't edit well.</div>`},
+ {n:'Centre illustration + orbiting words',src:['me','r'],d:'White paper; a painted blue head/brush illustration in the lower half with a halo; words orbit it: palette · rhythm · typography · pacing. Serif hero taste above.',m:'paint-in figure 10–20 f · orbit-text one revolution per 4 s · slow zoom-out.',
+  draw:()=>`<div class="fill grain" style="background:var(--me-paper)"></div><div class="c pf" style="top:12%;font-size:15cqw;color:#0B52F9">taste</div><div class="c" style="top:9%;font-size:4cqw;color:#111">apna</div>
+  <div style="left:22%;top:44%;width:56cqw;height:56cqw;border-radius:50%;background:radial-gradient(rgba(11,82,249,.25),transparent 70%)"></div><div style="left:30%;top:50%;width:40cqw;height:40cqw;border-radius:42% 58% 38% 62%/55% 45% 55% 45%;background:radial-gradient(circle at 35% 35%,#3D78FF,#0B52F9 60%,#0839B0);box-shadow:0 0 0 1.2cqw rgba(11,82,249,.15);opacity:.95"></div>
+  ${['palette','rhythm','typography','pacing'].map((w,i)=>`<div style="left:${[10,70,12,66][i]}%;top:${[46,52,74,78][i]}%;font-size:3.4cqw;color:#111">${w}</div>`).join('')}`},
+ {n:'Face only, serif hero',src:['me','r'],d:'No graphic: the thesis lands on your face. Serif hero taste, then on "ghanta" a punch-in with hero <i>ghanta</i>. Graphic budget saved for later beats.',m:'zoom-cut on "ghanta" + slow push.',
+  draw:()=>AR('12.0',MEcap('kuch','ghanta','achha edit nahi karne wala',58))},
+]},
+{id:'b5',title:'5 · Proof: "this video was edited end-to-end by Claude"',t:'12.53–14.71',line:'and ye poori video bhi end-to-end claude se edited hai.',opts:[
+ {n:'Name pill on the face',src:['p'],rec:1,d:'Presley rule: every product gets a pill. White round pill lower-left on the A-roll: Claude logo + "Claude" bold + "edited this entire video" grey. Calm and factual.',m:'appears formed: fade + scale 0.08–0.12 s · holds to the end of the line.',
+  draw:()=>AR('14.0',MEcap('poori video','end-to-end','claude se edited',52))+`<div class="card pill" style="left:11%;top:79%;font-size:3.2cqw;padding:1.6cqw 3.4cqw 1.6cqw 1.6cqw"><span style="width:7cqw;height:7cqw;border-radius:50%;background:#fff;border:1px solid #eee;display:grid;place-items:center">${CL}</span><span><b>Claude</b><br><span style="color:#888;font-size:2.5cqw">edited this entire video</span></span></div>`},
+ {n:'Real session card + "end-to-end" pill',src:['r'],d:'Ice ground; a recreated Claude session card showing a real line from this project ("Read plan.md… continue from the next step"); blue pill end-to-end on the word; SKILL.md file card snaps in on "edited".',m:'hero-settle · pill pop on word · card-snap 11–13 f from left.',
+  draw:()=>`<div class="fill grain" style="background:var(--r-ice)"></div><div class="card" style="left:8%;right:8%;top:24%;padding:4cqw;font-size:3.1cqw;line-height:1.5">${CL} <b>Claude</b><div style="margin-top:2cqw;background:#F3F5F9;border-radius:1.6cqw;padding:2.4cqw">Read plan.md. Continue from the next unchecked step…</div></div>
+  <div class="pill" style="left:24%;top:52%;background:var(--r-acc);color:#fff;font-weight:700;font-size:4cqw">end-to-end</div><div class="file" style="left:30%;top:62%;font-size:3.6cqw;transform:rotate(-3deg)"><i></i>SKILL.md</div><div class="c pf" style="top:8%;font-size:10cqw;color:#0B1730">edited</div>`},
+ {n:'Highlight box on the face',src:['me'],d:'A-roll; support "and ye poori video bhi" above, the claim end-to-end in a growing blue box, serif claude se edited below. No extra graphic.',m:'highlight-box-wipe 480 ms ease-in-out, 120 ms before the word.',
+  draw:()=>AR('14.0',`<div class="c" style="top:55%"><div class="sup" style="margin-bottom:1.2cqw">and ye poori video bhi</div><span style="background:#0B52F9;color:#fff;font-weight:800;font-size:8.4cqw;padding:.6cqw 2.4cqw;border-radius:1cqw">end-to-end</span><div class="pf" style="color:#fff;font-size:8cqw;margin-top:1.6cqw">claude se edited</div></div>`)},
+ {n:'Orange lower-third plate',src:['ps','d1'],d:'What draft 1 did: an orange base plate wipes in at the lower third, clapperboard slides on, pill "EDITED BY CLAUDE" pops.',m:'plate wipe 6 f · shine sweep · pill pop 4 f later.',
+  draw:()=>AR('14.0',`<div class="c" style="top:63%;color:#fff;font-size:3.8cqw">claude se edited</div>`)+`<div style="left:6%;right:6%;top:73%;height:11%;border-radius:2.4cqw;background:linear-gradient(120deg,#D97757,#9E4A30)"></div><div class="card pill" style="left:34%;top:76%;font-size:3.2cqw;font-weight:800;color:#9E4A30">${CL} EDITED BY CLAUDE</div>`},
+ {n:'Timeline recreation',src:['r'],d:'Ice ground; a clean editing timeline (A-roll, captions, graphics, SFX lanes) builds lane by lane with a playhead, labelled "built by Claude · Tesseract". Literal proof of "end-to-end".',m:'lanes slide in staggered 4 f · playhead runs across · hero-settle.',
+  draw:()=>`<div class="fill grain" style="background:var(--r-ice)"></div><div class="c pf" style="top:10%;font-size:10cqw;color:#0B1730">end-to-end</div><div class="card" style="left:6%;right:6%;top:30%;padding:3cqw;font-size:2.6cqw">${['A-roll','captions','graphics','sfx'].map((l,i)=>`<div style="display:flex;align-items:center;gap:2cqw;margin:1.6cqw 0"><span style="width:14cqw;color:#4A5878">${l}</span><span style="flex:1;height:5cqw;border-radius:1cqw;background:repeating-linear-gradient(90deg,${['#9DB7F5','#3E7BFA','#7A9BE0','#C6D3EC'][i]} 0 ${8+i*3}cqw,transparent ${8+i*3}cqw ${10+i*3}cqw)"></span></div>`).join('')}<div style="position:absolute;left:55%;top:2cqw;bottom:2cqw;width:.5cqw;background:var(--r-red)"></div></div><div class="c" style="top:62%;font-size:3.2cqw;color:#4A5878">built by ${'Claude'} · Tesseract</div>`},
+]},
+{id:'b6',title:'6 · Contrast: better vs "Claude slop"',t:'14.71–17.45',line:'why does this look better than all the claude slop which you see out there?',opts:[
+ {n:'Two cards: this edit vs AI slop',src:['r'],rec:1,d:'Ink ground, two portrait cards side by side. "this edit" (clean ink/ice frame) lights blue on "better"; a parody "AI slop" card (purple gradient, emoji, no real creator) greys out with a red ✗ on "slop".',m:'cards hero-settle · blue glow on "better" · grey + red ✗ draw 11 f on "slop".',
+  draw:()=>`<div class="fill grain dk" style="background:var(--r-ink)"></div><div class="c pf" style="top:10%;font-size:11cqw;color:var(--r-txt)">better</div>
+  <div style="left:8%;top:30%;width:39%;aspect-ratio:9/16;border-radius:2.4cqw;background:var(--r-ice);box-shadow:0 0 5cqw rgba(62,123,250,.6);display:grid;place-items:center"><span class="pf" style="font-size:7cqw;color:#0B1730">taste</span></div>
+  <div style="right:8%;top:30%;width:39%;aspect-ratio:9/16;border-radius:2.4cqw;background:linear-gradient(150deg,#7B5CFF,#E05CD0);filter:grayscale(.85);display:grid;place-items:center;color:#fff;font-weight:900;font-size:4.4cqw;text-align:center">🚀 10X<br>YOUR LIFE</div>
+  <div style="right:14%;top:40%;font-size:24cqw;color:var(--r-red);font-weight:300">✕</div><div style="left:14%;top:69%;color:var(--r-txt);font-size:3.2cqw">this edit</div><div style="right:18%;top:69%;color:#9AA8C7;font-size:3.2cqw">claude slop</div>`},
+ {n:'Serif word circled on paper',src:['p'],d:'Cream paper; Caveat lead "all the Claude…", then Playfair slop with a crimson strike-through; above it a blue serif better with an underline. One word each, very calm.',m:'strike 0.3 s · underline draw 0.3 s · fast in, long hold.',
+  draw:()=>`<div class="fill grain" style="background:var(--p-paper)"></div><div class="c pfr" style="top:28%;font-size:16cqw;color:var(--p-blue);text-decoration:underline;text-decoration-thickness:.6cqw;text-underline-offset:2cqw">better</div><div class="c cav" style="top:48%;font-size:6cqw;color:#666">than all the Claude…</div><div class="c pfr" style="top:56%;font-size:16cqw;color:#222;text-decoration:line-through;text-decoration-color:var(--p-crim);text-decoration-thickness:1cqw">slop</div>`},
+ {n:'Wall of identical slop thumbnails',src:['r','me'],d:'A grid of near-identical generic AI thumbnails (purple gradients, rocket emoji) zooms out and desaturates; one clean frame stays sharp in the middle. Serif slop above.',m:'wall-build wave · zoom-out 1→0.5 · saturation drains on "slop".',
+  draw:()=>`<div class="fill" style="background:#0d0d10"></div><div style="inset:0;display:grid;grid-template-columns:repeat(4,1fr);gap:1.4cqw;padding:3cqw;top:22%">${Array.from({length:20},(_,i)=>`<div style="aspect-ratio:9/16;border-radius:1.4cqw;${i==9?'background:var(--r-ice);box-shadow:0 0 4cqw rgba(62,123,250,.7)':'background:linear-gradient(150deg,#7B5CFF,#E05CD0);filter:grayscale(.75) brightness(.7)'}"></div>`).join('')}</div><div class="c pf" style="top:8%;font-size:12cqw;color:#fff">slop</div>`},
+ {n:'Slop card pile (paper stage)',src:['ps','d1'],d:'What draft 1 did: white paper, red felt floor, a messy pile of identical purple "10X YOUR LIFE" cards; headline "than all the Claude slop" with slop in red.',m:'cards pop staggered 2 f · boil wiggle at 8 fps.',
+  draw:()=>`<div class="fill" style="background:#fff"></div><div style="left:-10%;right:-10%;bottom:0;height:30%;background:linear-gradient(#D23C4C,#5C1A24)"></div><div style="left:7%;top:10%;font-size:4cqw;color:#6E6E6E">than all the</div><div style="left:7%;top:14%;font-size:13cqw;font-weight:500;line-height:1">Claude<br><span style="color:#D23C4C">slop</span></div>${[[18,52,-10],[44,50,8],[30,60,-4]].map(([x,y,r])=>`<div style="left:${x}%;top:${y}%;width:30cqw;aspect-ratio:4/5;border-radius:2cqw;background:linear-gradient(150deg,#7B5CFF,#E05CD0);transform:rotate(${r}deg);color:#fff;font-weight:800;font-size:3.6cqw;display:grid;place-items:center;text-align:center">10X YOUR<br>LIFE</div>`).join('')}`},
+ {n:'Graph: quality vs effort',src:['me'],d:'Dark grid graph scene. Two lines: "prompt only" stays flat and low (labelled slop); "taught taste" climbs; blue ball rides the rising line, camera follows. No invented numbers, no axes values.',m:'axes draw 0.3 s · lines draw synced to "better" / "slop" · hold 0.5 s.',
+  draw:()=>gridbg+`<svg style="left:8%;top:30%;width:84%" viewBox="0 0 100 80"><path d="M5 75 H95 M5 75 V5" stroke="#fff" stroke-width=".6" opacity=".7"/><path d="M5 66 H92" stroke="#888" stroke-width="1.2" stroke-dasharray="2 2"/><path d="M5 70 C30 66 45 40 60 30 S85 12 92 10" stroke="#fff" stroke-width="1.4" fill="none"/><circle cx="92" cy="10" r="3" fill="#0B52F9" style="filter:drop-shadow(0 0 3px #0B52F9)"/></svg><div style="left:62%;top:58%;color:#999;font-size:3cqw">slop</div><div style="left:50%;top:26%;color:#fff;font-size:3cqw">taught taste</div><div class="c pf" style="top:9%;font-size:11cqw;color:#fff">better</div>`},
+]},
+{id:'b7',title:'7 · The answer: "I taught it" (kya karna hai, kaise karna hai)',t:'17.45–21.70',line:'because maine usko samjhaaya. pehli baar mein aapko usko mehnat se samjhaana hai ki kya karna hai, kaise karna hai aur ek baar woh samajh gaya,',opts:[
+ {n:'Drowsy screen → awake skill folder',src:['d1','r'],rec:1,d:'Your idea, restyled: first a dull, sagging chat window ("no skill loaded", progress stuck at 12 %, zzz), then it wakes up: paper-stage-edit/ files cascade in, cursor ticks RULEBOOK "what to do" and LOOKBOOK "how to do it", bar hits 100 %.',m:'drowsy: slow sag + desaturate · awake: rows overlap-build, clicks on "kya" / "kaise", fill on "samajh gaya".',
+  draw:()=>`<div style="left:0;top:0;width:50%;bottom:0;background:#D7D9DE"></div><div style="right:0;top:0;width:50%;bottom:0;background:var(--r-ice)"></div>
+  <div class="card" style="left:3%;width:44%;top:32%;padding:2cqw;font-size:2.2cqw;filter:saturate(.2);transform:rotate(-3deg)">${CL} Claude 😴<div style="height:16cqw;margin:2cqw 0;border-radius:1cqw;background:#BBB;filter:blur(.5cqw)"></div><div style="height:1.4cqw;border-radius:1cqw;background:#ddd"><div style="width:12%;height:100%;background:#999;border-radius:1cqw"></div></div></div>
+  <div class="card" style="right:3%;width:44%;top:26%;padding:2cqw;font-size:2.2cqw;line-height:2">${CL} <b>Claude</b><br>📁 paper-stage-edit/<br><span style="background:#E3F6EE;display:block">RULEBOOK.md <span class="tick">✓</span></span><span style="background:#E3F6EE;display:block">LOOKBOOK.md <span class="tick">✓</span></span>SOUND.md<div style="height:1.4cqw;border-radius:1cqw;background:#3E7BFA"></div></div>
+  <div style="left:6%;top:16%;font-size:3cqw;color:#666">before</div><div style="right:8%;top:16%;font-size:3cqw;color:#3E7BFA;font-weight:700">after</div><div class="c pf" style="top:72%;font-size:9cqw;color:#0B1730">samjhaaya</div>`},
+ {n:'Files fan out behind your head',src:['r'],d:'Rishi\'s signature depth move: your real skill files (SKILL · RULEBOOK · LOOKBOOK · SOUND · LESSONS) fan out behind your head on "samjhaaya", one every 4 f; "kya" and "kaise" land as serif heroes.',m:'person matte (lumaInverted) · fan-out 4 f stagger · max one depth move per reel.',
+  draw:()=>`<div class="fill" style="background:var(--r-ink)"></div>${['SKILL.md','RULEBOOK.md','LOOKBOOK.md','SOUND.md','LESSONS.md'].map((f,i)=>`<div class="file" style="left:${30+(i-2)*15}%;top:${14+Math.abs(i-2)*3}%;transform:rotate(${(i-2)*10}deg);font-size:2.6cqw"><i></i>${f}</div>`).join('')}<img class="still" src="../roughcut_v3/stills/t18.1.jpg" style="-webkit-mask-image:radial-gradient(42% 46% at 50% 52%,#000 70%,transparent 72%);mask-image:radial-gradient(42% 46% at 50% 52%,#000 70%,transparent 72%)">`+MEcap('ki','kya','karna hai',66)},
+ {n:'Split pane: checklist above, face below',src:['r'],d:'Ice pane top 48 %: a checklist card "teach it once". Items tick on the words: what to do ✓ (kya) · how to do it ✓ (kaise) · understood ✓ (samajh gaya). Face below.',m:'pane-drop 30 f · ticks draw 8 f on spoken words.',
+  draw:()=>`<div style="left:0;right:0;bottom:0;height:52%">${ST('21.9')}</div><div class="grain" style="left:0;right:0;top:0;height:48%;background:var(--r-ice)"></div><div class="card" style="left:12%;right:12%;top:8%;padding:4cqw;font-size:4cqw;line-height:2"><b class="pf" style="font-size:6cqw">teach it once</b><br><span class="tick">✓</span> what to do<br><span class="tick">✓</span> how to do it<br><span style="color:#9AA8C7">○ understood</span></div>`},
+ {n:'Line + illustration zigzag',src:['me'],d:'White paper; a blue line zigzags down the frame, stopping at three stops with white marker dots: <i>kya</i> karna hai → <i>kaise</i> karna hai → <i>samajh</i> gaya. Camera pans down with the line head.',m:'line-draw per segment synced to each phrase · zigzag-pan 0.8–1.2 s per stage.',
+  draw:()=>`<div class="fill grain" style="background:var(--me-paper)"></div><svg style="inset:0;width:100%;height:100%" viewBox="0 0 100 178"><path d="M20 30 H75 Q85 30 85 45 V65 Q85 80 70 80 H30 Q15 80 15 95 V120 Q15 135 30 135 H80" stroke="#0B52F9" stroke-width="2.6" fill="none" stroke-linecap="round"/><circle cx="80" cy="135" r="2.4" fill="#0B52F9"/></svg>
+  <div class="pf" style="left:20%;top:12%;font-size:9cqw;color:#0B52F9">kya</div><div style="left:44%;top:14%;font-size:3.6cqw">karna hai</div><div class="pf" style="left:28%;top:39%;font-size:9cqw;color:#0B52F9">kaise</div><div style="left:58%;top:42%;font-size:3.6cqw">karna hai</div><div style="left:30%;top:68%;font-size:3.6cqw">aur woh</div><div class="pf" style="left:46%;top:65%;font-size:9cqw;color:#0B52F9">samajh gaya</div>`},
+ {n:'Whiteboard + picture-in-picture',src:['p'],d:'A clean whiteboard card on top with handwritten marker notes "1. kya karna hai  2. kaise karna hai" drawn as you say them; your face in a rounded glowing PiP below.',m:'marker strokes draw ~0.7 s per group · PiP fixed, 2 px white stroke + blue glow.',
+  draw:()=>`<div class="fill" style="background:#EDEFF3"></div><div class="card" style="left:6%;right:6%;top:13%;height:42%;border-radius:3.4cqw;padding:5cqw;background:#FBFBFB"><div class="cav" style="font-size:7.4cqw;color:#2155A9;line-height:1.5">1. kya karna hai<br>2. kaise karna hai<br><span style="color:#A52D40">→ samajh gaya ✓</span></div></div>
+  <div style="left:22%;right:22%;top:60%;aspect-ratio:9/12;border-radius:3cqw;overflow:hidden;border:.5cqw solid #fff;box-shadow:0 0 5cqw rgba(140,157,255,.8)"><img src="../roughcut_v3/stills/t21.9.jpg" style="width:100%;height:100%;object-fit:cover"></div>`},
+]},
+{id:'b8',title:'8 · Iterations → autonomous',t:'21.70–26.75',line:'kuch iterations ke baad it will get so better that it can do the whole thing autonomously without your intervention.',opts:[
+ {n:'Pipeline card ticks itself',src:['r'],rec:1,d:'Ink ground; a dark card lists the real gates of this workflow: Analyse ✓ Plan ✓ Build ✓ Captions ✓ Export ✓, ticking blue one by one (~0.45 s each), last tick on "autonomously". Serif hero autonomously.',m:'ticks 8 f each from 23.3 s · hold-push 1.0→1.04.',
+  draw:()=>`<div class="fill grain dk" style="background:var(--r-ink)"></div><div class="c pf" style="top:10%;font-size:11cqw;color:var(--r-txt)">autonomously</div><div class="dcard" style="left:14%;right:14%;top:30%;padding:5cqw;font-size:4.4cqw;line-height:2.1">${['Analyse','Plan','Build','Captions','Export'].map((s,i)=>`<div style="display:flex;justify-content:space-between"><span>${s}</span><span style="color:${i<4?'var(--r-acc)':'#40507a'}">${i<4?'✓':'○'}</span></div>`).join('')}</div><div class="c" style="top:76%;color:#9AA8C7;font-size:3.4cqw">without your intervention</div>`},
+ {n:'Version rail v1 → v3',src:['ps','d1'],d:'What draft 1 did: thin teal ruler down the left edge, a dark pill rolls v1 → v2 → v3 on "iterations". Stays on the face.',m:'year-pill roll 6 f per change.',
+  draw:()=>AR('22.9',MEcap('kuch','iterations','ke baad',60))+`<div style="left:3.5%;top:0;bottom:0;width:.6cqw;background:#49B79A"></div><div class="pill" style="left:7%;top:24%;background:rgba(46,46,46,.7);color:#fff;font-size:5.6cqw;border-radius:1cqw">v3</div>`},
+ {n:'Staircase graph, one step per iteration',src:['me'],d:'Dark grid; a white line climbs a staircase, one step per iteration (v1, v2, v3…), blue ball on the head; final label autonomously in a blue highlight box.',m:'graph-step-climb per word · camera follows ball · box grows 480 ms.',
+  draw:()=>gridbg+`<svg style="left:8%;top:28%;width:84%" viewBox="0 0 100 80"><path d="M5 75 H95 M5 75 V5" stroke="#fff" stroke-width=".6" opacity=".7"/><path d="M8 70 H25 V55 H45 V40 H65 V22 H88" stroke="#fff" stroke-width="1.4" fill="none"/><circle cx="88" cy="22" r="3" fill="#0B52F9" style="filter:drop-shadow(0 0 3px #0B52F9)"/></svg>${['v1','v2','v3'].map((v,i)=>`<div style="left:${16+i*20}%;top:${62-i*7.5}%;color:#bbb;font-size:3cqw">${v}</div>`).join('')}<div style="left:42%;top:22%;background:#0B52F9;color:#fff;font-weight:800;font-size:5cqw;padding:.6cqw 2cqw;border-radius:1cqw">autonomously</div><div class="c" style="top:10%;color:#fff;font-size:4cqw">kuch iterations ke baad</div>`},
+ {n:'Version chips orbit your head',src:['r'],d:'Signature orbit (if not used in beat 3 or 7): chips v1 · v2 · v3 · "autonomous" orbit around your head, passing behind it; speed decays from fast to slow; serif hero autonomously.',m:'orbit 160°/s decaying to 14°/s · chips stay upright · person matte.',
+  draw:()=>`${ST('26.0')}<div style="left:10%;right:10%;top:16%;height:16%;border:.4cqw solid rgba(255,255,255,.35);border-radius:50%;transform:rotate(-8deg)"></div>${[['v1',8,22],['v2',70,16],['v3',78,28],['autonomous',22,32]].map(([v,x,y])=>`<div class="pill" style="left:${x}%;top:${y}%;background:rgba(18,28,56,.85);color:#fff;font-size:3cqw">${v}</div>`).join('')}`+MEcap('the whole thing','autonomously','',62)},
+ {n:'Chapter card: "Without Your Intervention"',src:['p'],d:'Arc wipe: a cream circle edge sweeps in; white rounded tile with a crimson numeral 3 (third version); Playfair title Without Your Intervention reveals stem-first.',m:'arc wipe 3 f strong ease-out · title reveal 0.3–0.5 s · hold 1.5 s.',
+  draw:()=>`<div class="fill grain" style="background:var(--p-paper)"></div><div class="card" style="left:42%;top:34%;width:16cqw;height:16cqw;border-radius:3.6cqw;display:grid;place-items:center;color:var(--p-crim);font-weight:700;font-size:8cqw">3</div><div class="c pfr" style="top:48%;font-size:9cqw;line-height:1.05;color:#111;padding:0 10%">Without Your Intervention</div><div class="c" style="top:66%;font-size:3.4cqw;color:#777">after a few iterations</div>`},
+]},
+{id:'b9',title:'9 · CTA: comment "EDIT"',t:'29.10–31.06 (face 26.75–29.10 and 31.06–end)',line:'and if you want to learn how i did this, comment "edit" and i will send you a step-by-step breakdown…',opts:[
+ {n:'Comments sheet rises, EDIT types, send',src:['r'],rec:1,d:'A dark Instagram-style comments sheet rises over the lower half; "EDIT" types into the field letter by letter, then the blue send button is pressed on "send you". Then back to your face to the end.',m:'sheet rise 11 f (.7,.6,.6,1) · ~8 f per letter · send press.',
+  draw:()=>`${ST('30.0')}<div class="dcard" style="left:0;right:0;bottom:0;height:40%;border-radius:4cqw 4cqw 0 0;padding:5cqw;background:#121212"><div style="width:10cqw;height:1cqw;border-radius:1cqw;background:#444;margin:0 auto 4cqw"></div><div style="text-align:center;font-weight:700;font-size:3.6cqw">Comments</div>
+  <div style="position:absolute;left:5cqw;right:5cqw;bottom:8cqw;display:flex;gap:2cqw;align-items:center"><span style="width:8cqw;height:8cqw;border-radius:50%;background:#333"></span><span style="flex:1;border:1px solid #333;border-radius:999px;padding:2cqw 3cqw;font-size:4.4cqw;font-weight:700">EDIT|</span><span style="width:9cqw;height:9cqw;border-radius:50%;background:var(--r-acc);display:grid;place-items:center;font-weight:800">↑</span></div></div>`},
+ {n:'Orange "comment EDIT" card',src:['ps','d1'],d:'What draft 1 did: your lower half darkens and blurs, an orange card with a "comment" tab (Instagram mark) and big EDIT that lights up on the word.',m:'card blur-in 5 f · EDIT 35 %→100 % on the word.',
+  draw:()=>`${ST('30.0')}<div style="left:0;right:0;bottom:0;height:50%;background:linear-gradient(transparent,rgba(0,0,0,.7))"></div><div style="left:9%;right:9%;top:63%;border-radius:4cqw;background:linear-gradient(#9E4A30,#D97757);padding:7cqw 4cqw 4cqw;text-align:center;color:#fff"><div class="pill" style="position:absolute;top:-3.6cqw;left:50%;transform:translateX(-50%);background:#F2B8A0;color:#5A2414;font-size:3.4cqw">${IG} comment</div><div style="font-weight:700;font-size:14cqw;line-height:1">EDIT</div></div>`},
+ {n:'Text-centric blue paper: comment "edit"',src:['me'],d:'Cut to rough blue paper; quote marks bracket comment <i>edit</i> (huge white serif hero), support "for the step-by-step breakdown" below. Then back to the face for the last line.',m:'quote marks first · hero char-by-char · support word by word.',
+  draw:()=>`<div class="fill grain" style="background:var(--me-blue)"></div><div style="left:14%;top:34%">${qm('#fff')}</div><div class="c" style="top:40%;color:#fff;font-size:4.4cqw">comment</div><div class="c pf" style="top:44%;color:#fff;font-size:24cqw">edit</div><div class="c" style="top:60%;color:#fff;font-size:4cqw">for the step-by-step breakdown</div><div style="right:14%;top:56%;transform:rotate(180deg)">${qm('#fff')}</div>`},
+ {n:'Comment bar grows from the right edge',src:['r','p'],d:'On the face: a white rounded comment bar grows out of the right edge at the lower third, Instagram mark + "EDIT" typed in, styled like a Presley name pill. Lightest touch.',m:'grow-from-edge 35–65 f · typing 8 f/char.',
+  draw:()=>AR('30.0',MEcap('comment','"edit"','',52))+`<div class="card pill" style="left:16%;right:-6%;top:76%;font-size:4.2cqw;padding:2.4cqw 3.4cqw">${IG}<b>EDIT</b><span style="color:#aaa">|</span><span style="margin-left:auto;color:var(--r-acc);font-weight:700;font-size:3.4cqw">Post</span></div>`},
+ {n:'Face + highlight box + DM arrow',src:['me'],d:'Stay on the face; serif support "comment", "EDIT" in a growing blue box, then a small hand-drawn arrow points to a DM / paper-plane icon on "send you".',m:'box grow 480 ms · arrow draw 11–15 f.',
+  draw:()=>AR('30.0',`<div class="c" style="top:56%"><div class="sup" style="margin-bottom:1.4cqw">comment</div><span style="background:#0B52F9;color:#fff;font-weight:800;font-size:11cqw;padding:.6cqw 3cqw;border-radius:1cqw">EDIT</span><div class="sup" style="margin-top:1.6cqw">& I'll send you the breakdown</div></div><svg style="left:62%;top:74%;width:22%" viewBox="0 0 40 30"><path d="M2 4 C14 6 24 14 30 24 M30 24 l-7 -2 M30 24 l1 -7" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/></svg>`)},
+]},
+];
+
+const SRC={me:['s-me','Minimal'],r:['s-r','Rishi'],p:['s-p','Presley'],ps:['s-ps','Paper Stage'],d1:['s-d1','Draft 1']};
+let state={};try{state=JSON.parse(localStorage.getItem('rc3v2')||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem('rc3v2',JSON.stringify(state))}catch(e){};count()};
+const root=document.getElementById('beats');
+BEATS.forEach(b=>{
+ const s=document.createElement('section');s.className='beat';
+ s.innerHTML=`<div class="bh"><h2>${b.title}</h2><span class="t">${b.t}</span></div><div class="line">“${b.line}”</div><div class="opts"></div><textarea data-note="${b.id}" placeholder="Notes for this frame type (optional)"></textarea>`;
+ const g=s.querySelector('.opts');
+ b.opts.forEach((o,i)=>{
+  const key=b.id+'-'+String.fromCharCode(65+i);
+  const d=document.createElement('div');d.className='opt';d.dataset.key=key;if(state[key])d.dataset.v=state[key];
+  d.innerHTML=`<div class="oh"><b>${String.fromCharCode(65+i)}</b>${o.rec?'<span class="rec">my pick</span>':''}</div><div class="ph">${o.draw()}</div>
+  <div>${o.src.map(x=>`<span class="src ${SRC[x][0]}">${SRC[x][1]}</span>`).join('')}</div><div class="name">${o.n}</div><div class="desc">${o.d}</div><div class="mot">Motion: ${o.m}</div>
+  <div class="btns"><button class="k">Keep</button><button class="m">Maybe</button><button class="n">No</button></div>`;
+  d.querySelector('.k').onclick=()=>set(d,key,'keep');d.querySelector('.m').onclick=()=>set(d,key,'maybe');d.querySelector('.n').onclick=()=>set(d,key,'no');
+  g.append(d);
+ });
+ const ta=s.querySelector('textarea');ta.value=state['note-'+b.id]||'';ta.oninput=()=>{state['note-'+b.id]=ta.value;save()};
+ root.append(s);
+});
+function set(d,key,v){if(state[key]===v){delete state[key];delete d.dataset.v}else{state[key]=v;d.dataset.v=v}save()}
+function count(){const v=Object.entries(state).filter(([k])=>!k.startsWith('note-')).map(([,x])=>x);document.getElementById('count').textContent=`${v.filter(x=>x=='keep').length} kept · ${v.filter(x=>x=='maybe').length} maybe · ${v.filter(x=>x=='no').length} no`}
+function summary(){let out='roughcut_v3 options board v2: my picks\n';BEATS.forEach(b=>{out+=`\n${b.title}\n`;b.opts.forEach((o,i)=>{const k=b.id+'-'+String.fromCharCode(65+i);if(state[k])out+=`  ${String.fromCharCode(65+i)} ${state[k].toUpperCase()}: ${o.n}\n`});if(state['note-'+b.id])out+=`  note: ${state['note-'+b.id]}\n`});return out}
+document.getElementById('copy').onclick=async()=>{const t=summary();const el=document.getElementById('sum');el.textContent=t;el.style.display='block';try{await navigator.clipboard.writeText(t);document.getElementById('copy').textContent='Copied ✓'}catch(e){document.getElementById('copy').textContent='Shown below ↓'}setTimeout(()=>document.getElementById('copy').textContent='Copy my picks',2500)};
+document.getElementById('dl').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([summary()],{type:'text/plain'}));a.download='roughcut_v3_picks.txt';a.click()};
+count();
+</script>
+</body>
+</html>
